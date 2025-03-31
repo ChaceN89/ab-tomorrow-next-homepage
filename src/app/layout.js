@@ -8,7 +8,6 @@
  * @updated Mar 31, 2025
  */
 
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./layout.css";
 import ToasterLayout from "@/components/layout/ToasterLayout";
@@ -18,31 +17,59 @@ import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import PartnerBanner from "@/components/partners/PartnerBanner";
+import NewsPopup from "@/components/media/NewsPopup";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// function for development Page Titles
+import { withDevPrefix } from "@/utils/metadataUtils";
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
+// meta data
+// app/layout.jsx
 export const metadata = {
-  title: "Home - Alberta Tomorrow",
+  title: withDevPrefix("Home - Alberta Tomorrow"),
   description: "An interactive tool to explore Alberta's environmental changes over time.",
-};
+  icons: {
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/icons/favicon16.png", sizes: "16x16", type: "image/png" },
+      { url: "/icons/favicon24.png", sizes: "24x24", type: "image/png" },
+      { url: "/icons/favicon32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icons/favicon64.png", sizes: "64x64", type: "image/png" },
+    ],
+    apple: "/icons/apple-touch-icon-precomposed.png",
+  },
+  themeColor: "#2daeb5",
+  openGraph: {
+    title: "Alberta Tomorrow",
+    description: "An interactive tool to explore Alberta's environmental changes over time.",
+    url: "https://albertatomorrow.ca",
+    type: "website",
+    images: [
+      {
+        url: "/icons/facebook.png",
+        width: 1200,
+        height: 630,
+        alt: "Alberta Tomorrow Preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Alberta Tomorrow",
+    description: "Explore Alberta's environment through interactive simulations.",
+    images: ["/icons/facebook.png"],
+  },
+}
 
+
+// Root application layout
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen min-w-56`}>
+      <body className='antialiased flex flex-col min-h-screen min-w-56'>
         <ToasterLayout />
         <DisplayTesting />
-        {/* newItem */}
+        <NewsPopup/>
         <AnalyticsProvider>
-          {/* partern banner */}
           <PartnerBanner />
           <NavBar />
           <main className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden">
@@ -54,7 +81,6 @@ export default function RootLayout({ children }) {
               <Footer />
             </div>
           </main>
-
         </AnalyticsProvider>
       </body>
     </html>

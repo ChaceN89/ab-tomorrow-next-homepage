@@ -9,19 +9,31 @@
  */
 
 import React from "react";
-import { shuffledPartners } from "../../data/partnerData";
+import { bannerPartners } from "../../data/partnerData";
 import Tooltip from "../media/Tooltip";
-import "./partnerBanner.css";
+import "./partnerBanner.styles.css";
+import Image from "next/image";
 
+// shuffle the partners
+const shuffledPartners = [...bannerPartners].sort(() => Math.random() - 0.5);
+const longList = shuffledPartners.concat(shuffledPartners).concat(shuffledPartners).concat(shuffledPartners).concat(shuffledPartners);
 
 function PartnerList() {
   return (
     <ul >
-      {shuffledPartners.concat(shuffledPartners).concat(shuffledPartners).map((partner, index) => (
+      {longList.map((partner, index) => (
         <li key={index}>
             <a href={partner.link} target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-2">
               <Tooltip key={index} text={"Partner: " + partner.name} openDuration={300}>
-                <img className={partner.className} src={`partners/${partner.logo}`} alt={partner.name} />
+                <Image
+                  src={`/partners/${partner.logo}`}
+                  alt={partner.name}
+                  width={112}
+                  height={112}
+                  unoptimized
+                  className={partner.partnerClass}
+                  priority={index < 5}
+                />            
               </Tooltip>
               <div className="hidden lg:block w-full h-[0.5px] bg-black opacity-20" />
               <div className="block lg:hidden w-[0.5px] h-full bg-black opacity-20 ml-5" />

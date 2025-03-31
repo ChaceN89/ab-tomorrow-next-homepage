@@ -11,7 +11,7 @@ export default function BreadCrumbLinks({ title, list }) {
             <LinkItem
               href={href}
               router={router}
-              className="flex items-start gap-1 hover:text-accent transition-colors duration-100"
+              className="flex items-center gap-1 hover:text-accent transition-colors duration-100"
             >
               {icon && <span className="text-base">{icon}</span>}
               {label}

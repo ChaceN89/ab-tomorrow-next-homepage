@@ -7,9 +7,9 @@
  *
  * @author Chace Nielson
  * @created Mar 17, 2025
- * @updated Mar 17, 2025
+ * @updated Mar 31, 2025
  */
-
+"use client"
 import React, { useEffect } from "react";
 import toast from "react-hot-toast";
 import { newsItems } from "../../data/newsData";
@@ -17,10 +17,10 @@ import { FaTimes } from "react-icons/fa"; // Import icons
 
 export default function NewsPopup() {
 
+  // timing settings
   const startDelay = 2500; // Delay before first toast starts 
   const toastDelay = 3500; // Delay between each toast
   const toastDuration = 12000; // Duration of each toast
-
 
   useEffect(() => {
     // Delay the entire news popup sequence before starting

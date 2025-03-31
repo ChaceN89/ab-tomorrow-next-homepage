@@ -23,11 +23,12 @@
   --font-main-body: "Inter", sans-serif;
 }
 
+/* Spacing for the nav bar items */
 @theme {
   --spacing-nav: 0.4rem;
 }
 
-
+/* color scheme */
 @theme {
   --color-primary: oklch(0.60 0.20 203.64);
   --color-primary-alt: oklch(0.45 0.15 204.42);

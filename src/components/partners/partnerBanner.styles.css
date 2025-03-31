@@ -1,10 +1,12 @@
 @import "tailwindcss";
 @import "../../app/globals.css";
+@import "../../app/layout.css";
 
 
 /* Specific Partners can havethis to ve more visible */
 .partner-shadow {
-  @apply mix-blend-difference;
+  @apply mix-blend-difference ;
+  filter: drop-shadow(4px 6px 2px black);  
   /* doens't work for everything */
 }
 
@@ -42,13 +44,25 @@
 .partner-banner-horizontal ul {
   display: flex;
   gap: 2rem;
-  animation: scroll-horizontal 120s linear infinite;
+  animation: scroll-horizontal 150s linear infinite;
   width: max-content;
 }
 
 @keyframes scroll-horizontal {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
+  0% { 
+    transform: translateX(0%); 
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  100% { 
+    transform: translateX(-50%); 
+    opacity: 0;
+  }
 }
 
 /* Vertical Scroll Loop */
@@ -56,12 +70,24 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  animation: scroll-vertical 120s linear infinite;
+  animation: scroll-vertical 150s linear infinite;
 }
 
 @keyframes scroll-vertical {
-  0% { transform: translateY(0%); }
-  100% { transform: translateY(-50%); }
+  0% { 
+    transform: translateY(0%); 
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  100% { 
+    transform: translateY(-50%); 
+    opacity: 0;
+  }
 }
 
 /* Optional hover pause */

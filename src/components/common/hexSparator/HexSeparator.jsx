@@ -30,7 +30,7 @@
  */
 
 import React from 'react';
-import './hex-separator.css'; // Import the CSS file for hexagon styles
+import './HexSeparator.styles.css'; // Import the CSS file for hexagon styles
 
 // Separator.jsx
 export default function HexSeparator({ 

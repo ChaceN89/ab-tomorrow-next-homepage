@@ -1,0 +1,93 @@
+/**
+ * @file hex-button.css
+ * @module styles/components/hex-button
+ * @desc Global styles for the HexButton component, including hexagonal shape, gradients,
+ *       shadow animation, and responsive hover effects using CSS variables.
+ * 
+ * @author Chace Nielson
+ * @created Mar 25, 2025
+ * @updated Mar 26, 2025
+ *
+ * @features
+ * - Hexagonal clip-path for unique button shape
+ * - Transition effects for smooth shadow + movement
+ * - Dynamic background and text colors via custom CSS properties:
+ *     --bg-start, --bg-end, --hover-bg-start, --hover-bg-end
+ *     --text-color, --hover-text-color
+ * - Optional reflection styling using ::before and ::after
+ *
+ * @dependencies
+ * - TailwindCSS for base utilities
+ * - Project-wide variables from `index.css`
+ */
+ @import "tailwindcss";
+ 
+ 
+ :root {
+   --hexagon-height: 60px;
+ }
+ 
+ /* Container controls movement and shadow */
+ .hex-button-container {
+   filter: drop-shadow(4px 6px 1.5px black);
+   transition: transform 0.1s ease-in, filter 0.1s ease-in;
+   will-change: transform, filter;
+ }
+ 
+ .hex-button-container:hover {
+   transform: translate(-2px, -2.2px);
+   filter: drop-shadow(8px 12px 2px black);
+ }
+ 
+ /* Wrapper handles colors and shape */
+ .hex-button-wrapper {
+   display: inline-block;
+   position: relative;
+   height: var(--hexagon-height);
+   padding: 0 2rem;
+   background: linear-gradient(90deg, var(--bg-start), var(--bg-end));
+   border-radius: calc(var(--hexagon-height) / 10);
+   text-align: center;
+   color: var(--text-color);
+   line-height: var(--hexagon-height);
+   cursor: pointer;
+   clip-path: polygon(
+     10% 0%, 90% 0%,
+     100% 50%, 90% 100%,
+     10% 100%, 0% 50%
+   );
+   z-index: 1;
+ 
+   transition: transform 0.2s ease-in, filter 0.2s ease-in;
+ 
+ }
+ 
+ /* Dynamic hover uses custom props */
+ .hex-button-wrapper:hover {
+   background: linear-gradient(90deg, var(--hover-bg-start), var(--hover-bg-end));
+   color: var(--hover-text-color);
+ }
+ 
+ /* Visual reflections */
+ .hex-button-wrapper::before,
+ .hex-button-wrapper::after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: inherit;
+   border-radius: inherit;
+   clip-path: inherit;
+   z-index: -1;
+ }
+ 
+ .hex-button-wrapper::before {
+   transform: rotate(60deg);
+ }
+ 
+ .hex-button-wrapper::after {
+   transform: rotate(-60deg);
+ }
+ 
