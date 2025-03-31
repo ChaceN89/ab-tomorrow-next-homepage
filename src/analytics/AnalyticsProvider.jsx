@@ -1,44 +1,39 @@
 /**
  * @file AnalyticsProvider.jsx
  * @module AnalyticsProvider
- * @desc A provider component for tracking page views in Google Analytics.
- * This component listens for route changes using `react-router-dom`'s `useLocation` and automatically tracks page views in Google Analytics.
- * 
- * @example
- * <AnalyticsProvider>
- *   <AppRoutes />
- * </AnalyticsProvider>
- * 
- * @requires React
- * @requires useGoogleAnalytics from './useGoogleAnalytics'
- * @requires react-router-dom
- * 
- * @see {@link https://react-ga4.dev/ | React GA Documentation}
+ * @desc Tracks page views on route changes in Next.js App Router.
  * 
  * @author Chace Nielson
  * @created Jan 22, 2025
- * @updated Jan 22, 2025
+ * @updated Mar 31, 2025
+ * 
+ * @exampleUsage
+ * See useGoogelAnalytics.js for usage
+ * 
  */
 
-import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import useGoogleAnalytics, { trackingId } from './useGoogleAnalytics';
+'use client'
 
-const AnalyticsProvider = ({ children }) => {
-  const { trackPageView } = useGoogleAnalytics();
-  const location = useLocation();
+import { useEffect } from 'react'
+import { usePathname, useSearchParams } from 'next/navigation'
+import useGoogleAnalytics from './useGoogleAnalytics'
+
+export default function AnalyticsProvider({ children }) {
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+
+  // my custom hook to track page views using google analytics
+  const { trackPageView } = useGoogleAnalytics()
 
   useEffect(() => {
-    if (trackingId) {
-      try {
-        trackPageView(location.pathname + location.search);
-      } catch (error) {
-        console.error("Error executing trackPageView for Google Analytics", { Error: error });
-      }
+    if (process.env.NEXT_PUBLIC_ENVIRONMENT === 'development') {
+      console.log('Development mode: Page view tracking disabled ' + pathname)
+      return
     }
-  }, [location, trackPageView]);
 
-  return <>{children}</>;
-};
+    const url = pathname + searchParams.toString()
+    trackPageView(url)
+  }, [pathname, searchParams, trackPageView])
 
-export default AnalyticsProvider;
+  return <>{children}</>
+}

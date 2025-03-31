@@ -1,89 +1,84 @@
 /**
  * @file useGoogleAnalytics.js
  * @module useGoogleAnalytics
- * @desc A custom hook for initializing and using Google Analytics in a React application.
- * Provides functions for tracking page views, custom events, and setting user properties.
- * 
- * @example
- * const { trackPageView, trackEvent } = useGoogleAnalytics();
- * trackPageView('/home');
- * trackEvent('Category', 'Action', 'Label', 42);
- * 
- * @requires React
- * @requires react-ga4
- * 
- * @see {@link https://react-ga4.dev/ | React GA Documentation}
+ * @desc Google Analytics hook for Next.js App Router.
  * 
  * @author Chace Nielson
  * @created Jan 22, 2025
- * @updated Jan 22, 2025
+ * @updated Mar 31, 2025
+ * 
+ * @exampleUsage
+ * 
+ * // Tracks a custom event
+ * import useGoogleAnalytics from './useGoogleAnalytics';
+ * 
+ * const { trackEvent, setOption } = useGoogleAnalytics();
+ * 
+ * trackEvent('Button', 'Click', 'DonateButton', 1);
+ * 
+ * // Set a custom user ID
+ * setOption('userId', '12345');
+ * 
+ * // Tracks page views automatically when wrapped in <AnalyticsProvider>
  */
 
-import { useEffect } from 'react';
-import ReactGA from 'react-ga4';
 
-export const trackingId = import.meta.env.VITE_GOOGLE_MEASUREMENT_ID || "YOUR_GA_ID";
-const appVersion = import.meta.env.VITE_APP_VERSION || "No Version Specified";
-const id = import.meta.env.VITE_USER_ID || null; // Optional for future use
+'use client'
+
+import { useEffect } from 'react'
+import ReactGA from 'react-ga4'
+
+const trackingId = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "YOUR_GA_ID"
+const appVersion = process.env.NEXT_PUBLIC_APP_VERSION || "No Version Specified"
 
 const useGoogleAnalytics = () => {
-  
-  // Initialize Google Analytics in production mode
   useEffect(() => {
-    if (import.meta.env.VITE_ENVIRONMENT == "development") {
-      return; // don't initialize Google Analytics if no tracking ID is provided
-    }
+    if (process.env.NODE_ENV === "development" || !trackingId) {
+      console.log("Development mode: Google Analytics initialization disabled")
+      return
+    } // don't track in development 
 
+    // initialize Google Analytics on client side on inital page load
     try {
       ReactGA.initialize([
         {
           trackingId,
-          gaOptions: {
-            anonymizeIp: true,
-            clientId: id,
+          gaOptions: { 
+            anonymizeIp: true, // privacy compliance 
           },
         },
-      ]);
-      ReactGA.set({ app_version: appVersion });
+      ])
+      ReactGA.set({ app_version: appVersion })
 
-      console.log("Google Analytics initialized successfully");
+      console.log("✅ Google Analytics initialized")
     } catch (error) {
-      console.error("Error initializing Google Analytics", { Error: error });
+      console.error("❌ Error initializing Google Analytics", error)
     }
-  }, [id]);
+  }, [])
 
+  // adjsut the options for the Google Analytics instance during runtime (edit, userID, app_version, etc)
+  // ex - setOption('app_version', '1.0.0')
+  // ex - setOption('userId', '12345')
   const setOption = (key, value) => {
-    ReactGA.set({ [key]: value });
-  };
+    ReactGA.set({ [key]: value })
+  }
 
-  const setUserId = (userId) => {
-    setOption("userId", userId);
-  };
-
-  const sendData = (type, data) => {
-    ReactGA.send({ hitType: type, ...data });
-  };
-
+  // track a page view
   const trackPageView = (pagePath) => {
-    if (!pagePath) {
-      pagePath = window.location.href;
-    }
+    ReactGA.send({ hitType: 'pageview', page: pagePath || window.location.pathname })
+  }
 
-    setOption("app_version", appVersion);
-    sendData("pageview", { page: pagePath });
-  };
-
+  // track a custom event
   const trackEvent = (category, action, label, value) => {
-    setOption("app_version", appVersion);
-    ReactGA.event({ category, action, label, value });
-  };
+    ReactGA.event({ category, action, label, value })
+  }
 
+  // function for tracking pages events and chaning options
   return {
     setOption,
-    setUserId,
     trackPageView,
     trackEvent,
-  };
-};
+  }
+}
 
-export default useGoogleAnalytics;
+export default useGoogleAnalytics
