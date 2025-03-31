@@ -24,9 +24,10 @@ export default function ToasterLayout() {
 
     handleResize() // Set on first load
     window.addEventListener('resize', handleResize)
-
+    
     return () => window.removeEventListener('resize', handleResize)
   }, [])
+ 
 
   return (
     <Toaster

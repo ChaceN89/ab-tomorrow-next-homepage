@@ -15,7 +15,7 @@ import HexSeparator from '@/components/common/hexSparator/HexSeparator';
 
 export default function SplashScreen({ errorMsg = false, errorText = null, errorLocation = null }) {
   return (
-    <div className="flex flex-col justify-between min-h-screen  relative overflow-hidden">
+    <div className="flex flex-col justify-between min-h-screen  relative overflow-hidden outlet-background">
       
       {/* Top Hex Separator */}
       <HexSeparator 
