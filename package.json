@@ -1,0 +1,29 @@
+{
+  "name": "ab-tomorrow-static-home-page-v2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.6.2",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-blurhash": "^0.3.0",
+    "react-dom": "^19.0.0",
+    "react-ga4": "^2.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-scroll": "^1.9.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "tailwindcss": "^4"
+  }
+}

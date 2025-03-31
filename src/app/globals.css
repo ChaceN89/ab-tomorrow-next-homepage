@@ -1,0 +1,73 @@
+/**
+* Filename: globals.css
+* Author: Chace Nielson
+* Created: Mar 31, 2025
+* Updated: Mar 31, 2025
+* 
+* Description:
+* This stylesheet contains global/base styles for the website. It includes
+* definitions for the primary and secondary color schemes, as well as
+* utility classes for spacing, text alignment, and other common styles.
+* 
+* Notes:
+*    - This file is imported by all other stylesheets in the project
+*    - It is used to define global styles and variables that are shared across
+*    Tailwind 4 https://tailwindcss.com/blog/tailwindcss-v4
+*/
+
+@import "tailwindcss";
+
+@theme {
+  --font-title-display: "Satoshi", sans-serif;
+  --font-main-body: "Inter", sans-serif;
+}
+
+@theme {
+  --spacing-nav: 0.4rem;
+}
+
+
+@theme {
+  --color-primary: oklch(0.60 0.20 203.64);
+  --color-primary-alt: oklch(0.45 0.15 204.42);
+  --color-primary-alt-transparent: color-mix(in oklab, var(--color-primary-alt) 90%, transparent);
+
+  --color-secondary: #2A2A2A;
+  --color-secondary-alt: #111111;
+
+  --color-tertiary: #00ffb8;
+  --color-tertiary-alt: #13ce9a;
+
+  --color-accent: oklch(0.75 0.10 90);
+  --color-accent-alt: oklch(0.85 0.08 90);
+
+  --color-background: #FFFFFF;
+  --color-background-dark: #000000;
+}
+
+
+
+/* global resets */
+html, body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  @apply bg-primary text-black font-main-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-title-display;
+}
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-element {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scroll-element::-webkit-scrollbar {
+  display: none;
+}
+
