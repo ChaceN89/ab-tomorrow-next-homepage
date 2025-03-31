@@ -17,6 +17,7 @@
 
 @import "tailwindcss";
 
+/* Font Theme */
 @theme {
   --font-title-display: "Satoshi", sans-serif;
   --font-main-body: "Inter", sans-serif;

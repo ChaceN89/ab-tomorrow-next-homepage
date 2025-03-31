@@ -1,0 +1,82 @@
+/* 
+ * Filename: layout.css
+ * Author: Chace Nielson
+ * Created: March 23rd
+ * Updated: March 23rd
+ * 
+ * Description:
+ * This stylesheet contains the layout rules for the website. It includes
+ * definitions for the page width, background colors, and other common layout
+ * styles used by router pages and Section component 
+ */
+ @import "tailwindcss";
+ @import "./globals.css";
+ 
+ 
+ .page{
+   @apply py-10 px-2.5 xl:px-14 2xl:px-20;
+ }
+ 
+ .page-width {
+   @apply px-2.5 xl:px-14 2xl:px-20;
+ }
+ 
+ /* background for pages */
+ .outlet-background {
+   @apply bg-gradient-to-b from-gray-100 to-gray-400;
+ }
+ 
+ 
+ .home-section{
+   @apply  container mx-auto p-6 2xl:px-20 h-full w-full relative ;
+ }
+ 
+ .home-y-padding{
+   @apply py-16;
+ }
+ 
+ /* Series of shadows used for many sections  */
+ .award-shadow {
+   filter: drop-shadow(1px 1px 1px black);  
+ }
+ 
+ .large-shadow {
+   filter: drop-shadow(4px 6px 2px black);  
+ }
+ 
+ .small-shadow {
+   filter: drop-shadow(2px 2px 1px black);  
+ }
+ 
+ .white-shadow {
+   filter: drop-shadow(2px 2px 1px white);  
+ }
+ 
+ /* Grid for tools and eduction videos - 3 items */
+ .grid-section{
+   @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8
+ }
+ 
+ .grid-section > :last-child {
+   @apply md:col-span-2 xl:col-span-1 md:w-1/2 xl:w-full;
+ }
+ 
+ 
+ /* fade in animation  */
+ @keyframes fadeIn {
+   from {
+     opacity: 0;
+     transform: translateY(20px);
+   }
+   to {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+ 
+ .fade-in {
+   opacity: 0;
+   animation: fadeIn 1.5s ease-out forwards;
+   animation-delay: 0.8s;
+ }
+ 

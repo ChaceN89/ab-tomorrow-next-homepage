@@ -1,0 +1,46 @@
+/* 
+ * Filename: nav.styles.css
+ * Author: Chace Nielson
+ * Created: March 23rd
+ * Updated: March 23rd
+ * 
+ * Description:
+ * This stylesheet contains the styles and layout rules for the navigation 
+ * bar of the website. It includes definitions for the navigation container, 
+ * menu items, hover effects, and responsive design adjustments to ensure 
+ * proper display across various screen sizes.
+ */
+@import "tailwindcss";
+@import "../../app/globals.css";
+
+
+/* Active link: bold + accent underline */
+.nav-element-active {
+  @apply border-b-2 border-accent duration-600;
+}
+
+/* Base style: white text, padding, rounded corners */
+.nav-element-default {
+  @apply text-white rounded-md transition-all hover:cursor-pointer px-nav py-1;
+}
+
+/* Hover only: black text + frosted background */
+.nav-element-default-hover {
+  @apply hover:text-black hover:bg-white/50 duration-200;
+}
+
+/* Dropdown menu background styling */
+.nav-dropdown-background {
+  @apply mt-2 overflow-hidden bg-secondary border-2 border-secondary-alt shadow-secondary rounded-lg shadow-lg w-fit origin-top opacity-100 z-50;
+}
+
+/* Dropdown menu cell styling */
+.nav-dropdown-cell {
+  @apply block  hover:bg-gray-200 
+         cursor-pointer w-full text-white hover:text-secondary;
+}
+
+/* Content inside dropdown item */
+.nav-dropdown-item {
+  @apply w-full text-left flex gap-2 items-center whitespace-nowrap text-inherit px-2 py-2;
+}

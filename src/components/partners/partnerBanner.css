@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@import "../../app/globals.css";
+
+
+/* Specific Partners can havethis to ve more visible */
+.partner-shadow {
+  @apply mix-blend-difference;
+  /* doens't work for everything */
+}
+
+/* Vertical banner on right side */
+.partner-banner-vertical {
+  @apply fixed right-0 top-0 w-56 h-full p-4 bg-gray-300 z-30 shadow-md border-l-2 border-black overflow-hidden;
+}
+
+/* images in the vertical */
+.partner-banner-vertical li img {
+  @apply h-28 object-contain w-full;
+}
+
+/* Horizontal  */
+.partner-banner-horizontal {
+  @apply fixed bottom-0 w-full h-14 sm:h-24 bg-gray-300 z-30 shadow-md border-t-2 border-black overflow-hidden justify-center flex flex-col lg:hidden ;
+}
+.partner-banner-horizontal ul a {
+  @apply h-full;
+}
+.partner-banner-horizontal li img {
+  @apply h-12 sm:h-20 min-w-18 object-contain;
+}
+
+
+/* Shared item style */
+.partner-banner-horizontal ul,
+.partner-banner-vertical ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Horizontal Marquee Scroll */
+.partner-banner-horizontal ul {
+  display: flex;
+  gap: 2rem;
+  animation: scroll-horizontal 120s linear infinite;
+  width: max-content;
+}
+
+@keyframes scroll-horizontal {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Vertical Scroll Loop */
+.partner-banner-vertical ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  animation: scroll-vertical 120s linear infinite;
+}
+
+@keyframes scroll-vertical {
+  0% { transform: translateY(0%); }
+  100% { transform: translateY(-50%); }
+}
+
+/* Optional hover pause */
+.partner-banner-horizontal:hover ul,
+.partner-banner-vertical:hover ul {
+  animation-play-state: paused;
+}

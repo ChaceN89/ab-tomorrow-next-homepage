@@ -13,9 +13,10 @@
  */
 
 'use client'
-
 import { useEffect } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
+
+// the Google Analytics hook to track events and set options through google analytics (react ga4)
 import useGoogleAnalytics from './useGoogleAnalytics'
 
 export default function AnalyticsProvider({ children }) {

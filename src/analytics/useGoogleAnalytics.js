@@ -22,21 +22,21 @@
  * // Tracks page views automatically when wrapped in <AnalyticsProvider>
  */
 
-
 'use client'
-
 import { useEffect } from 'react'
 import ReactGA from 'react-ga4'
 
+// get the Google Analytics tracking ID from the environment variables
 const trackingId = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "YOUR_GA_ID"
 const appVersion = process.env.NEXT_PUBLIC_APP_VERSION || "No Version Specified"
 
 const useGoogleAnalytics = () => {
   useEffect(() => {
-    if (process.env.NODE_ENV === "development" || !trackingId) {
+    if (process.env.NODE_ENV === "development" || !trackingId) { // don't track in development 
+
       console.log("Development mode: Google Analytics initialization disabled")
       return
-    } // don't track in development 
+    } 
 
     // initialize Google Analytics on client side on inital page load
     try {
@@ -48,7 +48,7 @@ const useGoogleAnalytics = () => {
           },
         },
       ])
-      ReactGA.set({ app_version: appVersion })
+      ReactGA.set({ app_version: appVersion }) // set the app version as a default option
 
       console.log("✅ Google Analytics initialized")
     } catch (error) {
@@ -63,12 +63,17 @@ const useGoogleAnalytics = () => {
     ReactGA.set({ [key]: value })
   }
 
-  // track a page view
+  // track a page view ( just takes the path of the page as an argument )
   const trackPageView = (pagePath) => {
     ReactGA.send({ hitType: 'pageview', page: pagePath || window.location.pathname })
   }
 
-  // track a custom event
+  // track a custom event ( category, action, label, value are the arguments)
+  // category - the category of the event (ex - 'Button')
+  // action - the action of the event (ex - 'Click')
+  // label - the label of the event (ex - 'DonateButton')
+  // value - the value of the event (ex - 1)
+  // ex - trackEvent('Button', 'Click', 'DonateButton', 1)
   const trackEvent = (category, action, label, value) => {
     ReactGA.event({ category, action, label, value })
   }
