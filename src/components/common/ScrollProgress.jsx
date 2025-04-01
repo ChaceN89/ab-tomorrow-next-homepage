@@ -29,7 +29,7 @@ export default function ScrollProgress() {
     <>
       {/* Custom Scroll Progress Bar */}
       <motion.div
-        className="fixed top-0 left-0 w-full h-0.5 bg-tertiary-alt origin-left z-50"
+        className="fixed top-0 left-0 w-full h-1 bg-tertiary-alt origin-left z-50"
         style={{ scaleX: springScrollYProgress }}
       />
     </>

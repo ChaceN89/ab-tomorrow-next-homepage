@@ -21,6 +21,7 @@ import NewsPopup from "@/components/media/NewsPopup";
 
 // function for development Page Titles
 import { getPageTitle } from "@/utils/metadataUtils";
+import ScrollProgress from "@/components/layout/ScrollProgress";
 
 // viewport meta data
 export const viewport = {
@@ -71,6 +72,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='antialiased flex flex-col min-h-screen min-w-56'>
+        <ScrollProgress/>
         <ToasterLayout />
         <DisplayTesting />
         <NewsPopup/>
