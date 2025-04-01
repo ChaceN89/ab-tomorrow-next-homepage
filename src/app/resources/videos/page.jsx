@@ -10,6 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
+import VideoDisplay from '@/components/pages/resources/videos/VideoDisplay'
 
 // Page-specific metadata
 export const metadata = {
@@ -18,5 +19,5 @@ export const metadata = {
 
 // Board of Directors Page Component
 export default function VideosPage() {
-  return (<div>Videos</div>)
+  return (<VideoDisplay/>)
 }

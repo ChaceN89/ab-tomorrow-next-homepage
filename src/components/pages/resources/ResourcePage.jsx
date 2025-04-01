@@ -12,7 +12,7 @@ export default function ResourcePage({ children }) {
         <div className="page">
           <PageHeader title={resourcePageData.title} subtitle={resourcePageData.subtitle} />
           <ResourceNav />
-          <div>{children}aaa</div>
+          <div>{children}</div>
         </div>
       </div>
   )
