@@ -20,6 +20,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import PulseLoader from "@/components/common/PulseLoader";
 
 export default  function MemberCard({ member }) {
   const [isMobile, setIsMobile] = useState(false);
@@ -58,10 +59,7 @@ export default  function MemberCard({ member }) {
           onLoadingComplete={() => setIsLoaded(true)}
         />
         {!isLoaded && (
-          <div
-            className="absolute inset-0 bg-gradient-to-br from-gray-700 via-gray-300 to-white blur-sm  animate-pulse"
-            style={{ filter: "blur(8px)" }}
-          />        
+          <PulseLoader/>    
         )}
       </div>
 
