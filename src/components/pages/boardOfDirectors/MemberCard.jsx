@@ -48,7 +48,7 @@ export default  function MemberCard({ member }) {
       onMouseEnter={() => !isMobile && setIsHovered(true)}
       onMouseLeave={() => !isMobile && setIsHovered(false)}
     >
-      <div className="relative w-52 h-52 transition-all duration-500 ease-in-out group-hover:w-60 rounded-[50%] group-hover:rounded-[1rem] shadow-inner-lg overflow-hidden ">
+      <div className="relative w-52 h-52 transition-all duration-500 ease-in-out group-hover:w-60 rounded-[50%] group-hover:rounded-[1rem] shadow-inner-lg border border-black/50 overflow-hidden ">
         <Image
           src={`/board-of-directors/${member.image}`}
           alt={member.name}

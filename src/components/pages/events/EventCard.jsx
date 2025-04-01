@@ -12,7 +12,7 @@ export default function EventCard({ event }) {
       <div className="flex flex-col lg:flex-row-reverse gap-6 items-start">
         {/* Right: Event Image */}
         <div className="flex-shrink-0 w-full md:w-[24rem] xl:w-[24rem]">
-          <div className="relative w-full pt-[100%] rounded-lg overflow-hidden shadow-inner-lg">
+          <div className="relative w-full pt-[100%] rounded-lg overflow-hidden shadow-inner-lg border border-black/50">
             {/* Square ratio: pt-[100%] */}
             <Image
               src={`/webinar-events/${event.image}`}
