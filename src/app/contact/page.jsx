@@ -10,6 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
+import Contact from '@/components/pages/contact/Contact'
 
 // Page-specific metadata
 export const metadata = {
@@ -18,7 +19,5 @@ export const metadata = {
 
 // Board of Directors Page Component
 export default function ContactPage() {
-  return (
-    <div>ContactPage </div>
-  )
+  return ( <Contact/>)
 }

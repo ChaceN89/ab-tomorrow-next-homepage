@@ -38,7 +38,7 @@ export default function PageHeader({ title, subtitle }) {
       </div>
 
       {subtitle && (
-        <p className="mt-10 text-lg md:text-xl text-muted opacity-80">{subtitle}</p>
+        <p className="mt-14 md:mt-12 text-lg md:text-xl text-muted opacity-80">{subtitle}</p>
       )}
     </div>
   );

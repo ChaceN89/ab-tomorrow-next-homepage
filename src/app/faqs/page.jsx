@@ -11,6 +11,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
+import FAQs from '@/components/pages/faqs/FAQs'
 
 // Page-specific metadata
 export const metadata = {
@@ -19,7 +20,5 @@ export const metadata = {
 
 // Board of Directors Page Component
 export default function FaqsPage() {
-  return (
-    <div>FaqsPage </div>
-  )
+  return (<FAQs/>)
 }
