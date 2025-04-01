@@ -30,7 +30,7 @@ export default function NavDropdown({ items, title, openToLeft = false }){
   const [isOpen, setIsOpen] = useState(false);
   const btnRef = useRef(null);
   const dropRef = useRef(null);
-  const boundaryValue = 200;
+  const boundaryValue = 100;
 
   const toggleDropdown = () => setIsOpen((prev) => !prev);
 

@@ -47,7 +47,7 @@ export default function PartnerShowcase({ partners, title, showDescriptions = fa
                 <p className="text-lg font-bold">{partner.name}</p>
                 {partner.description && (
                   <>
-                    <p className="text-sm font-medium text-gray-700 max-w-xl">{partner.description}</p>
+                    <p className="text-xs font-medium text-gray-700 max-w-xl">{partner.description}</p>
                     <a
                       href={partner.link}
                       target="_blank"

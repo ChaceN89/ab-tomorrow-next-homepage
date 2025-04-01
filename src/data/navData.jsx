@@ -79,8 +79,8 @@ export const toolsDropDown = {
     {label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
     {label: "Energy Tomorrow", icon: <FaBolt />, href: "https://www.youtube.com/watch?v=Uca8En3ZHH0" },
     {label: "Wildlife Tomorrow", icon: <GiFlatPawPrint />, href: "https://www.simulator.albertatomorrow.ca" },
-    {label: "Videos", icon: <FaVideo />, router: "/videos" },
-    {label: "Lesson Plans", icon: <FaClipboardList />, router: "/lesson-plans" },
+    {label: "Videos", icon: <FaVideo />, router: "/resources/videos" },
+    {label: "Lesson Plans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
   ]
 }
 

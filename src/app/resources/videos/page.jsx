@@ -18,5 +18,5 @@ export const metadata = {
 
 // Board of Directors Page Component
 export default function VideosPage() {
-  return ("")
+  return (<div>Videos</div>)
 }
