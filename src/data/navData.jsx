@@ -58,8 +58,8 @@ export const donateInfo = {
 
 export const extraPages =[
   {label: "Sign Up", icon: <FaUserPlus />, href: "https://www.simulator.albertatomorrow.ca/" },
-  { label: "Privacy Policy", icon: <FaEnvelope />, router: "/Privacy-Policy" },
-  { label: "Terms of Use", icon: <FaEnvelope />, router: "/Terms-of-Use" },
+  { label: "Privacy Policy", icon: <FaEnvelope />, router: "/privacy-policy" },
+  { label: "Terms of Use", icon: <FaEnvelope />, router: "/terms-of-use" },
 ]
 
 
@@ -79,8 +79,8 @@ export const toolsDropDown = {
     {label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
     {label: "Energy Tomorrow", icon: <FaBolt />, href: "https://www.youtube.com/watch?v=Uca8En3ZHH0" },
     {label: "Wildlife Tomorrow", icon: <GiFlatPawPrint />, href: "https://www.simulator.albertatomorrow.ca" },
-    {label: "Videos", icon: <FaVideo />, href: "https://www.simulator.albertatomorrow.ca/#/dashboard/videos" },
-    {label: "Lesson Plans", icon: <FaClipboardList />, href: "https://www.simulator.albertatomorrow.ca/#/lesson-plans" },
+    {label: "Videos", icon: <FaVideo />, router: "/videos" },
+    {label: "Lesson Plans", icon: <FaClipboardList />, router: "/lesson-plans" },
   ]
 }
 
@@ -88,10 +88,10 @@ export const toolsDropDown = {
 export const learnMoreDropDown = {
   title: "Learn More",
   list:[
-    { label: "FAQs", icon: <FaQuestionCircle />, router: "/FAQs" },
-    { label: "Board of Directors", icon: <FaUsers />, router: "/Board-of-Directors" },
-    { label: "Partners", icon: <FaHandshake />, router: "/Partners" },
-    { label: "Events", icon: <FaCalendarAlt />, router: "/Events" },
-    { label: "Contact", icon: <FaEnvelope />, router: "/Contact" },
+    { label: "FAQs", icon: <FaQuestionCircle />, router: "/faqs" },
+    { label: "Board of Directors", icon: <FaUsers />, router: "/board-of-directors" },
+    { label: "Partners", icon: <FaHandshake />, router: "/our-partners" },
+    { label: "Events", icon: <FaCalendarAlt />, router: "/events" },
+    { label: "Contact", icon: <FaEnvelope />, router: "/contact" },
   ]
 }

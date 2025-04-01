@@ -26,6 +26,8 @@
 /* Spacing for the nav bar items */
 @theme {
   --spacing-nav: 0.4rem;
+
+  --shadow-inner-lg: inset 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
 /* color scheme */

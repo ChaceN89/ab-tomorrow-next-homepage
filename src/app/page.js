@@ -1,10 +1,6 @@
-import SplashScreen from "@/components/layout/SplashScreen";
-import Image from "next/image";
+import Home from "@/components/pages/Home";
+
 
 export default function HomePage() {
-  return (
-    <div>
-      page
-    </div>
-      );
+  return ( <Home/> );
 }

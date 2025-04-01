@@ -20,12 +20,18 @@ import PartnerBanner from "@/components/partners/PartnerBanner";
 import NewsPopup from "@/components/media/NewsPopup";
 
 // function for development Page Titles
-import { withDevPrefix } from "@/utils/metadataUtils";
+import { getPageTitle } from "@/utils/metadataUtils";
+
+// viewport meta data
+export const viewport = {
+  themeColor: "#2daeb5", // Primary blue color
+};
 
 // meta data
-// app/layout.jsx
 export const metadata = {
-  title: withDevPrefix("Home - Alberta Tomorrow"),
+  metadataBase: new URL("https://albertatomorrow.ca"), // ✅ Add this
+
+  title: getPageTitle("home"),
   description: "An interactive tool to explore Alberta's environmental changes over time.",
   icons: {
     icon: [
@@ -37,7 +43,6 @@ export const metadata = {
     ],
     apple: "/icons/apple-touch-icon-precomposed.png",
   },
-  themeColor: "#2daeb5",
   openGraph: {
     title: "Alberta Tomorrow",
     description: "An interactive tool to explore Alberta's environmental changes over time.",
