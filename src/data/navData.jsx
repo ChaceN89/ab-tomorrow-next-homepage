@@ -67,14 +67,14 @@ export const extraPages =[
 export const scrollLinks = [
   { label: "Home", scrollTo: "hero", icon: <FaHome /> },
   { label: "Intro", scrollTo: "intro", icon: <FaBookOpen /> },
-  { label: "Tool Overview", scrollTo: "tools", icon: <FaWrench /> },
+  { label: "Tools", scrollTo: "tools", icon: <FaWrench /> },
   { label: "Education", scrollTo: "education", icon: <FaGraduationCap /> },
   { label: "About", scrollTo: "about", icon: <FaInfoCircle /> },
 ];
 
 // the tools drop down to external links
 export const toolsDropDown = {
-  title: "Tools",
+  title: "Resources",
   list:[
     {label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
     {label: "Energy Tomorrow", icon: <FaBolt />, href: "https://www.youtube.com/watch?v=Uca8En3ZHH0" },

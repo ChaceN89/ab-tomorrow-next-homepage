@@ -1,9 +1,8 @@
 import React from 'react';
-import SectionHeader from '../common/SectionHeader';
+import SectionHeader from '@/components/common/SectionHeader';
 import { FaChalkboardTeacher, FaHandshake, FaFlask } from 'react-icons/fa';
-import NumberedHexList from '../common/NumberedHexList';
-import HexButton from '../common/HexButton';
-import { Link } from 'react-router-dom';
+import NumberedHexList from '@/components/common/numberedHexList/NumberedHexList';
+import HexButton from '@/components/common/hexButton/HexButton';
 
 export default function About() {
 

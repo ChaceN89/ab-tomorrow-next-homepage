@@ -1,9 +1,9 @@
 import React from 'react';
 import { keyFeatures, teacherResources, curriculumConnections } from '@/data/teacherToolsData';
 import SectionHeader from '@/components/common/SectionHeader';
-import NumberedHexList from '../../common/NumberedHexList'
+import NumberedHexList from '@/components/common/numberedHexList/NumberedHexList';
 import CurriculumDropDown from './CurriculumDropDown';
-import HexButton from '@/components/common/HexButton';
+import HexButton from '@/components/common/hexButton/HexButton';
 
 export default function TeacherTools() {
 

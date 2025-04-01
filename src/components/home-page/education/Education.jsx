@@ -27,20 +27,19 @@
 import React from 'react';
 
 // Assets
-import parallaxBg from '@/assets/ui-elements/parallax-1.jpg';
 
 // UI Components
 import BackgroundWrapper from '@/components/layout/BackgroundWrapper';
 import SectionHeader from '@/components/common/SectionHeader';
 import MediaFrame from '@/components/media/MediaFrame';
-import HexButton from '@/components/common/HexButton';
+import HexButton from '@/components/common/hexButton/HexButton';
 
 // Data
 import { eductionData } from '@/data/educationData';
 
 export default function Education() {
   return(
-    <BackgroundWrapper background={parallaxBg} backgroundSm={null} fixed blur >
+    <BackgroundWrapper background={"ui-elements/parallax-1.jpg"} backgroundSm={null} fixed blur >
       <div className='home-section home-y-padding space-y-8 '>
         <SectionHeader
           title={eductionData.title}

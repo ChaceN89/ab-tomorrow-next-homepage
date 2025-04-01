@@ -21,7 +21,7 @@
  */
 
 import React from 'react'
-import HexButton from '@/components/common/HexButton'
+import HexButton from '@/components/common/hexButton/HexButton'
 
 export default function ToolCard({tool, index}) {
 

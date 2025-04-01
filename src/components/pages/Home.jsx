@@ -34,11 +34,11 @@ import React from 'react'
 import Hero from '@/components/home-page/Hero'
 import Intro from '@/components/home-page/Intro'
 import CallToAction from '@/components/home-page/CallToAction'
-// import InteractiveTools from '@/components/home-page/InteractiveTools'
-// import Education from '@/components/home-page/education/Education'
-// import TeacherTools from '../home-page/teacherTools/TeacherTools'
-// import About from '@/components/home-page/About'
-// import GetInvolved from '@/components/home-page/GetInvolved'
+import InteractiveTools from '@/components/home-page/InteractiveTools'
+import Education from '@/components/home-page/education/Education'
+import TeacherTools from '@/components/home-page/teacherTools/TeacherTools'
+import About from '@/components/home-page/About'
+import GetInvolved from '@/components/home-page/GetInvolved'
 
 
 import HexSeparator from '@/components/common/hexSparator/HexSeparator'
@@ -57,24 +57,24 @@ export default function Home() {
         <HexSeparator bottom rows={4} parentClass='h-8 bg-primary' hexClass="bg-secondary-alt opacity-40"/>
         <CallToAction/>
       </section>
-      {/* <section id='tools' className='overflow-hidden'>
+      <section id='tools' className='overflow-hidden'>
         <HexSeparator randomColors rows={100} hexClass='bg-accent-alt opacity-5'/>
         <InteractiveTools/>
-      </section> */}
-      {/* <section id='education'>
+      </section>
+      <section id='education'>
         <Education/>
         <HexSeparator bottom rows={2} hexClass='bg-primary-alt '/>
         <TeacherTools/>
         <HexSeparator bottom rows={2} hexClass='bg-accent-alt '/>
-      </section> */}
-      {/* <section id='about' className='overflow-hidden'>
+      </section>
+      <section id='about' className='overflow-hidden'>
         <About/>
         <div className='overflow-hidden'>
           <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-5 '/>
           <HexSeparator bottom rows={2} hexClass='bg-accent '/>
           <GetInvolved/>
         </div>
-      </section> */}
+      </section>
     </div>
   )
 }

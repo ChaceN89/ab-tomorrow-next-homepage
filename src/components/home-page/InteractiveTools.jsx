@@ -10,7 +10,6 @@
 
 import React from 'react';
 import { interactiveToolsData } from '@/data/interactiveToolsData';
-import HexButton from '@/components/common/HexButton';
 import SectionHeader from '@/components/common/SectionHeader';
 import ToolCard from './education/ToolCard';
 
