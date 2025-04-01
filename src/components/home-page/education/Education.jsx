@@ -33,7 +33,7 @@ import MediaFrame from '@/components/media/MediaFrame';
 import HexButton from '@/components/common/hexButton/HexButton';
 
 // Data
-import { eductionData } from '@/data/educationData';
+import { eductionData } from '@/data/home-page-data/educationData';
 
 export default function Education() {
   return(

@@ -35,8 +35,8 @@ export default function TeacherTools() {
           description="The Alberta Tomorrow Simulator is a powerful tool for teaching about land use, climate change, and the environment. It is designed to be used in a variety of subjects and grades, and is aligned with the Alberta Program of Studies."
         />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-4">
-          <div className="space-y-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
+          <div className="space-y-8">
             <NumberedHexList
               featuresList={keyFeaturesData.list}
               title={keyFeaturesData.title}

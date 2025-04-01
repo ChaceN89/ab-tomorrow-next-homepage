@@ -45,27 +45,124 @@ export const teacherResourcesData = {
 };
 
 // ======== Curriculum Connections ========
-
 export const curriculumConnectionsData = {
   title: "Course & Curriculum Connections",
   list: [
-    { title: "Grade 1 Science", items: ["Living Systems"], icon: <FaLeaf /> },
-    { title: "Grade 2 Science", items: ["Earth Systems", "Living Systems"], icon: <FaGlobeAmericas /> },
-    { title: "Grade 3 Science", items: ["Matter", "Earth Systems", "Living Systems"], icon: <FaCogs /> },
-    { title: "Grade 4 Science", items: ["Earth Systems", "Living Systems"], icon: <FaTree /> },
-    { title: "Grade 5 Science", items: ["Energy"], icon: <FaAtom /> },
-    { title: "Grade 6 Science", items: ["Energy", "Earth Systems", "Living Systems"], icon: <FaGlobeAmericas /> },
-    { title: "Grade 7 Science", items: ["Interactions and Ecosystems", "Plants for Food and Fibre"], icon: <FaLeaf /> },
-    { title: "Grade 8 Science", items: ["Freshwater and Saltwater Systems"], icon: <FaWater /> },
-    { title: "Science 9", items: ["Biological Diversity", "Environmental Chemistry"], icon: <FaFlask /> },
-    { title: "Science 10", items: ["Energy Flow in Global Systems"], icon: <FaAtom /> },
-    { title: "Science 20", items: ["Chemical Change", "Change in Living Systems", "Chemistry and the Environment"], icon: <FaMicroscope /> },
-    { title: "Biology 20", items: ["Energy and Matter Exchange in the Biosphere"], icon: <FaLeaf /> },
-    { title: "CTS", items: ["Agriculture", "Environmental Studies", "Forestry", "Primary Resources", "Wildlife"], icon: <FaClipboardList /> },
-    { title: "Social Studies 9", items: ["Governance and Rights", "Economic Systems in Canada"], icon: <FaBalanceScale /> },
-    { title: "Grade 1 Social Studies", items: ["Time and Place"], icon: <FaUserFriends /> },
-    { title: "Grade 2 Social Studies", items: ["Time and Place"], icon: <FaUserFriends /> },
-    { title: "Grade 3 Social Studies", items: ["Social Time and Place"], icon: <FaBookOpen /> },
-    { title: "Grade 5 Social Studies", items: ["Citizenship"], icon: <FaBalanceScale /> }
+    {
+      title: "Grade 1",
+      items: {
+        Science: ["Living Systems"],
+        "Social Studies": ["Time and Place"]
+      },
+      icon: <FaUserFriends />
+    },
+    {
+      title: "Grade 2",
+      items: {
+        Science: ["Earth Systems", "Living Systems"],
+        "Social Studies": ["Time and Place"]
+      },
+      icon: <FaGlobeAmericas />
+    },
+    {
+      title: "Grade 3",
+      items: {
+        Science: ["Matter", "Earth Systems", "Living Systems"],
+        "Social Studies": ["Social Time and Place"]
+      },
+      icon: <FaCogs />
+    },
+    {
+      title: "Grade 4",
+      items: {
+        Science: ["Earth Systems", "Living Systems"]
+      },
+      icon: <FaTree />
+    },
+    {
+      title: "Grade 5",
+      items: {
+        Science: ["Energy"],
+        "Social Studies": ["Citizenship"]
+      },
+      icon: <FaAtom />
+    },
+    {
+      title: "Grade 6 Science",
+      items: {
+        "Energy": [],
+        "Earth Systems": [],
+        "Living Systems": []
+      },
+      icon: <FaGlobeAmericas />
+    },
+    {
+      title: "Grade 7 Science",
+      items: {
+        "Interactions and Ecosystems": [],
+        "Plants for Food and Fibre": []
+      },
+      icon: <FaLeaf />
+    },
+    {
+      title: "Grade 8 Science",
+      items: {
+        "Freshwater and Saltwater Systems": []
+      },
+      icon: <FaWater />
+    },
+    {
+      title: "Grade 9",
+      items: {
+        Science: ["Biological Diversity", "Environmental Chemistry"],
+        "Social Studies": ["Governance and Rights", "Economic Systems in Canada"]
+      },
+      icon: <FaFlask />
+    },
+    {
+      title: "Science 10",
+      items: {
+        "Energy Flow in Global Systems": []
+      },
+      icon: <FaAtom />
+    },
+    {
+      title: "Science 20",
+      items: {
+        "Chemical Change": [],
+        "Change in Living Systems": [],
+        "Chemistry and the Environment": []
+      },
+      icon: <FaMicroscope />
+    },
+    {
+      title: "Biology 20",
+      items: {
+        "Energy and Matter Exchange in the Biosphere": []
+      },
+      icon: <FaLeaf />
+    },
+    {
+      title: "CTS",
+      items: {
+        "Agriculture": [],
+        "Environmental Studies": [],
+        "Forestry": [],
+        "Primary Resources": [],
+        "Wildlife": []
+      },
+      icon: <FaClipboardList />
+    },
+    {
+      title: "Post-Secondary",
+      items: {
+        "Environmental Studies": [],
+        "Urban/Rural Planning": [],
+        "Biology": [],
+        "Ecology": []
+      },
+      icon: <FaClipboardList />
+    },
+
   ]
 };
