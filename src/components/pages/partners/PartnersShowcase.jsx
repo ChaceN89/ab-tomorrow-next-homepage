@@ -32,6 +32,7 @@ export default function PartnerShowcase({ partners, title, showDescriptions = fa
                   src={`/partners/${partner.logo}`}
                   alt={partner.name}
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className={`object-contain ${partner.partnerClass || ""}`}
                 />
               ) : (

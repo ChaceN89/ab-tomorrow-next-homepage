@@ -20,7 +20,7 @@ import React from 'react'
 
 export default function PulseLoader() {
   return (
-      <div className="absolute inset-0 bg-gradient-to-br from-accent-alt via-tertiary to-primary blur-3xl animate-pulse overflow-hidden" /> 
+      <div className="absolute inset-0 bg-gradient-to-br from-accent/40 via-tertiary/40 to-primary/40 blur-3xl animate-pulse overflow-hidden" /> 
 
   )
 }

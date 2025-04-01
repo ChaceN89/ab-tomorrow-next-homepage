@@ -30,8 +30,9 @@
  *
  * @author Chace Nielson
  * @created Mar 24, 2025
- * @updated Mar 25, 2025
+ * @updated Apr 1, 2025
  */
+"use client";
 import React, { useState, useEffect } from 'react';
 
 export default function BackgroundWrapper({ background, backgroundSm, children, className = "", fixed = false, blur = false }) {
@@ -46,21 +47,31 @@ export default function BackgroundWrapper({ background, backgroundSm, children, 
     img.onload = () => setLoaded(true);
   }, [background]);
 
-  // check if the screen is large enough to apply fixed positioning
-  const allowFixed = window.innerWidth >= 640; // sm breakpoint
-  const [isLargeScreen, setIsLargeScreen] = useState(false);
 
-  // Check screen size on mount and resize
+  // states for screen size and allowing fixed background
+  const [screenSize, setScreenSize] = useState({
+    allowFixed: false,
+    isLargeScreen: false
+  });
+  
+  // check screen size and set allowFixed and isLargeScreen states
   useEffect(() => {
-    const checkScreen = () => setIsLargeScreen(window.innerWidth >= 1024); // lg breakpoint
+    const checkScreen = () => {
+      setScreenSize({
+        allowFixed: window.innerWidth >= 640,
+        isLargeScreen: window.innerWidth >= 1024
+      });
+    };
     checkScreen();
     window.addEventListener('resize', checkScreen);
     return () => window.removeEventListener('resize', checkScreen);
   }, []);
 
-  // Set background attachment and position based on fixed prop and screen size - specific to this app is the calc(50% - 7rem) center related to width of the partner banner
-  const backgroundAttachment = fixed && allowFixed ? 'fixed' : 'scroll';
-  const backgroundPosition = isLargeScreen && fixed ? 'calc(50% - 7rem) center' : 'center';
+
+  // Set background attachment and position based on fixed prop and screen size
+  const backgroundAttachment = fixed && screenSize.allowFixed ? 'fixed' : 'scroll';
+  const backgroundPosition = screenSize.isLargeScreen && fixed ? 'calc(50% - 7rem) center' : 'center';
+
 
   // Base background styles
   const baseBackgroundStyle = {
@@ -77,11 +88,12 @@ export default function BackgroundWrapper({ background, backgroundSm, children, 
       {/* Blurry low-res background */}
       {backgroundSm && (
         <div
-          className="absolute inset-0 filter blur-md scale-105 transition-opacity duration-1200"
+          className="absolute inset-0 filter  transition-opacity duration-1200"
           style={{
             ...baseBackgroundStyle,
             backgroundImage: `url(${backgroundSm})`,
-            opacity: loaded ? 0 : 1
+            opacity: loaded ? 0 : 1,
+            filter: 'blur(2px)',
           }}
         />
       )}

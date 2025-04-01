@@ -56,7 +56,7 @@ export default  function MemberCard({ member }) {
           className={`w-full h-full object-cover object-top z-10 transition-all duration-500 ease-in-out rounded-[50%] group-hover:rounded-[1rem] ${
             isLoaded ? "opacity-100" : "opacity-0  "
           }`}
-          onLoadingComplete={() => setIsLoaded(true)}
+          onLoad={() => setIsLoaded(true)}
         />
         {!isLoaded && (
           <PulseLoader/>    

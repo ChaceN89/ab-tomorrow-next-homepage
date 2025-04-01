@@ -1,66 +1,65 @@
 /**
- * @file Media.jsx
+ * @file MediaFrame.jsx
  * @module UI/Media
- * @desc A reusable YouTube iframe component with optional title and description.
+ * @desc A reusable media component to display YouTube videos or images with optional title, description, and pulse loader.
  *
- * @props {string} src - The YouTube embed URL (e.g., https://www.youtube.com/embed/xyz).
- * @props {string} [title] - Optional title for the iframe and visual heading.
- * @props {string} [description] - Optional text displayed below the iframe.
+ * @props {string} src - YouTube video ID or image path.
+ * @props {string} [alt] - Alt text for images.
+ * @props {string} [title] - Optional title above the media.
+ * @props {string} [description] - Optional description below.
+ * @props {string} [className] - Additional Tailwind classes for media container.
  *
  * @author Chace Nielson
  * @created Mar 25, 2025
- * @updated Mar 25, 2025
+ * @updated Apr 1, 2025
  */
+"use client";
 
-import React from 'react'
-import { Blurhash } from 'react-blurhash'
+import React, { useState } from "react";
+import PulseLoader from "../common/PulseLoader";
+import Image from "next/image";
 
-export default function MediaFrame({ 
-  type = 'image',          // 'image' or 'video'
-  src,                     // media source (YouTube video ID or image URL)
-  alt = '',                // for images
-  title = '',              // title above media
-  description = '',        // description below
-  blurhash = '',           // optional for images
-  className = 'h-64',      // tailwind height for media box
+export default function MediaFrame({
+  type = "image",
+  src,
+  alt = "",
+  title = "",
+  description = "",
+  className = "h-64",
 }) {
-  return (
-    <div className="w-full max-w-2xl mx-auto text-center space-y-2 text-inherit ">
-      {title && <h3 className="text-xl font-semibold   ">{title}</h3>}
+  const [loaded, setLoaded] = useState(false);
 
-      <div className={`rounded-lg shadow-lg overflow-hidden large-shadow ${className}`}>
-        {type === 'video' ? (
+  return (
+    <div className="w-full max-w-2xl mx-auto text-center space-y-2 text-inherit">
+      {title && <h3 className="text-xl font-semibold">{title}</h3>}
+
+      <div className={`relative rounded-lg shadow-lg overflow-hidden large-shadow ${className}`}>
+        {type === "video" ? (
           <iframe
             src={`https://www.youtube.com/embed/${src}`}
             title={alt}
             allowFullScreen
-            className="w-full h-full "
+            loading="lazy"
+            className="w-full h-full"
           />
         ) : (
           <>
-            {blurhash && (
-              <Blurhash
-                hash={blurhash}
-                width="100%"
-                height="100%"
-                resolutionX={32}
-                resolutionY={32}
-                punch={1}
-              />
-            )}
-            <img
-              src={src}
+            {!loaded && <PulseLoader />}
+            <Image
+              src={`/${src}`} // since you store images in public/simulator-screenshots
               alt={alt}
-              className={`w-full h-full object-cover ${blurhash ? 'absolute inset-0 opacity-0 transition-opacity duration-500' : ''}`}
-              onLoad={(e) => {
-                if (blurhash) e.target.previousSibling.style.opacity = 0
-                e.target.style.opacity = 1
-              }}
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className={`object-cover transition-opacity duration-500 ${
+                loaded ? "opacity-100" : "opacity-0"
+              }`}
+              onLoad={() => setLoaded(true)}
             />
           </>
         )}
       </div>
-      {description && <div className=" text-left pt-1.5 ">{description}</div>}
+
+      {description && <div className="text-left pt-1.5">{description}</div>}
     </div>
-  )
+  );
 }

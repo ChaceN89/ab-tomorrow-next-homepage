@@ -20,29 +20,33 @@ const longList = shuffledPartners.concat(shuffledPartners).concat(shuffledPartne
 
 function PartnerList() {
   return (
-    <ul >
+    <ul className="flex flex-wrap lg:flex-col gap-4 justify-center items-center">
       {longList.map((partner, index) => (
         <li key={index}>
-            <a href={partner.link} target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-2">
-              <Tooltip key={index} text={"Partner: " + partner.name} openDuration={300}>
+          <a href={partner.link} target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-2 items-center">
+            <Tooltip text={<span>Partner: <i>{partner.name}</i></span>} openDuration={200}>
+              <div className="relative w-44 h-28"> {/* Controls size */}
                 <Image
                   src={`/partners/${partner.logo}`}
                   alt={partner.name}
-                  width={112}
-                  height={112}
+                  fill
                   unoptimized
-                  className={partner.partnerClass}
+                  className={`object-contain ${partner.partnerClass}`}
                   priority={index < 5}
-                />            
-              </Tooltip>
-              <div className="hidden lg:block w-full h-[0.5px] bg-black opacity-20" />
-              <div className="block lg:hidden w-[0.5px] h-full bg-black opacity-20 ml-5" />
-            </a>
-          </li>
+                />
+              </div>
+            </Tooltip>
+
+            {/* Divider */}
+            <div className="hidden lg:block w-full h-[0.5px] bg-black opacity-20" />
+            <div className="block lg:hidden w-[0.5px] h-full bg-black opacity-20 ml-5" />
+          </a>
+        </li>
       ))}
     </ul>
   );
 }
+
 
 
 // Export two lists with different styles based on screen size

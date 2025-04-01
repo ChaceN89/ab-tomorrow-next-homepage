@@ -21,7 +21,7 @@ export default function EventCard({ event }) {
               className={`object-cover rounded-lg transition-opacity duration-500 ${
                 imageLoaded ? "opacity-100" : "opacity-0"
               }`}
-              onLoadingComplete={() => setImageLoaded(true)}
+              onLoad={() => setImageLoaded(true)}
             />
             {!imageLoaded && (
               <PulseLoader />

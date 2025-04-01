@@ -8,8 +8,6 @@
  * @updated Mar 25, 2025
  */
 
-import simHistoric from '../assets/simulator-screenshots/sim-8-new-historic.jpg';
-import simClimate from '../assets/simulator-screenshots/sim-7-new-climate-planning.jpg';
 
 // To bold text within a paragraph for this data
 function BoldText({ children }) {
@@ -55,7 +53,7 @@ export const introData = {
     },
     {
       type: "image",
-      src: simHistoric,
+      src: "simulator-screenshots/sim-8-new-historic.jpg",
       alt: "Historic Landscape Simulation",
       title: "Historic Landscape Simulation",
       description: (
@@ -66,7 +64,7 @@ export const introData = {
     },
     {
       type: "image",
-      src: simClimate,
+      src: "simulator-screenshots/sim-7-new-climate-planning.jpg",
       alt: "Climate Planning Simulation",
       title: "Climate Planning Simulation",
       description: (
