@@ -1,14 +1,27 @@
 /**
  * @file NumberedHexList.jsx
- * @module NumberedHexList
- * @desc Numbered list with icons with vertial di
- * each element nuber is in a hexagon
+ * @module UI/NumberedHexList
+ * @desc Renders a vertical numbered list where each number is displayed inside a hexagon.
+ *       Supports optional icons and custom text for each list item. Commonly used for 
+ *       feature lists or step-by-step instructional content.
+ *
+ * @props {Array} featuresList - An array of objects containing `icon` and `text` properties for each item.
+ * @props {string} title - Optional title displayed above the list.
+ * 
+ * @example
+ * const featuresList = [
+ *   { icon: <IconComponent />, text: "Feature description" },
+ *   { icon: <AnotherIcon />, text: "Another feature" }
+ * ];
+ * 
+ * <NumberedHexList title="Key Features" featuresList={featuresList} />
  *
  * @author Chace Nielson
  * @created Mar 26, 2025
- * @updated Mar 26, 2025
+ * @updated Apr 2, 2025
  */
-import React from 'react';
+
+// import styles
 import'./NumberedHexList.styles.css';
 
 export default function NumberedHexList({ featuresList, title }) {

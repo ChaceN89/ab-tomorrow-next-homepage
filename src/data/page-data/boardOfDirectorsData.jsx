@@ -2,12 +2,21 @@
  * @file boardOfDirectors.js
  * @module boardOfDirectors
  * @desc Defines the list of Board of Directors, including names, titles, images, and biographies.
+ * Also includes the title and subtitle for the Board of Directors page.
  *
  * @author Chace Nielson
- * @created Mar 14, 2025
- * @updated Mar 14, 2025
+ * @created April 1st, 2025
+ * @updated April 1st, 2025
  */
 
+// titles for the page
+export const boardOfDirectorsTitleData = {
+  title: "Board of Directors",
+  subtitle: "Meet the individuals guiding Alberta Tomorrow’s mission for sustainable land-use planning."
+}
+
+// Board of Directors data structure list of members
+// Each object contains a name, title, image filename, and biography
 export const boardOfDirectors = [
   {
     name: "Hugh Pepper",

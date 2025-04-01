@@ -8,11 +8,15 @@
  * @updated Mar 25, 2025
  */
 
-import React from "react";
-import { bannerPartners } from "../../../data/partnerData";
-import Tooltip from "../../media/Tooltip";
-import "./partnerBanner.styles.css";
+// data
+import { bannerPartners } from "@/data/page-data/partnerData";
+
+// components
+import Tooltip from "@/components/media/Tooltip";
 import Image from "next/image";
+
+// styles
+import "./partnerBanner.styles.css";
 
 // shuffle the partners
 const shuffledPartners = [...bannerPartners].sort(() => Math.random() - 0.5);

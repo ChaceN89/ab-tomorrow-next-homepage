@@ -1,21 +1,44 @@
-import React from "react";
+/**
+ * @file OurPartners.jsx
+ * @module Pages/OurPartners
+ * @desc Displays all partner and sponsor information, categorized and organized on the "Our Partners" page.
+ *       Utilizes the Partner Data and PartnerShowcase components to render categorized sponsor sections.
+ *
+ * @author Chace Nielson
+ * @created Mar 14, 2025
+ * @updated Apr 1, 2025
+ *
+ * @features
+ * - Imports and displays categorized partner data (Champions, Ambassadors, Mentors, Supporters, Past Sponsors).
+ * - Renders each category using the reusable `PartnerShowcase` component.
+ * - Includes a page header and section dividers for clear visual separation.
+ * - Provides a downloadable sponsorship package link (optional section at the bottom - currently commented).
+ *
+ * @dependencies
+ * - partnerData: Contains all sponsor data and categories.
+ * - PartnerShowcase: Reusable component to render partner logos and descriptions.
+ * - PageHeader: Displays page title and subtitle.
+ */
+
+// Data
 import {
   champions,
   mentors,
   ambassadors,
   supporters,
   pastSponsors,
-} from "@/data/partnerData";  
+  partnerTitleData,
+} from "@/data/page-data/partnerData";  
 
+// Components
 import PartnerShowcase from "./PartnersShowcase";
 import PageHeader from "@/components/common/PageHeader";
 
 export default function OurPartners() {
-
   return (
     <div className='page-width '>
       <div className='page'>
-        <PageHeader title='Our Partners' subtitle="We are grateful to the Alberta Tomorrow sponsors for making Alberta Tomorrow possible." />
+        <PageHeader title={partnerTitleData.title} subtitle={partnerTitleData.subtitle} />
         <div className="mt-12 space-y-12">
           <div className="flex flex-col 2xl:flex-row gap-8">
             {/* Left Column */}

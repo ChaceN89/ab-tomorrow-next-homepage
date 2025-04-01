@@ -1,4 +1,45 @@
+/**
+ * @file eventData.js
+ * @module data/eventData
+ * @desc Contains structured content data for the Alberta Tomorrow Webinar Series,
+ *       including event details, dates, images, descriptions, and speaker information.
+ * 
+ * @note
+ * - the Date is used to display uinder future or past events
+ * 
+ * @structure
+ * - Each event object includes:
+ *    - summary: Short title or series description.
+ *    - title: Full event title.
+ *    - image: Filename for the associated event image (stored in /public/webinar-events).
+ *    - dates: Array of event dates with display date and registration link.
+ *    - description: JSX content describing the event purpose and details.
+ *    - speakers: (Optional) Array of speaker objects with name and description.
+ * 
+ * @example
+ * {
+ *   summary: "Webinar Series: Fall/Winter 2022/2023",
+ *   title: "Alberta Tomorrow and CPAWS Southern Alberta present: Land Based Learning Webinar Series",
+ *   image: "2022fall-cpaws-fire-water-webinar-dates.jpg",
+ *   dates: [
+ *     { date: "Nov 29, 2022", visualDate: "Nov 29th, 2022, 1PM - Water", link: "https://..." }
+ *   ],
+ *   description: <div>...</div>,
+ *   speakers: [ { name: "Speaker Name", description: "Speaker Bio" } ]
+ * }
+ *
+ * @author Chace Nielson
+ * @created April 1st, 2025
+ * @updated April 1st, 2025
+ */
 
+// titles for the page
+export const eventTitleData = {
+  title: "Webinar Events",
+  subtitle: "Learn with us — join future webinars or explore past events.",
+};
+
+// list of events
 export const eventData = [
   {
     summary: "Webinar Series: Fall/Winter 2022/2023",

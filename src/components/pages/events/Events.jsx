@@ -1,5 +1,5 @@
 import React from 'react';
-import { eventData } from '@/data/eventData'; // Import event data
+import { eventData, eventTitleData } from '@/data/page-data/eventData'; // Import event data
 import EventCard from './EventCard';
 import PageHeader from '@/components/common/PageHeader';
 
@@ -32,7 +32,7 @@ export default function Events() {
   return (
     <div className='page-width'>
       <div className='page'>
-        <PageHeader title='Webinars' subtitle="Join us for our upcoming webinars and watch past events." />
+        <PageHeader title={eventTitleData.title} subtitle={eventTitleData.subtitle} />
         
         {futureEvents.length > 0 && (
           <div className="future-events mb-8">

@@ -1,12 +1,37 @@
 /**
  * @file partnerData.jsx
  * @module partnerData
- * @desc List of all the partners and sponsors for the website.
+ * @desc Contains structured data and utility functions for displaying Alberta Tomorrow's partners and sponsors.
+ *       Provides categories, descriptions, and dynamically filtered lists for displaying in various components 
+ *       such as the Partner Banner, Partner Page, and other sponsorship-related sections.
  *
  * @author Chace Nielson
  * @created Mar 14, 2025
- * @updated Mar 14, 2025
+ * @updated Apr 1, 2025
+ *
+ * @features
+ * - Defines the title and subtitle for the Partners Page (`partnerTitleData`).
+ * - Categorizes sponsors into Champions, Ambassadors, Mentors, Supporters, and Past Sponsors.
+ * - Provides a structured list of sponsor objects with name, logo, link, category, and optional description.
+ * - Exports utility functions:
+ *    - `getSponsorsByCategory(type)`: Returns an array of sponsors matching the specified category.
+ *    - `getSponsorsExcludingCategory(type)`: Returns an array of sponsors excluding the specified category.
+ * - Exports filtered sponsor lists for common use cases:
+ *    - `champions`
+ *    - `mentors`
+ *    - `ambassadors`
+ *    - `supporters`
+ *    - `pastSponsors`
+ *    - `bannerPartners` (excludes past sponsors and includes all others)
  */
+
+
+// titles for the page
+export const partnerTitleData = {
+  title: "Our Partners",
+  subtitle: "Alberta Tomorrow is a non-profit organization that relies on the support of our partners and sponsors to help us achieve our mission. We are grateful for their contributions and commitment to environmental stewardship and land-use planning.",
+};
+
 
 // Categories of sponsors
 const category = Object.freeze({

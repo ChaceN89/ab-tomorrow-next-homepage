@@ -1,14 +1,36 @@
 /**
  * @file faqData.js
- * @module FAQData
- * @desc Contains the FAQ data for Alberta Tomorrow using JSX/HTML elements safely.
+ * @module data/faqData
+ * @desc Contains the Frequently Asked Questions (FAQ) data used in the Alberta Tomorrow website.
+ *       Provides structured questions and JSX answers, including formatted text and links.
+ *
+ * @structure
+ * - Each FAQ object includes:
+ *    - question: The question text.
+ *    - answer: JSX element containing the answer, supporting rich text, links, and lists.
+ *
+ * @example
+ * {
+ *   question: "Who is this educational tool designed for?",
+ *   answer: <p>Everyone! Anyone interested in finding the balance between our environmental and socio-economic needs!</p>
+ * }
+ *
  * @author Chace Nielson
- * @created Mar 14, 2025
- * @updated Mar 27, 2025
+ * @created April 1st, 2025
+ * @updated April 1st, 2025
  */
-
 import React from 'react';
 
+// titles for the page
+export const faqTitleData = {
+  title: "Frequently Asked Questions",
+  subtitle: "Find answers to common questions about Alberta Tomorrow."
+}
+
+// FAQ data structure
+// Each object contains a question and a JSX answer
+// The answer can include HTML elements like <p>, <ul>, <li>, and <a> for links
+// This allows for rich text formatting and interactivity
 export const faqData = [
   {
     question: "Who is this educational tool designed for?",

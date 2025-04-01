@@ -1,6 +1,6 @@
-"use client";
+"use client"; // This file is a client component
 
-import React from "react";
+// links and styles
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import "./HexButton.styles.css";
@@ -15,6 +15,8 @@ export default function HexButton({
   asLink = false,
   scrollTo = false,
 }) {
+
+  // Default values for the button based on the color prop
   const wrapperStyle = {
     "--bg-start": `var(--color-${color})`,
     "--bg-end": `var(--color-${color}-alt)`,
@@ -24,6 +26,7 @@ export default function HexButton({
     "--hover-text-color": `var(--color-${hoverTextColor})`,
   };
 
+  // class info and style for the button
   const commonProps = {
     className: 'hex-button-wrapper font-semibold min-w-44',
     style: wrapperStyle,

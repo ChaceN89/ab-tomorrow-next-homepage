@@ -1,27 +1,53 @@
 /**
  * @file navData.jsx
- * @module navData
- * @desc Nav Data.
+ * @module data/navData
+ * @desc Navigation and dropdown data for Alberta Tomorrow website.
+ *       Includes scrollable home page links, dropdown menu items, external resource links, and donation link.
+ *       Also includes Framer Motion dropdown animation variants.
  *
- * @see {@link https://www.framer.com/motion/ | Framer Motion Documentation}
+ * @structure
+ * - scrollLinks: Array of in-page navigation links (uses scroll).
+ * - toolsDropDown: Dropdown list for external learning tools.
+ * - learnMoreDropDown: Dropdown list for informational pages.
+ * - extraPages: Miscellaneous links such as Terms and Privacy.
+ * - donateInfo: Data for the donation button.
+ * - dropdownVariants: Framer Motion animation config for dropdowns.
+ *
+ * @example
+ * {
+ *   label: "Home",
+ *   scrollTo: "hero",
+ *   icon: <FaHome />
+ * }
  *
  * @author Chace Nielson
  * @created Mar 21, 2025
- * @updated Mar 21, 2025
- * 
+ * @updated April 1st, 2025
  */
-import { FaVideo, FaBolt, FaBookOpen,FaUserPlus, FaMapMarkedAlt, FaClipboardList  } from "react-icons/fa";
+
+// icons
+// Icons
+import {
+  FaVideo,
+  FaBolt,
+  FaBookOpen,
+  FaUserPlus,
+  FaMapMarkedAlt,
+  FaClipboardList,
+  FaQuestionCircle,
+  FaUsers,
+  FaHandshake,
+  FaCalendarAlt,
+  FaEnvelope,
+  FaHome,
+  FaInfoCircle,
+  FaWrench,
+  FaGraduationCap
+} from "react-icons/fa";
+
 import { GiFlatPawPrint } from "react-icons/gi";
 
-import { FaQuestionCircle } from "react-icons/fa";     // FAQs
-import { FaUsers } from "react-icons/fa";              // Board of Directors
-import { FaHandshake } from "react-icons/fa";          // Partners
-import { FaCalendarAlt } from "react-icons/fa";        // Events
-import { FaEnvelope } from "react-icons/fa";           // Contact
-
-import { FaHome, FaInfoCircle, FaWrench, FaGraduationCap } from "react-icons/fa";
-
-// for drops downs and nav bar mobile verison 
+// for drops downs associated with the navbar (dropdowns and mobile dropdown)
 export const dropdownVariants = {
   hidden: {
     height: 0,
@@ -49,21 +75,21 @@ export const dropdownVariants = {
   }
 };
 
-// the donate button infoamtion 
+// the donate button info (in nav and footer) 
 export const donateInfo = {
   title: "Donate",
   altTitle: "Make A Donation",
   href: "https://www.canadahelps.org/en/dn/60256?v2=true"
 }
 
+// Extra links at the footer
 export const extraPages =[
-  {label: "Sign Up", icon: <FaUserPlus />, href: "https://www.simulator.albertatomorrow.ca/" },
+  { label: "Sign Up ", icon: <FaUserPlus />, href: "https://www.simulator.albertatomorrow.ca/" },
   { label: "Privacy Policy", icon: <FaEnvelope />, router: "/privacy-policy" },
   { label: "Terms of Use", icon: <FaEnvelope />, router: "/terms-of-use" },
 ]
 
-
-//all the links that scroll on the home page
+// Scroll Links in the home page
 export const scrollLinks = [
   { label: "Home", scrollTo: "hero", icon: <FaHome /> },
   { label: "Intro", scrollTo: "intro", icon: <FaBookOpen /> },
@@ -76,11 +102,11 @@ export const scrollLinks = [
 export const toolsDropDown = {
   title: "Resources",
   list:[
+    {label: "Videos", icon: <FaVideo />, router: "/resources/videos" },
     {label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
+    {label: "Lesson Plans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
     {label: "Energy Tomorrow", icon: <FaBolt />, href: "https://www.youtube.com/watch?v=Uca8En3ZHH0" },
     {label: "Wildlife Tomorrow", icon: <GiFlatPawPrint />, href: "https://www.simulator.albertatomorrow.ca" },
-    {label: "Videos", icon: <FaVideo />, router: "/resources/videos" },
-    {label: "Lesson Plans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
   ]
 }
 
