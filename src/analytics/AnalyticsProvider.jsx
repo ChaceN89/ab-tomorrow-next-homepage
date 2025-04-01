@@ -10,6 +10,16 @@
  * @exampleUsage
  * See useGoogelAnalytics.js for usage
  * 
+ * 
+ * @note 
+ * Needs to be wrapped in a suspense boundary to work properly. 
+ * e.g. in app/layout.jsx:
+ * <Suspense fallback={<Loading />}>
+ *  <AnalyticsProvider>
+ *    <Components />
+ *  </AnalyticsProvider>
+ * </Suspense>
+ * 
  */
 
 'use client'

@@ -8,8 +8,11 @@
  * @updated Mar 31, 2025
  */
 
+// styles
 import "./globals.css";
 import "./layout.css";
+
+// components
 import ToasterLayout from "@/components/layout/ToasterLayout";
 import DisplayTesting from "@/components/testing/DisplayTesting";
 import AnalyticsProvider from "@/analytics/AnalyticsProvider";
@@ -19,9 +22,14 @@ import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import PartnerBanner from "@/components/pages/partners/PartnerBanner";
 import NewsPopup from "@/components/media/NewsPopup";
 
-// function for development Page Titles
-import { getPageTitle } from "@/utils/metadataUtils";
+// More Components
 import ScrollProgress from "@/components/layout/ScrollProgress";
+import SplashScreen from "@/components/layout/SplashScreen";
+
+// functions
+import { getPageTitle } from "@/utils/metadataUtils";
+import { Suspense } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 // viewport meta data
 export const viewport = {
@@ -72,23 +80,39 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='antialiased flex flex-col min-h-screen min-w-56'>
-        <ScrollProgress/>
-        <ToasterLayout />
-        <DisplayTesting />
-        <NewsPopup/>
-        <AnalyticsProvider>
-          <PartnerBanner />
-          <NavBar />
-          <main className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden">
-            <HexSeparator randomColors rows={10}   hexClass='bg-primary-alt opacity-10'/>
-            <div className="relative ">
-              {children}
-            </div>
-            <div className="mt-auto">
-              <Footer />
-            </div>
-          </main>
-        </AnalyticsProvider>
+        <Suspense 
+          fallback={
+           <AnimatePresence>
+            <motion.div
+              key="splash"
+              initial={{ opacity: 1 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <SplashScreen />
+            </motion.div>
+          </AnimatePresence>
+          }
+        >
+          <ScrollProgress/>
+          <ToasterLayout />
+          <DisplayTesting />
+          <NewsPopup/>
+          <AnalyticsProvider>
+            <PartnerBanner />
+            <NavBar />
+            <main className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden">
+              <HexSeparator randomColors rows={10}   hexClass='bg-primary-alt opacity-10'/>
+              <div className="relative ">
+                {children}
+              </div>
+              <div className="mt-auto">
+                <Footer />
+              </div>
+            </main>
+          </AnalyticsProvider>
+        </Suspense>
       </body>
     </html>
   );
