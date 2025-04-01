@@ -8,10 +8,8 @@
  * @updated Mar 25, 2025
  */
 
-import React from 'react';
-
 import MediaFrame from '@/components/media/MediaFrame';
-import { introData } from '@/data/introData';
+import { introData } from '@/data/home-page-data/introData';
 
 export default function Intro() {
   return (

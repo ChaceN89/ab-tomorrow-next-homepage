@@ -9,6 +9,10 @@
  */
 
 
+export const interactiveToolsDataTitles ={
+  title: 'Explore Our Interactive Tools',
+  subtitle: <>Use our powerful <span className='text-accent'>educational tools</span> to explore land use, energy sustainability, and wildlife conservation in Alberta.</>
+}
 
 export const interactiveToolsData = [
   {

@@ -8,8 +8,10 @@
  * @updated Mar 25, 2025
  */
 
-import React from 'react';
-import { interactiveToolsData } from '@/data/interactiveToolsData';
+//data
+import { interactiveToolsData, interactiveToolsDataTitles } from '@/data/home-page-data/interactiveToolsData';
+
+//components
 import SectionHeader from '@/components/common/SectionHeader';
 import ToolCard from './education/ToolCard';
 
@@ -19,10 +21,8 @@ export default function InteractiveTools() {
       <div className='home-section home-y-padding space-y-8'>
         <SectionHeader
           shadow
-          title={'Explore Our Interactive Tools'}
-          description={
-            <>Use our powerful <span className='text-accent'>educational tools</span> to explore land use, energy sustainability, and wildlife conservation in Alberta.</>
-          }
+          title={interactiveToolsDataTitles.title}
+          description={interactiveToolsDataTitles.subtitle}
         />
         <div className="grid-section">
           {interactiveToolsData.map((tool, index) => (

@@ -20,8 +20,6 @@
  * - HexButton.jsx
  * - Static assets from `public/ui-elements` and `public/awards`
  */
-
-import React from "react";
 import Image from "next/image";
 import { heroData } from "@/data/home-page-data/heroData";
 

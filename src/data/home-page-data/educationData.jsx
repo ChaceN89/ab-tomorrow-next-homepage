@@ -17,7 +17,6 @@
  * - Water Rangers kit image from @/assets/ui-elements/water-rangers-kit.jpg
  */
 
-
 export const eductionData = {
   title: "Free Tools & Lesson Plans to Energize Your Classroom",
   description: "Alberta Tomorrow is a free digital resource designed to support K–12 and post-secondary education across Alberta.",

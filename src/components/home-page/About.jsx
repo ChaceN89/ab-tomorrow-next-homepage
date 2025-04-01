@@ -1,65 +1,55 @@
+/**
+ * @file About.jsx
+ * @module Home/About
+ * @desc About section detailing Alberta Tomorrow’s history, mission, vision, and key features.
+ *
+ * @author Chace Nielson
+ * @created Mar 26, 2025
+ * @updated Apr 1, 2025
+ */
+
 import React from 'react';
 import SectionHeader from '@/components/common/SectionHeader';
-import { FaChalkboardTeacher, FaHandshake, FaFlask } from 'react-icons/fa';
 import NumberedHexList from '@/components/common/numberedHexList/NumberedHexList';
 import HexButton from '@/components/common/hexButton/HexButton';
+import { aboutData } from '@/data/home-page-data/aboutData';
 
 export default function About() {
-
-  const keyFeatures = [
-    {
-      icon: <FaFlask />,
-      text: <p><span className='font-semibold'>Peer</span> reviewed by qualified scientists</p>
-    },
-    {
-      icon: <FaHandshake />,
-      text: <p><span className='font-semibold'>Endorsed</span> by environmentally focused non-profit organizations, industry and government</p>
-    },
-    {
-      icon: <FaChalkboardTeacher />,
-      text: "Teacher tested",
-    },
-  ];
-
   return (
     <section className="bg-accent">
       <div className="home-section home-y-padding space-y-10">
 
         <SectionHeader
-          title="About Alberta Tomorrow"
-          description="Alberta Tomorrow was originally created in 2005 by Matthew Carlson and Dr. Brad Stelfox of the ALCES group. Since then, Alberta Tomorrow has been used extensively by teachers and students throughout Alberta."
+          title={aboutData.title}
+          description={aboutData.description}
         />
 
         <div className="space-y-4 text-lg leading-relaxed">
-          <p>
-            Alberta Tomorrow is critically reviewed and bias-neutral. Continued development is overseen by a steering committee comprised of representatives from industry, non-profits, and government. The application is:
-          </p>
+          <p>{aboutData.content[0]}</p>
 
           <div className="p-4 bg-accent-alt/40 rounded-xl">
-            <NumberedHexList featuresList={keyFeatures} />
+            <NumberedHexList featuresList={aboutData.keyFeatures} />
           </div>
 
-          <p>
-            The Alberta Tomorrow program is overseen by the Alberta Tomorrow Foundation, a registered charity in Canada. The Foundation's Board of Directors includes representatives from the education, non-profit, government, and industry sectors.
-          </p>
+          <p>{aboutData.content[1]}</p>
 
           <div className="mt-4 flex justify-center">
-            <HexButton asLink link="/board-of-directors">
-              Meet the Board of Directors
+            <HexButton asLink link={aboutData.buttonLink}>
+              {aboutData.buttonText}
             </HexButton>
           </div>
+
         </div>
 
-        <div className="space-y-2 mt-2">
-          <h3 className="text-2xl font-semibold text-secondary-alt">Mission:</h3>
-          <p className="text-lg">
-            To deliver a platform that empowers youth to design and sustain a future for our shared ecosystem.
-          </p>
-
-          <h3 className="text-2xl font-semibold text-secondary-alt mt-4">Vision:</h3>
-          <p className="text-lg">
-            An informed society actively fostering sustainable futures.
-          </p>
+        <div className="space-y-2 mt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 items-start">
+          <div>
+            <h3 className="text-2xl font-semibold text-secondary-alt">Mission:</h3>
+            <p className="text-lg">{aboutData.mission}</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-secondary-alt">Vision:</h3>
+            <p className="text-lg">{aboutData.vision}</p>
+          </div>
         </div>
       </div>
     </section>

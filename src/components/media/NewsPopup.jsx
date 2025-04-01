@@ -12,7 +12,7 @@
 "use client"
 import React, { useEffect } from "react";
 import toast from "react-hot-toast";
-import { newsItems } from "../../data/newsData";
+import { newsItems } from "../../data/page-data/newsData";
 import { FaTimes } from "react-icons/fa"; // Import icons
 
 export default function NewsPopup() {

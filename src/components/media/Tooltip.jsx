@@ -1,15 +1,32 @@
 /**
  * @file Tooltip.jsx
- * @module Tooltip
- * @desc React component that displays a tooltip with adjustable position.
+ * @module UI/Tooltip
+ * @desc Reusable Tooltip component for displaying contextual information on hover.
+ *       Includes smooth open/close animations, automatic positioning to avoid viewport overflow,
+ *       and optional delay before showing.
+ *
+ * @features
+ * - Dynamically calculates tooltip position based on mouse position.
+ * - Auto-adjusts to prevent overflow outside viewport.
+ * - Optional `openDuration` delay for when tooltip should appear.
+ * - Smooth fade-in/fade-out animation.
+ * - Rendered using `React Portal` for correct layering above all content.
+ *
+ * @props {string} text - Tooltip text content.
+ * @props {number} [openDuration=1000] - Delay in milliseconds before tooltip appears.
+ * @props {string} [className] - Additional CSS classes for custom styling.
+ * @props {React.ReactNode} children - The element(s) that trigger the tooltip on hover.
+ *
+ * @example
+ * <Tooltip text="This is a tooltip" openDuration={500}>
+ *   <button>Hover me</button>
+ * </Tooltip>
  * 
  * @author Chace Nielson
  * @created Jul 28, 2024
- * @updated Mar 31, 2025
+ * @updated Apr 1, 2025
  */
-
 'use client'
-
 import React, { useState, useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
 

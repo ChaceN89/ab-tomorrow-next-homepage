@@ -1,5 +1,3 @@
-"use client";
-
 /**
  * @file CallToAction.jsx
  * @module CallToAction
@@ -13,11 +11,11 @@
  * @see https://www.simulator.albertatomorrow.ca/ | Alberta Tomorrow Simulator
  */
 
-import React from "react";
-import Image from "next/image";
-import { callToActionData } from "@/data/callToActionData";
+// data
+import { callToActionData } from "@/data/home-page-data/callToActionData";
 
 // components
+import Image from "next/image";
 import BackgroundWrapper from "@/components/layout/BackgroundWrapper";
 import HexButton from "@/components/common/hexButton/HexButton";
 

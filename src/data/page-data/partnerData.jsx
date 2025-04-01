@@ -29,7 +29,7 @@
 // titles for the page
 export const partnerTitleData = {
   title: "Our Partners",
-  subtitle: "Alberta Tomorrow is a non-profit organization that relies on the support of our partners and sponsors to help us achieve our mission. We are grateful for their contributions and commitment to environmental stewardship and land-use planning.",
+  subtitle: "Alberta Tomorrow is a non-profit organization that relies on the support of our partners and sponsors to help us achieve our mission. We are grateful for their contributions and commitment to environmental stewardship and land-use planning. Download our sponsorship package today to learn more about becoming a partner.",
 };
 
 
