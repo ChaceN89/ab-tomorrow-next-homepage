@@ -12,6 +12,7 @@ import React from 'react';
 import { FiAlertCircle } from "react-icons/fi"; // Import error icon from react-icons
 import HexSeparator from '@/components/common/hexSparator/HexSeparator';
 
+import Image from "next/image";
 
 export default function SplashScreen({ errorMsg = false, errorText = null, errorLocation = null }) {
   return (
@@ -26,8 +27,14 @@ export default function SplashScreen({ errorMsg = false, errorText = null, error
 
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center flex-grow">
-        <img src="/site-logos/splash.png" alt="Site Logo" className="mb-4 w-32 h-32 animate-spin-slow" />
-          <div className="text-xl text-gray-600 text-center">
+        <Image
+          src="/site-logos/splash.png"
+          alt="Site Logo"
+          width={128}
+          height={128}
+          className="mb-4 rounded-full animate-pulse"
+        />       
+        <div className="text-xl text-gray-600 text-center">
           {errorMsg ? (
             <div className="flex flex-col items-center">
               <FiAlertCircle className="w-12 h-12 mb-2" />
