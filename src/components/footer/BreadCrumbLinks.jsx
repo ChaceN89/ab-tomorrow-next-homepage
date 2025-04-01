@@ -1,4 +1,29 @@
-import React from 'react';
+/**
+ * @file BreadCrumbLinks.jsx
+ * @module UI/BreadCrumbLinks
+ * @desc Reusable breadcrumb navigation component for secondary page navigation.
+ *       Displays a list of links with optional icons and separator slashes.
+ *
+ * @props {string} title - Title displayed above the breadcrumb links.
+ * @props {Array} list - Array of breadcrumb link items. Each item contains:
+ *    {string} label - The text label for the link.
+ *    {JSX.Element} [icon] - Optional icon displayed before the label.
+ *    {string} [href] - External link URL.
+ *    {string} [router] - Internal Next.js route path.
+ *
+ * @example
+ * <BreadCrumbLinks 
+ *    title="Resources"
+ *    list={[
+ *      { label: "Lesson Plans", icon: <FaBookOpen />, router: "/resources/lesson-plans" },
+ *      { label: "Videos", icon: <FaVideo />, href: "https://example.com/videos" }
+ *    ]}
+ * />
+ * 
+ * @author Chace Nielson
+ * @created Apr 1, 2025
+ * @updated Apr 1, 2025
+ */
 import LinkItem from '@/components/navbar/LinkItem';
 
 export default function BreadCrumbLinks({ title, list }) {

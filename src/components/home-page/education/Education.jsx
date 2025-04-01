@@ -24,9 +24,7 @@
  * - `educationData` (from @/data/educationData)
  * - Parallax background image (from @/assets/ui-elements/parallax-1.jpg)
  */
-import React from 'react';
 
-// Assets
 
 // UI Components
 import BackgroundWrapper from '@/components/layout/BackgroundWrapper';

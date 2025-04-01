@@ -1,10 +1,28 @@
+/**
+ * @file CurriculumDropDown.jsx
+ * @module UI/CurriculumDropDown
+ * @desc Dropdown component to toggle the display of curriculum learning outcomes.
+ *       Smoothly animates open/close and provides a clear list structure.
+ *
+ * @props {string} title - The title of the dropdown (e.g., grade level or subject).
+ * @props {string[]} learningOutcomes - List of learning outcome strings.
+ *
+ * @example
+ * <CurriculumDropDown 
+ *    title="Grade 6 Science"
+ *    learningOutcomes={["Identify renewable resources", "Understand watershed ecosystems"]}
+ * />
+ *
+ * @author Chace Nielson
+ * @created Apr 1, 2025
+ * @updated Apr 1, 2025
+ */
 "use client";
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
-
 export default function CurriculumDropDown({ learningOutcomes, title }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); // open state
 
   return (
     <div className=" py-2">
@@ -16,7 +34,6 @@ export default function CurriculumDropDown({ learningOutcomes, title }) {
         <h4 className="font-semibold text-base">{title}</h4>
         {isOpen ? <FaChevronUp className="ml-2" /> : <FaChevronDown className="ml-2" />}
       </button>
-
 
       <div
         className={`transition-all duration-300 ease-in-out overflow-hidden ${

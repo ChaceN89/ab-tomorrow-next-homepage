@@ -1,4 +1,34 @@
+/**
+ * @file Footer.jsx
+ * @module UI/Footer
+ * @desc The main footer component for the Alberta Tomorrow website. 
+ *       Displays key contact information, quick links, legal links, 
+ *       social media icons, and organizational description.
+ *
+ * @features
+ * - Contact information and email
+ * - Social media icons
+ * - Support Us donation block
+ * - Quick navigation links
+ * - Breadcrumb-style legal and tool links
+ * - Non-profit organization description
+ *
+ * @dependencies
+ * - ContactInfo.jsx
+ * - SocialMediaIcons.jsx
+ * - SupportUs.jsx
+ * - QuickLinks.jsx
+ * - BreadCrumbLinks.jsx
+ * - navData.js (for link data)
+ * 
+ * @author Chace Nielson
+ * @created Apr 1, 2025
+ * @updated Apr 1, 2025
+ */
+// Data
 import { extraPages, toolsDropDown } from '@/data/navData';
+
+// Components
 import SocialMediaIcons from './SocialMediaIcons';
 import ContactInfo from '../common/ContactInfo';
 import SupportUs from './SupportUs';
@@ -15,7 +45,6 @@ export default function Footer() {
             <div className='mt-4'/>
             <SocialMediaIcons />
           </div>
-
           <SupportUs />
           <QuickLinks />
           <BreadCrumbLinks title="Education Tools" list={toolsDropDown.list} />

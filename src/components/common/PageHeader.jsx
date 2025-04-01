@@ -14,8 +14,6 @@
  * @updated Apr 1, 2025
  */
 
-'use client'
-import React from 'react';
 import Image from 'next/image';
 
 export default function PageHeader({ title, subtitle }) {

@@ -1,14 +1,22 @@
 /**
  * @file SupportUs.jsx
- * @module SupportUs
- * @desc Support section with donation button and partner logo.
+ * @module UI/SupportUs
+ * @desc Compact support block encouraging donations with a partner logo.
+ *       Typically used in footers or sidebars.
+ *
+ * @features
+ * - Displays a call-to-action encouraging user donations.
+ * - Includes a DonateButton component.
+ * - Displays the Environmental Partner logo alongside the button.
+ *
+ * @dependencies
+ * - DonateButton (common button component)
+ * - next/image (for optimized logo display)
  *
  * @author Chace Nielson
  * @created Mar 31, 2025
- * @updated Mar 31, 2025
+ * @updated Apr 1, 2025
  */
-
-import React from 'react'
 import Image from 'next/image'
 import DonateButton from '../navbar/DonateButton'
 

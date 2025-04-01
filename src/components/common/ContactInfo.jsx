@@ -1,20 +1,25 @@
 /**
- * @file FooterContact.jsx
- * @module UI/FooterContact
- * @desc Compact contact block used in footers or sidebars.
+ * @file ContactInfo.jsx
+ * @module UI/ContactInfo
+ * @desc Compact contact information block used in footers, sidebars, or other sections.
+ *       Displays organization name, executive director, mailing address, and contact email.
  *
- * @props {boolean} [noTitle=false] - If true, hides the "Contact Us" title.
- * @props {boolean} [address=true] - If false, hides the physical mailing address.
+ * @author Chace Nielson
+ * @created Mar 27, 2025
+ * @updated Apr 1, 2025
+ *
+ * @features
+ * - Displays organization name and copyright
+ * - Shows executive director information
+ * - Optionally displays mailing address
+ * - Always displays contact email with a clickable mailto link
+ *
+ * @props {boolean} [address=false] - If true, shows the organization's mailing address.
  *
  * @example
- * <FooterContact />
- * <FooterContact noTitle />
- * <FooterContact address={false} />
- * 
- * @created Mar 27, 2025
+ * <ContactInfo /> // shows email only
+ * <ContactInfo address /> // shows email and address
  */
-
-import React from 'react';
 
 export default function ContactInfo({ address = false }) {
   return (

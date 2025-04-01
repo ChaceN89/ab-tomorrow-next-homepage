@@ -1,5 +1,27 @@
-import React from 'react';
+/**
+ * @file QuickLinks.jsx
+ * @module UI/Footer/QuickLinks
+ * @desc Displays categorized quick links in the footer, divided into scroll-based navigation links
+ *       and router-based informational links.
+ *
+ * @features
+ * - Scroll-to section links (Home, Intro, Education, About, etc.)
+ * - Informational links (FAQs, Board of Directors, Contact, Events, etc.)
+ * - Includes icons beside each link
+ * - Uses `LinkItem` component for handling scroll and router links
+ *
+ * @dependencies
+ * - LinkItem.jsx (handles Next.js and scroll links)
+ * - navData.js (for scrollLinks and learnMoreDropDown lists)
+ * 
+ * @author Chace Nielson
+ * @created Apr 1, 2025
+ * @updated Apr 1, 2025
+ */
+// data
 import { scrollLinks, learnMoreDropDown } from '@/data/navData';
+
+// components
 import LinkItem from '@/components/navbar/LinkItem';
 
 export default function QuickLinks() {

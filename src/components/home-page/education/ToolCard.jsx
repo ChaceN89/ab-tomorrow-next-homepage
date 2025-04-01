@@ -20,7 +20,7 @@
  * - Tailwind CSS utility classes
  */
 
-import React from 'react'
+// UI Components
 import HexButton from '@/components/common/hexButton/HexButton'
 
 export default function ToolCard({tool, index}) {

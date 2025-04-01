@@ -8,19 +8,14 @@
  * @created Mar 31, 2025
  * @updated Mar 31, 2025
  * 
- * @dependencies
- * - React
- * 
  * @notes
  * - Uses Tailwind CSS gradients and blur utilities.
  * - No interactive logic; purely visual.
- * - Designed for use behind content placeholders.
+ * - Designed for use behind content placeholders. - ex {isLoading && <PulseLoader />}
  */
-import React from 'react'
 
 export default function PulseLoader() {
   return (
-      <div className="absolute inset-0 bg-gradient-to-br from-accent/40 via-tertiary/40 to-primary/40 blur-3xl animate-pulse overflow-hidden" /> 
-
+    <div className="absolute inset-0 bg-gradient-to-br from-accent/40 via-tertiary/40 to-primary/40 blur-3xl animate-pulse overflow-hidden" /> 
   )
 }

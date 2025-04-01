@@ -1,19 +1,31 @@
 /**
  * @file SocialMediaIcons.jsx
  * @module UI/SocialMediaIcons
- * @desc Displays a row of linked social media icons with hover effects.
+ * @desc Displays a set of linked social media icons with dynamic hover color effects.
+ *       Used in footer, sidebar, or contact sections to encourage social engagement.
  *
- * @props {string} [title] - Optional title to display above the icons.
+ * @features
+ * - Supports Facebook, Twitter, YouTube, Instagram, and Pinterest links.
+ * - Optional title prop to display a section heading.
+ * - Clean hover animations with platform-specific colors.
+ * 
+ * @components
+ * - SocialIcon: Internal reusable component to render each social link with hover effect.
  *
+ * @props {string} [title] - Optional title displayed above the icons.
+ * 
  * @example
  * <SocialMediaIcons title="Follow Us" />
  * 
+ * @author Chace Nielson
  * @created Mar 27, 2025
+ * @updated Apr 1, 2025
  */
 
-import React from 'react';
+// icons
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa';
 
+// single icon component
 function SocialIcon({ href, Icon, hoverColor }) {
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
@@ -22,6 +34,7 @@ function SocialIcon({ href, Icon, hoverColor }) {
   );
 }
 
+// main component
 export default function SocialMediaIcons({ title }) {
   return (
     <div className="space-y-2">

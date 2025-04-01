@@ -1,11 +1,30 @@
 /**
  * @file QuestionDropdown.jsx
  * @module UI/QuestionDropdown
- * @desc FAQ item with collapsible answer section. Animates open/close and avoids raw HTML rendering.
+ * @desc Reusable FAQ dropdown item with collapsible answer section and animated open/close effect.
+ *       Designed for use in FAQ pages or any Q&A accordion section.
+ *
+ * @props {string} question - The FAQ question text.
+ * @props {JSX.Element | string} answer - The answer content, can be plain text or JSX.
+ * @props {string} [maxW='4xl'] - Optional max-width constraint for the dropdown container.
+ *
+ * @example
+ * <QuestionDropdown 
+ *    question="What is Alberta Tomorrow?" 
+ *    answer="Alberta Tomorrow is an educational simulation tool..."
+ * />
  * 
  * @author Chace Nielson
  * @created Mar 27, 2025
+ * @updated Apr 1, 2025
+ *
+ * @features
+ * - Smooth animated open/close transition
+ * - Accessible toggle button with `aria-expanded`
+ * - Accepts JSX or plain text as the answer content
+ * - Optional max-width customization
  */
+
 "use client"
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';

@@ -29,7 +29,7 @@
  * @updated Mar 24, 2025
  */
 
-import React from 'react';
+// styles
 import './HexSeparator.styles.css'; // Import the CSS file for hexagon styles
 
 // Separator.jsx

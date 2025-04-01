@@ -19,10 +19,8 @@
  * @created Mar 26, 2025
  * @updated Mar 26, 2025
  */
-import React from 'react'
 
 export default function SectionHeader({ title, description, shadow=false }) {
-
   return (
     <div className={`max-w-6xl mx-auto text-center space-y-6 relative text-inherit ${shadow ? 'large-shadow' : ''}`}>
     <h2 className="text-3xl lg:text-4xl font-bold uppercase font-display">
