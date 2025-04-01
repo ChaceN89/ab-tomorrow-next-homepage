@@ -102,9 +102,9 @@ export const scrollLinks = [
 export const toolsDropDown = {
   title: "Resources",
   list:[
+    {label: "Lesson Plans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
     {label: "Videos", icon: <FaVideo />, router: "/resources/videos" },
     {label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
-    {label: "Lesson Plans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
     {label: "Energy Tomorrow", icon: <FaBolt />, href: "https://www.youtube.com/watch?v=Uca8En3ZHH0" },
     {label: "Wildlife Tomorrow", icon: <GiFlatPawPrint />, href: "https://www.simulator.albertatomorrow.ca" },
   ]
