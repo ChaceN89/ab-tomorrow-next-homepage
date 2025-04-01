@@ -10,6 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
+import PrivacyPolicy from '@/components/pages/Polices/PrivacyPolicy'
 
 // Page-specific metadata
 export const metadata = {
@@ -18,5 +19,5 @@ export const metadata = {
 
 // Board of Directors Page Component
 export default function PrivacyPolicyPage() {
-  return ("")
+  return (<PrivacyPolicy/>)
 }
