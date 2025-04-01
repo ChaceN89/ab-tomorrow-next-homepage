@@ -9,8 +9,8 @@
  */
 
 import React from "react";
-import { bannerPartners } from "../../data/partnerData";
-import Tooltip from "../media/Tooltip";
+import { bannerPartners } from "../../../data/partnerData";
+import Tooltip from "../../media/Tooltip";
 import "./partnerBanner.styles.css";
 import Image from "next/image";
 

@@ -16,7 +16,7 @@ import AnalyticsProvider from "@/analytics/AnalyticsProvider";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
-import PartnerBanner from "@/components/partners/PartnerBanner";
+import PartnerBanner from "@/components/pages/partners/PartnerBanner";
 import NewsPopup from "@/components/media/NewsPopup";
 
 // function for development Page Titles

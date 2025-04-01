@@ -1,6 +1,6 @@
 @import "tailwindcss";
-@import "../../app/globals.css";
-@import "../../app/layout.css";
+@import "../../../app/globals.css";
+@import "../../../app/layout.css";
 
 
 /* Specific Partners can havethis to ve more visible */
@@ -53,10 +53,10 @@
     transform: translateX(0%); 
     opacity: 0;
   }
-  2% {
+  1% {
     opacity: 1;
   }
-  98% {
+  99% {
     opacity: 1;
   }
   100% { 
@@ -78,10 +78,10 @@
     transform: translateY(0%); 
     opacity: 0;
   }
-  2% {
+  1% {
     opacity: 1;
   }
-  98% {
+  99% {
     opacity: 1;
   }
   100% { 

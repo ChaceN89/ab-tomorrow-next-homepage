@@ -2,7 +2,6 @@
  * @file page.jsx
  * @module app/faqs
  * @desc Frequently Asked Questions page for Alberta Tomorrow. Provides answers to common questions.
-
  *
  * @author Chace Nielson
  * @created Mar 31st, 2025
