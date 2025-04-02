@@ -16,7 +16,7 @@ import Image from "next/image";
 
 export default function SplashScreen({ errorMsg = false, errorText = null, errorLocation = null }) {
   return (
-    <div className="flex flex-col justify-between min-h-screen  overflow-hidden outlet-background z-[999] fixed w-screen h-screen bg-tertiary">
+    <div className="flex flex-col justify-between min-h-screen  overflow-hidden outlet-background z-[999] fixed w-screen h-screen ">
       
       {/* Top Hex Separator */}
       <HexSeparator 
@@ -26,7 +26,7 @@ export default function SplashScreen({ errorMsg = false, errorText = null, error
       />
 
       {/* Main Content */}
-      <div className="flex flex-col items-center justify-center flex-grow">
+      <div className="flex flex-col items-center justify-center flex-grow bg-primary">
         <Image
           src="/site-logos/splash.png"
           alt="Site Logo"

@@ -41,7 +41,7 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL("https://albertatomorrow.ca"), // ✅ Add this
 
-  title: getPageTitle("home"),
+  title: getPageTitle("Home"),
   description: "An interactive tool to explore Alberta's environmental changes over time.",
   icons: {
     icon: [
@@ -87,7 +87,7 @@ export default function RootLayout({ children }) {
         <NewsPopup/>
         <NavBar />
         <PartnerBanner />
-        
+
         <ClientLayout>
           <main className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden">
             <HexSeparator

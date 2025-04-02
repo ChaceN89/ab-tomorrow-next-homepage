@@ -88,7 +88,7 @@ export default function BackgroundWrapper({ background, backgroundSm, children, 
       {/* Blurry low-res background */}
       {backgroundSm && (
         <div
-          className="absolute inset-0 filter  transition-opacity duration-1200"
+          className="absolute inset-0 filter  transition-opacity duration-500"
           style={{
             ...baseBackgroundStyle,
             backgroundImage: `url(${backgroundSm})`,
@@ -100,7 +100,7 @@ export default function BackgroundWrapper({ background, backgroundSm, children, 
 
       {/* Sharp high-res background */}
       <div
-        className="absolute inset-0 transition-opacity duration-1200"
+        className="absolute inset-0 transition-opacity duration-500"
         style={{
           ...baseBackgroundStyle,
           backgroundImage: `url(${background})`,
