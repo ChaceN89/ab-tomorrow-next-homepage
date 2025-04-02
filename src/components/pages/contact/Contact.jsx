@@ -1,5 +1,21 @@
-import React from 'react';
-
+/**
+ * @file Contact.jsx
+ * @module UI/Contact/Contact
+ * @desc Displays the Contact page for Alberta Tomorrow. Includes contact information, support options, and social media links.
+ * 
+ * @author Chace Nielson
+ * @created Mar 31, 2025
+ * @updated Apr 1, 2025
+ *
+ * @exampleUsage
+ * <Contact />
+ * 
+ * @dependencies
+ * - @/components/common/PageHeader
+ * - @/components/footer/SupportUs
+ * - @/components/footer/SocialMediaIcons
+ * - ./ContactInfo
+ */
 import PageHeader from '@/components/common/PageHeader';
 import SupportUs from '@/components/footer/SupportUs';
 import SocialMediaIcons from '@/components/footer/SocialMediaIcons';

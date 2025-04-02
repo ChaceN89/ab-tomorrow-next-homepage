@@ -30,6 +30,7 @@ import SplashScreen from "@/components/layout/SplashScreen";
 import { getPageTitle } from "@/utils/metadataUtils";
 import { Suspense } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import ClientLayout from "./ClientLayout";
 
 // viewport meta data
 export const viewport = {
@@ -80,39 +81,26 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='antialiased flex flex-col min-h-screen min-w-56'>
-        <Suspense 
-          fallback={
-           <AnimatePresence>
-            <motion.div
-              key="splash"
-              initial={{ opacity: 1 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <SplashScreen />
-            </motion.div>
-          </AnimatePresence>
-          }
-        >
-          <ScrollProgress/>
-          <ToasterLayout />
-          <DisplayTesting />
-          <NewsPopup/>
-          <AnalyticsProvider>
-            <PartnerBanner />
-            <NavBar />
-            <main className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden">
-              <HexSeparator randomColors rows={10}   hexClass='bg-primary-alt opacity-10'/>
-              <div className="relative ">
-                {children}
-              </div>
-              <div className="mt-auto">
-                <Footer />
-              </div>
-            </main>
-          </AnalyticsProvider>
-        </Suspense>
+        <ScrollProgress/>
+        <ToasterLayout />
+        <DisplayTesting />
+        <NewsPopup/>
+        <NavBar />
+        <PartnerBanner />
+        
+        <ClientLayout>
+          <main className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden">
+            <HexSeparator
+              randomColors
+              rows={10}
+              hexClass="bg-primary-alt opacity-10"
+            />
+            <div className="relative">{children}aaaaaaa</div>
+            <div className="mt-auto">
+              <Footer />
+            </div>
+          </main>
+        </ClientLayout>
       </body>
     </html>
   );

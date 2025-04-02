@@ -1,3 +1,20 @@
+/**
+ * @file Events.jsx
+ * @module UI/Events/Events
+ * @desc Displays a list of future and past events for Alberta Tomorrow. Separates events based on their date and renders them using the EventCard component.
+ * 
+ * @author Chace Nielson
+ * @created Mar 31, 2025
+ * @updated Apr 1, 2025
+ *
+ * @exampleUsage
+ * <Events />
+ * 
+ * @dependencies
+ * - @/components/common/PageHeader
+ * - @/components/pages/events/EventCard
+ * - @/data/page-data/eventData
+ */
 import React from 'react';
 import { eventData, eventTitleData } from '@/data/page-data/eventData'; // Import event data
 import EventCard from './EventCard';

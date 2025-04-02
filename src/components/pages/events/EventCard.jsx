@@ -1,3 +1,16 @@
+/**
+ * @file EventCard.jsx
+ * @module UI/Events/EventCard
+ * @desc Displays an individual event card with title, summary, dates, description, image, and speaker information.
+ *       Includes loading placeholder animation until image is fully loaded.
+ * 
+ * @author Chace Nielson
+ * @created Mar 31, 2025
+ * @updated Apr 1, 2025
+ *
+ * @exampleUsage
+ * <EventCard event={event} />
+ */
 "use client";
 
 import PulseLoader from "@/components/common/PulseLoader";
