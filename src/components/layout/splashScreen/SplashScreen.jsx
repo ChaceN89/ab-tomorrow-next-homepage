@@ -8,15 +8,14 @@
  * @updated Mar 16, 2025 by Chace Nielson
  */
 
-import React from 'react';
 import { FiAlertCircle } from "react-icons/fi"; // Import error icon from react-icons
 import HexSeparator from '@/components/common/hexSparator/HexSeparator';
-
 import Image from "next/image";
+import './SplashScreen.styles.css'; // Import custom CSS for the splash screen
 
 export default function SplashScreen({ errorMsg = false, errorText = null, errorLocation = null }) {
   return (
-    <div className="flex flex-col justify-between min-h-screen  overflow-hidden outlet-background z-[999] fixed w-screen h-screen ">
+    <div className="flex flex-col justify-between min-h-screen  overflow-hidden z-[999] fixed w-screen h-screen ">
       
       {/* Top Hex Separator */}
       <HexSeparator 
@@ -32,8 +31,10 @@ export default function SplashScreen({ errorMsg = false, errorText = null, error
           alt="Site Logo"
           width={128}
           height={128}
-          className="mb-4 rounded-full animate-pulse"
-        />       
+          priority
+          style={{ aspectRatio: '1 / 1', objectFit: 'contain' }}
+          className="mb-4"
+        />
         <div className="text-xl text-gray-600 text-center">
           {errorMsg ? (
             <div className="flex flex-col items-center">

@@ -5,33 +5,34 @@
  *
  * @author Chace Nielson
  * @created Mar 14, 2025
- * @updated Mar 14, 2025
+ * @updated Apr 1, 2025
  */
 
-"use client"; // Required for Next.js (Remove if using standard React)
+"use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function ScrollProgress() {
-  // Track the scroll progress of the `main` content section
-  
   const { scrollYProgress } = useScroll();
-
-  // Smooth progress animation
   const springScrollYProgress = useSpring(scrollYProgress, {
     stiffness: 300,
     damping: 30,
     mass: 1,
   });
 
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
   return (
-    <>
-      {/* Custom Scroll Progress Bar */}
-      <motion.div
-        className="fixed top-0 left-0 w-full h-0.5 bg-tertiary-alt origin-left z-50"
-        style={{ scaleX: springScrollYProgress }}
-      />
-    </>
+    <motion.div
+      className="fixed top-0 left-0 w-full h-0.5 bg-tertiary-alt origin-left z-50"
+      style={{ scaleX: springScrollYProgress }}
+    />
   );
 }

@@ -5,7 +5,7 @@
  * 
  * @author Chace Nielson
  * @created Mar 14, 2025
- * @updated Mar 31, 2025
+ * @updated Apr 1, 2025 by Chace Nielson
  */
 
 // styles
@@ -15,21 +15,15 @@ import "./layout.css";
 // components
 import ToasterLayout from "@/components/layout/ToasterLayout";
 import DisplayTesting from "@/components/testing/DisplayTesting";
-import AnalyticsProvider from "@/analytics/AnalyticsProvider";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import PartnerBanner from "@/components/pages/partners/PartnerBanner";
 import NewsPopup from "@/components/media/NewsPopup";
-
-// More Components
 import ScrollProgress from "@/components/layout/ScrollProgress";
-import SplashScreen from "@/components/layout/SplashScreen";
 
 // functions
 import { getPageTitle } from "@/utils/metadataUtils";
-import { Suspense } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import ClientLayout from "./ClientLayout";
 
 // viewport meta data
@@ -95,7 +89,7 @@ export default function RootLayout({ children }) {
               rows={10}
               hexClass="bg-primary-alt opacity-10"
             />
-            <div className="relative">{children}aaaaaaa</div>
+            <div className="relative">{children}</div>
             <div className="mt-auto">
               <Footer />
             </div>

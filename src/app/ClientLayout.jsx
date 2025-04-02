@@ -9,16 +9,13 @@
  */
 
 "use client";
-
 import { Suspense } from "react";
 import AnalyticsProvider from "@/analytics/AnalyticsProvider";
-import SplashScreen from "@/components/layout/SplashScreen";
+import SplashScreen from "@/components/layout/splashScreen/SplashScreen";
 
 export default function ClientLayout({ children }) {
   return (
-    <Suspense
-      fallback={<SplashScreen />}
-    >
+    <Suspense fallback={<SplashScreen />} >
       <AnalyticsProvider>{children}</AnalyticsProvider>
     </Suspense>
   );

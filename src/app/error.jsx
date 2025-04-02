@@ -16,7 +16,7 @@
  * @updated Mar 31, 2025
  */
 'use client'
-import SplashScreen from "@/components/layout/SplashScreen"
+import SplashScreen from "@/components/layout/splashScreen/SplashScreen"
 
 export default function Error({ error }) {
   const isDevelopment = process.env.NEXT_PUBLIC_ENVIRONMENT === 'development'
