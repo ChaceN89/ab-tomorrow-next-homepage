@@ -67,7 +67,7 @@ export default function VideoDisplay() {
   if (loading) return <div>Loading videos...</div>;
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-12 mb-20">
       {/* === Filters === */}
       <div className="flex flex-col gap-6 mb-8">
         <p>Total Videos: {videos.length}</p>
@@ -199,25 +199,27 @@ export default function VideoDisplay() {
             <Element
                 name={category}
                 key={category}
-                className="space-y-6 bg-tertiary-alt/20 p-4 rounded-3xl"
+                className="space-y-6 bg-tertiary-alt/20 p-6 rounded-3xl border-2 border-secondary shadow-2xl"
               >
                 <h2 className="text-2xl font-bold border-b border-black pb-2">
                   {category}
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
                   {vids.map((video) => (
-                    <MediaFrame
-                      key={video.id}
-                      type="video"
-                      src={extractYouTubeId(video.media.url)}
-                      title={video.title}
-                      description={video.description}
-                      className="h-80"
-                    />
+                    <div key={video.id} className="flex flex-col h-full ">
+                      <div className="min-h-[3.5rem] flex items-center justify-center text-center px-2 bg-primary/10 rounded-t-lg">
+                        <h3 className="text-lg font-semibold">{video.title}</h3>
+                      </div>
+                      <MediaFrame
+                        type="video"
+                        src={extractYouTubeId(video.media.url)}
+                        description={video.description}
+                        className="h-80"
+                      />
+                    </div>
                   ))}
                 </div>
               </Element>
-          
           );
         })}
     </div>

@@ -13,10 +13,9 @@ import ResourcePage from "@/components/pages/resources/ResourcePage";
 
 export default function ResourceLayout({ children }) {
   return (
-    <>
-      <ResourcePage >
-        {children}
-      </ResourcePage>
-    </>
+    <div>
+      <ResourcePage />
+      <main className="min-h-[75vh] page-width">{children}</main>
+    </div>
   );
 }
