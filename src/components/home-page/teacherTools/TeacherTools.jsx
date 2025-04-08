@@ -53,7 +53,7 @@ export default function TeacherTools() {
         </div>
 
         {/* Call to Action Buttons */}
-        <div className="space-y-6 bg-tertiary-alt/30 border border-accent-alt/30 backdrop-blur-3xl rounded-xl p-6 mb-8 max-w-3xl mx-auto">
+        <div className="space-y-6 bg-primary-alt/30 rounded-xl p-6 mb-8 max-w-3xl mx-auto">
           <div className="flex flex-col sm:flex-row justify-center gap-5 text-center">
             <HexButton link="https://simulator.albertatomorrow.ca">Sign Up</HexButton>
             <HexButton asLink link="/resources/lesson-plans">Lesson Plans</HexButton>

@@ -13,7 +13,7 @@ export const indigenousVoicesData = {
   title: 'Indigenous Voices',
   description:
   <span>
-    We are pleased to introduce our <span className="text-accent">"Indigenous Voices Module"</span> — a new learning module in the Land Use Simulator that centers Indigenous ways of knowing through the Two-Eyed Seeing model.
+    We are pleased to introduce our <span className="font-bold">"Indigenous Voices Module"</span> — a new learning module in the Land Use Simulator that centers Indigenous ways of knowing through the Two-Eyed Seeing model.
   </span>,
 
   // Media section

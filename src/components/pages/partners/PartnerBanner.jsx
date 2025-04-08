@@ -56,7 +56,7 @@ function PartnerList() {
 // Export two lists with different styles based on screen size
 export default function PartnerBanner() {
   return (
-    <div className="z-[9999]">
+    <div className="z-[999]">
       {/* Desktop Version */}
       <div className="hidden lg:block partner-banner-vertical scroll-element">
         <PartnerList/>

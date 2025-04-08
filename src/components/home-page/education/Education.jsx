@@ -38,7 +38,7 @@ import { eductionData } from '@/data/home-page-data/educationData';
 export default function Education() {
   return(
     <BackgroundWrapper background={"ui-elements/parallax-1.jpg"} backgroundSm={null} fixed blur >
-      <div className='home-section home-y-padding space-y-8 '>
+      <div className='home-section home-y-padding space-y-8  '>
         <SectionHeader
           title={eductionData.title}
           description={eductionData.description}
@@ -78,7 +78,7 @@ export default function Education() {
           title={eductionData.waterRangerKitTitle}
           description={eductionData.waterRangerKitDescription}
         />
-        <div className='h-4'/>
+        <div className='h-2'/>
       </div>
     </BackgroundWrapper>
   )

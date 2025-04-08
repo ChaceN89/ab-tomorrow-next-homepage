@@ -18,7 +18,7 @@ import { indigenousVoicesData } from '@/data/home-page-data/indigenousVoicesData
 export default function IndigenousVoices() {
   return (
     <section className="bg-tertiary">
-      <div className="home-section home-y-padding space-y-10">
+      <div className="home-section home-y-padding space-y-10 ">
 
         {/* === Header === */}
         <SectionHeader
@@ -74,7 +74,7 @@ export default function IndigenousVoices() {
 
           {/* Acknowledgment Text */}
           <div className="order-2 space-y-4 lg:col-span-3">
-            <h3 className="text-2xl font-semibold text-secondary-alt">
+            <h3 className="text-2xl font-bold ">
               {indigenousVoicesData.landAcknowledgment.heading}
             </h3>
             <div className="text-lg leading-relaxed">

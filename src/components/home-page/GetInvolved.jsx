@@ -31,16 +31,6 @@ export default function GetInvolved() {
 
         {/* Sponsorship Button */}
         <div className="flex justify-center">
-          {/* <HexButton
-            color="accent"
-            textColor="black"
-            hoverColor="tertiary"
-            link="/pdfs/AlbertaTomorrowSponsorshipPackage.pdf"
-          >
-            <span className="flex items-center justify-center gap-2">
-              Download the Sponsorship Package <FaFile />
-            </span>
-          </HexButton> */}
           <SponsorPackageBtn/>
         </div>
 

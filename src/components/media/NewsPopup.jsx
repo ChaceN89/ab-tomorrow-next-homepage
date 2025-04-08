@@ -19,8 +19,8 @@ import { Link as ScrollLink } from "react-scroll";
 
 export default function NewsPopup() {
   // timing settings
-  const startDelay = 2500; // Delay before first toast starts 
-  const toastDelay = 4000; // Delay between each toast
+  const startDelay = 5000;     // Delay before first toast starts 
+  const toastDelay = 6000;     // Delay between each toast
   const toastDuration = 14000; // Duration of each toast
 
   useEffect(() => {

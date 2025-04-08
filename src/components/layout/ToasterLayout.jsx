@@ -32,9 +32,10 @@ export default function ToasterLayout() {
   return (
     <Toaster
       position={isSm ? "bottom-right" : "bottom-center"}
-      reverseOrder={false}
+      reverseOrder={true}
       toastOptions={{
         style: {
+          zIndex: 9999, // make sure its always on top
           backgroundColor: "var(--color-primary-alt-transparent)", 
           border: "2px solid var(--color-primary)",
           borderRadius: "12px", 

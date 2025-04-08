@@ -25,7 +25,7 @@ export const interactiveToolsData = [
   {
     name: 'Energy Tomorrow',
     icon: "/tool-logos/energy-tomorrow-logo.png",
-    description: 'Learn how energy production impacts Alberta’s economy and environment.',
+    description: 'Explore how Alberta’s energy systems affect the economy, environment, and communities. Learn about sustainable energy options, emissions, and the challenges of balancing energy needs with climate goals.',
     inDevelopment: true,
     link: null,
     buttonText: 'Coming Soon',
@@ -33,7 +33,7 @@ export const interactiveToolsData = [
   {
     name: 'Wildlife Tomorrow',
     icon: "/tool-logos/wildlife-tomorrow-logo.png",
-    description: 'Explore conservation efforts and the impact of land use on Alberta’s wildlife.',
+    description: 'Explores how climate change and human activity impact wildlife habitats across Alberta. Learn about conservation efforts, vulnerable species, and how our choices shape the future of biodiversity.',
     inDevelopment: true,
     link: null,
     buttonText: 'Coming Soon',
