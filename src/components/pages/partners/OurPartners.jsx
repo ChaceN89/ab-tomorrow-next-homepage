@@ -19,7 +19,7 @@
  * - PartnerShowcase: Reusable component to render partner logos and descriptions.
  * - PageHeader: Displays page title and subtitle.
  */
-
+"use client"; // This file is a client component
 // Data
 import {
   champions,
@@ -34,14 +34,24 @@ import {
 import PartnerShowcase from "./PartnersShowcase";
 import PageHeader from "@/components/common/PageHeader";
 import SponsorPackageBtn from "@/components/common/SponsorPackageBtn";
+import SponsorshipTable from "./SponsorshipTable";
+
+// import { Link as ScrollLink } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+
 
 export default function OurPartners() {
   return (
     <div className='page-width '>
       <div className='page'>
         <PageHeader title={partnerTitleData.title} subtitle={partnerTitleData.subtitle} />
-        <div className="flex justify-center items-center mb-16">
-          <SponsorPackageBtn/>
+
+        {/* scroll link to the sponsor section */}
+        <div className="flex justify-start mb-8">
+
+          <ScrollLink to={"sponsor-package"} smooth duration={1000} offset={-50} className="cursor-pointer text-center py-2 px-4 border rounded-lg bg-primary text-white hover:bg-primary-alt transition duration-300">
+            Learn About Becoming a Sponsor
+          </ScrollLink>
         </div>
 
         <div className="mt-12 space-y-12">
@@ -63,8 +73,14 @@ export default function OurPartners() {
 
           <PartnerShowcase title="Supporters" partners={supporters} />
           <div className="hidden lg:block border-b-2 border-black/20 mx-2" />
-          <PartnerShowcase title="Past Sponsors" partners={pastSponsors} />
+          <PartnerShowcase title="Past Sponsors" partners={pastSponsors} disableLink />
         </div>
+
+
+        <div id='sponsor-package' className="flex justify-center items-center my-8 p-8">
+          <SponsorPackageBtn/>
+        </div>
+          <SponsorshipTable/>
       </div>
     </div>
   )

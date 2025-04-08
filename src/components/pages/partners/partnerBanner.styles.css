@@ -5,9 +5,7 @@
 
 /* Specific Partners can havethis to ve more visible */
 .partner-shadow {
-  @apply mix-blend-difference ;
-  filter: drop-shadow(4px 6px 2px black);  
-  /* doens't work for everything */
+  filter: drop-shadow(2.8px 1px 0.2px black);  
 }
 
 /* Vertical banner on right side */
