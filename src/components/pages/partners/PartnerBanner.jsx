@@ -24,7 +24,7 @@ const longList = shuffledPartners.concat(shuffledPartners).concat(shuffledPartne
 
 function PartnerList() {
   return (
-    <ul className="flex flex-wrap lg:flex-col gap-4 justify-center items-center">
+    <ul className="flex flex-wrap lg:flex-col gap-4 justify-center items-center ">
       {longList.map((partner, index) => (
         <li key={index}>
           <a href={partner.link} target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-2 items-center">
@@ -56,7 +56,7 @@ function PartnerList() {
 // Export two lists with different styles based on screen size
 export default function PartnerBanner() {
   return (
-    <>
+    <div className="z-[9999]">
       {/* Desktop Version */}
       <div className="hidden lg:block partner-banner-vertical scroll-element">
         <PartnerList/>
@@ -64,6 +64,6 @@ export default function PartnerBanner() {
       <div className="lg:hidden partner-banner-horizontal scroll-element">
         <PartnerList/>    
       </div>
-    </>
+    </div>
   );
 }

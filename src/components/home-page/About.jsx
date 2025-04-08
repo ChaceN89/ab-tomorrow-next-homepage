@@ -16,7 +16,7 @@ import { aboutData } from '@/data/home-page-data/aboutData';
 
 export default function About() {
   return (
-    <section className="bg-accent">
+    <section className="bg-accent  pb-2">
       <div className="home-section home-y-padding space-y-10">
 
         <SectionHeader

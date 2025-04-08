@@ -38,21 +38,20 @@ import InteractiveTools from '@/components/home-page/InteractiveTools'
 import Education from '@/components/home-page/education/Education'
 import TeacherTools from '@/components/home-page/teacherTools/TeacherTools'
 import About from '@/components/home-page/About'
+import IndigenousVoices from '@/components/home-page/IndigenousVoices'
 import GetInvolved from '@/components/home-page/GetInvolved'
-
 
 import HexSeparator from '@/components/common/hexSparator/HexSeparator'
 
 export default function Home() {
   return (
-    <div className='overflow-hidden '>
+    <div className='overflow-hidden'>
       <section id='hero'>
         <Hero/>
       </section>
       <section id='intro' className='overflow-hidden' >
         <HexSeparator rows={13} hexClass="bg-secondary-alt opacity-40"/>
         <HexSeparator randomColors rows={13} hexClass='bg-primary-alt opacity-5 '/>
-
         <Intro/>
         <HexSeparator bottom rows={4} parentClass='h-8 bg-primary' hexClass="bg-secondary-alt opacity-40"/>
         <CallToAction/>
@@ -63,18 +62,25 @@ export default function Home() {
       </section>
       <section id='education'>
         <Education/>
-        <HexSeparator bottom rows={2} hexClass='bg-primary-alt '/>
+        <HexSeparator bottom rows={2} hexClass='bg-primary-alt' parentClass='bg-primary h-0.5'/>
         <TeacherTools/>
-        <HexSeparator bottom rows={2} hexClass='bg-accent-alt '/>
       </section>
-      <section id='about' className='overflow-hidden'>
-        <About/>
+      <section id='about' >
         <div className='overflow-hidden'>
           <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-5 '/>
-          <HexSeparator bottom rows={2} hexClass='bg-accent '/>
+          <HexSeparator bottom rows={2} hexClass='bg-primary '/>
+          <About/>
+        </div>
+        <HexSeparator bottom rows={2} hexClass='bg-tertiary-alt '/>
+        <div className='indigenous-voices'>
+          <IndigenousVoices/>
+        </div>
+        <div className='overflow-hidden'>
+          <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-5 '/>
+          <HexSeparator bottom rows={2} hexClass='bg-tertiary '/>
           <GetInvolved/>
         </div>
-      </section>
+        </section>
     </div>
   )
 }

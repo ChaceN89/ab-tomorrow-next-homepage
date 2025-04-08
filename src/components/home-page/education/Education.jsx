@@ -51,7 +51,7 @@ export default function Education() {
             hoverColor='primary'
             textColor='black'
             hoverTextColor='white'
-            link={"https://docs.google.com/forms/d/e/1FAIpQLSd24ENj4C_M9MsQvCLp9LEZv42EP3Ydz-k1SsV-6gRP7E_1Qg/viewform"}
+            link={"https://docs.google.com/forms/d/e/1FAIpQLSfUWfMWO5LKtOtLHmLbdZ5SR3lhTqmWn0xTzE8elyFb3WTchA/viewform?vc=0&c=0&w=1&flr=0"}
           >
             Sign Up for Virtual & In-Class Visits
           </HexButton>
