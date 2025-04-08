@@ -18,6 +18,7 @@
 import React, { useState } from "react";
 import PulseLoader from "../common/PulseLoader";
 import Image from "next/image";
+import YouTube from 'react-youtube';
 
 export default function MediaFrame({
   type = "image",
@@ -26,6 +27,7 @@ export default function MediaFrame({
   title = "",
   description = "",
   className = "h-64",
+  showWheel = false,
 }) {
   const [loaded, setLoaded] = useState(false);
 
@@ -34,28 +36,34 @@ export default function MediaFrame({
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
 
       <div className={`relative rounded-lg shadow-lg overflow-hidden large-shadow ${className}`}>
+        {!loaded && <PulseLoader showWheel={type === "video" || showWheel}/>}
+
         {type === "video" ? (
-          <iframe
-            src={`https://www.youtube.com/embed/${src}`}
-            title={alt}
-            allowFullScreen
+          <YouTube
+            videoId={src}
+            onReady={()=>setLoaded(true)}
             loading="lazy"
+            opts={{
+              width: "100%",
+              height: "100%",
+              playerVars: {
+                modestbranding: 1,
+                rel: 0,
+              },
+            }}
             className="w-full h-full"
           />
         ) : (
-          <>
-            {!loaded && <PulseLoader />}
-            <Image
-              src={`/${src}`} // since you store images in public/simulator-screenshots
-              alt={alt}
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className={`object-cover transition-opacity duration-500 ${
-                loaded ? "opacity-100" : "opacity-0"
-              }`}
-              onLoad={() => setLoaded(true)}
-            />
-          </>
+          <Image
+            src={`/${src}`}
+            alt={alt}
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className={`object-cover transition-opacity duration-500 ${
+              loaded ? "opacity-100" : "opacity-0"
+            }`}
+            onLoad={() => setLoaded(true)}
+          />
         )}
       </div>
 

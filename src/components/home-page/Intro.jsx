@@ -35,6 +35,7 @@ export default function Intro() {
               alt={item.alt}
               title={item.title}
               description={item.description}
+              showWheel
             />
           ))}
         </div>

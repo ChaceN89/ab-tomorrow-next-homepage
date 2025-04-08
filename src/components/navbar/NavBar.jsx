@@ -42,7 +42,7 @@ export default function NavBar() {
 
   return (
     <nav
-      className="fixed z-40 top-0 left-0 min-w-full py-2 backdrop-blur-md bg-gray-200/20 shadow-lg border-b border-white/10 2xl:min-w-[calc(100%-14rem)]"
+      className="fixed z-[9998] top-0 left-0 min-w-full py-2 backdrop-blur-md bg-gray-200/20 shadow-lg border-b border-white/10 2xl:min-w-[calc(100%-14rem)]"
       style={{
         backgroundColor: `rgba(31, 41, 55, ${isHomePage ? Math.min(0.75, 0.4 + scrollY / 1000) : 0.75})`,
       }}
