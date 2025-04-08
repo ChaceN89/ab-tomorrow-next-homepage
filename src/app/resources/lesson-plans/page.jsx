@@ -10,6 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
+import LessonDisplay from '@/components/pages/resources/lessons/LessonDisplay'
 
 // Page-specific metadata
 export const metadata = {
@@ -18,7 +19,5 @@ export const metadata = {
 
 // Board of Directors Page Component
 export default function LessonPlansPage() {
-  return (
-    <div>LessonPlansPage </div>
-  )
+  return (<LessonDisplay/>)
 }

@@ -11,8 +11,8 @@ export default function ResourcePage() {
     <div className="page-width">
       <div className="page">
         <PageHeader title={resourcePageData.title} subtitle={resourcePageData.subtitle} />
-        <ResourceNav />
       </div>
+      <ResourceNav />
     </div>
   )
 

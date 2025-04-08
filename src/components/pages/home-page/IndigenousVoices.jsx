@@ -12,7 +12,7 @@ import React from 'react';
 import SectionHeader from '@/components/common/SectionHeader';
 import NumberedHexList from '@/components/common/numberedHexList/NumberedHexList';
 import HexButton from '@/components/common/hexButton/HexButton';
-import MediaFrame from '../media/MediaFrame';
+import MediaFrame from '@/components/media/MediaFrame';
 import { indigenousVoicesData } from '@/data/home-page-data/indigenousVoicesData';
 
 export default function IndigenousVoices() {

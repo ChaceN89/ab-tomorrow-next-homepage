@@ -31,19 +31,19 @@
  * - All unused sections are commented out for now, but should be included in the final build.
  */
 import React from 'react'
-import Hero from '@/components/home-page/Hero'
-import Intro from '@/components/home-page/Intro'
-import CallToAction from '@/components/home-page/CallToAction'
-import InteractiveTools from '@/components/home-page/InteractiveTools'
-import Education from '@/components/home-page/education/Education'
-import TeacherTools from '@/components/home-page/teacherTools/TeacherTools'
-import About from '@/components/home-page/About'
-import IndigenousVoices from '@/components/home-page/IndigenousVoices'
-import GetInvolved from '@/components/home-page/GetInvolved'
+import Hero from './Hero'
+import Intro from './Intro'
+import CallToAction from './CallToAction'
+import InteractiveTools from './InteractiveTools'
+import Education from './education/Education'
+import TeacherTools from './teacherTools/TeacherTools'
+import About from './About'
+import IndigenousVoices from './IndigenousVoices'
+import GetInvolved from './GetInvolved'
 
 import HexSeparator from '@/components/common/hexSparator/HexSeparator'
 
-export default function Home() {
+export default function HomeMainPage() {
   return (
     <div className='overflow-hidden'>
       <section id='hero'>

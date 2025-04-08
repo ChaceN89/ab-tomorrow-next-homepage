@@ -15,7 +15,7 @@ export default function ResourceLayout({ children }) {
   return (
     <div>
       <ResourcePage />
-      <main className="min-h-[75vh] page-width">{children}</main>
+      <main className="min-h-[75vh]">{children}</main>
     </div>
   );
 }
