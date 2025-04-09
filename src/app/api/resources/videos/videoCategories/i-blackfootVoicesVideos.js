@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const blackfootVoicesVideos = [
   {
-    id: "bfv-1db0b7-a-blackfoot-perspective-on-water",
+    id: "bfv-1i-blackfoot-perspective-on-water",
     title: "A Blackfoot Perspective on Water",
     description:
       "A video sharing the Blackfoot perspective on water and its significance in Indigenous culture and the environment.",
@@ -25,7 +25,6 @@ export const blackfootVoicesVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=r-NzlnMgDj4",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/thumb-a-blackfoot-perspective.jpg",
-      shareUrl: "https://youtu.be/r-NzlnMgDj4",
       is360: true,
     },
     observedTime: 1607104608043, // Approx: Dec 4, 2020

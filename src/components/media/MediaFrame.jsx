@@ -112,12 +112,12 @@ export default function MediaFrame({
 
             {/* The click to play visual - can click anywhere */}
             <div 
-              className={`absolute inset-0 flex items-center justify-center transition-opacity duration-100 
+              className={`absolute inset-0 flex items-end p-4 justify-start transition-opacity duration-100 
                 ${loaded ? "opacity-100" : "opacity-0"} 
               `}
             >
               <div 
-                className="bg-white/30 backdrop-blur-lg group-hover:bg-white text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition border-1 border-black/30"
+                className="bg-white/40 backdrop-blur-md group-hover:bg-white text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition border-1 border-black/30"
               >
                 <span className="flex items-center gap-2 ">
                   Play Video <FaPlay className="text-xl" />

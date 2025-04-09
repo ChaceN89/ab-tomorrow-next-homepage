@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const pointsOfInterestVideos = [
   {
-    id: "poi-1c40e6-investigating-a-fish-kill",
+    id: "poi-1j-investigating-a-fish-kill",
     title: "Investigating a Fish Kill",
     description: "Michael Sullivan, provincial fish science specialist with Alberta Fish and Wildlife talks at Lake Isle where thousands of sucker fish are poking their heads out of the water literally gasping for air because of oxygen deficiency in the water in this video from March 2014.",
     coordinates: [-114.7121597, 53.63705],
@@ -24,14 +24,13 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=PD8FnEmi-l0",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/michael_sullivan_isle_lake_fish_kill.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=PD8FnEmi-l0",
       is360: false,
     },
     observedTime: 1394823600000,
     hashtags: ["water-quality", "ab-water", "land-use", "eutrophication", "fish-kill", "ab-environment"]
   },
   {
-    id: "poi-b28164-native-trout-in-alberta",
+    id: "poi-2j-native-trout-in-alberta",
     title: "Native Trout in Alberta",
     description: "Watch this recording of a LiveStream presented by CPAWS SAB, Trout Unlimited and Cows and Fish to learn about Native Trout in Alberta.",
     coordinates: [-114.51295548244191, 50.28114220769186],
@@ -43,14 +42,13 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=lztrWhXpnHg",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/7e1583c8-8c39-47f1-89ad-12c7433c8798/thumbnails/obs_7db174da-e122-4667-82c8-824f6787c863_tumb.0000514.jpg",
-      shareUrl: "",
       is360: false,
     },
     observedTime: 1595618236362,
     hashtags: ["water-quality", "native-trout", "cpaws", "trout-unlimited", "recreation", "agriculture"]
   },
   {
-    id: "poi-5f9a4b-athabasca-sand-dunes-ecological-reserve",
+    id: "poi-3j-athabasca-sand-dunes-ecological-reserve",
     title: "Athabasca Sand Dunes Ecological Reserve",
     description: "Open, moving sand dunes surrounded by lakes.",
     coordinates: [-110.89052249220633, 58.17244060712531],
@@ -62,14 +60,13 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=KrkcyfUn274",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_AthabascaSandDunes.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=KrkcyfUn274",
       is360: false,
     },
     observedTime: 1607104608043,
     hashtags: ["athabasca", "sand", "dunes", "ecological-reserve"]
   },
   {
-    id: "poi-0ce499-writing-on-stone-provincial-park",
+    id: "poi-4j-writing-on-stone-provincial-park",
     title: "Writing on Stone Provincial Park",
     description: "Learn about the landforms and the significance of the area to the Blackfoot people.",
     coordinates: [-111.63423545056287, 49.06794067595865],
@@ -81,14 +78,13 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=-MJXlSxkka8",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_WritingOnStone.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=-MJXlSxkka8",
       is360: false,
     },
     observedTime: 1607104608043,
     hashtags: ["writing-on-stone", "petroglyphs", "milk-river", "blackfoot"]
   },
   {
-    id: "poi-9911af-hanging-culvert",
+    id: "poi-5j-hanging-culvert",
     title: "Hanging Culvert",
     description: "Listen to this fisheries biologist explain what a hanging culvert is in the upper reaches of the Red Deer River Watershed.",
     coordinates: [-115.34838293901707, 51.6563101205077],
@@ -100,14 +96,13 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=r-_LsSi7FJ0",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_HangingCulvert.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=r-_LsSi7FJ0",
       is360: false,
     },
     observedTime: 1607104608043,
     hashtags: ["culvert", "stream-crossing", "fish", "watershed", "roads"]
   },
   {
-    id: "poi-25df3b-forest-attack-mountain-pine-beetle",
+    id: "poi-6j-forest-attack-mountain-pine-beetle",
     title: "Forest Attack - Mountain Pine Beetle",
     description: "Follow biologists as they look for trees attacked by Mountain Pine Beetles.",
     coordinates: [-119.163818359374, 54.47916440896674],
@@ -119,14 +114,13 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=3ojS4z9Z68c",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_PineBeetle.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=3ojS4z9Z68c",
       is360: false,
     },
     observedTime: 1607104608043,
     hashtags: ["forests", "pine-beetle", "infestation", "biology"]
   },
   {
-    id: "poi-98c65a-grassland-restoration",
+    id: "poi-7j-grassland-restoration",
     title: "Grassland Restoration",
     description: "This ranch south of Manyberries is an Alberta Conservation Association site.",
     coordinates: [-110.69863851935013, 49.39300483924299],
@@ -138,14 +132,13 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=u1qMoL3V61g",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_GrasslandRestoration.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=u1qMoL3V61g",
       is360: false,
     },
     observedTime: 1607104608043,
     hashtags: ["grassland", "restoration", "ranching", "conservation"]
   },
   {
-    id: "poi-5701bc-beneath-the-surface-water-monitoring",
+    id: "poi-8j-beneath-the-surface-water-monitoring",
     title: "Beneath the Surface: Water Monitoring in the Ghost Watershed",
     description: "Peek into a bucket of bugs and see why these aquatic invertebrates are indicators of water quality.",
     coordinates: [-114.8371996666042, 51.28249611577988],
@@ -157,14 +150,13 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=KdEN85OgG4o",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/gwas-ghost-waiparous.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=KdEN85OgG4o",
       is360: false,
     },
     observedTime: 1607104608043,
     hashtags: ["water", "ghost-watershed", "monitoring", "aquatic-invertebrates"]
   },
   {
-    id: "poi-c4e3b0-finding-water-healthy-land-stream",
+    id: "poi-9j-finding-water-healthy-land-stream",
     title: "Finding Water: Healthy Land, Healthy Stream",
     description: "A documentary video on the sources of Canada’s prairie rivers and their vulnerability to land use.",
     coordinates: [-114.359536, 49.865747],
@@ -176,7 +168,6 @@ export const pointsOfInterestVideos = [
       status: "Complete",
       url: "https://www.youtube.com/watch?v=E2wYNZJ-tC4",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/livingstone_findingwater.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=E2wYNZJ-tC4",
       is360: false,
     },
     observedTime: 1607104608043,
