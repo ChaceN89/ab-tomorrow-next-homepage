@@ -28,12 +28,13 @@ export default function FilterDropdown({
   setFilterMap,
   showScrollLinks = false,
 }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
+
 
   return (
     <div className="border border-gray-300 rounded-lg overflow-hidden">
       <button
-        className="w-full flex items-center justify-between px-4 py-3 font-semibold text-left bg-gray-100 hover:bg-gray-200 transition"
+        className="cursor-pointer w-full flex items-center justify-between px-4 py-3 font-semibold text-left bg-gray-100 hover:bg-tertiary transition"
         onClick={() => setOpen((prev) => !prev)}
       >
         {label}
@@ -43,15 +44,14 @@ export default function FilterDropdown({
         />
       </button>
 
-      {/* Animate height change */}
       <div
-        className={`transition-all duration-300 ease-in-out overflow-hidden px-4 ${
-          open ? "max-h-[4000px] py-4" : "max-h-0 py-0"
+        className={`origin-top transition-transform duration-400 ease-in-out transform overflow-hidden ${
+          open ? "scale-y-100" : "scale-y-0 h-0"
         }`}
       >
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 p-4">
           {Object.keys(filterMap).map((item) => (
-            <div key={item} className="flex items-center justify-end gap-1">
+            <div key={item} className="flex items-start justify-end gap-0.5">
               <button
                 className={`px-4 py-1 rounded-full border text-sm ${
                   filterMap[item]
@@ -66,7 +66,6 @@ export default function FilterDropdown({
                 }
               >
                 {item} 
-                
               </button>
 
               {showScrollLinks && (
@@ -74,10 +73,12 @@ export default function FilterDropdown({
                   to={item}
                   smooth
                   offset={-80}
-                  duration={500}
-                  className="text-xs text-blue-600 underline cursor-pointer"
+                  duration={1000}
+                  className="group cursor-pointer"
                 >
-                  <IoArrowRedo className="inline-block text-lg hover:text-xl" />
+                  <div className="w-6">
+                    <IoArrowRedo className="inline-block text-xl group-hover:text-2xl transition-all duration-200 text-black hover:text-tertiary-alt" />
+                  </div>
                 </Link>
               )}
             </div>

@@ -12,7 +12,7 @@ export default function ResourceNav() {
       <Link
         key={link.href}
         href={link.href}
-        className={`text-lg font-medium transition hover:text-primary p-2   ${
+        className={`text-xl  transition hover:text-primary py-2 font-semibold   ${
           pathname === link.href ? "text-primary underline" : "text-gray-700"
         }`}
       >

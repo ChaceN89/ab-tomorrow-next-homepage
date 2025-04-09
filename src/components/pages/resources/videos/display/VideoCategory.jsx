@@ -13,6 +13,7 @@ import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import React from "react";
 import { Element } from "react-scroll";
 import MediaFrame from "@/components/media/MediaFrame";
+import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 
 export default function VideoCategory({ category, videos = [] }) {
   if (!videos.length) return null;
@@ -20,25 +21,34 @@ export default function VideoCategory({ category, videos = [] }) {
   return (
     <Element
       name={category}
-      className="space-y-6 bg-tertiary-alt/20 p-6 rounded-3xl border-2 border-secondary shadow-2xl"
+      className=" bg-tertiary/20 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
     >
-      <h2 className="text-2xl font-bold border-b border-black pb-2">{category}</h2>
+      <HexSeparator rows={4} hexClass="bg-tertiary-alt/20"/>
+      <div className="relative ">
+        <h2 className="text-3xl font-bold border-b border-black py-4">{category}</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
-        {videos.map((video) => (
-          <div key={video.id} className="flex flex-col h-full">
-            <div className="min-h-[3.5rem] flex items-center justify-center text-center px-2 bg-primary/10 rounded-t-lg">
-              <h3 className="text-lg font-semibold">{video.title}</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-4 my-4">
+          {videos.map((video) => (
+            <div key={video.id} className="flex flex-col h-full justify-end gap-2">
+              <div className="flex  justify-start text-start px-1">
+                <h3 className="text-lg font-semibold">{video.title}</h3>
+              </div>
+              <MediaFrame
+                type="video"
+                src={extractYouTubeId(video.media.url)}
+                // description={video.description}
+                className="h-80"
+                thumbUrl={video.media.thumbUrl}
+              />
+              <div className="h-24 overflow-y-auto custom-scrollbar">
+                <p className="text-sm text-gray-500 mt-2 px-1">{video.description}</p>
+                <p className="text-sm text-gray-500 mt-2">
+                  {video.hashtags?.map((tag) => `#${tag}`).join(" ")}
+                </p>
+              </div>
             </div>
-            <MediaFrame
-              type="video"
-              src={extractYouTubeId(video.media.url)}
-              description={video.description}
-              className="h-80"
-              thumbUrl={video.media.thumbUrl}
-            />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </Element>
   );

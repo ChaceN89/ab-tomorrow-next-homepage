@@ -16,9 +16,9 @@ export default function VideoDisplay() {
   } = useVideoResource();
 
   return (
-    <div className="flex flex-col md:flex-row min-h-[50vh]  ">
+    <div className="flex flex-col md:flex-row min-h-[50vh] gap-2 px-2 ">
       {/* Filters Sidebar */}
-      <aside className="w-full md:w-52 xl:w-64  ">
+      <aside className="w-full md:w-52 xl:w-72  ">
         <SideBarWrapper>
           <VideoFilters/>
         </SideBarWrapper>
@@ -28,7 +28,7 @@ export default function VideoDisplay() {
       <main className="flex-1">
         { loading || !videos ? (
           <div className="relative mt-20">
-            <PulseLoader showWheel/>
+            <PulseLoader showWheel loadingText="Fetching Videos"/>
           </div>
         ) : (
           <VideoCategoryList/>

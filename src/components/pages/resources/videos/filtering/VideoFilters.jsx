@@ -8,25 +8,39 @@
 
 import React from "react";
 import { useVideoResource } from "../VideoResourceContext";
-import FilterByText from "./FilterByText";
 import FilterDropdown from "./FilterDropdown";
 
 export default function VideoFilters() {
   const {
-    videos,
+    loading,
     categoryFilters,
     setCategoryFilters,
     toolFilters,
     setToolFilters,
+    searchText,
+    setSearchText,
     only360,
     setOnly360,
+    numResults
   } = useVideoResource();
 
   return (
-    <div className="flex flex-col  py-4 px-2 gap-4 w-full">
-      <p>Total Videos: {videos?.length || 0}</p>
+    <div className="flex flex-col py-4 gap-4 w-full">
+      <p>
+        {loading
+          ? "Loading videos..."
+          : numResults > 0
+          ? `${numResults} Video${numResults > 1 ? "s" : ""}`
+          : "No videos found"}
+      </p>
 
-      <FilterByText />
+      <input
+        type="text"
+        value={searchText}
+        onChange={(e) => setSearchText(e.target.value)}
+        placeholder="Search videos..."
+        className="border px-4 py-2 rounded w-full"
+      />
 
       <label className="flex items-center gap-2">
         <input
