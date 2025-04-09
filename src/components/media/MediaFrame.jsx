@@ -64,6 +64,20 @@ export default function MediaFrame({
   // Play the video from the thumbnail click event
   const playVideo = () => {
     setvideoIsPlaying(true);
+
+
+    // pause all other videos
+    const allPlayers = document.querySelectorAll("iframe");
+    allPlayers.forEach((player) => {
+      if (player !== playerRef.current) {
+        const playerInstance = player.contentWindow;
+        if (playerInstance) {
+          playerInstance.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        }
+      }
+    });
+
+
     if (playerRef.current) {
       playerRef.current.playVideo();
     }
