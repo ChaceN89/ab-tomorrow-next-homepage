@@ -9,13 +9,17 @@
  * @updated Apr 1, 2025
  */
 
-import ResourcePage from "@/components/pages/resources/ResourcePage";
+import ResourceHeader from "@/components/pages/resources/ResourceHeader";
+import { VideoResourceProvider } from "@/components/pages/resources/videos/VideoResourceContext";
+import { LessonPlanResourceProvider } from "@/components/pages/resources/lesson-plans/LessonPlanResourceContext";
 
 export default function ResourceLayout({ children }) {
   return (
-    <div>
-      <ResourcePage />
-      <main className="min-h-[75vh]">{children}</main>
-    </div>
+    <LessonPlanResourceProvider>
+      <VideoResourceProvider>
+        <ResourceHeader />
+        <main className="min-h-screen">{children}</main>
+      </VideoResourceProvider>
+    </LessonPlanResourceProvider>
   );
 }

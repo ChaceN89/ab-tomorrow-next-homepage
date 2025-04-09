@@ -15,7 +15,7 @@
  */
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import PulseLoader from "../common/PulseLoader";
 import Image from "next/image";
 import YouTube from 'react-youtube';
@@ -31,28 +31,42 @@ export default function MediaFrame({
 }) {
   const [loaded, setLoaded] = useState(false);
 
+  const playerRef = useRef(null);
+  const handleReady = (event) => {
+    playerRef.current = event.target;
+    setLoaded(true);
+  };
+
+
   return (
     <div className="w-full max-w-2xl mx-auto text-center space-y-2 text-inherit">
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
 
       <div className={`relative rounded-lg shadow-lg overflow-hidden large-shadow ${className}`}>
-        {!loaded && <PulseLoader showWheel={type === "video" || showWheel}/>}
+        <PulseLoader showWheel={type === "video" || showWheel} className={`transition-opacity duration-800 ${loaded ? "opacity-0 pointer-events-none" : "opacity-100"}`} />
 
         {type === "video" ? (
-          <YouTube
-            videoId={src}
-            onReady={()=>setLoaded(true)}
-            loading="lazy"
-            opts={{
-              width: "100%",
-              height: "100%",
-              playerVars: {
-                modestbranding: 1,
-                rel: 0,
-              },
-            }}
-            className="w-full h-full"
-          />
+          <div
+            className={`absolute inset-0 w-full h-full transition-opacity duration-500 ${
+              loaded ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <YouTube
+              videoId={src}
+              onReady={handleReady}
+              loading="lazy"
+              opts={{
+                width: "100%",
+                height: "100%",
+                playerVars: {
+                  modestbranding: 1,
+                  rel: 0,
+                },
+              }}
+              className="w-full h-full"
+            />
+          </div>
+        
         ) : (
           <Image
             src={`/${src}`}

@@ -10,7 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
-import LessonDisplay from '@/components/pages/resources/lessons/LessonDisplay'
+import LessonDisplay from '@/components/pages/resources/lesson-plans/LessonDisplay'
 
 // Page-specific metadata
 export const metadata = {

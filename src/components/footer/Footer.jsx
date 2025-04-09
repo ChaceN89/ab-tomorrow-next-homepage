@@ -37,7 +37,7 @@ import BreadCrumbLinks from './BreadCrumbLinks';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-secondary-alt text-white overflow-hidden">
+    <footer id="site-footer" className=" z-[60] relative w-full bg-secondary-alt text-white overflow-hidden">
       <div className="px-6 lg:px-16 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
           <div>
