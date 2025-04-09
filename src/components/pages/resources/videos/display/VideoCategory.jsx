@@ -35,6 +35,7 @@ export default function VideoCategory({ category, videos = [] }) {
               src={extractYouTubeId(video.media.url)}
               description={video.description}
               className="h-80"
+              thumbUrl={video.media.thumbUrl}
             />
           </div>
         ))}

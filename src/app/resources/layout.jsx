@@ -18,7 +18,7 @@ export default function ResourceLayout({ children }) {
     <LessonPlanResourceProvider>
       <VideoResourceProvider>
         <ResourceHeader />
-        <main className="min-h-screen">{children}</main>
+        <main>{children}</main>
       </VideoResourceProvider>
     </LessonPlanResourceProvider>
   );

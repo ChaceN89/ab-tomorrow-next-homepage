@@ -21,7 +21,7 @@ export default function VideoCategoryList() {
     const matchesTool = v.tools?.some((t) => toolFilters[t]);
     const matchesTitle = v.title.toLowerCase().includes(titleFilter.toLowerCase());
     const matchesDesc = v.description.toLowerCase().includes(descFilter.toLowerCase());
-    const matchesHashtag = v.hashtags?.toLowerCase().includes(hashtagFilter.toLowerCase());
+    const matchesHashtag = v.hashtags?.some((tag) => tag.toLowerCase().includes(hashtagFilter.toLowerCase()));    
     const matches360 = only360 ? v.media?.is360 : true;
 
     if (

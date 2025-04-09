@@ -5,20 +5,21 @@
  * 
  * @author Chace Nielson
  * @created Apr 1, 2025
- * @updated Apr 1, 2025
+ * @updated Apr 9, 2025
  */
 
 import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const blackfootVoicesVideos = [
   {
-    id: 3000,
+    id: "bfv-1db0b7-a-blackfoot-perspective-on-water",
     title: "A Blackfoot Perspective on Water",
-    description: "A video sharing the Blackfoot perspective on water and its significance in Indigenous culture and the environment.",
+    description:
+      "A video sharing the Blackfoot perspective on water and its significance in Indigenous culture and the environment.",
     coordinates: [-112.45130318711476, 50.77737948576379],
     subtype: "blackfootvoices",
     category: VideoCategory.BLACKFOOT_VOICES,
-    tools: [AssociatedTool.SIMULATOR], // Add more if needed
+    tools: [AssociatedTool.SIMULATOR],
     media: {
       type: "video",
       status: "Complete",
@@ -27,7 +28,9 @@ export const blackfootVoicesVideos = [
       shareUrl: "https://youtu.be/r-NzlnMgDj4",
       is360: true,
     },
-    observedTime: 1607104608043,
-    hashtags: "",
+    observedTime: 1607104608043, // Approx: Dec 4, 2020
+    hashtags: [
+      "blackfoot", "indigenous-voices", "traditional-ecological-knowledge", "water", "culture", "land-stewardship" 
+    ]  
   },
 ];
