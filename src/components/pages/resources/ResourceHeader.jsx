@@ -11,8 +11,9 @@ export default function ResourceHeader() {
     <div className="page-width">
       <div className="page -mb-14">
         <PageHeader title={resourcePageData.title} subtitle={resourcePageData.subtitle} />
+        <ResourceNav />
       </div>
-      <ResourceNav />
+      <hr  className="border-b-2 border-secondary mb-4"/>
     </div>
   )
 

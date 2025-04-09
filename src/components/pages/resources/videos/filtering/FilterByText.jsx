@@ -1,7 +1,14 @@
+/**
+ * @file FilterByText.jsx
+ * @module UI/Resources/Filters/FilterByText
+ * @desc Stacked search fields for title, description, and hashtags.
+ */
+
 "use client";
 
 import React from "react";
 import { useVideoResource } from "../VideoResourceContext";
+import FilterTextInput from "./FilterTextInput";
 
 export default function FilterByText() {
   const {
@@ -14,27 +21,21 @@ export default function FilterByText() {
   } = useVideoResource();
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      <input
-        type="text"
+    <div className="flex flex-col gap-4">
+      <FilterTextInput
         value={titleFilter}
         onChange={(e) => setTitleFilter(e.target.value)}
         placeholder="Search title"
-        className="border px-4 py-2 rounded"
       />
-      <input
-        type="text"
+      <FilterTextInput
         value={descFilter}
         onChange={(e) => setDescFilter(e.target.value)}
         placeholder="Search description"
-        className="border px-4 py-2 rounded"
       />
-      <input
-        type="text"
+      <FilterTextInput
         value={hashtagFilter}
         onChange={(e) => setHashtagFilter(e.target.value)}
-        placeholder="Search hashtags"
-        className="border px-4 py-2 rounded"
+        placeholder="Search tags"
       />
     </div>
   );

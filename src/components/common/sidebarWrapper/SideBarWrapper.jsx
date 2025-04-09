@@ -64,12 +64,14 @@ export default function SideBarWrapper({
         top: `${minDistFromTop}px`,
         width: wrapperRef.current?.offsetWidth || "100%",
         zIndex: 4,
+        maxHeight: `calc(100vh - ${minDistFromTop}px)`,
+        overflowY: "auto",
       }
     : { position: "relative" };
 
   return (
     <div ref={wrapperRef} style={{ position: "relative" }}>
-      <div style={wrapperStyle} className={className}>
+      <div style={wrapperStyle} className={className+ " scroll-element"}>
         {children}
       </div>
     </div>

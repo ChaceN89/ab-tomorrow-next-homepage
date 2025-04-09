@@ -7,7 +7,7 @@ export default function ResourceNav() {
     const pathname = usePathname();
   
   return (
-    <nav className="flex gap-6 border-b-2 border-secondary mb-6">
+    <nav className="flex gap-6 mb-6 ">
     {resourceLinks.map((link) => (
       <Link
         key={link.href}

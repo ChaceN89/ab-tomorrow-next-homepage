@@ -1,7 +1,7 @@
 // components/pages/resources/videos/VideoCategoryList.jsx
 import React from "react";
 import VideoCategory from "./VideoCategory";
-import { useVideoResource } from "./VideoResourceContext";
+import { useVideoResource } from "../VideoResourceContext";
 
 export default function VideoCategoryList() {
   const {
@@ -38,10 +38,10 @@ export default function VideoCategoryList() {
   });
 
   return (
-    <>
+    <div className="p-4 space-y-4">
       {Object.entries(grouped).map(([category, vids]) => (
         <VideoCategory key={category} category={category} videos={vids} />
       ))}
-    </>
+    </div>
   );
 }

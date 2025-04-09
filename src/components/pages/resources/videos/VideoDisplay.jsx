@@ -1,41 +1,38 @@
+/**
+ * 
+ */
+
 "use client";
-
-import React from "react";
-import { Link } from "react-scroll";
-
-import { useVideoResource } from "@/components/pages/resources/videos/VideoResourceContext";
-import { groupVideosByCategory } from "@/utils/videoResouceUtils";
-import VideoCategory from "./VideoCategory";
-import VideoCategoryList from "./VideoCategoryList";
 import VideoFilters from "./filtering/VideoFilters";
-
-import "./VideoDisplay.styles.css"
 import SideBarWrapper from "@/components/common/sidebarWrapper/SideBarWrapper";
+import VideoCategoryList from "./display/VideoCategoryList";
+import { useVideoResource } from "./VideoResourceContext";
+import PulseLoader from "@/components/common/PulseLoader";
 
 export default function VideoDisplay() {
   const {
     videos,
     loading,
-
   } = useVideoResource();
-
-  if (loading || !videos) return <div>Loading videos...</div>;
-
-
-
 
   return (
     <div className="flex flex-col md:flex-row min-h-[75vh]  ">
       {/* Filters Sidebar */}
-      <aside className="w-full md:w-48 ">
+      <aside className="w-full md:w-52 xl:w-64  ">
         <SideBarWrapper>
           <VideoFilters/>
         </SideBarWrapper>
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 ">
-        <VideoCategoryList/>
+      <main className="flex-1">
+        { loading || !videos ? (
+          <div className="relative mt-20">
+            <PulseLoader showWheel/>
+          </div>
+        ) : (
+          <VideoCategoryList/>
+        )}
       </main>
     </div>
   );

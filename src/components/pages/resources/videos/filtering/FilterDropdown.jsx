@@ -18,7 +18,9 @@
 
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { FaChevronRight } from "react-icons/fa";
+import { IoArrowRedo } from "react-icons/io5";
+
 
 export default function FilterDropdown({
   label,
@@ -35,18 +37,21 @@ export default function FilterDropdown({
         onClick={() => setOpen((prev) => !prev)}
       >
         {label}
-        {open ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
+        <FaChevronRight
+          size={12}
+          className={`transition-transform duration-400 ${open ? "rotate-90 translate-0.5" : "rotate-0"}`}
+        />
       </button>
 
       {/* Animate height change */}
       <div
         className={`transition-all duration-300 ease-in-out overflow-hidden px-4 ${
-          open ? "max-h-[500px] py-4" : "max-h-0 py-0"
+          open ? "max-h-[4000px] py-4" : "max-h-0 py-0"
         }`}
       >
         <div className="flex flex-wrap gap-2">
           {Object.keys(filterMap).map((item) => (
-            <div key={item} className="flex items-center gap-2">
+            <div key={item} className="flex items-center justify-end gap-1">
               <button
                 className={`px-4 py-1 rounded-full border text-sm ${
                   filterMap[item]
@@ -60,21 +65,23 @@ export default function FilterDropdown({
                   }))
                 }
               >
-                {item}
+                {item} 
+                
               </button>
 
               {showScrollLinks && (
                 <Link
                   to={item}
                   smooth
-                  offset={-100}
+                  offset={-80}
                   duration={500}
                   className="text-xs text-blue-600 underline cursor-pointer"
                 >
-                  Go
+                  <IoArrowRedo className="inline-block text-lg hover:text-xl" />
                 </Link>
               )}
             </div>
+
           ))}
         </div>
       </div>

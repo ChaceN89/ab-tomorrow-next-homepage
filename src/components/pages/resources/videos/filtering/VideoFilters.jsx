@@ -8,22 +8,24 @@
 
 import React from "react";
 import { useVideoResource } from "../VideoResourceContext";
-import FilterByCategory from "./FilterByCategory";
-import FilterByTool from "./FilterByTool";
 import FilterByText from "./FilterByText";
+import FilterDropdown from "./FilterDropdown";
 
 export default function VideoFilters() {
   const {
     videos,
+    categoryFilters,
+    setCategoryFilters,
+    toolFilters,
+    setToolFilters,
     only360,
     setOnly360,
   } = useVideoResource();
 
   return (
-    <div className="flex flex-col gap-6 mb-8">
+    <div className="flex flex-col  py-4 px-2 gap-4 w-full">
       <p>Total Videos: {videos?.length || 0}</p>
-      <FilterByCategory />
-      <FilterByTool />
+
       <FilterByText />
 
       <label className="flex items-center gap-2">
@@ -34,6 +36,19 @@ export default function VideoFilters() {
         />
         <span>360° only</span>
       </label>
+
+      <FilterDropdown
+        label="Filter by Category"
+        filterMap={categoryFilters}
+        setFilterMap={setCategoryFilters}
+        showScrollLinks={true}
+      />
+
+      <FilterDropdown
+        label="Filter by Tool"
+        filterMap={toolFilters}
+        setFilterMap={setToolFilters}
+      />
     </div>
   );
 }
