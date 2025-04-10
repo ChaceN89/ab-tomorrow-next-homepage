@@ -261,7 +261,8 @@ export const stoneyVoicesVideos = [
   {
     id: "stoney-14h-concept-of-time",
     title: "Concept of Time",
-    description: 'Travis talks about differences in the concept of time. The oral tradition says "Back in time".  Stoney used the surroundings and animals to tell time, seasons and the weather. "The Sky was the clock, the moon, the stars."',
+    description: 
+      'Travis talks about differences in the concept of time. The oral tradition says "Back in time".  Stoney used the surroundings and animals to tell time, seasons and the weather. "The Sky was the clock, the moon, the stars."',
     coordinates: [-115.118069, 51.010761],
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],

@@ -1,7 +1,26 @@
 /**
+ * @file VideoDisplay.jsx
+ * @module UI/Resources/VideoDisplay
+ * @desc Top-level video display layout component for the Alberta Tomorrow Resources section.
+ *
+ * @features
+ * - Renders the full video browsing interface including filter sidebar and video categories.
+ * - Uses `VideoFilters` for search/filter tools.
+ * - Uses `VideoCategoryList` to organize and render filtered video data.
+ * - Includes a sticky sidebar wrapper for consistent UX on larger screens.
+ * - Displays a loading spinner using `PulseLoader` until videos are fetched.
+ *
+ * @dependencies
+ * - VideoResourceContext (for shared state and video data)
+ * - VideoFilters (sidebar component for filters)
+ * - SideBarWrapper (responsive sticky sidebar utility)
+ * - VideoCategoryList (grouped video rendering)
+ * - PulseLoader (loading indicator)
  * 
+ * @author Chace Nielson
+ * @created Apr 10, 2025
+ * @updated Apr 10, 2025
  */
-
 "use client";
 import VideoFilters from "./filtering/VideoFilters";
 import SideBarWrapper from "@/components/common/sidebarWrapper/SideBarWrapper";
@@ -25,7 +44,7 @@ export default function VideoDisplay() {
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1">
+      <main className="flex-1 pb-72">
         { loading || !videos ? (
           <div className="relative mt-20">
             <PulseLoader showWheel loadingText="Fetching Videos"/>

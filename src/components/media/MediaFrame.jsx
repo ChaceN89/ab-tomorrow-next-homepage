@@ -64,8 +64,7 @@ export default function MediaFrame({
   // Play the video from the thumbnail click event
   const playVideo = () => {
     setvideoIsPlaying(true);
-
-
+  
     // pause all other videos
     const allPlayers = document.querySelectorAll("iframe");
     allPlayers.forEach((player) => {
@@ -76,13 +75,22 @@ export default function MediaFrame({
         }
       }
     });
-
-    // play this video
-    if (playerRef.current) {
+  
+    // try to play video
+    if (playerRef.current && typeof playerRef.current.playVideo === "function") {
       playerRef.current.playVideo();
+    } else {
+      console.warn("🎥 YouTube player not ready yet. Retrying in 300ms...");
+      setTimeout(() => {
+        if (playerRef.current && typeof playerRef.current.playVideo === "function") {
+          playerRef.current.playVideo();
+        } else {
+          console.error("❌ Failed to play video: player is still null.");
+        }
+      }, 300);
     }
-  }
-
+  };
+  
 
   return (
     <div className="w-full max-w-2xl mx-auto text-center space-y-2 text-inherit">
