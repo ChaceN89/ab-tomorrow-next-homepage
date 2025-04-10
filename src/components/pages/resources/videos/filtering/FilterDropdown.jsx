@@ -49,11 +49,11 @@ export default function FilterDropdown({
           open ? "scale-y-100" : "scale-y-0 h-0"
         }`}
       >
-        <div className="flex flex-wrap gap-2 p-4">
+        <div className="flex flex-col gap-2 p-4">
           {Object.keys(filterMap).map((item) => (
-            <div key={item} className="flex items-start justify-end gap-0.5">
+            <div key={item} className="flex items-start justify-start gap-0.5">
               <button
-                className={`px-4 py-1 rounded-full border text-sm cursor-pointer ${
+                className={`px-4 py-1 rounded-full border text-sm cursor-pointer text-start ${
                   filterMap[item]
                     ? "bg-primary text-white"
                     : "bg-gray-300 text-black"

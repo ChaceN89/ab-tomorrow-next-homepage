@@ -32,7 +32,7 @@ export const environmentalIndicatorsVideos = [
     description: 
       "Explore how caribou habitat is impacted by human development and how best practices can reduce disturbances in their environment.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.WILDLIFE_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=xiBz_Vov6H0",
@@ -47,7 +47,7 @@ export const environmentalIndicatorsVideos = [
     description: 
       "Learn how forest development and human activity affect the suitability of grizzly bear habitat across Alberta.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.WILDLIFE_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=4wxOOhpNRhs",
@@ -62,7 +62,7 @@ export const environmentalIndicatorsVideos = [
     description: 
       "Discover how land use affects fish community health, from native trout populations to the impacts of angling and habitat disturbance.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.WILDLIFE_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=oti7o8JS62Q",
@@ -92,7 +92,7 @@ export const environmentalIndicatorsVideos = [
     description: 
       "Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can cut emissions.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=m7G3mSq2aD0",

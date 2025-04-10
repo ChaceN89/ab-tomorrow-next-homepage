@@ -22,7 +22,7 @@ export const VideoCategory = {
 };
 
 export const AssociatedTool = {
-  SIMULATOR: "Simulator",
+  SIMULATOR: "Land Use Simulator",
   ENERGY_TOMORROW: "Energy Tomorrow",
   WILDLIFE_TOMORROW: "Wildlife Tomorrow"
 };

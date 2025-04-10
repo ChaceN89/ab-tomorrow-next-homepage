@@ -17,7 +17,7 @@ export const socioEconomicIndicatorsVideos = [
     description: 
       "Maximum population growth is assumed to be a doubling of the population. Learn more about Alberta's projected population and land use impacts.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=BOBc-sv-qJw",
@@ -32,7 +32,7 @@ export const socioEconomicIndicatorsVideos = [
     description: 
       "GDP is based on land use for oil and gas, forestry, and agriculture. Learn how economic development influences Alberta's GDP.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=u9_-Oz9W3Dg",
@@ -47,7 +47,7 @@ export const socioEconomicIndicatorsVideos = [
     description: 
       "Hydrocarbon production includes natural gas, oil, bitumen, and coal. Learn how energy production affects land use and the economy.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Bfz4p6dQQcE",
@@ -62,7 +62,7 @@ export const socioEconomicIndicatorsVideos = [
     description: 
       "A value of 100% means all forested land is used for timber. Explore how forestry contributes to the economy and affects land use.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=157uaHUOKJw",
@@ -77,7 +77,7 @@ export const socioEconomicIndicatorsVideos = [
     description: 
       "Learn how using the landscape for agriculture contributes to food production and economic development in Alberta.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=hh84gk46swY",
@@ -92,7 +92,7 @@ export const socioEconomicIndicatorsVideos = [
     description: 
       "Learn how agricultural, settlement, and industrial use affect water consumption and how best practices can reduce demand.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=YcibG9eybbc",
