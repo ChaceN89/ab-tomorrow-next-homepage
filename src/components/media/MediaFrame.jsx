@@ -53,7 +53,7 @@ export default function MediaFrame({
 
   const { ref, inView } = useInView({
     triggerOnce: true,     // only trigger once
-    threshold: 0.1,        // 10% of the component must be visible
+    threshold: 0.2,        // 20% of the component must be visible
   });
 
   // laod and playing(if video) state
