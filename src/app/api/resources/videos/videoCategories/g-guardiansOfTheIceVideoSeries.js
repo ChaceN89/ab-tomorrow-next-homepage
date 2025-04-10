@@ -15,7 +15,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: "GoI-1g-athabasca-glacier",
     title: "The Athabasca Glacier",
-    description: "A panoramic view of the Athabasca Glacier.",
+    description: 
+      "A panoramic view of the Athabasca Glacier.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
     coordinates: [-117.25197315216064, 52.19348864884182],
@@ -31,7 +32,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 2,
     title: "Peyto Calving",
-    description: "Peyto Glacier on the Wapta Icefield Calving.",
+    description: 
+      "Peyto Glacier on the Wapta Icefield Calving.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
     coordinates: [-116.54910716705899, 51.6764763438762],
@@ -48,7 +50,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 3,
     title: "How much of the Athabasca Glacier are we losing?",
-    description: "Peter Lemieux shows us how we know we are losing ice.",
+    description: 
+      "Peter Lemieux shows us how we know we are losing ice.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
     coordinates: [-117.23987102508586, 52.203530200543156],
@@ -82,7 +85,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 5,
     title: "Guardians of the Ice Trailer",
-    description: "Learn more about the Guardians of the Ice Project",
+    description: 
+      "Learn more about the Guardians of the Ice Project",
     subtype: "iceguardian",
     coordinates: [-117.29674010464652, 52.12486659320277],
     lessonPlans: [], 
@@ -100,7 +104,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 6,
     title: "Approaching the Athabasca Glacier",
-    description: "Experience walking up to the glacier!",
+    description: 
+      "Experience walking up to the glacier!",
     subtype: "iceguardian",
     coordinates: [-117.23904371970335, 52.21373405595895],
     lessonPlans: [], 
@@ -152,7 +157,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 9,
     title: "Rae Glacier",
-    description: "Headwaters of the Elbow River in Kananaskis.",
+    description: 
+      "Headwaters of the Elbow River in Kananaskis.",
     subtype: "iceguardian",
     coordinates: [-114.97514063471081, 50.62323823266564],
     lessonPlans: [], 
@@ -300,7 +306,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 26,
     title: "How Glaciers Move",
-    description: "Peter Lemieux of Icewalks explains how glaciers move",
+    description: 
+      "Peter Lemieux of Icewalks explains how glaciers move",
     subtype: "iceguardian",
     coordinates: [-117.25353892829338, 52.1953692347285],
     lessonPlans: [], 
@@ -375,7 +382,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 30,
     title: "Evidence of Glaciers - Striations",
-    description: "Peter Lemieux of Icewalks explains what striations are.",
+    description: 
+      "Peter Lemieux of Icewalks explains what striations are.",
     subtype: "iceguardian",
     coordinates: [-117.22597381643935, 52.21608581756843],
     lessonPlans: [], 
@@ -412,7 +420,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 32,
     title: "How crevasses form",
-    description: "Peter Lemieux explains how crevasses form",
+    description: 
+      "Peter Lemieux explains how crevasses form",
     subtype: "iceguardian",
     coordinates: [-117.24376105703284, 52.198326568159246],
     lessonPlans: [], 
@@ -430,7 +439,8 @@ export const guardiansOfTheIceVideos = [
   {
     id: 33,
     title: "River in the Ice",
-    description: "River in the Ice.... slow motion",
+    description: 
+      "River in the Ice.... slow motion",
     subtype: "iceguardian",
     coordinates: [-117.25619898242563, 52.189994500594196],
     lessonPlans: [], 

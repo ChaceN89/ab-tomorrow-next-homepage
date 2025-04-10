@@ -14,7 +14,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-1h-what-will-land-look-like",
     title: "What Will Land Look Like In The Future",
-    description: "What is your hope for the future?",
+    description: 
+      "What is your hope for the future?",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -28,7 +29,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-2h-great-depression",
     title: "Great Depression",
-    description: "Elder Lawrence talks about the Stoney experience during the Great Depression. ",
+    description: 
+      "Elder Lawrence talks about the Stoney experience during the Great Depression. ",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -42,7 +44,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-3h-water-now-and-future",
     title: "Water - Now and The Future",
-    description: "Listen to Elder Margaret talk about the importance of Water to the Stoney People and to everyone.",
+    description: 
+      "Listen to Elder Margaret talk about the importance of Water to the Stoney People and to everyone.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -56,7 +59,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-4h-stoney-voice-at-table",
     title: "Stoney Voice At The Table",
-    description: "Land Use planning in Alberta needs to include a Stoney Voice.",
+    description: 
+      "Land Use planning in Alberta needs to include a Stoney Voice.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -70,7 +74,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-5h-fishing-on-the-bow",
     title: "Fishing On The Bow",
-    description: "The Stoney used to use the fish from the Bow River, but they don't eat the fish anymore. They enjoy the river but they don't eat the fish.",
+    description: 
+      "The Stoney used to use the fish from the Bow River, but they don't eat the fish anymore. They enjoy the river but they don't eat the fish.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -84,7 +89,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-6h-tornado",
     title: "Tornado",
-    description: "Travis talks about how he was taught to survive a Tornado on Stoney territory.",
+    description: 
+      "Travis talks about how he was taught to survive a Tornado on Stoney territory.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -98,7 +104,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-7h-using-the-land",
     title: "Using The Land",
-    description: "Listen to Elders talk about how the Stoney people used the land.",
+    description: 
+      "Listen to Elders talk about how the Stoney people used the land.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -112,7 +119,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-8h-moose-story",
     title: "Moose Story",
-    description: "Moose in Stoney Territory. Are there as many now as there were in the past? ",
+    description: 
+      "Moose in Stoney Territory. Are there as many now as there were in the past? ",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -140,7 +148,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-hh-10h-protected-areas",
     title: "Protected Areas",
-    description: "The Sibbald area is an area used for camping and recreation but does that compatible with the Stoney Traditional Land Uses?",
+    description: 
+      "The Sibbald area is an area used for camping and recreation but does that compatible with the Stoney Traditional Land Uses?",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -154,7 +163,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-h2-11h-reconcili-action",
     title: "Reconcili-ACTION",
-    description: "Elder Terry talks about the need for ReconciliACTION after Reconciliation.",
+    description: 
+      "Elder Terry talks about the need for ReconciliACTION after Reconciliation.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -168,7 +178,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-h2-12h-first-contact",
     title: "First Contact With Settlers",
-    description: "Travis recalls stories of Stoney encountering Settlers for the first time.",
+    description: 
+      "Travis recalls stories of Stoney encountering Settlers for the first time.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -182,7 +193,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-h2-13h-access-to-land",
     title: "Access To Land - Sibbald Flats",
-    description: "Listen to Elders talk about the  importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
+    description: 
+      "Listen to Elders talk about the  importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 
@@ -196,7 +208,8 @@ export const stoneyVoicesAdditionalVideos = [
   {
     id: "stoney-h2-14h-introductions",
     title: "Introductions",
-    description: "Meet the Elders from the Stoney Nakoda Nation who made this video series possible.",
+    description: 
+      "Meet the Elders from the Stoney Nakoda Nation who made this video series possible.",
     category: VideoCategory.STONEY_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [], 

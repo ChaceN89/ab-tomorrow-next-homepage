@@ -14,7 +14,8 @@ export const indigenousIndicatorsVideos = [
   {
     id: "ind-1e-tlu-access",
     title: "TLU Access",
-    description: "Traditional Land Use Access (TLU Access) measures land accessibility for Indigenous peoples engaging in traditional practices. It reflects accessible natural areas not within protected zones.",
+    description: 
+      "Traditional Land Use Access (TLU Access) measures land accessibility for Indigenous peoples engaging in traditional practices. It reflects accessible natural areas not within protected zones.",
     category: VideoCategory.INDIGENOUS_INDICATORS,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [],
@@ -28,7 +29,8 @@ export const indigenousIndicatorsVideos = [
   {
     id: "ind-2e-moose-habitat",
     title: "Moose Habitat",
-    description: "Moose Habitat is reduced by industrial development and proximity to human activity. This video explores how habitat value is calculated in Alberta Tomorrow.",
+    description: 
+      "Moose Habitat is reduced by industrial development and proximity to human activity. This video explores how habitat value is calculated in Alberta Tomorrow.",
     category: VideoCategory.INDIGENOUS_INDICATORS,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [],
@@ -42,7 +44,8 @@ export const indigenousIndicatorsVideos = [
   {
     id: "ind-3e-hunting-opportunity",
     title: "Hunting Opportunity",
-    description: "This video explains the Hunting Opportunity indicator, combining TLU Access and Moose Habitat to reflect Indigenous hunting access.",
+    description: 
+      "This video explains the Hunting Opportunity indicator, combining TLU Access and Moose Habitat to reflect Indigenous hunting access.",
     category: VideoCategory.INDIGENOUS_INDICATORS,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [],
@@ -56,7 +59,8 @@ export const indigenousIndicatorsVideos = [
   {
     id: "ind-4e-water-quality",
     title: "Water Quality",
-    description: "Phosphorus runoff and land conversion reduce water quality. Learn how Indigenous communities are impacted and how this indicator is measured.",
+    description: 
+      "Phosphorus runoff and land conversion reduce water quality. Learn how Indigenous communities are impacted and how this indicator is measured.",
     category: VideoCategory.INDIGENOUS_INDICATORS,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [],
@@ -70,7 +74,8 @@ export const indigenousIndicatorsVideos = [
   {
     id: "ind-5e-fish-habitat",
     title: "Fish Habitat",
-    description: "Healthy fish habitat means diverse native species and fewer disturbances. This video highlights habitat importance to Indigenous communities.",
+    description: 
+      "Healthy fish habitat means diverse native species and fewer disturbances. This video highlights habitat importance to Indigenous communities.",
     category: VideoCategory.INDIGENOUS_INDICATORS,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [],
@@ -84,7 +89,8 @@ export const indigenousIndicatorsVideos = [
   {
     id: "ind-6e-fishing-opportunity",
     title: "Fishing Opportunity",
-    description: "Fishing Opportunity combines TLU Access and Fish Habitat to indicate access to successful fishing activities for Indigenous peoples.",
+    description: 
+      "Fishing Opportunity combines TLU Access and Fish Habitat to indicate access to successful fishing activities for Indigenous peoples.",
     category: VideoCategory.INDIGENOUS_INDICATORS,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [],

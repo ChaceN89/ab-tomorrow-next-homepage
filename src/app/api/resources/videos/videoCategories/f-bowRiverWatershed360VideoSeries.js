@@ -14,7 +14,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-1f-watershed",
     title: "Hydrology",
-    description: "In this video you will learn about the hydrology of the Bow River Watershed, located in Southern Alberta.",
+    description: 
+      "In this video you will learn about the hydrology of the Bow River Watershed, located in Southern Alberta.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans:[ "https://docs.google.com/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz"],
@@ -28,7 +29,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-2f-watershed",
     title: "Watershed",
-    description: "Visit each sub-basin in the Bow River basin and get a feel for how people use the water and the landscape. Look at the different types of buildings, pathways, and activities that can take place within the watershed as you travel from the headwaters, down to the end in the prairies.",
+    description: 
+      "Visit each sub-basin in the Bow River basin and get a feel for how people use the water and the landscape. Look at the different types of buildings, pathways, and activities that can take place within the watershed as you travel from the headwaters, down to the end in the prairies.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans:[ "https://docs.google.com/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz"],
@@ -42,7 +44,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-3f-hydro-climate",
     title: "Hydrology and Climate Change",
-    description: "Tricia Stadnyk talks about how a watershed can affect the climate it is in, and in turn, how the climate then affects the landscape. Go from the headwaters through to the prairies as she talks about precipitation and more.",
+    description: 
+      "Tricia Stadnyk talks about how a watershed can affect the climate it is in, and in turn, how the climate then affects the landscape. Go from the headwaters through to the prairies as she talks about precipitation and more.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"],
@@ -56,7 +59,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-4f-mgmt-data",
     title: "Watershed Management and Data",
-    description: "Dr. Lee Jackson talks about the Sustainable Watershed Integrated Management Platform and the necessity of shared water data for the health of the Bow River Basin. Explore from the headwaters into the prairies and learn about citizen science projects, and different data parameters.",
+    description: 
+      "Dr. Lee Jackson talks about the Sustainable Watershed Integrated Management Platform and the necessity of shared water data for the health of the Bow River Basin. Explore from the headwaters into the prairies and learn about citizen science projects, and different data parameters.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [],
@@ -70,7 +74,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-5f-watersheds-hydro",
     title: "Watersheds and Hydrology",
-    description: "Go from the mountains through the river basin while learning what a watershed is, and how hydrology is apparent in the landscape. Tricia Stadnyk will explain how hydrology can affect everything around it as you explore.",
+    description: 
+      "Go from the mountains through the river basin while learning what a watershed is, and how hydrology is apparent in the landscape. Tricia Stadnyk will explain how hydrology can affect everything around it as you explore.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"],
@@ -84,7 +89,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-6f-hydro-dev",
     title: "Hydrology and Land Development",
-    description: "Explore the watershed while Tricia Stadnyk explains how landscapes and water are affected by development and use changes. How does hydrology within the watershed change when the landscape changes because of humans?",
+    description: 
+      "Explore the watershed while Tricia Stadnyk explains how landscapes and water are affected by development and use changes. How does hydrology within the watershed change when the landscape changes because of humans?",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"],
@@ -98,7 +104,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-7f-erwp-aquifers",
     title: "Elbow River Watershed Partnership (ERWP) Aquifers",
-    description: "Explore the Elbow River watershed and learn about its groundwater, and state of the aquifer with Joe and Flora. Learn the definitions for what an aquifer is, how groundwater is used in the sub-basin, and how it is affected by people.",
+    description: 
+      "Explore the Elbow River watershed and learn about its groundwater, and state of the aquifer with Joe and Flora. Learn the definitions for what an aquifer is, how groundwater is used in the sub-basin, and how it is affected by people.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O"],
@@ -112,7 +119,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-8f-water-quality",
     title: "Water Quality",
-    description: "Join Patrick Van den Eynden as he talks about the City of Calgary’s Glenmore Water Treatment Plant’s process from getting the water from the reservoir, all the way to disinfection and sending the water out to service sites across the city.",
+    description: 
+      "Join Patrick Van den Eynden as he talks about the City of Calgary’s Glenmore Water Treatment Plant’s process from getting the water from the reservoir, all the way to disinfection and sending the water out to service sites across the city.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7"],
@@ -126,7 +134,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-9f-hydro-land",
     title: "Hydrology and Land Development",
-    description: "Explore the watershed while Tricia Stadnyk explains how landscapes and water are affected by development and use changes. How does hydrology within the watershed change when the landscape changes because of humans?",
+    description: 
+      "Explore the watershed while Tricia Stadnyk explains how landscapes and water are affected by development and use changes. How does hydrology within the watershed change when the landscape changes because of humans?",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"],
@@ -140,7 +149,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-10f-management-data",
     title: "Watershed Management and Data",
-    description: "Dr. Lee Jackson talks about the Sustainable Watershed Integrated Management Platform and the necessity of shared water data for the health of the Bow River Basin. Explore from the headwaters into the prairies and learn about citizen science projects, and different data parameters.",
+    description: 
+      "Dr. Lee Jackson talks about the Sustainable Watershed Integrated Management Platform and the necessity of shared water data for the health of the Bow River Basin. Explore from the headwaters into the prairies and learn about citizen science projects, and different data parameters.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: [],
@@ -154,7 +164,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-11f-hydro-climate",
     title: "Hydrology and Climate Change",
-    description: "Tricia Stadnyk talks about how a watershed can affect the climate it is in, and in turn, how the climate then affects the landscape. Go from the headwaters through to the prairies as she talks about precipitation and more.",
+    description: 
+      "Tricia Stadnyk talks about how a watershed can affect the climate it is in, and in turn, how the climate then affects the landscape. Go from the headwaters through to the prairies as she talks about precipitation and more.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"],
@@ -168,7 +179,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-12f-watershed",
     title: "Watershed 360°",
-    description: "Visit each sub-basin in the Bow River basin and get a feel for how people use the water and the landscape. Look at the different types of buildings, pathways, and activities that can take place within the watershed as you travel from the headwaters, down to the end in the prairies.",
+    description: 
+      "Visit each sub-basin in the Bow River basin and get a feel for how people use the water and the landscape. Look at the different types of buildings, pathways, and activities that can take place within the watershed as you travel from the headwaters, down to the end in the prairies.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz"],
@@ -182,7 +194,8 @@ export const bowRiverWatershed360VideoSeries = [
   {
     id: "brbc-13f-isotopes-climate",
     title: "Isotopes and Climate Change",
-    description: "Learn about how isotopes can be used to monitor climate change and hydrologic functions within a watershed.",
+    description: 
+      "Learn about how isotopes can be used to monitor climate change and hydrologic functions within a watershed.",
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
     lessonPlans: ["https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi"],

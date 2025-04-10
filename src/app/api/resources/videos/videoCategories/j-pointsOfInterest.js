@@ -14,7 +14,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-1j-investigating-a-fish-kill",
     title: "Investigating a Fish Kill",
-    description: "Michael Sullivan, provincial fish science specialist with Alberta Fish and Wildlife talks at Lake Isle where thousands of sucker fish are poking their heads out of the water literally gasping for air because of oxygen deficiency in the water in this video from March 2014.",
+    description: 
+      "Michael Sullivan, provincial fish science specialist with Alberta Fish and Wildlife talks at Lake Isle where thousands of sucker fish are poking their heads out of the water literally gasping for air because of oxygen deficiency in the water in this video from March 2014.",
     coordinates: [-114.7121597, 53.63705],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
@@ -30,7 +31,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-2j-native-trout-in-alberta",
     title: "Native Trout in Alberta",
-    description: "Watch this recording of a LiveStream presented by CPAWS SAB, Trout Unlimited and Cows and Fish to learn about Native Trout in Alberta.",
+    description: 
+      "Watch this recording of a LiveStream presented by CPAWS SAB, Trout Unlimited and Cows and Fish to learn about Native Trout in Alberta.",
     coordinates: [-114.51295548244191, 50.28114220769186],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
@@ -46,7 +48,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-3j-athabasca-sand-dunes-ecological-reserve",
     title: "Athabasca Sand Dunes Ecological Reserve",
-    description: "Open, moving sand dunes surrounded by lakes.",
+    description: 
+      "Open, moving sand dunes surrounded by lakes.",
     coordinates: [-110.89052249220633, 58.17244060712531],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
@@ -62,7 +65,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-4j-writing-on-stone-provincial-park",
     title: "Writing on Stone Provincial Park",
-    description: "Learn about the landforms and the significance of the area to the Blackfoot people.",
+    description: 
+      "Learn about the landforms and the significance of the area to the Blackfoot people.",
     coordinates: [-111.63423545056287, 49.06794067595865],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
@@ -78,7 +82,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-5j-hanging-culvert",
     title: "Hanging Culvert",
-    description: "Listen to this fisheries biologist explain what a hanging culvert is in the upper reaches of the Red Deer River Watershed.",
+    description: 
+      "Listen to this fisheries biologist explain what a hanging culvert is in the upper reaches of the Red Deer River Watershed.",
     coordinates: [-115.34838293901707, 51.6563101205077],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
@@ -94,7 +99,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-6j-forest-attack-mountain-pine-beetle",
     title: "Forest Attack - Mountain Pine Beetle",
-    description: "Follow biologists as they look for trees attacked by Mountain Pine Beetles.",
+    description: 
+      "Follow biologists as they look for trees attacked by Mountain Pine Beetles.",
     coordinates: [-119.163818359374, 54.47916440896674],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
@@ -110,7 +116,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-7j-grassland-restoration",
     title: "Grassland Restoration",
-    description: "This ranch south of Manyberries is an Alberta Conservation Association site.",
+    description: 
+      "This ranch south of Manyberries is an Alberta Conservation Association site.",
     coordinates: [-110.69863851935013, 49.39300483924299],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
@@ -126,7 +133,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-8j-beneath-the-surface-water-monitoring",
     title: "Beneath the Surface: Water Monitoring in the Ghost Watershed",
-    description: "Peek into a bucket of bugs and see why these aquatic invertebrates are indicators of water quality.",
+    description: 
+      "Peek into a bucket of bugs and see why these aquatic invertebrates are indicators of water quality.",
     coordinates: [-114.8371996666042, 51.28249611577988],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
@@ -142,7 +150,8 @@ export const pointsOfInterestVideos = [
   {
     id: "poi-9j-finding-water-healthy-land-stream",
     title: "Finding Water: Healthy Land, Healthy Stream",
-    description: "A documentary video on the sources of Canada’s prairie rivers and their vulnerability to land use.",
+    description: 
+      "A documentary video on the sources of Canada’s prairie rivers and their vulnerability to land use.",
     coordinates: [-114.359536, 49.865747],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
