@@ -69,7 +69,7 @@ export const dropdownVariants = {
     height: 0,
     opacity: 0,
     transition: {
-      duration: 0.2,
+      duration: 0.4,
       ease: "easeInOut"
     }
   }

@@ -29,17 +29,22 @@ import { RiScrollToBottomLine } from "react-icons/ri";
 import LinkItem from './LinkItem';
 import DonateButton from './DonateButton';
 
-function MobileMenuSection({ title, items, isRouter }) {
+
+// Section for better separation 
+function MobileMenuSection({ title, items, setIsOpen }) {
   return (
-    <div className="">
+    <div>
       <div className="text-accent text-sm uppercase tracking-wider mb-2">{title}</div>
       <ul className="space-y-4 sm:space-y-2">
         {items.map((item, index) => (
-          <li key={index}>
-            <LinkItem
-              {...(isRouter ? { router: item.router } : { href: item.href })}
+          <li key={index} onClick={() => setIsOpen(false)} className='w-fit'>
+ 
+          <LinkItem
+              href={item.href}
+              router={item.router}
               scrollTo={item.scrollTo}
-              className="flex items-center gap-2 text-white hover:text-accent-alt w-fit"
+              disableActive // no active styles needed in dropdown
+              className="flex items-center gap-2 text-white hover:text-accent-alt w-fit pr-2" // this applies the hover background etc.
             >
               {item.icon}
               {item.label}
@@ -51,8 +56,9 @@ function MobileMenuSection({ title, items, isRouter }) {
   )
 }
 
+
+// Main function 
 function MobileMenu({setIsOpen, isOpen }) {
-  
   useEffect(() => {
     // Toggle body overflow based on menu open state
     document.body.classList.toggle("overflow-hidden", isOpen);
@@ -75,7 +81,7 @@ function MobileMenu({setIsOpen, isOpen }) {
   
 
   return (
-    <div className="md:hidden w-full z-30">
+    <div className="md:hidden w-full z-30 overflow-hidden">
       <AnimatePresence initial={false}>
         {isOpen && (
           <motion.div
@@ -84,19 +90,22 @@ function MobileMenu({setIsOpen, isOpen }) {
             animate="visible"
             exit="exit"
             variants={dropdownVariants}
-            className="w-full overflow-hidden"
+            className="w-full "
           >
-            {/* Sticky Top Divider */}
+
+            {/* Top Divider */}
             <hr className="border-white border-1 rounded-4xl mt-4 sticky top-0 z-10" />
             <div className="absolute sm:hidden bottom-2 right-2 text-secondary"><RiScrollToBottomLine size={24} /></div>
-            <div onClick={() => setIsOpen(false)} className="fixed bg-black/40 z-0 h-screen w-full p-4"/>
+            
+            {/* backdrop */}
+            <div onClick={() => setIsOpen(false)} className="fixed bg-black/50 z-0 h-screen w-full p-4"/>
 
 
             {/* Scrollable Content */}
             <div className="p-4 max-h-[50svh] overflow-y-auto scroll-element relative grid sm:grid-cols-2 gap-y-4">
-              <MobileMenuSection title="Navigation" items={scrollLinks} />
-              <MobileMenuSection title={toolsDropDown.title} items={toolsDropDown.list} />  
-              <MobileMenuSection title={learnMoreDropDown.title} items={learnMoreDropDown.list} isRouter />
+              <MobileMenuSection setIsOpen={setIsOpen} title="Navigation" items={scrollLinks} />
+              <MobileMenuSection setIsOpen={setIsOpen} title={toolsDropDown.title} items={toolsDropDown.list} />  
+              <MobileMenuSection setIsOpen={setIsOpen} title={learnMoreDropDown.title} items={learnMoreDropDown.list} isRouter />
               <div className='py-4'><DonateButton /></div>
             </div>
           </motion.div>

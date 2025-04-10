@@ -84,7 +84,7 @@ export default function BackgroundWrapper({ background, backgroundSm, children, 
   };
 
   return (
-    <div className={`${className} relative `}>
+    <div className={`${className} relative bg-primary `}>
       {/* Blurry low-res background */}
       {backgroundSm && (
         <div

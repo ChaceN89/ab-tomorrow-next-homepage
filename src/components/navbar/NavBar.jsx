@@ -24,7 +24,7 @@ import { HiX } from 'react-icons/hi'
 
 import './nav.styles.css'
 
-const HexSeparator = () => (
+const HextDot = () => (
   <BsHexagonHalf className="text-accent-alt w-2 h-2 opacity-60 mx-1 translate-y-[1.5px]" />
 )
 
@@ -53,7 +53,7 @@ export default function NavBar() {
             <NavLogo />
           </LinkItem>
           <div className="items-center hidden md:flex">
-            <HexSeparator />
+            <HextDot />
             <NavDropdown title={toolsDropDown.title} items={toolsDropDown.list} />
           </div>
         </div>
@@ -70,11 +70,11 @@ export default function NavBar() {
               {icon}
               {label}
             </LinkItem>,
-            index < arr.length - 1 ? <HexSeparator key={`sep-${scrollTo}`} /> : null,
+            index < arr.length - 1 ? <HextDot key={`sep-${scrollTo}`} /> : null,
           ])}
-          <HexSeparator />
+          <HextDot />
           <NavDropdown title={learnMoreDropDown.title} items={learnMoreDropDown.list} openToLeft={false} />
-          <HexSeparator />
+          <HextDot />
           <DonateButton />
         </div>
 
