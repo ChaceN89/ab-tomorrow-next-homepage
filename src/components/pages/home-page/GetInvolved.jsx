@@ -64,7 +64,6 @@ export default function GetInvolved() {
             videoSrc="vRLmJ_2zab0"
             alt="Canada Tomorrow Initiative"
             title="Canada Tomorrow Initiative"
-            className="h-80 md:h-96 w-full max-w-3xl"
           />
         </div>
 
