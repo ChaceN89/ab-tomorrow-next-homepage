@@ -21,6 +21,8 @@ export default function VideoFilters() {
     setSearchText,
     only360,
     setOnly360,
+    hasLessonPlans,
+    setHasLessonPlans,
     numResults
   } = useVideoResource();
 
@@ -38,18 +40,31 @@ export default function VideoFilters() {
         type="text"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
-        placeholder="Search videos..."
+        placeholder="Search Videos..."
         className="border px-4 py-2 rounded w-full"
       />
 
-      <label className="flex items-center gap-2">
-        <input
-          type="checkbox"
-          checked={only360}
-          onChange={() => setOnly360(!only360)}
-        />
-        <span>360° only</span>
-      </label>
+
+      <div className="flex flex-wrap gap-4">
+
+        <label className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={only360}
+            onChange={() => setOnly360(!only360)}
+            />
+          <span>360° only</span>
+        </label>
+
+        <label className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={hasLessonPlans}
+            onChange={() => setHasLessonPlans(!hasLessonPlans)}
+            />
+          <span>With Lesson Plans</span>
+        </label>
+      </div>
 
       <FilterDropdown
         label="Filter by Category"

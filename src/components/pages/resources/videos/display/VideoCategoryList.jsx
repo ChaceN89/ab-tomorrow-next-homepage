@@ -10,6 +10,7 @@ export default function VideoCategoryList() {
     toolFilters,
     searchText,
     only360,
+    hasLessonPlans,
     setNumResults,
   } = useVideoResource();
 
@@ -23,13 +24,14 @@ export default function VideoCategoryList() {
     const matchesCategory = categoryFilters[v.category];
     const matchesTool = v.tools?.some((t) => toolFilters[t]);
     const matches360 = only360 ? v.media?.is360 : true;
+    const matchesHasLessonPlans = hasLessonPlans ? v.lessonPlans.length > 0 : true;
 
     const matchesSearch =
       v.title.toLowerCase().includes(lowerSearch) ||
       v.description.toLowerCase().includes(lowerSearch) ||
       v.hashtags?.some((tag) => tag.toLowerCase().includes(lowerSearch));
 
-    if (matchesCategory && matchesTool && matchesSearch && matches360) {
+    if (matchesCategory && matchesTool && matchesSearch && matches360 && matchesHasLessonPlans) {
       if (!grouped[v.category]) grouped[v.category] = [];
       grouped[v.category].push(v);
     }

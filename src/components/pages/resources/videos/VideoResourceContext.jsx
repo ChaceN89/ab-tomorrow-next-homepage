@@ -19,6 +19,7 @@ export function VideoResourceProvider({ children }) {
   const [toolFilters, setToolFilters] = useState({});
   const [searchText, setSearchText] = useState("");
   const [only360, setOnly360] = useState(false);
+  const [hasLessonPlans, setHasLessonPlans] = useState(false);
 
   const [numResults, setNumResults] = useState(0)
 
@@ -69,6 +70,8 @@ export function VideoResourceProvider({ children }) {
         setSearchText,
         only360,
         setOnly360,
+        hasLessonPlans,
+        setHasLessonPlans,
         numResults,
         setNumResults
       }}
