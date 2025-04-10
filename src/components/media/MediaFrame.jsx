@@ -44,7 +44,7 @@ export default function MediaFrame({
   alt = "",
   title = "",
   description = "",
-  className = "h-64",
+  className = "aspect-video",
   showWheel = false,
   thumbUrl = null,
 }) {
@@ -89,8 +89,10 @@ export default function MediaFrame({
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
 
       <div className={`relative rounded-lg shadow-lg overflow-hidden large-shadow ${className}`}>
+        
         <PulseLoader showWheel={type === "video" || showWheel} className={`transition-opacity duration-800  ${loaded ? "opacity-0 pointer-events-none" : "opacity-100"}`} />
-      
+     
+
         {/* if video and this video isn't playing show play button over top of the video */}
         {type=="video" && !videoIsPlaying && (
           <div 
@@ -112,15 +114,15 @@ export default function MediaFrame({
 
             {/* The click to play visual - can click anywhere */}
             <div 
-              className={`absolute inset-0 flex items-end p-4 justify-start transition-opacity duration-100 
+              className={` absolute inset-0 flex items-end p-4 justify-start transition-opacity duration-100 
                 ${loaded ? "opacity-100" : "opacity-0"} 
               `}
             >
               <div 
                 className="bg-white/40 backdrop-blur-md group-hover:bg-white text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition border-1 border-black/30"
               >
-                <span className="flex items-center gap-2 ">
-                  Play Video <FaPlay className="text-xl" />
+                <span className="flex items-center gap-2 text-sm md:text-base lg:text-lg ">
+                  Play Video <FaPlay  />
                 </span>
               </div>
             </div>

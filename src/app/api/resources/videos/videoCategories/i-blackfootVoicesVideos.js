@@ -17,12 +17,10 @@ export const blackfootVoicesVideos = [
     description:
       "A video sharing the Blackfoot perspective on water and its significance in Indigenous culture and the environment.",
     coordinates: [-112.45130318711476, 50.77737948576379],
-    subtype: "blackfootvoices",
+    lessonPlans: [], 
     category: VideoCategory.BLACKFOOT_VOICES,
     tools: [AssociatedTool.SIMULATOR],
     media: {
-      type: "video",
-      status: "Complete",
       url: "https://www.youtube.com/watch?v=r-NzlnMgDj4",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/thumb-a-blackfoot-perspective.jpg",
       is360: true,

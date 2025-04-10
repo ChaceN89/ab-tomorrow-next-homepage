@@ -76,8 +76,8 @@
  
  .fade-in {
    opacity: 0;
-   animation: fadeIn 1.5s ease-out forwards;
-   animation-delay: 0.8s;
+   animation: fadeIn 1.2s ease-out forwards;
+   animation-delay: 0.5s;
  }
  
 

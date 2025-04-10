@@ -14,7 +14,7 @@ export const VideoCategory = {
   ENVIRONMENTAL_INDICATORS: "Environmental Indicators",
   SOCIO_ECONOMIC_INDICATORS: "Socio-Economic Indicators",
   INDIGENOUS_INDICATORS: "Indigenous Indicators",
-  BOW_WATERSHED_SERIES: "Bow River Watershed 360 Series",
+  BOW_RIVER_360: "Bow River Watershed 360 Series",
   ICE_SERIES: "Guardians of the Ice Series",
   STONEY_VOICES: "Stoney Voices",
   BLACKFOOT_VOICES: "Blackfoot Voices",

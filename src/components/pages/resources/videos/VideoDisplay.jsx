@@ -16,7 +16,7 @@ export default function VideoDisplay() {
   } = useVideoResource();
 
   return (
-    <div className="flex flex-col md:flex-row min-h-[50vh] gap-2 px-2 ">
+    <div className="flex flex-col md:flex-row min-h-[100vh] gap-2 px-2 ">
       {/* Filters Sidebar */}
       <aside className="w-full md:w-52 xl:w-72  ">
         <SideBarWrapper>
