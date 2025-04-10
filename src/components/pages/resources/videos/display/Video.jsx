@@ -28,7 +28,7 @@ import MediaFrame from "@/components/media/MediaFrame";
 export default function Video({video}) {
 
   return (
-    <div ref={ref}  key={video.id} className="flex flex-col h-full justify-end gap-2">
+    <div  key={video.id} className="flex flex-col h-full justify-end gap-2">
 
       <div className="flex flex-col justify-start text-start px-1">
         <h3 className="text-lg font-semibold">{video.title}</h3>
