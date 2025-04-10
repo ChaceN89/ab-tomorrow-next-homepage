@@ -24,13 +24,13 @@ export const eductionData = {
   // Water Rangers Kit data - sepcific section
   waterRangerKitTitle: "Water Rangers Kit",
   waterRangerKitDescription: "Do you want to take your students out to test water but don’t have the equipment? No problem! Check out our Water Rangers test kits. Not only are you getting great testing equipment, you are helping Alberta Tomorrow at the same time! A percentage of sales goes back to Alberta Tomorrow to keep the platform completely free for you!",
-  waterRangerKitImg: "ui-elements/water-rangers-kit.jpg",
+  waterRangerKitImg: "/ui-elements/water-rangers-kit.jpg",
 
   // MediaFrame data
   media: [
     {
       type: "video",
-      src: "7RmwsUh1-0E",
+      videoSrc: "7RmwsUh1-0E",
       title: "The Power of Alberta Tomorrow",
       description: (
         <p>
@@ -40,7 +40,7 @@ export const eductionData = {
     },
     {
       type: "video",
-      src: "XcK-MNL1zCg",
+      videoSrc: "XcK-MNL1zCg",
       title: "Student Projects in Action",
       description: (
         <p>
@@ -50,7 +50,7 @@ export const eductionData = {
     },
     {
       type: "video",
-      src: "kJ6Pu5uByQM",
+      videoSrc: "kJ6Pu5uByQM",
       title: "Getting Started",
       description: (
         <p>

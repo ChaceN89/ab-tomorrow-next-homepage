@@ -31,7 +31,8 @@ export default function Intro() {
             <MediaFrame
               key={index}
               type={item.type}
-              src={item.src}
+              videoSrc={item.videoSrc}
+              imgSrc={item.imgSrc}
               alt={item.alt}
               title={item.title}
               description={item.description}

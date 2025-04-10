@@ -44,7 +44,7 @@ export default function VideoDisplay() {
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 pb-72">
+      <main className="flex-1">
         { loading || !videos ? (
           <div className="relative mt-20">
             <PulseLoader showWheel loadingText="Fetching Videos"/>

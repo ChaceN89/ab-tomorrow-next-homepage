@@ -19,7 +19,7 @@ export const indigenousVoicesData = {
   // Media section
   media: {
     img: {
-      src: 'ui-elements/indigenous-voices.jpg',
+      src: '/ui-elements/indigenous-voices.jpg',
       title: 'Indigenous Voices', // lowercase "title"
     },
     video: {

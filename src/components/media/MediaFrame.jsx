@@ -32,50 +32,74 @@
  */
 
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import PulseLoader from "../common/PulseLoader";
 import Image from "next/image";
 import YouTube from 'react-youtube';
 import { FaPlay } from "react-icons/fa";
+import { useInView } from "react-intersection-observer";
+
 
 export default function MediaFrame({
   type = "image",
-  src,
+  imgSrc = "",
+  videoSrc= "",
   alt = "",
   title = "",
   description = "",
   className = "aspect-video",
   showWheel = false,
-  thumbUrl = null,
 }) {
 
+  const { ref, inView } = useInView({
+    triggerOnce: true,     // only trigger once
+    threshold: 0.1,        // 10% of the component must be visible
+  });
+
   // laod and playing(if video) state
-  const [loaded, setLoaded] = useState(false);
+  const [imgLoaded, setImgLoaded] = useState(false);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
   const [videoIsPlaying, setvideoIsPlaying] = useState(false)
 
   // get access to the video player is its active
   const playerRef = useRef(null);
-  const handleReady = (event) => {
+  const handleVideoReady = (event) => {
     playerRef.current = event.target;
-    setLoaded(true);
+    setVideoLoaded(true);
   };
 
 
-  // Play the video from the thumbnail click event
-  const playVideo = () => {
-    setvideoIsPlaying(true);
+  //pause all other videos on screen
+  const pauseOtherVideos = () => {
+    const allPlayers = document.querySelectorAll("iframe.yt-frame");
   
-    // pause all other videos
-    const allPlayers = document.querySelectorAll("iframe");
     allPlayers.forEach((player) => {
-      if (player !== playerRef.current) {
-        const playerInstance = player.contentWindow;
-        if (playerInstance) {
-          playerInstance.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-        }
+      // Skip the current video by comparing videoId
+      if (player.src.includes(videoSrc)) return;
+  
+      const playerInstance = player.contentWindow;
+      if (playerInstance) {
+        playerInstance.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
       }
     });
+  };
   
+
+  // function to play the video and pause all other videos
+  const myOnPlay = () => {
+    setvideoIsPlaying(true);
+    pauseOtherVideos();
+  }
+
+  // Play the video from the thumbnail click event
+  const playVideo = () => {
+    if (type !== "video") return
+
+    if (!playerRef.current) return
+
+    myOnPlay();
+      
     // try to play video
     if (playerRef.current && typeof playerRef.current.playVideo === "function") {
       playerRef.current.playVideo();
@@ -90,90 +114,99 @@ export default function MediaFrame({
       }, 300);
     }
   };
-  
 
-  return (
+  // Pause the video when the component unmounts
+  useEffect(() => {
+    return () => {
+      // Pause the video if it's active
+      if (playerRef.current?.pauseVideo) {
+        try {
+          playerRef.current.pauseVideo();
+        } catch (err) {
+          console.warn("🎬 Failed to pause video on unmount:", err);
+        }
+      }
+  
+      // Also nullify the ref for safety
+      playerRef.current = null;
+    };
+  }, []);
+
+  if (!imgSrc && !videoSrc) {
+    return null;
+  }
+
+  return(
     <div className="w-full max-w-2xl mx-auto text-center space-y-2 text-inherit">
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
-
-      <div className={`relative rounded-lg shadow-lg overflow-hidden large-shadow ${className}`}>
+      
+      <div ref={ref} className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
         
-        <PulseLoader showWheel={type === "video" || showWheel} className={`transition-opacity duration-800  ${loaded ? "opacity-0 pointer-events-none" : "opacity-100"}`} />
-     
+        {inView && (<>
+          <PulseLoader showWheel={type === "video" || showWheel} className={`transition-opacity duration-800  ${imgLoaded || videoLoaded ? "opacity-0 pointer-events-none" : "opacity-100"}`} />
+      
 
-        {/* if video and this video isn't playing show play button over top of the video */}
-        {type=="video" && !videoIsPlaying && (
-          <div 
-            onClick={playVideo}
-            className="absolute inset-0 z-30 cursor-pointer group" 
-          >
-            {/* Display a thumbnail if it exists  */}
-            {thumbUrl && (
-              <Image
-                src={thumbUrl}
-                alt={alt || "Video thumbnail"}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className={`object-cover transition-opacity duration-500 ${
-                  loaded ? "opacity-100" : "opacity-0"
-                  }`}
+          {/* Load img if image or load it as thumnail if video is the type */}
+          {(
+            type == "image" ||  // if an image 
+            (type == "video" && imgSrc &&  // or its a video with a thumbnail
+                (!videoLoaded || !videoIsPlaying) // and if its a video with a thumbn ail its either not loaded or not playing
+            )
+          ) &&   
+            <Image
+              src={imgSrc}
+              alt={alt}
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className={`object-cover transition-opacity duration-500 ${
+                imgLoaded ? "opacity-100" : "opacity-0"
+                }`}
+              onLoad={() => setImgLoaded(true)}
+            />
+          
+          }
+
+          {/* Video component */}
+          {type == "video" &&
+            // <div className="bg-black">
+              <YouTube
+                videoId={videoSrc}
+                onReady={handleVideoReady}
+                loading="lazy"
+                iframeClassName="yt-frame"
+                onPlay={() => myOnPlay() }
+                opts={{
+                  width: "100%",
+                  height: "100%",
+                }}
+                className={`w-full h-full transition duration-200 ${
+                  (videoIsPlaying || !imgSrc)  ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
+                }`}           
               />
-            )}
-
-            {/* The click to play visual - can click anywhere */}
-            <div 
-              className={` absolute inset-0 flex items-end p-4 justify-start transition-opacity duration-100 
-                ${loaded ? "opacity-100" : "opacity-0"} 
-              `}
-            >
+          }  
+              
+          {/* Button over video to trigger playing */}
+          {(type=="video" && !videoIsPlaying ) &&
+            <div  className={`absolute inset-0 transition-opacity duration-200  ${videoLoaded ? "opacity-100" : "opacity-10"}`} >
               <div 
-                className="bg-white/40 backdrop-blur-md group-hover:bg-white text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition border-1 border-black/30"
+                className="p-4 flex items-end justify-start  inset-0 z-30 cursor-pointer group h-full w-full " 
+                onClick={playVideo} 
               >
-                <span className="flex items-center gap-2 text-sm md:text-base lg:text-lg ">
-                  Play Video <FaPlay  />
-                </span>
+
+                <div 
+                  className="bg-white/40 backdrop-blur-md group-hover:bg-white text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition border-1 border-black/30"
+                >
+                  <span className="flex items-center gap-2 text-sm md:text-base lg:text-lg ">
+                    Play Video <FaPlay  />
+                  </span>
+                </div>
               </div>
             </div>
-
-          </div>
-        )}
-
-        {type === "video" ? (
-          <div
-            className={`absolute inset-0 w-full h-full transition-opacity duration-500 ${
-              loaded ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <YouTube
-              videoId={src}
-              onReady={handleReady}
-              loading="lazy"
-              onPlay={() => setvideoIsPlaying(true)}
-              opts={{
-                width: "100%",
-                height: "100%",
-              }}
-              className={`w-full h-full transition duration-200 ${
-                !thumbUrl || videoIsPlaying ? "opacity-100" : "opacity-0" // hide video until thumbnail is clicked and if no thumbnail
-              }`}           
-            />
-          </div>
-        
-        ) : (
-          <Image
-            src={`/${src}`}
-            alt={alt}
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className={`object-cover transition-opacity duration-500 ${
-              loaded ? "opacity-100" : "opacity-0"
-            }`}
-            onLoad={() => setLoaded(true)}
-          />
-        )}
+          }
+        </>)}       
       </div>
 
       {description && <div className="text-left pt-1.5">{description}</div>}
     </div>
-  );
+  )
 }

@@ -27,9 +27,19 @@ export default function FilterDropdown({
   filterMap,
   setFilterMap,
   showScrollLinks = false,
+  initialOpen = false,
 }) {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(initialOpen);
 
+
+  const toggleAll = () => {
+    const allTrue = Object.values(filterMap).every((val) => val);
+    setFilterMap((prev) =>
+      Object.fromEntries(
+        Object.keys(prev).map((key) => [key, !allTrue])
+      )
+    );
+  }
 
   return (
     <div className="border border-gray-300 rounded-lg overflow-hidden">
@@ -44,16 +54,37 @@ export default function FilterDropdown({
         />
       </button>
 
+
+
       <div
         className={`origin-top transition-transform duration-400 ease-in-out transform overflow-hidden ${
           open ? "scale-y-100" : "scale-y-0 h-0"
         }`}
       >
+        
+     
+
         <div className="flex flex-col gap-2 p-4">
-          {Object.keys(filterMap).map((item) => (
-            <div key={item} className="flex items-start justify-start gap-0.5">
+          <button
+            onClick={toggleAll}
+            className={`px-4 py-1 rounded-full border text-sm cursor-pointer text-start whitespace-nowrap truncate transition-colors
+              ${
+                Object.values(filterMap).every((val) => val)
+                  ? "bg-gray-200 text-black hover:opacity-70"
+                  : "bg-primary-alt text-white hover:opacity-90"
+              }`}
+          >
+            {Object.values(filterMap).every((val) => val)
+              ? "Unselect All Categories"
+              : "Select All Categories"}
+          </button>
+          <div className="w-full border-b border-gray-600" />
+
+          {Object.keys(filterMap).map((item, index, arr) => (
+            < React.Fragment key={item}>
+            <div key={item} className="flex items-start justify-between gap-0.5">
               <button
-                className={`px-4 py-1 rounded-full border text-sm cursor-pointer text-start ${
+                className={`px-4 py-1 rounded-full border text-sm cursor-pointer text-start whitespace-nowrap truncate hover:opacity-40 ${
                   filterMap[item]
                     ? "bg-primary text-white"
                     : "bg-gray-300 text-black"
@@ -68,21 +99,24 @@ export default function FilterDropdown({
                 {item} 
               </button>
 
-              {showScrollLinks && (
+              {(showScrollLinks && filterMap[item] )&& (
                 <Link
                   to={item}
                   smooth
                   offset={-80}
                   duration={1000}
-                  className="group cursor-pointer"
+                  className="group cursor-pointer "
                 >
                   <div className="w-6">
-                    <IoArrowRedo className="inline-block text-xl group-hover:text-2xl transition-all duration-200 text-black hover:text-tertiary-alt" />
+                    <IoArrowRedo className="inline-block w-full text-xl group-hover:text-2xl transition-all duration-200 text-black hover:text-tertiary-alt " />
                   </div>
                 </Link>
               )}
             </div>
-
+            {index < arr.length - 1 && (
+                <div className="w-full border-b border-gray-400" />
+              )}
+            </React.Fragment>
           ))}
         </div>
       </div>

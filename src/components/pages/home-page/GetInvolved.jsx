@@ -61,7 +61,7 @@ export default function GetInvolved() {
 
           <MediaFrame
             type="video"
-            src="vRLmJ_2zab0"
+            videoSrc="vRLmJ_2zab0"
             alt="Canada Tomorrow Initiative"
             title="Canada Tomorrow Initiative"
             className="h-80 md:h-96 w-full max-w-3xl"

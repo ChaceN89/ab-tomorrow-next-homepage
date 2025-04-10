@@ -38,10 +38,28 @@ export default function SideBarWrapper({
       setIsLargeScreen(window.innerWidth >= minBreakpoint);
     };
     updateSize();
-
+  
     window.addEventListener("resize", updateSize);
     return () => window.removeEventListener("resize", updateSize);
   }, [minBreakpoint]);
+  
+  // Add ResizeObserver to track wrapper width
+  const [wrapperWidth, setWrapperWidth] = useState(null);
+  
+  useEffect(() => {
+    if (!wrapperRef.current) return;
+  
+    const resizeObserver = new ResizeObserver(entries => {
+      for (let entry of entries) {
+        setWrapperWidth(entry.contentRect.width);
+      }
+    });
+  
+    resizeObserver.observe(wrapperRef.current);
+  
+    return () => resizeObserver.disconnect();
+  }, []);
+  
 
   // Track scroll only on large screens
   useEffect(() => {
@@ -62,7 +80,7 @@ export default function SideBarWrapper({
     ? {
         position: "fixed",
         top: `${minDistFromTop}px`,
-        width: wrapperRef.current?.offsetWidth || "100%",
+        width: wrapperWidth || "100%",
         zIndex: 4,
         maxHeight: `calc(100vh - ${minDistFromTop}px)`,
         overflowY: "auto",

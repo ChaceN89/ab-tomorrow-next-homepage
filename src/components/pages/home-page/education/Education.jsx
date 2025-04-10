@@ -37,7 +37,7 @@ import { eductionData } from '@/data/home-page-data/educationData';
 
 export default function Education() {
   return(
-    <BackgroundWrapper background={"ui-elements/parallax-1.jpg"} backgroundSm={null} fixed blur >
+    <BackgroundWrapper background={"/ui-elements/parallax-1.jpg"} backgroundSm={null} fixed blur >
       <div className='home-section home-y-padding space-y-8  '>
         <SectionHeader
           title={eductionData.title}
@@ -63,7 +63,7 @@ export default function Education() {
             <MediaFrame
               key={index}
               type={item.type}
-              src={item.src}
+              videoSrc={item.videoSrc}
               alt={item.alt}
               title={item.title}
               description={item.description}
@@ -73,7 +73,7 @@ export default function Education() {
 
         <MediaFrame
           type="image"
-          src={eductionData.waterRangerKitImg}
+          imgSrc={eductionData.waterRangerKitImg}
           alt="Water Rangers Testing Kit"
           title={eductionData.waterRangerKitTitle}
           description={eductionData.waterRangerKitDescription}

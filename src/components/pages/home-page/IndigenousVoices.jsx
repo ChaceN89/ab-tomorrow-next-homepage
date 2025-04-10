@@ -32,7 +32,7 @@ export default function IndigenousVoices() {
           <div className="order-1 xl:order-2 w-full h-full xl:col-span-2">
             <MediaFrame
               type="video"
-              src={indigenousVoicesData.media.video.youtubeSrc}
+              videoSrc={indigenousVoicesData.media.video.youtubeSrc}
               alt={indigenousVoicesData.media.video.title}
               title={indigenousVoicesData.media.video.title}
               className="h-64 md:h-80 lg:h-96"
@@ -65,7 +65,7 @@ export default function IndigenousVoices() {
           <div className="order-1 w-full h-full lg:col-span-2">
             <MediaFrame
               type="image"
-              src={indigenousVoicesData.media.img.src}
+              imgSrc={indigenousVoicesData.media.img.src}
               alt={indigenousVoicesData.media.img.title}
               title={""}
               className="h-80 lg:h-96"

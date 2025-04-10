@@ -30,7 +30,7 @@ export const introData = {
   media: [
     {
       type: "video",
-      src: "MHDH_m0agFM",
+      videoSrc: "MHDH_m0agFM",
       title: "Award-Winning Education",
       description: (
         <p>
@@ -40,7 +40,8 @@ export const introData = {
     },
     {
       type: "video",
-      src: "Q6-l7HymJTQ",
+      // imgSrc: "/simulator-screenshots/sim-8-new-historic.jpg",
+      videoSrc: "Q6-l7HymJTQ",
       title: "Planning for a Better Future",
       description: (
         <p className="space-y-2">
@@ -53,7 +54,7 @@ export const introData = {
     },
     {
       type: "image",
-      src: "simulator-screenshots/sim-8-new-historic.jpg",
+      imgSrc: "/simulator-screenshots/sim-8-new-historic.jpg",
       alt: "Historic Landscape Simulation",
       title: "Historic Landscape Simulation",
       description: (
@@ -64,7 +65,7 @@ export const introData = {
     },
     {
       type: "image",
-      src: "simulator-screenshots/sim-7-new-climate-planning.jpg",
+      imgSrc: "/simulator-screenshots/sim-7-new-climate-planning.jpg",
       alt: "Climate Planning Simulation",
       title: "Climate Planning Simulation",
       description: (
