@@ -21,11 +21,13 @@
 
 // utils
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
+import { FaExpandArrowsAlt } from "react-icons/fa";
 
 // components
 import MediaFrame from "@/components/media/MediaFrame";
+import Link from "next/link";
 
-export default function Video({video}) {
+export default function Video({video, noExpand = false}) {
 
   return (
     <div  key={video.id} className="flex flex-col h-full justify-end gap-2">
@@ -33,18 +35,30 @@ export default function Video({video}) {
       <div className="flex flex-col justify-start text-start px-1">
         <h3 className="text-lg font-semibold">{video.title}</h3>
       </div>
-      <MediaFrame
-        type="video"
-        videoSrc={extractYouTubeId(video.media.url)}
-        // className="aspect-video"
-        imgSrc={video.media.thumbUrl}
-      />
-      <div className="h-32 shadow-md rounded-b-lg bg-white/60 -mt-4 -mr-0.5 pt-4 overflow-hidden border-1 border-black/30 ">
-        
-        <div className="h-full overflow-y-auto custom-scrollbar p-1.5">
-          <div className="flex gap-2 ">
-            <div className={`text-sm text-gray-500 flex-1 p-0.5 ${video.lessonPlans.length > 0 && "border-r border-gray-300"}`}>
-              {video.description}
+      <div className="z-10">
+
+        <MediaFrame
+          type="video"
+          videoSrc={extractYouTubeId(video.media.url)}
+          imgSrc={video.media.thumbUrl}
+        />
+      </div>
+      <div className="h-32 shadow-md rounded-b-lg bg-white/60 -mt-4 -mr-0.5 pt-4 overflow-hidden border-1 border-black/30 relative z-0">
+        {!noExpand &&
+          <Link 
+            scroll={false} 
+            href={`/resources/videos?video=${video.id}`} 
+            className=" absolute bottom-1 right-2"
+          >
+            <FaExpandArrowsAlt className="text-secondary hover:scale-105 hover:text-accent" />
+          </Link>
+        }
+
+        <div className="h-full overflow-y-auto custom-scrollbar p-1.5 ">       
+
+          <div className="flex gap-2  pr-1.5">
+            <div className={`text-sm text-gray-500 flex-1 p-0.5 flex flex-col ${video.lessonPlans.length > 0 && "border-r border-gray-300"}`}>
+              {video.description} 
             </div>
 
             {video.lessonPlans.length > 0 && (

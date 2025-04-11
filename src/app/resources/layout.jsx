@@ -12,17 +12,15 @@
 import ResourceHeader from "@/app/resources/components/ResourceHeader";
 import { VideoResourceProvider } from "@/app/resources/components/video-components/VideoResourceContext";
 import { LessonPlanResourceProvider } from "@/app/resources/components/lesson-plan-components/LessonPlanResourceContext";
+import ModalContainer from "./components/ModalContainer";
 
-export default function ResourceLayout({ children, video, 'lesson-plan': lessonPlan }) {
+export default function ResourceLayout({ children }) {
   return (
     <LessonPlanResourceProvider>
       <VideoResourceProvider>
         <ResourceHeader />
+        <ModalContainer/>
         <main>{children}</main>
-        <div className="relative z-[70]">
-          {video}
-          {lessonPlan}
-        </div>
       </VideoResourceProvider>
     </LessonPlanResourceProvider>
   );

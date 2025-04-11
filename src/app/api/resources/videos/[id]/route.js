@@ -22,7 +22,7 @@ export async function GET(_, { params }) {
   const video = allVideos.find((v) => String(v.id) === String(id));
 
   if (!video) {
-    console.warn("❌ Video not found:", id);
+    console.warn("❌ Video not found1111:", id);
     return NextResponse.json(
       { error: `Video with ID ${id} not found` },
       { status: 404 }

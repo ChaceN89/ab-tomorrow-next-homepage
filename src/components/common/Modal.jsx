@@ -54,14 +54,14 @@ export default function Modal({ children, onClose }) {
 
   return (
     <div
-      className="fixed inset-0 z-[70] flex items-center justify-center bg-black/50"
+      className="fixed inset-0 z-[70] flex items-center justify-center bg-black/50 lg:mr-56 min-h-[50vh]"
       onClick={handleOverlayClick}
     >
       <div
         ref={modalRef}
         role="dialog"
         aria-modal="true"
-        className="relative bg-white  border  border-black rounded-lg p-6 shadow-xl w-[90vw] max-w-xl max-h-[90vh] overflow-y-auto "
+        className="relative bg-white  border  border-black rounded-lg p-4 shadow-xl min-w-[70vw] max-w-[98vw] md:max-w-[75vw] min-h-[60vh] lg:max-h-[85vh]  overflow-y-auto  "
       >
         <button
           onClick={onClose}

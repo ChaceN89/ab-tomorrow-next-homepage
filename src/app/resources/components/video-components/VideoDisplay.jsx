@@ -27,9 +27,15 @@ import SideBarWrapper from "@/components/common/SideBarWrapper";
 import VideoCategoryList from "./display/VideoCategoryList";
 import { useVideoResource } from "@/app/resources/components/video-components/VideoResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
+import { useEffect } from "react";
 
 export default function VideoDisplay() {
-  const { videos, loading } = useVideoResource();
+  const { videos, loading, fetchVideos } = useVideoResource();
+
+  // Fetch videos when the component mounts
+  useEffect(() => {
+    fetchVideos();
+  }, [fetchVideos]);
 
   return (
     <div className="flex flex-col md:flex-row min-h-[100vh] gap-2 px-2 ">

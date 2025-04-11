@@ -23,7 +23,6 @@ export function VideoResourceProvider({ children }) {
 
   const [numResults, setNumResults] = useState(0)
 
-
   // Fetches videos from the API
   const fetchVideos = async () => {
     if (videos) {
@@ -53,13 +52,10 @@ export function VideoResourceProvider({ children }) {
     }
   };
 
-  useEffect(() => {
-    fetchVideos();
-  }, []);
-
   return (
     <VideoContext.Provider
       value={{
+        fetchVideos,
         videos,
         loading,
         categoryFilters,
