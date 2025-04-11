@@ -8,7 +8,7 @@
 
 import React from "react";
 import { useVideoResource } from "./VideoResourceContext";
-import FilterDropdown from "../../components/FilterDropdown";
+import FilterDropdown from "../FilterDropdown";
 
 export default function VideoFilters() {
   const {

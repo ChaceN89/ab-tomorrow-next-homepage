@@ -10,15 +10,19 @@
  */
 
 import ResourceHeader from "@/app/resources/components/ResourceHeader";
-import { VideoResourceProvider } from "@/app/resources/videos/components/VideoResourceContext";
-import { LessonPlanResourceProvider } from "@/app/resources/lesson-plans/components/LessonPlanResourceContext";
+import { VideoResourceProvider } from "@/app/resources/components/video-components/VideoResourceContext";
+import { LessonPlanResourceProvider } from "@/app/resources/components/lesson-plan-components/LessonPlanResourceContext";
 
-export default function ResourceLayout({ children }) {
+export default function ResourceLayout({ children, video, 'lesson-plan': lessonPlan }) {
   return (
     <LessonPlanResourceProvider>
       <VideoResourceProvider>
         <ResourceHeader />
         <main>{children}</main>
+        <div className="relative z-[70]">
+          {video}
+          {lessonPlan}
+        </div>
       </VideoResourceProvider>
     </LessonPlanResourceProvider>
   );

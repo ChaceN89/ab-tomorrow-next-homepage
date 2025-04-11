@@ -25,14 +25,11 @@
 import VideoFilters from "./VideoFilters";
 import SideBarWrapper from "@/components/common/SideBarWrapper";
 import VideoCategoryList from "./display/VideoCategoryList";
-import { useVideoResource } from "@/app/resources/videos/components/VideoResourceContext";
+import { useVideoResource } from "@/app/resources/components/video-components/VideoResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
 
 export default function VideoDisplay() {
-  const {
-    videos,
-    loading,
-  } = useVideoResource();
+  const { videos, loading } = useVideoResource();
 
   return (
     <div className="flex flex-col md:flex-row min-h-[100vh] gap-2 px-2 ">
