@@ -9,9 +9,9 @@
  * @updated Apr 1, 2025
  */
 
-import ResourceHeader from "@/components/pages/resources/ResourceHeader";
-import { VideoResourceProvider } from "@/components/pages/resources/videos/VideoResourceContext";
-import { LessonPlanResourceProvider } from "@/components/pages/resources/lesson-plans/LessonPlanResourceContext";
+import ResourceHeader from "@/app/resources/components/ResourceHeader";
+import { VideoResourceProvider } from "@/app/resources/videos/components/VideoResourceContext";
+import { LessonPlanResourceProvider } from "@/app/resources/lesson-plans/components/LessonPlanResourceContext";
 
 export default function ResourceLayout({ children }) {
   return (

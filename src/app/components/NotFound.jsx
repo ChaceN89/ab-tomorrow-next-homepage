@@ -9,8 +9,8 @@
  */
 
 import React from 'react';
-import HexSeparator from '../common/hexSparator/HexSeparator';
-import HexButton from '../common/hexButton/HexButton';
+import HexSeparator from '../../components/common/hexSparator/HexSeparator';
+import HexButton from '../../components/common/hexButton/HexButton';
 
 export default function NotFound() {
   return (

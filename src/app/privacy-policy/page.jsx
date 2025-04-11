@@ -10,7 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
-import PrivacyPolicy from '@/components/pages/Polices/PrivacyPolicy'
+import PrivacyPolicy from '@/app/privacy-policy/PrivacyPolicy'
 
 // Page-specific metadata
 export const metadata = {

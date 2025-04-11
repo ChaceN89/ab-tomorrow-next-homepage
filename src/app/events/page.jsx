@@ -10,7 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
-import Events from '@/components/pages/events/Events'
+import Events from '@/app/events/components/Events'
 
 // Page-specific metadata
 export const metadata = {

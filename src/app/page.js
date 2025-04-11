@@ -7,7 +7,7 @@
  * @created Mar 31, 2025
  * @updated Mar 31, 2025
  */
-import HomeMainPage from "@/components/pages/home-page/HomeMainPage";
+import HomeMainPage from "@/app/home-page-components/HomeMainPage";
 
 export default function HomePage() {
   return ( <HomeMainPage/> );

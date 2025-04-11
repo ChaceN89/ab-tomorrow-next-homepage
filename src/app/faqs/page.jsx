@@ -10,7 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
-import FAQs from '@/components/pages/FAQs'
+import FAQs from '@/app/faqs/FAQs'
 
 // Page-specific metadata
 export const metadata = {

@@ -7,8 +7,8 @@
 "use client";
 
 import React from "react";
-import { useVideoResource } from "../VideoResourceContext";
-import FilterDropdown from "./FilterDropdown";
+import { useVideoResource } from "./VideoResourceContext";
+import FilterDropdown from "../../components/FilterDropdown";
 
 export default function VideoFilters() {
   const {

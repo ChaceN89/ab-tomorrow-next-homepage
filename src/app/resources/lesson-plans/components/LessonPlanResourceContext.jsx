@@ -11,7 +11,6 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import { useResourceFilters } from "../useResourceFilters"; // assumes shared hook path
 
 const LessonPlanContext = createContext();
 
@@ -19,10 +18,7 @@ export function LessonPlanResourceProvider({ children }) {
   const [lessonPlans, setLessonPlans] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const filterLogic = useResourceFilters([], {
-    getCategory: (plan) => plan.subject || "Uncategorized",
-    getTags: (plan) => plan.grades || [], // assuming lesson plans have a `grades: []` array
-  });
+
 
   const fetchLessonPlans = async () => {
     if (lessonPlans) return;
@@ -33,7 +29,6 @@ export function LessonPlanResourceProvider({ children }) {
 
       const data = await res.json();
       setLessonPlans(data);
-      filterLogic.initializeFilters(data);
     } catch (err) {
       console.error("❌ Lesson plans fetch failed:", err);
     } finally {
@@ -51,7 +46,6 @@ export function LessonPlanResourceProvider({ children }) {
         lessonPlans,
         loading,
         fetchLessonPlans,
-        ...filterLogic,
       }}
     >
       {children}

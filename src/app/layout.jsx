@@ -18,13 +18,13 @@ import DisplayTesting from "@/components/testing/DisplayTesting";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
-import PartnerBanner from "@/components/pages/partners/PartnerBanner";
+import PartnerBanner from "@/app/our-partners/components/PartnerBanner";
 import NewsPopup from "@/components/media/NewsPopup";
 import ScrollProgress from "@/components/layout/ScrollProgress";
 
 // functions
 import { getPageTitle } from "@/utils/metadataUtils";
-import ClientLayout from "./ClientLayout";
+import ClientLayout from "./components/ClientLayout";
 
 // viewport meta data
 export const viewport = {

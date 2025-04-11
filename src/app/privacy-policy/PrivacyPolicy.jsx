@@ -9,8 +9,8 @@
  */
 
 import React from "react";
-import PolicySection from "./PolicySection";
-import PolicyText from "./PolicyText";
+import PolicySection from "../../components/Polices/PolicySection";
+import PolicyText from "../../components/Polices/PolicyText";
 import PageHeader from "@/components/common/PageHeader";
 
 export default function PrivacyPolicy() {

@@ -22,10 +22,10 @@
  * @updated Apr 10, 2025
  */
 "use client";
-import VideoFilters from "./filtering/VideoFilters";
-import SideBarWrapper from "@/components/common/sidebarWrapper/SideBarWrapper";
+import VideoFilters from "./VideoFilters";
+import SideBarWrapper from "@/components/common/SideBarWrapper";
 import VideoCategoryList from "./display/VideoCategoryList";
-import { useVideoResource } from "./VideoResourceContext";
+import { useVideoResource } from "@/app/resources/videos/components/VideoResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
 
 export default function VideoDisplay() {

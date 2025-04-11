@@ -10,7 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
-import VideoDisplay from '@/components/pages/resources/videos/VideoDisplay'
+import VideoDisplay from '@/app/resources/videos/components/VideoDisplay'
 
 // Page-specific metadata
 export const metadata = {

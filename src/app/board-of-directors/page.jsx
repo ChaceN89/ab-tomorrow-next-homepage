@@ -10,7 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
-import BoardOfDirectors from '@/components/pages/boardOfDirectors/BoardOfDirectors'
+import BoardOfDirectors from '@/app/board-of-directors/components/BoardOfDirectors'
 
 // Page-specific metadata
 export const metadata = {

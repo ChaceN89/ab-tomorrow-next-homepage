@@ -27,7 +27,7 @@ export default function VideoCategory({ category, videos = [] }) {
       <div className="relative ">
         <h2 className="text-4xl font-bold border-b border-black py-4">{category}</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-3  gap-4 my-4  overflow-hidden">
+        <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-3  gap-4 my-4 ">
           {videos.map((video) => (
             <Video video={video} key={video.id} />
           ))}

@@ -6,7 +6,7 @@
  * @created Mar 31, 2025
  * @updated Mar 31, 2025
  */
-import NotFound from "@/components/pages/NotFound"
+import NotFound from "@/app/components/NotFound"
 
 export default function NotFoundPage() {
   return (<NotFound/>)
