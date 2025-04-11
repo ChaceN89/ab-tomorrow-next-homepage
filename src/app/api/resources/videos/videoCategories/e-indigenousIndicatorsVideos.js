@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const indigenousIndicatorsVideos = [
   {
-    id: "ind-1e-tlu-access-d19a1b23",
+    id: "ind-01e-tlu-access",
     title: "TLU Access",
     description: 
       "Traditional Land Use Access (TLU Access) measures land accessibility for Indigenous peoples engaging in traditional practices. It reflects accessible natural areas not within protected zones.",
@@ -27,7 +27,7 @@ export const indigenousIndicatorsVideos = [
     hashtags: ["tlu", "indigenous-access", "traditional-use", "landuse"]
   },
   {
-    id: "ind-2e-moose-habitat-b02c4d55",
+    id: "ind-02e-moose-habitat",
     title: "Moose Habitat",
     description: 
       "Moose Habitat is reduced by industrial development and proximity to human activity. This video explores how habitat value is calculated in Alberta Tomorrow.",
@@ -42,7 +42,7 @@ export const indigenousIndicatorsVideos = [
     hashtags: ["moose", "habitat", "wildlife", "landuse"]
   },
   {
-    id: "ind-3e-hunting-opportunity-91cdefa0",
+    id: "ind-03e-hunting-opportunity",
     title: "Hunting Opportunity",
     description: 
       "This video explains the Hunting Opportunity indicator, combining TLU Access and Moose Habitat to reflect Indigenous hunting access.",
@@ -57,7 +57,7 @@ export const indigenousIndicatorsVideos = [
     hashtags: ["hunting", "tlu", "moose", "landuse"]
   },
   {
-    id: "ind-4e-water-quality-72f85ae3",
+    id: "ind-04e-water-quality",
     title: "Water Quality",
     description: 
       "Phosphorus runoff and land conversion reduce water quality. Learn how Indigenous communities are impacted and how this indicator is measured.",
@@ -72,7 +72,7 @@ export const indigenousIndicatorsVideos = [
     hashtags: ["abwater", "waterquality", "eutrophication", "landuse"]
   },
   {
-    id: "ind-5e-fish-habitat-abc1ef09",
+    id: "ind-05e-fish-habitat",
     title: "Fish Habitat",
     description: 
       "Healthy fish habitat means diverse native species and fewer disturbances. This video highlights habitat importance to Indigenous communities.",
@@ -87,7 +87,7 @@ export const indigenousIndicatorsVideos = [
     hashtags: ["abfish", "fishhabitat", "nativetrout", "indigenous-values"]
   },
   {
-    id: "ind-6e-fishing-opportunity-cb473bd0",
+    id: "ind-06e-fishing-opportunity",
     title: "Fishing Opportunity",
     description: 
       "Fishing Opportunity combines TLU Access and Fish Habitat to indicate access to successful fishing activities for Indigenous peoples.",

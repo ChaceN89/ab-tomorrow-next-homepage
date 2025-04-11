@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const stoneyVoicesAdditionalVideos = [
   {
-    id: "stoney-hh-1h-what-will-land-look-like",
+    id: "stoney-hh-what-will-land-look-like",
     title: "What Will Land Look Like In The Future",
     description: 
       "What is your hope for the future?",
@@ -27,7 +27,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-2h-great-depression",
+    id: "stoney-2hh-great-depression",
     title: "Great Depression",
     description: 
       "Elder Lawrence talks about the Stoney experience during the Great Depression. ",
@@ -42,7 +42,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-3h-water-now-and-future",
+    id: "stoney-3hh-water-now-and-future",
     title: "Water - Now and The Future",
     description: 
       "Listen to Elder Margaret talk about the importance of Water to the Stoney People and to everyone.",
@@ -57,7 +57,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-4h-stoney-voice-at-table",
+    id: "stoney-4hh-stoney-0voice-at-table",
     title: "Stoney Voice At The Table",
     description: 
       "Land Use planning in Alberta needs to include a Stoney Voice.",
@@ -72,7 +72,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-5h-fishing-on-the-bow",
+    id: "stoney-5hh-fishing-on-the-bow",
     title: "Fishing On The Bow",
     description: 
       "The Stoney used to use the fish from the Bow River, but they don't eat the fish anymore. They enjoy the river but they don't eat the fish.",
@@ -87,7 +87,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-6h-tornado",
+    id: "stoney-6hh-tornado",
     title: "Tornado",
     description: 
       "Travis talks about how he was taught to survive a Tornado on Stoney territory.",
@@ -102,7 +102,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-7h-using-the-land",
+    id: "stoney-7hh-using-the-land",
     title: "Using The Land",
     description: 
       "Listen to Elders talk about how the Stoney people used the land.",
@@ -117,7 +117,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-8h-moose-story",
+    id: "stoney-8hh-moose-story",
     title: "Moose Story",
     description: 
       "Moose in Stoney Territory. Are there as many now as there were in the past? ",
@@ -132,7 +132,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-9h-land-use-and-wildlife",
+    id: "stoney-9hh-land-use-and-wildlife",
     title: "Land Use and Wildlife",
     description: `Travis talks about how wildlife populations have changed on Stoney territory and what needs to be done to protect from further loss.  "We are coming into the home of the four legged and winged ones and need to be mindful of what we're doing".`,
     category: VideoCategory.STONEY_VOICES,
@@ -146,7 +146,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-hh-10h-protected-areas",
+    id: "stoney-10hh-protected-areas",
     title: "Protected Areas",
     description: 
       "The Sibbald area is an area used for camping and recreation but does that compatible with the Stoney Traditional Land Uses?",
@@ -161,7 +161,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-h2-11h-reconcili-action",
+    id: "stoney-11hh-reconcili-action",
     title: "Reconcili-ACTION",
     description: 
       "Elder Terry talks about the need for ReconciliACTION after Reconciliation.",
@@ -176,7 +176,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-h2-12h-first-contact",
+    id: "stoney-12hh-first-contact",
     title: "First Contact With Settlers",
     description: 
       "Travis recalls stories of Stoney encountering Settlers for the first time.",
@@ -191,7 +191,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-h2-13h-access-to-land",
+    id: "stoney-0h2-13h-access-to-land",
     title: "Access To Land - Sibbald Flats",
     description: 
       "Listen to Elders talk about the  importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
@@ -206,7 +206,7 @@ export const stoneyVoicesAdditionalVideos = [
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
   },
   {
-    id: "stoney-h2-14h-introductions",
+    id: "stoney-14hh-introductions",
     title: "Introductions",
     description: 
       "Meet the Elders from the Stoney Nakoda Nation who made this video series possible.",

@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const pointsOfInterestVideos = [
   {
-    id: "poi-1j-investigating-a-fish-kill",
+    id: "poi-01j-investigating-a-fish-kill",
     title: "Investigating a Fish Kill",
     description: 
       "Michael Sullivan, provincial fish science specialist with Alberta Fish and Wildlife talks at Lake Isle where thousands of sucker fish are poking their heads out of the water literally gasping for air because of oxygen deficiency in the water in this video from March 2014.",
@@ -29,7 +29,7 @@ export const pointsOfInterestVideos = [
     hashtags: ["water-quality", "ab-water", "land-use", "eutrophication", "fish-kill", "ab-environment"]
   },
   {
-    id: "poi-2j-native-trout-in-alberta",
+    id: "poi-02j-native-trout-in-alberta",
     title: "Native Trout in Alberta",
     description: 
       "Watch this recording of a LiveStream presented by CPAWS SAB, Trout Unlimited and Cows and Fish to learn about Native Trout in Alberta.",
@@ -46,7 +46,7 @@ export const pointsOfInterestVideos = [
     hashtags: ["water-quality", "native-trout", "cpaws", "trout-unlimited", "recreation", "agriculture"]
   },
   {
-    id: "poi-3j-athabasca-sand-dunes-ecological-reserve",
+    id: "poi-03j-athabasca-sand-dunes-ecological-reserve",
     title: "Athabasca Sand Dunes Ecological Reserve",
     description: 
       "Open, moving sand dunes surrounded by lakes.",
@@ -63,7 +63,7 @@ export const pointsOfInterestVideos = [
     hashtags: ["athabasca", "sand", "dunes", "ecological-reserve"]
   },
   {
-    id: "poi-4j-writing-on-stone-provincial-park",
+    id: "poi-04j-writing-on-stone-provincial-park",
     title: "Writing on Stone Provincial Park",
     description: 
       "Learn about the landforms and the significance of the area to the Blackfoot people.",
@@ -80,7 +80,7 @@ export const pointsOfInterestVideos = [
     hashtags: ["writing-on-stone", "petroglyphs", "milk-river", "blackfoot"]
   },
   {
-    id: "poi-5j-hanging-culvert",
+    id: "poi-05j-hanging-culvert",
     title: "Hanging Culvert",
     description: 
       "Listen to this fisheries biologist explain what a hanging culvert is in the upper reaches of the Red Deer River Watershed.",
@@ -97,7 +97,7 @@ export const pointsOfInterestVideos = [
     hashtags: ["culvert", "stream-crossing", "fish", "watershed", "roads"]
   },
   {
-    id: "poi-6j-forest-attack-mountain-pine-beetle",
+    id: "poi-06j-forest-attack-mountain-pine-beetle",
     title: "Forest Attack - Mountain Pine Beetle",
     description: 
       "Follow biologists as they look for trees attacked by Mountain Pine Beetles.",
@@ -114,7 +114,7 @@ export const pointsOfInterestVideos = [
     hashtags: ["forests", "pine-beetle", "infestation", "biology"]
   },
   {
-    id: "poi-7j-grassland-restoration",
+    id: "poi-07j-grassland-restoration",
     title: "Grassland Restoration",
     description: 
       "This ranch south of Manyberries is an Alberta Conservation Association site.",
@@ -131,7 +131,7 @@ export const pointsOfInterestVideos = [
     hashtags: ["grassland", "restoration", "ranching", "conservation"]
   },
   {
-    id: "poi-8j-beneath-the-surface-water-monitoring",
+    id: "poi-08j-beneath-the-surface-water-monitoring",
     title: "Beneath the Surface: Water Monitoring in the Ghost Watershed",
     description: 
       "Peek into a bucket of bugs and see why these aquatic invertebrates are indicators of water quality.",
@@ -148,7 +148,7 @@ export const pointsOfInterestVideos = [
     hashtags: ["water", "ghost-watershed", "monitoring", "aquatic-invertebrates"]
   },
   {
-    id: "poi-9j-finding-water-healthy-land-stream",
+    id: "poi-09j-finding-water-healthy-land-stream",
     title: "Finding Water: Healthy Land, Healthy Stream",
     description: 
       "A documentary video on the sources of Canada’s prairie rivers and their vulnerability to land use.",

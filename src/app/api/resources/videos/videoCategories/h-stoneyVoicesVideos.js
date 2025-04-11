@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const stoneyVoicesVideos = [
   {
-    id: "stoney-1h-consulting-with-the-stoney",
+    id: "stoney-01h-consulting-with-the-stoney",
     title: "Consulting With The Stoney",
     description: 
       "The Stoney people want to be included in discussions about the future of Stoney lands. Listen to Elders talk about what they use the land for.",
@@ -31,7 +31,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-2h-cement-factory",
+    id: "stoney-02h-cement-factory",
     title: "Cement Factory",
     description: 
       "The Cement factory has been around for a long time.  Listen to Elder Lawrence talk about how Exshaw got it's name and  the impact of the plant on the Stoney people.",
@@ -50,7 +50,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-3h-the-railway",
+    id: "stoney-03h-the-railway",
     title: "The Railway",
     description: 
       "Elder Lawrence talks about the railway as it goes through Stoney Territory. ",
@@ -69,7 +69,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-4h-using-land-for-protection",
+    id: "stoney-04h-using-land-for-protection",
     title: "Using Land For Protection",
     description: 
       "Learn how the Stoney people used the land for protection.",
@@ -88,7 +88,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-5h-glaciers",
+    id: "stoney-05h-glaciers",
     title: "Glaciers",
     description: 
       "Elder Margaret talks about her experience on the Columbia Ice field and what she thinks should be done.",
@@ -107,7 +107,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-6h-creator-story",
+    id: "stoney-06h-creator-story",
     title: "Creator Story",
     description: 
       "According to the Stoney, Jasper down to the US is their land.  This is where creator put them.",
@@ -126,7 +126,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-7h-reclimatizing",
+    id: "stoney-07h-reclimatizing",
     title: "Reclimatizing in the Sibbald",
     description: 
       "Travis discusses how the Sibbald area was used by the Stoney people to reacclimatize back to Mountain elevations after travelling south. ",
@@ -145,7 +145,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-8h-before-treaty",
+    id: "stoney-08h-before-treaty",
     title: "Before Treaty",
     description: 
       "Elder Margaret is asked to describe the Stoney people before Treaty was signed.",
@@ -164,7 +164,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-9h-life-of-a-stoney-boy",
+    id: "stoney-09h-life-of-a-stoney-0boy",
     title: "Life Of A Stoney Boy",
     description: 
       "Listen to Elder Terry tell a story from his youth.",
@@ -183,7 +183,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-10h-bringing-back-the-bison",
+    id: "stoney-010h-bringing-back-the-bison",
     title: "Bringing Back the Bison",
     description: 
       "Travis talks about reintroducing Bison back on the landscape.",
@@ -202,7 +202,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-11h-yamnuska-meaning",
+    id: "stoney-011h-yamnuska-meaning",
     title: "Yamnuska Meaning",
     description: 
       "Lean how this iconic mountain in the Alberta Rocky Mountains got it's name.",
@@ -221,7 +221,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-12h-cougar-story",
+    id: "stoney-012h-cougar-story",
     title: "Cougar Story",
     description: 
       "Elder Lawrence talks about how Cougar Mountain got its name. ",
@@ -240,7 +240,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-13h-food-and-camp",
+    id: "stoney-013h-food-and-camp",
     title: "Food and Camp",
     description: 
       "How did the Stoney people survive off the land, especially in the winter?  Watch to find out.",
@@ -259,7 +259,7 @@ export const stoneyVoicesVideos = [
     ]
   },
   {
-    id: "stoney-14h-concept-of-time",
+    id: "stoney-014h-concept-of-time",
     title: "Concept of Time",
     description: 
       'Travis talks about differences in the concept of time. The oral tradition says "Back in time".  Stoney used the surroundings and animals to tell time, seasons and the weather. "The Sky was the clock, the moon, the stars."',

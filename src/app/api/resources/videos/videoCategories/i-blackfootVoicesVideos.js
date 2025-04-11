@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const blackfootVoicesVideos = [
   {
-    id: "bfv-1i-blackfoot-perspective-on-water",
+    id: "bfv-01i-blackfoot-perspective-on-water",
     title: "A Blackfoot Perspective on Water",
     description:
       "A video sharing the Blackfoot perspective on water and its significance in Indigenous culture and the environment.",

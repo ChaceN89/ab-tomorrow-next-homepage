@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const socioEconomicIndicatorsVideos = [
   {
-    id: "soc-1d-human-population-3a82fb10",
+    id: "soc-01d-human-population",
     title: "Human Population",
     description: 
       "Maximum population growth is assumed to be a doubling of the population. Learn more about Alberta's projected population and land use impacts.",
@@ -27,7 +27,7 @@ export const socioEconomicIndicatorsVideos = [
     hashtags: ["abpopulation", "exponentialpopulationgrowth", "abgrowth", "landuse"]
   },
   {
-    id: "soc-2d-gdp-5be13c9d",
+    id: "soc-02d-gdp",
     title: "Gross Domestic Product",
     description: 
       "GDP is based on land use for oil and gas, forestry, and agriculture. Learn how economic development influences Alberta's GDP.",
@@ -42,7 +42,7 @@ export const socioEconomicIndicatorsVideos = [
     hashtags: ["abgdp", "abeconomy", "landuse"]
   },
   {
-    id: "soc-3d-hydrocarbon-production-d9c51b28",
+    id: "soc-03d-hydrocarbon-production",
     title: "Hydrocarbon Production",
     description: 
       "Hydrocarbon production includes natural gas, oil, bitumen, and coal. Learn how energy production affects land use and the economy.",
@@ -57,7 +57,7 @@ export const socioEconomicIndicatorsVideos = [
     hashtags: ["aboilandgas", "hydrocarbons", "landuse", "abeconomy"]
   },
   {
-    id: "soc-4d-timber-production-bcaa38d4",
+    id: "soc-04d-timber-production",
     title: "Timber Production",
     description: 
       "A value of 100% means all forested land is used for timber. Explore how forestry contributes to the economy and affects land use.",
@@ -72,7 +72,7 @@ export const socioEconomicIndicatorsVideos = [
     hashtags: ["abforestry", "landuse", "forestry", "abeconomy"]
   },
   {
-    id: "soc-5d-agriculture-production-0d0d7fa2",
+    id: "soc-05d-agriculture-production",
     title: "Agricultural Production",
     description: 
       "Learn how using the landscape for agriculture contributes to food production and economic development in Alberta.",
@@ -87,7 +87,7 @@ export const socioEconomicIndicatorsVideos = [
     hashtags: ["abag", "agriculture", "landuse", "abeconomy"]
   },
   {
-    id: "soc-6d-water-consumption-72fb4ab9",
+    id: "soc-06d-water-consumption",
     title: "Water Consumption",
     description: 
       "Learn how agricultural, settlement, and industrial use affect water consumption and how best practices can reduce demand.",

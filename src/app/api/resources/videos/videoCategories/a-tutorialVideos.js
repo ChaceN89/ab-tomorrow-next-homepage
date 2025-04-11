@@ -12,7 +12,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const tutorialVideos = [
   {
-    id: "tutorial-1a-register-account-b4d9e7d1",
+    id: "tutorial-01a-register-account",
     title: "User Tutorial: Registering for an Account",
     description: 
       "Watch this tutorial to see how to register for a Public, Teacher or Student Account.",
@@ -27,7 +27,7 @@ export const tutorialVideos = [
     hashtags: ["account", "registration", "user-guide", "education"]
   },
   {
-    id: "tutorial-2a-simulator-overview-c3f2a9b0",
+    id: "tutorial-02a-simulator-overview",
     title: "User Tutorial: An overview of the AT simulator and features",
     description: 
       "Watch this tutorial to see the different features of the Alberta Tomorrow Simulator.",
@@ -42,7 +42,7 @@ export const tutorialVideos = [
     hashtags: ["simulator", "overview", "tutorial", "features"]
   },
   {
-    id: "tutorial-3a-your-mission-19ebd4ac",
+    id: "tutorial-03a-your-mission",
     title: "User Tutorial: Your Mission",
     description: 
       "An overview of the mission you will accomplish using Alberta Tomorrow",
@@ -57,7 +57,7 @@ export const tutorialVideos = [
     hashtags: ["mission", "objectives", "learning-path", "tutorial"]
   },
   {
-    id: "tutorial-4a-historical-simulation-54e2f7bd",
+    id: "tutorial-04a-historical-simulation",
     title: "User Tutorial: Running a Historical Simulation in Alberta Tomorrow",
     description: 
       "Watch this video to find out how your study area has changed since 1910!",
@@ -72,7 +72,7 @@ export const tutorialVideos = [
     hashtags: ["history", "simulation", "landuse", "education"]
   },
   {
-    id: "tutorial-5a-create-bau-7f8d20a3",
+    id: "tutorial-05a-create-bau-scenario",
     title: "User Tutorial: How to Create a Business as Usual (BAU) Scenario",
     description: 
       "A BAU scenario gives you a glimpse of a possible future, one that carries current trends in landuse into the future.",
@@ -87,7 +87,7 @@ export const tutorialVideos = [
     hashtags: ["bau", "scenario", "future", "landuse"]
   },
   {
-    id: "tutorial-6a-landuse-scenario-bdd4c961",
+    id: "tutorial-06a-landuse-scenario",
     title: "User Tutorial: How to Create your own Land Use Scenarios",
     description: 
       "This video will show you how to select your watershed study area, set goals, make changes on the map, and run your scenario.",
@@ -102,7 +102,7 @@ export const tutorialVideos = [
     hashtags: ["landuse", "planning", "watershed", "management"]
   },
   {
-    id: "tutorial-7a-create-observation-a8c4b231",
+    id: "tutorial-07a-create-observation",
     title: "User Tutorial: How to Create an Observation in the Simulator",
     description: 
       "This tutorial walks you through how to create your own observation in the simulator that you and all registered users can see.",
@@ -117,7 +117,7 @@ export const tutorialVideos = [
     hashtags: ["observation", "engagement", "student-projects"]
   },
   {
-    id: "tutorial-8a-climate-scenarios-69b2e0fa",
+    id: "tutorial-08a-climate-scenarios",
     title: "User Tutorial: Investigating Climate Change Scenarios in Alberta Tomorrow",
     description: 
       "See how you can view changes that may occur due to climate change with Mild, Medium or Hot Climate Change Scenarios.",
@@ -132,7 +132,7 @@ export const tutorialVideos = [
     hashtags: ["climate", "change", "simulation", "future"]
   },
   {
-    id: "tutorial-9a-create-report-4db5a862",
+    id: "tutorial-09a-create-report",
     title: "User Tutorial: Creating and Sharing a Report in Alberta Tomorrow",
     description: 
       "This short tutorial video will show you how to create and share a report in the simulator.",

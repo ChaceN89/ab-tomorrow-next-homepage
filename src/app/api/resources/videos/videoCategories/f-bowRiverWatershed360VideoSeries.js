@@ -13,7 +13,7 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const bowRiverWatershed360VideoSeries = [
   { // 1 watershed 360 tour - done
-    id: "brbc-1f-watershed-274d321e",
+    id: "brbc-01f-watershed",
     title: "Watershed 360° Tour", // General tour of the watershed in locations
     description: 
       "Visit each sub-basin in the Bow River basin and get a feel for how people use the water and the landscape. Look at the different types of buildings, pathways, and activities that can take place within the watershed as you travel from the headwaters, down to the end in the prairies.",
@@ -48,7 +48,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring", "tour"]
   },
   { // 2 hydrology and climate change - done
-    id: "brbc-2f-hydro-climate-9a16d033",
+    id: "brbc-02f-hydro-climate",
     title: "Hydrology and Climate Change",
     description: 
       "Tricia Stadnyk talks about how a watershed can affect the climate it is in, and in turn, how the climate then affects the landscape. Go from the headwaters through to the prairies as she talks about precipitation and more.",
@@ -71,7 +71,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring", "climate", "hydrology"]
   },
   { // 3 managing the watershed - done
-    id: "brbc-3f-management-data-bf7eaa45",
+    id: "brbc-03f-management-data",
     title: "Watershed Management and Data",
     description: 
       "Dr. Lee Jackson talks about the Sustainable Watershed Integrated Management Platform and the necessity of shared water data for the health of the Bow River Basin. Explore from the headwaters into the prairies and learn about citizen science projects, and different data parameters.",
@@ -95,7 +95,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring", "sustainability"]
   },
   { // 4 watersheds and hydrology - done
-    id: "brbc-4f-watersheds-hydro-7c2e1f89",
+    id: "brbc-04f-watersheds-hydro",
     title: "Watersheds and Hydrology",
     description: 
       "Go from the mountains through the river basin while learning what a watershed is, and how hydrology is apparent in the landscape. Tricia Stadnyk will explain how hydrology can affect everything around it as you explore.",
@@ -118,7 +118,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring", "hydrology", "landscape"]
   },
   { // 5 hydrology and land development - done
-    id: "brbc-5f-hydro-dev-e38b29c4",
+    id: "brbc-05f-hydro-dev",
     title: "Hydrology and Land Development",
     description: 
       "Explore the watershed while Tricia Stadnyk explains how landscapes and water are affected by development and use changes. How does hydrology within the watershed change when the landscape changes because of humans?",
@@ -144,7 +144,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring"]
   },
   { // 6 elbow river watershed partnership - Video not aviable - data done
-    id: "brbc-6f-erwp-aquifers-a503f3df",
+    id: "brbc-06f-erwp-aquifers",
     title: "Elbow River Watershed Partnership (ERWP) Aquifers",
     description: 
       "Explore the Elbow River watershed and learn about its groundwater, and state of the aquifer with Joe and Flora. Learn the definitions for what an aquifer is, how groundwater is used in the sub-basin, and how it is affected by people.",
@@ -167,7 +167,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring"]
   },
   { // 7 wetlands and stormwater -  done
-    id: "brbc-7f-wetlands-stormwater-4h1agc41",
+    id: "brbc-07f-wetlands-stormwater",
     title: 'Wetlands and Stormwater',
     description: 
       `Take a walk around the constructed wetlands in North Glenmore park with Liliana Bozic as she explains the uses of wetlands for storage and stormwater. Learn how water quality is affected by wetlands, and how land development changes, and seasons affect them.`,
@@ -190,7 +190,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ['water','watershed', 'monitoring', "storm"],
   },  
   { // 8 water quality - done
-    id: "brbc-8f-water-quality-4b1afc01",
+    id: "brbc-08f-water-quality",
     title: "Water Quality",
     description: 
       "Join Patrick Van den Eynden as he talks about the City of Calgary’s Glenmore Water Treatment Plant’s process from getting the water from the reservoir, all the way to disinfection and sending the water out to service sites across the city.",
@@ -208,7 +208,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring"]
   },
   { // 9 water services - done
-    id: "brbc-9f-water-services-71e50113",
+    id: "brbc-09f-water-services",
     title: "Water Services",
     description: 
       "Explore some of the Glenmore dam and reservoir as Patrick Van den Eynden talks about its history, infrastructure, services, and the City’s water drinking system.",
@@ -231,7 +231,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring"]
   },
   { // 10 native prairies and plants - done
-    id: "brbc-10f-native-prairies-31117838",
+    id: "brbc-010f-native-prairies",
     title: "Native Prairies and Plants",
     description: 
       "As Megan Evans and Erin Anderson talk about the importance of prairies and their native plants, explore several grassland landscapes within the Bow River Basin.",
@@ -256,7 +256,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring"]
   },
   { // 11 invasive species and control - converted
-    id: "brbc-11f-invasive-species-3360de4c",
+    id: "brbc-011f-invasive-species",
     title: "Invasive Species and Control",
     description: 
       "Learn about invasive species in native grasslands, control systems, and the importance of native species from Erin Anderson and Megan Evans as you explore various prairie landscapes.",
@@ -281,7 +281,7 @@ export const bowRiverWatershed360VideoSeries = [
     hashtags: ["water", "watershed", "monitoring"]
   },
   { // 12 isotopes and climate change - done
-    id: "brbc-12f-isotopes-climate-faa923d3",
+    id: "brbc-012f-isotopes-climate",
     title: "Isotopes and Climate Change",
     description: 
       "Learn about how isotopes can be used to monitor climate change and hydrologic functions within a watershed.",
