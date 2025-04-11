@@ -33,7 +33,7 @@ import {
 // Components
 import PartnerShowcase from "./PartnersShowcase";
 import PageHeader from "@/components/common/PageHeader";
-import SponsorPackageBtn from "@/components/common/SponsorPackageBtn";
+import SponsorPackageBtn from "@/app/our-partners/components/SponsorPackageBtn";
 import SponsorshipTable from "./SponsorshipTable";
 
 // import { Link as ScrollLink } from "react-scroll";

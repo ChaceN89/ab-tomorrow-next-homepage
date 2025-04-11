@@ -30,7 +30,7 @@ import { extraPages, toolsDropDown } from '@/data/navData';
 
 // Components
 import SocialMediaIcons from './SocialMediaIcons';
-import ContactInfo from '../common/ContactInfo';
+import ContactInfo from '@/app/contact/components/ContactInfo';
 import SupportUs from './SupportUs';
 import QuickLinks from './QuickLinks';
 import BreadCrumbLinks from './BreadCrumbLinks';

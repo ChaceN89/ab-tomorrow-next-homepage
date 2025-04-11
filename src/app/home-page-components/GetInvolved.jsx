@@ -16,7 +16,7 @@ import MediaFrame from "@/components/media/MediaFrame";
 
 // Data
 import { OurStoryData } from "@/data/home-page-data/aboutData";
-import SponsorPackageBtn from "@/components/common/SponsorPackageBtn";
+import SponsorPackageBtn from "@/app/our-partners/components/SponsorPackageBtn";
 
 export default function GetInvolved() {
   return (
