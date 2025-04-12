@@ -22,7 +22,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Ns7BiGb3cMQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=1",
-      thumbUrl: null
+      thumbUrl: nul
     },
     hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
     observedTime: 300000
@@ -104,7 +104,7 @@ export const guardiansOfTheIceVideos = [
   },
   { // video 7 - Seasonal change on the glacier and cryconite
     title: "Seasonal change on the glacier and cryconite",
-    id: "goi-07g-seasonal-change-on-the-glacier-and",
+    id: "goi-07g-seasonal-change-on-the-glacier",
     description: "Listen to Peter Lemieux talk about seasonal changes on the glacier.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
