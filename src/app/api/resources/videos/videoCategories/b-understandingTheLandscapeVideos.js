@@ -11,7 +11,7 @@
 import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const understandingTheLandscapeVideos = [
-  {
+  { // video 1 - Climate Change
     id: "landscape-01b-climate-change",
     title: "Climate Change",
     description: "How will Alberta be affected by Climate Change? What's the difference between Climate Change and Global Warming?",
@@ -27,7 +27,7 @@ export const understandingTheLandscapeVideos = [
       "climatechange", "globalwarming", "landuse", "education", "renewableenergy", "futurealberta"
     ]
   },
-  {
+  { // video 2 - Beneficial Management Practices
     id: "landscape-02b-management-practices",
     title: "Beneficial Management Practices",
     description: "What are Beneficial Management Practices and how do they affect the future of Alberta? Find out what large companies, farmers, and you can do to minimize the effect on the environment.",
@@ -43,7 +43,7 @@ export const understandingTheLandscapeVideos = [
       "bmp", "management", "landuse", "sustainability", "industry", "futurealberta"
     ]
   },
-  {
+  { // video 3 - Ecological Goods and Services
     id: "landscape-03b-ecological-goods",
     title: "Ecological Goods and Services",
     description: "An introduction to ecological goods and services.",
@@ -59,7 +59,7 @@ export const understandingTheLandscapeVideos = [
       "egs", "ecology", "landuse", "naturalcapital", "ecosystemservices"
     ]
   },
-  {
+  { // video 4 - Water Quality, Climate Change and Alberta's Glaciers Webinar
     id: "landscape-04b-glaciers-webinar",
     title: "Water Quality, Climate Change and Alberta's Glaciers Webinar",
     description: "This webinar was held on May 27, 2020 and features 4 prominent scientists talking about climate change and how it will affect glaciers, glacier melt, water policy and our water quality.",

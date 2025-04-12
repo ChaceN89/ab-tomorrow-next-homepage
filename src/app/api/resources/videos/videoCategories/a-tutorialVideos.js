@@ -11,7 +11,7 @@
 import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const tutorialVideos = [
-  {
+  { // video 1 - Registering for an account
     id: "tutorial-01a-register-account",
     title: "User Tutorial: Registering for an Account",
     description: 
@@ -26,7 +26,7 @@ export const tutorialVideos = [
     },
     hashtags: ["account", "registration", "user-guide", "education"]
   },
-  {
+  { // video 2 - Overview of the simulator
     id: "tutorial-02a-simulator-overview",
     title: "User Tutorial: An overview of the AT simulator and features",
     description: 
@@ -41,7 +41,7 @@ export const tutorialVideos = [
     },
     hashtags: ["simulator", "overview", "tutorial", "features"]
   },
-  {
+  { // video 3 - Your mission
     id: "tutorial-03a-your-mission",
     title: "User Tutorial: Your Mission",
     description: 
@@ -56,7 +56,7 @@ export const tutorialVideos = [
     },
     hashtags: ["mission", "objectives", "learning-path", "tutorial"]
   },
-  {
+  { // video 4 - Historical simulation
     id: "tutorial-04a-historical-simulation",
     title: "User Tutorial: Running a Historical Simulation in Alberta Tomorrow",
     description: 
@@ -71,7 +71,7 @@ export const tutorialVideos = [
     },
     hashtags: ["history", "simulation", "landuse", "education"]
   },
-  {
+  { // video 5 - Create a BAU scenario
     id: "tutorial-05a-create-bau-scenario",
     title: "User Tutorial: How to Create a Business as Usual (BAU) Scenario",
     description: 
@@ -86,7 +86,7 @@ export const tutorialVideos = [
     },
     hashtags: ["bau", "scenario", "future", "landuse"]
   },
-  {
+  { // video 6 - Create a land use scenario
     id: "tutorial-06a-landuse-scenario",
     title: "User Tutorial: How to Create your own Land Use Scenarios",
     description: 
@@ -101,7 +101,7 @@ export const tutorialVideos = [
     },
     hashtags: ["landuse", "planning", "watershed", "management"]
   },
-  {
+  { // video 7 - Create an observation
     id: "tutorial-07a-create-observation",
     title: "User Tutorial: How to Create an Observation in the Simulator",
     description: 
@@ -116,7 +116,7 @@ export const tutorialVideos = [
     },
     hashtags: ["observation", "engagement", "student-projects"]
   },
-  {
+  { // video 8 - Climate scenarios
     id: "tutorial-08a-climate-scenarios",
     title: "User Tutorial: Investigating Climate Change Scenarios in Alberta Tomorrow",
     description: 
@@ -131,7 +131,7 @@ export const tutorialVideos = [
     },
     hashtags: ["climate", "change", "simulation", "future"]
   },
-  {
+  { // video 9 - Create and share a report
     id: "tutorial-09a-create-report",
     title: "User Tutorial: Creating and Sharing a Report in Alberta Tomorrow",
     description: 

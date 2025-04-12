@@ -88,8 +88,8 @@ export default function SideBarWrapper({
     : { position: "relative" };
 
   return (
-    <div className="w-ful" ref={wrapperRef} style={{ position: "relative" }}>
-      <div style={wrapperStyle} className={className+ " scroll-element"}>
+    <div className="w-full" ref={wrapperRef} style={{ position: "relative" }}>
+      <div style={wrapperStyle} className={className+ " scroll-element pb-[28rem] bg-primary/10 rounded-lg shadow-md border border-black/30 overflow-hidden px-1"}>
         {children}
       </div>
     </div>

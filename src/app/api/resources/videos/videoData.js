@@ -27,25 +27,28 @@ import { indigenousIndicatorsVideos } from "./videoCategories/e-indigenousIndica
 import { bowRiverWatershed360VideoSeries } from "./videoCategories/f-bowRiverWatershed360VideoSeries";
 import { guardiansOfTheIceVideos } from "./videoCategories/g-guardiansOfTheIceVideoSeries";
 import { stoneyVoicesVideos } from "./videoCategories/h-stoneyVoicesVideos";
-import { stoneyVoicesAdditionalVideos } from "./videoCategories/h2-stoneyVoicesAdditionalVideos";
 import { blackfootVoicesVideos } from "./videoCategories/i-blackfootVoicesVideos";
 import { pointsOfInterestVideos } from "./videoCategories/j-pointsOfInterest";
 
 // ======= Aggregated Videos =======
 export const allVideos = [
-  ...tutorialVideos,
-  ...understandingTheLandscapeVideos,
-  ...environmentalIndicatorsVideos,
-  ...socioEconomicIndicatorsVideos,
-  ...indigenousIndicatorsVideos,
+  ...tutorialVideos, // 9 videos
+  ...understandingTheLandscapeVideos, // 4 videos
 
-  ...bowRiverWatershed360VideoSeries,
+  // indcators videos
+  ...environmentalIndicatorsVideos, // 6 videos
+  ...socioEconomicIndicatorsVideos, // 6 videos
+  ...indigenousIndicatorsVideos, // 6 videos
 
-  // ...guardiansOfTheIceVideos, // not ready yet
+  ...bowRiverWatershed360VideoSeries, //12 videos
 
-  ...stoneyVoicesVideos,
-  ...stoneyVoicesAdditionalVideos,
+  ...guardiansOfTheIceVideos, // 44 videos
+ 
+  // Indigenous Voices
+  ...stoneyVoicesVideos, // 28 videos
+  ...blackfootVoicesVideos, // 1 video
 
-  ...blackfootVoicesVideos,
-  ...pointsOfInterestVideos
+  ...pointsOfInterestVideos // 9 videos
+
+  // 125 videos total
 ];

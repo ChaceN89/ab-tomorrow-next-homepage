@@ -11,7 +11,7 @@
 import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const pointsOfInterestVideos = [
-  {
+  { // video 1 - Investigating a Fish Kill
     id: "poi-01j-investigating-a-fish-kill",
     title: "Investigating a Fish Kill",
     description: 
@@ -28,7 +28,7 @@ export const pointsOfInterestVideos = [
     observedTime: 1394823600000,
     hashtags: ["water-quality", "ab-water", "land-use", "eutrophication", "fish-kill", "ab-environment"]
   },
-  {
+  { // video 2 - Native Trout in Alberta
     id: "poi-02j-native-trout-in-alberta",
     title: "Native Trout in Alberta",
     description: 
@@ -45,7 +45,7 @@ export const pointsOfInterestVideos = [
     observedTime: 1595618236362,
     hashtags: ["water-quality", "native-trout", "cpaws", "trout-unlimited", "recreation", "agriculture"]
   },
-  {
+  { // video 3 - Athabasca Sand Dunes Ecological Reserve
     id: "poi-03j-athabasca-sand-dunes-ecological-reserve",
     title: "Athabasca Sand Dunes Ecological Reserve",
     description: 
@@ -62,7 +62,7 @@ export const pointsOfInterestVideos = [
     observedTime: 1607104608043,
     hashtags: ["athabasca", "sand", "dunes", "ecological-reserve"]
   },
-  {
+  { // video 4 - Writing on Stone Provincial Park
     id: "poi-04j-writing-on-stone-provincial-park",
     title: "Writing on Stone Provincial Park",
     description: 
@@ -79,7 +79,7 @@ export const pointsOfInterestVideos = [
     observedTime: 1607104608043,
     hashtags: ["writing-on-stone", "petroglyphs", "milk-river", "blackfoot"]
   },
-  {
+  { // video 5 - Hanging Culvert
     id: "poi-05j-hanging-culvert",
     title: "Hanging Culvert",
     description: 
@@ -96,7 +96,7 @@ export const pointsOfInterestVideos = [
     observedTime: 1607104608043,
     hashtags: ["culvert", "stream-crossing", "fish", "watershed", "roads"]
   },
-  {
+  { // video 6 - Forest Attack - Mountain Pine Beetle
     id: "poi-06j-forest-attack-mountain-pine-beetle",
     title: "Forest Attack - Mountain Pine Beetle",
     description: 
@@ -113,7 +113,7 @@ export const pointsOfInterestVideos = [
     observedTime: 1607104608043,
     hashtags: ["forests", "pine-beetle", "infestation", "biology"]
   },
-  {
+  { // video 7 - Grassland Restoration
     id: "poi-07j-grassland-restoration",
     title: "Grassland Restoration",
     description: 
@@ -130,7 +130,7 @@ export const pointsOfInterestVideos = [
     observedTime: 1607104608043,
     hashtags: ["grassland", "restoration", "ranching", "conservation"]
   },
-  {
+  { // video 8 - Beneath the Surface: Water Monitoring in the Ghost Watershed
     id: "poi-08j-beneath-the-surface-water-monitoring",
     title: "Beneath the Surface: Water Monitoring in the Ghost Watershed",
     description: 
@@ -147,7 +147,7 @@ export const pointsOfInterestVideos = [
     observedTime: 1607104608043,
     hashtags: ["water", "ghost-watershed", "monitoring", "aquatic-invertebrates"]
   },
-  {
+  { // video 9 - Finding Water: Healthy Land, Healthy Stream
     id: "poi-09j-finding-water-healthy-land-stream",
     title: "Finding Water: Healthy Land, Healthy Stream",
     description: 

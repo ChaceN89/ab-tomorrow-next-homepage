@@ -12,246 +12,673 @@ import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const guardiansOfTheIceVideos = [
 
-  {
-    id: "GoI-01g-athabasca-glacier",
-    title: "The Athabasca Glacier",
-    description: 
-      "A panoramic view of the Athabasca Glacier.",
+  { // video 1 - Are people affecting the glaciers?
+    title: "Are people affecting the glaciers?",
+    id: "goi-01g-are-people-affecting-the-glaciers",
+    description: "Listen to Peter Lemieux talk about how people are affecting the glaciers.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
     coordinates: [-117.25197315216064, 52.19348864884182],
-    lessonPlans: [], 
+    lessonPlans: [],
     media: {
-      url: "https://www.youtube.com/watch?v=KF1JBsGdyZY&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=20",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/c6678f98-a6f3-4ca1-ab0b-4082cc0fc877/thumbnails/This is the Athabasca glacier._tumb.0000007.jpg",
+      url: "https://www.youtube.com/watch?v=Ns7BiGb3cMQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=1",
+      thumbUrl: null
     },
-    observedTime: 1579725402764,
-    hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield", "athabascaglacier", "landuse"],
+    hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
+    observedTime: 300000
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  {
-    id: "GoI-01g-athabasca-glacier",
-    title: "The Athabasca Glacier",
-    description: 
-      "A panoramic view of the Athabasca Glacier.",
+  { // video 2 - Colour of the ice
+    title: "Colour of the ice",
+    id: "goi-02g-colour-of-the-ice",
+    description: "Listen to Peter Lemieux talk about why glacier ice is sometimes blue.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
     coordinates: [-117.25197315216064, 52.19348864884182],
-    lessonPlans: [], 
+    lessonPlans: [],
     media: {
-      url: "https://www.youtube.com/watch?v=KF1JBsGdyZY&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=20",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/c6678f98-a6f3-4ca1-ab0b-4082cc0fc877/thumbnails/This is the Athabasca glacier._tumb.0000007.jpg",
+      url: "https://www.youtube.com/watch?v=7Ld_jQCuJzE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=2",
+      thumbUrl: null
     },
-    observedTime: 1579725402764,
-    hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield", "athabascaglacier", "landuse"],
+    hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield"],
+    observedTime: 31000
   },
-  {
-    id: "GoI-02g-Peyto Calving",
-    title: "Peyto Calving",
-    description: 
-      "Peyto Glacier on the Wapta Icefield Calving.",
+  { // video 3 - Glaciers move
+    title: "Glaciers move",
+    id: "goi-03g-glaciers-move",
+    description: "Listen to Peter Lemieux talk about how glaciers move.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
-    coordinates: [-116.54910716705899, 51.6764763438762],
-    lessonPlans: [], 
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
     media: {
-      url:
-        "https://d2qcvmovr4fv.cloudfront.net/out/v1/489f9170035b4f488cf5c59b59a2e752/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/6f55c12a-d9e7-42a8-b28b-ad61a1891fef/thumbnails/obs_27fdd0c1-2160-401e-8909-12e64084a8cf_tumb.0000008.jpg",
+      url: "https://www.youtube.com/watch?v=1KGk2LAvz4s&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=3",
+      thumbUrl: null
     },
-    observedTime: 1582912970958,
-    hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield", "athabascaglacier", "landuse"],
+    hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
+    observedTime: 57000
   },
-  {
-    id: 3,
-    title: "How much of the Athabasca Glacier are we losing?",
-    description: 
-      "Peter Lemieux shows us how we know we are losing ice.",
+  { // video 4 - How crevasses form
+    title: "How crevasses form",
+    id: "goi-04g-how-crevasses-form",
+    description: "Listen to Peter Lemieux talk about how crevasses form in glaciers.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
-    coordinates: [-117.23987102508586, 52.203530200543156],
-    lessonPlans: [], 
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=QbotXyLZXiQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=4",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield"],
+    observedTime: 54000
+  },
+  { // video 5 - How do forest fires affect glaciers
+    title: "How do forest fires affect glaciers",
+    id: "goi-05g-how-do-forest-fires-affect-glaciers",
+    description: "Listen to Peter Lemieux talk about how summer forest fires affect the glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=LkkeMC8VhnA&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=5",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
+    observedTime: 16000
+  },
+  { // video 6 - Is it important glaciers are in the national park?
+    title: "Is it important glaciers are in the national park?",
+    id: "goi-06g-is-it-important-glaciers-are-in-the",
+    description: "Listen to Peter Lemieux discuss why it's important to have glaciers protected in National Parks.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=Deu0HjSCzuM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=6",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
+    observedTime: 39000
+  },
+  { // video 7 - Seasonal change on the glacier and cryconite
+    title: "Seasonal change on the glacier and cryconite",
+    id: "goi-07g-seasonal-change-on-the-glacier-and",
+    description: "Listen to Peter Lemieux talk about seasonal changes on the glacier.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=KCKew0PiqOc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=7",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "climatechange", "abglaciers", "waterquality", "abwater"],
+    observedTime: 47000
+  },
+  { // video 8 - Striations on the rocks
+    title: "Striations on the Rocks",
+    id: "goi-08g-striations-on-the-rocks",
+    description: "Listen to Peter Lemieux talk about how glaciers can cause striations on rocks as they move.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=sKF4M0v1GdM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=8",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield"],
+    observedTime: 94000
+  },
+  { // video 9 - What is a moraine
+    title: "What is a moraine",
+    id: "goi-09g-what-is-a-moraine",
+    description: "Listen to Peter Lemieux discuss the different types of glacial moraine.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=nFzRuDBiB28&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=9",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield"],
+    observedTime: 159000
+  },
+  { // video 10 - Where do glaciers form?
+    title: "Where do glaciers form?",
+    id: "goi-10g-where-do-glaciers-form",
+    description: "Listen to Peter Lemieux discuss where glaciers form in the Rocky Mountains.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=Y8IaKMp4dAk&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=10",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
+    observedTime: 17000
+  },
+
+    
+
+  { // video 11 - Where does water from the Snowdome go?
+    title: "Where does water from the Snowdome go?",
+    id: "goi-11g-where-does-water-from-the-snowdome",
+    description: "Listen to Peter Lemieux as he discusses where water from Snowdome ends up.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=ZS8TG4_q24A&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=11",
+      thumbUrl: null
+    },
+    hashtags: ["abwater", "athabascaglacier", "abglaciers", "climatechange", "landuse"],
+    observedTime: 104000
+  },
+  { // video 12 - Where was the Athabasca glacier in 2006?
+    title: "Where was the Athabasca glacier in 2006?",
+    id: "goi-12g-where-was-the-athabasca-glacier-in",
+    description: "Listen to Peter Lemieux talk about how fare the glacier has receded since 2006 and how he knows!",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=NCKgmaIkIm0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=12",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "abglaciers", "climatechange", "abwater", "columbiaicefield"],
+    observedTime: 75000
+  },
+  { // video 13 - Where was the glacier in 1982 and what is a lateral moraine?
+    title: "Where was the glacier in 1982 and what is a lateral moraine?",
+    id: "goi-13g-where-was-the-glacier-in-1982-and",
+    description: "Listen to Peter Lemieux as he discusses where the Athabasca glacier was in 1982.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=xYQocIUXHQU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=13",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "landuse", "abglaciers", "climatechange", "abwater"],
+    observedTime: 46000
+  },
+  { // video 14 - Where will the glacier be in 30 years?
+    title: "Where will the glacier be in 30 years?",
+    id: "goi-14g-where-will-the-glacier-be-in-30-years",
+    description: "Listen to Peter Lemieux as he discussed where the Athabasca Glacier may be in 30 years.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=HXQLMjomCes&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=14",
+      thumbUrl: null
+    },
+    hashtags: ["climatechange", "athabascaglacier", "abglaciers", "abwater", "landuse"],
+    observedTime: 59000
+  },
+  { // video 15 - Come with us to the Athabasca Glacier
+    title: "Come with us to the Athabasca Glacier",
+    id: "goi-15g-come-with-us-to-the-athabasca",
+    description: "Walk with us the the Athabasca Glacier on the Columbia Icefield.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=IvYUaGfUesM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=15",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "columbiaicefield", "abglaciers", "abwater", "climatechange"],
+    observedTime: 85000
+  },
+  { // video 16 - How glaciers move
+    title: "How Glaciers Move",
+    id: "goi-16g-how-glaciers-move",
+    description: "Peter Lemieux discusses how Glaciers move.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=Iy6sdst_Nnc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=16",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "athabascaglacier", "climatechange", "columbiaicefield", "abwater"],
+    observedTime: 30000
+  },
+  { // video 17 - How much glacial ice are we losing?
+    title: "How much glacial ice are we losing?",
+    id: "goi-17g-how-much-glacial-ice-are-we-losing",
+    description: "Watch as Peter Lemieux discusses how much ice the Athabasca Glacier is losing in one season an how he knows this.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Htf4sCgOyvc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=17",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/a93656c2-dbe9-4cca-8b30-1348050ba4f1/thumbnails/obs_07c1c554-f590-4de2-9609-52263faafbda_tumb.0000024.jpg",
+      thumbUrl: null
     },
-    observedTime: 1583439300883,
-    hashtags:
-    ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield", "athabascaglacier", "landuse"],
+    hashtags: ["climatechange", "abglaciers", "athabascaglacier", "abwater", "landuse"],
+    observedTime: 124000
   },
-
-  {
-    id: 5,
-    title: "Guardians of the Ice Trailer",
-    description: 
-      "Learn more about the Guardians of the Ice Project",
-    category: VideoCategory.ICE_SERIES,
-    tools: [AssociatedTool.SIMULATOR],
-    coordinates: [-117.29674010464652, 52.12486659320277],
-    lessonPlans: [], 
-    media: {
-      url:
-        "https://d2qcvmovr4fv.cloudfront.net/out/v1/d1393505a2214691b11a3b70ac1edecc/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/e1c3e998-3758-4f2f-9a2a-b27e7be79dc4/thumbnails/obs_46b4e3af-414b-4928-b219-9c9372d2eb27_tumb.0000013.jpg",
-    },
-    observedTime: 1394823600000,
-    hashtags:
-      "abglaciers,climatechange,waterquality,abwater,columbiaicefield,athabascaglacier,landuse",
-  },
-  {
-    id: 6,
-    title: "Approaching the Athabasca Glacier",
-    description: 
-      "Experience walking up to the glacier!",
-    category: VideoCategory.ICE_SERIES,
-    tools: [AssociatedTool.SIMULATOR],
-    coordinates: [-117.23904371970335, 52.21373405595895],
-    lessonPlans: [], 
-    media: {
-      url:
-        "https://www.youtube.com/watch?v=IvYUaGfUesM",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg",
-    },
-    observedTime: 1583430803341,
-    hashtags:
-      "abglaciers,climatechange,waterquality,abwater,columbiaicefield,athabascaglacier,landuse",
-  },
-
-  {
-    id: 8,
+  { // video 18 - Why are some lakes blue?
     title: "Why are some lakes blue?",
-    description:
-      "Peter Lemieux of IceWalks talks about what makes some lakes blue.",
+    id: "goi-18g-why-are-some-lakes-blue",
+    description: "What this video as Peter Lemieux discusses why some glacier lakes are blue.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
-      coordinates: [-116.37980467358389, 51.59450853912091],
-    lessonPlans: [], 
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
     media: {
-      url:
-        "https://www.youtube.com/watch?v=KXSVsc1t8OQ",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/293b6029-d5c7-4849-a220-4a42283a2f07/thumbnails/obs_709aae70-14a4-4c3b-bc4d-05aebd62b4f7_tumb.0000013.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=KXSVsc1t8OQ",
+      url: "https://www.youtube.com/watch?v=KXSVsc1t8OQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=18",
+      thumbUrl: null
     },
-    observedTime: 1583435951778,
-    hashtags:
-      "abglaciers,climatechange,waterquality,abwater,columbiaicefield,athabascaglacier,landuse",
+    hashtags: ["abwater", "waterquality", "abglaciers", "climatechange", "athabascaglacier"],
+    observedTime: 69000
+  },
+  { // video 19 - Why should we protect glaciers?
+    title: "Why should we protect glaciers?",
+    id: "goi-19g-why-should-we-protect-glaciers",
+    description: "Watch as Peter Lemieux discusses why it is so important to protect our glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=LKtGm_ZxZyU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=19",
+      thumbUrl: null
+    },
+    hashtags: ["climatechange", "abglaciers", "athabascaglacier", "abwater", "landuse"],
+    observedTime: 37000
+  },
+  { // video 20 - This is the Athabasca glacier
+    title: "This is the Athabasca glacier.",
+    id: "goi-20g-this-is-the-athabasca-glacier",
+    description: "Walk with us to the Athabasca Glacier.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=KF1JBsGdyZY&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=20",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "abglaciers", "abwater", "climatechange", "columbiaicefield"],
+    observedTime: 40000
+  },
+  { // video 21 - Endocrine Disruptors
+    title: "Endocrine Disruptors",
+    id: "goi-21g-endocrine-disruptors",
+    description: "Dr. Ali Criscitiello talks about melting glaciers and what this has to do with Endocrine Disruptors.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-113.52474624314297, 53.525506187851704],  
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=fjJZesxnfBo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=21",
+      thumbUrl: null
+    },
+    hashtags: ["waterquality", "abwater", "climatechange", "abglaciers", "landuse"],
+    observedTime: 65000
+  },
+  { // video 22 - Forest Fires and Glaciers
+    title: "Forest Fires and Glaciers",
+    id: "goi-22g-forest-fires-and-glaciers",
+    description: "Dr. Ali Criscitiello discusses the effects of forest fires on Alberta Glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-113.52474624314297, 53.525506187851704],  
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=f2wUf95774k&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=22",
+      thumbUrl: null
+    },
+    hashtags: ["climatechange", "athabascaglacier", "abglaciers", "abwater", "landuse"],
+    observedTime: 91000
   },
 
-  {
-    id: 10,
-    title: "Dr. Ali Criscitiello on the importance of glaciers",
-    description:
-      "Why are glaciers important?  Dr. Ali from the Ice Core Lab, University of Alberta",
+
+
+  { // video 23 - Glacial Albedo
+    title: "Glacial Albedo",
+    id: "goi-23g-glacial-albedo",
+    description: "Dr. Ali Criscitiello discusses what Albedo is and how it relates to Alberta glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=RbPa7lv1fv0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=23",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "climatechange", "athabascaglacier", "abwater", "columbiaicefield"],
+    observedTime: 48000
+  },
+  { // video 24 - Growth and Attrition
+    title: "Growth and Attrition",
+    id: "goi-24g-growth-and-attrition",
+    description: "Listen to Dr. Ali Criscitiello discuss growth and attrition of Alberta Glaciers",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=uATZEvCjoT4&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=24",
+      thumbUrl: null
+    },
+    hashtags: ["climatechange", "abglaciers", "athabascaglacier", "landuse", "abwater"],
+    observedTime: 85000
+  },
+  { // video 25 - How human activity affects Alberta glaciers
+    title: "How human activity affects Alberta glaciers.",
+    id: "goi-25g-how-human-activity-affects-alberta",
+    description: "Dr. Ali Criscitiello talks about how human activity affects Alberta Glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=nr34h5i6oqI&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=25",
+      thumbUrl: null
+    },
+    hashtags: ["landuse", "climatechange", "athabascaglacier", "abglaciers", "abwater"],
+    observedTime: 99000
+  },
+  { // video 26 - How do chemicals that were trapped in Alberta glaciers get into our water?
+    title: "How do chemicals that were trapped in Alberta glaciers get into our water?",
+    id: "goi-26g-how-do-chemicals-that-were-trapped",
+    description: "Dr. Ali Criscitiello discusses how chemicals, once trapped in frozen ice, will get into our water supply, even some that were banned years ago!",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=2ULp_NlGUHE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=26",
+      thumbUrl: null
+    },
+    hashtags: ["waterquality", "abwater", "climatechange", "abglaciers", "athabascaglacier"],
+    observedTime: 56000
+  },
+  { // video 27 - Ion chromatrograph
+    title: "Ion chromatrograph",
+    id: "goi-27g-ion-chromatrograph",
+    description: "Dr. Ali Criscitiello talks about the Ion Chromatograph and what it tells us about the glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=L7F4VIAwcA0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=27",
+      thumbUrl: null
+    },
+    hashtags: ["waterquality", "abglaciers", "climatechange", "abwater", "columbiaicefield"],
+    observedTime: 132000
+  },
+  { // video 28 - Measuring Isotopes
+    title: "Measuring Isotopes",
+    id: "goi-28g-measuring-isotopes",
+    description: "Dr. Ali Criscitiello discusses how her equipment measures oxygen isotopes in Alberta glaciers and what this tells us .",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=pHCFmnNBeL0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=28",
+      thumbUrl: null
+    },
+    hashtags: ["climatechange", "abglaciers", "waterquality", "abwater", "landuse"],
+    observedTime: 162000
+  },
+  { // video 29 - Persistent Chemicals in Alberta Glaciers
+    title: "Persistent Chemicals in Alberta Glaciers",
+    id: "goi-29g-persistent-chemicals-in-alberta",
+    description: "Dr. Ali Criscitiello discusses what persistent  chemicals are and the danger of them being released after being trapped in Alberta glacier ice.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=dlIX3EisMpo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=29",
+      thumbUrl: null
+    },
+    hashtags: ["waterquality", "abglaciers", "climatechange", "abwater", "athabascaglacier"],
+    observedTime: 73000
+  },
+  { // video 30 - What is the Picarro machine and what does it do?
+    title: "What is the Picarro machine and what does it do?",
+    id: "goi-30g-what-is-the-picarro-machine-and",
+    description: "Dr. Ali Criscitiello of the Canadian Ice Core Lab discusses some of the technology she uses to study Alberta glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=Ps7dhpC1Gec&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=30",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "waterquality", "abwater", "climatechange", "columbiaicefield"],
+    observedTime: 76000
+  },
+  { // video 31 - Sea level rise
+    title: "Sea level rise",
+    id: "goi-31g-sea-level-rise",
+    description: "Dr. Ali Criscitiello discusses how glaciers contribute to sea level rise.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=uJ0ucfNs_io&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=31",
+      thumbUrl: null
+    },
+    hashtags: ["climatechange", "abglaciers", "athabascaglacier", "abwater", "landuse"],
+    observedTime: 94000
+  },
+  { // video 32 - Watershed Great Divide - Where does water from the Columbia Icefield go?
+    title: "Watershed Great Divide - Where does water from the Columbia Icefield go?",
+    id: "goi-32g-watershed-great-divide-where-does",
+    description: "Dr. Ali Criscitiello talks about meltwater from the Columbia Icefield and where it eventually ends up.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=OGN943BCxAk&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=32",
+      thumbUrl: null
+    },
+    hashtags: ["columbiaicefield", "abwater", "abglaciers", "climatechange", "landuse"],
+    observedTime: 31000
+  },
+  { // video 33 - What can we do to protect Alberta glaciers?
+    title: "What can we do to protect Alberta glaciers?",
+    id: "goi-33g-what-can-we-do-to-protect-alberta",
+    description: "Dr. Ali Criscitiello talks about what we can do to protect Alberta glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=iHKg1WAQ3h8&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=33",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "climatechange", "athabascaglacier", "abwater", "landuse"],
+    observedTime: 64000
+  },
+
+
+
+  { // video 34 - Where do we find glaciers?  
+    title: "Where do we find glaciers?",
+    id: "goi-34g-where-do-we-find-glaciers",
+    description: "Dr. Ali Criscitiello discusses where we find glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=22vQm0cfKnI&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=34",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "athabascaglacier", "abwater", "columbiaicefield", "landuse"],
+    observedTime: 18000
+  },
+  { // video 35 - Why are Alberta glaciers important?
+    title: "Why are Alberta glaciers important?",
+    id: "goi-35g-why-are-alberta-glaciers-important",
+    description: "Dr. Ali Criscitiello discuss the importance of Alberta Glaciers.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
     coordinates: [-113.52474624314297, 53.525506187851704],
-    lessonPlans: [], 
+    lessonPlans: [],
     media: {
-      url: "https://www.youtube.com/watch?v=HOhflZn8cqo",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=HOhflZn8cqo",
+      url: "https://www.youtube.com/watch?v=HOhflZn8cqo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=35",
+      thumbUrl: null
     },
-    observedTime: 1582915332165,
-    hashtags:
-      "abglaciers,climatechange,waterquality,abwater,columbiaicefield,athabascaglacier,landuse",
+    hashtags: ["abglaciers", "abwater", "climatechange", "athabascaglacier", "landuse"],
+    observedTime: 32000
   },
-  {
-    id: 11,
-    title: "How chemicals trapped in glacier ice get into our water",
-    description:
-      "Dr. Criscitiello discusses why we are seeing banned chemicals in our drinking water.",
+  { // video 36 - Why protect Alberta glaciers?
+    title: "Why protect Alberta glaciers?",
+    id: "goi-36g-why-protect-alberta-glaciers",
+    description: "Dr. Ali Criscitiello discusses why it is important to protect Alberta Glaciers.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
-    coordinates: [-117.26164538142712, 52.18516873238073],
-    lessonPlans: [], 
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
     media: {
-      url:"https://www.youtube.com/watch?v=2ULp_NlGUHE",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/82b1ec7b-42c4-4ce4-89f4-e72ac43eb94c/thumbnails/obs_15795177-357c-4a5f-895c-c96c2e84b2e4_tumb.0000011.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=2ULp_NlGUHE",
+      url: "https://www.youtube.com/watch?v=PUJYQnJx3tY&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=36",
+      thumbUrl: null
     },
-    observedTime: 1582915332165,
-    hashtags:
-      ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield", "athabascaglacier", "landuse",]
+    hashtags: ["abglaciers", "climatechange", "abwater", "landuse", "athabascaglacier"],
+    observedTime: 46000
   },
-  {
-    id: 12,
-    title: "Forest Fires and Glaciers",
-    description:
-      "Dr. Criscitiello discusses how forest fires affect Alberta Glaciers.",
+  { // video 37 - Cutting Glacier Ice Cores
+    title: "Cutting Glacier Ice Cores",
+    id: "goi-37g-cutting-glacier-ice-cores",
+    description: "Cutting Ice Cores at the Canadian Ice Core Lab",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
-    coordinates: [-117.06003175787251, 52.28233105288666],
-    lessonPlans: [], 
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
     media: {
-      url:
-        "https://www.youtube.com/watch?v=f2wUf95774k",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/46fdc7ef-1ad0-43ec-8790-0c7045c5fbc3/thumbnails/obs_84d7a2a8-f86c-4e00-8d81-91ef031412c3_tumb.0000018.jpg",
+      url: "https://www.youtube.com/watch?v=VLaZWe8nACs&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=37",
+      thumbUrl: null
     },
-    observedTime: 1582915332165,
-    hashtags:
-      "abglaciers,climatechange,waterquality,abwater,columbiaicefield,landuse,abforestfires,forestfires,glaciermelt",
+    hashtags: ["abglaciers", "athabascaglacier", "climatechange", "abwater", "columbiaicefield"],
+    observedTime: 13000
   },
-  {
-    id: 13,
-    title: "Dr. Ali Criscitiello and her research",
-    description:
-      "Dr. Criscitielllo talks about her research at the Canadian Ice Core Lab, University of Alberta",
+  { // video 38 - How Cold is the freezer in the Canadian Ice Core Lab?
+    title: "How Cold is the freezer in the Canadian Ice Core Lab?",
+    id: "goi-38g-how-cold-is-the-freezer-in-the",
+    description: "Dr. Alison Criscitiello demonstrated how she cuts ice cores for analysis at the Canadian Ice Core Lab at the University of Alberta.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
-      coordinates: [-113.52477878518526, 53.525654500022085],
-    lessonPlans: [], 
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
     media: {
-      url:
-        "https://www.youtube.com/watch?v=VIt0NySXoGM",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/75a19241-4149-455f-b43b-91a41920ac28/thumbnails/obs_88cdd5c9-8aa9-4c48-870b-3791889c946f_tumb.0000042.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=VIt0NySXoGM",
+      url: "https://www.youtube.com/watch?v=o4lpNdvjl98&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=38",
+      thumbUrl: null
     },
-    observedTime: 1582915332165,
-    hashtags:
-      "abglaciers,climatechange,waterquality,abwater,columbiaicefield,athabascaglacier,landuse",
+    hashtags: ["abglaciers", "columbiaicefield", "abwater", "athabascaglacier", "climatechange"],
+    observedTime: 8000
   },
-  {
-    id: 14,
-    title: "Where does water from Mount Snowdome go?",
-    description:
-      "Dr. Peter Lemieux discusses the reach of the water from the Columbia Icefield.",
+  { // video 39 - Getting suited up to enter the Canadian Ice Core Lab
+    title: "Getting suited up to enter the Canadian Ice Core Lab",
+    id: "goi-39g-getting-suited-up-to-enter-the",
+    description: "Dr. Ali Criscitiello gets prepared to go into the Canadian Ice Core Lab.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
-      coordinates: [-117.3168398896562, 52.187569165046824],
-    lessonPlans: [], 
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
     media: {
-      url:
-        "https://d2qcvmovr4fv.cloudfront.net/out/v1/9f910ab7196f4aefb7b881c20d1d2fae/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
-      thumbUrl:
-        "https://d2qcvmovr4fv.cloudfront.net/7c3e031d-624b-4383-bca0-1566a980c5a4/thumbnails/obs_b10c9053-9433-43ac-8290-8e643250149d_tumb.0000020.jpg",
-      shareUrl: "https://www.youtube.com/watch?v=ZS8TG4_q24A&t=3s",
+      url: "https://www.youtube.com/watch?v=Ofv6WtFd1Zc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=39",
+      thumbUrl: null
     },
-    observedTime: 1582915332165,
-    hashtags:
-      "abglaciers,climatechange,waterquality,abwater,columbiaicefield,athabascaglacier,landuse",
+    hashtags: ["abglaciers", "athabascaglacier", "abwater", "columbiaicefield", "landuse"],
+    observedTime: 31000
   },
-
+  { // video 40 - Into the cold
+    title: "Into the cold",
+    id: "goi-40g-into-the-cold",
+    description: "Dr. Ali Criscitiello takes us into the freezer of the Canadian Ice Core Lab.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=7cQbvb4l3Ro&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=40",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "columbiaicefield", "athabascaglacier", "abwater", "climatechange"],
+    observedTime: 9000
+  },
+  { // video 41 - Into the Lab
+    title: "Into the Lab",
+    id: "goi-41g-into-the-lab",
+    description: "Dr. Ali Criscitiello takes us into the lab used to study Alberta glaciers.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=Nt4575dF2ME&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=41",
+      thumbUrl: null
+    },
+    hashtags: ["abglaciers", "athabascaglacier", "abwater", "columbiaicefield", "landuse"],
+    observedTime: 19000
+  },
+  { // video 42 - How big is the Athabasca Glacier
+    title: "How big is the Athabasca Glacier",
+    id: "goi-42g-how-big-is-the-athabasca-glacier",
+    description: "Listen to Peter Lemieux talk about the size of the Athabasca Glacier.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=qq7vwd_ahzU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=42",
+      thumbUrl: null
+    },
+    hashtags: ["athabascaglacier", "abglaciers", "columbiaicefield", "abwater", "climatechange"],
+    observedTime: 27000
+  },
+  { // video 43 - Every year its further to get to work
+    title: "Every year its further to get to work",
+    id: "goi-43g-every-year-its-further-to-get-to",
+    description: "Listen to Peter Lemieux talk about the receding of the Athabasca Glacier.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=efoZxoc0_RE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=43",
+      thumbUrl: null
+    },
+    hashtags: ["climatechange", "abglaciers", "athabascaglacier", "abwater", "landuse"],
+    observedTime: 11000
+  },
+  { // video 44 - Dr. Criscitiello and her research
+    title: "Dr. Criscitiello and her research",
+    id: "goi-44g-dr-criscitiello-and-her-research",
+    description: "Dr. Ali Criscitiello talks about how she got interested in studying glaciers and what she does at the Canadian Ice Core Lab.",
+    category: VideoCategory.ICE_SERIES,
+    tools: [AssociatedTool.SIMULATOR],
+    coordinates: [-117.25197315216064, 52.19348864884182],
+    lessonPlans: [],
+    media: {
+      url: "https://www.youtube.com/watch?v=VIt0NySXoGM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=44",
+      thumbUrl: null
+    },
+    hashtags: ["climatechange", "abglaciers", "abwater", "landuse", "athabascaglacier"],
+    observedTime: 213000
+  }
 ];

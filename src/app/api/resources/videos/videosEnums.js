@@ -9,7 +9,7 @@
  */
 
 export const VideoCategory = {
-  TUTORIALS: "Tutorials",
+  TUTORIALS: "Simulator Tutorials",
   LANDSCAPE: "Understanding the Landscape",
   ENVIRONMENTAL_INDICATORS: "Environmental Indicators",
   SOCIO_ECONOMIC_INDICATORS: "Socio-Economic Indicators",

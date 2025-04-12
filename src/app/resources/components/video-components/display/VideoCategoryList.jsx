@@ -44,7 +44,16 @@ export default function VideoCategoryList() {
   }, [grouped]);
 
   return (
-    <div className="py-4 space-y-4 mb-4">
+    <div className="py-4 space-y-4 mb-4 relative">
+      {Object.keys(grouped).length === 0 && (
+        <div className="text-center  h-[70vh] flex items-center justify-center">
+          <div className="space-y-2">
+            <h2 className="text-4xl font-bold">No Results Found</h2>
+            <div className="text-2xl"> No videos found. Try adjusting the filters.</div>
+          </div>
+        </div>
+      )}
+
       {Object.entries(grouped).map(([category, vids]) => (
         <VideoCategory key={category} category={category} videos={vids} />
       ))}

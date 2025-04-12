@@ -11,7 +11,7 @@
 import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const indigenousIndicatorsVideos = [
-  {
+  { // video 1 - TLU Access
     id: "ind-01e-tlu-access",
     title: "TLU Access",
     description: 
@@ -26,7 +26,7 @@ export const indigenousIndicatorsVideos = [
     },
     hashtags: ["tlu", "indigenous-access", "traditional-use", "landuse"]
   },
-  {
+  { // video 2 - Moose Habitat
     id: "ind-02e-moose-habitat",
     title: "Moose Habitat",
     description: 
@@ -41,7 +41,7 @@ export const indigenousIndicatorsVideos = [
     },
     hashtags: ["moose", "habitat", "wildlife", "landuse"]
   },
-  {
+  { // video 3 - Hunting Opportunity
     id: "ind-03e-hunting-opportunity",
     title: "Hunting Opportunity",
     description: 

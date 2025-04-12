@@ -11,7 +11,7 @@
 import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const socioEconomicIndicatorsVideos = [
-  {
+  { // video 1 - Human Population
     id: "soc-01d-human-population",
     title: "Human Population",
     description: 
@@ -26,7 +26,7 @@ export const socioEconomicIndicatorsVideos = [
     },
     hashtags: ["abpopulation", "exponentialpopulationgrowth", "abgrowth", "landuse"]
   },
-  {
+  { // video 2 - Gross Domestic Product
     id: "soc-02d-gdp",
     title: "Gross Domestic Product",
     description: 
@@ -41,7 +41,7 @@ export const socioEconomicIndicatorsVideos = [
     },
     hashtags: ["abgdp", "abeconomy", "landuse"]
   },
-  {
+  { // video 3 - Hydrocarbon Production
     id: "soc-03d-hydrocarbon-production",
     title: "Hydrocarbon Production",
     description: 
@@ -56,7 +56,7 @@ export const socioEconomicIndicatorsVideos = [
     },
     hashtags: ["aboilandgas", "hydrocarbons", "landuse", "abeconomy"]
   },
-  {
+  { // video 4 - Timber Production
     id: "soc-04d-timber-production",
     title: "Timber Production",
     description: 
@@ -71,7 +71,7 @@ export const socioEconomicIndicatorsVideos = [
     },
     hashtags: ["abforestry", "landuse", "forestry", "abeconomy"]
   },
-  {
+  { // video 5 - Agricultural Production
     id: "soc-05d-agriculture-production",
     title: "Agricultural Production",
     description: 
@@ -86,7 +86,7 @@ export const socioEconomicIndicatorsVideos = [
     },
     hashtags: ["abag", "agriculture", "landuse", "abeconomy"]
   },
-  {
+  { // video 6 - Water Consumption
     id: "soc-06d-water-consumption",
     title: "Water Consumption",
     description: 

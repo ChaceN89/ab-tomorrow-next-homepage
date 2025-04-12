@@ -11,7 +11,7 @@
 import { VideoCategory, AssociatedTool } from "../videosEnums";
 
 export const environmentalIndicatorsVideos = [
-  {
+  { // video 1 - Natural Landscapes
     id: "env-01c-natural-landscapes",
     title: "Natural Landscapes",
     description: 
@@ -26,7 +26,7 @@ export const environmentalIndicatorsVideos = [
     },
     hashtags: ["landuse", "abnaturallandscapes", "abecoregions"]
   },
-  {
+  { // video 2 - Caribou Habitat
     id: "env-02c-caribou-habitat",
     title: "Caribou Habitat",
     description: 
@@ -41,7 +41,7 @@ export const environmentalIndicatorsVideos = [
     },
     hashtags: ["caribouhabitat", "abcaribou", "woodlandcaribou", "threatenedspecies", "landuse", "abwildlife"]
   },
-  {
+  { // video 3 - Grizzly Habitat
     id: "env-03c-grizzly-habitat",
     title: "Grizzly Habitat",
     description: 
@@ -56,7 +56,7 @@ export const environmentalIndicatorsVideos = [
     },
     hashtags: ["grizzlybearhabitat", "abwildlife", "abgrizzlies", "landuse", "threatenedspecies"]
   },
-  {
+  { // video 4 - Fish Habitat
     id: "env-04c-fish-habitat",
     title: "Fish Habitat",
     description: 
@@ -71,7 +71,7 @@ export const environmentalIndicatorsVideos = [
     },
     hashtags: ["abfish", "fishhabitat", "abwater", "abtrout", "nativetrout"]
   },
-  {
+  { // video 5 - Water Quality
     id: "env-05c-water-quality",
     title: "Water Quality",
     description: 
@@ -86,7 +86,7 @@ export const environmentalIndicatorsVideos = [
     },
     hashtags: ["abwater", "waterquality", "eutrophication", "landuse"]
   },
-  {
+  { // video 6 - Greenhouse Gasses
     id: "env-06c-greenhouse-gases",
     title: "Greenhouse Gasses",
     description: 
