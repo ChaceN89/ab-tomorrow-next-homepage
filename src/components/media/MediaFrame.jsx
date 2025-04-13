@@ -71,19 +71,24 @@ export default function MediaFrame({
 
 
   //pause all other videos on screen
-  const pauseOtherVideos = () => {
-    const allPlayers = document.querySelectorAll("iframe.yt-frame");
-  
-    allPlayers.forEach((player) => {
-      // Skip the current video by comparing videoId
-      if (player.src.includes(videoSrc)) return;
-  
-      const playerInstance = player.contentWindow;
-      if (playerInstance) {
-        playerInstance.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-      }
-    });
-  };
+const pauseOtherVideos = () => {
+  const allIframes = document.querySelectorAll("iframe.yt-frame");
+
+  allIframes.forEach((iframe) => {
+    // Skip current player by checking if it matches videoSrc
+    if (iframe.src.includes(videoSrc)) return;
+
+    iframe.contentWindow?.postMessage(
+      JSON.stringify({
+        event: "command",
+        func: "pauseVideo",
+        args: [],
+      }),
+      "*"
+    );
+  });
+};
+
   
 
   // function to play the video and pause all other videos
@@ -167,7 +172,7 @@ export default function MediaFrame({
           }
 
           {/* Video component */}
-          {type == "video" &&
+          {type == "video" && inView &&
             // <div className="bg-black">
               <YouTube
                 videoId={videoSrc}

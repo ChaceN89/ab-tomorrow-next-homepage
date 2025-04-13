@@ -9,9 +9,9 @@
  */
 
 import React from "react";
-import PolicySection from "./PolicySection";
-import PolicySubSection from "./PolicySubSection";
-import PolicyText from "./PolicyText";
+import PolicySection from "@/components/Polices/PolicySection";
+import PolicySubSection from "@/components/Polices/PolicySubSection";
+import PolicyText from "@/components/Polices/PolicyText";
 import PageHeader from "@/components/common/PageHeader";
 
 export default function TermsOfUse() {

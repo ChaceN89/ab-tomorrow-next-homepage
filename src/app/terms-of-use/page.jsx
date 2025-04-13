@@ -10,7 +10,7 @@
 
 import React from 'react'
 import { getPageTitle } from '@/utils/metadataUtils'
-import TermsOfUse from '@/components/pages/Polices/TermsOfUse'
+import TermsOfUse from './TermsOfUse'
 
 // Page-specific metadata
 export const metadata = {

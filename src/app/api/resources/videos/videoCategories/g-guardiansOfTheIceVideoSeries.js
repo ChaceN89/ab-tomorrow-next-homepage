@@ -22,7 +22,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Ns7BiGb3cMQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=1",
-      thumbUrl: nul
+      thumbUrl: null
     },
     hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
     observedTime: 300000
