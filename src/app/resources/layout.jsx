@@ -20,7 +20,7 @@ export default function ResourceLayout({ children }) {
       <VideoResourceProvider>
         <ResourceHeader />
         <ModalContainer/>
-        <main>{children}</main>
+        <main id="resources-container" className="min-h-[50vh] pb-64">{children}</main>
       </VideoResourceProvider>
     </LessonPlanResourceProvider>
   );

@@ -71,7 +71,7 @@ export default function ModalVideo({ id }) {
   }, [id, videos]);
 
   if (loading) return <div className='p-10'>Loading video data...</div>;
-  if (!video) return <div className='p-10'>Video not found.</div>;
+  if (!video) return <div className='p-10'>Video with id:{id} not found.</div>;
 
   return(
     <div className="flex flex-col gap-2 h-full w-full">

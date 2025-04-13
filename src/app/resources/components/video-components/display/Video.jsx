@@ -33,7 +33,7 @@ export default function Video({video, noExpand = false}) {
     <div  key={video.id} className="flex flex-col  h-full justify-end gap-2">
 
       <div className="flex flex-col justify-start text-start px-1">
-        <h3 className="text-lg font-semibold">{video.title}</h3>
+        <h3 className="text-lg font-semibold text-black">{video.title}</h3>
       </div>
       <div className="z-10">
         
@@ -41,6 +41,7 @@ export default function Video({video, noExpand = false}) {
           type="video"
           videoSrc={extractYouTubeId(video.media.url)}
           imgSrc={video.media.thumbUrl}
+          maxSize="max-w-5xl"
         />
       </div>
       <div className="h-32 shadow-md rounded-b-lg bg-white/60 -mt-4 -mr-0.5 pt-4 overflow-hidden border-1 border-black/30 relative z-0 max-w-5xl self-center w-full">

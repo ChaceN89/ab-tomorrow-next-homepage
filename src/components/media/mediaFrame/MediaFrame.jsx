@@ -50,6 +50,7 @@ export default function MediaFrame({
   title = "",
   description = "",
   className = "aspect-video",
+  maxSize="max-w-lg",
   showWheel = false,
   preload = false,
 }) {
@@ -129,7 +130,7 @@ export default function MediaFrame({
   }
 
   return(
-    <div className="w-full max-w-5xl mx-auto text-center space-y-2 text-inherit">
+    <div className={`w-full ${maxSize} mx-auto text-center space-y-2 text-inherit`}>
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
       
       <div  ref={ref} className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>

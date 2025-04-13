@@ -70,7 +70,8 @@ export default function VideoFilters() {
         label="Filter by Category"
         filterMap={categoryFilters}
         setFilterMap={setCategoryFilters}
-        showScrollLinks={true}
+        showScrollLinks
+        showFocusButton
       />
 
       <FilterDropdown

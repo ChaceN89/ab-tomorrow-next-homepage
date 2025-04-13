@@ -1,0 +1,70 @@
+/**
+ * @file LessonPlanCard.jsx
+ * @module UI/Resources/LessonPlanCard
+ * @desc Displays a full lesson plan card and makes the card clickable (except links).
+ *
+ * @props {object} plan - A lesson plan object.
+ */
+
+"use client";
+
+import React from "react";
+import { useRouter } from "next/navigation";
+import { FaFilePdf, FaLink, FaClipboardList, FaRegClock } from "react-icons/fa";
+import TagList from "./TagList";
+import Tooltip from "@/components/media/Tooltip";
+import LinkListSection from "./LinkListSection";
+
+export default function LessonPlanCard({ plan }) {
+  const router = useRouter();
+
+  const handleCardClick = () => {
+    router.push(`/resources/lesson-plans?lesson-plan=${plan.id}`);
+  };
+
+  return (
+    <div
+      role="button"
+      tabIndex={0}
+      onClick={handleCardClick}
+      onKeyDown={(e) => e.key === "Enter" && handleCardClick()}
+      className="cursor-pointer h-full"
+    >
+      <div className="flex flex-col h-full justify-start gap-2 bg-white shadow-md rounded-lg p-3 border border-black/20 hover:ring-2 hover:ring-secondary transition-all">
+        <Tooltip text={plan.title} openDuration={1500}>
+          <div className="flex items-start gap-2 border rounded-md p-1 bg-gray-50 h-20">
+            <FaClipboardList className="text-primary text-3xl flex-shrink-0" />
+            <div>
+              <h3 className="text-base font-semibold leading-snug line-clamp-2">{plan.title}</h3>
+              <div className="flex items-center gap-2 text-xs text-gray-500">
+                <FaRegClock className="text-gray-500 text-xs flex-shrink-0" />
+                <span className="text-gray-500 text-xs">{plan.approximateTime}</span>
+              </div>
+            </div>
+          </div>
+        </Tooltip>
+
+        <p className="text-sm text-gray-700 line-clamp-3  border-b pb-1">{plan.description}</p>
+        
+
+        <TagList label="Grades" items={plan.grades} pillClass="bg-gray-100 border border-gray-300 text-gray-700" />
+        <TagList label="Subjects" items={plan.subjects} pillClass="bg-blue-100 border border-blue-300 text-blue-700" />
+
+        <LinkListSection
+          title="Lesson Files"
+          items={plan.files}
+          icon={FaFilePdf}
+          iconClassName="text-red-600"
+
+        />
+
+        <LinkListSection
+          title="Related Links"
+          items={plan.relatedUrls}
+          icon={FaLink}
+          iconClassName="text-blue-700"
+        />
+      </div>
+    </div>
+  );
+}

@@ -13,6 +13,12 @@
  @import "./globals.css";
  
  
+
+ .no-scroll {
+   overflow: hidden; /* Prevent scrolling */
+   height: 100%;    /* Ensure the height is fixed */
+  }
+
  .page{
    @apply py-10 px-2.5 xl:px-14 2xl:px-20;
  }

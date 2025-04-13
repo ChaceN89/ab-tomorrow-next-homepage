@@ -124,7 +124,7 @@ export const GlaciersAndWatershedsLessons = [
       {
         title: "Ice Core Basics",
         description: "",
-        link: "/pdfs/lesson-plans/IceCoreBasics.pdf"
+        link: "/pdfs/lesson-plans/glaciersAndWatersheds/IceCoreBasics.pdf"
       }
     ],
     grades: [

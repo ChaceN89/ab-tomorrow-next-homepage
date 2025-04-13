@@ -10,7 +10,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
-import LessonPlan from "./LessonPlan";
+import LessonPlanCard from "./LessonPlanCard";
 
 export default function LessonPlanTheme({ theme, lessonPlans = [] }) {
   if (!lessonPlans.length) return null;
@@ -24,9 +24,9 @@ export default function LessonPlanTheme({ theme, lessonPlans = [] }) {
       <div className="relative">
         <h2 className="text-4xl font-bold border-b border-black py-4">{theme}</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 my-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 my-4">
           {lessonPlans.map((plan) => (
-            <LessonPlan key={plan.id} plan={plan} />
+            <LessonPlanCard key={plan.id} plan={plan} />
           ))}
         </div>
       </div>

@@ -410,7 +410,7 @@ export const guardiansOfTheIceVideos = [
   },
   { // video 27 - Ion chromatrograph
     title: "Ion chromatrograph",
-    id: "goi-27g-ion-chromatrograph",
+    id: "goi-27g-ion-chromatrography",
     description: "Dr. Ali Criscitiello talks about the Ion Chromatograph and what it tells us about the glaciers.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],

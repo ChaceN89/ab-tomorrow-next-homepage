@@ -43,7 +43,10 @@ export default function VideoCategoryList() {
     setNumResults(total);
 
     if (total == 0) {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      const container = document.getElementById("resources-container");
+      if (container) {
+        container.scrollIntoView({ behavior: "smooth" });
+      }
     }    
   
   }, [grouped]);
