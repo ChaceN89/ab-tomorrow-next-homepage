@@ -11,6 +11,7 @@ Water Test Procedures
 
 */
 
+import {Theme, Grade, Subject, AssociatedTool} from "../lessonPlanEnums";
 
 export const GlaciersAndWatershedsLessons = [
   { // Lesson 1 - Introduction to Glaciers

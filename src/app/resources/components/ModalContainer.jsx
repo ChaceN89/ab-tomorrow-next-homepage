@@ -26,11 +26,12 @@
 import { useSearchParams, useRouter } from 'next/navigation';
 import Modal from "@/components/common/Modal";
 import SingleVideo from './video-components/display/ModalVideo';
+import ModalLessonPlan from './lesson-plan-components/display/ModalLessonPlan';
 
 export default function ModalContainer() {
   const searchParams = useSearchParams();
   const videoId = searchParams.get("video");
-  const lessonPlanId = searchParams.get("lessonPlan");
+  const lessonPlanId = searchParams.get("lesson-plan");
 
   const router = useRouter();
 
@@ -38,7 +39,7 @@ export default function ModalContainer() {
     const newParams = new URLSearchParams(searchParams.toString());
   
     if (videoId) newParams.delete("video");
-    if (lessonPlanId) newParams.delete("lessonPlan");
+    if (lessonPlanId) newParams.delete("lesson-plan");
   
     // Clean up the URL
     const basePath = window.location.pathname; // e.g., /resources or /resources/videos
@@ -59,8 +60,7 @@ export default function ModalContainer() {
 
       {lessonPlanId && (
         <Modal onClose={closeModal}>
-          <div className="text-xl font-bold mb-2">Lesson Plan Modal</div>
-          <p>Lesson Plan ID: {lessonPlanId}</p>
+          <ModalLessonPlan id={lessonPlanId} />
         </Modal>
       )}
     </>

@@ -28,6 +28,6 @@
 import { GlaciersAndWatershedsLessons } from "./lessonThemes/b-glaciersAndWatershedsLessons";
 
 // ======= Aggregated lessons =======
-export const allVideos = [
+export const allLessons = [
   ...GlaciersAndWatershedsLessons, // 6 les
 ];
