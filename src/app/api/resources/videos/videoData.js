@@ -29,6 +29,7 @@ import { guardiansOfTheIceVideos } from "./videoCategories/g-guardiansOfTheIceVi
 import { stoneyVoicesVideos } from "./videoCategories/h-stoneyVoicesVideos";
 import { blackfootVoicesVideos } from "./videoCategories/i-blackfootVoicesVideos";
 import { pointsOfInterestVideos } from "./videoCategories/j-pointsOfInterest";
+import { otherVideos } from "./videoCategories/z-otherVideos";
 
 // ======= Aggregated Videos =======
 export const allVideos = [
@@ -48,7 +49,9 @@ export const allVideos = [
   ...stoneyVoicesVideos, // 28 videos
   ...blackfootVoicesVideos, // 1 video
 
-  ...pointsOfInterestVideos // 9 videos
+  ...pointsOfInterestVideos, // 9 videos
 
-  // 125 videos total
+  ...otherVideos, // 2 videos
+
+  // 127 videos total
 ];

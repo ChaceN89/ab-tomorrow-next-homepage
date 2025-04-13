@@ -182,7 +182,7 @@ export const guardiansOfTheIceVideos = [
   },
   { // video 12 - Where was the Athabasca glacier in 2006?
     title: "Where was the Athabasca glacier in 2006?",
-    id: "goi-12g-where-was-the-athabasca-glacier-in",
+    id: "goi-12g-where-was-the-athabasca-glacier-in-2006",
     description: "Listen to Peter Lemieux talk about how fare the glacier has receded since 2006 and how he knows!",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
@@ -197,7 +197,7 @@ export const guardiansOfTheIceVideos = [
   },
   { // video 13 - Where was the glacier in 1982 and what is a lateral moraine?
     title: "Where was the glacier in 1982 and what is a lateral moraine?",
-    id: "goi-13g-where-was-the-glacier-in-1982-and",
+    id: "goi-13g-where-was-the-glacier-in-1982",
     description: "Listen to Peter Lemieux as he discusses where the Athabasca glacier was in 1982.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
@@ -455,7 +455,7 @@ export const guardiansOfTheIceVideos = [
   },
   { // video 30 - What is the Picarro machine and what does it do?
     title: "What is the Picarro machine and what does it do?",
-    id: "goi-30g-what-is-the-picarro-machine-and",
+    id: "goi-30g-what-is-the-picarro-machine",
     description: "Dr. Ali Criscitiello of the Canadian Ice Core Lab discusses some of the technology she uses to study Alberta glaciers.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
@@ -485,7 +485,7 @@ export const guardiansOfTheIceVideos = [
   },
   { // video 32 - Watershed Great Divide - Where does water from the Columbia Icefield go?
     title: "Watershed Great Divide - Where does water from the Columbia Icefield go?",
-    id: "goi-32g-watershed-great-divide-where-does",
+    id: "goi-32g-watershed-great-divide",
     description: "Dr. Ali Criscitiello talks about meltwater from the Columbia Icefield and where it eventually ends up.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],
@@ -653,7 +653,7 @@ export const guardiansOfTheIceVideos = [
   },
   { // video 43 - Every year its further to get to work
     title: "Every year its further to get to work",
-    id: "goi-43g-every-year-its-further-to-get-to",
+    id: "goi-43g-every-year-its-further-to-get-to-work",
     description: "Listen to Peter Lemieux talk about the receding of the Athabasca Glacier.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],

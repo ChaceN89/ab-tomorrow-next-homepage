@@ -18,7 +18,8 @@ export const VideoCategory = {
   ICE_SERIES: "Guardians of the Ice Series",
   STONEY_VOICES: "Stoney Voices",
   BLACKFOOT_VOICES: "Blackfoot Voices",
-  POINTS_OF_INTEREST: "Points of Interest"
+  POINTS_OF_INTEREST: "Points of Interest",
+  OTHER: "Other Videos",
 };
 
 export const AssociatedTool = {
