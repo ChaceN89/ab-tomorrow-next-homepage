@@ -36,10 +36,11 @@ import React, { useEffect, useRef, useState } from "react";
 import PulseLoader from "@/components/common/PulseLoader";
 import Image from "next/image";
 import YouTube from 'react-youtube';
-import { FaPlay } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import PlayButton from "./PlayButton";
 
+// Utility functions for pausing other videos and unmounting the YouTube player
+import { pauseOtherVideos, unmountYouTubePlayer } from "./youtubePlayerUtils";
 
 export default function MediaFrame({
   type = "image",
@@ -50,6 +51,7 @@ export default function MediaFrame({
   description = "",
   className = "aspect-video",
   showWheel = false,
+  preload = false,
 }) {
 
   const { ref, inView } = useInView({
@@ -57,11 +59,17 @@ export default function MediaFrame({
     threshold: 0.2,        // 20% of the component must be visible
   });
 
+  
+  // see if the vide can start being loaded
+  const [canStartVidLoad, setCanStartVidLoad] = useState(preload)
+
   // laod and playing(if video) state
-  const [imgLoaded, setImgLoaded] = useState(false);
+  const [imgLoaded, setImgLoaded] = useState(imgSrc ? false : true);
   const [videoLoaded, setVideoLoaded] = useState(false);
 
+  // video playing state
   const [videoIsPlaying, setvideoIsPlaying] = useState(false)
+
 
   // get access to the video player is its active
   const playerRef = useRef(null);
@@ -70,49 +78,36 @@ export default function MediaFrame({
     setVideoLoaded(true);
   };
 
-
-  //pause all other videos on screen
-const pauseOtherVideos = () => {
-  const allIframes = document.querySelectorAll("iframe.yt-frame");
-
-  allIframes.forEach((iframe) => {
-    // Skip current player by checking if it matches videoSrc
-    if (iframe.src.includes(videoSrc)) return;
-
-    iframe.contentWindow?.postMessage(
-      JSON.stringify({
-        event: "command",
-        func: "pauseVideo",
-        args: [],
-      }),
-      "*"
-    );
-  });
-};
-
-  
+  // function to allow video to start loading
+  const loadVideoHandler = () => {
+    if (type !== "video") return;
+    if (!canStartVidLoad) setCanStartVidLoad(true);
+  }
 
   // function to play the video and pause all other videos
   const myOnPlay = () => {
     setvideoIsPlaying(true);
-    pauseOtherVideos();
+    pauseOtherVideos(videoSrc);
   }
 
   // Play the video from the thumbnail click event
   const playVideo = () => {
-    if (type !== "video") return
-
-    if (!playerRef.current) return
-
+    if (type !== "video") return;
+  
+    // Trigger the YouTube render
+    if (!canStartVidLoad) setCanStartVidLoad(true);
+  
+    // Delay the actual play until after render completes
+    if (!playerRef.current) return;
+  
     myOnPlay();
-      
-    // try to play video
-    if (playerRef.current && typeof playerRef.current.playVideo === "function") {
+  
+    if (typeof playerRef.current.playVideo === "function") {
       playerRef.current.playVideo();
     } else {
       console.warn("🎥 YouTube player not ready yet. Retrying in 300ms...");
       setTimeout(() => {
-        if (playerRef.current && typeof playerRef.current.playVideo === "function") {
+        if (typeof playerRef.current.playVideo === "function") {
           playerRef.current.playVideo();
         } else {
           console.error("❌ Failed to play video: player is still null.");
@@ -124,20 +119,11 @@ const pauseOtherVideos = () => {
   // Pause the video when the component unmounts
   useEffect(() => {
     return () => {
-      // Pause the video if it's active
-      if (playerRef.current?.pauseVideo) {
-        try {
-          playerRef.current.pauseVideo();
-        } catch (err) {
-          console.warn("🎬 Failed to pause video on unmount:", err);
-        }
-      }
-  
-      // Also nullify the ref for safety
-      playerRef.current = null;
+      unmountYouTubePlayer(playerRef);
     };
   }, []);
 
+  // if neither image or video is provided, return null
   if (!imgSrc && !videoSrc) {
     return null;
   }
@@ -146,21 +132,26 @@ const pauseOtherVideos = () => {
     <div className="w-full max-w-5xl mx-auto text-center space-y-2 text-inherit">
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
       
-      <div ref={ref} className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
-        
-        {inView && (<>
-          <PulseLoader showWheel={type === "video" || showWheel} className={`transition-opacity duration-800  ${imgLoaded || videoLoaded ? "opacity-0 pointer-events-none" : "opacity-100"}`} />
-      
+      <div  ref={ref} className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
+    
+        {(inView || preload) && (<>
+
+          <PulseLoader 
+            showWheel={type === "video" || showWheel} 
+            className={`transition-opacity duration-800 pointer-events-none ${
+              (imgLoaded && videoLoaded) ? "opacity-0" : "opacity-100"
+            }`} 
+          />      
 
           {/* Load img if image or load it as thumnail if video is the type */}
           {(
             type == "image" ||  // if an image 
             (type == "video" && imgSrc &&  // or its a video with a thumbnail
-                (!videoLoaded || !videoIsPlaying) // and if its a video with a thumbn ail its either not loaded or not playing
+              (!videoLoaded || !videoIsPlaying) // and if its a video with a thumbn ail its either not loaded or not playing
             )
-          ) &&   
+          ) &&  
             <Image
-              src={imgSrc}
+              src={imgSrc || '/ui-elements/placeholder.jpg'}
               alt={alt}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -169,11 +160,10 @@ const pauseOtherVideos = () => {
                 }`}
               onLoad={() => setImgLoaded(true)}
             />
-          
           }
 
           {/* Video component */}
-          {type == "video" && inView &&
+          {type == "video" && canStartVidLoad  &&
             // <div className="bg-black">
               <YouTube
                 videoId={videoSrc}
@@ -190,10 +180,10 @@ const pauseOtherVideos = () => {
                 }`}           
               />
           }  
-              
+
           {/* Button over video to trigger playing */}
           {(type=="video" && !videoIsPlaying ) &&
-            <PlayButton videoLoaded={videoLoaded} handlePlayClick={playVideo} />
+            <PlayButton videoLoaded={videoLoaded} handlePlayClick={playVideo} canPlayVideo={canStartVidLoad} preload={preload} />
           }
         </>)}       
       </div>

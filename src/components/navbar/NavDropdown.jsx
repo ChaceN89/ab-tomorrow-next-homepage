@@ -35,6 +35,8 @@ export default function NavDropdown({ items, title, openToLeft = false }){
   const toggleDropdown = () => setIsOpen((prev) => !prev);
 
   const isMouseOutOfBounds = (rect, mouseX, mouseY) => {
+    if (!rect) return true; // treat undefined as out-of-bounds
+
     return (
       mouseX < rect.left - boundaryValue ||
       mouseX > rect.right + boundaryValue ||

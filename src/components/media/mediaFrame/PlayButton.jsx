@@ -21,23 +21,60 @@
  */
 
 import React from "react";
-import { FaPlay } from "react-icons/fa";
+import { FaPlay, FaCloudDownloadAlt } from "react-icons/fa";
 
-export default function PlayButton({ videoLoaded, handlePlayClick }) {
+
+export default function PlayButton({ videoLoaded, handlePlayClick, canPlayVideo, preload }) {
   return (
     <div
-      className={`absolute inset-0 transition-opacity duration-200 ${
-        videoLoaded ? "opacity-100" : "opacity-10"
-      }`}
+      className={`absolute inset-0 `}
     >
       <div
         className="p-4 flex items-end justify-start inset-0 z-30 cursor-pointer group h-full w-full"
         onClick={handlePlayClick}
       >
-        <div className="bg-white/40 backdrop-blur-md group-hover:bg-white text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition border border-black/30">
-          <span className="flex items-center gap-2 text-sm md:text-base lg:text-lg">
-            Play Video <FaPlay />
-          </span>
+        <div className={`bg-white/10 group-hover:bg-black/50 text-black group-hover:text-white 
+        border-black/40 group-hover:border-white/20
+        backdrop-blur-lg
+
+
+              ${preload && videoLoaded ? "opacity-100" : preload && !videoLoaded ? "opacity-0" : "opacity-100"}
+
+
+         px-6 py-3 rounded-full font-semibold shadow-lg transition border 
+         `}>
+          
+          
+          <div className="text-sm md:text-base lg:text-lg">
+            
+          {canPlayVideo ? (
+  videoLoaded ? (
+    <span className="flex items-center gap-2">
+      Play Video <FaPlay />
+    </span>
+  ) : (
+    <span className="flex items-center gap-2 animate-pulse">
+      Loading Video... <FaCloudDownloadAlt />
+    </span>
+  )
+) : (
+  <span className="flex items-center gap-2">
+    Load Video <FaCloudDownloadAlt />
+  </span>
+)}
+
+
+
+            {/* {canPlayVideo ?  // if the video can be played
+              <span className={`${(videoLoaded) ? "opacity-100" : "opacity-0"} flex items-center gap-2  `}>
+                Play Video <FaPlay />  
+              </span> 
+            : 
+              <span className=" flex items-center gap-2">
+                Load Video <FaCloudDownloadAlt />                
+              </span>
+            } */}
+          </div>
         </div>
       </div>
     </div>

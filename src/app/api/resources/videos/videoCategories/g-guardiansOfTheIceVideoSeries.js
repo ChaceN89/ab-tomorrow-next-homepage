@@ -22,7 +22,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Ns7BiGb3cMQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=1",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
     observedTime: 300000
@@ -37,7 +37,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=7Ld_jQCuJzE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=2",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield"],
     observedTime: 31000
@@ -52,7 +52,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=1KGk2LAvz4s&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=3",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/7c3e031d-624b-4383-bca0-1566a980c5a4/thumbnails/obs_b10c9053-9433-43ac-8290-8e643250149d_tumb.0000020.jpg"
     },
     hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
     observedTime: 57000
@@ -67,7 +67,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=QbotXyLZXiQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=4",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/abc02ad4-803a-46a3-a40a-30f67c5deaab/thumbnails/obs_4e61c978-3fd4-41c1-8d01-637b2a629580_tumb.0000011.jpg"
     },
     hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield"],
     observedTime: 54000
@@ -82,7 +82,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=LkkeMC8VhnA&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=5",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/a93656c2-dbe9-4cca-8b30-1348050ba4f1/thumbnails/obs_07c1c554-f590-4de2-9609-52263faafbda_tumb.0000024.jpg"
     },
     hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
     observedTime: 16000
@@ -97,7 +97,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Deu0HjSCzuM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=6",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
     observedTime: 39000
@@ -112,7 +112,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=KCKew0PiqOc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=7",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["athabascaglacier", "climatechange", "abglaciers", "waterquality", "abwater"],
     observedTime: 47000
@@ -127,7 +127,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=sKF4M0v1GdM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=8",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/7c3e031d-624b-4383-bca0-1566a980c5a4/thumbnails/obs_b10c9053-9433-43ac-8290-8e643250149d_tumb.0000020.jpg"
     },
     hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield"],
     observedTime: 94000
@@ -142,7 +142,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=nFzRuDBiB28&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=9",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["abglaciers", "climatechange", "waterquality", "abwater", "columbiaicefield"],
     observedTime: 159000
@@ -157,7 +157,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Y8IaKMp4dAk&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=10",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["athabascaglacier", "abglaciers", "climatechange", "waterquality", "abwater"],
     observedTime: 17000
@@ -175,7 +175,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=ZS8TG4_q24A&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=11",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["abwater", "athabascaglacier", "abglaciers", "climatechange", "landuse"],
     observedTime: 104000
@@ -190,7 +190,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=NCKgmaIkIm0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=12",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["athabascaglacier", "abglaciers", "climatechange", "abwater", "columbiaicefield"],
     observedTime: 75000
@@ -205,7 +205,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=xYQocIUXHQU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=13",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["athabascaglacier", "landuse", "abglaciers", "climatechange", "abwater"],
     observedTime: 46000
@@ -220,7 +220,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=HXQLMjomCes&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=14",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["climatechange", "athabascaglacier", "abglaciers", "abwater", "landuse"],
     observedTime: 59000
@@ -235,7 +235,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=IvYUaGfUesM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=15",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["athabascaglacier", "columbiaicefield", "abglaciers", "abwater", "climatechange"],
     observedTime: 85000
@@ -250,7 +250,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Iy6sdst_Nnc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=16",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["abglaciers", "athabascaglacier", "climatechange", "columbiaicefield", "abwater"],
     observedTime: 30000
@@ -265,7 +265,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Htf4sCgOyvc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=17",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["climatechange", "abglaciers", "athabascaglacier", "abwater", "landuse"],
     observedTime: 124000
@@ -280,7 +280,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=KXSVsc1t8OQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=18",
-      thumbUrl: null
+      thumbUrl: 'https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg'
     },
     hashtags: ["abwater", "waterquality", "abglaciers", "climatechange", "athabascaglacier"],
     observedTime: 69000
@@ -295,7 +295,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=LKtGm_ZxZyU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=19",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["climatechange", "abglaciers", "athabascaglacier", "abwater", "landuse"],
     observedTime: 37000
@@ -310,7 +310,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=KF1JBsGdyZY&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=20",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/c6678f98-a6f3-4ca1-ab0b-4082cc0fc877/thumbnails/This%20is%20the%20Athabasca%20glacier._tumb.0000007.jpg"
     },
     hashtags: ["athabascaglacier", "abglaciers", "abwater", "climatechange", "columbiaicefield"],
     observedTime: 40000
@@ -325,7 +325,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=fjJZesxnfBo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=21",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/75a19241-4149-455f-b43b-91a41920ac28/thumbnails/obs_88cdd5c9-8aa9-4c48-870b-3791889c946f_tumb.0000042.jpg"
     },
     hashtags: ["waterquality", "abwater", "climatechange", "abglaciers", "landuse"],
     observedTime: 65000
@@ -340,7 +340,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=f2wUf95774k&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=22",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["climatechange", "athabascaglacier", "abglaciers", "abwater", "landuse"],
     observedTime: 91000
@@ -358,7 +358,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=RbPa7lv1fv0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=23",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["abglaciers", "climatechange", "athabascaglacier", "abwater", "columbiaicefield"],
     observedTime: 48000
@@ -373,7 +373,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=uATZEvCjoT4&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=24",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/75a19241-4149-455f-b43b-91a41920ac28/thumbnails/obs_88cdd5c9-8aa9-4c48-870b-3791889c946f_tumb.0000042.jpg"
     },
     hashtags: ["climatechange", "abglaciers", "athabascaglacier", "landuse", "abwater"],
     observedTime: 85000
@@ -388,7 +388,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=nr34h5i6oqI&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=25",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["landuse", "climatechange", "athabascaglacier", "abglaciers", "abwater"],
     observedTime: 99000
@@ -403,7 +403,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=2ULp_NlGUHE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=26",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["waterquality", "abwater", "climatechange", "abglaciers", "athabascaglacier"],
     observedTime: 56000
@@ -418,7 +418,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=L7F4VIAwcA0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=27",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["waterquality", "abglaciers", "climatechange", "abwater", "columbiaicefield"],
     observedTime: 132000
@@ -433,7 +433,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=pHCFmnNBeL0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=28",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["climatechange", "abglaciers", "waterquality", "abwater", "landuse"],
     observedTime: 162000
@@ -448,7 +448,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=dlIX3EisMpo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=29",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["waterquality", "abglaciers", "climatechange", "abwater", "athabascaglacier"],
     observedTime: 73000
@@ -463,7 +463,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Ps7dhpC1Gec&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=30",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["abglaciers", "waterquality", "abwater", "climatechange", "columbiaicefield"],
     observedTime: 76000
@@ -478,7 +478,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=uJ0ucfNs_io&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=31",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["climatechange", "abglaciers", "athabascaglacier", "abwater", "landuse"],
     observedTime: 94000
@@ -493,7 +493,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=OGN943BCxAk&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=32",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["columbiaicefield", "abwater", "abglaciers", "climatechange", "landuse"],
     observedTime: 31000
@@ -508,7 +508,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=iHKg1WAQ3h8&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=33",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["abglaciers", "climatechange", "athabascaglacier", "abwater", "landuse"],
     observedTime: 64000
@@ -526,7 +526,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=22vQm0cfKnI&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=34",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["abglaciers", "athabascaglacier", "abwater", "columbiaicefield", "landuse"],
     observedTime: 18000
@@ -541,7 +541,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=HOhflZn8cqo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=35",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["abglaciers", "abwater", "climatechange", "athabascaglacier", "landuse"],
     observedTime: 32000
@@ -556,7 +556,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=PUJYQnJx3tY&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=36",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["abglaciers", "climatechange", "abwater", "landuse", "athabascaglacier"],
     observedTime: 46000
@@ -571,7 +571,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=VLaZWe8nACs&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=37",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/acb56cc0-edb4-4cb1-ae5e-d8504ee154d0/thumbnails/obs_9877d8ac-26fc-435d-8e9d-d1acad385aae_tumb.0000004.jpg"
     },
     hashtags: ["abglaciers", "athabascaglacier", "climatechange", "abwater", "columbiaicefield"],
     observedTime: 13000
@@ -586,7 +586,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=o4lpNdvjl98&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=38",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["abglaciers", "columbiaicefield", "abwater", "athabascaglacier", "climatechange"],
     observedTime: 8000
@@ -601,7 +601,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Ofv6WtFd1Zc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=39",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["abglaciers", "athabascaglacier", "abwater", "columbiaicefield", "landuse"],
     observedTime: 31000
@@ -616,7 +616,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=7cQbvb4l3Ro&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=40",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["abglaciers", "columbiaicefield", "athabascaglacier", "abwater", "climatechange"],
     observedTime: 9000
@@ -631,7 +631,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Nt4575dF2ME&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=41",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/acb56cc0-edb4-4cb1-ae5e-d8504ee154d0/thumbnails/obs_9877d8ac-26fc-435d-8e9d-d1acad385aae_tumb.0000004.jpg"
     },
     hashtags: ["abglaciers", "athabascaglacier", "abwater", "columbiaicefield", "landuse"],
     observedTime: 19000
@@ -646,7 +646,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=qq7vwd_ahzU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=42",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
     },
     hashtags: ["athabascaglacier", "abglaciers", "columbiaicefield", "abwater", "climatechange"],
     observedTime: 27000
@@ -661,7 +661,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=efoZxoc0_RE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=43",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["climatechange", "abglaciers", "athabascaglacier", "abwater", "landuse"],
     observedTime: 11000
@@ -676,7 +676,7 @@ export const guardiansOfTheIceVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=VIt0NySXoGM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=44",
-      thumbUrl: null
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
     },
     hashtags: ["climatechange", "abglaciers", "abwater", "landuse", "athabascaglacier"],
     observedTime: 213000

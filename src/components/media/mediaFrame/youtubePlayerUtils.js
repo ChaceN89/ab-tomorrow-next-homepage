@@ -39,45 +39,16 @@ export const pauseOtherVideos = (excludeVideoSrc = "") => {
   });
 };
 
-export function pauseThisVideo(playerRef) {
-  if (!playerRef?.current) {
-    console.warn("🎬 No player reference found.");
-    return;
-  }
+export function unmountYouTubePlayer(playerRef) {
+  if (!playerRef?.current) return;
 
-  const player = playerRef.current;
-
-  if (typeof player.pauseVideo === "function") {
-    player.pauseVideo();
-  } else {
-    console.warn("🎬 Player is not ready to pause video.");
-  }
-}
-
-export function playYouTubeVideo(playerRef, onPlay = () => {}, retryDelay = 300) {
-  if (!playerRef?.current) {
-    console.warn("🎬 No player reference found.");
-    return;
-  }
-
-  const player = playerRef.current;
-
-  const tryPlay = () => {
-    if (typeof player.playVideo === "function") {
-      onPlay();
-      player.playVideo();
-    } else {
-      console.warn(`🎥 YouTube player not ready yet. Retrying in ${retryDelay}ms...`);
-      setTimeout(() => {
-        if (typeof player.playVideo === "function") {
-          onPlay();
-          player.playVideo();
-        } else {
-          console.error("❌ Failed to play video: player is still not ready.");
-        }
-      }, retryDelay);
+  try {
+    if (typeof playerRef.current.pauseVideo === "function") {
+      playerRef.current.pauseVideo();
     }
-  };
+  } catch (err) {
+    console.warn("🎬 Failed to pause video on unmount:", err);
+  }
 
-  tryPlay();
+  playerRef.current = null;
 }
