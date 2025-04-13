@@ -24,7 +24,7 @@ import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import { FaExpandArrowsAlt } from "react-icons/fa";
 
 // components
-import MediaFrame from "@/components/media/MediaFrame";
+import MediaFrame from "@/components/media/mediaFrame/MediaFrame";
 import Link from "next/link";
 
 export default function Video({video, noExpand = false}) {

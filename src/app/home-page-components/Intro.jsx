@@ -8,7 +8,7 @@
  * @updated Mar 25, 2025
  */
 
-import MediaFrame from '@/components/media/MediaFrame';
+import MediaFrame from '@/components/media/mediaFrame/MediaFrame';
 import { introData } from '@/data/home-page-data/introData';
 
 export default function Intro() {
@@ -29,6 +29,7 @@ export default function Intro() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 xl:gap-12 my-6 md:my-12  sm:px-12 lg:px-2 2xl:px-20 ">
           {introData.media.map((item, index) => (
             <MediaFrame
+              preload
               key={index}
               type={item.type}
               videoSrc={item.videoSrc}

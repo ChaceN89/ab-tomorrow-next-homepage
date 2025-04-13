@@ -33,11 +33,12 @@
 
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import PulseLoader from "../common/PulseLoader";
+import PulseLoader from "@/components/common/PulseLoader";
 import Image from "next/image";
 import YouTube from 'react-youtube';
 import { FaPlay } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
+import PlayButton from "./PlayButton";
 
 
 export default function MediaFrame({
@@ -192,21 +193,7 @@ const pauseOtherVideos = () => {
               
           {/* Button over video to trigger playing */}
           {(type=="video" && !videoIsPlaying ) &&
-            <div  className={`absolute inset-0 transition-opacity duration-200  ${videoLoaded ? "opacity-100" : "opacity-10"}`} >
-              <div 
-                className="p-4 flex items-end justify-start  inset-0 z-30 cursor-pointer group h-full w-full " 
-                onClick={playVideo} 
-              >
-
-                <div 
-                  className="bg-white/40 backdrop-blur-md group-hover:bg-white text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg transition border-1 border-black/30"
-                >
-                  <span className="flex items-center gap-2 text-sm md:text-base lg:text-lg ">
-                    Play Video <FaPlay  />
-                  </span>
-                </div>
-              </div>
-            </div>
+            <PlayButton videoLoaded={videoLoaded} handlePlayClick={playVideo} />
           }
         </>)}       
       </div>

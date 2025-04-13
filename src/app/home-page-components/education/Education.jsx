@@ -29,7 +29,7 @@
 // UI Components
 import BackgroundWrapper from '@/components/layout/BackgroundWrapper';
 import SectionHeader from '@/components/common/SectionHeader';
-import MediaFrame from '@/components/media/MediaFrame';
+import MediaFrame from '@/components/media/mediaFrame/MediaFrame';
 import HexButton from '@/components/common/hexButton/HexButton';
 
 // Data
@@ -61,6 +61,7 @@ export default function Education() {
         <div className='grid-section'>
           {eductionData.media.map((item, index) => (
             <MediaFrame
+              preload
               key={index}
               type={item.type}
               videoSrc={item.videoSrc}

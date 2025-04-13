@@ -12,7 +12,7 @@ import { FaFile } from "react-icons/fa";
 // Components
 import SectionHeader from "@/components/common/SectionHeader";
 import HexButton from "@/components/common/hexButton/HexButton";
-import MediaFrame from "@/components/media/MediaFrame";
+import MediaFrame from "@/components/media/mediaFrame/MediaFrame";
 
 // Data
 import { OurStoryData } from "@/data/home-page-data/aboutData";
@@ -60,6 +60,7 @@ export default function GetInvolved() {
           </div>
 
           <MediaFrame
+            preload
             type="video"
             videoSrc="vRLmJ_2zab0"
             alt="Canada Tomorrow Initiative"
