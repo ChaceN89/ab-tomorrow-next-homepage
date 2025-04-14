@@ -14,8 +14,10 @@ import { allLessons } from "../lessonData";
 /**
  * GET /api/lessons/[id]
  */
-export async function GET(_, { params }) {
-  const { id } = params;
+export async function GET(req, context) {
+  const { id } = await context.params; // ✅ await required in Next 15+
+
+
 
   console.log("➡️ Fetching lesson by ID:", id);
 

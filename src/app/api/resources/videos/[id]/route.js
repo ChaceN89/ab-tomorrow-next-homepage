@@ -14,15 +14,17 @@ import { allVideos } from "../videoData";
 /**
  * GET /api/videos/[id]
  */
-export async function GET(_, { params }) {
-  const { id } = params;
+export async function GET(req, context) {
+  const { id } = await context.params; // ✅ await required in Next 15+
+
+
 
   console.log("➡️ Fetching video by ID:", id);
 
   const video = allVideos.find((v) => String(v.id) === String(id));
 
   if (!video) {
-    console.warn("❌ Video not found1111:", id);
+    console.warn("❌ Video not found:", id);
     return NextResponse.json(
       { error: `Video with ID ${id} not found` },
       { status: 404 }
