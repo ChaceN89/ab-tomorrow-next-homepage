@@ -50,6 +50,7 @@ export default function LessonPlanFilter() {
         setFilterMap={setThemeFilters}
         showScrollLinks
         showFocusButton
+        initialOpen
       />
 
       <FilterDropdown

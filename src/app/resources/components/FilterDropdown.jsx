@@ -89,20 +89,20 @@ export default function FilterDropdown({
                 <div className="flex items-center gap-1 flex-1 min-w-0">
         
                   <div className="min-w-0 flex-1">
-                    <button
-                      className={`px-3 py-1 rounded-full border text-sm cursor-pointer truncate min-w-0 transition-colors w-full 
-                        ${filterMap[item] ? "bg-primary text-white" : "bg-gray-300 text-black"}`}
-                      onClick={() =>
-                        setFilterMap((prev) => ({
-                          ...prev,
-                          [item]: !prev[item],
-                        }))
-                      }
-                    >
-                      <Tooltip text={`Toggle: ${item}`} openDuration={400}>
-                        <span className="inline-block max-w-full truncate">{item}</span>
-                      </Tooltip>
-                    </button>
+                    <Tooltip text={`Toggle: ${item}`} openDuration={400}>
+                      <button
+                        className={`w-full px-2 py-0.5 rounded-full border text-sm cursor-pointer transition-colors hover:scale-105 flex items-center justify-start whitespace-nowrap truncate
+                          ${filterMap[item] ? "bg-primary text-white" : "bg-gray-300 text-black"}`}
+                        onClick={() =>
+                          setFilterMap((prev) => ({
+                            ...prev,
+                            [item]: !prev[item],
+                          }))
+                        }
+                      >
+                        <span className="block truncate">{item}</span>
+                      </button>
+                    </Tooltip>
                   </div>
 
                   {/* Solo (Focus) button */}
@@ -120,9 +120,9 @@ export default function FilterDropdown({
                             duration: 800,
                           });
                         }}
-                        className="text-xs text-black px-2 py-1 rounded-full border bg-white hover:bg-gray-200 transition flex items-center w-full  h-full"
+                        className="text-xs text-black px-1.5 py-0.5 rounded-full border bg-white hover:scale-110 transition flex items-center w-full  h-full cursor-pointer"
                       >
-                        <RiFocus3Line className="inline-block" />
+                        <RiFocus3Line className="inline-block text-lg" />
                       </button>
                     </Tooltip>
                   )}
@@ -139,7 +139,7 @@ export default function FilterDropdown({
                       className="group cursor-pointer flex-shrink-0"
                     >
                       <div className="w-6">
-                        <IoArrowRedo className="inline-block w-full text-xl group-hover:text-2xl transition-all duration-200 text-black hover:text-tertiary-alt" />
+                        <IoArrowRedo className="inline-block w-full text-xl group-hover:text-2xl transition-all duration-200 text-black hover:text-tertiary " />
                       </div>
                     </Link>
                   </Tooltip>

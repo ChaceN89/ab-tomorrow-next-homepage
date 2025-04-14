@@ -33,10 +33,12 @@ import { NaturalRegions360Lessons } from "./lessonThemes/f-naturalRegions360Less
 
 // ======= Aggregated lessons =======
 export const allLessons = [
-  // ...GlaciersAndWatershedsLessons, // 5 lesssons
-  // ...NaturalRegions360Lessons, // 3 lessons
-  // ...ClimateLessons, // 3 lessons
-  // ...IndigenousVoicesLessons, // 2 lessons
+  ...GlaciersAndWatershedsLessons, // 5 lesssons
+  ...NaturalRegions360Lessons, // 3 lessons
+  ...ClimateLessons, // 3 lessons
+  ...IndigenousVoicesLessons, // 2 lessons
   ...LandUseLessons, // 9 lessons
   ...BowRiverWatershedLessons // 11 lessons
+
+  // 33 lessons total
 ];
