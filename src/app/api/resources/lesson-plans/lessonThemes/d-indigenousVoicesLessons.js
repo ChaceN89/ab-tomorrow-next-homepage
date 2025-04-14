@@ -1,10 +1,19 @@
 /**
-Where is my Home? Using the Indigenous Map Overlays
-
-Exploring Collective Rights Using the Indigenous Voices Module
+ * @file IndigenousVoicesLessons.js
+ * @module Data/LessonPlans/IndigenousVoices
+ * @desc Lesson plans organized under the "Indigenous Voices" theme for Alberta Tomorrow.
+ *
+ * @see {@link ../lessonPlanEnums.js | Lesson Plan Enums}
+ *
+ * @lessons
+ * - Where is my Home? Using the Indigenous Map Overlays
+ * - Exploring Collective Rights Using the Indigenous Voices Module
+ *
+ * @author Chace Nielson
+ * @created Apr 14, 2025
+ * @updated Apr 14, 2025
  */
 import {Theme, Grade, Subject, AssociatedTool} from "../lessonPlanEnums";
-
 
 export const IndigenousVoicesLessons = [
   { // Lesson 1 - Where is my Home? Using the Indigenous Map Overlays

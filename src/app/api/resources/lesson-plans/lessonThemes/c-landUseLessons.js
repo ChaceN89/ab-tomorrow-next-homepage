@@ -1,39 +1,24 @@
 /**
-
-Yesterday, Today, and Tomorrow
-
-My Future Alberta: Creating a Landuse Plan for 2050
-
-How do our Landuse Decisions affect the Biogochemicals and Cycling of Matter in our Ecosystem?
-
-Governments Have it Rough! Can You Make Everyone Happy?
-
-Did We Do That? A Study of Alberta's Geography and the Benefits and Drawbacks of Landuse
-
-Stakeholder Debate
-
-Landuse Field Trip
-
-Stakeholder Debate
-
-Mistakes, Mitigations, and Making Amends. A Webinar by CPAWS and Alberta Tomorrow
-
-
-
- */
-
-// 9 lessons
-
-/**
  * @file LandUseLessons.js
  * @module Data/LessonPlans/LandUse
  * @desc Lesson plans organized under the "Land Use" theme for Alberta Tomorrow.
  *
  * @see {@link ../lessonPlanEnums.js | Lesson Plan Enums}
+ *
+ * @lessons
+ * - Yesterday, Today, and Tomorrow
+ * - My Future Alberta: Creating a Landuse Plan for 2050
+ * - How do our Landuse Decisions affect the Biogeochemicals and Cycling of Matter in our Ecosystem?
+ * - Governments Have it Rough! Can You Make Everyone Happy?
+ * - Did We Do That? A Study of Alberta's Geography and the Benefits and Drawbacks of Landuse
+ * - Did I Do That? The Relationship Between Humans and Their Environment
+ * - Landuse Field Trip
+ * - Stakeholder Debate
+ * - Mistakes, Mitigations, and Making Amends. A Webinar by CPAWS and Alberta Tomorrow
  * 
  * @author Chace Nielson
  * @created Apr 13, 2025
- * @updated Apr 13, 2025
+ * @updated Apr 14, 2025
  */
 
 import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";

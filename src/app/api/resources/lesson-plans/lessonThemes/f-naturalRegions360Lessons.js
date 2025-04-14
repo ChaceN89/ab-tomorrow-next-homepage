@@ -1,10 +1,18 @@
 /**
- * Filename: NaturalRegions360Lessons.js
- * Author: Chace Nielson
- * Created: Apr 13, 2025
- * Updated: Apr 13, 2025
- * Description: Lesson plans for 360 Virtual Field Trips to Alberta's Natural Regions.
- * Dependencies: lessonPlanEnums, videoEnums
+ * @file NaturalRegions360Lessons.js
+ * @module Data/LessonPlans/NaturalRegions360
+ * @desc Structured lesson plan data for the "360 Virtual Field Trips to Alberta's Natural Regions" theme.
+ *
+ * @see {@link ../lessonPlanEnums.js | lessonPlanEnums}
+ * 
+ * @lessons
+ * - 360 Virtual Field Trips to Alberta's 6 Ecoregions
+ * - Animal Adaptations - Using the 360 Virtual Field Trips
+ * - Plant and Animal Adaptations - Using the 360 Virtual Field Trips
+ *
+ * @author Chace Nielson
+ * @created Apr 13, 2025
+ * @updated Apr 13, 2025
  */
 
 import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";

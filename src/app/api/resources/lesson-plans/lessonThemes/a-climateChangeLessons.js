@@ -1,11 +1,20 @@
 /**
-Going Going Gone: Climate Change and the Columbia Icefield
-
-Climate Change in Alberta: Investigating Mild, Medium and Hot Scenarios
-
-Water Quality, Climate Change and Alberta's Glaciers
-
+ * @file ClimateLessons.js
+ * @module Data/LessonPlans/ClimateLessons
+ * @desc Lesson plans organized under the "Climate Change" theme for Alberta Tomorrow.
+ *
+ * @see {@link ../lessonPlanEnums.js | Lesson Plan Enums}
+ *
+ * @lessons
+ * - Going Going Gone: Climate Change and the Columbia Icefield
+ * - Climate Change in Alberta: Investigating Mild, Medium and Hot Scenarios
+ * - Water Quality, Climate Change and Alberta's Glaciers
+ * 
+ * @author Chace Nielson
+ * @created Apr 14, 2025
+ * @updated Apr 14, 2025
  */
+
 
 import {Theme, Grade, Subject, AssociatedTool} from "../lessonPlanEnums";
 

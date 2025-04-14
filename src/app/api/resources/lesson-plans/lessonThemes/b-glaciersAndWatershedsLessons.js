@@ -1,15 +1,21 @@
-/*
-Introduction to Glaciers
-
-Love it or Lose It: Alberta Glacier Edition
-
-Ice Core Basics
-
-Follow the Flow: Water Quality and the Columbia Icefield
-
-Water Test Procedures
-
-*/
+/**
+ * @file GlaciersAndWatershedsLessons.js
+ * @module Data/LessonPlans/GlaciersAndWatersheds
+ * @desc Lesson plans organized under the "Glaciers and Watersheds" theme for Alberta Tomorrow.
+ *
+ * @see {@link ../lessonPlanEnums.js | Lesson Plan Enums}
+ *
+ * @lessons
+ * - Introduction to Glaciers
+ * - Love it or Lose It: Alberta Glacier Edition
+ * - Ice Core Basics
+ * - Follow the Flow: Water Quality and the Columbia Icefield
+ * - Water Test Procedures
+ * 
+ * @author Chace Nielson
+ * @created Apr 14, 2025
+ * @updated Apr 14, 2025
+ */
 
 import {Theme, Grade, Subject, AssociatedTool} from "../lessonPlanEnums";
 

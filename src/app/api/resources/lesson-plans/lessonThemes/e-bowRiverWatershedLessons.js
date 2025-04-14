@@ -8,23 +8,30 @@ Water Quality: Water Treatment
 
 Constructed Wetlands and Stormwater
 
-Aquifers
-
-The Watershed
-
-Hydrology and Land Development
-
-Watersheds and Hydrology
-
-Hydrology and Climate Change
-
-Invasive Species and Control
-
-Native Prairies and Plants
+/**
+ * @file BowRiverWatershedLessons.js
+ * @module Data/LessonPlans/BowRiverWatershed
+ * @desc Structured lesson plan data for the "Bow River Watershed" theme in Alberta Tomorrow.
+ *
+ * @see {@link ../lessonPlanEnums.js | Lesson Plan Enums}
+ *
+ * @lessons
+ * - Isotopes and Climate Change
+ * - Glenmore Dam and Reservoir: Water Services
+ * - Water Quality: Water Treatment
+ * - Constructed Wetlands and Stormwater
+ * - Aquifers
+ * - The Watershed
+ * - Hydrology and Land Development
+ * - Watersheds and Hydrology
+ * - Hydrology and Climate Change
+ * - Invasive Species and Control
+ * - Native Prairies and Plants
+ * 
+ * @author Chace Nielson
+ * @created Apr 14, 2025
+ * @updated Apr 14, 2025
  */
-
-// 11 lessons
-
 import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";
 
 export const BowRiverWatershedLessons = [

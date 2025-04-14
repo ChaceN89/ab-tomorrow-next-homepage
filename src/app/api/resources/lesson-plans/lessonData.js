@@ -9,21 +9,6 @@
  */
 
 
-// 33 teacher resources
-/**
- * 
- * sorting
- * - grade
- * - subject
- * 
- * - themes
- * - hastags = ["words1", "words2", "words3"]
- * 
- * Associated videos 
- * id list
- * 
- */
-
 import { ClimateLessons } from "./lessonThemes/a-climateChangeLessons";
 import { GlaciersAndWatershedsLessons } from "./lessonThemes/b-glaciersAndWatershedsLessons";
 import { LandUseLessons } from "./lessonThemes/c-landUseLessons";
