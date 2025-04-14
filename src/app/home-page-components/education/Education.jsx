@@ -73,12 +73,13 @@ export default function Education() {
         </div>
 
         <MediaFrame
-          type="image"
-          imgSrc={eductionData.waterRangerKitImg}
-          alt="Water Rangers Testing Kit"
-          title={eductionData.waterRangerKitTitle}
-          description={eductionData.waterRangerKitDescription}
-        />
+            preload
+            imgSrc={eductionData.waterRangerKitImg}
+            alt={eductionData.waterRangerKitTitle}
+            title={eductionData.waterRangerKitTitle}
+            description={eductionData.waterRangerKitDescription}
+            showWheel
+          />
         <div className='h-2'/>
       </div>
     </BackgroundWrapper>

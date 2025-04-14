@@ -45,9 +45,13 @@ export default function LessonThemeList() {
     const total = Object.values(grouped).reduce((acc, arr) => acc + arr.length, 0);
     setNumResults(total);
     const container = document.getElementById("resources-container");
-    if (container) {
-      container.scrollIntoView({ behavior: "smooth" });
-    }
+
+    if (total == 0) {
+      const container = document.getElementById("resources-container");
+      if (container) {
+        container.scrollIntoView({ behavior: "smooth" });
+      }
+    }   
   }, [grouped]);
 
   return (

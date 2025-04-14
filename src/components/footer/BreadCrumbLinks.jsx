@@ -31,9 +31,10 @@ export default function BreadCrumbLinks({ title, list }) {
     <div>
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <ul className="flex flex-wrap items-center gap-2 text-sm text-white">
-        {list.map(({ label, icon, href, router }, idx) => (
+        {list.map(({ label, icon, href, router, scrollTo }, idx) => (
           <li key={idx} className="flex items-center">
             <LinkItem
+              scrollTo={scrollTo}
               href={href}
               router={router}
               className="flex items-center gap-1 hover:text-accent transition-colors duration-100"

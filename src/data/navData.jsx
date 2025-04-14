@@ -89,6 +89,12 @@ export const extraPages =[
   { label: "Terms of Use", icon: <FaEnvelope />, router: "/terms-of-use" },
 ]
 
+export const educationTools = [
+  { label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
+  { label: "Energy Tomorrow", scrollTo: "tools", icon: <FaBolt /> },
+  { label: "Wildlife Tomorrow", scrollTo: "tools", icon: <GiFlatPawPrint /> },
+];
+
 // Scroll Links in the home page
 export const scrollLinks = [
   { label: "Home", scrollTo: "hero", icon: <FaHome /> },
@@ -104,9 +110,7 @@ export const toolsDropDown = {
   list:[
     {label: "Lesson Plans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
     {label: "Videos", icon: <FaVideo />, router: "/resources/videos" },
-    {label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
-    {label: "Energy Tomorrow", scrollTo: "tools", icon: <FaBolt /> },
-    {label: "Wildlife Tomorrow", scrollTo: "tools", icon: <GiFlatPawPrint /> },
+    ...educationTools,
   ]
 }
 

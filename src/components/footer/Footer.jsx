@@ -26,7 +26,7 @@
  * @updated Apr 1, 2025
  */
 // Data
-import { extraPages, toolsDropDown } from '@/data/navData';
+import { extraPages, educationTools } from '@/data/navData';
 
 // Components
 import SocialMediaIcons from './SocialMediaIcons';
@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
           <SupportUs />
           <QuickLinks />
-          <BreadCrumbLinks title="Education Tools" list={toolsDropDown.list} />
+          <BreadCrumbLinks title="Education Tools" list={educationTools} />
           <BreadCrumbLinks title="Sign Up & Legal" list={extraPages} />
         </div>
       </div>

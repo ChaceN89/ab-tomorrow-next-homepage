@@ -17,15 +17,8 @@ import Link from "next/link";
 
 export default function LessonPlanCard({ plan }) {
 
-
-
   return (
     <Link
-      // role="button"
-      // tabIndex={0}
-      // onClick={handleCardClick}
-      // onKeyDown={(e) => e.key === "Enter" && handleCardClick()}
-      // className="cursor-pointer h-full"
       href={`/resources/lesson-plans?lesson-plan=${plan.id}`}
       scroll={false}
       className="block h-full"
