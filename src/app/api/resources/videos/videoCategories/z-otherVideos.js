@@ -47,4 +47,23 @@ export const otherVideos = [
       "hydrolysis", "faint-young-sun-paradox", "climate-change", "climate-science", "isotope-geochemistry", "land-stewardship", "Paleoclimate"
     ]  
   },
+  {
+    // video 3
+    id: "oth-03z-intro-360-virtual-field-trips",
+    title: "Introducing Alberta Tomorrow’s 360 Virtual Field Trips",
+    description:
+      "The time has finally come! Check out the 360 Virtual Field Trips to Alberta's Ecoregions!  1 for each ecoregion exploring the plants, animals, geology, landforms, climate, land uses and species at risk! Register for your Alberta Tomorrow account at www.albertatomorrow.ca to gain access TODAY!",
+    lessonPlans: [], 
+    category: VideoCategory.OTHER,
+    tools: [AssociatedTool.SIMULATOR],
+    media: {
+      url: "https://www.youtube.com/watch?v=rL13Xz_x2dA",
+      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/virtualToursEcoRegions.jpg",
+      is360: true,
+    },
+    observedTime: 1607104608043, 
+    hashtags: [
+      "360-virtual-field-trips", "ecoregions", "climate-change", "climate-science", "isotope-geochemistry", "land-stewardship", "Paleoclimate"
+    ]
+  }
 ];

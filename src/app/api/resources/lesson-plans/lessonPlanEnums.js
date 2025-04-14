@@ -17,7 +17,6 @@ export const Theme ={
   BOW_RIVER_WATERSHED: "Bow River Watershed"
 }
 
-
 export const Grade = {
   KINDERGARTEN: "Kindergarten",
   GRADE_1: "Grade 1",

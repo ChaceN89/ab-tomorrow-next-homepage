@@ -9,26 +9,26 @@
 "use client";
 
 import React from "react";
-import { useRouter } from "next/navigation";
 import { FaFilePdf, FaLink, FaClipboardList, FaRegClock } from "react-icons/fa";
 import TagList from "./TagList";
 import Tooltip from "@/components/media/Tooltip";
 import LinkListSection from "./LinkListSection";
+import Link from "next/link";
 
 export default function LessonPlanCard({ plan }) {
-  const router = useRouter();
 
-  const handleCardClick = () => {
-    router.push(`/resources/lesson-plans?lesson-plan=${plan.id}`);
-  };
+
 
   return (
-    <div
-      role="button"
-      tabIndex={0}
-      onClick={handleCardClick}
-      onKeyDown={(e) => e.key === "Enter" && handleCardClick()}
-      className="cursor-pointer h-full"
+    <Link
+      // role="button"
+      // tabIndex={0}
+      // onClick={handleCardClick}
+      // onKeyDown={(e) => e.key === "Enter" && handleCardClick()}
+      // className="cursor-pointer h-full"
+      href={`/resources/lesson-plans?lesson-plan=${plan.id}`}
+      scroll={false}
+      className="block h-full"
     >
       <div className="flex flex-col h-full justify-start gap-2 bg-white shadow-md rounded-lg p-3 border border-black/20 hover:ring-2 hover:ring-secondary transition-all">
         <Tooltip text={plan.title} openDuration={1500}>
@@ -65,6 +65,6 @@ export default function LessonPlanCard({ plan }) {
           iconClassName="text-blue-700"
         />
       </div>
-    </div>
+    </Link>
   );
 }

@@ -85,10 +85,10 @@ export default function Modal({ children, onClose }) {
               aria-modal="true"
               className="relative bg-white border border-black rounded-lg p-4 shadow-xl w-full 
               mb-2
-              min-w-[90vw] 
+              min-w-[85vw] 
               max-w-[92vw] max-h-[90vh]
 
-              md:min-w-[95vw] md:min-h-[80vh]
+              md:min-w-[90vw] md:min-h-[80vh]
               md:max-w-[95vw] md:max-h-[86vh]
 
                               lg:min-h-[80vh]
