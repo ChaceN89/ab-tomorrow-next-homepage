@@ -49,6 +49,7 @@ export const Subject = {
   FINE_ARTS: "Fine Arts",
   SPECIAL_PROJECTS: "Special Projects",
   LOCALLY_DEVELOPED_COURSE: "Locally Developed Course",
+  INDIGENOUS_STUDIES: "Indigenous Studies",
   OTHER: "Other"
 }
 
