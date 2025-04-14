@@ -13,15 +13,18 @@
 
 import React, { useEffect } from "react";
 import toast from "react-hot-toast";
-import { newsItems } from "../../data/page-data/newsData";
+import { newsItems } from "../../data/newsData";
 import { FaTimes } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link"; // Add this to the top of your file if not already there
+
+
 
 export default function NewsPopup() {
   // timing settings
   const startDelay = 5000;     // Delay before first toast starts 
-  const toastDelay = 6000;     // Delay between each toast
-  const toastDuration = 14000; // Duration of each toast
+  const toastDelay = 11000;     // Delay between each toast
+  const toastDuration = 9000; // Duration of each toast
 
   useEffect(() => {
     setTimeout(() => {
@@ -39,15 +42,13 @@ export default function NewsPopup() {
                 <p className="text-sm">{item.description}</p>
 
                 {item.link ? (
-                  <a
+                  <Link
                     href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="text-blue-200 underline text-sm"
                     onClick={() => toast.dismiss(t.id)}
                   >
-                    Read More →
-                  </a>
+                    See More →
+                  </Link>
                 ) : item.scrollLink ? (
                   <ScrollLink
                     to={item.scrollLink}
@@ -59,7 +60,18 @@ export default function NewsPopup() {
                   >
                     Jump to Section →
                   </ScrollLink>
+                ) : item.href ? (
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-200 underline text-sm"
+                    onClick={() => toast.dismiss(t.id)}
+                  >
+                    Read More →
+                  </a>
                 ) : null}
+
 
                 <button
                   onClick={() => toast.dismiss(t.id)}

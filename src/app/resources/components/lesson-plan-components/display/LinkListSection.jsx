@@ -8,10 +8,14 @@
  * @props {React.ElementType} icon - Icon component to display next to each link
  */
 
-import React from "react";
-
 export default function LinkListSection({ title, items = [], iconClassName, icon: Icon }) {
   if (!items?.length) return null;
+
+  const onLinkClick = (e, url) => {
+    e.stopPropagation();
+    e.preventDefault();
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
 
   return (
     <div className="mt-2">
@@ -19,15 +23,13 @@ export default function LinkListSection({ title, items = [], iconClassName, icon
       <ul className="text-xs text-blue-700 mt-1 space-y-1">
         {items.map((item, idx) => (
           <li key={idx}>
-            <a
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline flex gap-1 items-center"
-              onClick={(e) => e.stopPropagation()} // Prevent parent click event
+            <button
+              type="button"
+              onClick={(e) => onLinkClick(e, item.link)}
+              className="hover:underline flex gap-1 items-center text-left hover:cursor-pointer"
             >
-              {Icon && <Icon className={ `shrink-0 ${iconClassName}`} />} {item.title}
-            </a>
+              {Icon && <Icon className={`shrink-0 ${iconClassName}`} />} {item.title}
+            </button>
           </li>
         ))}
       </ul>

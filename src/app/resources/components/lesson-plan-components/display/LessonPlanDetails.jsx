@@ -23,10 +23,10 @@ export default function LessonPlanDetails({ plan }) {
 
           <FaClipboardList className="text-primary text-4xl flex-shrink-0" />
           <div className="space-y-4 ">
-          <h2 className="text-2xl font-bold">{plan.title}</h2>
-          <div className="flex items-center gap-2 text-gray-500">
+            <div className="flex items-center gap-2" >
+              <h2 className="text-2xl font-bold">{plan.title}</h2>
               <FaRegClock className="text-gray-500 text-2xl flex-shrink-0" />
-              <span className="text-gray-500 ">{plan.approximateTime}</span>
+              <span className="text-gray-500 flex-1 ">{plan.approximateTime}</span>
             </div>
             <p className="text-sm text-gray-700">{plan.description}</p>
           </div>
