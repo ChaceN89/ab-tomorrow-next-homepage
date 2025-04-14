@@ -89,7 +89,7 @@ export const guardiansOfTheIceVideos = [
   },
   { // video 6 - Is it important glaciers are in the national park?
     title: "Is it important glaciers are in the national park?",
-    id: "goi-06g-is-it-important-glaciers-are-in-the",
+    id: "goi-06g-is-it-important-glaciers-are-in-the-national-park",
     description: "Listen to Peter Lemieux discuss why it's important to have glaciers protected in National Parks.",
     category: VideoCategory.ICE_SERIES,
     tools: [AssociatedTool.SIMULATOR],

@@ -34,9 +34,7 @@ import SlideTransition from "../animations/SlideTransition";
 export default function Modal({ children, onClose }) {
   const modalRef = useRef(null);
 
-
   const [isVisible, setIsVisible] = useState(true); // Modal visibility state
-
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -86,13 +84,14 @@ export default function Modal({ children, onClose }) {
               className="relative bg-white border border-black rounded-lg p-4 shadow-xl w-full 
               mb-2
               min-w-[85vw] 
-              max-w-[92vw] max-h-[90vh]
+              max-w-[94vw] max-h-[94vh]
 
-              md:min-w-[90vw] md:min-h-[80vh]
-              md:max-w-[95vw] md:max-h-[86vh]
+              md:min-w-[85vw] md:min-h-[80vh]
+              md:max-w-[92vw] md:max-h-[89vh]
 
-                              lg:min-h-[80vh]
-                              lg:max-h-[90vh]
+                              lg:min-h-[90vh]
+                              lg:max-h-[93vh]
+                              
                overflow-y-auto custom-scrollbar
               "
             >
@@ -100,7 +99,7 @@ export default function Modal({ children, onClose }) {
                 onClick={handleClose}
                 aria-label="Close modal"
                 className="absolute top-2 right-2 text-secondary hover:text-accent hover:cursor-pointer"
-              >
+                >
                 <FaTimes size={22} />
               </button>
               {children}

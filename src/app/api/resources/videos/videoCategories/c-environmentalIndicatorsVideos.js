@@ -87,7 +87,7 @@ export const environmentalIndicatorsVideos = [
     hashtags: ["abwater", "waterquality", "eutrophication", "landuse"]
   },
   { // video 6 - Greenhouse Gasses
-    id: "env-06c-greenhouse-gases",
+    id: "env-06c-greenhouse-gasses",
     title: "Greenhouse Gasses",
     description: 
       "Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can cut emissions.",

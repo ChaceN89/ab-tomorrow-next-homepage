@@ -27,7 +27,7 @@ import React, { useEffect, useState } from 'react';
 import { useVideoResource } from '../VideoResourceContext';
 import Video from './Video';
 
-export default function ModalVideo({ id }) {
+export default function ModalVideo({ id, preventExpand = true }) {
   const { videos } = useVideoResource();
   const [video, setVideo] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -75,7 +75,7 @@ export default function ModalVideo({ id }) {
 
   return(
     <div className="flex flex-col gap-2 h-full w-full">
-      <Video video={video} noExpand/>
+      <Video video={video} noExpand={preventExpand}/>
     </div>
   )
 

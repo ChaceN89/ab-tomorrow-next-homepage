@@ -24,11 +24,13 @@
  * 
  */
 
+import { ClimateLessons } from "./lessonThemes/a-climateChangeLessons";
 import { GlaciersAndWatershedsLessons } from "./lessonThemes/b-glaciersAndWatershedsLessons";
 import { NaturalRegions360Lessons } from "./lessonThemes/f-naturalRegions360Lessons";
 
 // ======= Aggregated lessons =======
 export const allLessons = [
-  ...GlaciersAndWatershedsLessons, // 5 lesssons
-  ...NaturalRegions360Lessons // 3 lessons
+  // ...GlaciersAndWatershedsLessons, // 5 lesssons
+  // ...NaturalRegions360Lessons, // 3 lessons
+  ...ClimateLessons, // 5 lessons
 ];

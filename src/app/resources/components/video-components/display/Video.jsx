@@ -48,7 +48,7 @@ export default function Video({video, noExpand = false}) {
         {!noExpand &&
           <Link 
             scroll={false} 
-            href={`/resources/videos?video=${video.id}`} 
+            href={`?video=${video.id}`} 
             className=" absolute bottom-1 right-2"
           >
             <FaExpandArrowsAlt className="text-secondary hover:scale-105 hover:text-accent" />

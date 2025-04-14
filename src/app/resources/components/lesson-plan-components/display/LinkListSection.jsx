@@ -19,7 +19,7 @@ export default function LinkListSection({ title, items = [], iconClassName, icon
 
   return (
     <div className="mt-2">
-      <div className="text-sm font-semibold">{title}</div>
+      <div className="text font-semibold">{title}</div>
       <ul className="text-xs text-blue-700 mt-1 space-y-1">
         {items.map((item, idx) => (
           <li key={idx}>

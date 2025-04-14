@@ -28,8 +28,10 @@ export default function TagList({ label, items = [], pillClass = "" }) {
 
   if (!items.length) return null;
 
-  const visibleItems = expanded ? items : items.slice(0, 15);
-  const hiddenCount = items.length - 15;
+  const numberOVisiblefItems = 20;
+
+  const visibleItems = expanded ? items : items.slice(0, numberOVisiblefItems);
+  const hiddenCount = items.length - numberOVisiblefItems;
 
   return (
     <div className="text-xs text-gray-500 flex flex-wrap gap-1 mt-1">
