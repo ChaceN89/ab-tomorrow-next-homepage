@@ -29,7 +29,7 @@ export default function NotFound() {
           </h2>
 
           <p className="text-lg opacity-80 max-w-xl">
-            The page you’re looking for doesn’t exist or might’ve moved.
+            The page or resource you’re looking for doesn’t exist or might’ve moved.
             But no worries — let’s get you back on track.
           </p>
           <div className='w-full flex items-center justify-center'>

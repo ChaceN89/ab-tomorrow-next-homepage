@@ -22,13 +22,17 @@ export default function LessonPlanDetails({ plan }) {
         <div className="p-4 flex items-start gap-2">
 
           <FaClipboardList className="text-primary text-4xl flex-shrink-0" />
-          <div className="space-y-4 ">
-            <div className="flex items-center gap-2" >
-              <h2 className="text-2xl font-bold">{plan.title}</h2>
-              <FaRegClock className="text-gray-500 text-2xl flex-shrink-0" />
-              <span className="text-gray-500 flex-1 ">{plan.approximateTime}</span>
+          <div className="space-y-2">
+          <div className="flex items-center justify-between gap-2">
+              <h2 className="text-2xl font-bold ">{plan.title}</h2>
+
+              <div className="flex items-center justify-end gap-1 min-w-[7rem] ">
+                <FaRegClock className="text-gray-700 text-lg flex-shrink-0" />
+                <span className="text-gray-700">{plan.approximateTime}</span>
+              </div>
             </div>
-            <p className="text-sm text-gray-700">{plan.description}</p>
+            <div className="italic text-sm">"{plan.theme}"</div>
+            <p className="text text-gray-700">{plan.description}</p>
           </div>
         </div>
       </div>
@@ -42,8 +46,6 @@ export default function LessonPlanDetails({ plan }) {
           icon={FaFilePdf}
           iconClassName="text-red-600"
         />
-
-
         <div className="row-span-2">
           {/* Loop through plan.learningOutcomes */}
           <h3 className="text-lg font-bold mb-2">Learning Outcomes</h3>
@@ -56,20 +58,18 @@ export default function LessonPlanDetails({ plan }) {
           </ul>
         </div>
 
-                {/* External Links */}
+        {/* External Links */}
         <LinkListSection
           title="Related Links"
           items={plan.relatedUrls}
           icon={FaLink}
           iconClassName="text-blue-700"
         />
-
-     
+    
       </div>
 
       {/* Tag Pills */}
       <div className="space-y-2 flex flex-col sm:grid  sm:grid-cols-3 gap-4 items-start">
-
         <TagList label="Grades" items={plan.grades} pillClass="bg-gray-100 border border-gray-300 text-gray-700" />
         <TagList label="Subjects" items={plan.subjects} pillClass="bg-blue-100 border border-blue-300 text-blue-700" />
         <TagList label="Tools" items={plan.tools} pillClass="bg-green-100 border border-green-300 text-green-700" />

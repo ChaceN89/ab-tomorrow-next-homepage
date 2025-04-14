@@ -9,7 +9,7 @@
 "use client";
 
 import React from "react";
-import { FaFilePdf, FaLink, FaClipboardList, FaRegClock } from "react-icons/fa";
+import { FaFilePdf, FaLink, FaClipboardList, FaRegClock, FaVideo } from "react-icons/fa";
 import TagList from "./TagList";
 import Tooltip from "@/components/media/Tooltip";
 import LinkListSection from "./LinkListSection";
@@ -44,7 +44,6 @@ export default function LessonPlanCard({ plan }) {
 
         <p className="text-sm text-gray-700 line-clamp-3  border-b pb-1">{plan.description}</p>
         
-
         <TagList label="Grades" items={plan.grades} pillClass="bg-gray-100 border border-gray-300 text-gray-700" />
         <TagList label="Subjects" items={plan.subjects} pillClass="bg-blue-100 border border-blue-300 text-blue-700" />
 
@@ -62,6 +61,13 @@ export default function LessonPlanCard({ plan }) {
           icon={FaLink}
           iconClassName="text-blue-700"
         />
+
+        {plan.videos && plan.videos.length > 0 && (
+          <div className=" mt-2 w-fit text-sm  p-2 text font-semibold flex items-center gap-1  border-black bg-gray-300 rounded-xl">
+            <FaVideo/>
+            {plan.videos.length} videos
+            </div>
+        )}
       </div>
     </Link>
   );
