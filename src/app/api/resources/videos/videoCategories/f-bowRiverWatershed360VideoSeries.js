@@ -155,7 +155,7 @@ export const bowRiverWatershed360VideoSeries = [
       { title: "Aquifers", link: "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O" },
     ],
     media: {
-      url: "https://d2qcvmovr4fv.cloudfront.net/out/v1/0acc6dd386ae4331bf1388181d2511dc/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      url: "https://www.youtube.com/watch?v=3wvA7macCMM",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_2_elbow_river_watershed_partnership_aquifers.png",
       is360: true,
       locations: [
