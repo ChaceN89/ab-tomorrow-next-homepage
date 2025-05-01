@@ -22,6 +22,7 @@ This is the homepage for **Alberta Tomorrow**, an educational initiative that in
 - [🗂 Source Code Notes](#🗂-source-code-notes)
 - [📊 Google Analytics Integration](#📊-google-analytics-integration)
 - [🚧 Future Plans](#🚧-future-plans)
+- [👤 Author & Contact](#👤-author--contact)
 
 <br>
 
@@ -243,3 +244,12 @@ trackEvent('Button', 'Click', 'DonateButton', 1);
 ## 🚧 Future Plans
 - Integrate **Energy Tomorrow** and **Wildlife Tomorrow**
 - Improve the API and Associate it better with the current AWS API setup for the Landuse Simulator
+
+
+## 👤 Author & Contact
+
+Developed and maintained by **Chace Nielson**  
+📞 Phone: `403-992-50676`  
+📧 Email: [chacenielson@gmail.com](mailto:chacenielson@gmail.com)
+
+Feel free to reach out for questions, collaboration, or feedback!
