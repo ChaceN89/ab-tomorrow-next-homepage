@@ -73,7 +73,7 @@ export default function LinkItem({
       {href && (
         <a
           href={href}
-          onClick={() => trackEvent('Link', 'Click', `External Link: ${href}`, 1)} // Track external link click with Google Analytics
+          onClick={() => trackEvent('LinkItem', 'Click', `External Link: ${href}`, 1)} // Track external link click with Google Analytics
           target="_blank"
           rel="noopener noreferrer"
           className={className}
