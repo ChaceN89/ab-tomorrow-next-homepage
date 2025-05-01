@@ -41,6 +41,7 @@
 // links and styles
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
+import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
 import "./HexButton.styles.css";
 
 export default function HexButton({
@@ -53,6 +54,8 @@ export default function HexButton({
   asLink = false,
   scrollTo = false,
 }) {
+
+  const { trackEvent } = useGoogleAnalytics();
 
   // Default values for the button based on the color prop
   const wrapperStyle = {
@@ -70,6 +73,21 @@ export default function HexButton({
     style: wrapperStyle,
   };
 
+  const getChildLabel = (children) => {
+    if (typeof children === 'string') return children;
+    if (typeof children === 'number') return String(children);
+    if (Array.isArray(children)) return children.map(getChildLabel).join(' ').trim();
+  
+    // Try to use .props.children if it's a single JSX element with text
+    if (React.isValidElement(children)) {
+      if (typeof children.props?.children === 'string') {
+        return children.props.children;
+      }
+    }
+  
+    return 'Unknown Label';
+  };
+
   return (
     <div className="hex-button-container group max-w-xs sm:max-w-sm">
       {scrollTo ? (
@@ -81,7 +99,12 @@ export default function HexButton({
           {children}
         </Link>
       ) : (
-        <a href={link} target="_blank" rel="noopener noreferrer" {...commonProps}>
+        <a 
+          href={link} 
+          onClick={() => trackEvent('HexButtonLink', 'Click', `External Link: ${link} | ${getChildLabel(children)}`, 1)}
+          target="_blank" 
+          rel="noopener noreferrer" 
+          {...commonProps}>
           {children}
         </a>
       )}

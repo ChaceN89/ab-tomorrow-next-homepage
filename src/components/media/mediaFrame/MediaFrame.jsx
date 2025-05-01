@@ -42,6 +42,8 @@ import PlayButton from "./PlayButton";
 // Utility functions for pausing other videos and unmounting the YouTube player
 import { pauseOtherVideos, unmountYouTubePlayer } from "./youtubePlayerUtils";
 
+import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
+
 export default function MediaFrame({
   type = "image",
   imgSrc = "",
@@ -60,6 +62,7 @@ export default function MediaFrame({
     threshold: 0.2,        // 20% of the component must be visible
   });
 
+  const { trackEvent } = useGoogleAnalytics();
   
   // see if the vide can start being loaded
   const [canStartVidLoad, setCanStartVidLoad] = useState(preload)
@@ -94,6 +97,8 @@ export default function MediaFrame({
   // Play the video from the thumbnail click event
   const playVideo = () => {
     if (type !== "video") return;
+
+    trackEvent("MediaFrame", "Play", `Video Started: ${videoSrc}`);
   
     // Trigger the YouTube render
     if (!canStartVidLoad) setCanStartVidLoad(true);

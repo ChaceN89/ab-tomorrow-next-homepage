@@ -26,11 +26,18 @@ import { FaExpandArrowsAlt } from "react-icons/fa";
 // components
 import MediaFrame from "@/components/media/mediaFrame/MediaFrame";
 import Link from "next/link";
+import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
 
-export default function Video({video, noExpand = false}) {
+export default function VideoCard({video, noExpand = false}) {
+  const { trackEvent } = useGoogleAnalytics();
 
   return (
-    <div  key={video.id} className="flex flex-col  h-full justify-end gap-2">
+    <div  
+      onClick={() =>
+        trackEvent("VideoCard", "Click", `Opened: ${video.title} | id: ${video.id}`, 1)
+      }     
+      key={video.id} className="flex flex-col  h-full justify-end gap-2"
+    >
 
       <div className="flex flex-col justify-start text-start px-1">
         <h3 className="text-lg font-semibold text-black">{video.title}</h3>

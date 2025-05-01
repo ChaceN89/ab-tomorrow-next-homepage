@@ -16,6 +16,7 @@
 import React from 'react'
 import { Link as ScrollLink, scroller } from 'react-scroll'
 import { usePathname, useRouter } from 'next/navigation'
+import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
 
 export default function LinkItem({
   href,
@@ -29,7 +30,9 @@ export default function LinkItem({
   const pathname = usePathname()
   const routerNav = useRouter()
   const isHomePage = pathname === '/'
+  const { trackEvent } = useGoogleAnalytics();
 
+  // Function to handle internal routing and scrolling
   const handleClick = (e) => {
     e.preventDefault()
 
@@ -70,6 +73,7 @@ export default function LinkItem({
       {href && (
         <a
           href={href}
+          onClick={() => trackEvent('Link', 'Click', `External Link: ${href}`, 1)} // Track external link click with Google Analytics
           target="_blank"
           rel="noopener noreferrer"
           className={className}

@@ -25,7 +25,7 @@
  */
 import React, { useEffect, useState } from 'react';
 import { useVideoResource } from '../VideoResourceContext';
-import Video from './Video';
+import Video from './VideoCard';
 
 export default function ModalVideo({ id, preventExpand = true }) {
   const { videos } = useVideoResource();

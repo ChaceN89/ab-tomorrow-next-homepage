@@ -15,8 +15,11 @@ import Tooltip from "@/components/media/Tooltip";
 import LinkListSection from "./LinkListSection";
 import Link from "next/link";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
+import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
+
 
 export default function LessonPlanCard({ plan }) {
+  const { trackEvent } = useGoogleAnalytics();
 
   return (
     <Link
@@ -24,7 +27,13 @@ export default function LessonPlanCard({ plan }) {
       scroll={false}
       className="block h-full"
     >
-      <div className="flex flex-col h-full justify-start gap-2 bg-gray-50 shadow-lg rounded-lg p-3 border border-black/20 hover:ring-2 hover:ring-secondary transition-all">
+      <div 
+        onClick={() =>
+          trackEvent("LessonPlanCard", "Click", `Opened: ${plan.title} | id: ${plan.id}`, 1)
+        }        
+        className="flex flex-col h-full justify-start gap-2 bg-gray-50 shadow-lg rounded-lg 
+                    p-3 border border-black/20 hover:ring-2 hover:ring-secondary transition-all"
+      >
         <Tooltip text={plan.title} openDuration={500}>
           <div className=" border rounded-md  bg-gray-50 relative overflow-hidden">
             <HexSeparator rows={40} hexClass="bg-primary/15"/>

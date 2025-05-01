@@ -13,7 +13,7 @@ import { Element } from "react-scroll";
 
 // components
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
-import Video from "./Video";
+import VideoCard from "./VideoCard";
 
 export default function VideoCategory({ category, videos = [] }) {
   if (!videos.length) return null;
@@ -29,7 +29,7 @@ export default function VideoCategory({ category, videos = [] }) {
 
         <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-3  gap-4 my-4 ">
           {videos.map((video) => (
-            <Video video={video} key={video.id} />
+            <VideoCard video={video} key={video.id} />
           ))}
         </div>
       </div>
