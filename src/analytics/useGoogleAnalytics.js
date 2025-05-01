@@ -75,7 +75,6 @@ const useGoogleAnalytics = () => {
   // value - the value of the event (ex - 1)
   // ex - trackEvent('Button', 'Click', 'DonateButton', 1)
   const trackEvent = (category, action, label, value) => {
-    console.log("Tracking event:", { category, action, label, value })
     ReactGA.event({ category, action, label, value })
   }
 

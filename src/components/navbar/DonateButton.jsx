@@ -30,14 +30,8 @@
 import React from 'react'
 import LinkItem from './LinkItem'
 import { donateInfo } from '../../data/navData'
-import useGoogleAnalytics from '@/analytics/useGoogleAnalytics'
 
 export default function DonateButton({ footer = false }) {
-  const { trackEvent } = useGoogleAnalytics()
-
-  const handleClick = () => {
-    trackEvent('Button', 'Click', footer ? 'DonateButtonFooter' : 'DonateButtonNav', 1)
-  }
 
   return (
     <LinkItem
@@ -47,7 +41,6 @@ export default function DonateButton({ footer = false }) {
          rounded-lg bg-primary hover:bg-primary-alt text-white font-semibold 
          transition inline-flex items-center justify-center`
       }
-      onClick={handleClick}
     >
       {footer ? donateInfo.altTitle : donateInfo.title}
     </LinkItem>
