@@ -1,0 +1,1980 @@
+[
+  {
+    "id": "glaciers-01b-intro-to-glaciers",
+    "title": "Introduction to Glaciers",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Glaciers/Watersheds",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this lesson students will be introduced to the glaciers of Alberta, glacier terminology, meet a glaciologist from the University of Alberta and identify the effects of human activity on glaciers.",
+    "approximateTime": "40 min",
+    "files": [
+      {
+        "title": "Glaciers in Alberta",
+        "description": "A slide show about glaciers in Alberta.",
+        "link": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/view#slide=id.p"
+      }
+    ],
+    "grades": [
+      "Grade 5",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "Wetland Ecosystems",
+      "Interactions and Ecosystems",
+      "Freshwater and Satlwater Systems",
+      "Environmental Chemistry",
+      "Energy Flow in Global System",
+      "Energy and Matter in the Biosphere",
+      "Investigating Matter and Energy",
+      "Biology 20",
+      "Science 14",
+      "water",
+      "wetland",
+      "glaciers",
+      "human activity",
+      "terminology"
+    ],
+    "learningOutcomes": [
+      "develop an understanding of what glaciologist do",
+      "identify glacier location in Alberta",
+      "be introduced to glacier vocabulary",
+      "learn what Dr. Ali Criscitiello does at the Ice Core Lab",
+      "identify the effects of human activity on glaciers"
+    ],
+    "videos": [
+      "goi-20g-this-is-the-athabasca-glacier",
+      "goi-10g-where-do-glaciers-form",
+      "goi-16g-how-glaciers-move",
+      "goi-02g-colour-of-the-ice",
+      "goi-07g-seasonal-change-on-the-glacier",
+      "goi-09g-what-is-a-moraine",
+      "goi-42g-how-big-is-the-athabasca-glacier",
+      "goi-04g-how-crevasses-form",
+      "goi-08g-striations-on-the-rocks",
+      "goi-01g-are-people-affecting-the-glaciers",
+      "goi-24g-growth-and-attrition",
+      "goi-19g-why-should-we-protect-glaciers"
+    ],
+    "relatedUrls": [
+      {
+        "title": "U of A Ice Core Lab",
+        "link": "https://www.ualberta.ca/science/research-and-teaching/research/ice-core-archive/index.html"
+      }
+    ]
+  },
+  {
+    "id": "glaciers-02b-love-it-or-lose-it",
+    "title": "Love it or Lose It: Alberta Glacier Edition",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Glaciers/Watersheds",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students investigate the location of glaciers in Alberta and observe how they have changed over time. Students learn about how climate change is affecting our glaciers and come up with an action plan to help prevent the further loss of our glaciers.",
+    "approximateTime": "30 min plus project time",
+    "files": [
+      {
+        "title": "Love it or Lose it: Alberta Glacier Edition",
+        "description": "",
+        "link": "/pdfs/lesson-plans/glaciersAndWatersheds/Love_it_or_Lose_it__Alberta_Glacier_Edition.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 7",
+      "Grade 8",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Social Studies",
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "A Sense of the Land",
+      "Physical Geography of Canada",
+      "Wetland Ecosystems",
+      "Interactions and Ecosystems",
+      "Freshwater and Satlwater Systems",
+      "Energy Flow in Global System",
+      "Energy and Matter Exchange",
+      "Grade 10 Science",
+      "Biology 20",
+      "glaciers",
+      "climate change",
+      "action plan",
+      "personal actions",
+      "glacier loss"
+    ],
+    "learningOutcomes": [
+      "identify glacier location in Alberta",
+      "observe change in the glaciers over time",
+      "Investigate how climate change is affecting the Alberta’s Glaciers",
+      "be challenged to develop an action plan of how they can help prevent further loss of the glaciers"
+    ],
+    "videos": [
+      "goi-43g-every-year-its-further-to-get-to-work",
+      "goi-14g-where-will-the-glacier-be-in-30-years",
+      "goi-24g-growth-and-attrition",
+      "goi-13g-where-was-the-glacier-in-1982",
+      "goi-12g-where-was-the-athabasca-glacier-in-2006",
+      "goi-19g-why-should-we-protect-glaciers",
+      "goi-01g-are-people-affecting-the-glaciers",
+      "goi-33g-what-can-we-do-to-protect-alberta"
+    ],
+    "relatedUrls": [
+      {
+        "title": "Mountain Legacy Project",
+        "link": "http://mountainlegacy.ca/"
+      },
+      {
+        "title": "Guardians of the Ice",
+        "link": "https://guardiansoftheice.com/the-columbia-icefield/"
+      }
+    ]
+  },
+  {
+    "id": "glaciers-03b-ice-core-basics",
+    "title": "Ice Core Basics",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Glaciers/Watersheds",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "The students will watch videos of a glaciologist talking about how she analyzes the ice cores she collects from glaciers.",
+    "approximateTime": "30 min",
+    "files": [
+      {
+        "title": "Ice Core Basics",
+        "description": "",
+        "link": "/pdfs/lesson-plans/glaciersAndWatersheds/IceCoreBasics.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 5",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "Wetlands",
+      "Interactions and Ecosystems",
+      "Freshwater and Saltwater Systems",
+      "Environmental Chemistry",
+      "Energy Flow in Global Systems",
+      "Energy and Matter in Chemical Change",
+      "Energy and Matter in the Biosphere",
+      "Chemical Changes",
+      "Matter and Energy",
+      "Biology 20",
+      "Science 14",
+      "oxygen isotopes",
+      "climate change",
+      "glaciers",
+      "water quality",
+      "persistent chemicals",
+      "cfc's"
+    ],
+    "learningOutcomes": [
+      "understand what we can learn from ice core analysis"
+    ],
+    "videos": [
+      "oth-01z-oxygen-isotopes",
+      "soc-06d-water-consumption",
+      "env-05c-water-quality",
+      "goi-30g-what-is-the-picarro-machine",
+      "goi-28g-measuring-isotopes",
+      "goi-27g-ion-chromatrography",
+      "goi-26g-how-do-chemicals-that-were-trapped",
+      "goi-21g-endocrine-disruptors"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "glaciers-04b-follow-the-flow",
+    "title": "Follow the Flow: Water Quality and the Columbia Icefield",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Glaciers/Watersheds",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students will learn what a watershed is and identify what watershed they live within. Through watching some short video interviews students will understand how climate change is resulting in persistent chemicals, some banned in Canada, are being released into the rivers from which we get our drinking water from.",
+    "approximateTime": "60 min",
+    "files": [
+      {
+        "title": "Follow the Flow",
+        "description": "",
+        "link": "/pdfs/lesson-plans/glaciersAndWatersheds/FollowtheFlow.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 5",
+      "Grade 7",
+      "Grade 8",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12"
+    ],
+    "subjects": [
+      "Social Studies",
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "Science 14",
+      "Biology 20",
+      "Physical Geography of Canada",
+      "Wetlands Ecosystems",
+      "Interactions and Ecosystems",
+      "Freshwater and Saltwater Systems",
+      "Environmental Chemistry",
+      "Energy Flow in Global Systems",
+      "Climate Change",
+      "Persistent Chemicals",
+      "cfcs",
+      "water",
+      "watershed",
+      "glaciers",
+      "water source"
+    ],
+    "learningOutcomes": [
+      "identify their watershed and drainage basin",
+      "find the Columbia Icefield on the map",
+      "define persistent chemicals",
+      "investigate factors that contribute to water quality",
+      "develop an understanding of how climate change will affect the quality and of our drinking water"
+    ],
+    "videos": [
+      "goi-32g-watershed-great-divide",
+      "goi-11g-where-does-water-from-the-snowdome",
+      "goi-26g-how-do-chemicals-that-were-trapped",
+      "goi-29g-persistent-chemicals-in-alberta",
+      "goi-05g-how-do-forest-fires-affect-glaciers"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "glaciers-05b-water-test-procedures",
+    "title": "Water Test Procedures",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Glaciers/Watersheds",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Water test procedures guide.",
+    "approximateTime": "",
+    "files": [
+      {
+        "title": "Water Test Procedures",
+        "description": "",
+        "link": "/pdfs/lesson-plans/glaciersAndWatersheds/WaterTestProcedures.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "Science 14",
+      "Biology 20",
+      "Water",
+      "Water Quality",
+      "Water Consumption",
+      "Glaciers",
+      "Wetlands",
+      "Watershed"
+    ],
+    "learningOutcomes": [],
+    "videos": [],
+    "relatedUrls": []
+  },
+  {
+    "id": "ab360-tours-01-virtual-field-trips-ecoregions",
+    "title": "360 Virtual Field Trips to Alberta's 6 Ecoregions",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "360 Tours of AB Natural Regions",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this scavenger hunt lesson, students will learn about what makes each of Alberta's 6 ecoregions unique—identifying icons for geography, geology, soils, landforms, climate, plants, animals, natural resource use and interesting facts (including species at risk).",
+    "approximateTime": "120 min",
+    "files": [
+      {
+        "title": "Alberta's Ecoregions - 360 Virtual Field Trips Lesson Plan",
+        "description": "",
+        "link": "/pdfs/lesson-plans/naturalRegions360/AlbertasEcoregions-360VirtualFieldTrips.pdf"
+      },
+      {
+        "title": "360 Virtual Tours Scavenger Hunt Student Worksheet",
+        "description": "",
+        "link": "/pdfs/lesson-plans/naturalRegions360/360VirtualToursScavengerHuntStudentWorksheet.pdf"
+      },
+      {
+        "title": "Scavenger Hunt Sheet",
+        "description": "",
+        "link": "/pdfs/lesson-plans/naturalRegions360/360ToursScavengerHuntSheet.pdf"
+      },
+      {
+        "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
+        "description": "",
+        "link": "https://docs.google.com/presentation/d/1cqF8G4yz8O23Jg65PTvcoe-juJLizHjjP8vPkZY1H4k/edit?usp=sharing"
+      },
+      {
+        "title": "Scavenger Hunt Sheet - Fillable Google Slides",
+        "description": "",
+        "link": "https://docs.google.com/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs/edit#slide=id.p"
+      }
+    ],
+    "grades": [
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12"
+    ],
+    "subjects": [
+      "Science",
+      "Social Studies",
+      "Biology",
+      "CTS"
+    ],
+    "tags": [
+      "Animal Life Cycles",
+      "A sense of the land",
+      "Trees and Forests",
+      "Interactions and Ecosystems",
+      "Biological Diversity",
+      "Energy and Flow in Global Systems",
+      "Changes in Living Things",
+      "Wildlife",
+      "Environmental Stewardship",
+      "Resources",
+      "Forestry",
+      "adaptations",
+      "environment",
+      "prairie",
+      "plants",
+      "species at risk",
+      "climate change",
+      "geographic diversity",
+      "ecoregions",
+      "ecozones",
+      "climate",
+      "landforms",
+      "shield",
+      "grassland",
+      "foothills",
+      "boreal forest",
+      "rocky mountains",
+      "geology",
+      "geography",
+      "animals",
+      "logging",
+      "forestry",
+      "environmental issues",
+      "responsible use",
+      "economy",
+      "trees",
+      "aspen",
+      "human impacts",
+      "unintended consequences",
+      "resource use",
+      "ecosystems",
+      "environmental impacts",
+      "interactions",
+      "diveristy",
+      "forests",
+      "parkland",
+      "adaptation",
+      "biomes",
+      "taiga",
+      "habitat descruction",
+      "reclamation",
+      "forest fires",
+      "soils",
+      "landuse",
+      "wildlifer",
+      "forest managment practices",
+      "adaptions",
+      "habitat",
+      "interaction",
+      "structural adaptations",
+      "behavioural adaptations",
+      "forest use"
+    ],
+    "learningOutcomes": [
+      "students will demonstrate an understanding and appreciation of how geography, climate, soils, geology, plants and animals define a natural ecoregion",
+      "Students will identify species and risk in each ecoregion"
+    ],
+    "videos": [
+      "oth-03z-intro-360-virtual-field-trips"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "ab360-tours-02-animal-adaptations",
+    "title": "Animal Adpatations - Using the 360 Virtual Field Trips",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "360 Tours of AB Natural Regions",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this lesson students will explore animals in all 6 ecoregions within Alberta and learn about how they are specially adapted to living there.",
+    "approximateTime": "approximately 2-4 classes",
+    "files": [
+      {
+        "title": "Grade 3 Science Adaptations and the 360 Virtual Field Trips",
+        "description": "",
+        "link": "/pdfs/lesson-plans/naturalRegions360/Grade3ScienceAdaptationsandthe360VirtualFieldTrips.pdf"
+      },
+      {
+        "title": "Animal Adaptations Student Worksheet - Fillable Google Slides",
+        "description": "",
+        "link": "https://docs.google.com/presentation/d/1BcHISVOfng7MYn0MFUiFrYbpL9XYm8x-lCDFQvLPmEY/edit#slide=id.p"
+      }
+    ],
+    "grades": [
+      "Grade 3"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "Animal Life Cycles",
+      "adaptations",
+      "environment",
+      "animals",
+      "adaptation"
+    ],
+    "learningOutcomes": [
+      "Students will learn how animals are adapted to life in each of the 6 natural regions of Alberta"
+    ],
+    "videos": [
+      "oth-03z-intro-360-virtual-field-trips"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "ab360-tours-03-plant-animal-adaptations",
+    "title": "Plant and Animal Adaptations - Using the 360 Virtual Field Trips",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "360 Tours of AB Natural Regions",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this lesson students will explore the plants and animals in all 6 ecoregions within Alberta, learn how they are specially adapted to living there, what human activities affect their survival and which species are at risk in each ecoregion.",
+    "approximateTime": "one 60 min period",
+    "files": [
+      {
+        "title": "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
+        "description": "",
+        "link": "/pdfs/lesson-plans/naturalRegions360/Grade9Scienceandthe360VirtualFieldTrips.pdf"
+      },
+      {
+        "title": "Grade 9 Plant and Animal Adaptations Student Worksheet - Fillable Google Slides",
+        "description": "",
+        "link": "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E/edit#slide=id.p"
+      }
+    ],
+    "grades": [
+      "Grade 9"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "Biological Diversity",
+      "Changes in Living Things",
+      "Wildlife",
+      "environment",
+      "animals",
+      "plants",
+      "species at risk",
+      "ecoregions",
+      "ecozones",
+      "adaptation",
+      "adaptations",
+      "variation",
+      "biodiversity",
+      "structural adaptations",
+      "behavioural adaptations"
+    ],
+    "learningOutcomes": [
+      "students will describe how plants and animals are adapted to life in each natural ecoregion of Alberta",
+      "Students will identify risks to species survival in each ecoregion",
+      "Students will identify species at risk in each region"
+    ],
+    "videos": [
+      "oth-03z-intro-360-virtual-field-trips"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "climate-01a-going-going-gone",
+    "title": "Going Going Going Gone: Climate Change and the Columbia Icefield",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Climate Change",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students will explore how climate change has affected Alberta's glaciers and do some calculations to determine the loss of ice on the Athabasca Glacier.",
+    "approximateTime": "60 min",
+    "files": [
+      {
+        "title": "Going Going Going Gone",
+        "link": "/pdfs/lesson-plans/climateChange/GoingGoingGoingGone.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 7",
+      "Grade 8",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Social Studies",
+      "Science",
+      "Biology",
+      "CTS"
+    ],
+    "tags": [
+      "glaciers",
+      "climate change",
+      "math",
+      "ice loss",
+      "calculations",
+      "water",
+      "Energy Flow in Global Systems",
+      "Environmental Stewardship",
+      "Physical Geography of Canada"
+    ],
+    "learningOutcomes": [
+      "understand seasonal variation in glacier mass",
+      "understand the effect of climate change on glacier mass",
+      "calculate loss of glacier ice on the Athabasca Glacier over the next 10 years",
+      "determine the loss of ice volume in Rocky Mountain Glaciers"
+    ],
+    "videos": [
+      "env-06c-greenhouse-gasses",
+      "landscape-01b-climate-change",
+      "goi-35g-why-are-alberta-glaciers-important",
+      "goi-22g-forest-fires-and-glaciers",
+      "oth-01z-oxygen-isotopes"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "climate-02a-scenarios",
+    "title": "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Climate Change",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students will use the Alberta Tomorrow simulator to investigate different climate change scenarios and see the consequences of different futures and the benefits of using beneficial management practices.",
+    "approximateTime": "",
+    "files": [
+      {
+        "title": "Climate Change in Alberta: Using the Alberta Tomorrow Simulator",
+        "link": "/pdfs/lesson-plans/climateChange/ClimateChangeinAlbertaUsingtheAlbertaTomorrowSimuator.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Social Studies",
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "Science 14",
+      "Biology 20",
+      "A Sense of the Land",
+      "Wetland Ecosystems",
+      "Trees and Forests",
+      "Interactions and Ecosystems",
+      "Freshwater and Saltwater Ecosystems",
+      "Government Decision Making",
+      "Environmental Chemistry",
+      "Globalization",
+      "Energy and Matter in Chemical Change",
+      "The Changing Earth",
+      "Energy and Matter Exchange in the Biosphere",
+      "land use",
+      "wildlife",
+      "climate scenarios",
+      "RCPs",
+      "natural landscapes",
+      "shifting ecosystems",
+      "water quality",
+      "water consumption",
+      "alberta",
+      "economy",
+      "ecosystem services",
+      "beneficial management practices",
+      "business as usual",
+      "ghgs",
+      "climate change",
+      "biotic carbon storage",
+      "forestry",
+      "oil and gas production",
+      "agriculture",
+      "GDP",
+      "human population",
+      "fish health",
+      "future",
+      "land use planning",
+      "historical change",
+      "industrial activity"
+    ],
+    "learningOutcomes": [
+      "Investigate the impact of climate change on Alberta’s precipitation, climate",
+      "Investigate the impact of climate change on Alberta’s natural regions",
+      "Investigate the impact of climate change on our environment and economy"
+    ],
+    "videos": [
+      "landscape-01b-climate-change"
+    ],
+    "relatedUrls": [
+      {
+        "title": "Climate Change in Alberta",
+        "link": "https://www.alberta.ca/climate-change-alberta.aspx"
+      }
+    ]
+  },
+  {
+    "id": "climate-03a-water-quality-glaciers",
+    "title": "Water Quality, Climate Change and Alberta's Glaciers",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Climate Change",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "This lesson plan accompanies the webinar recording found under the video section. The webinar was held on May 27, 2020 and features four prominent scientists discussing climate change, glacier melt, water policy, and water quality in Alberta.",
+    "approximateTime": "180 min",
+    "files": [
+      {
+        "title": "Water Quality, Climate Change and Alberta’s Glaciers",
+        "link": "/pdfs/lesson-plans/climateChange/WaterQualityClimateChangeandAlbertasGlaciers.pdf"
+      },
+      {
+        "title": "Webinar Worksheet",
+        "link": "/pdfs/lesson-plans/climateChange/WaterQualityClimateChangeandAlbertasGlaciersStudentWorksheet.pdf"
+      },
+      {
+        "title": "Glaciers in Alberta (Google Slides)",
+        "link": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=sharing"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Social Studies"
+    ],
+    "tags": [
+      "water",
+      "water quality",
+      "water consumption",
+      "glaciers",
+      "glacier melt",
+      "climate change",
+      "ice coring",
+      "forest fires",
+      "water policy",
+      "persistent chemicals",
+      "cfcs",
+      "ddt",
+      "albedo"
+    ],
+    "learningOutcomes": [
+      "learn about water quality in Alberta",
+      "identify what watershed you live within",
+      "understand basic glacier terminology",
+      "describe the effect of climate change on Alberta’s glaciers",
+      "be introduced to the impact of forest fires on glaciers",
+      "become aware of the importance of water policy in dealing with the effects of climate change",
+      "consider the impact of our activities on climate change and Alberta’s glaciers"
+    ],
+    "videos": [
+      "landscape-04b-glaciers-webinar"
+    ],
+    "relatedUrls": [
+      {
+        "title": "Guardians of the Ice",
+        "link": "https://guardiansoftheice.com/the-columbia-icefield/"
+      }
+    ]
+  },
+  {
+    "id": "indigenous-01e-where-is-my-home",
+    "title": "Where is my Home? Using the Indigenous Map Overlays",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Indigenous Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "A step-by-step lesson plan to using the Indigenous Map Overlays.",
+    "approximateTime": "60 min",
+    "files": [
+      {
+        "title": "Where is my Home? Using the Indigenous Map Layers",
+        "link": "/pdfs/lesson-plans/indigenousVoices/WhereIsMyHomeUsingTheIndigenousMapLayers.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12"
+    ],
+    "subjects": [
+      "Social Studies",
+      "Science"
+    ],
+    "tags": [
+      "Residential Schools",
+      "Traditional Territories",
+      "Treatie Areas",
+      "Indigenous",
+      "Traditional Languages",
+      "Reserves",
+      "Metis Regions"
+    ],
+    "learningOutcomes": [
+      "Students will locate their home, school and community on the satellite imagery using the Indigenous map layers, see their location in relation to treaty area, indigenous territory, traditional languages, reserves and settlements, metis regions, residential school locations",
+      "compare sizes of indigenous territories to reserves and settlements"
+    ],
+    "videos": [],
+    "relatedUrls": []
+  },
+  {
+    "id": "indigenous-02e-exploring-collective-rights",
+    "title": "Exploring Collective Rights Using the Indigenous Voices Module in Alberta Tomorrow",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Indigenous Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "A lesson plan where students learn about Indigenous Rights and Treaty 7, and explore the geography of Indigenous peoples in Alberta through the Alberta Tomorrow Indigenous Voices Module.",
+    "approximateTime": "180 min",
+    "files": [
+      {
+        "title": "Exploring Collective Rights Document",
+        "link": "/pdfs/lesson-plans/indigenousVoices/ATSS9IndigenousModuleLessonPlanv6.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 9"
+    ],
+    "subjects": [
+      "Social Studies",
+      "Indigenous Studies"
+    ],
+    "tags": [
+      "Collective Rights",
+      "Treaty 7",
+      "Indigenous Rights",
+      "Canadian Charter of Rights and Freedoms",
+      "Stoney Nakoda",
+      "Residential Schools",
+      "Traditional Territories"
+    ],
+    "learningOutcomes": [
+      "Students will explore the geography of Indigenous peoples in Alberta and learn about the relationship between the Canadian Charter of Rights and Freedoms and Indigenous Rights.",
+      "Students will critically assess how collective rights have impacted Indigenous communities and whether treaty rights are being honored."
+    ],
+    "videos": [],
+    "relatedUrls": []
+  },
+  {
+    "id": "landuse-01c-yesterday-today-tomorrow",
+    "title": "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students will see how the landscape has changed since 1900 as a result of human activity. They will then investigate a business-as-usual future based on past development rates.",
+    "approximateTime": "90 min",
+    "files": [
+      {
+        "title": "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator",
+        "link": "/pdfs/lesson-plans/landUse/YesterdayTodayandTomorrow-UsingtheAlbertaTomorrowSimulator.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Social Studies",
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "land use",
+      "historical change",
+      "ecosystem services",
+      "climate change",
+      "simulator"
+    ],
+    "learningOutcomes": [
+      "Explore the province of Alberta on satellite imagery",
+      "Identify which watershed they live in",
+      "See how the landscape has changed and the effect on environmental indicators",
+      "Explore a projected 'business as usual' scenario"
+    ],
+    "videos": [],
+    "relatedUrls": []
+  },
+  {
+    "id": "landuse-02c-my-future-alberta",
+    "title": "My Future Alberta: Creating a Landuse Plan for 2050",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students use the Alberta Tomorrow simulator to create a land use plan for Alberta’s future.",
+    "approximateTime": "90 min",
+    "files": [
+      {
+        "title": "My Future Alberta: Creating a Landuse Plan for 2050",
+        "link": "/pdfs/lesson-plans/landUse/MyFutureAlbertaCreatingaLandusePlanfor2050.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Social Studies",
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "land use",
+      "future planning",
+      "economy",
+      "ecosystem services"
+    ],
+    "learningOutcomes": [
+      "Create a landuse plan for Alberta’s future"
+    ],
+    "videos": [],
+    "relatedUrls": [
+      {
+        "title": "Alberta Landuse Framework",
+        "link": "https://landuse.alberta.ca/Pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "id": "landuse-03c-biogeochemical-cycles",
+    "title": "How do our Landuse Decisions affect the Biogeochemicals and Cycling of Matter in our Ecosystem?",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students explore the water, carbon, nitrogen, and phosphorus cycles and how landuse disrupts them. They use the simulator to explore scenarios and develop mitigation strategies.",
+    "approximateTime": "180 min",
+    "files": [
+      {
+        "title": "Bio 20 Lesson Plan",
+        "link": "/pdfs/lesson-plans/landUse/ATBio20LessonPlanv6.pdf"
+      },
+      {
+        "title": "Bio 20 Student Worksheet",
+        "link": "/pdfs/lesson-plans/landUse/ATBio20Studentworksheetv6.pdf"
+      },
+      {
+        "title": "Bio 20 Answer Key",
+        "link": "/pdfs/lesson-plans/landUse/ATBio20AnswerKeyv6.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 11"
+    ],
+    "subjects": [
+      "Biology"
+    ],
+    "tags": [
+      "biogeochemical cycles",
+      "nutrients",
+      "eutrophication",
+      "land use planning"
+    ],
+    "learningOutcomes": [
+      "Define biogeochemical cycles",
+      "Investigate nutrient cycles and disruptions",
+      "Explore scenarios using the simulator",
+      "Develop a sustainable landuse plan"
+    ],
+    "videos": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-03c-grizzly-habitat",
+      "env-04c-fish-habitat",
+      "env-05c-water-quality",
+      "env-06c-greenhouse-gasses",
+      "soc-01d-human-population",
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "soc-06d-water-consumption"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "landuse-04c-governments-have-it-rough",
+    "title": "Governments Have it Rough! Can You Make Everyone Happy?",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students assume the role of government planners tasked with balancing the interests of various stakeholders in land-use decisions. Through the simulator, they explore the complexities of policy-making and the challenges of satisfying diverse community needs.",
+    "approximateTime": "120 min",
+    "files": [
+      {
+        "title": "Governments Have it Rough!",
+        "link": "/pdfs/lesson-plans/landUse/ATSS9LessonPlanv6.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 9"
+    ],
+    "subjects": [
+      "Social Studies"
+    ],
+    "tags": [
+      "policy-making",
+      "stakeholder engagement",
+      "land-use planning",
+      "government roles"
+    ],
+    "learningOutcomes": [
+      "Students will learn about the interaction between the economy and environmental indicators",
+      "students will investigate multiple perspectives on appropirate land use",
+      "Students will role play different stakeholders",
+      "Students will develop a landuse plan that would be best for all Albertans"
+    ],
+    "videos": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-03c-grizzly-habitat",
+      "env-04c-fish-habitat",
+      "env-05c-water-quality",
+      "env-06c-greenhouse-gasses",
+      "soc-01d-human-population",
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "soc-06d-water-consumption"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "landuse-05c-did-we-do-that",
+    "title": "Did We Do That? A Study of Alberta's Geography and the Benefits and Drawbacks of Landuse",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Grade 4 students will investigate Alberta's natural ecoregions through a series of educational videos, examining the benefits and drawbacks of different land-use decisions.",
+    "approximateTime": "12 classes",
+    "files": [
+      {
+        "title": "Grade 4 Lesson Plan",
+        "link": "/pdfs/lesson-plans/landUse/ATGrade4lessonplanv6.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4"
+    ],
+    "subjects": [
+      "Social Studies"
+    ],
+    "tags": [
+      "A sense of the Land",
+      "land use",
+      "quality of life",
+      "wildlife",
+      "water quality",
+      "water consumption",
+      "alberta",
+      "economy",
+      "ecosystem services",
+      "beneficial management practices",
+      "business as usual",
+      "ghgs",
+      "climate change",
+      "biotic carbon storage",
+      "forestry",
+      "oil and gas production",
+      "agriculture",
+      "GDP",
+      "human population",
+      "fish health",
+      "future",
+      "land use planning",
+      "historical change",
+      "industrial activity"
+    ],
+    "learningOutcomes": [
+      "Investigate the geography of Alberta",
+      "Examine the benefits and drawbacks of land-use practices"
+    ],
+    "videos": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-03c-grizzly-habitat",
+      "env-04c-fish-habitat",
+      "env-05c-water-quality",
+      "env-06c-greenhouse-gasses",
+      "soc-01d-human-population",
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "soc-06d-water-consumption"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "landuse-06c-did-i-do-that",
+    "title": "Did I Do That? The Relationship Between Humans and Their Environment",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Using the Alberta Tomorrow simulator, students investigate the unintended consequences of human activity on the environment. They are challenged to come up with a future landuse plan for their watershed that balances the economy with the environment.",
+    "approximateTime": "180 min",
+    "files": [
+      {
+        "title": "Science 7 Lesson Plan",
+        "link": "/pdfs/lesson-plans/landUse/ATScience7LessonPlanv6.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 7"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "Interactions and Ecosystems",
+      "land use",
+      "quality of life",
+      "wildlife",
+      "water quality",
+      "water consumption",
+      "alberta",
+      "economy",
+      "ecosystem services",
+      "beneficial management practices",
+      "business as usual",
+      "ghgs",
+      "climate change",
+      "biotic carbon storage",
+      "forestry",
+      "oil and gas production",
+      "agriculture",
+      "GDP",
+      "human population",
+      "fish health",
+      "future",
+      "land use planning",
+      "historical change",
+      "industrial activity"
+    ],
+    "learningOutcomes": [
+      "Investigate past changes on the landscape",
+      "Investigate a possible future",
+      "Create their own landuse plan for the future"
+    ],
+    "videos": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-03c-grizzly-habitat",
+      "env-04c-fish-habitat",
+      "env-05c-water-quality",
+      "env-06c-greenhouse-gasses",
+      "soc-01d-human-population",
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "soc-06d-water-consumption"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "landuse-07c-landuse-field-trip",
+    "title": "Landuse Field Trip",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "This is a self-led guide for teachers to go on a field trip with their class that investigates at least 2 different areas: one more pristine and one affected by landuse (e.g., a city, golf course). The lesson includes student worksheets and water test procedures. Users must supply their own test kits.",
+    "approximateTime": "1/2 day - full day depending on travel time",
+    "files": [
+      {
+        "title": "Land Use Field Trip",
+        "link": "/pdfs/lesson-plans/landUse/ATLandUseFieldTripv6.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "Science 14",
+      "Biology 20",
+      "Physical Geography of Canada",
+      "Wetlands Ecosystems",
+      "Interactions and Ecosystems",
+      "Freshwater and Saltwater Systems",
+      "Environmental Chemistry",
+      "Energy FLow in Global Systems",
+      "Change in Living Systems",
+      "Energy and Matter Exchange ",
+      "Investigating Matter and Enschange in the Biosphere",
+      "Investigating Matter and Energy in the Environment",
+      "Agriculture 1010",
+      "Environmental Stewarship 1110",
+      "Environmental Stewarship 1115",
+      "Environmental Stewarship 3040",
+      "land use",
+      "quality of life",
+      "wildlife",
+      "water quality",
+      "water consumption",
+      "alberta",
+      "economy",
+      "ecosystem services",
+      "beneficial management practices",
+      "business as usual",
+      "ghgs",
+      "climate change",
+      "biotic carbon storage",
+      "forestry",
+      "oil and gas production",
+      "agriculture",
+      "GDP",
+      "human population",
+      "fish health",
+      "future",
+      "land use planning",
+      "historical change",
+      "industrial activity"
+    ],
+    "learningOutcomes": [
+      "Investigate and compare water quality in a relatively pristine area and compare to one that has been affected by landuse"
+    ],
+    "videos": [],
+    "relatedUrls": []
+  },
+  {
+    "id": "landuse-08c-stakeholder-debate",
+    "title": "Stakeholder Debate",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this stakeholder debate, the class is divided into different stakeholder groups. Each group must create a landuse plan that achieves their goals as a company or organization. They present their proposals to the class or government, and in the end, a consensus landuse plan that meets the goals of society is decided upon.",
+    "approximateTime": "4 classes",
+    "files": [
+      {
+        "title": "Stakeholder Debate Lesson Plan",
+        "link": "/pdfs/lesson-plans/landUse/ATStakeholderdebatev6.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Social Studies"
+    ],
+    "tags": [
+      "Science 14",
+      "Biology 20",
+      "A Sense of the Land",
+      "Wetland Ecosystems",
+      "Trees and Forests",
+      "Interactions and Ecosystems",
+      "Freshwater and Saltwater Ecosystems",
+      "Government Decision Making",
+      "Environmenal Chemistry",
+      "Globalization",
+      "Energy and Matter in Chemical Change",
+      "The Changing Earth",
+      "Energy and Matter Exchange in the Biosphere",
+      "land use",
+      "wildlife",
+      "water quality",
+      "water consumption",
+      "alberta",
+      "economy",
+      "ecosystem services",
+      "beneficial management practices",
+      "business as usual",
+      "ghgs",
+      "climate change",
+      "biotic carbon storage",
+      "forestry",
+      "oil and gas production",
+      "agriculture",
+      "GDP",
+      "human population",
+      "fish health",
+      "future",
+      "land use planning",
+      "historical change",
+      "industrial activity"
+    ],
+    "learningOutcomes": [
+      "Students will learn about the interaction between the economy and environmental indicators",
+      "Students will investigate multiple perspectives on appropriate land use",
+      "Students will role play different stakeholders",
+      "Students will develop a landuse plan that would be best for all Albertans"
+    ],
+    "videos": [],
+    "relatedUrls": []
+  },
+  {
+    "id": "landuse-09c-mistakes-mitigations-making-amends",
+    "title": "Mistakes, Mitigations, and Making Amends. A Webinar by CPAWS and Alberta Tomorrow",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Land Use",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "A land based learning webinar presented by Alberta Tomorrow and CPAWS Southern Alberta.",
+    "approximateTime": "1 hour",
+    "files": [
+      {
+        "title": "Land Based Learning Webinar Worksheet",
+        "link": "/pdfs/lesson-plans/landUse/AT_CPAWSWebinarStudentWorksheet.pdf"
+      }
+    ],
+    "grades": [
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12"
+    ],
+    "subjects": [
+      "Science",
+      "Biology",
+      "Other"
+    ],
+    "tags": [
+      "land use",
+      "water quality",
+      "Riparian zones",
+      "indigenous knowledge"
+    ],
+    "learningOutcomes": [],
+    "videos": [],
+    "relatedUrls": []
+  },
+  {
+    "id": "brw-01f-isotopes-and-climate-change",
+    "title": "Isotopes and Climate Change",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "We can track climate changes by looking at what types of isotopes are in the water.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Isotopes and Climate Change - Google Doc",
+        "link": "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
+      }
+    ],
+    "grades": [
+      "Grade 10",
+      "Grade 11",
+      "Grade 12"
+    ],
+    "subjects": [
+      "Science",
+      "Chemistry"
+    ],
+    "tags": [
+      "isotopes",
+      "climate change",
+      "oxygen isotopes",
+      "hydrogen isotopes",
+      "watershed",
+      "environmental change",
+      "water cycle",
+      "streamflow",
+      "Bow River"
+    ],
+    "learningOutcomes": [
+      "Examine the use of isotope tracking",
+      "Investigate the consequences of climate change",
+      "Examine the negative impact of climate change"
+    ],
+    "videos": [],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-02f-glenmore-dam-water-services",
+    "title": "Glenmore Dam and Reservoir: Water Services",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about the movement and management of water within the city of Calgary, along with the history of the Glenmore Resevoir and Dam.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Glenmore Dam and Resevoir: Water Services - Google Doc",
+        "link": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+      }
+    ],
+    "grades": [
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "water treatment",
+      "dam",
+      "resevoir",
+      "drinking water",
+      "water quality",
+      "Calgary",
+      "Glenmore Resevoir",
+      "Glenmore Dam",
+      "water management",
+      "Bow River"
+    ],
+    "learningOutcomes": [],
+    "videos": [
+      "brbc-09f-water-services"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-03f-water-quality-treatment",
+    "title": "Water Quality: Water Treatment",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about the process of cleaning water to meet drinking standards within the City of Calgary.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Water Quality: Water Treatment - Google Doc",
+        "link": "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
+      }
+    ],
+    "grades": [
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "water quality",
+      "water treatment",
+      "Glenmore Resevoir",
+      "pre treatment",
+      "disinfection",
+      "Glenmore Dam",
+      "City of Calgary",
+      "drinking water",
+      "Bow River"
+    ],
+    "learningOutcomes": [
+      "Investigate the stages of water treatment"
+    ],
+    "videos": [
+      "brbc-08f-water-quality"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-04f-constructed-wetlands-stormwater",
+    "title": "Constructed Wetlands and Stormwater",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about stormwater and how wetlands are constructed to manage it.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Constructed Wetlands and Stormwater - Google Doc",
+        "link": "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
+      }
+    ],
+    "grades": [
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "constructed wetlands",
+      "wetlands",
+      "stormwater",
+      "water management",
+      "Bow River"
+    ],
+    "learningOutcomes": [
+      "Examine stormwater functions and the role of wetlands in water management and quality",
+      "Investigate the consequences of resource production, urbanization, and economic growth on wetlands and water quality",
+      "Examine the negative environmental impact of disruption of the watershed as a result of resource use"
+    ],
+    "videos": [
+      "brbc-07f-wetlands-stormwater"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-05f-aquifers",
+    "title": "Aquifers",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about the aquifer and groundwater within the Elbow River sub basin.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Aquifers - Google Doc",
+        "link": "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
+      }
+    ],
+    "grades": [
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "aquifers",
+      "Elbow River",
+      "Bow River",
+      "Groundwater",
+      "water quality",
+      "water usage",
+      "geology",
+      "Bragg Creek"
+    ],
+    "learningOutcomes": [
+      "Examine the landscape and compare them to what the geology below could look like",
+      "Investigate the consequences of resource production, urbanization, and economic growth on aquifers and groundwater"
+    ],
+    "videos": [
+      "brbc-06f-erwp-aquifers"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-06f-the-watershed",
+    "title": "The Watershed",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about how land use changes impact how water moves through the landscape and how that changes our interactions with it.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "The Watershed - Google Doc",
+        "link": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+      }
+    ],
+    "grades": [
+      "Kindergarten",
+      "Grade 1",
+      "Grade 2",
+      "Grade 3"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "watershed",
+      "Bow River",
+      "water",
+      "water cycle"
+    ],
+    "learningOutcomes": [
+      "Examine the land and spaces where water exists",
+      "Investigate the different ways that people can interact with the rivers and water",
+      "Examine the need for water in our lives"
+    ],
+    "videos": [
+      "brbc-01f-watershed"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-07f-hydrology-land-development",
+    "title": "Hydrology and Land Development",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about how land use changes impact how water moves through the landscape and how that changes our interactions with it.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Hydrology and Land Development - Google Doc",
+        "link": "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq/edit"
+      }
+    ],
+    "grades": [
+      "Grade 2",
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "water",
+      "land use",
+      "Bow River",
+      "eutrophication",
+      "water allocation",
+      "water use",
+      "2013 flood"
+    ],
+    "learningOutcomes": [
+      "Examine the watershed and hydrological practices",
+      "Investigate how a watershed functions"
+    ],
+    "videos": [
+      "brbc-05f-hydro-dev"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-08f-watersheds-hydrology",
+    "title": "Watersheds and Hydrology",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about the basic functions of a watershed, and the hydrology that is involved.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Watersheds and Hydrology - Google Doc",
+        "link": "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW/edit"
+      }
+    ],
+    "grades": [
+      "Grade 2",
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "water",
+      "watershed",
+      "water storage",
+      "Bow River",
+      "water use"
+    ],
+    "learningOutcomes": [
+      "Examine the stage of the watershed",
+      "Investigate watershed functions"
+    ],
+    "videos": [
+      "brbc-04f-watersheds-hydro"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-09f-hydrology-climate-change",
+    "title": "Hydrology and Climate Change",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about how to monitor climate change and hydrologic functions within a watershed.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Hydrology and Climate Change - Google Doc",
+        "link": "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4/edit"
+      }
+    ],
+    "grades": [
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "water cycle",
+      "extreme weather",
+      "precipitation",
+      "glaciers",
+      "climate change"
+    ],
+    "learningOutcomes": [
+      "Examine the effects of climate change on the water cycle and hydrology"
+    ],
+    "videos": [
+      "brbc-02f-hydro-climate"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-10f-invasive-species-control",
+    "title": "Invasive Species and Control",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity you will learn about invasive species found in Alberta, along with methods to control them.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Invasive Species and Control - Google Doc",
+        "link": "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
+      }
+    ],
+    "grades": [
+      "Grade 2",
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "invasive species",
+      "integrated pest managment",
+      "native prairie",
+      "biodiversity"
+    ],
+    "learningOutcomes": [
+      "Examine the role of invasive, introduced and threatened species",
+      "Investigate the methods of addressing the management of invasive species",
+      "Observe spaces that native and introduced species are seen to examine the role of biodiversity"
+    ],
+    "videos": [
+      "brbc-011f-invasive-species"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "brbc-11f-native-prairies-plants",
+    "title": "Native Prairies and Plants",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Bow River Watershed",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity, you will learn about the biodiversity of the native prairies, and the many different types of functions native plants have roles in, as well as the importance of bees and other pollinators.",
+    "approximateTime": "30 to 60 min",
+    "files": [
+      {
+        "title": "Native Prairies and Plants - Google Doc",
+        "link": "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
+      }
+    ],
+    "grades": [
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12"
+    ],
+    "subjects": [
+      "Science",
+      "Biology"
+    ],
+    "tags": [
+      "watershed",
+      "Bow River",
+      "Pollination",
+      "biodiversity",
+      "native plants",
+      "native prairie",
+      "invasive species",
+      "agriculture"
+    ],
+    "learningOutcomes": [
+      "Examine the ecological roles of plants in the prairies",
+      "Investigate the methods of addressing threatened native species",
+      "Observe spaces that native and introduced species are seen to examine the role of biodiversity"
+    ],
+    "videos": [
+      "brbc-010f-native-prairies"
+    ],
+    "relatedUrls": []
+  }
+]

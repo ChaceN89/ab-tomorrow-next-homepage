@@ -1,0 +1,3305 @@
+[
+  {
+    "id": "tutorial-01a-register-account",
+    "title": "User Tutorial: Registering for an Account",
+    "description": "Watch this tutorial to see how to register for a Public, Teacher or Student Account.",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialRegisterAccount.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "account",
+      "registration",
+      "user-guide",
+      "education"
+    ]
+  },
+  {
+    "id": "tutorial-02a-simulator-overview",
+    "title": "User Tutorial: An overview of the AT simulator and features",
+    "description": "Watch this tutorial to see the different features of the Alberta Tomorrow Simulator.",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=nnm0V6jmpbM",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialOverview.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "simulator",
+      "overview",
+      "tutorial",
+      "features"
+    ]
+  },
+  {
+    "id": "tutorial-03a-your-mission",
+    "title": "User Tutorial: Your Mission",
+    "description": "An overview of the mission you will accomplish using Alberta Tomorrow",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=yNljbKNBI1M",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialMission.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "mission",
+      "objectives",
+      "learning-path",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "tutorial-04a-historical-simulation",
+    "title": "User Tutorial: Running a Historical Simulation in Alberta Tomorrow",
+    "description": "Watch this video to find out how your study area has changed since 1910!",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=qMXZYBHCD_E",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialHistoric.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "history",
+      "simulation",
+      "landuse",
+      "education"
+    ]
+  },
+  {
+    "id": "tutorial-05a-create-bau-scenario",
+    "title": "User Tutorial: How to Create a Business as Usual (BAU) Scenario",
+    "description": "A BAU scenario gives you a glimpse of a possible future, one that carries current trends in landuse into the future.",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=gWm7yWBkPHo",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialCreateBAU.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "bau",
+      "scenario",
+      "future",
+      "landuse"
+    ]
+  },
+  {
+    "id": "tutorial-06a-landuse-scenario",
+    "title": "User Tutorial: How to Create your own Land Use Scenarios",
+    "description": "This video will show you how to select your watershed study area, set goals, make changes on the map, and run your scenario.",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=RQ2Pz6gLIQ0",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialLandusePlan.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "landuse",
+      "planning",
+      "watershed",
+      "management"
+    ]
+  },
+  {
+    "id": "tutorial-07a-create-observation",
+    "title": "User Tutorial: How to Create an Observation in the Simulator",
+    "description": "This tutorial walks you through how to create your own observation in the simulator that you and all registered users can see.",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=fp_WVPCdCnU",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialCreateObs.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "observation",
+      "engagement",
+      "student-projects"
+    ]
+  },
+  {
+    "id": "tutorial-08a-climate-scenarios",
+    "title": "User Tutorial: Investigating Climate Change Scenarios in Alberta Tomorrow",
+    "description": "See how you can view changes that may occur due to climate change with Mild, Medium or Hot Climate Change Scenarios.",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=yF4SY7VoqDs",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialClimate.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "climate",
+      "change",
+      "simulation",
+      "future"
+    ]
+  },
+  {
+    "id": "tutorial-09a-create-report",
+    "title": "User Tutorial: Creating and Sharing a Report in Alberta Tomorrow",
+    "description": "This short tutorial video will show you how to create and share a report in the simulator.",
+    "category": "Simulator Tutorials",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=poxco59ASU8",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialReports.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "reporting",
+      "sharing",
+      "communication",
+      "project"
+    ]
+  },
+  {
+    "id": "landscape-01b-climate-change",
+    "title": "Climate Change",
+    "description": "How will Alberta be affected by Climate Change? What's the difference between Climate Change and Global Warming?",
+    "category": "Understanding the Landscape",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Okh7vn60kxg",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/climate_change_video.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "climatechange",
+      "globalwarming",
+      "landuse",
+      "education",
+      "renewableenergy",
+      "futurealberta"
+    ]
+  },
+  {
+    "id": "landscape-02b-management-practices",
+    "title": "Beneficial Management Practices",
+    "description": "What are Beneficial Management Practices and how do they affect the future of Alberta? Find out what large companies, farmers, and you can do to minimize the effect on the environment.",
+    "category": "Understanding the Landscape",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=WBKwcDIqJ0U",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/a3db110f-8d4b-4190-b512-a84cf1472eb5/thumbnails/Management Practices_H264_tumb.0000039.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "bmp",
+      "management",
+      "landuse",
+      "sustainability",
+      "industry",
+      "futurealberta"
+    ]
+  },
+  {
+    "id": "landscape-03b-ecological-goods",
+    "title": "Ecological Goods and Services",
+    "description": "An introduction to ecological goods and services.",
+    "category": "Understanding the Landscape",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=WBdpkY9KSgs",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/7f76a14f-20e9-430d-bef6-5c08247cad75/thumbnails/Ecological Goods v2_H264_tumb.0000033.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "egs",
+      "ecology",
+      "landuse",
+      "naturalcapital",
+      "ecosystemservices"
+    ]
+  },
+  {
+    "id": "landscape-04b-glaciers-webinar",
+    "title": "Water Quality, Climate Change and Alberta's Glaciers Webinar",
+    "description": "This webinar was held on May 27, 2020 and features 4 prominent scientists talking about climate change and how it will affect glaciers, glacier melt, water policy and our water quality.",
+    "category": "Understanding the Landscape",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Xgb3_I8nagY",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/water-climate-change-glaciers-webinar.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "columbiaicefield",
+      "athabascaglacier",
+      "landuse"
+    ]
+  },
+  {
+    "id": "env-01c-natural-landscapes",
+    "title": "Natural Landscapes",
+    "description": "Prior to Alberta's European Settlement, 100% of the landscape was considered natural. Learn more about Alberta's natural landscapes and how best practices can reduce the footprint of development.",
+    "category": "Environmental Indicators",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Lx94jZ9ZSBY",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/7d120260-62f4-48f9-8d72-63fb519fd9a7/thumbnails/Natural Landscapes v3_H264_tumb.0000064.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "landuse",
+      "abnaturallandscapes",
+      "abecoregions"
+    ]
+  },
+  {
+    "id": "env-02c-caribou-habitat",
+    "title": "Caribou Habitat",
+    "description": "Explore how caribou habitat is impacted by human development and how best practices can reduce disturbances in their environment.",
+    "category": "Environmental Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Wildlife Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=xiBz_Vov6H0",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/6d77c369-dc90-454f-a833-ace354a38e40/thumbnails/Caribou Habitat v4_H264_tumb.0000035.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "caribouhabitat",
+      "abcaribou",
+      "woodlandcaribou",
+      "threatenedspecies",
+      "landuse",
+      "abwildlife"
+    ]
+  },
+  {
+    "id": "env-03c-grizzly-habitat",
+    "title": "Grizzly Habitat",
+    "description": "Learn how forest development and human activity affect the suitability of grizzly bear habitat across Alberta.",
+    "category": "Environmental Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Wildlife Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=4wxOOhpNRhs",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/4aec75a3-5a3a-44fa-8350-8f8dfda26f0c/thumbnails/Grizzly Bear habitat v1_tumb.0000021.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "grizzlybearhabitat",
+      "abwildlife",
+      "abgrizzlies",
+      "landuse",
+      "threatenedspecies"
+    ]
+  },
+  {
+    "id": "env-04c-fish-habitat",
+    "title": "Fish Habitat",
+    "description": "Discover how land use affects fish community health, from native trout populations to the impacts of angling and habitat disturbance.",
+    "category": "Environmental Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Wildlife Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=oti7o8JS62Q",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/28da03d6-aee2-4c23-be8f-bee1d50d7a4a/thumbnails/Fish Habitat v2_H264_tumb.0000030.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abfish",
+      "fishhabitat",
+      "abwater",
+      "abtrout",
+      "nativetrout"
+    ]
+  },
+  {
+    "id": "env-05c-water-quality",
+    "title": "Water Quality",
+    "description": "Explore how phosphorus runoff from agriculture and settlement impacts aquatic ecosystems and how best practices can improve water quality.",
+    "category": "Environmental Indicators",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=qsaeCqrJ64o",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/71ac9e8a-e577-4765-9783-71eaee4c08dd/thumbnails/Water Quality v2_H264_tumb.0000063.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abwater",
+      "waterquality",
+      "eutrophication",
+      "landuse"
+    ]
+  },
+  {
+    "id": "env-06c-greenhouse-gasses",
+    "title": "Greenhouse Gasses",
+    "description": "Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can cut emissions.",
+    "category": "Environmental Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Energy Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=m7G3mSq2aD0",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/be03a00b-b27d-4afe-be64-332ec61b92c5/thumbnails/Greenhouse Gases v2_H264_tumb.0000039.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abclimatechange",
+      "climatechange",
+      "bioticcarbonstorage",
+      "landuse",
+      "photosynthesis",
+      "carbonsinks",
+      "carbonsources",
+      "greenhousegases",
+      "greenhouseeffect"
+    ]
+  },
+  {
+    "id": "soc-01d-human-population",
+    "title": "Human Population",
+    "description": "Maximum population growth is assumed to be a doubling of the population. Learn more about Alberta's projected population and land use impacts.",
+    "category": "Socio-Economic Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Energy Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=BOBc-sv-qJw",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/020d0ab8-d1d3-4cc4-b064-ce5c86f1b702/thumbnails/Human Population v2_H264_tumb.0000010.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abpopulation",
+      "exponentialpopulationgrowth",
+      "abgrowth",
+      "landuse"
+    ]
+  },
+  {
+    "id": "soc-02d-gdp",
+    "title": "Gross Domestic Product",
+    "description": "GDP is based on land use for oil and gas, forestry, and agriculture. Learn how economic development influences Alberta's GDP.",
+    "category": "Socio-Economic Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Energy Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=u9_-Oz9W3Dg",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/e6bbc086-0392-43b3-9a2b-3aa3fef83eea/thumbnails/GDP v2_H264_tumb.0000011.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abgdp",
+      "abeconomy",
+      "landuse"
+    ]
+  },
+  {
+    "id": "soc-03d-hydrocarbon-production",
+    "title": "Hydrocarbon Production",
+    "description": "Hydrocarbon production includes natural gas, oil, bitumen, and coal. Learn how energy production affects land use and the economy.",
+    "category": "Socio-Economic Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Energy Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Bfz4p6dQQcE",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/cd19ded8-4eea-4b3a-941b-a42e65800907/thumbnails/Oil Gas v2_tumb.0000033.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "aboilandgas",
+      "hydrocarbons",
+      "landuse",
+      "abeconomy"
+    ]
+  },
+  {
+    "id": "soc-04d-timber-production",
+    "title": "Timber Production",
+    "description": "A value of 100% means all forested land is used for timber. Explore how forestry contributes to the economy and affects land use.",
+    "category": "Socio-Economic Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Energy Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=157uaHUOKJw",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/741f8b05-8f79-4994-8234-01592f4688e2/thumbnails/Forestry v2_H264_tumb.0000025.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abforestry",
+      "landuse",
+      "forestry",
+      "abeconomy"
+    ]
+  },
+  {
+    "id": "soc-05d-agriculture-production",
+    "title": "Agricultural Production",
+    "description": "Learn how using the landscape for agriculture contributes to food production and economic development in Alberta.",
+    "category": "Socio-Economic Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Energy Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=hh84gk46swY",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/760a93f5-2cff-49e0-843c-3dd759b7232d/thumbnails/Agriculture Production v2_H264_tumb.0000025.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abag",
+      "agriculture",
+      "landuse",
+      "abeconomy"
+    ]
+  },
+  {
+    "id": "soc-06d-water-consumption",
+    "title": "Water Consumption",
+    "description": "Learn how agricultural, settlement, and industrial use affect water consumption and how best practices can reduce demand.",
+    "category": "Socio-Economic Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Energy Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=YcibG9eybbc",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/a42e73bb-ede0-415a-b12b-a873782a69a1/thumbnails/Water Consumption v3_H264_tumb.0000039.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abwater",
+      "abwateruse",
+      "wateruse",
+      "landuse"
+    ]
+  },
+  {
+    "id": "ind-01e-tlu-access",
+    "title": "TLU Access",
+    "description": "Traditional Land Use Access (TLU Access) measures land accessibility for Indigenous peoples engaging in traditional practices. It reflects accessible natural areas not within protected zones.",
+    "category": "Indigenous Indicators",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/yz52Ysp_meQ?si=2uYyt4W4Qjq31z2N",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/a7edc400-3c29-48bb-bcc6-296883adc89c/thumbnails/Using%20the%20Land_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "tlu",
+      "indigenous-access",
+      "traditional-use",
+      "landuse"
+    ]
+  },
+  {
+    "id": "ind-02e-moose-habitat",
+    "title": "Moose Habitat",
+    "description": "Moose Habitat is reduced by industrial development and proximity to human activity. This video explores how habitat value is calculated in Alberta Tomorrow.",
+    "category": "Indigenous Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Wildlife Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/rb0WIzUHnYw?si=r438JuVzkL4PxsaR",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/18212f4c-ba95-443b-9a9c-8cea0186f22a/thumbnails/Moose%20Story_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "moose",
+      "habitat",
+      "wildlife",
+      "landuse"
+    ]
+  },
+  {
+    "id": "ind-03e-hunting-opportunity",
+    "title": "Hunting Opportunity",
+    "description": "This video explains the Hunting Opportunity indicator, combining TLU Access and Moose Habitat to reflect Indigenous hunting access.",
+    "category": "Indigenous Indicators",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/d_wKqUZMaTk?si=3dnMMNcSOKg8pW5X",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/4682cb45-4133-437f-b341-98c1a7254a06/thumbnails/Land%20Use%20wildlife_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "hunting",
+      "tlu",
+      "moose",
+      "landuse"
+    ]
+  },
+  {
+    "id": "ind-04e-water-quality",
+    "title": "Water Quality",
+    "description": "Phosphorus runoff and land conversion reduce water quality. Learn how Indigenous communities are impacted and how this indicator is measured.",
+    "category": "Indigenous Indicators",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/oG-PuCO-h7I?si=wtIn-3h7T1rZQqWU",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/9a3e7d28-fbfe-465e-96c8-74f4ddf8e15e/thumbnails/Water_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abwater",
+      "waterquality",
+      "eutrophication",
+      "landuse"
+    ]
+  },
+  {
+    "id": "ind-05e-fish-habitat",
+    "title": "Fish Habitat",
+    "description": "Healthy fish habitat means diverse native species and fewer disturbances. This video highlights habitat importance to Indigenous communities.",
+    "category": "Indigenous Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Wildlife Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=oti7o8JS62Q",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/28da03d6-aee2-4c23-be8f-bee1d50d7a4a/thumbnails/Fish Habitat v2_H264_tumb.0000030.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "abfish",
+      "fishhabitat",
+      "nativetrout",
+      "indigenous-values"
+    ]
+  },
+  {
+    "id": "ind-06e-fishing-opportunity",
+    "title": "Fishing Opportunity",
+    "description": "Fishing Opportunity combines TLU Access and Fish Habitat to indicate access to successful fishing activities for Indigenous peoples.",
+    "category": "Indigenous Indicators",
+    "tools": [
+      "Land Use Simulator",
+      "Wildlife Tomorrow"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/vN_X59jznLE?si=qs742rPJ9WvbOe1y",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/e9bd9064-c34e-4769-a3c3-8d702623d91b/thumbnails/Fishing%20on%20the%20Bow_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "fishing",
+      "tlu",
+      "nativetrout",
+      "landuse"
+    ]
+  },
+  {
+    "id": "brbc-01f-watershed",
+    "title": "Watershed 360° Tour",
+    "description": "Visit each sub-basin in the Bow River basin and get a feel for how people use the water and the landscape. Look at the different types of buildings, pathways, and activities that can take place within the watershed as you travel from the headwaters, down to the end in the prairies.",
+    "coordinates": [-116.464694, 51.678851],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "The Watershed",
+        "link": "https://docs.google.com/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=-66yGxMmQxE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=9",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_11_watershed.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-116.464694, 51.678851"
+        },
+        {
+          "time": 20,
+          "coordinates": "-115.129660, 50.932082"
+        },
+        {
+          "time": 35,
+          "coordinates": "-114.959892, 51.263301"
+        },
+        {
+          "time": 50,
+          "coordinates": "-114.771438, 51.037320"
+        },
+        {
+          "time": 65,
+          "coordinates": "-114.716500, 51.219053"
+        },
+        {
+          "time": 80,
+          "coordinates": "-114.190296, 50.201977"
+        },
+        {
+          "time": 95,
+          "coordinates": "-114.703432, 50.615995"
+        },
+        {
+          "time": 110,
+          "coordinates": "-114.116592, 50.927827"
+        },
+        {
+          "time": 125,
+          "coordinates": "-114.097184, 50.999912"
+        },
+        {
+          "time": 140,
+          "coordinates": "-114.049133, 51.422275"
+        },
+        {
+          "time": 155,
+          "coordinates": "-114.077158, 51.055417"
+        },
+        {
+          "time": 170,
+          "coordinates": "-113.696312, 50.805607"
+        },
+        {
+          "time": 185,
+          "coordinates": "-113.441861, 50.827096"
+        },
+        {
+          "time": 200,
+          "coordinates": "-112.918901, 50.561080"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring",
+      "tour"
+    ]
+  },
+  {
+    "id": "brbc-02f-hydro-climate",
+    "title": "Hydrology and Climate Change",
+    "description": "Tricia Stadnyk talks about how a watershed can affect the climate it is in, and in turn, how the climate then affects the landscape. Go from the headwaters through to the prairies as she talks about precipitation and more.",
+    "coordinates": [-116.464694, 51.678451],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Hydrology & Climate Change",
+        "link": "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=6B31usY3S6E&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=2",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_10_hydrology_and_climate_change.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-116.464694, 51.678851"
+        },
+        {
+          "time": 126,
+          "coordinates": "-114.959892,51.263301"
+        },
+        {
+          "time": 208,
+          "coordinates": "-114.243607,50.689097"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring",
+      "climate",
+      "hydrology"
+    ]
+  },
+  {
+    "id": "brbc-03f-management-data",
+    "title": "Watershed Management and Data",
+    "description": "Dr. Lee Jackson talks about the Sustainable Watershed Integrated Management Platform and the necessity of shared water data for the health of the Bow River Basin. Explore from the headwaters into the prairies and learn about citizen science projects, and different data parameters.",
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=1sIN7zr8xoo&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=5",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_9_watershed_management_and_data.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-116.464694, 51.678851"
+        },
+        {
+          "time": 47,
+          "coordinates": "-114.959892, 51.263301"
+        },
+        {
+          "time": 89,
+          "coordinates": "-114.077158, 51.055417"
+        },
+        {
+          "time": 139,
+          "coordinates": "-114.220627, 51.099321"
+        },
+        {
+          "time": 160,
+          "coordinates": "-114.097184, 50.999912"
+        },
+        {
+          "time": 191,
+          "coordinates": "-113.828234, 51.020180"
+        },
+        {
+          "time": 235,
+          "coordinates": "-113.696312, 50.805607"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring",
+      "sustainability"
+    ]
+  },
+  {
+    "id": "brbc-04f-watersheds-hydro",
+    "title": "Watersheds and Hydrology",
+    "description": "Go from the mountains through the river basin while learning what a watershed is, and how hydrology is apparent in the landscape. Tricia Stadnyk will explain how hydrology can affect everything around it as you explore.",
+    "coordinates": [-115.12966, 50.932082],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Watersheds and Hydrology",
+        "link": "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=_hFqA3agfhk&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_4_watersheds_and_hydrology.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-115.129660, 50.932082"
+        },
+        {
+          "time": 54,
+          "coordinates": "-114.587656,50.390193"
+        },
+        {
+          "time": 172,
+          "coordinates": "-113.696312,50.805607"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring",
+      "hydrology",
+      "landscape"
+    ]
+  },
+  {
+    "id": "brbc-05f-hydro-dev",
+    "title": "Hydrology and Land Development",
+    "description": "Explore the watershed while Tricia Stadnyk explains how landscapes and water are affected by development and use changes. How does hydrology within the watershed change when the landscape changes because of humans?",
+    "coordinates": [-114.7165, 51.219053],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Hydrology and Land Development",
+        "link": "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=2qSAx5fmtWg&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=3",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_8_hydrology_and_land_development.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-114.716500, 51.219053"
+        },
+        {
+          "time": 54,
+          "coordinates": "-114.097184,50.999912"
+        },
+        {
+          "time": 116,
+          "coordinates": "-114.077158,51.055417"
+        },
+        {
+          "time": 155,
+          "coordinates": "-115.129660,50.932082"
+        },
+        {
+          "time": 212,
+          "coordinates": "-115.145593,50.917276"
+        },
+        {
+          "time": 238,
+          "coordinates": "-115.048676,51.033742"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "brbc-06f-erwp-aquifers",
+    "title": "Elbow River Watershed Partnership (ERWP) Aquifers",
+    "description": "Explore the Elbow River watershed and learn about its groundwater, and state of the aquifer with Joe and Flora. Learn the definitions for what an aquifer is, how groundwater is used in the sub-basin, and how it is affected by people.",
+    "coordinates": [-114.7810132, 50.8678614],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Aquifers",
+        "link": "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=3wvA7macCMM",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_2_elbow_river_watershed_partnership_aquifers.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-114.7810132,50.8678614"
+        },
+        {
+          "time": 161,
+          "coordinates": "-114.6923929,50.901219"
+        },
+        {
+          "time": 238,
+          "coordinates": "-114.563245,50.9533249"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "brbc-07f-wetlands-stormwater",
+    "title": "Wetlands and Stormwater",
+    "description": "Take a walk around the constructed wetlands in North Glenmore park with Liliana Bozic as she explains the uses of wetlands for storage and stormwater. Learn how water quality is affected by wetlands, and how land development changes, and seasons affect them.",
+    "coordinates": [-114.120316, 50.989518],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Constructed Wetlands and Stormwater",
+        "link": "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=lmypedsjMjQ&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=10",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_5_wetlands_and_stormwater.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-114.120316, 50.989518"
+        },
+        {
+          "time": 110,
+          "coordinates": "-114.028253, 51.303713"
+        }
+      ]
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring",
+      "storm"
+    ]
+  },
+  {
+    "id": "brbc-08f-water-quality",
+    "title": "Water Quality",
+    "description": "Join Patrick Van den Eynden as he talks about the City of Calgary’s Glenmore Water Treatment Plant’s process from getting the water from the reservoir, all the way to disinfection and sending the water out to service sites across the city.",
+    "coordinates": [-114.09844, 51.002496],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Water Quality: Water Treatment",
+        "link": "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=9ksSbswY_CA&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=8",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_7_water_quality.png",
+      "is360": true
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "brbc-09f-water-services",
+    "title": "Water Services",
+    "description": "Explore some of the Glenmore dam and reservoir as Patrick Van den Eynden talks about its history, infrastructure, services, and the City’s water drinking system.",
+    "coordinates": [-114.097184, 50.999912],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Glenmore Dam and Resevoir: Water Services",
+        "link": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=BselhdsCzvM&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=6",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_6_water_services.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-114.097184, 50.999912"
+        },
+        {
+          "time": 225,
+          "coordinates": "-114.220395, 51.099285"
+        },
+        {
+          "time": 261,
+          "coordinates": "-114.097184, 50.999912"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "brbc-010f-native-prairies",
+    "title": "Native Prairies and Plants",
+    "description": "As Megan Evans and Erin Anderson talk about the importance of prairies and their native plants, explore several grassland landscapes within the Bow River Basin.",
+    "coordinates": [-114.116592, 50.927827],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Native Prairies and Plants",
+        "link": "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=EAVeYoygr0c&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=11",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_3_native_prairies_and_plants.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-114.116592, 50.927827"
+        },
+        {
+          "time": 47,
+          "coordinates": "-114.233110, 50.876436"
+        },
+        {
+          "time": 123,
+          "coordinates": "-113.696312, 50.805607"
+        },
+        {
+          "time": 200,
+          "coordinates": "-114.587656, 50.390193"
+        },
+        {
+          "time": 242,
+          "coordinates": "-114.190296, 50.201977"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "brbc-011f-invasive-species",
+    "title": "Invasive Species and Control",
+    "description": "Learn about invasive species in native grasslands, control systems, and the importance of native species from Erin Anderson and Megan Evans as you explore various prairie landscapes.",
+    "coordinates": [-114.190296, 50.201977],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Invasive Species and Control",
+        "link": "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=EQXmN_v_2qw&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=7",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_1_invasive_species_and_control.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-114.190296, 50.201977"
+        },
+        {
+          "time": 74,
+          "coordinates": "-112.841994, 50.994639"
+        },
+        {
+          "time": 122,
+          "coordinates": "-114.076243, 50.705873"
+        },
+        {
+          "time": 175,
+          "coordinates": "-114.587656, 50.390193"
+        },
+        {
+          "time": 229,
+          "coordinates": "-113.369413, 51.006424"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "brbc-012f-isotopes-climate",
+    "title": "Isotopes and Climate Change",
+    "description": "Learn about how isotopes can be used to monitor climate change and hydrologic functions within a watershed.",
+    "coordinates": [-114.7036, 50.6158],
+    "category": "Bow River Watershed 360 Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [
+      {
+        "title": "Isotopes and Climate Change",
+        "link": "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi"
+      }
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=LebvVpUHCYE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=4",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/isotopes.png",
+      "is360": true,
+      "locations": [
+        {
+          "time": 0,
+          "coordinates": "-114.7036, 50.6158"
+        }
+      ]
+    },
+    "hashtags": [
+      "water",
+      "watershed",
+      "monitoring",
+      "isotopes",
+      "climate"
+    ]
+  },
+  {
+    "title": "Are people affecting the glaciers?",
+    "id": "goi-01g-are-people-affecting-the-glaciers",
+    "description": "Listen to Peter Lemieux talk about how people are affecting the glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Ns7BiGb3cMQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=1",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater"
+    ],
+    "observedTime": 300000
+  },
+  {
+    "title": "Colour of the ice",
+    "id": "goi-02g-colour-of-the-ice",
+    "description": "Listen to Peter Lemieux talk about why glacier ice is sometimes blue.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=7Ld_jQCuJzE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=2",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater",
+      "columbiaicefield"
+    ],
+    "observedTime": 31000
+  },
+  {
+    "title": "Glaciers move",
+    "id": "goi-03g-glaciers-move",
+    "description": "Listen to Peter Lemieux talk about how glaciers move.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=1KGk2LAvz4s&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=3",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/7c3e031d-624b-4383-bca0-1566a980c5a4/thumbnails/obs_b10c9053-9433-43ac-8290-8e643250149d_tumb.0000020.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater"
+    ],
+    "observedTime": 57000
+  },
+  {
+    "title": "How crevasses form",
+    "id": "goi-04g-how-crevasses-form",
+    "description": "Listen to Peter Lemieux talk about how crevasses form in glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=QbotXyLZXiQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=4",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/abc02ad4-803a-46a3-a40a-30f67c5deaab/thumbnails/obs_4e61c978-3fd4-41c1-8d01-637b2a629580_tumb.0000011.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater",
+      "columbiaicefield"
+    ],
+    "observedTime": 54000
+  },
+  {
+    "title": "How do forest fires affect glaciers",
+    "id": "goi-05g-how-do-forest-fires-affect-glaciers",
+    "description": "Listen to Peter Lemieux talk about how summer forest fires affect the glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=LkkeMC8VhnA&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=5",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/a93656c2-dbe9-4cca-8b30-1348050ba4f1/thumbnails/obs_07c1c554-f590-4de2-9609-52263faafbda_tumb.0000024.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater"
+    ],
+    "observedTime": 16000
+  },
+  {
+    "title": "Is it important glaciers are in the national park?",
+    "id": "goi-06g-is-it-important-glaciers-are-in-the-national-park",
+    "description": "Listen to Peter Lemieux discuss why it's important to have glaciers protected in National Parks.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Deu0HjSCzuM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=6",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater"
+    ],
+    "observedTime": 39000
+  },
+  {
+    "title": "Seasonal change on the glacier and cryconite",
+    "id": "goi-07g-seasonal-change-on-the-glacier",
+    "description": "Listen to Peter Lemieux talk about seasonal changes on the glacier.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=KCKew0PiqOc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=7",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "climatechange",
+      "abglaciers",
+      "waterquality",
+      "abwater"
+    ],
+    "observedTime": 47000
+  },
+  {
+    "title": "Striations on the Rocks",
+    "id": "goi-08g-striations-on-the-rocks",
+    "description": "Listen to Peter Lemieux talk about how glaciers can cause striations on rocks as they move.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=sKF4M0v1GdM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=8",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/7c3e031d-624b-4383-bca0-1566a980c5a4/thumbnails/obs_b10c9053-9433-43ac-8290-8e643250149d_tumb.0000020.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater",
+      "columbiaicefield"
+    ],
+    "observedTime": 94000
+  },
+  {
+    "title": "What is a moraine",
+    "id": "goi-09g-what-is-a-moraine",
+    "description": "Listen to Peter Lemieux discuss the different types of glacial moraine.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=nFzRuDBiB28&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=9",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater",
+      "columbiaicefield"
+    ],
+    "observedTime": 159000
+  },
+  {
+    "title": "Where do glaciers form?",
+    "id": "goi-10g-where-do-glaciers-form",
+    "description": "Listen to Peter Lemieux discuss where glaciers form in the Rocky Mountains.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Y8IaKMp4dAk&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=10",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "abglaciers",
+      "climatechange",
+      "waterquality",
+      "abwater"
+    ],
+    "observedTime": 17000
+  },
+  {
+    "title": "Where does water from the Snowdome go?",
+    "id": "goi-11g-where-does-water-from-the-snowdome",
+    "description": "Listen to Peter Lemieux as he discusses where water from Snowdome ends up.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=ZS8TG4_q24A&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=11",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "abwater",
+      "athabascaglacier",
+      "abglaciers",
+      "climatechange",
+      "landuse"
+    ],
+    "observedTime": 104000
+  },
+  {
+    "title": "Where was the Athabasca glacier in 2006?",
+    "id": "goi-12g-where-was-the-athabasca-glacier-in-2006",
+    "description": "Listen to Peter Lemieux talk about how fare the glacier has receded since 2006 and how he knows!",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=NCKgmaIkIm0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=12",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "abglaciers",
+      "climatechange",
+      "abwater",
+      "columbiaicefield"
+    ],
+    "observedTime": 75000
+  },
+  {
+    "title": "Where was the glacier in 1982 and what is a lateral moraine?",
+    "id": "goi-13g-where-was-the-glacier-in-1982",
+    "description": "Listen to Peter Lemieux as he discusses where the Athabasca glacier was in 1982.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=xYQocIUXHQU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=13",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "landuse",
+      "abglaciers",
+      "climatechange",
+      "abwater"
+    ],
+    "observedTime": 46000
+  },
+  {
+    "title": "Where will the glacier be in 30 years?",
+    "id": "goi-14g-where-will-the-glacier-be-in-30-years",
+    "description": "Listen to Peter Lemieux as he discussed where the Athabasca Glacier may be in 30 years.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=HXQLMjomCes&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=14",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "athabascaglacier",
+      "abglaciers",
+      "abwater",
+      "landuse"
+    ],
+    "observedTime": 59000
+  },
+  {
+    "title": "Come with us to the Athabasca Glacier",
+    "id": "goi-15g-come-with-us-to-the-athabasca",
+    "description": "Walk with us the the Athabasca Glacier on the Columbia Icefield.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=IvYUaGfUesM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=15",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "columbiaicefield",
+      "abglaciers",
+      "abwater",
+      "climatechange"
+    ],
+    "observedTime": 85000
+  },
+  {
+    "title": "How Glaciers Move",
+    "id": "goi-16g-how-glaciers-move",
+    "description": "Peter Lemieux discusses how Glaciers move.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Iy6sdst_Nnc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=16",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "athabascaglacier",
+      "climatechange",
+      "columbiaicefield",
+      "abwater"
+    ],
+    "observedTime": 30000
+  },
+  {
+    "title": "How much glacial ice are we losing?",
+    "id": "goi-17g-how-much-glacial-ice-are-we-losing",
+    "description": "Watch as Peter Lemieux discusses how much ice the Athabasca Glacier is losing in one season an how he knows this.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Htf4sCgOyvc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=17",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "abglaciers",
+      "athabascaglacier",
+      "abwater",
+      "landuse"
+    ],
+    "observedTime": 124000
+  },
+  {
+    "title": "Why are some lakes blue?",
+    "id": "goi-18g-why-are-some-lakes-blue",
+    "description": "What this video as Peter Lemieux discusses why some glacier lakes are blue.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=KXSVsc1t8OQ&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=18",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "abwater",
+      "waterquality",
+      "abglaciers",
+      "climatechange",
+      "athabascaglacier"
+    ],
+    "observedTime": 69000
+  },
+  {
+    "title": "Why should we protect glaciers?",
+    "id": "goi-19g-why-should-we-protect-glaciers",
+    "description": "Watch as Peter Lemieux discusses why it is so important to protect our glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=LKtGm_ZxZyU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=19",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "abglaciers",
+      "athabascaglacier",
+      "abwater",
+      "landuse"
+    ],
+    "observedTime": 37000
+  },
+  {
+    "title": "This is the Athabasca glacier.",
+    "id": "goi-20g-this-is-the-athabasca-glacier",
+    "description": "Walk with us to the Athabasca Glacier.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=KF1JBsGdyZY&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=20",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/c6678f98-a6f3-4ca1-ab0b-4082cc0fc877/thumbnails/This%20is%20the%20Athabasca%20glacier._tumb.0000007.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "abglaciers",
+      "abwater",
+      "climatechange",
+      "columbiaicefield"
+    ],
+    "observedTime": 40000
+  },
+  {
+    "title": "Endocrine Disruptors",
+    "id": "goi-21g-endocrine-disruptors",
+    "description": "Dr. Ali Criscitiello talks about melting glaciers and what this has to do with Endocrine Disruptors.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-113.524746243143, 53.5255061878517],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=fjJZesxnfBo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=21",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/75a19241-4149-455f-b43b-91a41920ac28/thumbnails/obs_88cdd5c9-8aa9-4c48-870b-3791889c946f_tumb.0000042.jpg"
+    },
+    "hashtags": [
+      "waterquality",
+      "abwater",
+      "climatechange",
+      "abglaciers",
+      "landuse"
+    ],
+    "observedTime": 65000
+  },
+  {
+    "title": "Forest Fires and Glaciers",
+    "id": "goi-22g-forest-fires-and-glaciers",
+    "description": "Dr. Ali Criscitiello discusses the effects of forest fires on Alberta Glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-113.524746243143, 53.5255061878517],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=f2wUf95774k&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=22",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "athabascaglacier",
+      "abglaciers",
+      "abwater",
+      "landuse"
+    ],
+    "observedTime": 91000
+  },
+  {
+    "title": "Glacial Albedo",
+    "id": "goi-23g-glacial-albedo",
+    "description": "Dr. Ali Criscitiello discusses what Albedo is and how it relates to Alberta glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=RbPa7lv1fv0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=23",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "climatechange",
+      "athabascaglacier",
+      "abwater",
+      "columbiaicefield"
+    ],
+    "observedTime": 48000
+  },
+  {
+    "title": "Growth and Attrition",
+    "id": "goi-24g-growth-and-attrition",
+    "description": "Listen to Dr. Ali Criscitiello discuss growth and attrition of Alberta Glaciers",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=uATZEvCjoT4&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=24",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/75a19241-4149-455f-b43b-91a41920ac28/thumbnails/obs_88cdd5c9-8aa9-4c48-870b-3791889c946f_tumb.0000042.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "abglaciers",
+      "athabascaglacier",
+      "landuse",
+      "abwater"
+    ],
+    "observedTime": 85000
+  },
+  {
+    "title": "How human activity affects Alberta glaciers.",
+    "id": "goi-25g-how-human-activity-affects-alberta",
+    "description": "Dr. Ali Criscitiello talks about how human activity affects Alberta Glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=nr34h5i6oqI&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=25",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "landuse",
+      "climatechange",
+      "athabascaglacier",
+      "abglaciers",
+      "abwater"
+    ],
+    "observedTime": 99000
+  },
+  {
+    "title": "How do chemicals that were trapped in Alberta glaciers get into our water?",
+    "id": "goi-26g-how-do-chemicals-that-were-trapped",
+    "description": "Dr. Ali Criscitiello discusses how chemicals, once trapped in frozen ice, will get into our water supply, even some that were banned years ago!",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=2ULp_NlGUHE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=26",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "waterquality",
+      "abwater",
+      "climatechange",
+      "abglaciers",
+      "athabascaglacier"
+    ],
+    "observedTime": 56000
+  },
+  {
+    "title": "Ion chromatrograph",
+    "id": "goi-27g-ion-chromatrography",
+    "description": "Dr. Ali Criscitiello talks about the Ion Chromatograph and what it tells us about the glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=L7F4VIAwcA0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=27",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "waterquality",
+      "abglaciers",
+      "climatechange",
+      "abwater",
+      "columbiaicefield"
+    ],
+    "observedTime": 132000
+  },
+  {
+    "title": "Measuring Isotopes",
+    "id": "goi-28g-measuring-isotopes",
+    "description": "Dr. Ali Criscitiello discusses how her equipment measures oxygen isotopes in Alberta glaciers and what this tells us .",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=pHCFmnNBeL0&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=28",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "abglaciers",
+      "waterquality",
+      "abwater",
+      "landuse"
+    ],
+    "observedTime": 162000
+  },
+  {
+    "title": "Persistent Chemicals in Alberta Glaciers",
+    "id": "goi-29g-persistent-chemicals-in-alberta",
+    "description": "Dr. Ali Criscitiello discusses what persistent  chemicals are and the danger of them being released after being trapped in Alberta glacier ice.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=dlIX3EisMpo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=29",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "waterquality",
+      "abglaciers",
+      "climatechange",
+      "abwater",
+      "athabascaglacier"
+    ],
+    "observedTime": 73000
+  },
+  {
+    "title": "What is the Picarro machine and what does it do?",
+    "id": "goi-30g-what-is-the-picarro-machine",
+    "description": "Dr. Ali Criscitiello of the Canadian Ice Core Lab discusses some of the technology she uses to study Alberta glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Ps7dhpC1Gec&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=30",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "waterquality",
+      "abwater",
+      "climatechange",
+      "columbiaicefield"
+    ],
+    "observedTime": 76000
+  },
+  {
+    "title": "Sea level rise",
+    "id": "goi-31g-sea-level-rise",
+    "description": "Dr. Ali Criscitiello discusses how glaciers contribute to sea level rise.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=uJ0ucfNs_io&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=31",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "abglaciers",
+      "athabascaglacier",
+      "abwater",
+      "landuse"
+    ],
+    "observedTime": 94000
+  },
+  {
+    "title": "Watershed Great Divide - Where does water from the Columbia Icefield go?",
+    "id": "goi-32g-watershed-great-divide",
+    "description": "Dr. Ali Criscitiello talks about meltwater from the Columbia Icefield and where it eventually ends up.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=OGN943BCxAk&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=32",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "columbiaicefield",
+      "abwater",
+      "abglaciers",
+      "climatechange",
+      "landuse"
+    ],
+    "observedTime": 31000
+  },
+  {
+    "title": "What can we do to protect Alberta glaciers?",
+    "id": "goi-33g-what-can-we-do-to-protect-alberta",
+    "description": "Dr. Ali Criscitiello talks about what we can do to protect Alberta glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=iHKg1WAQ3h8&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=33",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "climatechange",
+      "athabascaglacier",
+      "abwater",
+      "landuse"
+    ],
+    "observedTime": 64000
+  },
+  {
+    "title": "Where do we find glaciers?",
+    "id": "goi-34g-where-do-we-find-glaciers",
+    "description": "Dr. Ali Criscitiello discusses where we find glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=22vQm0cfKnI&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=34",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "athabascaglacier",
+      "abwater",
+      "columbiaicefield",
+      "landuse"
+    ],
+    "observedTime": 18000
+  },
+  {
+    "title": "Why are Alberta glaciers important?",
+    "id": "goi-35g-why-are-alberta-glaciers-important",
+    "description": "Dr. Ali Criscitiello discuss the importance of Alberta Glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-113.524746243143, 53.5255061878517],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=HOhflZn8cqo&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=35",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "abwater",
+      "climatechange",
+      "athabascaglacier",
+      "landuse"
+    ],
+    "observedTime": 32000
+  },
+  {
+    "title": "Why protect Alberta glaciers?",
+    "id": "goi-36g-why-protect-alberta-glaciers",
+    "description": "Dr. Ali Criscitiello discusses why it is important to protect Alberta Glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=PUJYQnJx3tY&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=36",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "climatechange",
+      "abwater",
+      "landuse",
+      "athabascaglacier"
+    ],
+    "observedTime": 46000
+  },
+  {
+    "title": "Cutting Glacier Ice Cores",
+    "id": "goi-37g-cutting-glacier-ice-cores",
+    "description": "Cutting Ice Cores at the Canadian Ice Core Lab",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=VLaZWe8nACs&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=37",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/acb56cc0-edb4-4cb1-ae5e-d8504ee154d0/thumbnails/obs_9877d8ac-26fc-435d-8e9d-d1acad385aae_tumb.0000004.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "athabascaglacier",
+      "climatechange",
+      "abwater",
+      "columbiaicefield"
+    ],
+    "observedTime": 13000
+  },
+  {
+    "title": "How Cold is the freezer in the Canadian Ice Core Lab?",
+    "id": "goi-38g-how-cold-is-the-freezer-in-the",
+    "description": "Dr. Alison Criscitiello demonstrated how she cuts ice cores for analysis at the Canadian Ice Core Lab at the University of Alberta.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=o4lpNdvjl98&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=38",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "columbiaicefield",
+      "abwater",
+      "athabascaglacier",
+      "climatechange"
+    ],
+    "observedTime": 8000
+  },
+  {
+    "title": "Getting suited up to enter the Canadian Ice Core Lab",
+    "id": "goi-39g-getting-suited-up-to-enter-the",
+    "description": "Dr. Ali Criscitiello gets prepared to go into the Canadian Ice Core Lab.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Ofv6WtFd1Zc&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=39",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "athabascaglacier",
+      "abwater",
+      "columbiaicefield",
+      "landuse"
+    ],
+    "observedTime": 31000
+  },
+  {
+    "title": "Into the cold",
+    "id": "goi-40g-into-the-cold",
+    "description": "Dr. Ali Criscitiello takes us into the freezer of the Canadian Ice Core Lab.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=7cQbvb4l3Ro&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=40",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "columbiaicefield",
+      "athabascaglacier",
+      "abwater",
+      "climatechange"
+    ],
+    "observedTime": 9000
+  },
+  {
+    "title": "Into the Lab",
+    "id": "goi-41g-into-the-lab",
+    "description": "Dr. Ali Criscitiello takes us into the lab used to study Alberta glaciers.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=Nt4575dF2ME&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=41",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/acb56cc0-edb4-4cb1-ae5e-d8504ee154d0/thumbnails/obs_9877d8ac-26fc-435d-8e9d-d1acad385aae_tumb.0000004.jpg"
+    },
+    "hashtags": [
+      "abglaciers",
+      "athabascaglacier",
+      "abwater",
+      "columbiaicefield",
+      "landuse"
+    ],
+    "observedTime": 19000
+  },
+  {
+    "title": "How big is the Athabasca Glacier",
+    "id": "goi-42g-how-big-is-the-athabasca-glacier",
+    "description": "Listen to Peter Lemieux talk about the size of the Athabasca Glacier.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=qq7vwd_ahzU&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=42",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8b8ba51d-9a90-4daa-9cbd-22a13dc1660b/thumbnails/obs_885b7ca9-4e91-4226-a03b-8ad488210cb5_tumb.0000016.jpg"
+    },
+    "hashtags": [
+      "athabascaglacier",
+      "abglaciers",
+      "columbiaicefield",
+      "abwater",
+      "climatechange"
+    ],
+    "observedTime": 27000
+  },
+  {
+    "title": "Every year its further to get to work",
+    "id": "goi-43g-every-year-its-further-to-get-to-work",
+    "description": "Listen to Peter Lemieux talk about the receding of the Athabasca Glacier.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=efoZxoc0_RE&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=43",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "abglaciers",
+      "athabascaglacier",
+      "abwater",
+      "landuse"
+    ],
+    "observedTime": 11000
+  },
+  {
+    "title": "Dr. Criscitiello and her research",
+    "id": "goi-44g-dr-criscitiello-and-her-research",
+    "description": "Dr. Ali Criscitiello talks about how she got interested in studying glaciers and what she does at the Canadian Ice Core Lab.",
+    "category": "Glacier Series",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "coordinates": [-117.251973152161, 52.1934886488418],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=VIt0NySXoGM&list=PLvZi8sQT8o8PuGYoYpw2ooeO9_IczMCZz&index=44",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09f0fac4-de18-4c6a-a045-783ba063c4f0/thumbnails/obs_cff895b3-1701-407d-b743-b3d6326443ba_tumb.0000006.jpg"
+    },
+    "hashtags": [
+      "climatechange",
+      "abglaciers",
+      "abwater",
+      "landuse",
+      "athabascaglacier"
+    ],
+    "observedTime": 213000
+  },
+  {
+    "id": "stoney-01h-consulting-with-the-stoney",
+    "title": "Consulting With The Stoney",
+    "description": "The Stoney people want to be included in discussions about the future of Stoney lands. Listen to Elders talk about what they use the land for.",
+    "coordinates": [-115.151605, 51.169646],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/CEmbcJ_2oPA?si=aqTK4AvzdPw2yPXx",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/6efd0003-1620-480a-95d4-49bf1d429d89/thumbnails/Consulting%20With%20Stoney_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-02h-cement-factory",
+    "title": "Cement Factory",
+    "description": "The Cement factory has been around for a long time.  Listen to Elder Lawrence talk about how Exshaw got it's name and  the impact of the plant on the Stoney people.",
+    "coordinates": [-115.276119, 51.062842],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/KFbHx-jduws?si=IpEgy6vTFzxCDL-u",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/b647ff76-e29d-438c-85c3-5f9b64e5ce32/thumbnails/Cement%20Factory_tumb.0000001.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-03h-the-railway",
+    "title": "The Railway",
+    "description": "Elder Lawrence talks about the railway as it goes through Stoney Territory. ",
+    "coordinates": [-115.151605, 51.019646],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/NvR7dT83UKE?si=MWipJUoMutYdAGzY",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/55aaaa60-b4e8-4a17-8e57-a160624b63a7/thumbnails/Railway_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-04h-using-land-for-protection",
+    "title": "Using Land For Protection",
+    "description": "Learn how the Stoney people used the land for protection.",
+    "coordinates": [-114.941348, 51.054147],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/ZqpwZ1irYFY?si=sdiru7LP4nhu6jox",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/ec2fe1f5-06e1-47b5-b9c4-7ca8e985e17d/thumbnails/Using%20Land%20for%20Protection_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-05h-glaciers",
+    "title": "Glaciers",
+    "description": "Elder Margaret talks about her experience on the Columbia Ice field and what she thinks should be done.",
+    "coordinates": [-116.400787, 51.640221],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/IxZgkmJnYrw?si=2haLY-beyIpsZQ5W",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/88e5ec8f-5109-493e-a3ba-94c10f630a08/thumbnails/Glaciers_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-06h-creator-story",
+    "title": "Creator Story",
+    "description": "According to the Stoney, Jasper down to the US is their land.  This is where creator put them.",
+    "coordinates": [-115.118069, 51.120761],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/HKy3Sb2u-Mk?si=FUDzF1rx4dzmQzKz",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/7d5e3424-03c7-40c0-b1f6-e26ef8dd99ec/thumbnails/Creator Story_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-07h-reclimatizing",
+    "title": "Reclimatizing in the Sibbald",
+    "description": "Travis discusses how the Sibbald area was used by the Stoney people to reacclimatize back to Mountain elevations after travelling south. ",
+    "coordinates": [-114.941348, 51.354147],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/PYuxiSw06jM?si=ZT9Il2CxUSq80vc7",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/b88daa80-37fc-4079-869a-7f9f5a0fdb96/thumbnails/Reclimatizing_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-08h-before-treaty",
+    "title": "Before Treaty",
+    "description": "Elder Margaret is asked to describe the Stoney people before Treaty was signed.",
+    "coordinates": [-115.118069, 51.130761],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/tuNheHwbU7c?si=uTlYq-LqELvWmpuf",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/a9b99252-a854-4a77-aaa2-f7fe43a1a6c1/thumbnails/Before%20Treaty_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-09h-life-of-a-stoney-0boy",
+    "title": "Life Of A Stoney Boy",
+    "description": "Listen to Elder Terry tell a story from his youth.",
+    "coordinates": [-115.118069, 51.140761],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/2CaTbIIOHNE?si=yevh87KVNQY-uCua",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/cc961a95-b604-4cba-9c34-993437f3f823/thumbnails/Life%20of%20a%20Stoney%20Boy_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-010h-bringing-back-the-bison",
+    "title": "Bringing Back the Bison",
+    "description": "Travis talks about reintroducing Bison back on the landscape.",
+    "coordinates": [-114.941348, 51.059147],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/Y5ib6lh4HLE?si=p3HpiNYvKy9rFqPT",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/09bee351-3a94-49b1-9a86-a4978e7c53cd/thumbnails/Bring%20Back%20Bison_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-011h-yamnuska-meaning",
+    "title": "Yamnuska Meaning",
+    "description": "Lean how this iconic mountain in the Alberta Rocky Mountains got it's name.",
+    "coordinates": [-115.118069, 51.150761],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/GX0PKaCqJiI?si=lL2dqXTkoa-tjh3r",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/6735981d-73e2-4ca4-8239-31f2a45921d5/thumbnails/Yamnuska%20Meaning_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-012h-cougar-story",
+    "title": "Cougar Story",
+    "description": "Elder Lawrence talks about how Cougar Mountain got its name. ",
+    "coordinates": [-114.89722, 50.67361],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/9269H-WWRBg?si=DX65Ftlw44R5YvbW",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/ea8539b2-f1e7-4b50-bd6b-b41af7d06c94/thumbnails/Cougar%20Story_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-013h-food-and-camp",
+    "title": "Food and Camp",
+    "description": "How did the Stoney people survive off the land, especially in the winter?  Watch to find out.",
+    "coordinates": [-115.118069, 51.160761],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/s1NAu1rTZzQ?si=8RolJGkfnYz5Bm06",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/1821b035-16d6-461d-ab1f-9341cd6124be/thumbnails/Food%20and%20Camp_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-014h-concept-of-time",
+    "title": "Concept of Time",
+    "description": "Travis talks about differences in the concept of time. The oral tradition says \"Back in time\".  Stoney used the surroundings and animals to tell time, seasons and the weather. \"The Sky was the clock, the moon, the stars.\"",
+    "coordinates": [-115.118069, 51.010761],
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=8Rxut4EAyYg",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/16e0288c-1b7e-4323-8470-91ed4f317b65/thumbnails/Concept%20of%20Time_tumb.0000000.jpg",
+      "is360": false
+    },
+    "observedTime": 1705966403883,
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-015h-what-will-land-look-like",
+    "title": "What Will Land Look Like In The Future",
+    "description": "What is your hope for the future?",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/UpJUo8M5Bck?si=PHyuoBHHtza4vsmy",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/695381a7-7628-4818-990f-89d3211aa303/thumbnails/What%20Will%20Land%20Look%20Like%20in%20Future_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-016h-great-depression",
+    "title": "Great Depression",
+    "description": "Elder Lawrence talks about the Stoney experience during the Great Depression. ",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/57vkAX541xY?si=pygUdIJEajIdovUC",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/f6e8f0b0-7db4-4bc4-b13e-81a31217b801/thumbnails/Great%20Depression_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-017h-water-now-and-future",
+    "title": "Water - Now and The Future",
+    "description": "Listen to Elder Margaret talk about the importance of Water to the Stoney People and to everyone.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=oG-PuCO-h7I&list=PLvZi8sQT8o8MTHACtzLmHa69Eln1AiDsn",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/91762971-98d6-4e2a-91d0-8cce43dfb69f/thumbnails/Water%20-%20now%20and%20future_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-018h-stoney-0voice-at-table",
+    "title": "Stoney Voice At The Table",
+    "description": "Land Use planning in Alberta needs to include a Stoney Voice.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/kuFB4CrTufw?si=rVjuYL9xCxY5HwVm",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/1bd74c11-faa1-41f4-8d12-cab9e5b0767c/thumbnails/Stoney%20Voice%20at%20the%20Table_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-019h-fishing-on-the-bow",
+    "title": "Fishing On The Bow",
+    "description": "The Stoney used to use the fish from the Bow River, but they don't eat the fish anymore. They enjoy the river but they don't eat the fish.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/vN_X59jznLE?si=qs742rPJ9WvbOe1y",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/e9bd9064-c34e-4769-a3c3-8d702623d91b/thumbnails/Fishing%20on%20the%20Bow_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-020h-tornado",
+    "title": "Tornado",
+    "description": "Travis talks about how he was taught to survive a Tornado on Stoney territory.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/Yhx8ylh81EM?si=gPY1Fj7h65WvWSk1",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/5d37a660-4f5b-40b7-badc-9bbf98077e92/thumbnails/Tornado_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-021h-using-the-land",
+    "title": "Using The Land",
+    "description": "Listen to Elders talk about how the Stoney people used the land.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/yz52Ysp_meQ?si=2uYyt4W4Qjq31z2N",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/a7edc400-3c29-48bb-bcc6-296883adc89c/thumbnails/Using%20the%20Land_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-022h-moose-story",
+    "title": "Moose Story",
+    "description": "Moose in Stoney Territory. Are there as many now as there were in the past? ",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/rb0WIzUHnYw?si=r438JuVzkL4PxsaR",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/18212f4c-ba95-443b-9a9c-8cea0186f22a/thumbnails/Moose%20Story_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-023h-land-use-and-wildlife",
+    "title": "Land Use and Wildlife",
+    "description": "Travis talks about how wildlife populations have changed on Stoney territory and what needs to be done to protect from further loss.  \"We are coming into the home of the four legged and winged ones and need to be mindful of what we're doing\".",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/d_wKqUZMaTk?si=3dnMMNcSOKg8pW5X",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/4682cb45-4133-437f-b341-98c1a7254a06/thumbnails/Land%20Use%20wildlife_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-024h-protected-areas",
+    "title": "Protected Areas",
+    "description": "The Sibbald area is an area used for camping and recreation but does that compatible with the Stoney Traditional Land Uses?",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/IuvVMb1y0oU?si=mka-5Q1s3IP_kDPU",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/eb6c9fb2-43cb-4c4c-bc42-d08c1228837b/thumbnails/Protected%20Areas_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-25h-reconcili-action",
+    "title": "Reconcili-ACTION",
+    "description": "Elder Terry talks about the need for ReconciliACTION after Reconciliation.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/P65TspAOwrU?si=JEA8buNzlAZus7Jl",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/a84b6134-084c-4223-b8eb-ace6e197e71e/thumbnails/ReconciliACTION_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-26h-first-contact",
+    "title": "First Contact With Settlers",
+    "description": "Travis recalls stories of Stoney encountering Settlers for the first time.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/7pI3iyUuhK0?si=Y-8Gc_UmAStwrK1Y",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/cdf75db1-7b00-473f-bf7c-927b33b3589a/thumbnails/First%20Contact%20w%20Settlers_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-027h-access-to-land",
+    "title": "Access To Land - Sibbald Flats",
+    "description": "Listen to Elders talk about the  importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=4ZixFCSIMww",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/8fd91908-cba7-4774-9faa-113d7c686c01/thumbnails/Access%20to%20Land%20-%20Sibbald%20Flats_tumb.0000000.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "stoney-28h-introductions",
+    "title": "Introductions",
+    "description": "Meet the Elders from the Stoney Nakoda Nation who made this video series possible.",
+    "category": "Stoney Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "lessonPlans": [],
+    "media": {
+      "url": "https://youtu.be/E1vzAxvrgR4?si=vCtjAcHbtMPzJsNf",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/0b286b2d-05fe-4d19-b923-da03d9afd668/thumbnails/Introductions_tumb.0000001.jpg",
+      "is360": false
+    },
+    "hashtags": [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ]
+  },
+  {
+    "id": "bfv-01i-blackfoot-perspective-on-water",
+    "title": "A Blackfoot Perspective on Water",
+    "description": "A video sharing the Blackfoot perspective on water and its significance in Indigenous culture and the environment.",
+    "coordinates": [-112.451303187115, 50.7773794857638],
+    "lessonPlans": [],
+    "category": "Blackfoot Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=r-NzlnMgDj4",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/thumb-a-blackfoot-perspective.jpg",
+      "is360": true
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "blackfoot",
+      "indigenous-voices",
+      "traditional-ecological-knowledge",
+      "water",
+      "culture",
+      "land-stewardship"
+    ]
+  },
+  {
+    "id": "poi-01j-investigating-a-fish-kill",
+    "title": "Investigating a Fish Kill",
+    "description": "Michael Sullivan, provincial fish science specialist with Alberta Fish and Wildlife talks at Lake Isle where thousands of sucker fish are poking their heads out of the water literally gasping for air because of oxygen deficiency in the water in this video from March 2014.",
+    "coordinates": [-114.7121597, 53.63705],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=PD8FnEmi-l0",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/michael_sullivan_isle_lake_fish_kill.jpg",
+      "is360": false
+    },
+    "observedTime": 1394823600000,
+    "hashtags": [
+      "water-quality",
+      "ab-water",
+      "land-use",
+      "eutrophication",
+      "fish-kill",
+      "ab-environment"
+    ]
+  },
+  {
+    "id": "poi-02j-native-trout-in-alberta",
+    "title": "Native Trout in Alberta",
+    "description": "Watch this recording of a LiveStream presented by CPAWS SAB, Trout Unlimited and Cows and Fish to learn about Native Trout in Alberta.",
+    "coordinates": [-114.512955482442, 50.2811422076919],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=lztrWhXpnHg",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/7e1583c8-8c39-47f1-89ad-12c7433c8798/thumbnails/obs_7db174da-e122-4667-82c8-824f6787c863_tumb.0000514.jpg",
+      "is360": false
+    },
+    "observedTime": 1595618236362,
+    "hashtags": [
+      "water-quality",
+      "native-trout",
+      "cpaws",
+      "trout-unlimited",
+      "recreation",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "poi-03j-athabasca-sand-dunes-ecological-reserve",
+    "title": "Athabasca Sand Dunes Ecological Reserve",
+    "description": "Open, moving sand dunes surrounded by lakes.",
+    "coordinates": [-110.890522492206, 58.1724406071253],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=KrkcyfUn274",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_AthabascaSandDunes.jpg",
+      "is360": false
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "athabasca",
+      "sand",
+      "dunes",
+      "ecological-reserve"
+    ]
+  },
+  {
+    "id": "poi-04j-writing-on-stone-provincial-park",
+    "title": "Writing on Stone Provincial Park",
+    "description": "Learn about the landforms and the significance of the area to the Blackfoot people.",
+    "coordinates": [-111.634235450563, 49.0679406759587],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=-MJXlSxkka8",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_WritingOnStone.jpg",
+      "is360": false
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "writing-on-stone",
+      "petroglyphs",
+      "milk-river",
+      "blackfoot"
+    ]
+  },
+  {
+    "id": "poi-05j-hanging-culvert",
+    "title": "Hanging Culvert",
+    "description": "Listen to this fisheries biologist explain what a hanging culvert is in the upper reaches of the Red Deer River Watershed.",
+    "coordinates": [-115.348382939017, 51.6563101205077],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=r-_LsSi7FJ0",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_HangingCulvert.jpg",
+      "is360": false
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "culvert",
+      "stream-crossing",
+      "fish",
+      "watershed",
+      "roads"
+    ]
+  },
+  {
+    "id": "poi-06j-forest-attack-mountain-pine-beetle",
+    "title": "Forest Attack - Mountain Pine Beetle",
+    "description": "Follow biologists as they look for trees attacked by Mountain Pine Beetles.",
+    "coordinates": [-119.163818359374, 54.4791644089667],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=3ojS4z9Z68c",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_PineBeetle.jpg",
+      "is360": false
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "forests",
+      "pine-beetle",
+      "infestation",
+      "biology"
+    ]
+  },
+  {
+    "id": "poi-07j-grassland-restoration",
+    "title": "Grassland Restoration",
+    "description": "This ranch south of Manyberries is an Alberta Conservation Association site.",
+    "coordinates": [-110.69863851935, 49.393004839243],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=u1qMoL3V61g",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_GrasslandRestoration.jpg",
+      "is360": false
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "grassland",
+      "restoration",
+      "ranching",
+      "conservation"
+    ]
+  },
+  {
+    "id": "poi-08j-beneath-the-surface-water-monitoring",
+    "title": "Beneath the Surface: Water Monitoring in the Ghost Watershed",
+    "description": "Peek into a bucket of bugs and see why these aquatic invertebrates are indicators of water quality.",
+    "coordinates": [-114.837199666604, 51.2824961157799],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=KdEN85OgG4o",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/gwas-ghost-waiparous.jpg",
+      "is360": false
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "water",
+      "ghost-watershed",
+      "monitoring",
+      "aquatic-invertebrates"
+    ]
+  },
+  {
+    "id": "poi-09j-finding-water-healthy-land-stream",
+    "title": "Finding Water: Healthy Land, Healthy Stream",
+    "description": "A documentary video on the sources of Canada’s prairie rivers and their vulnerability to land use.",
+    "coordinates": [-114.359536, 49.865747],
+    "lessonPlans": [],
+    "category": "Points of Interest",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=E2wYNZJ-tC4",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/livingstone_findingwater.jpg",
+      "is360": false
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "prairie-rivers",
+      "stream-health",
+      "land-use",
+      "canadian-water"
+    ]
+  },
+  {
+    "id": "oth-01z-oxygen-isotopes",
+    "title": "Oxygen Isotopes and the Paleoclimate Record",
+    "description": "A brief explanation of oxygen isotopes, and how the oxygen isotope signal can be used to study past climates.",
+    "lessonPlans": [],
+    "category": "Other Videos",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=YfRDNyB1XOY",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/oxygenisotopes.jpg",
+      "is360": true
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "oxygen-isotopes",
+      "paleoclimate",
+      "climate-change",
+      "climate-science",
+      "isotope-geochemistry",
+      "land-stewardship",
+      "Paleoclimate"
+    ]
+  },
+  {
+    "id": "oth-02z-hydrolysis-and-the-faint-young-sun-paradox",
+    "title": "Hydrolysis and the Faint Young Sun Paradox",
+    "description": "The chemical weathering of continental rocks (hydrolysis) removes CO2 from the atmosphere over geologic time. Could this explain why the Earth was not frozen in its early history when the sun was very faint?",
+    "lessonPlans": [],
+    "category": "Other Videos",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=rEeixDNVjeE",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/oxygenisotopes.jpg",
+      "is360": true
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "hydrolysis",
+      "faint-young-sun-paradox",
+      "climate-change",
+      "climate-science",
+      "isotope-geochemistry",
+      "land-stewardship",
+      "Paleoclimate"
+    ]
+  },
+  {
+    "id": "oth-03z-intro-360-virtual-field-trips",
+    "title": "Introducing Alberta Tomorrow’s 360 Virtual Field Trips",
+    "description": "The time has finally come! Check out the 360 Virtual Field Trips to Alberta's Ecoregions!  1 for each ecoregion exploring the plants, animals, geology, landforms, climate, land uses and species at risk! Register for your Alberta Tomorrow account at www.albertatomorrow.ca to gain access TODAY!",
+    "lessonPlans": [],
+    "category": "Other Videos",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "media": {
+      "url": "https://www.youtube.com/watch?v=rL13Xz_x2dA",
+      "thumbUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/virtualToursEcoRegions.jpg",
+      "is360": true
+    },
+    "observedTime": 1607104608043,
+    "hashtags": [
+      "360-virtual-field-trips",
+      "ecoregions",
+      "climate-change",
+      "climate-science",
+      "isotope-geochemistry",
+      "land-stewardship",
+      "Paleoclimate"
+    ]
+  }
+]

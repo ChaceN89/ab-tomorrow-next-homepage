@@ -157,6 +157,7 @@ export default function MediaFrame({
             )
           ) &&  
             <Image
+              unoptimized
               src={imgSrc || '/ui-elements/placeholder.jpg'}
               alt={alt}
               fill

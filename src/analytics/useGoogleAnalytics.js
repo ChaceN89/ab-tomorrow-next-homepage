@@ -30,29 +30,25 @@ import ReactGA from 'react-ga4'
 const trackingId = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "YOUR_GA_ID"
 const appVersion = process.env.NEXT_PUBLIC_APP_VERSION || "No Version Specified"
 
+let initialized = false
+
 const useGoogleAnalytics = () => {
   useEffect(() => {
-    if (process.env.NODE_ENV === "development" || !trackingId) { // don't track in development 
-
-      console.log("Development mode: Google Analytics initialization disabled")
+    if (
+      process.env.NODE_ENV === "development" || 
+      !trackingId || 
+      initialized
+    ) {
       return
-    } 
+    }
 
-    // initialize Google Analytics on client side on inital page load
     try {
-      ReactGA.initialize([
-        {
-          trackingId,
-          gaOptions: { 
-            anonymizeIp: true, // privacy compliance 
-          },
-        },
-      ])
-      ReactGA.set({ app_version: appVersion }) // set the app version as a default option
-
+      ReactGA.initialize([{ trackingId, gaOptions: { anonymizeIp: true } }])
+      ReactGA.set({ app_version: appVersion })
+      initialized = true
       console.log("✅ Google Analytics initialized")
     } catch (error) {
-      console.error("❌ Error initializing Google Analytics", error)
+      console.error("❌ GA init error", error)
     }
   }, [])
 

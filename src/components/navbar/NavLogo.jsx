@@ -17,6 +17,7 @@ export default function NavLogo() {
   return (
     <div className='flex justify-between items-center gap-2 hover:opacity-80 mr-nav pl-2 lg:pl-0'>
       <Image
+        unoptimized
         src="/site-logos/logo-sm.png"
         alt="Logo"
         width={32}

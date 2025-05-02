@@ -34,6 +34,7 @@ export default function PartnerShowcase({ partners, title, showDescriptions = fa
         {partner.logo ? (
           <Tooltip text={partner.name} openDuration={500}>
             <Image
+              unoptimized
               src={`/partners/${partner.logo}`}
               alt={partner.name}
               fill

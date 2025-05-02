@@ -31,6 +31,7 @@ export default function EventCard({ event }) {
               src={`/webinar-events/${event.image}`}
               alt={event.title}
               fill
+              unoptimized
               className={`object-cover rounded-lg transition-opacity duration-500 ${
                 imageLoaded ? "opacity-100" : "opacity-0"
               }`}

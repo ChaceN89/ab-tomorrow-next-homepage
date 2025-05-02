@@ -27,6 +27,7 @@ export default function SplashScreen({ errorMsg = false, errorText = null, error
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center flex-grow bg-primary">
         <Image
+          unoptimized
           src="/site-logos/splash.png"
           alt="Site Logo"
           width={128}

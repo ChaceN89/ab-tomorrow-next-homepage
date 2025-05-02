@@ -28,6 +28,7 @@ export default function SupportUs() {
       <div className="mt-4 flex gap-2 justify-start items-center">
         <DonateButton footer />
         <Image
+          unoptimized
           src="/external-logos/1ftp-EnvironmentalPartner-horizontal-FullColor.png"
           alt="Environmental Partner Logo"
           width={160} // adjust to your preference

@@ -32,10 +32,24 @@ export default function ModalLessonPlan({ id }) {
     } else {
       const fetchPlan = async () => {
         try {
-          const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/lesson-plans/${id}`);
-          if (!res.ok) throw new Error(`Error fetching lesson plan: ${res.statusText}`);
-          const data = await res.json();
-          setPlan(data);
+          const res = await fetch('/api-static-data/lesson-plans.json');
+          if (!res.ok) throw new Error(`Error fetching lesson plans: ${res.statusText}`);
+      
+          const allPlans = await res.json();
+          const matchedPlan = allPlans.find((p) => String(p.id) === String(id));
+      
+          if (!matchedPlan) throw new Error("Lesson plan not found");
+      
+          setPlan(matchedPlan);
+
+          // API version for when API is created and deployed
+
+          // const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/lesson-plans/${id}`);
+          // if (!res.ok) throw new Error(`Error fetching lesson plan: ${res.statusText}`);
+          // const data = await res.json();
+          // setPlan(data);
+
+
         } catch (err) {
           console.error("❌ Failed to fetch lesson plan:", err);
           setPlan(null);

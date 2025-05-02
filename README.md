@@ -56,6 +56,7 @@ This is the homepage for **Alberta Tomorrow**, an educational initiative that in
 npm run dev       # Start the development server
 npm run build     # Build the project for production
 npm run start     # Start the production server
+npx serve out  # Start the production server when next.config has "output: 'export',"
 ```
 
 ### 🌍 Environment Configuration

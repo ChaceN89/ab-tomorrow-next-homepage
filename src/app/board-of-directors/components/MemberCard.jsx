@@ -53,6 +53,7 @@ export default  function MemberCard({ member }) {
           src={`/board-of-directors/${member.image}`}
           alt={member.name}
           fill
+          unoptimized
           className={`w-full h-full object-cover object-top z-10 transition-all duration-500 ease-in-out rounded-[50%] group-hover:rounded-[1rem] ${
             isLoaded ? "opacity-100" : "opacity-0  "
           }`}

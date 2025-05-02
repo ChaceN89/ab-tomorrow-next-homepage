@@ -45,16 +45,25 @@ export default function ModalVideo({ id, preventExpand = true }) {
       const fetchVideo = async () => {
         try {
 
-          console.log("data being fetched 1")
-          const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/videos/${id}`);
+          // Temp Data Fetch until API is created and deployed
+          const res = await fetch('/api-static-data/videos.json');
+          if (!res.ok) throw new Error(`Error fetching videos: ${res.statusText}`);
+      
+          const allVideos = await res.json();
+          const matchedVideo = allVideos.find((v) => String(v.id) === String(id));
+      
+          if (!matchedVideo) throw new Error("Video not found");
+      
+          setVideo(matchedVideo);
 
-          console.log("data being fetched 2")
-          if (!res.ok) {
-            throw new Error(`Error fetching video: ${res.statusText}`);
-          }
-          const data = await res.json();
-          console.log("data fetched 2", data)
-          setVideo(data);
+          // API version for when API is created and deployed
+          // const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/videos/${id}`);
+
+          // if (!res.ok) {
+          //   throw new Error(`Error fetching video: ${res.statusText}`);
+          // }
+          // const data = await res.json();
+          // setVideo(data);
 
         } catch (err) {
 

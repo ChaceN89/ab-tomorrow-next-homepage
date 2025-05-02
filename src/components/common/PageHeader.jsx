@@ -22,6 +22,7 @@ export default function PageHeader({ title, subtitle }) {
       <div className="flex flex-col sm:flex-row sm:items-end gap-4 white-shadow">
         <div className="hidden sm:block">
           <Image
+            unoptimized
             src={"/site-logos/logo-lg.png"}
             alt="Alberta Tomorrow Logo"
             width={64}

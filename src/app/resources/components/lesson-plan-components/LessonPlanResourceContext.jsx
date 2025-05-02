@@ -34,7 +34,13 @@ export function LessonPlanResourceProvider({ children }) {
 
     setLoading(true);
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/lesson-plans`);
+      // Temp Local JSon until API is created and deployed
+      const res = await fetch(`/api-static-data/lesson-plans.json`);
+
+      // API version for when API is created and deployed
+      // const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/lesson-plans`);
+      
+      
       if (!res.ok) throw new Error("Failed to fetch lesson plans");
 
       const data = await res.json();

@@ -38,6 +38,7 @@ export default function Hero() {
         <div className="flex justify-center items-center gap-3 sm:gap-12 md:gap-20 lg:gap-32">
           {heroData.awards.map((award, index) => (
             <Image
+              unoptimized
               key={index}
               src={award.src}
               alt={award.alt}

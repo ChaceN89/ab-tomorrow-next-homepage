@@ -31,6 +31,7 @@ export default function CallToAction() {
         {/* Side Image (hidden on mobile) */}
         <div className="hidden lg:flex justify-center items-center">
           <Image
+            unoptimized
             src={callToActionData.sideImage}
             alt="Alberta Watersheds"
             width={400}
@@ -51,6 +52,7 @@ export default function CallToAction() {
             {/* Quote Icon */}
             <div className="hidden md:block shrink-0 mt-1">
               <Image
+                unoptimized
                 src={callToActionData.quoteIcon}
                 alt="Quote Icon"
                 width={32}
