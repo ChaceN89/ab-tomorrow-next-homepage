@@ -38,7 +38,7 @@ export const boardOfDirectors = [
   },
   {
     name: "Crystal Damer",
-    title: "Executive Director",
+    title: "Board Member",
     image: "crystal-damer.jpeg",
     bio: "Crystal is a retired Assistant Deputy Minister with the Government of Alberta after having served the public for more than 28 years. In 2021, she started her second career providing advisory and management consulting services primarily related to land-use planning and policy development. She was the Executive Director of the Land Use Secretariat, leading major regional planning efforts in Alberta."
   },

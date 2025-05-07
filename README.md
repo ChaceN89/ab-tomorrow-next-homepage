@@ -23,6 +23,7 @@ This is the homepage for **Alberta Tomorrow**, an educational initiative that in
 - [📊 Google Analytics Integration](#📊-google-analytics-integration)
 - [🚧 Future Plans](#🚧-future-plans)
 - [👤 Author & Contact](#👤-author--contact)
+- [🚀 Deployment](#🚀-deployment)
 
 <br>
 
@@ -254,3 +255,39 @@ Developed and maintained by **Chace Nielson**
 📧 Email: [chacenielson@gmail.com](mailto:chacenielson@gmail.com)
 
 Feel free to reach out for questions, collaboration, or feedback!
+
+## 🚀 Deployment
+
+To build, preview, and deploy the project:
+
+### 🔧 Local Build & Preview
+
+```bash
+npm run build     # Builds the production-ready version
+npm run start     # Starts a local preview server
+```
+
+### 🌐 Staging (GitHub)
+
+Push to the appropriate GitHub branch to trigger updates on the staging server (if configured via CI/CD).
+
+### ☁️ AWS Deployment
+
+1. Ensure your AWS credentials and region are configured correctly.
+2. Create a `.env.deploy` file in the project root with the following environment variables:
+
+```env
+BUCKET_NAME=your-bucket-name
+DISTRIBUTION_ID=your-cloudfront-distribution-id
+```
+
+3. Run the deploy script:
+
+```bash
+make publish
+```
+
+This will:
+- Export the site
+- Sync the `out/` directory to the S3 bucket
+- Trigger a CloudFront cache invalidation
