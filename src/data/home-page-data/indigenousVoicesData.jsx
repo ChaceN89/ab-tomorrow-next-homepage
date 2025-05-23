@@ -82,7 +82,7 @@ export const indigenousVoicesData = {
     text: 
       <div className="space-y-4">
         <p>
-          We acknowledge that Alberta is the traditional territory of many Indigenous Peoples, including the First Nations of Treaties 6, 7, and 8, the Métis Nation of Alberta (Regions 1–6), and the diverse communities who have cared for these lands for generations.
+          We acknowledge that Alberta is the traditional territory of many Indigenous Peoples, including the First Nations of Treaties 4, 6, 7, 8 and 10, the Otipemisiwak and the diverse communities who have cared for these lands for generations.
         </p>
         <p>
           We honor their deep connections to the land, water, and environment, and recognize their enduring cultures, languages, and traditions. We also thank the many Indigenous communities and individuals who have generously shared their knowledge, time, and stories in support of this project.

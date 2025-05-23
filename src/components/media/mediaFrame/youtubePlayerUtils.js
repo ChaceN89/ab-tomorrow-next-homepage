@@ -43,12 +43,14 @@ export function unmountYouTubePlayer(playerRef) {
   if (!playerRef?.current) return;
 
   try {
-    if (typeof playerRef.current.pauseVideo === "function") {
-      playerRef.current.pauseVideo();
-    }
+    // Stop playback
+    playerRef.current.stopVideo?.();   // Preferred: stops and resets
+    playerRef.current.pauseVideo?.();  // Backup: just pause
+    playerRef.current.destroy?.();     // ✅ Fully removes the iframe
   } catch (err) {
-    console.warn("🎬 Failed to pause video on unmount:", err);
+    console.warn("🎬 Failed to destroy YouTube player on unmount:", err);
   }
 
+  // Ensure the ref is cleared
   playerRef.current = null;
 }
