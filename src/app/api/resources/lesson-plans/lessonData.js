@@ -20,7 +20,7 @@ import { EnergyLessons } from "./lessonThemes/g-energyLessons";
 // ======= Aggregated lessons =======
 export const allLessons = [
   ...GlaciersAndWatershedsLessons, // 5 lesssons
-  ...AlbertNaturalRegions, // 3 lessons
+  ...AlbertNaturalRegions, // 6 lessons
   ...ClimateLessons, // 3 lessons
   ...IndigenousVoicesLessons, // 2 lessons
   ...LandUseLessons, // 9 lessons
@@ -28,5 +28,5 @@ export const allLessons = [
   ...EnergyLessons, // 2 lessons
 
 
-  // 35 lessons total
+  // 36 lessons total
 ];

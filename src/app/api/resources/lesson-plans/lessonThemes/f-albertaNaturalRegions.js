@@ -14,6 +14,7 @@
  * - Plant and Animal Adaptations - Using the 360 Virtual Field Trips
  * - Alberta’s Natural Resources
  * - Alberta’s Natural Regions
+ * - Alberta's Ecosystem Diversity
  *
  * @author Chace Nielson
  * @created Apr 13, 2025
@@ -24,7 +25,7 @@ import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";
 
 export const AlbertNaturalRegions = [
   { // Lesson 1 - 360 Virtual Field Trips to Alberta's 6 Ecoregions
-    id: "ab360-tours-01-virtual-field-trips-ecoregions",
+    id: "abRegions-01-virtual-field-trips-ecoregions",
     title: "360 Virtual Field Trips to Alberta's 6 Ecoregions",
     provider: {
       name: "Alberta Tomorrow",
@@ -97,7 +98,7 @@ export const AlbertNaturalRegions = [
     relatedUrls: []
   },
   { // Lesson 2 - Animal Adaptations - Using the 360 Virtual Field Trips
-    id: "ab360-tours-02-animal-adaptations",
+    id: "abRegions-02-animal-adaptations",
     title: "Animal Adpatations - Using the 360 Virtual Field Trips",
     provider: {
       name: "Alberta Tomorrow",
@@ -134,7 +135,7 @@ export const AlbertNaturalRegions = [
     relatedUrls: []
   },
   { // Lesson 3 - Plant and Animal Adaptations - Using the 360 Virtual Field Trips
-    id: "ab360-tours-03-plant-animal-adaptations",
+    id: "abRegions-03-plant-animal-adaptations",
     title: "Plant and Animal Adaptations - Using the 360 Virtual Field Trips",
     provider: {
       name: "Alberta Tomorrow",
@@ -175,7 +176,7 @@ export const AlbertNaturalRegions = [
     relatedUrls: []
   },
   { //Lesson 4 Alberta Natural Resoucres
-    id: "ab360-tours-04-natural-resources",
+    id: "abRegions-04-natural-resources",
     title: "Alberta’s Natural Resources",
     provider: {
       name: "Alberta Tomorrow",
@@ -223,7 +224,7 @@ export const AlbertNaturalRegions = [
     relatedUrls: []
   },
   {// Lesson 5 - Alberta's Natural Regions
-    id: "ab360-tours-05-alberta-natural-regions",
+    id: "abRegions-05-alberta-natural-regions",
     title: "Alberta’s Natural Regions",
     provider: {
       name: "Alberta Tomorrow",
@@ -258,6 +259,46 @@ export const AlbertNaturalRegions = [
       "poi-03j-athabasca-sand-dunes-ecological-reserve"
     ],
     relatedUrls: []
+  },
+  { // Lesson - Alberta's Ecosystem Diversity
+    id: "abRegions-06-ecosystem-diversity",
+    title: "Alberta's Ecosystem Diversity",
+    provider: {
+      name: "Alberta Tomorrow",
+      link: "https://www.albertatomorrow.ca"
+    },
+    theme: Theme.AB_NATURAL_REGIONS,
+    tools: [AssociatedTool.SIMULATOR],
+    description:
+      "In this activity, students explore Alberta’s ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
+    approximateTime: "2–3 x 45 min classes",
+    files: [
+      {
+        title: "Alberta's Ecosystem Diversity ",
+        description: "",
+        link: "https://docs.google.com/document/d/1zFJMnLFr8H2mBVgnX_52c2l6XonAQ32PC6FH_O_VT90/edit?tab=t.0" 
+      }
+    ],
+    grades: [Grade.GRADE_6],
+    subjects: [Subject.SCIENCE],
+    tags: [
+      "Ecosystems", "Biodiversity", "Abiotic and Biotic Factors", "Alberta", "Virtual Tours",
+      "Grasslands", "Wetlands", "Forests", "Climate Change", "Carbon Sink", "Ecosystem Comparison"
+    ],
+    learningOutcomes: [
+      "Compare the characteristics of two Alberta ecosystems.",
+      "Describe the role of abiotic and biotic factors in ecosystems.",
+      "Identify factors that influence plant and animal diversity.",
+      "Understand how ecosystems interact with greenhouse gases and carbon storage."
+    ],
+    videos: [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-06c-greenhouse-gasses",
+      "landscape-01b-climate-change"
+    ],
+    relatedUrls: []
   }
+
 ];
 

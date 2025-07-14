@@ -12,7 +12,7 @@ export const Theme ={
   GLACIERS_AND_WATERSHEDS: "Glaciers/Watersheds",
   CLIMATE_CHANGE: "Climate Change",
   LAND_USE: "Land Use",
-  AB_NATURAL_REGIONS: "Alberta Natural Regions",
+  AB_NATURAL_REGIONS: "Alberta Natural Regions & Ecosystems",
   INDIGENOUS_VOICES: "Indigenous Voices",
   BOW_RIVER_WATERSHED: "Bow River Watershed",
   ENERGY: "Energy",
