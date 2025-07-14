@@ -5,7 +5,7 @@
  *
  * @author Chace Nielson
  * @created Apr 10, 2025
- * @updated Apr 10, 2025
+ * @updated July 14, 2025
  */
 
 
@@ -14,12 +14,12 @@ import { GlaciersAndWatershedsLessons } from "./lessonThemes/b-glaciersAndWaters
 import { LandUseLessons } from "./lessonThemes/c-landUseLessons";
 import { IndigenousVoicesLessons } from "./lessonThemes/d-indigenousVoicesLessons";
 import { BowRiverWatershedLessons } from "./lessonThemes/e-bowRiverWatershedLessons";
-import { NaturalRegions360Lessons } from "./lessonThemes/f-naturalRegions360Lessons";
+import { AlbertNaturalRegions } from "./lessonThemes/f-albertaNaturalRegions"; // previously named NaturalRegions360Lessons
 
 // ======= Aggregated lessons =======
 export const allLessons = [
   ...GlaciersAndWatershedsLessons, // 5 lesssons
-  ...NaturalRegions360Lessons, // 3 lessons
+  ...AlbertNaturalRegions, // 3 lessons
   ...ClimateLessons, // 3 lessons
   ...IndigenousVoicesLessons, // 2 lessons
   ...LandUseLessons, // 9 lessons

@@ -8,10 +8,11 @@
  * @lessons
  * - Where is my Home? Using the Indigenous Map Overlays
  * - Exploring Collective Rights Using the Indigenous Voices Module
+ * - Mapping Indigenous Areas
  *
  * @author Chace Nielson
  * @created Apr 14, 2025
- * @updated Apr 14, 2025
+ * @updated July 14, 2025
  */
 import {Theme, Grade, Subject, AssociatedTool} from "../lessonPlanEnums";
 

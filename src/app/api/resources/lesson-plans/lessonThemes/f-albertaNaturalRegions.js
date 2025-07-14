@@ -1,32 +1,36 @@
 /**
  * @file NaturalRegions360Lessons.js
  * @module Data/LessonPlans/NaturalRegions360
- * @desc Structured lesson plan data for the "360 Virtual Field Trips to Alberta's Natural Regions" theme.
+ * @desc Structured lesson plan data for the "Alberta Natural Regions" theme.
  *
  * @see {@link ../lessonPlanEnums.js | lessonPlanEnums}
+ * 
+ * @notes 
+ *  previously named NaturalRegions360Lessons - from the simulator application list of lesson plans
  * 
  * @lessons
  * - 360 Virtual Field Trips to Alberta's 6 Ecoregions
  * - Animal Adaptations - Using the 360 Virtual Field Trips
  * - Plant and Animal Adaptations - Using the 360 Virtual Field Trips
+ * - Alberta’s Natural Resources
+ * - Alberta’s Natural Regions
  *
  * @author Chace Nielson
  * @created Apr 13, 2025
- * @updated Apr 13, 2025
+ * @updated July 14, 2025
  */
 
 import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";
 
-export const NaturalRegions360Lessons = [
-  {
-    // Lesson 1 - 360 Virtual Field Trips to Alberta's 6 Ecoregions
+export const AlbertNaturalRegions = [
+  { // Lesson 1 - 360 Virtual Field Trips to Alberta's 6 Ecoregions
     id: "ab360-tours-01-virtual-field-trips-ecoregions",
     title: "360 Virtual Field Trips to Alberta's 6 Ecoregions",
     provider: {
       name: "Alberta Tomorrow",
       link: "https://www.albertatomorrow.ca"
     },
-    theme: Theme.AB_NATURAL_REGIONS_360_TOURS,
+    theme: Theme.AB_NATURAL_REGIONS,
     tools: [AssociatedTool.SIMULATOR],
     description:
       "In this scavenger hunt lesson, students will learn about what makes each of Alberta's 6 ecoregions unique—identifying icons for geography, geology, soils, landforms, climate, plants, animals, natural resource use and interesting facts (including species at risk).",
@@ -92,15 +96,14 @@ export const NaturalRegions360Lessons = [
     ],
     relatedUrls: []
   },
-  {
-    // Lesson 2 - Animal Adaptations - Using the 360 Virtual Field Trips
+  { // Lesson 2 - Animal Adaptations - Using the 360 Virtual Field Trips
     id: "ab360-tours-02-animal-adaptations",
     title: "Animal Adpatations - Using the 360 Virtual Field Trips",
     provider: {
       name: "Alberta Tomorrow",
       link: "https://www.albertatomorrow.ca"
     },
-    theme: Theme.AB_NATURAL_REGIONS_360_TOURS,
+    theme: Theme.AB_NATURAL_REGIONS,
     tools: [AssociatedTool.SIMULATOR],
     description:
       "In this lesson students will explore animals in all 6 ecoregions within Alberta and learn about how they are specially adapted to living there.",
@@ -130,15 +133,14 @@ export const NaturalRegions360Lessons = [
     ],
     relatedUrls: []
   },
-  {
-    // Lesson 3 - Plant and Animal Adaptations - Using the 360 Virtual Field Trips
+  { // Lesson 3 - Plant and Animal Adaptations - Using the 360 Virtual Field Trips
     id: "ab360-tours-03-plant-animal-adaptations",
     title: "Plant and Animal Adaptations - Using the 360 Virtual Field Trips",
     provider: {
       name: "Alberta Tomorrow",
       link: "https://www.albertatomorrow.ca"
     },
-    theme: Theme.AB_NATURAL_REGIONS_360_TOURS,
+    theme: Theme.AB_NATURAL_REGIONS,
     tools: [AssociatedTool.SIMULATOR],
     description:
       "In this lesson students will explore the plants and animals in all 6 ecoregions within Alberta, learn how they are specially adapted to living there, what human activities affect their survival and which species are at risk in each ecoregion.",
@@ -179,7 +181,7 @@ export const NaturalRegions360Lessons = [
       name: "Alberta Tomorrow",
       link: "https://www.albertatomorrow.ca"
     },
-    theme: Theme.AB_NATURAL_REGIONS_360_TOURS,
+    theme: Theme.AB_NATURAL_REGIONS,
     tools: [AssociatedTool.SIMULATOR],
     description:
       "Students will investigate where different natural resources are located in Alberta and how they have influenced settlement, the environment and economy since 1910 to present, and how they may influence the province in the future.",
@@ -190,6 +192,11 @@ export const NaturalRegions360Lessons = [
         description: "",
         link: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?tab=t.0"
       },
+      {
+        title: "Student Worksheet",
+        description: "",
+        link: "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw/edit?tab=t.0"
+      }
 
     ],
     grades: [Grade.GRADE_3],
@@ -222,7 +229,7 @@ export const NaturalRegions360Lessons = [
       name: "Alberta Tomorrow",
       link: "https://www.albertatomorrow.ca"
     },
-    theme: Theme.AB_NATURAL_REGIONS_360_TOURS,
+    theme: Theme.AB_NATURAL_REGIONS,
     tools: [AssociatedTool.SIMULATOR],
     description:
       "In this activity, students will research and construct maps of Alberta’s Natural Regions.",
