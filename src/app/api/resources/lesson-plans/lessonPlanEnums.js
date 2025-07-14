@@ -15,7 +15,7 @@ export const Theme ={
   AB_NATURAL_REGIONS: "Alberta Natural Regions",
   INDIGENOUS_VOICES: "Indigenous Voices",
   BOW_RIVER_WATERSHED: "Bow River Watershed",
-  // ENERGY: "Energy",
+  ENERGY: "Energy",
 }
 
 export const Grade = {

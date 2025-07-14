@@ -236,7 +236,7 @@ export const AlbertNaturalRegions = [
     approximateTime: "3 x 45 min classes",
     files: [
       {
-        title: "360 Natural Regions of Alberta Scavenger Hunt",
+        title: "Alberta’s Natural Regions",
         link: "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE/edit?tab=t.0"
       }
     ],

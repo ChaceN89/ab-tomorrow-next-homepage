@@ -32,7 +32,7 @@ export default function LessonPlanFilter() {
         {loading
           ? "Loading lesson plans..."
           : numResults > 0
-          ? `${numResults} Lesson Plan${numResults > 1 ? "s" : ""}`
+          ? `${numResults} Lesson Plan${numResults > 1 ? "s" : ""} found`
           : "No lesson plans found"}
       </p>
 

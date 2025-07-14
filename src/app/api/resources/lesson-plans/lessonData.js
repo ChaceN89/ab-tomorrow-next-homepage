@@ -15,6 +15,7 @@ import { LandUseLessons } from "./lessonThemes/c-landUseLessons";
 import { IndigenousVoicesLessons } from "./lessonThemes/d-indigenousVoicesLessons";
 import { BowRiverWatershedLessons } from "./lessonThemes/e-bowRiverWatershedLessons";
 import { AlbertNaturalRegions } from "./lessonThemes/f-albertaNaturalRegions"; // previously named NaturalRegions360Lessons
+import { EnergyLessons } from "./lessonThemes/g-energyLessons";
 
 // ======= Aggregated lessons =======
 export const allLessons = [
@@ -23,7 +24,9 @@ export const allLessons = [
   ...ClimateLessons, // 3 lessons
   ...IndigenousVoicesLessons, // 2 lessons
   ...LandUseLessons, // 9 lessons
-  ...BowRiverWatershedLessons // 11 lessons
+  ...BowRiverWatershedLessons, // 11 lessons
+  ...EnergyLessons, // 2 lessons
 
-  // 33 lessons total
+
+  // 35 lessons total
 ];
