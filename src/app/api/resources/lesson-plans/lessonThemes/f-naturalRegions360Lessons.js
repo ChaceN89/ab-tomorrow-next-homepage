@@ -213,20 +213,44 @@ export const NaturalRegions360Lessons = [
       "soc-05d-agriculture-production",
       "landscape-02b-management-practices"
     ],
-    relatedUrls: [
-      {
-        title: "Land Use Simulator",
-        link: "https://www.albertatomorrow.ca"
-      },
-    ]
+    relatedUrls: []
   },
-
-  // { // Lesson 5 Mapping Indigenous Areas
-
-  // },
-  // { // Lesson 6 Alberta Natural Regions
-
-  // }
-
+  {// Lesson 5 - Alberta's Natural Regions
+    id: "ab360-tours-05-alberta-natural-regions",
+    title: "Alberta’s Natural Regions",
+    provider: {
+      name: "Alberta Tomorrow",
+      link: "https://www.albertatomorrow.ca"
+    },
+    theme: Theme.AB_NATURAL_REGIONS_360_TOURS,
+    tools: [AssociatedTool.SIMULATOR],
+    description:
+      "In this activity, students will research and construct maps of Alberta’s Natural Regions.",
+    approximateTime: "3 x 45 min classes",
+    files: [
+      {
+        title: "360 Natural Regions of Alberta Scavenger Hunt",
+        link: "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE/edit?tab=t.0"
+      }
+    ],
+    grades: [Grade.GRADE_4],
+    subjects: [Subject.SOCIAL_STUDIES],
+    tags: [
+      "Natural Regions", "landforms", "vegetation", "bodies of water", "climate",
+      "natural resources", "geography", "mapping", "virtual tours", "ecozones",
+      "environment", "Alberta landscapes", "regional diversity"
+    ],
+    learningOutcomes: [
+      "Distinguish between Alberta’s natural regions based on physical geography",
+      "Describe key natural features such as landforms, vegetation, and climate",
+      "Identify the relationship between natural resources and regional geography",
+      "Construct and annotate maps showing Alberta’s physical regions"
+    ],
+    videos: [
+      "env-01c-natural-landscapes",
+      "poi-03j-athabasca-sand-dunes-ecological-reserve"
+    ],
+    relatedUrls: []
+  }
 ];
 
