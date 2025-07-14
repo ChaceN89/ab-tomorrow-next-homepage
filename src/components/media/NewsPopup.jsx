@@ -39,7 +39,7 @@ export default function NewsPopup() {
               {/* Content */}
               <div className="flex flex-col space-y-1 ">
                 <strong className="text-lg pr-10">{item.title}</strong>
-                <p className="text-sm">{item.description}</p>
+                <div className="text-sm">{item.description}</div>
 
                 {item.link ? (
                   <Link

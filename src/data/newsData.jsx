@@ -44,22 +44,40 @@ export const newsItems = [
   },
   
   // Second item
-  {
-    icon: <FaTools className="text-yellow-400 text-2xl" />, // Tools icon to represent development
-    title: "New Educational Tools Coming Soon",
-    description:
-      "We're planning two exciting new additions: Energy Tomorrow and Wildlife Tomorrow — interactive modules to explore Alberta's ecosystems and energy choices.",
-    scrollLink: "tools",
-  },
+  // {
+  //   icon: <FaTools className="text-yellow-400 text-2xl" />, // Tools icon to represent development
+  //   title: "New Educational Tools Coming Soon",
+  //   description:
+  //     "We're planning two exciting new additions: Energy Tomorrow and Wildlife Tomorrow — interactive modules to explore Alberta's ecosystems and energy choices.",
+  //   scrollLink: "tools",
+  // },
 
   // about how lesson plans and videos have been added to the site
   {
-    icon: <LuClipboardList className="text-black text-2xl" />, // Tools icon to represent development
-    title: "Lesson Plans and Videos Added",
-    description:
-      "Explore our new lesson plans and videos designed to enhance your learning experience. Check them out in the Resources section.",
-    link: "/resources",
-  },
+    icon: <LuClipboardList className="text-black text-2xl" />,
+    title: "Lesson Plans Added",
+    description: (
+      <ul>
+        <li>
+          Grade 3 Social Studies
+          <ul className="list-disc list-inside ml-4">
+            <li>Alberta's Natural Resources</li>
+            <li>Alberta's Natural Regions</li>
+            <li>Mapping Indigenous Area</li>
+          </ul>
+        </li>
+        <li>
+          Science 5 and 6
+          <ul className="list-disc list-inside ml-4">
+            <li>Renewable vs Non-Renewable Resources</li>
+            <li>Factors Affecting Energy Use</li>
+          </ul>
+        </li>
+      </ul>
+    ),
+    link: "/resources/lesson-plans",
+  }
+
 ];
 
 
