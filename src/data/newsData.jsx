@@ -8,7 +8,7 @@
  * 
  * @author Chace Nielson
  * @created Mar 18, 2025
- * @updated Mar 18, 2025
+ * @updated July 14, 2025
  * 
  * @example New Item
   {
@@ -71,6 +71,7 @@ export const newsItems = [
           <ul className="list-disc list-inside ml-4">
             <li>Renewable vs Non-Renewable Resources</li>
             <li>Factors Affecting Energy Use</li>
+            <li>Alberta's Ecosystem diversity</li>
           </ul>
         </li>
       </ul>
