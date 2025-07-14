@@ -24,6 +24,7 @@ This is the homepage for **Alberta Tomorrow**, an educational initiative that in
 - [🚧 Future Plans](#🚧-future-plans)
 - [👤 Author & Contact](#👤-author--contact)
 - [🚀 Deployment](#🚀-deployment)
+- [🧱 Static Build API Setup](#🧱-static-build-api-setup)
 
 <br>
 
@@ -291,3 +292,64 @@ This will:
 - Export the site
 - Sync the `out/` directory to the S3 bucket
 - Trigger a CloudFront cache invalidation
+
+
+## 🧱 Static Build API Setup
+
+This project uses a **static export workaround** to support hosting on S3, which does not support dynamic server functions or API routes.
+
+### 🔧 Why This Is Needed
+Next.js disables all API functionality during static exports (`output: 'export'` in `next.config.js`). To work around this while preserving development flexibility, we follow these practices:
+
+### 🛠 Current Setup
+
+- The actual API logic lives under:
+  ```
+  src/app/_api/resources/
+  ```
+  This folder is **ignored during build** so the site can export statically without error.
+
+- A build-time script (`export-resources`) is used to **generate static JSON files** in `public/api-static-data/`, which the frontend uses instead of real API calls:
+  ```
+  public/api-static-data/lesson-plans.json
+  public/api-static-data/videos.json
+  ```
+
+- The project is configured for static export via:
+  ```js
+  // next.config.js
+  export const nextConfig = {
+    output: 'export'
+  };
+  ```
+
+### 🚧 Development Workflow
+
+During development, to test actual API routes:
+
+1. Temporarily rename:
+   ```
+   src/app/_api → src/app/api
+   ```
+2. Comment out or remove `output: 'export'` from `next.config.js`
+3. Run the dev server:
+   ```
+   npm run dev
+   ```
+4. Visit:
+   ```
+   http://localhost:3000/api/resources/lesson-plans
+   ```
+
+5. After testing, **revert**:
+   - Rename `api` back to `_api`
+   - Re-enable `output: 'export'`
+
+### 🔮 Future Plans
+
+Eventually, this site may be deployed using a framework like **AWS Amplify** or **Vercel**, which supports serverless functions. At that point:
+
+- The `app/api` folder can be used permanently
+- Static JSON exports will no longer be needed
+- Other apps can access the API endpoints directly (e.g., lesson plans, video metadata)
+- The routes accessed to display data in the app will need to be updated as well

@@ -32,7 +32,7 @@ export default function VideoFilters() {
         {loading
           ? "Loading videos..."
           : numResults > 0
-          ? `${numResults} Video${numResults > 1 ? "s" : ""}`
+          ? `${numResults} Video${numResults > 1 ? "s" : ""} found`
           : "No videos found"}
       </p>
 

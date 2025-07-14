@@ -332,13 +332,13 @@
     "relatedUrls": []
   },
   {
-    "id": "ab360-tours-01-virtual-field-trips-ecoregions",
+    "id": "abRegions-01-virtual-field-trips-ecoregions",
     "title": "360 Virtual Field Trips to Alberta's 6 Ecoregions",
     "provider": {
       "name": "Alberta Tomorrow",
       "link": "https://www.albertatomorrow.ca"
     },
-    "theme": "360 Tours of AB Natural Regions",
+    "theme": "Alberta Natural Regions & Ecosystems",
     "tools": [
       "Land Use Simulator"
     ],
@@ -463,13 +463,13 @@
     "relatedUrls": []
   },
   {
-    "id": "ab360-tours-02-animal-adaptations",
+    "id": "abRegions-02-animal-adaptations",
     "title": "Animal Adpatations - Using the 360 Virtual Field Trips",
     "provider": {
       "name": "Alberta Tomorrow",
       "link": "https://www.albertatomorrow.ca"
     },
-    "theme": "360 Tours of AB Natural Regions",
+    "theme": "Alberta Natural Regions & Ecosystems",
     "tools": [
       "Land Use Simulator"
     ],
@@ -509,13 +509,13 @@
     "relatedUrls": []
   },
   {
-    "id": "ab360-tours-03-plant-animal-adaptations",
+    "id": "abRegions-03-plant-animal-adaptations",
     "title": "Plant and Animal Adaptations - Using the 360 Virtual Field Trips",
     "provider": {
       "name": "Alberta Tomorrow",
       "link": "https://www.albertatomorrow.ca"
     },
-    "theme": "360 Tours of AB Natural Regions",
+    "theme": "Alberta Natural Regions & Ecosystems",
     "tools": [
       "Land Use Simulator"
     ],
@@ -563,6 +563,177 @@
     ],
     "videos": [
       "oth-03z-intro-360-virtual-field-trips"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "abRegions-04-natural-resources",
+    "title": "Alberta’s Natural Resources",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Alberta Natural Regions & Ecosystems",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students will investigate where different natural resources are located in Alberta and how they have influenced settlement, the environment and economy since 1910 to present, and how they may influence the province in the future.",
+    "approximateTime": "3 x 45 min classes",
+    "files": [
+      {
+        "title": "Alberta’s Natural Resources",
+        "description": "",
+        "link": "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?tab=t.0"
+      },
+      {
+        "title": "Student Worksheet",
+        "description": "",
+        "link": "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw/edit?tab=t.0"
+      }
+    ],
+    "grades": [
+      "Grade 3"
+    ],
+    "subjects": [
+      "Social Studies"
+    ],
+    "tags": [
+      "natural resources",
+      "renewable resources",
+      "non-renewable resources",
+      "economic development",
+      "settlement",
+      "geography",
+      "land use",
+      "resource use",
+      "energy",
+      "agriculture",
+      "oil and gas",
+      "forestry",
+      "gdp",
+      "population growth",
+      "simulator",
+      "environment",
+      "climate change"
+    ],
+    "learningOutcomes": [
+      "Understand the difference between renewable and non-renewable resources",
+      "Explore how Alberta's geography affects the location and availability of natural resources",
+      "Analyze how natural resources have shaped Alberta's economic development and settlement patterns",
+      "Use satellite imagery and simulations to observe environmental and socio-economic changes over time",
+      "Predict and propose sustainable land use strategies for Alberta's future"
+    ],
+    "videos": [
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "landscape-02b-management-practices"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "abRegions-05-alberta-natural-regions",
+    "title": "Alberta’s Natural Regions",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Alberta Natural Regions & Ecosystems",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity, students will research and construct maps of Alberta’s Natural Regions.",
+    "approximateTime": "3 x 45 min classes",
+    "files": [
+      {
+        "title": "Alberta’s Natural Regions",
+        "link": "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE/edit?tab=t.0"
+      }
+    ],
+    "grades": [
+      "Grade 4"
+    ],
+    "subjects": [
+      "Social Studies"
+    ],
+    "tags": [
+      "Natural Regions",
+      "landforms",
+      "vegetation",
+      "bodies of water",
+      "climate",
+      "natural resources",
+      "geography",
+      "mapping",
+      "virtual tours",
+      "ecozones",
+      "environment",
+      "Alberta landscapes",
+      "regional diversity"
+    ],
+    "learningOutcomes": [
+      "Distinguish between Alberta’s natural regions based on physical geography",
+      "Describe key natural features such as landforms, vegetation, and climate",
+      "Identify the relationship between natural resources and regional geography",
+      "Construct and annotate maps showing Alberta’s physical regions"
+    ],
+    "videos": [
+      "env-01c-natural-landscapes",
+      "poi-03j-athabasca-sand-dunes-ecological-reserve"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "abRegions-06-ecosystem-diversity",
+    "title": "Alberta's Ecosystem Diversity",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Alberta Natural Regions & Ecosystems",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity, students explore Alberta’s ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
+    "approximateTime": "2–3 x 45 min classes",
+    "files": [
+      {
+        "title": "Alberta's Ecosystem Diversity ",
+        "description": "",
+        "link": "https://docs.google.com/document/d/1zFJMnLFr8H2mBVgnX_52c2l6XonAQ32PC6FH_O_VT90/edit?tab=t.0"
+      }
+    ],
+    "grades": [
+      "Grade 6"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "Ecosystems",
+      "Biodiversity",
+      "Abiotic and Biotic Factors",
+      "Alberta",
+      "Virtual Tours",
+      "Grasslands",
+      "Wetlands",
+      "Forests",
+      "Climate Change",
+      "Carbon Sink",
+      "Ecosystem Comparison"
+    ],
+    "learningOutcomes": [
+      "Compare the characteristics of two Alberta ecosystems.",
+      "Describe the role of abiotic and biotic factors in ecosystems.",
+      "Identify factors that influence plant and animal diversity.",
+      "Understand how ecosystems interact with greenhouse gases and carbon storage."
+    ],
+    "videos": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-06c-greenhouse-gasses",
+      "landscape-01b-climate-change"
     ],
     "relatedUrls": []
   },
@@ -881,6 +1052,81 @@
     ],
     "videos": [],
     "relatedUrls": []
+  },
+  {
+    "id": "ab360-tours-05-mapping-indigenous-areas",
+    "title": "Mapping Indigenous Areas",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Indigenous Voices",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "Students will construct maps of traditional territories and treaty areas in Alberta using www.albertatomorrow.ca They will begin by looking at the Stoney Nakoda people in greater detail.",
+    "approximateTime": "5 x 45 min classes",
+    "files": [
+      {
+        "title": "Mapping Indigenous Areas",
+        "description": "",
+        "link": "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA/edit?tab=t.0g"
+      }
+    ],
+    "grades": [
+      "Grade 3"
+    ],
+    "subjects": [
+      "Social Studies"
+    ],
+    "tags": [
+      "First Nations",
+      "Métis",
+      "Indigenous Territories",
+      "Treaties",
+      "Treaty 6",
+      "Treaty 7",
+      "Treaty 8",
+      "traditional lands",
+      "mapping",
+      "treaty education",
+      "land acknowledgment",
+      "Métis Settlements",
+      "Indigenous culture",
+      "reconciliation",
+      "Stoney Nakoda",
+      "Indigenous voices",
+      "geography",
+      "Alberta history",
+      "Indigenous identity"
+    ],
+    "learningOutcomes": [
+      "Recognize Alberta as traditional territory of many Indigenous groups since time immemorial",
+      "Identify the 5 numbered Treaty Areas in Alberta and the reasons they were signed",
+      "Differentiate Traditional Territories, Treaty Areas, and Métis Settlements on a map",
+      "Use Alberta Tomorrow map layers to explore overlap between Indigenous territories",
+      "Develop respect for Indigenous contributions to Alberta's identity and land use history"
+    ],
+    "videos": [
+      "stoney-06h-creator-story",
+      "stoney-08h-before-treaty",
+      "stoney-014h-concept-of-time",
+      "stoney-013h-food-and-camp"
+    ],
+    "relatedUrls": [
+      {
+        "title": "Native Land",
+        "link": "https://native-land.ca/"
+      },
+      {
+        "title": "Métis Nation of Alberta",
+        "link": "https://albertametis.com/"
+      },
+      {
+        "title": "National Centre for Truth and Reconciliation",
+        "link": "https://nctr.ca/"
+      }
+    ]
   },
   {
     "id": "landuse-01c-yesterday-today-tomorrow",
@@ -1974,6 +2220,118 @@
     ],
     "videos": [
       "brbc-010f-native-prairies"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "energy-01-renewable-vs-nonrenewable",
+    "title": "Renewable vs Non-Renewable Resources",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Energy",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this activity, students will compare renewable and non-renewable energy resources, exploring how they are used across Canada and how Alberta relies on both to meet its energy needs.",
+    "approximateTime": "3 x 45 min classes",
+    "files": [
+      {
+        "title": "Renewable vs Non-Renewable Resources",
+        "description": "",
+        "link": "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8/edit?tab=t.0"
+      }
+    ],
+    "grades": [
+      "Grade 5"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "Energy",
+      "Renewable Resources",
+      "Non-Renewable Resources",
+      "Alberta Energy",
+      "Oil and Gas",
+      "Hydropower",
+      "Solar",
+      "Wind",
+      "Sustainability",
+      "Environmental Impact",
+      "Geography",
+      "Energy Systems",
+      "Canada Energy Use"
+    ],
+    "learningOutcomes": [
+      "Compare renewable and non-renewable energy resources.",
+      "Discuss the advantages and disadvantages of different energy sources.",
+      "Examine how provinces and territories fulfill energy needs.",
+      "Understand Alberta's reliance on both renewable and non-renewable energy resources."
+    ],
+    "videos": [
+      "soc-03d-hydrocarbon-production"
+    ],
+    "relatedUrls": []
+  },
+  {
+    "id": "energy-02-factors-affecting-use",
+    "title": "Factors Affecting Energy Use",
+    "provider": {
+      "name": "Alberta Tomorrow",
+      "link": "https://www.albertatomorrow.ca"
+    },
+    "theme": "Energy",
+    "tools": [
+      "Land Use Simulator"
+    ],
+    "description": "In this lesson, students explore how energy choices are shaped by availability, accessibility, societal needs, economic considerations, and environmental impact. Using Alberta Tomorrow's simulation tools, students investigate past, present, and future scenarios around Alberta's energy use.",
+    "approximateTime": "3 x 45 min classes",
+    "files": [
+      {
+        "title": "Factors Affecting Energy Use",
+        "description": "",
+        "link": "https://docs.google.com/document/d/1K7qSY79jvMX3pRrYz2F2jw5_vhh-6WGzRGSkDMAx6zY/edit?tab=t.0"
+      },
+      {
+        "title": "Student Worksheet",
+        "description": "",
+        "link": "https://docs.google.com/document/d/1T3bvL-Gh1cWDfkHCn6PtPiaKzS457F5EHrXWGdnbAe4/edit?tab=t.0"
+      }
+    ],
+    "grades": [
+      "Grade 6"
+    ],
+    "subjects": [
+      "Science"
+    ],
+    "tags": [
+      "Energy",
+      "Resource Use",
+      "Environmental Impact",
+      "Oil and Gas",
+      "Management Practices",
+      "Simulation",
+      "Economic Impact",
+      "Societal Impact",
+      "Sustainability",
+      "Historical Scenarios",
+      "Watersheds",
+      "Accessibility",
+      "Availability",
+      "Canada Energy Use",
+      "Alberta Energy"
+    ],
+    "learningOutcomes": [
+      "Investigate factors that influence the selection of energy resources.",
+      "Explain how Alberta's energy use has changed over time and may change in the future.",
+      "Distinguish between societal, economic, and environmental impacts on energy choices.",
+      "Use simulations to analyze land use impacts on energy and sustainability."
+    ],
+    "videos": [
+      "soc-03d-hydrocarbon-production",
+      "env-01c-natural-landscapes"
     ],
     "relatedUrls": []
   }
