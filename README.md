@@ -266,6 +266,7 @@ To build, preview, and deploy the project:
 ```bash
 npm run build     # Builds the production-ready version
 npm run start     # Starts a local preview server
+npx serve out     # local preview for static build (output: 'export' in next.config)
 ```
 
 ### 🌐 Staging (GitHub)
