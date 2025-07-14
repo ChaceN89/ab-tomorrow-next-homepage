@@ -14,7 +14,8 @@ export const Theme ={
   LAND_USE: "Land Use",
   AB_NATURAL_REGIONS_360_TOURS: "360 Tours of AB Natural Regions",
   INDIGENOUS_VOICES: "Indigenous Voices",
-  BOW_RIVER_WATERSHED: "Bow River Watershed"
+  BOW_RIVER_WATERSHED: "Bow River Watershed",
+  ENERGY: "Energy",
 }
 
 export const Grade = {
