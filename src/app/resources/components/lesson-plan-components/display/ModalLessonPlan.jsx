@@ -33,6 +33,9 @@ export default function ModalLessonPlan({ id }) {
       const fetchPlan = async () => {
         try {
           const res = await fetch('/api-static-data/lesson-plans.json');
+          // const res = await fetch(`/app/resources/lesson-plans/lesson-plans.json`);
+
+
           if (!res.ok) throw new Error(`Error fetching lesson plans: ${res.statusText}`);
       
           const allPlans = await res.json();

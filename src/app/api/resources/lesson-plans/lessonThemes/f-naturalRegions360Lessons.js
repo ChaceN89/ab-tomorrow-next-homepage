@@ -173,64 +173,60 @@ export const NaturalRegions360Lessons = [
     relatedUrls: []
   },
   { //Lesson 4 Alberta Natural Resoucres
-  id: "ab360-tours-04-natural-resources",
-  title: "Alberta’s Natural Resources",
-  provider: {
-    name: "Alberta Tomorrow",
-    link: "https://www.albertatomorrow.ca"
-  },
-  theme: Theme.AB_NATURAL_REGIONS_360_TOURS,
-  tools: [AssociatedTool.SIMULATOR],
-  description:
-    "Students investigate how Alberta’s natural resources — both renewable and non-renewable — have shaped settlement patterns, the environment, and the economy from 1910 to present. They will use the Alberta Tomorrow simulator to explore past, present, and future land use scenarios and make connections between geography, economic prosperity, and environmental health.",
-  approximateTime: "3 x 45 min classes",
-  files: [
-    {
-      title: "Alberta’s Natural Resources Lesson Plan",
-      description: "",
-      link: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?tab=t.0"
-    },
-
-  ],
-  grades: [Grade.GRADE_3],
-  subjects: [Subject.SOCIAL_STUDIES],
-  tags: [
-    "natural resources", "renewable resources", "non-renewable resources", "economic development",
-    "settlement", "geography", "land use", "resource use", "energy", "agriculture", "oil and gas",
-    "forestry", "gdp", "population growth", "simulator", "environment", "climate change"
-  ],
-  learningOutcomes: [
-    "Understand the difference between renewable and non-renewable resources",
-    "Explore how Alberta's geography affects the location and availability of natural resources",
-    "Analyze how natural resources have shaped Alberta's economic development and settlement patterns",
-    "Use satellite imagery and simulations to observe environmental and socio-economic changes over time",
-    "Predict and propose sustainable land use strategies for Alberta's future"
-  ],
-  videos: [
-    "landuse-01g-oil-and-gas",
-    "landuse-01e-agriculture",
-    "landuse-01f-forestry",
-    "econ-01a-gdp",
-    "sim-03e-beneficial-management-practices"
-  ],
-  relatedUrls: [
-    {
-      title: "Land Use Simulator",
+    id: "ab360-tours-04-natural-resources",
+    title: "Alberta’s Natural Resources",
+    provider: {
+      name: "Alberta Tomorrow",
       link: "https://www.albertatomorrow.ca"
     },
-    {
-      title: "Curriculum Reference",
-      link: "https://education.alberta.ca/media/3273004/social-studies-k-6-pos.pdf"
-    }
-  ]
-},
+    theme: Theme.AB_NATURAL_REGIONS_360_TOURS,
+    tools: [AssociatedTool.SIMULATOR],
+    description:
+      "Students will investigate where different natural resources are located in Alberta and how they have influenced settlement, the environment and economy since 1910 to present, and how they may influence the province in the future.",
+    approximateTime: "3 x 45 min classes",
+    files: [
+      {
+        title: "Alberta’s Natural Resources",
+        description: "",
+        link: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?tab=t.0"
+      },
 
-  { // Lesson 5 Mapping Indigenous Areas
-
+    ],
+    grades: [Grade.GRADE_3],
+    subjects: [Subject.SOCIAL_STUDIES],
+    tags: [
+      "natural resources", "renewable resources", "non-renewable resources", "economic development",
+      "settlement", "geography", "land use", "resource use", "energy", "agriculture", "oil and gas",
+      "forestry", "gdp", "population growth", "simulator", "environment", "climate change"
+    ],
+    learningOutcomes: [
+      "Understand the difference between renewable and non-renewable resources",
+      "Explore how Alberta's geography affects the location and availability of natural resources",
+      "Analyze how natural resources have shaped Alberta's economic development and settlement patterns",
+      "Use satellite imagery and simulations to observe environmental and socio-economic changes over time",
+      "Predict and propose sustainable land use strategies for Alberta's future"
+    ],
+    videos: [
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "landscape-02b-management-practices"
+    ],
+    relatedUrls: [
+      {
+        title: "Land Use Simulator",
+        link: "https://www.albertatomorrow.ca"
+      },
+    ]
   },
-  { // Lesson 6 Alberta Natural Regions
 
-  }
+  // { // Lesson 5 Mapping Indigenous Areas
+
+  // },
+  // { // Lesson 6 Alberta Natural Regions
+
+  // }
 
 ];
 
