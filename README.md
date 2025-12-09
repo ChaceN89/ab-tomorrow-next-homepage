@@ -21,6 +21,7 @@ This is the homepage for **Alberta Tomorrow**, an educational initiative that in
   - [🎥 Example: Video](#🎥-example-video)
 - [🗂 Source Code Notes](#🗂-source-code-notes)
 - [📊 Google Analytics Integration](#📊-google-analytics-integration)
+- [🛠️ Checking AWS CLI Credentials](#🛠️-checking-aws-cli-credentials)
 - [🚧 Future Plans](#🚧-future-plans)
 - [👤 Author & Contact](#👤-author--contact)
 - [🚀 Deployment](#🚀-deployment)
@@ -31,7 +32,7 @@ This is the homepage for **Alberta Tomorrow**, an educational initiative that in
 ## 🧰 Technologies Used
 
 ### Core
-- **Next.js** `15.2.4`
+- **Next.js** `15.2.6`
 - **React** `^19.0.0`
 - **Tailwind CSS`
 
@@ -179,6 +180,22 @@ The codebase is organized under `src/`:
 
 <br>
 
+## 🛠️ Checking AWS CLI Credentials
+
+To verify which AWS credentials your CLI is using for deployment, run:
+
+```sh
+cat ~/.aws/credentials
+```
+
+This will display the credentials used by the AWS CLI on your machine.  
+If you need to update or set credentials, use:
+
+```sh
+aws configure
+```
+
+This is helpful for troubleshooting deployment or ensuring you are using the correct AWS account.
 
 
 
