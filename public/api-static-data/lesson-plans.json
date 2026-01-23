@@ -2239,8 +2239,13 @@
     "files": [
       {
         "title": "Renewable vs Non-Renewable Resources",
-        "description": "",
+        "description": "A guided activity that helps students compare renewable and non-renewable energy resources in Alberta and Canada using discussion, research, and the Alberta Tomorrow Simulator.",
         "link": "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8/edit?tab=t.0"
+      },
+      { 
+        "title": "Presentation Slides",
+        "description": "A classroom slide deck that introduces renewable and non-renewable energy sources, with visuals and prompts to support discussion and comparison.",
+        "link": "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg/edit?slide=id.g3ba12546f28_0_0#slide=id.g3ba12546f28_0_0"
       }
     ],
     "grades": [

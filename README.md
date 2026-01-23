@@ -11,25 +11,25 @@ This is the homepage for **Alberta Tomorrow**, an educational initiative that in
 <br>
 
 ## 📑 Table of Contents
-- [🧰 Technologies Used](#🧰-technologies-used)
-- [🏃‍♂️ Running the Project](#🏃‍♂️-running-the-project)
-- [🔐 Environment Variables (`.env`)](#🔐-environment-variables-env)
-- [📁 Project Structure Overview](#📁-project-structure-overview)
-- [📚 API Routes](#📚-api-routes)
-- [📦 Resource Data Structure](#📦-resource-data-structure)
-  - [🧪 Example: Lesson Plan](#🧪-example-lesson-plan)
-  - [🎥 Example: Video](#🎥-example-video)
-- [🗂 Source Code Notes](#🗂-source-code-notes)
-- [📊 Google Analytics Integration](#📊-google-analytics-integration)
-- [🛠️ Checking AWS CLI Credentials](#🛠️-checking-aws-cli-credentials)
-- [🚧 Future Plans](#🚧-future-plans)
-- [👤 Author & Contact](#👤-author--contact)
-- [🚀 Deployment](#🚀-deployment)
-- [🧱 Static Build API Setup](#🧱-static-build-api-setup)
+- [🧰 Technologies Used](#technologies-used)
+- [🏃‍♂️ Running the Project](#running-the-project)
+- [🔐 Environment Variables (`.env`)](#environment-variables-env)
+- [📁 Project Structure Overview](#project-structure-overview)
+- [📚 API Routes](#api-routes)
+- [📦 Resource Data Structure](#resource-data-structure)
+  - [🧪 Example: Lesson Plan](#example-lesson-plan)
+  - [🎥 Example: Video](#example-video)
+- [🗂 Source Code Notes](#source-code-notes)
+- [📊 Google Analytics Integration](#google-analytics-integration)
+- [🛠️ Checking AWS CLI Credentials](#checking-aws-cli-credentials)
+- [🚧 Future Plans](#future-plans)
+- [👤 Author & Contact](#author--contact)
+- [🚀 Deployment](#deployment)
+- [🧱 Static Build API Setup](#static-build-api-setup)
 
 <br>
 
-## 🧰 Technologies Used
+## Technologies Used
 
 ### Core
 - **Next.js** `15.2.6`
@@ -51,7 +51,7 @@ This is the homepage for **Alberta Tomorrow**, an educational initiative that in
 
 <br>
 
-## 🏃‍♂️ Running the Project
+## Running the Project
 
 ### 📦 Available Commands
 
@@ -71,7 +71,7 @@ For simplicity, two environment files are used:
 
 <br>
 
-## 🔐 Environment Variables (`.env`)
+## Environment Variables (`.env`)
 
 ``` Javascript
 NEXT_PUBLIC_ENVIRONMENT=development // Only needed in development
@@ -83,7 +83,7 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 
 <br>
 
-## 📁 Project Structure Overview
+## Project Structure Overview
 
 Grouped by functionality:
 
@@ -102,7 +102,7 @@ All routing is handled via the Next.js **App Router** (`app/` directory).
 <br>
 
 
-## 📚 API Routes
+## API Routes
 
 Custom educational API endpoints:
 
@@ -118,9 +118,9 @@ You can access these in-browser for dev testing. Other Applications will be able
 
 <br>
 
-## 📦 Resource Data Structure
+## Resource Data Structure
 
-### 🧪 Example: Lesson Plan
+### Example: Lesson Plan
 `GET /api/resources/lesson-plans/glaciers-01b-intro-to-glaciers`
 
 ```json
@@ -142,7 +142,7 @@ You can access these in-browser for dev testing. Other Applications will be able
 }
 ```
 
-### 🎥 Example: Video
+### Example: Video
 `GET /api/resources/videos/tutorial-01a-register-account`
 
 ```json
@@ -161,7 +161,7 @@ You can access these in-browser for dev testing. Other Applications will be able
 
 <br>
 
-## 🗂 Source Code Notes
+## Source Code Notes
 
 The codebase is organized under `src/`:
 
@@ -180,7 +180,7 @@ The codebase is organized under `src/`:
 
 <br>
 
-## 🛠️ Checking AWS CLI Credentials
+## Checking AWS CLI Credentials
 
 To verify which AWS credentials your CLI is using for deployment, run:
 
@@ -199,7 +199,7 @@ This is helpful for troubleshooting deployment or ensuring you are using the cor
 
 
 
-## 📊 Google Analytics Integration
+## Google Analytics Integration
 
 This project uses [Google Analytics 4 (GA4)](https://developers.google.com/analytics/devguides/collection/ga4) via the `react-ga4` library to track page views and custom events. Analytics are automatically initialized **only in production**.
 
@@ -261,12 +261,12 @@ trackEvent('Button', 'Click', 'DonateButton', 1);
 
 <br>
 
-## 🚧 Future Plans
+## Future Plans
 - Integrate **Energy Tomorrow** and **Wildlife Tomorrow**
 - Improve the API and Associate it better with the current AWS API setup for the Landuse Simulator
 
 
-## 👤 Author & Contact
+## Author & Contact
 
 Developed and maintained by **Chace Nielson**  
 📞 Phone: `403-992-50676`  
@@ -274,7 +274,7 @@ Developed and maintained by **Chace Nielson**
 
 Feel free to reach out for questions, collaboration, or feedback!
 
-## 🚀 Deployment
+## Deployment
 
 To build, preview, and deploy the project:
 
@@ -312,7 +312,7 @@ This will:
 - Trigger a CloudFront cache invalidation
 
 
-## 🧱 Static Build API Setup
+## Static Build API Setup
 
 This project uses a **static export workaround** to support hosting on S3, which does not support dynamic server functions or API routes.
 
