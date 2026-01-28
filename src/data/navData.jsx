@@ -91,8 +91,8 @@ export const extraPages =[
 
 export const educationTools = [
   { label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
-  { label: "Energy Tomorrow", scrollTo: "tools", icon: <FaBolt /> },
-  { label: "Wildlife Tomorrow", scrollTo: "tools", icon: <GiFlatPawPrint /> },
+  // { label: "Energy Tomorrow", scrollTo: "tools", icon: <FaBolt /> },
+  // { label: "Wildlife Tomorrow", scrollTo: "tools", icon: <GiFlatPawPrint /> },
 ];
 
 // Scroll Links in the home page
@@ -108,9 +108,9 @@ export const scrollLinks = [
 export const toolsDropDown = {
   title: "Resources",
   list:[
+    ...educationTools,
     {label: "Lesson Plans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
     {label: "Videos", icon: <FaVideo />, router: "/resources/videos" },
-    ...educationTools,
   ]
 }
 
