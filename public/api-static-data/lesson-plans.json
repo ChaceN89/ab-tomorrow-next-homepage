@@ -127,7 +127,7 @@
     "learningOutcomes": [
       "identify glacier location in Alberta",
       "observe change in the glaciers over time",
-      "Investigate how climate change is affecting the Alberta’s Glaciers",
+      "Investigate how climate change is affecting the Alberta's Glaciers",
       "be challenged to develop an action plan of how they can help prevent further loss of the glaciers"
     ],
     "videos": [
@@ -568,7 +568,7 @@
   },
   {
     "id": "abRegions-04-natural-resources",
-    "title": "Alberta’s Natural Resources",
+    "title": "Alberta's Natural Resources",
     "provider": {
       "name": "Alberta Tomorrow",
       "link": "https://www.albertatomorrow.ca"
@@ -581,7 +581,7 @@
     "approximateTime": "3 x 45 min classes",
     "files": [
       {
-        "title": "Alberta’s Natural Resources",
+        "title": "Alberta's Natural Resources",
         "description": "",
         "link": "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg"
       },
@@ -634,7 +634,7 @@
   },
   {
     "id": "abRegions-05-alberta-natural-regions",
-    "title": "Alberta’s Natural Regions",
+    "title": "Alberta's Natural Regions",
     "provider": {
       "name": "Alberta Tomorrow",
       "link": "https://www.albertatomorrow.ca"
@@ -643,16 +643,16 @@
     "tools": [
       "Land Use Simulator"
     ],
-    "description": "In this activity, students will research and construct maps of Alberta’s Natural Regions.",
+    "description": "In this activity, students will research and construct maps of Alberta's Natural Regions.",
     "approximateTime": "3 x 45 min classes",
     "files": [
       {
-        "title": "Alberta’s Natural Regions",
+        "title": "Alberta's Natural Regions",
         "link": "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE"
       }
     ],
     "grades": [
-      "Grade 4"
+      "Grade 3"
     ],
     "subjects": [
       "Social Studies"
@@ -673,10 +673,10 @@
       "regional diversity"
     ],
     "learningOutcomes": [
-      "Distinguish between Alberta’s natural regions based on physical geography",
+      "Distinguish between Alberta's natural regions based on physical geography",
       "Describe key natural features such as landforms, vegetation, and climate",
       "Identify the relationship between natural resources and regional geography",
-      "Construct and annotate maps showing Alberta’s physical regions"
+      "Construct and annotate maps showing Alberta's physical regions"
     ],
     "videos": [
       "env-01c-natural-landscapes",
@@ -695,11 +695,11 @@
     "tools": [
       "Land Use Simulator"
     ],
-    "description": "In this activity, students explore Alberta’s ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
+    "description": "In this activity, students explore Alberta's ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
     "approximateTime": "2–3 x 45 min classes",
     "files": [
       {
-        "title": "Alberta’s Ecosystems Scavenger Hunt",
+        "title": "Alberta's Ecosystems Scavenger Hunt",
         "description": "",
         "link": "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
       },
@@ -821,7 +821,7 @@
       },
       {
         "title": "Climate Change in Alberta: Worksheet",
-        "link": "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ/"
+        "link": "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ"
       },
       {
         "title": "Climate Change in Alberta: Student Worksheet",
@@ -831,7 +831,7 @@
       {
         "title": "Energy Resources and Climate Change in Alberta - Presentation Slides",
         "description": "",
-        "link": "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM/"
+        "link": "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM"
       }
     ],
     "grades": [
@@ -891,8 +891,8 @@
       "industrial activity"
     ],
     "learningOutcomes": [
-      "Investigate the impact of climate change on Alberta’s precipitation, climate",
-      "Investigate the impact of climate change on Alberta’s natural regions",
+      "Investigate the impact of climate change on Alberta's precipitation, climate",
+      "Investigate the impact of climate change on Alberta's natural regions",
       "Investigate the impact of climate change on our environment and economy"
     ],
     "videos": [
@@ -920,7 +920,7 @@
     "approximateTime": "180 min",
     "files": [
       {
-        "title": "Water Quality, Climate Change and Alberta’s Glaciers",
+        "title": "Water Quality, Climate Change and Alberta's Glaciers",
         "link": "/pdfs/lesson-plans/climateChange/WaterQualityClimateChangeandAlbertasGlaciers.pdf"
       },
       {
@@ -965,10 +965,10 @@
       "learn about water quality in Alberta",
       "identify what watershed you live within",
       "understand basic glacier terminology",
-      "describe the effect of climate change on Alberta’s glaciers",
+      "describe the effect of climate change on Alberta's glaciers",
       "be introduced to the impact of forest fires on glaciers",
       "become aware of the importance of water policy in dealing with the effects of climate change",
-      "consider the impact of our activities on climate change and Alberta’s glaciers"
+      "consider the impact of our activities on climate change and Alberta's glaciers"
     ],
     "videos": [
       "landscape-04b-glaciers-webinar"
@@ -1208,7 +1208,7 @@
     "tools": [
       "Land Use Simulator"
     ],
-    "description": "Students use the Alberta Tomorrow simulator to create a land use plan for Alberta’s future.",
+    "description": "Students use the Alberta Tomorrow simulator to create a land use plan for Alberta's future.",
     "approximateTime": "90 min",
     "files": [
       {
@@ -1238,7 +1238,7 @@
       "ecosystem services"
     ],
     "learningOutcomes": [
-      "Create a landuse plan for Alberta’s future"
+      "Create a landuse plan for Alberta's future"
     ],
     "videos": [],
     "relatedUrls": [

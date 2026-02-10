@@ -2,6 +2,9 @@
  * @file LessonPlanFilter.jsx
  * @module UI/Resources/LessonPlanFilters
  * @desc Displays all lesson plan filter controls (theme, tool, subject, grade, and search).
+ * @author Chace Nielson
+ * @created Apr 8, 2025
+ * @updated Feb 10, 2026
  */
 
 "use client";
@@ -49,26 +52,30 @@ export default function LessonPlanFilter() {
         filterMap={themeFilters}
         setFilterMap={setThemeFilters}
         showScrollLinks
-        showFocusButton
+        showFocusButton // for goin to theme sections- only for this component as others don't have specific sections
         initialOpen
       />
 
-      <FilterDropdown
+      {/* filter for tools - only one tool at the moment so no need for this */}
+      {/* <FilterDropdown
         label="Filter by Tool"
         filterMap={toolFilters}
         setFilterMap={setToolFilters}
-      />
+      /> */}
 
       <FilterDropdown
         label="Filter by Subject"
         filterMap={subjectFilters}
         setFilterMap={setSubjectFilters}
+        showFocusButton
       />
 
       <FilterDropdown
         label="Filter by Grade"
         filterMap={gradeFilters}
         setFilterMap={setGradeFilters}
+        showFocusButton
+        sortAlphabetically
       />
     </div>
   );

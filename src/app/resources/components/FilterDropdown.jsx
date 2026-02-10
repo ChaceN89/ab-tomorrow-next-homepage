@@ -11,7 +11,7 @@
  *
  * @author Chace Nielson
  * @created Apr 8, 2025
- * @updated Apr 8, 2025
+ * @updated Feb 10, 2026
  */
 
 "use client";
@@ -31,10 +31,13 @@ export default function FilterDropdown({
   showScrollLinks = false,
   showFocusButton = false,
   initialOpen = false,
+  sortAlphabetically=false
 }) {
+
+  // initial state of the dropdown
   const [open, setOpen] = useState(initialOpen);
 
-
+  // button to toggle everything on or off
   const toggleAll = () => {
     const allTrue = Object.values(filterMap).every((val) => val);
     setFilterMap((prev) =>
@@ -42,6 +45,16 @@ export default function FilterDropdown({
         Object.keys(prev).map((key) => [key, !allTrue])
       )
     );
+  }
+
+  // Sort keys if requested
+  let filterKeys = Object.keys(filterMap);
+  if (sortAlphabetically) {
+    // Try numeric sort if all keys are numbers, else localeCompare
+    const allNumeric = filterKeys.every((k) => !isNaN(Number(k)));
+    filterKeys = allNumeric
+      ? filterKeys.sort((a, b) => Number(a) - Number(b))
+      : filterKeys.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
   }
 
   return (
@@ -62,8 +75,7 @@ export default function FilterDropdown({
           open ? "scale-y-100" : "scale-y-0 h-0"
         }`}
       >
-        
-  
+        {/* Remove stray debug text */}
         <div className="flex flex-col gap-2 p-4">
           <button
             onClick={toggleAll}
@@ -80,14 +92,12 @@ export default function FilterDropdown({
           </button>
           <div className="w-full border-b border-gray-600" />
 
-          {Object.keys(filterMap).map((item, index, arr) => (
+          {filterKeys.map((item, index, arr) => (
             <React.Fragment key={item}>
               <div className="flex items-center justify-between gap-1 w-full">
                 {/* Left: Filter toggle + Solo button */}
 
-                
                 <div className="flex items-center gap-1 flex-1 min-w-0">
-        
                   <div className="min-w-0 flex-1">
                     <Tooltip text={`Toggle: ${item}`} openDuration={400}>
                       <button
@@ -150,7 +160,7 @@ export default function FilterDropdown({
                 <div className="w-full border-b border-gray-400" />
               )}
             </React.Fragment>
-            ))}
+          ))}
         </div>
       </div>
     </div>
