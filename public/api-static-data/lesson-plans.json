@@ -803,7 +803,7 @@
   },
   {
     "id": "climate-02a-scenarios",
-    "title": "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios",
+    "title": "Climate Change in Alberta",
     "provider": {
       "name": "Alberta Tomorrow",
       "link": "https://www.albertatomorrow.ca"
@@ -816,22 +816,27 @@
     "approximateTime": "",
     "files": [
       {
-        "title": "Climate Change in Alberta: Using the Alberta Tomorrow Simulator",
+        "title": "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
         "link": "/pdfs/lesson-plans/climateChange/ClimateChangeinAlbertaUsingtheAlbertaTomorrowSimuator.pdf"
       },
       {
-        "title": "Climate Change in Alberta: Worksheet",
-        "link": "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ"
+        "title": "Science 6 Climate Change in Alberta - Lesson Plan",
+        "link": "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ/"
       },
       {
-        "title": "Climate Change in Alberta: Student Worksheet",
+        "title": "Climate Change in Alberta - Student Worksheet",
         "description": "",
         "link": "https://docs.google.com/presentation/d/1iAiOWchQmyjHwoXPpempjHKD6y0xKxl9_vORNbfE4jw"
       },
       {
-        "title": "Energy Resources and Climate Change in Alberta - Presentation Slides",
+        "title": "Energy Resources and Climate Change in Alberta - Student Worksheet",
         "description": "",
-        "link": "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM"
+        "link": "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM/"
+      },
+      {
+        "title": "Climate Change:  Truth and Misconceptions - Presentation Slides",
+        "description": "",
+        "link": "https://docs.google.com/presentation/d/1k56_dQvhzLsiWqFujAotFC8Ifl4HSmXaBM3Oc_JY4YA/edit?pli=1&slide=id.g3d0207c412d_0_0#slide=id.g3d0207c412d_0_0"
       }
     ],
     "grades": [
@@ -898,12 +903,7 @@
     "videos": [
       "landscape-01b-climate-change"
     ],
-    "relatedUrls": [
-      {
-        "title": "Climate Change in Alberta",
-        "link": "https://www.alberta.ca/climate-change-alberta.aspx"
-      }
-    ]
+    "relatedUrls": []
   },
   {
     "id": "climate-03a-water-quality-glaciers",
@@ -2257,7 +2257,7 @@
     "approximateTime": "3 x 45 min classes",
     "files": [
       {
-        "title": "Renewable vs Non-Renewable Resources",
+        "title": "Renewable vs Non-Renewable Resources - Lesson Plan",
         "description": "A guided activity that helps students compare renewable and non-renewable energy resources in Alberta and Canada using discussion, research, and the Alberta Tomorrow Simulator.",
         "link": "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8"
       },

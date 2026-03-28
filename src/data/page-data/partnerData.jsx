@@ -50,7 +50,7 @@ const sponsors = [
   {
     name: "ALCES Landscape & Landuse", 
     logo: "alces-logo.png", 
-    link: "https://www.online.alces.ca/", 
+    link: "https://alces.ca/", 
     category: [category.CHAMPIONS],
     description: "We are an interdisciplinary team of scientists, consultants, and software developers focused on providing a strategic understanding of the consequences of human activities on our planet and societies. Our passion is delivering the knowledge our clients need to make informed decisions.",
   },
