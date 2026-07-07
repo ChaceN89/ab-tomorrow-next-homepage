@@ -16,7 +16,7 @@
  * - @/components/footer/SocialMediaIcons
  * - ./ContactInfo
  */
-import PageHeader from '@/components/common/PageHeader';
+import PageHeader from '@/components/common/headers/PageHeader';
 import SupportUs from '@/components/footer/SupportUs';
 import SocialMediaIcons from '@/components/footer/SocialMediaIcons';
 import ContactInfo from './ContactInfo';

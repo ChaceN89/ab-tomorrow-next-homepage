@@ -19,7 +19,7 @@ import { faqData, faqTitleData } from '@/data/page-data/faqData';
 
 // Components
 import QuestionDropdown from '@/components/common/QuestionDropdown';
-import PageHeader from '@/components/common/PageHeader';
+import PageHeader from '@/components/common/headers/PageHeader';
 
 export default function FAQs() {
   return (

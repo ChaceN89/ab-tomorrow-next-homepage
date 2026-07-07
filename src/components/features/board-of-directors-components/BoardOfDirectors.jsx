@@ -11,7 +11,7 @@
 import React from 'react'
 import { boardOfDirectors, boardOfDirectorsTitleData } from '@/data/page-data/boardOfDirectorsData'
 import MemberCard from './MemberCard'
-import PageHeader from '@/components/common/PageHeader'
+import PageHeader from '@/components/common/headers/PageHeader'
 
 export default function BoardOfDirectors() {
 

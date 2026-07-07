@@ -12,7 +12,7 @@
 import { interactiveToolsData, interactiveToolsDataTitles } from '@/data/home-page-data/interactiveToolsData';
 
 //components
-import SectionHeader from '@/components/common/SectionHeader';
+import SectionHeader from '@/components/common/headers/SectionHeader';
 import ToolCard from '../education/ToolCard';
 
 export default function InteractiveTools() {

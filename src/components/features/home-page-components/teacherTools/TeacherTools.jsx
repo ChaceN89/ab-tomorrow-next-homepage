@@ -10,7 +10,7 @@
 
 import React from 'react';
 import { keyFeaturesData, teacherResourcesData, curriculumConnectionsData } from '@/data/home-page-data/teacherToolsData';
-import SectionHeader from '@/components/common/SectionHeader';
+import SectionHeader from '@/components/common/headers/SectionHeader';
 import NumberedHexList from '@/components/common/numberedHexList/NumberedHexList';
 import CurriculumDropDown from './CurriculumDropDown';
 import HexButton from '@/components/common/hexButton/HexButton';

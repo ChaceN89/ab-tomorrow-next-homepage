@@ -32,7 +32,7 @@ import {
 
 // Components
 import PartnerShowcase from "./PartnersShowcase";
-import PageHeader from "@/components/common/PageHeader";
+import PageHeader from "@/components/common/headers/PageHeader";
 import SponsorPackageBtn from "@/app/our-partners/components/SponsorPackageBtn";
 import SponsorshipTable from "./SponsorshipTable";
 

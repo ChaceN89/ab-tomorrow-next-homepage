@@ -19,7 +19,7 @@
  * @updated Apr 11, 2025
  */
 
-import PageHeader from "@/components/common/PageHeader";
+import PageHeader from "@/components/common/headers/PageHeader";
 import { resourcePageData } from "@/data/resourceData/resourcePageData";
 import ResourceNav from "./ResourceNav";
 

@@ -10,7 +10,7 @@
 import { FaFile } from "react-icons/fa";
 
 // Components
-import SectionHeader from "@/components/common/SectionHeader";
+import SectionHeader from "@/components/common/headers/SectionHeader";
 import HexButton from "@/components/common/hexButton/HexButton";
 import MediaFrame from "@/components/media/mediaFrame/MediaFrame";
 
