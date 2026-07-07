@@ -77,7 +77,7 @@ export default function NavBar() {
               key={scrollTo}
               router="/"
               scrollTo={scrollTo}
-              className="nav-element-default nav-element-default-hover flex items-center gap-1"
+              className="nav-element-default nav-element-default-hover flex items-center gap-0.5"
               activeClassName="nav-element-active"
             >
               {icon}

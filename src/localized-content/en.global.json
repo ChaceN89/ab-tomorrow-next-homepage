@@ -29,6 +29,9 @@
             "partners": "Partners",
             "events": "Events",
             "contact": "Contact"
+        },
+        "mobile": {
+            "label": "Navigation"
         }
     },
     "Footer": {

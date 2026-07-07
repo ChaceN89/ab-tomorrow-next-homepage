@@ -95,7 +95,7 @@ export const educationTools = [
 export const scrollLinks = [
   { labelKey: "home", scrollTo: "hero", icon: <FaHome /> },
   { labelKey: "intro", scrollTo: "intro", icon: <FaBookOpen /> },
-  { labelKey: "tools", scrollTo: "tools", icon: <FaWrench /> },
+  // { labelKey: "tools", scrollTo: "tools", icon: <FaWrench /> },
   { labelKey: "education", scrollTo: "education", icon: <FaGraduationCap /> },
   { labelKey: "about", scrollTo: "about", icon: <FaInfoCircle /> },
 ];

@@ -10,7 +10,8 @@
     "export-api-resources": "node export-api-resources-to-local.js"
   },
   "dependencies": {
-    "framer-motion": "^12.6.2",
+    "framer-motion": "^12.42.2",
+    "motion": "^12.42.2",
     "next": "^16.2.10",
     "next-intl": "^4.13.1",
     "react": "^19.2.7",
