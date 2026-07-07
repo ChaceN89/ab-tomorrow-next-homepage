@@ -71,13 +71,14 @@ export default function NavDropdown({ items, titleKey, translationNamespace, ope
         onClick={toggleDropdown}
         className="w-full flex items-center whitespace-nowrap"
       >
-        <span className="relative z-10 flex items-center nav-element-default nav-element-default-hover">
-          {t(titleKey)}
-          <FaChevronRight
-            size={12}
-            className={`transition-transform duration-400 ${isOpen ? "rotate-90 translate-0.5" : "rotate-0"}`}
-          />
-        </span>
+      <span className="relative z-10 flex items-start nav-element-default nav-element-default-hover">
+        <span className="leading-tight">{t(titleKey)}</span>
+
+        <FaChevronRight
+          size={12}
+          className={`shrink-0 self-start mt-1 transition-transform duration-400 ${isOpen ? "rotate-90 translate-x-0.5" : "rotate-0"}`}
+        />
+      </span>
       </button>
 
       {isOpen && (

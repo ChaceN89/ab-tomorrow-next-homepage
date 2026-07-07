@@ -14,7 +14,7 @@
             "videos": "Vidéos"
         },
         "links": {
-            "home": "Page d’accueil",
+            "home": "Accueil",
             "intro": "Introduction",
             "tools": "Outils",
             "education": "Éducation",
@@ -23,7 +23,7 @@
             "makeADonation": "Faire un don"
         },
         "learnMore": {
-            "label": "Pour en savoir plus",
+            "label": "Plus",
             "faqs": "FAQ",
             "boardOfDirectors": "Conseil d’administration",
             "partners": "Partenaires",
