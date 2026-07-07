@@ -13,6 +13,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages } from "@/i18n/messages";
+import LocalizedShell from "@/components/layout/shell/LocalizedShell";
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({
@@ -21,17 +22,17 @@ export function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ children, params }) {
-    const { locale } = await params;
+  const { locale } = await params;
 
-    if (!hasLocale(routing.locales, locale)) {
-        notFound();
-    }
+  if (!hasLocale(routing.locales, locale)) {
+      notFound();
+  }
 
-    const messages = getMessages(locale);
+  const messages = getMessages(locale);
 
-    return (
-        <NextIntlClientProvider locale={locale} messages={messages}>
-            {children}
-        </NextIntlClientProvider>
-    );
+  return (
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <LocalizedShell>{children}</LocalizedShell>
+    </NextIntlClientProvider>
+  );
 }

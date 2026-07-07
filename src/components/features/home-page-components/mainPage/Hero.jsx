@@ -25,7 +25,7 @@ import { useTranslations } from "next-intl";
 import { heroData } from "@/data/home-page-data/heroData";
 
 // components
-import BackgroundWrapper from "@/components/layout/BackgroundWrapper";
+import BackgroundWrapper from "@/components/layout/shell/BackgroundWrapper";
 import HexButton from "@/components/common/hexButton/HexButton";
 
 export default function Hero() {

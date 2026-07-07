@@ -22,7 +22,7 @@
  * @updated Apr 10, 2025
  */
 "use client";
-import SideBarWrapper from "@/components/common/SideBarWrapper";
+import SideBarWrapper from "@/components/layout/shell/SideBarWrapper";
 import { useLessonPlanResource } from "@/app/resources/components/lesson-plan-components/LessonPlanResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
 import { useEffect } from "react";

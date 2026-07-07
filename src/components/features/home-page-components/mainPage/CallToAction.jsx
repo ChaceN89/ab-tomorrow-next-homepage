@@ -16,7 +16,7 @@ import { callToActionData } from "@/data/home-page-data/callToActionData";
 
 // components
 import Image from "next/image";
-import BackgroundWrapper from "@/components/layout/BackgroundWrapper";
+import BackgroundWrapper from "@/components/layout/shell/BackgroundWrapper";
 import HexButton from "@/components/common/hexButton/HexButton";
 
 export default function CallToAction() {

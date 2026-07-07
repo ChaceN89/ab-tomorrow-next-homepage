@@ -27,7 +27,7 @@
 
 
 // UI Components
-import BackgroundWrapper from '@/components/layout/BackgroundWrapper';
+import BackgroundWrapper from '@/components/layout/shell/BackgroundWrapper';
 import SectionHeader from '@/components/common/SectionHeader';
 import MediaFrame from '@/components/media/mediaFrame/MediaFrame';
 import HexButton from '@/components/common/hexButton/HexButton';

@@ -6,7 +6,7 @@
  * @created Mar 31, 2025
  * @updated Mar 31, 2025
  */
-import NotFound from "@/components/layout/NotFound"
+import NotFound from "@/components/layout/splashScreen/NotFound"
 
 export default function NotFoundPage() {
   return (<NotFound/>)

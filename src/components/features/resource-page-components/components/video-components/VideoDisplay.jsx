@@ -23,7 +23,7 @@
  */
 "use client";
 import VideoFilters from "./VideoFilters";
-import SideBarWrapper from "@/components/common/SideBarWrapper";
+import SideBarWrapper from "@/components/layout/shell/SideBarWrapper";
 import VideoCategoryList from "./display/VideoCategoryList";
 import { useVideoResource } from "@/app/resources/components/video-components/VideoResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
