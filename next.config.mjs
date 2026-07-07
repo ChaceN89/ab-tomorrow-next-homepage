@@ -10,7 +10,7 @@ const nextConfig = {
   output: "export",
   trailingSlash: true, // !! Improtant for static export - allows you to go directly to url/pageRoute istead of url and them localy to pageRoute
   images: {
-      domains: ["d2qcvmovr4fv.cloudfront.net"]
+      remotePatterns: [{ protocol: "https", hostname: "d2qcvmovr4fv.cloudfront.net" }]
   }
 };
 

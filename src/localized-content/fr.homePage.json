@@ -1,0 +1,152 @@
+{
+    "HomePage": {
+        "Intro": {
+            "title": "Imaginer un avenir durable",
+            "description1": "La croissance rapide de l’Alberta a permis de bâtir une économie forte, mais elle a également exercé une pression sur les forêts, les prairies et les rivières qui la soutiennent.",
+            "description2": "Alberta Tomorrow est un simulateur pédagogique interactif qui vous aide à explorer la planification durable de l’utilisation des terres. Comparez les paysages d’hier et d’aujourd’hui, créez vos propres plans d’aménagement et analysez l’impact de l’agriculture, du pétrole et du gaz, de la foresterie et plus encore. Vous pouvez même géomarquer des photos, des vidéos et des données sur l’eau dans le cadre de votre apprentissage.",
+            "videos": {
+                "awardWinningEducation": {
+                    "title": "Outil d’enseignement reconnu primée",
+                    "description": "La Alberta Emerald Foundation a reconnu l’influence positive d’Alberta Tomorrow sur l’éducation au développement durable. Elle a souligné son rôle dans la sensibilisation et la compréhension de l’utilisation responsable des terres et de la gérance environnementale."
+                },
+                "planningForABetterFuture": {
+                    "title": "Planifier un avenir meilleur",
+                    "description": "L’outil montre l’impact de l’agriculture, du pétrole et du gaz, ainsi que de la foresterie sur l’environnement au fil du temps, à l’aide d’images réelles du paysage. Les utilisateurs peuvent également recueillir et enregistrer des données sur l’eau, des images, des vidéos et d’autres observations de terrain."
+                },
+                "historicLandscapeSimulation": {
+                    "title": "Simulation de paysage historique",
+                    "description": "Visualisez l’évolution historique des paysages naturels de l’Alberta à l’aide d’images réelles."
+                },
+                "climatePlanningSimulation": {
+                    "title": "Simulation de la planification climatique",
+                    "description": "Découvrez la situation actuelle dans plus de 30 régions de l’Alberta. Concevez votre propre plan pour l’Alberta et visualisez les résultats possibles!"
+                }
+            }
+        },
+        "CallToAction": {
+            "title": "Établissez maintenant certains objectifs et concevez un avenir meilleur!",
+            "description": "Prenez les commandes et façonnez l’avenir de l’Alberta grâce au simulateur d’Alberta Tomorrow.",
+            "quote": "Alberta Tomorrow met mes élèves face à des situations réelles, accessibles en un clic, qui exigent des décisions concrètes. Merci d’enrichir leur environnement d’apprentissage.",
+            "author": "– Stephanie Bennett, enseignante en biologie"
+        },
+        "InteractiveTools": {
+            "title": "Explorez nos outils interactifs",
+            "description": "Utilisez nos outils pédagogiques performants pour explorer l’utilisation des terres, la durabilité énergétique et la conservation de la faune en Alberta.",
+            "tools": {
+                "landUseSimulator": {
+                    "title": "Simulateur d’utilisation des terres",
+                    "description": "Découvrez la portée des décisions en matière d’utilisation des terres sur les paysages de l’Alberta. Comparez le passé et le présent, créez des plans d’aménagement personnalisés et analysez les effets de l’agriculture, du pétrole et du gaz, de la foresterie et plus encore."
+                },
+                "energyTomorrow": {
+                    "title": "L’énergie de demain",
+                    "description": "Découvrez comment les systèmes énergétiques de l’Alberta influent sur l’économie, l’environnement et les communautés. Apprenez-en plus sur les options énergétiques durables, les émissions et les défis que pose l’équilibre entre les besoins énergétiques et les objectifs climatiques."
+                },
+                "wildlifeTomorrow": {
+                    "title": "La faune de demain",
+                    "description": "Cet outil explore l’impact des changements climatiques et des activités humaines sur les habitats fauniques en Alberta. Apprenez-en plus sur les efforts de conservation, les espèces vulnérables et comment nos choix façonnent l’avenir de la biodiversité."
+                },
+                "kiosk": {
+                    "title": "",
+                    "description": ""
+                }
+            }
+        },
+        "Education": {
+            "title": "Outils et plans de leçons gratuits pour dynamiser votre classe",
+            "description": "Alberta Tomorrow est une ressource numérique gratuite conçue pour soutenir l’enseignement primaire, secondaire et postsecondaire dans l’ensemble de l’Alberta.",
+            "videos": {
+                "visits": {
+                    "title": "Inscrivez-vous aux visites virtuelles et en classe",
+                    "description": "Découvrez tout le potentiel de votre salle de classe! Alberta Tomorrow a été conçu par des Albertains pour des Albertains, avec un soutien complet en matière de curriculum et des plans de leçons. Le tout offert gratuitement!"
+                },
+                "studentProjects": {
+                    "title": "Projets étudiants en action",
+                    "description": "Les élèves de 4e année de l’école Glenbow ont utilisé Alberta Tomorrow pour couvrir toutes les compétences transversales, et ils se sont bien amusés en même temps!"
+                },
+                "gettingStarted": {
+                    "title": "Pour commencer",
+                    "description": "Suivez ces étapes simples pour créer votre propre compte grand public, enseignant ou élève sur Alberta Tomorrow."
+                },
+                "waterRangersKit": {
+                    "title": "(Water Rangers Kit) Trousse de gardien de l’eau",
+                    "description": "Vous voulez emmener vos élèves analyser la qualité de l’eau, mais vous n’avez pas le matériel nécessaire? Pas de souci! Découvrez nos trousses d’analyse de gardien de l’eau. En plus de vous procurer du matériel d’analyse de qualité, vous soutenez Alberta Tomorrow! Un pourcentage des ventes est reversé à Alberta Tomorrow pour que l’utilisation de sa plateforme demeure entièrement gratuite."
+                }
+            }
+        },
+        "TeacherTools": {
+            "title": "Caractéristiques et liens avec le curriculum",
+            "description1": "Le simulateur d’Alberta Tomorrow est un outil pédagogique efficace pour enseigner l’utilisation des terres, les changements climatiques et l’environnement. Conçu pour être utilisé dans diverses matières et à différents niveaux scolaires, il est conforme au programme d’études de l’Alberta.",
+            "description2": "On peut y trouver des liens avec de nombreux autres niveaux du curriculum et matières. Nous développons constamment de nouveaux plans de leçons et du matériel pédagogique. Pour une description complète des liens avec le programme d’études de l’Alberta et des activités suggérées, veuillez consulter le guide complet du curriculum.",
+            "button": "Guide complet du programme scolaire",
+            "keyFeatures": {
+                "title": "Caractéristiques principales",
+                "items": {
+                    "videosAndLandUsePractices": "Visionnez des vidéos et découvrez les avantages et les impacts possibles des différentes utilisations des terres et pratiques d’aménagement en Alberta.",
+                    "ecosystemsAndResources": "Améliorez votre compréhension des écosystèmes et des ressources environnementales de l’Alberta.",
+                    "pastAndFutureLandscapes": "Découvrez ce qui s’est passé dans votre région au cours du siècle dernier et imaginez à quoi elle pourrait ressembler dans 30 ans.",
+                    "futurePlan": "Élaborez votre propre plan pour l’avenir de l’Alberta.",
+                    "waterQualityAndObservations": "Suivez et partagez les observations sur la qualité de l’eau et l’utilisation des terres avec d’autres classes de l’Alberta.",
+                    "reports": "Rédigez et soumettez des rapports contenant les résultats des projets.",
+                    "climateScenarios": "Explorez trois scénarios différents de changements climatiques pour l’avenir de l’Alberta, incluant des graphiques de température et de précipitations.",
+                    "guardiansOfTheIce": "Découvrez les bassins hydrographiques, les glaciers et les changements climatiques grâce à notre série de vidéos Gardians of the Ice (« Gardiens de la glace »).",
+                    "naturalRegionsVirtualTours": "Effectuez des visites virtuelles à 360 degrés des régions naturelles de l’Alberta, incluant la flore, la faune et l’utilisation des terres.",
+                    "indigenousMapOverlays": "Explorez les superpositions cartographiques autochtones de l’Alberta, y compris les territoires traditionnels et les régions visées par un traité.",
+                    "indicators": "Plan d’utilisation des terres à l’aide des indicateurs environnementaux/socioéconomiques ou des indicateurs autochtones."
+                }
+            },
+            "teacherDashboard": {
+                "title": "Tableau de bord de l’enseignant",
+                "resources": "Ressources pour les enseignants comprenant des plans de leçons et des vidéos.",
+                "controlPanel": "Interface de panneau de contrôle pour gérer les observations de vos élèves et de votre classe."
+            },
+            "curriculumConnections": {
+                "title": "Liens entre les cours et le curriculum"
+            }
+        },
+        "About": {
+            "title": "À propos d’Alberta Tomorrow",
+            "description1": "Alberta Tomorrow a été créé en 2005 par Matthew Carlson et Brad Stelfox, Ph. D., du groupe ALCES. Depuis sa création, Alberta Tomorrow est largement utilisé par les enseignants et les élèves de l’Alberta.",
+            "description2": "Alberta Tomorrow fait l’objet d’un examen critique et est impartial. Son développement continu est supervisé par un comité directeur composé de représentants de l’industrie, d’organismes sans but lucratif et du gouvernement. L’application est :",
+            "bulletPoints": {
+                "peerReviewed": "*évaluée par des pairs* scientifiques qualifiés;",
+                "endorsed": "*approuvée* par des organisations sans but lucratif, des entreprises et des ministères soucieux de l’environnement;",
+                "teacherTested": "testée par les enseignants."
+            },
+            "description3": "Alberta Tomorrow est supervisé par la Alberta Tomorrow Foundation, un organisme de bienfaisance enregistré au Canada. Le conseil d’administration de la Fondation est formé de représentants des secteurs de l’éducation, d’organismes sans but lucratif, du gouvernement et de l’industrie.",
+            "button": "Présentation du conseil d’administration",
+            "mission": {
+                "title": "Mission",
+                "description": "Offrir une plateforme qui permet aux jeunes de concevoir et de préserver un avenir pour notre écosystème commun."
+            },
+            "vision": {
+                "title": "Vision",
+                "description": "Une société informée qui œuvre activement pour un avenir durable."
+            }
+        },
+        "IndigenousVoices": {
+            "title": "Voix autochtones",
+            "description1": "Nous sommes heureux de vous présenter notre « module Voix autochtones », un nouveau module d’apprentissage du simulateur d’utilisation des terres qui met l’accent sur les connaissances autochtones à travers l’approche à double perspective.",
+            "description2": "L’approche de la double perspective est un principe directeur pour la collaboration interculturelle visant à voir le monde à travers les perspectives autochtones et occidentales, en valorisant les deux systèmes de connaissances pour parvenir ensemble à de meilleurs résultats.\n\nCe module interactif souligne les perspectives autochtones et les connaissances culturelles et géographiques tout en explorant l’utilisation et la planification des terres, dont les territoires autochtones et des indicateurs définis par la communauté.\n\nNotre objectif est de fournir une plateforme significative où les systèmes de connaissances et les voix autochtones contribuent à façonner l’éducation sur l’utilisation des terres dans l’ensemble de l’Alberta, favorisant ainsi la réconciliation et la compréhension partagée grâce à des outils tournés vers l’avenir.",
+            "bulletPoints": {
+                "mapOverlays": "Explorez les superpositions cartographiques à l’échelle de la province, y compris les régions visées par un traité, les territoires et les langues autochtones, les réserves et les établissements, les régions métisses et les emplacements des pensionnats.",
+                "indigenousKnowledge": "Utilisez les connaissances autochtones pour planifier l’utilisation des terres dans les zones d’étude, en vous appuyant sur des indicateurs définis par la communauté, y compris ceux de la nation Stoney Nakoda.",
+                "stoneyStories": "Visionnez les vidéos bilingues « Stoney Stories » et découvrez les leçons et les récits des communautés autochtones, telles que les nations Stoney Nakoda et Blackfoot."
+            },
+            "landAcknowledgement": {
+                "title": "Reconnaissance des Premières Nations de l’Alberta",
+                "description": "Nous reconnaissons que l’Alberta est le territoire traditionnel de nombreux peuples autochtones, y compris les Premières Nations des traités 4, 6, 7, 8 et 10, les Otipemisiwak et les diverses communautés qui ont pris soin de ces terres pendant des générations.\n\nNous honorons leurs liens profonds avec la terre, l’eau et l’environnement, et reconnaissons la persistance de leurs cultures, langues et traditions. Nous remercions également les nombreuses communautés et personnes autochtones qui ont généreusement partagé leurs connaissances, leur temps et leurs récits pour soutenir ce projet.\n\nNous espérons que cette application nous aidera tous à réfléchir à notre impact et à mieux comprendre le territoire à travers les systèmes de connaissances autochtones et occidentaux."
+            }
+        },
+        "GetInvolved": {
+            "title": "Faites partie de notre histoire",
+            "description1": "Joignez-vous à nous pour façonner l’avenir de l’Alberta. Ensemble, nous pouvons faire la différence. Téléchargez dès aujourd’hui notre dossier de parrainage pour en savoir plus sur les possibilités de partenariat.",
+            "title2": "Lancez l’application dans votre province",
+            "description2": "Nous sommes heureux de lancer l’initiative Canada Tomorrow pour permettre aux élèves, aux enseignants et au grand public de partout au Canada de s’informer sur la planification durable et les changements climatiques.",
+            "buttons": {
+                "canadaTomorrowInitiative": "Initiative Canada Tomorrow",
+                "visitCanadaTomorrow": "Consultez Canada Tomorrow",
+                "visitBCTomorrow": "Consultez BC Tomorrow"
+            }
+        }
+    }
+}

@@ -1,0 +1,220 @@
+{
+    "Pages": {
+        "FAQs": {
+            "title": "Frequently Asked Questions",
+            "description": "Find answers to common questions about Alberta Tomorrow.",
+            "questions": {
+                "whoIsItFor": {
+                    "question": "Who is this educational tool designed for?",
+                    "answer": "Everyone! Anyone interested in finding the balance between our environmental and socio-economic needs! The tool is for the public, but also tailored to teachers and students in grades K-12 and Post secondary. (Registered teachers can find lesson plans and learning tools for specific grades/topics at: () )"
+                },
+                "isItFun": {
+                    "question": "Is it fun to use?",
+                    "answer": "Yes! You can earn points, go for high scores, complete quests and challenges!"
+                },
+                "cost": {
+                    "question": "How much does it cost to use?",
+                    "answer": "Nothing! The tool is free for you to use! Just create an account and start exploring your area."
+                },
+                "schoolOnly": {
+                    "question": "Is the educational simulator only for use in school?",
+                    "answer": "No! Anyone with an interest and an internet connection can register and create a user account!"
+                },
+                "whatCanILearn": {
+                    "question": "What can I learn from using the simulator?",
+                    "answers": {
+                        "landUseBalance": "The fine balance between our land uses, the environment and economy",
+                        "landscapeChange": "How our landscape has changed in the past and might change in the future",
+                        "sustainableFuture": "Some of the changes needed to help create a sustainable future for your area",
+                        "climateScenarios": "How different climate change scenarios might affect our future environment and economy",
+                        "managementPractices": "Beneficial management practices for balancing environment and economy",
+                        "glaciersAndWater": "How climate change affects Alberta and our glaciers — a major source of drinking water",
+                        "more": "And much more!"
+                    }
+                },
+                "isItAPrediction": {
+                    "question": "Does the simulator show what will happen?",
+                    "answer": "No. The simulator uses hypothetical scenarios to model possible futures — not predictions. The more scenarios you explore, the better you can understand how actions today shape tomorrow."
+                },
+                "register": {
+                    "question": "How do I register for an account?",
+                    "answer": "Go to Register Here. You can also follow along with this YouTube video or view this PDF guide."
+                },
+                "lessonPlans": {
+                    "question": "Where do I find the lesson plans?",
+                    "answer": "Once a teacher registers for a Teacher Account, the lesson plans are in the dashboard:"
+                },
+                "computerSupport": {
+                    "question": "Will the simulator work on my computer?",
+                    "answer": "Most modern devices should work. To check support, go to get **webgl.org** — you should see a spinning cube."
+                },
+                "runningSlowly": {
+                    "question": "Why is my simulator running slowly?",
+                    "answer": "It’s a complex app and might lag on older machines. Use an updated browser and enable \"hardware acceleration\" in your browser settings. Teachers can also pre-load simulations to reduce wait time in class."
+                },
+                "shareWork": {
+                    "question": "Can I share my work with others?",
+                    "answer": "Yes! Use the reporting tool on the left of the simulation to create a report and share it via email, Facebook, or Twitter."
+                },
+                "studentReports": {
+                    "question": "Can I still access student reports in V6.0?",
+                    "answer": "No, teachers can’t view reports directly. But students can email them. Teachers can still manage observations from the dashboard."
+                },
+                "emailAddress": {
+                    "question": "Do I need an email address to sign up?",
+                    "answer": "Yes. Most students have school emails. We collect usage stats to secure funding. Read our **Terms of Use and Privacy Policy.**"
+                },
+                "postalCode": {
+                    "question": "I'm not from Canada — what postal code can I use?",
+                    "answer": "You can use: A1A 1A1"
+                }
+            }
+        },
+        "BoardOfDirectors": {
+            "title": "Board of Directors",
+            "description": "Meet the individuals guiding Alberta Tomorrow’s mission for sustainable land-use planning.",
+            "members": {
+                "hughPepper": {
+                    "name": "Hugh Pepper",
+                    "title": "President",
+                    "description": "After a 37-year career in education, Hugh has joined his daughter in the flower business. For 12 years he was a Municipal politician where he took a leadership role setting up the Ghost Access Management Plan and was actively involved in regional water issues. He is presently the Chairman of the Upper Bow Basin Cumulative Effects study group and a Director of the Action For Agriculture."
+                },
+                "matthewCarlson": {
+                    "name": "Matthew Carlson",
+                    "title": "Vice President",
+                    "description": "Matt is an ecologist interested in applying a systems dynamics approach to communicate land use concepts and develop pragmatic solutions to natural resource management challenges. Over the past ten years, Matt has developed and applied simulation tools to explore the future effects of land use in a variety of landscapes. Recent projects have focused on applying ALCES to inform the development of land-use plans that appropriately balance ecological and socioeconomic objectives. Matt is also an ecologist for the Canadian Boreal Initiative and has a Masters of Science in Conservation Biology from the University of Alberta."
+                },
+                "jenniferJanzen": {
+                    "name": "Jennifer Janzen",
+                    "title": "Executive Director",
+                    "description": "Jennifer Janzen joined the ALCES group in 2008 as the project coordinator for Alberta Tomorrow, a web-based educational land-use simulator. She holds a Bachelor of Science in Land Use & Environmental Studies and Biology, and a Bachelor of Education from the University of Saskatchewan. She has worked for various government and non-profit organizations as a plant ecologist and educator in Saskatchewan and Alberta."
+                },
+                "crystalDamer": {
+                    "name": "Crystal Damer",
+                    "title": "Board Member",
+                    "description": "Crystal is a retired Assistant Deputy Minister with the Government of Alberta after having served the public for more than 28 years. In 2021, she started her second career providing advisory and management consulting services primarily related to land-use planning and policy development. She was the Executive Director of the Land Use Secretariat, leading major regional planning efforts in Alberta."
+                },
+                "leanneJuneau": {
+                    "name": "Leanne Juneau",
+                    "title": "Board Member",
+                    "description": "Leanne is a co-founder and Senior Vice President of Corporate Development at Cygnet Energy Ltd. She has over 25 years of experience negotiating and executing strategic corporate M&A, exploration, joint venture, and commercial agreements within Western Canada. She supports building an environmentally responsible sustainable energy business that prioritizes mutual socioeconomic engagement with Rights Holders and the community."
+                },
+                "tobyHeaps": {
+                    "name": "Toby Heaps",
+                    "title": "Board Member",
+                    "description": "Toby is the chief executive officer and co-founder of Corporate Knights. He spearheaded the first global ranking of the world’s 100 most sustainable corporations in 2005, and in 2007 coined the term 'clean capitalism.' He has been published in the Financial Times, Wall Street Journal, and the Globe and Mail and is a regular guest speaker on CBC."
+                },
+                "karaVincent": {
+                    "name": "Kara Vincent",
+                    "title": "Secretary/Treasurer",
+                    "description": "Kara is an elementary school teacher in Cochrane, Alberta. She holds a master's degree in environmental education and communication and has a passion for getting kids outside, learning in and from the natural world. Her master’s thesis focused on how time spent in nature influences well-being in young people."
+                },
+                "michaelCody": {
+                    "name": "Michael Cody",
+                    "title": "Board Member",
+                    "description": "Michael is a Team Lead and Specialist within the Environment and Regulatory department at Cenovus Energy Inc. He supports regulatory applications and compliance and provides subject matter expertise in land and biodiversity. With a background in forestry, soil science, and rural development, Michael has worked in both the forest and energy sectors for three decades."
+                },
+                "shawnaWeaver": {
+                    "name": "Shawna Weaver",
+                    "title": "Indigenous Advisor",
+                    "description": "Tansi! Aba Wathtech! Oki! Shawna was born and raised in the Rocky Mountains in Invermere, BC. As a proud Métis woman, mother, and teacher, she believes that Truth must come before Reconciliation. Shawna earned her Bachelor of Arts and Education degrees from the University of Lethbridge, majoring in French with a minor in Native American Studies."
+                },
+                "bradStelfox": {
+                    "name": "Dr. Brad Stelfox",
+                    "title": "Honorary Board Member",
+                    "description": "Dr. Brad Stelfox established Forem Technologies and the ALCES Group in 1995 and is the architect and developer of the ALCES model. He is an adjunct professor at the University of Alberta and the University of Calgary, focusing on the interface between human land uses and regional landscapes. Brad has received multiple awards for his contributions to land use sustainability."
+                }
+            }
+        },
+        "Partners": {
+            "title": "Our Partners",
+            "description": "Alberta Tomorrow is a non-profit organization that relies on the support of our partners and sponsors to help us achieve our mission. We are grateful for their contributions and commitment to environmental stewardship and land-use planning. Download our sponsorship package today to learn more about becoming a partner.",
+            "button": "Learn About Becoming a Sponsor",
+            "tiers": {
+                "champions": "Champions",
+                "ambassadors": "Ambassadors",
+                "mentors": "Mentors",
+                "supporters": "Supporters",
+                "pastSponsors": "Past Sponsors"
+            },
+            "sponsorshipPackageButton": "Download the Sponsorship Package",
+            "sponsorshipTable": {
+                "columns": {
+                    "benefit": "Benefit",
+                    "champion": "Champion $100 000+",
+                    "ambassador": "Ambassador $30 000+",
+                    "mentor": "Mentor $10 000+",
+                    "supporter": "Supporter $5000+",
+                    "associate": "Associate <$1000"
+                },
+                "rows": {
+                    "webpageLogo": "Logo on Alberta Tomorrow Sponsorship webpage with link",
+                    "webpageLogoWithLink": "Logo on Alberta Tomorrow Sponsorship webpage with link",
+                    "marketingMaterialLogo": "Logo on Alberta Tomorrow Marketing Material(postcards, bookmarks etc)",
+                    "presentationLogo": "Logo on sponsorship slide in presentations",
+                    "promotionalVideo": "Receive Alberta Tomorrow promotional video for company distribution",
+                    "presentationAd": "One full slide advertisement in presentations",
+                    "registrationPopup": "Sponsor pop-up with new user registration",
+                    "titleSponsor": "Official title sponsor for module and simulator",
+                    "largeSummary": "Large size summary on Alberta Tomorrow site with link to company website",
+                    "mediumSummary": "Medium size summary on Alberta Tomorrow site with link to company website",
+                    "smallSummary": "Small size summary on Alberta Tomorrow site with link to company website"
+                }
+            },
+            "specificPartners": {
+                "alces": {
+                    "title": "ALCES Landscape & Landuse",
+                    "description": "We are an interdisciplinary team of scientists, consultants, and software developers focused on providing a strategic understanding of the consequences of human activities on our planet and societies. Our passion is delivering the knowledge our clients need to make informed decisions."
+                },
+                "calgaryFoundation": {
+                    "title": "Calgary Foundation",
+                    "description": "The Foundation facilitates collaborative philanthropy by making powerful connections between donors and community organizations for the long-term benefit of Calgary and area. In 2018-19, Calgary Foundation saw $65.2 million in new contributions, had an asset base of $1.1 billion and granted $48.9 million to 981 charitable organizations."
+                },
+                "samuelHanen": {
+                    "title": "Samuel Hanen Society for Resource Conservation",
+                    "description": "Dedicated to preserving natural resources and ecosystems."
+                },
+                "albertaEcotrust": {
+                    "title": "Alberta Ecotrust",
+                    "description": "Alberta Ecotrust is a unique partnership between the corporate sector and the environmental community. Together, we invest in the people and projects that protect the natural systems we rely on for life and prosperity."
+                },
+                "bowRiver": {
+                    "title": "Bow River Basin Council",
+                    "description": "he Bow River Basin Council collaboratively works to nurture, share, and protect the waters of the Bow River Basin. Together, through science and inclusion, we promote new solutions and strategies for a healthy watershed."
+                },
+                "integralEcology": {
+                    "title": "Integral Ecology Group",
+                    "description": "We are dedicated to working at the interface between humans and their environments, and apply innovative approaches to specific challenges in ecosystem and cultural assessment, repair and support, and land-use managment. By bringing together the areas of ecology, ethnoecology, reclamation monitoring and sampling design, cumulative-effects studies, and land-use planning, we work across a variety of technical disciplines to deliver the best in applied ecological and cultural research."
+                }
+            }
+        },
+        "ContactPage": {
+            "title": "Connect With Us",
+            "description": "Have a question or want to get involved? Reach out to us!",
+            "followUs": "Follow Us"
+        },
+        "ResourcesPage": {
+            "title": "Resources",
+            "description": "Explore a variety of lesson plans, videos, and resources to enhance your learning experience.",
+            "lessonPlans": "Lesson Plans",
+            "lessonPlansFound": "Lesson Plans Found",
+            "videos": "Videos",
+            "videosFound": "Videos Found",
+            "filters": {
+                "theme": "Filter by Theme",
+                "tool": "Filter by Tool",
+                "subject": "Filter by Subject",
+                "grade": "Filter by Grade",
+                "scrollToSection": "Scroll to Section",
+                "showOnlyThisFilter": "Show Only this Filter",
+                "toggle": "Grades"
+            },
+            "subjectsTitle": "Subjects",
+            "lessonFilesTitle": "Lesson Files",
+            "relatedLinksTitle": "Related Linkes",
+            "exploreResources": "Explore Educational Resources",
+            "navigateResourcesExplanation": "Use the navigation above to browse videos or lesson plans related to Alberta’s ecosystems, wildlife, and climate.",
+            "selectResourceTool": "Select a tool from the resource menu to get started."
+        }
+    }
+}

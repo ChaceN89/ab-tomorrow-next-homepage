@@ -21,6 +21,7 @@
  * - Static assets from `public/ui-elements` and `public/awards`
  */
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { heroData } from "@/data/home-page-data/heroData";
 
 // components
@@ -28,6 +29,8 @@ import BackgroundWrapper from "@/components/layout/BackgroundWrapper";
 import HexButton from "@/components/common/hexButton/HexButton";
 
 export default function Hero() {
+  const t = useTranslations("Other");
+
   return (
     <BackgroundWrapper
       background={heroData.background}
@@ -45,11 +48,11 @@ export default function Hero() {
               width={160}
               height={160}
               className="h-24 sm:h-44 w-auto award-shadow"
-              priority={index < 2} // prioritize first couple of images
+              priority={index < 2}
             />
           ))}
         </div>
-        <HexButton link={heroData.ctaLink} name="Launch Simulator" />
+        <HexButton link={heroData.ctaLink} children={t("launchSimulator")} />
       </div>
     </BackgroundWrapper>
   );

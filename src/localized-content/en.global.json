@@ -1,0 +1,57 @@
+{
+    "Other": {
+        "launchSimulator": "Launch Simulator",
+        "comingSoon": "Coming Soon",
+        "signUp": "Sign Up",
+        "lessonPlans": "Lesson Plans"
+    },
+    "NavBar": {
+        "brand": "Alberta Tomorrow",
+        "resources": {
+            "label": "Resources",
+            "landUseSimulator": "Land Use Simulator",
+            "lessonPlans": "Lesson Plans",
+            "videos": "Videos"
+        },
+        "links": {
+            "home": "Home",
+            "intro": "Intro",
+            "tools": "Tools",
+            "education": "Education",
+            "about": "About",
+            "donate": "Donate"
+        },
+        "learnMore": {
+            "label": "Learn More",
+            "faqs": "FAQs",
+            "boardOfDirectors": "Board of Directors",
+            "partners": "Partners",
+            "events": "Events",
+            "contact": "Contact"
+        }
+    },
+    "Footer": {
+        "contact": {
+            "title": "Contact Us",
+            "executiveDirector": "Alberta Tomorrow Executive Director:",
+            "email": "Email:"
+        },
+        "support": {
+            "title": "Support Alberta Tomorrow",
+            "description": "Help keep Alberta Tomorrow FREE by making a donation!"
+        },
+        "quickLinks": {
+            "title": "Quick Links"
+        },
+        "educationTools": {
+            "title": "Education Tools"
+        },
+        "legal": {
+            "title": "Sign Up & Legal",
+            "signUp": "Sign Up",
+            "privacyPolicy": "Privacy Policy",
+            "termsOfUse": "Terms of Use"
+        },
+        "bottomDescription": "The Alberta Tomorrow Foundation is a 100% non-profit organization, a Registered Non-Profit Society in Alberta with Canada Revenue Agency Charitable Status, dedicated to promoting sustainable land-use planning in Alberta."
+    }
+}
