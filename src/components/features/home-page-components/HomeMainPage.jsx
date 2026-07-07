@@ -32,14 +32,14 @@
  */
 import React from 'react'
 import Hero from './mainPage/Hero'
-// import Intro from './Intro'
-// import CallToAction from './CallToAction'
-// import InteractiveTools from './InteractiveTools'
-// import Education from './education/Education'
-// import TeacherTools from './teacherTools/TeacherTools'
-// import About from './About'
-// import IndigenousVoices from './IndigenousVoices'
-// import GetInvolved from './GetInvolved'
+import Intro from './mainPage/Intro'
+// import CallToAction from './mainPage/CallToAction'
+// import InteractiveTools from './mainPage/InteractiveTools'
+// import Education from './mainPage/education/Education'
+// import TeacherTools from './mainPage/teacherTools/TeacherTools'
+// import About from './mainPage/About'
+// import IndigenousVoices from './mainPage/IndigenousVoices'
+// import GetInvolved from './mainPage/GetInvolved'
 
 import HexSeparator from '@/components/common/hexSparator/HexSeparator'
 
@@ -49,23 +49,27 @@ export default function HomeMainPage() {
       <section id='hero'>
         <Hero/>
       </section>
-      {/* <section id='intro' className='overflow-hidden' >
+
+      <section id='intro' className='overflow-hidden' >
         <HexSeparator rows={13} hexClass="bg-secondary-alt opacity-40"/>
         <HexSeparator randomColors rows={13} hexClass='bg-primary-alt opacity-5 '/>
         <Intro/>
         <HexSeparator bottom rows={4} parentClass='h-8 bg-primary' hexClass="bg-secondary-alt opacity-40"/>
-        <CallToAction/>
+        {/* <CallToAction/> */}
       </section>
-      <section id='tools' className='overflow-hidden'>
+
+      {/* <section id='tools' className='overflow-hidden'>
         <HexSeparator randomColors rows={100} hexClass='bg-accent-alt opacity-5'/>
         <InteractiveTools/>
-      </section>
-      <section id='education'>
+      </section> */}
+
+      {/* <section id='education'>
         <Education/>
         <HexSeparator bottom rows={2} hexClass='bg-primary-alt' parentClass='bg-primary h-0.5'/>
         <TeacherTools/>
-      </section>
-      <section id='about' >
+      </section> */}
+
+      {/* <section id='about' >
         <div className='overflow-hidden'>
           <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-3 '/>
           <HexSeparator bottom rows={2} hexClass='bg-primary '/>
@@ -80,7 +84,7 @@ export default function HomeMainPage() {
           <HexSeparator bottom rows={2} hexClass='bg-tertiary '/>
           <GetInvolved/>
         </div>
-        </section> */}
+      </section> */}
     </div>
   )
 }

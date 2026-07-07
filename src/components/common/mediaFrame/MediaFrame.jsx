@@ -28,7 +28,7 @@
  *
  * @author Chace Nielson
  * @created Mar 25, 2025
- * @updated Apr 9, 2025
+ * @updated Jul 7, 2026 - Updated 
  */
 
 "use client";
@@ -42,7 +42,7 @@ import PlayButton from "./PlayButton";
 // Utility functions for pausing other videos and unmounting the YouTube player
 import { pauseOtherVideos, unmountYouTubePlayer } from "./youtubePlayerUtils";
 
-import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
+import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 
 export default function MediaFrame({
   type = "image",
@@ -77,16 +77,22 @@ export default function MediaFrame({
 
   // get access to the video player is its active
   const playerRef = useRef(null);
+  const shouldPlayWhenReadyRef = useRef(false);
+
+  const [playerReady, setPlayerReady] = useState(false);
+
   const handleVideoReady = (event) => {
-    playerRef.current = event.target;
-    setVideoLoaded(true);
+      playerRef.current = event.target;
+      setPlayerReady(true);
+      setVideoLoaded(true);
+
+      if (shouldPlayWhenReadyRef.current) {
+          shouldPlayWhenReadyRef.current = false;
+          myOnPlay();
+          event.target.playVideo();
+      }
   };
 
-  // function to allow video to start loading
-  const loadVideoHandler = () => {
-    if (type !== "video") return;
-    if (!canStartVidLoad) setCanStartVidLoad(true);
-  }
 
   // function to play the video and pause all other videos
   const myOnPlay = () => {
@@ -96,30 +102,23 @@ export default function MediaFrame({
 
   // Play the video from the thumbnail click event
   const playVideo = () => {
-    if (type !== "video") return;
+      if (type !== "video") return;
 
-    trackEvent("MediaFrame", "Play", `Video Started: ${videoSrc}`);
-  
-    // Trigger the YouTube render
-    if (!canStartVidLoad) setCanStartVidLoad(true);
-  
-    // Delay the actual play until after render completes
-    if (!playerRef.current) return;
-  
-    myOnPlay();
-  
-    if (typeof playerRef.current.playVideo === "function") {
+      trackEvent("MediaFrame", "Play", `Video Started: ${videoSrc}`);
+
+      if (!canStartVidLoad) {
+          shouldPlayWhenReadyRef.current = true;
+          setCanStartVidLoad(true);
+          return;
+      }
+
+      if (!playerReady || !playerRef.current) {
+          shouldPlayWhenReadyRef.current = true;
+          return;
+      }
+
+      myOnPlay();
       playerRef.current.playVideo();
-    } else {
-      console.warn("🎥 YouTube player not ready yet. Retrying in 300ms...");
-      setTimeout(() => {
-        if (typeof playerRef.current.playVideo === "function") {
-          playerRef.current.playVideo();
-        } else {
-          console.error("❌ Failed to play video: player is still null.");
-        }
-      }, 300);
-    }
   };
 
   // Pause the video when the component unmounts
@@ -190,7 +189,12 @@ export default function MediaFrame({
 
           {/* Button over video to trigger playing */}
           {(type=="video" && !videoIsPlaying ) &&
-            <PlayButton videoLoaded={videoLoaded} handlePlayClick={playVideo} canPlayVideo={canStartVidLoad} preload={preload} />
+            <PlayButton
+                videoLoaded={videoLoaded}
+                handlePlayClick={playVideo}
+                canPlayVideo={playerReady}
+                preload={preload}
+            />
           }
         </>)}       
       </div>

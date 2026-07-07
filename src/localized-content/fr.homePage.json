@@ -2,24 +2,24 @@
     "HomePage": {
         "Intro": {
             "title": "Imaginer un avenir durable",
-            "description1": "La croissance rapide de l’Alberta a permis de bâtir une économie forte, mais elle a également exercé une pression sur les forêts, les prairies et les rivières qui la soutiennent.",
-            "description2": "Alberta Tomorrow est un simulateur pédagogique interactif qui vous aide à explorer la planification durable de l’utilisation des terres. Comparez les paysages d’hier et d’aujourd’hui, créez vos propres plans d’aménagement et analysez l’impact de l’agriculture, du pétrole et du gaz, de la foresterie et plus encore. Vous pouvez même géomarquer des photos, des vidéos et des données sur l’eau dans le cadre de votre apprentissage.",
+            "description1": "La croissance rapide de l’Alberta a permis de bâtir une économie forte, mais elle a également exercé une pression sur les <Bold>forêts, les prairies et les rivières</Bold> qui la soutiennent.",
+            "description2": "<Bold>Alberta Tomorrow</Bold> est un <Bold>simulateur pédagogique interactif</Bold> qui vous aide à explorer la planification durable de l’utilisation des terres. Comparez les paysages d’hier et d’aujourd’hui, créez vos propres plans d’aménagement et analysez l’impact de l’agriculture, du pétrole et du gaz, de la foresterie et plus encore. Vous pouvez même géomarquer des photos, des vidéos et des données sur l’eau dans le cadre de votre apprentissage.",
             "videos": {
                 "awardWinningEducation": {
                     "title": "Outil d’enseignement reconnu primée",
-                    "description": "La Alberta Emerald Foundation a reconnu l’influence positive d’Alberta Tomorrow sur l’éducation au développement durable. Elle a souligné son rôle dans la sensibilisation et la compréhension de l’utilisation responsable des terres et de la gérance environnementale."
+                    "description": "La <Bold>Alberta Emerald Foundation</Bold> a reconnu l’influence positive d’Alberta Tomorrow sur l’éducation au développement durable. Elle a souligné son rôle dans la sensibilisation et la compréhension de l’utilisation responsable des terres et de la gérance environnementale."
                 },
                 "planningForABetterFuture": {
                     "title": "Planifier un avenir meilleur",
-                    "description": "L’outil montre l’impact de l’agriculture, du pétrole et du gaz, ainsi que de la foresterie sur l’environnement au fil du temps, à l’aide d’images réelles du paysage. Les utilisateurs peuvent également recueillir et enregistrer des données sur l’eau, des images, des vidéos et d’autres observations de terrain."
+                    "description": "L’outil montre l’impact de l’agriculture, du pétrole et du gaz, ainsi que de la foresterie sur l’environnement au fil du temps, à l’aide d’<Bold>images réelles du paysage</Bold>. Les utilisateurs peuvent également recueillir et enregistrer des données sur l’eau, des images, des vidéos et d’autres observations de terrain."
                 },
                 "historicLandscapeSimulation": {
                     "title": "Simulation de paysage historique",
-                    "description": "Visualisez l’évolution historique des paysages naturels de l’Alberta à l’aide d’images réelles."
+                    "description": "Visualisez l’<Bold>évolution historique</Bold> des paysages naturels de l’Alberta à l’aide d’images réelles."
                 },
                 "climatePlanningSimulation": {
                     "title": "Simulation de la planification climatique",
-                    "description": "Découvrez la situation actuelle dans plus de 30 régions de l’Alberta. Concevez votre propre plan pour l’Alberta et visualisez les résultats possibles!"
+                    "description": "Découvrez la situation actuelle dans <Bold>plus de 30 régions de l’Alberta</Bold>. Concevez votre propre plan pour l’Alberta et visualisez les résultats possibles!"
                 }
             }
         },
@@ -108,8 +108,8 @@
             "description1": "Alberta Tomorrow a été créé en 2005 par Matthew Carlson et Brad Stelfox, Ph. D., du groupe ALCES. Depuis sa création, Alberta Tomorrow est largement utilisé par les enseignants et les élèves de l’Alberta.",
             "description2": "Alberta Tomorrow fait l’objet d’un examen critique et est impartial. Son développement continu est supervisé par un comité directeur composé de représentants de l’industrie, d’organismes sans but lucratif et du gouvernement. L’application est :",
             "bulletPoints": {
-                "peerReviewed": "*évaluée par des pairs* scientifiques qualifiés;",
-                "endorsed": "*approuvée* par des organisations sans but lucratif, des entreprises et des ministères soucieux de l’environnement;",
+                "peerReviewed": "<Bold>évaluée par des pairs</Bold> scientifiques qualifiés;",
+                "endorsed": "<Bold>approuvée</Bold> par des organisations sans but lucratif, des entreprises et des ministères soucieux de l’environnement;",
                 "teacherTested": "testée par les enseignants."
             },
             "description3": "Alberta Tomorrow est supervisé par la Alberta Tomorrow Foundation, un organisme de bienfaisance enregistré au Canada. Le conseil d’administration de la Fondation est formé de représentants des secteurs de l’éducation, d’organismes sans but lucratif, du gouvernement et de l’industrie.",
@@ -125,12 +125,12 @@
         },
         "IndigenousVoices": {
             "title": "Voix autochtones",
-            "description1": "Nous sommes heureux de vous présenter notre « module Voix autochtones », un nouveau module d’apprentissage du simulateur d’utilisation des terres qui met l’accent sur les connaissances autochtones à travers l’approche à double perspective.",
+            "description1": "Nous sommes heureux de vous présenter notre <Bold>« module Voix autochtones »</Bold>, un nouveau module d’apprentissage du simulateur d’utilisation des terres qui met l’accent sur les connaissances autochtones à travers l’approche à double perspective.",
             "description2": "L’approche de la double perspective est un principe directeur pour la collaboration interculturelle visant à voir le monde à travers les perspectives autochtones et occidentales, en valorisant les deux systèmes de connaissances pour parvenir ensemble à de meilleurs résultats.\n\nCe module interactif souligne les perspectives autochtones et les connaissances culturelles et géographiques tout en explorant l’utilisation et la planification des terres, dont les territoires autochtones et des indicateurs définis par la communauté.\n\nNotre objectif est de fournir une plateforme significative où les systèmes de connaissances et les voix autochtones contribuent à façonner l’éducation sur l’utilisation des terres dans l’ensemble de l’Alberta, favorisant ainsi la réconciliation et la compréhension partagée grâce à des outils tournés vers l’avenir.",
             "bulletPoints": {
-                "mapOverlays": "Explorez les superpositions cartographiques à l’échelle de la province, y compris les régions visées par un traité, les territoires et les langues autochtones, les réserves et les établissements, les régions métisses et les emplacements des pensionnats.",
-                "indigenousKnowledge": "Utilisez les connaissances autochtones pour planifier l’utilisation des terres dans les zones d’étude, en vous appuyant sur des indicateurs définis par la communauté, y compris ceux de la nation Stoney Nakoda.",
-                "stoneyStories": "Visionnez les vidéos bilingues « Stoney Stories » et découvrez les leçons et les récits des communautés autochtones, telles que les nations Stoney Nakoda et Blackfoot."
+                "mapOverlays": "<Bold>Explorez</Bold> les superpositions cartographiques à l’échelle de la province, y compris les régions visées par un traité, les territoires et les langues autochtones, les réserves et les établissements, les régions métisses et les emplacements des pensionnats.",
+                "indigenousKnowledge": "<Bold>Utilisez les connaissances autochtones</Bold> pour planifier l’utilisation des terres dans les zones d’étude, en vous appuyant sur des indicateurs définis par la communauté, y compris ceux de la nation Stoney Nakoda.",
+                "stoneyStories": "Visionnez les vidéos bilingues <Bold>« Stoney Stories »</Bold> et découvrez les leçons et les récits des communautés autochtones, telles que les nations Stoney Nakoda et Blackfoot."
             },
             "landAcknowledgement": {
                 "title": "Reconnaissance des Premières Nations de l’Alberta",

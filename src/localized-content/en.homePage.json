@@ -2,24 +2,24 @@
     "HomePage": {
         "Intro": {
             "title": "Envision a Sustainable Future",
-            "description1": "Alberta’s rapid growth has built a strong economy, but it’s also placed pressure on the **forests, grasslands, and rivers** that sustain it.",
-            "description2": "**Alberta Tomorrow** is an interactive **educational simulator** that helps you explore sustainable land-use planning. Compare past and present landscapes, create your own development plans, and analyze the impact of agriculture, oil and gas, forestry, and more. You can even geotag photos, videos, and water data as part of your learning journey.",
+            "description1": "Alberta’s rapid growth has built a strong economy, but it’s also placed pressure on the <Bold>forests, grasslands, and rivers</Bold> that sustain it.",
+            "description2": "<Bold>Alberta Tomorrow</Bold> is an interactive <Bold>educational simulator</Bold> that helps you explore sustainable land-use planning. Compare past and present landscapes, create your own development plans, and analyze the impact of agriculture, oil and gas, forestry, and more. You can even geotag photos, videos, and water data as part of your learning journey.",
             "videos": {
                 "awardWinningEducation": {
                     "title": "Award-Winning Education",
-                    "description": "The **Alberta Emerald Foundation** recognized Alberta Tomorrow for its impact on sustainability education, emphasizing its role in fostering awareness and understanding of responsible land use and environmental stewardship."
+                    "description": "The <Bold>Alberta Emerald Foundation</Bold> recognized Alberta Tomorrow for its impact on sustainability education, emphasizing its role in fostering awareness and understanding of responsible land use and environmental stewardship."
                 },
                 "planningForABetterFuture": {
                     "title": "Planning for a Better Future",
-                    "description": "It shows how agriculture, oil and gas, and forestry impact the environment over time, using **real landscape imagery.** Users can also collect and save water data, images, videos, and other field observations."
+                    "description": "It shows how agriculture, oil and gas, and forestry impact the environment over time, using <Bold>real landscape imagery.</Bold> Users can also collect and save water data, images, videos, and other field observations."
                 },
                 "historicLandscapeSimulation": {
                     "title": "Historic Landscape Simulation",
-                    "description": "Visualize **historical changes** in Alberta’s natural landscapes using real imagery."
+                    "description": "Visualize <Bold>historical changes</Bold> in Alberta’s natural landscapes using real imagery."
                 },
                 "climatePlanningSimulation": {
                     "title": "Climate Planning Simulation",
-                    "description": "See the current landscape in **30+ areas in Alberta.** Draw your own plan for Alberta and see the potential outcomes!"
+                    "description": "See the current landscape in <Bold>30+ areas in Alberta.</Bold> Draw your own plan for Alberta and see the potential outcomes!"
                 }
             }
         },
@@ -125,12 +125,12 @@
         },
         "IndigenousVoices": {
             "title": "Indigenous Voices",
-            "description1": "We are pleased to introduce our **\"Indigenous Voices Module,\"** a new learning module in the Land Use Simulator that centers Indigenous ways of knowing through the Two-Eyed Seeing model.",
+            "description1": "We are pleased to introduce our <Bold>\"Indigenous Voices Module,\"</Bold> a new learning module in the Land Use Simulator that centers Indigenous ways of knowing through the Two-Eyed Seeing model.",
             "description2": "The Two-Eyed Seeing model is a guiding principle for intercultural collaboration that encourages viewing the world through both Indigenous and Western perspectives, valuing both knowledge systems to achieve stronger outcomes together.\n\nThis interactive module highlights Indigenous perspectives and cultural-geographic knowledge while exploring land use and planning through Indigenous Territories and community-defined indicators.\n\nOur goal is to provide a meaningful platform where Indigenous knowledge systems and voices help shape land use education across Alberta, fostering reconciliation and shared understanding through future-focused tools.",
             "bulletPoints": {
-                "mapOverlays": "**Explore** province-wide map overlays including Treaty Areas, Indigenous Territories and Languages, Reserves and Settlements, Métis Regions, and Residential School Locations.",
-                "indigenousKnowledge": "**Use Indigenous knowledge** to plan land use within study areas, guided by community-defined indicators, including those from the Stoney Nakoda Nation.",
-                "stoneyStories": "Watch bilingual **“Stoney Stories”** videos and explore lessons and stories from Indigenous communities such as the Stoney Nakoda and Blackfoot Nations."
+                "mapOverlays": "<Bold>Explore</Bold> province-wide map overlays including Treaty Areas, Indigenous Territories and Languages, Reserves and Settlements, Métis Regions, and Residential School Locations.",
+                "indigenousKnowledge": "<Bold>Use Indigenous knowledge</Bold> to plan land use within study areas, guided by community-defined indicators, including those from the Stoney Nakoda Nation.",
+                "stoneyStories": "Watch bilingual <Bold>“Stoney Stories”</Bold> videos and explore lessons and stories from Indigenous communities such as the Stoney Nakoda and Blackfoot Nations."
             },
             "landAcknowledgement": {
                 "title": "Acknowledging the First Peoples of Alberta",
