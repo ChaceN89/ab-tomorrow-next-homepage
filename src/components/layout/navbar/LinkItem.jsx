@@ -16,7 +16,7 @@
 import React from 'react'
 import { Link as ScrollLink, scroller } from 'react-scroll'
 import { usePathname, useRouter } from 'next/navigation'
-import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
+import useGoogleAnalytics from '@/components/analytics/useGoogleAnalytics'
 
 export default function LinkItem({
   href,

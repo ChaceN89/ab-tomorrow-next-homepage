@@ -137,6 +137,9 @@
                 "supporters": "Supporters",
                 "pastSponsors": "Past Sponsors"
             },
+            "banner": {
+                "tooltipLabel": "Partner"
+            },
             "sponsorshipPackageButton": "Download the Sponsorship Package",
             "sponsorshipTable": {
                 "columns": {

@@ -10,33 +10,42 @@
  * - Displays the Environmental Partner logo alongside the button.
  *
  * @dependencies
- * - DonateButton (common button component)
- * - next/image (for optimized logo display)
+ * - DonateButton
+ * - next/image
+ * - next-intl
  *
  * @author Chace Nielson
  * @created Mar 31, 2025
- * @updated Apr 1, 2025
+ * @updated Jul 7, 2026 - set up translations
  */
-import Image from 'next/image'
-import DonateButton from '../navbar/DonateButton'
+
+import Image from "next/image";
+import { useTranslations } from "next-intl";
+
+import DonateButton from "../navbar/DonateButton";
 
 export default function SupportUs() {
+  const t = useTranslations("Footer.support");
+
   return (
     <div>
-      <h3 className="text-xl font-semibold">Support Alberta Tomorrow</h3>
-      <p className="mt-2 text-sm">Help keep Alberta Tomorrow FREE by making a donation!</p>
+      <h3 className="text-xl font-semibold">{t("title")}</h3>
+
+      <p className="mt-2 text-sm">{t("description")}</p>
+
       <div className="mt-4 flex gap-2 justify-start items-center">
         <DonateButton footer />
+
         <Image
           unoptimized
           src="/external-logos/1ftp-EnvironmentalPartner-horizontal-FullColor.png"
           alt="Environmental Partner Logo"
-          width={160} // adjust to your preference
+          width={160}
           height={40}
           className="w-36 lg:w-40 h-auto"
-          priority={false} // optional
+          priority={false}
         />
       </div>
     </div>
-  )
+  );
 }

@@ -11,11 +11,11 @@
                 },
                 "planningForABetterFuture": {
                     "title": "Planifier un avenir meilleur",
-                    "description": "L’outil montre l’impact de l’agriculture, du pétrole et du gaz, ainsi que de la foresterie sur l’environnement au fil du temps, à l’aide d’<Bold>images réelles du paysage</Bold>. Les utilisateurs peuvent également recueillir et enregistrer des données sur l’eau, des images, des vidéos et d’autres observations de terrain."
+                    "description": "L’outil montre l’impact de l’agriculture, du pétrole et du gaz, ainsi que de la foresterie sur l’environnement au fil du temps, à l’aide <Bold>d’images réelles du paysage</Bold>. Les utilisateurs peuvent également recueillir et enregistrer des données sur l’eau, des images, des vidéos et d’autres observations de terrain."
                 },
                 "historicLandscapeSimulation": {
                     "title": "Simulation de paysage historique",
-                    "description": "Visualisez l’<Bold>évolution historique</Bold> des paysages naturels de l’Alberta à l’aide d’images réelles."
+                    "description": "Visualisez <Bold>l’évolution historique</Bold> des paysages naturels de l’Alberta à l’aide d’images réelles."
                 },
                 "climatePlanningSimulation": {
                     "title": "Simulation de la planification climatique",

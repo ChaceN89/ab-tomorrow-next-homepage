@@ -25,11 +25,9 @@
  * @updated April 1st, 2025
  */
 
-// icons
 // Icons
 import {
   FaVideo,
-  FaBolt,
   FaBookOpen,
   FaUserPlus,
   FaMapMarkedAlt,
@@ -45,7 +43,6 @@ import {
   FaGraduationCap
 } from "react-icons/fa";
 
-import { GiFlatPawPrint } from "react-icons/gi";
 
 // for drops downs associated with the navbar (dropdowns and mobile dropdown)
 export const dropdownVariants = {
@@ -77,51 +74,52 @@ export const dropdownVariants = {
 
 // the donate button info (in nav and footer) 
 export const donateInfo = {
-  title: "Donate",
-  altTitle: "Make A Donation",
   href: "https://www.canadahelps.org/en/dn/60256?v2=true"
-}
+};
 
 // Extra links at the footer
-export const extraPages =[
-  { label: "Sign Up ", icon: <FaUserPlus />, href: "https://www.simulator.albertatomorrow.ca/" },
-  { label: "Privacy Policy", icon: <FaEnvelope />, router: "/privacy-policy" },
-  { label: "Terms of Use", icon: <FaEnvelope />, router: "/terms-of-use" },
-]
+export const extraPages = [
+  { labelKey: "signUp", icon: <FaUserPlus />, href: "https://www.simulator.albertatomorrow.ca/" },
+  { labelKey: "privacyPolicy", icon: <FaEnvelope />, router: "/privacy-policy" },
+  { labelKey: "termsOfUse", icon: <FaEnvelope />, router: "/terms-of-use" },
+];
+
 
 export const educationTools = [
-  { label: "Land Use Simulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
+  { labelKey: "landUseSimulator", icon: <FaMapMarkedAlt />, href: "https://www.simulator.albertatomorrow.ca" },
   // { label: "Energy Tomorrow", scrollTo: "tools", icon: <FaBolt /> },
   // { label: "Wildlife Tomorrow", scrollTo: "tools", icon: <GiFlatPawPrint /> },
 ];
 
 // Scroll Links in the home page
 export const scrollLinks = [
-  { label: "Home", scrollTo: "hero", icon: <FaHome /> },
-  { label: "Intro", scrollTo: "intro", icon: <FaBookOpen /> },
-  { label: "Tools", scrollTo: "tools", icon: <FaWrench /> },
-  { label: "Education", scrollTo: "education", icon: <FaGraduationCap /> },
-  { label: "About", scrollTo: "about", icon: <FaInfoCircle /> },
+  { labelKey: "home", scrollTo: "hero", icon: <FaHome /> },
+  { labelKey: "intro", scrollTo: "intro", icon: <FaBookOpen /> },
+  { labelKey: "tools", scrollTo: "tools", icon: <FaWrench /> },
+  { labelKey: "education", scrollTo: "education", icon: <FaGraduationCap /> },
+  { labelKey: "about", scrollTo: "about", icon: <FaInfoCircle /> },
 ];
 
 // the tools drop down to external links
 export const toolsDropDown = {
-  title: "Resources",
-  list:[
+  titleKey: "label",
+  translationNamespace: "NavBar.resources",
+  list: [
     ...educationTools,
-    {label: "Lesson Plans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
-    {label: "Videos", icon: <FaVideo />, router: "/resources/videos" },
+    { labelKey: "lessonPlans", icon: <FaClipboardList />, router: "/resources/lesson-plans" },
+    { labelKey: "videos", icon: <FaVideo />, router: "/resources/videos" },
   ]
-}
+};
 
 // the learn more drop down to other pages
 export const learnMoreDropDown = {
-  title: "Learn More",
-  list:[
-    { label: "FAQs", icon: <FaQuestionCircle />, router: "/faqs" },
-    { label: "Board of Directors", icon: <FaUsers />, router: "/board-of-directors" },
-    { label: "Partners", icon: <FaHandshake />, router: "/our-partners" },
-    { label: "Events", icon: <FaCalendarAlt />, router: "/events" },
-    { label: "Contact", icon: <FaEnvelope />, router: "/contact" },
+  titleKey: "label",
+  translationNamespace: "NavBar.learnMore",
+  list: [
+    { labelKey: "faqs", icon: <FaQuestionCircle />, router: "/faqs" },
+    { labelKey: "boardOfDirectors", icon: <FaUsers />, router: "/board-of-directors" },
+    { labelKey: "partners", icon: <FaHandshake />, router: "/our-partners" },
+    // { labelKey: "events", icon: <FaCalendarAlt />, router: "/events" }, // removing the evnts page 
+    { labelKey: "contact", icon: <FaEnvelope />, router: "/contact" },
   ]
-}
+};

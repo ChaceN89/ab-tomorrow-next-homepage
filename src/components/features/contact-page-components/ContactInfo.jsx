@@ -1,27 +1,36 @@
 /**
- * @file FooterContact.jsx
+ * @file ContactInfo.jsx
  * @module UI/FooterContact
  * @desc Compact contact block used in footers or sidebars.
  *
  * @props {boolean} [noTitle=false] - If true, hides the "Contact Us" title.
- * @props {boolean} [address=true] - If false, hides the physical mailing address.
+ * @props {boolean} [address=false] - If true, shows the physical mailing address.
  *
  * @example
- * <FooterContact />
- * <FooterContact noTitle />
- * <FooterContact address={false} />
+ * <ContactInfo />
+ * <ContactInfo noTitle />
+ * <ContactInfo address />
  * 
  * @created Mar 27, 2025
+ * @updated Jul 7, 2026 - set up translations
  */
 
-import React from 'react';
+import { useTranslations } from "next-intl";
 
-export default function ContactInfo({ address = false }) {
+export default function ContactInfo({ noTitle = false, address = false }) {
+  const t = useTranslations("Footer.contact");
+
   return (
     <div className="space-y-1">
-      <h3 className="text-xl font-semibold">Contact Us</h3>
-      <p className="mt-2">© Alberta Tomorrow - {new Date().getFullYear()} </p>
-      <p>Alberta Tomorrow Executive Director: <b>Jennifer Janzen</b></p>
+      {!noTitle && (
+        <h3 className="text-xl font-semibold">{t("title")}</h3>
+      )}
+
+      <p className="mt-2">© Alberta Tomorrow - {new Date().getFullYear()}</p>
+
+      <p>
+        {t("executiveDirector")} <b>Jennifer Janzen</b>
+      </p>
 
       {address && (
         <p>
@@ -31,7 +40,7 @@ export default function ContactInfo({ address = false }) {
       )}
 
       <p>
-        Email:{' '}
+        {t("email")}{" "}
         <a
           href="mailto:info@albertatomorrow.ca"
           className="text-blue-400 hover:underline"

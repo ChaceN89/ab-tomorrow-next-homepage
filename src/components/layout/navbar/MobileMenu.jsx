@@ -20,7 +20,7 @@ import React, { useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
 // Data
-import { dropdownVariants, scrollLinks, toolsDropDown, learnMoreDropDown } from "../../data/navData";
+import { dropdownVariants, scrollLinks, toolsDropDown, learnMoreDropDown } from '@/data/navData';
 
 // Icons
 import { RiScrollToBottomLine } from "react-icons/ri";

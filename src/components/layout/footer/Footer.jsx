@@ -23,19 +23,24 @@
  * 
  * @author Chace Nielson
  * @created Apr 1, 2025
- * @updated Apr 1, 2025
+ * @updated July 7, 2026 - set up translations 
  */
 // Data
 import { extraPages, educationTools } from '@/data/navData';
 
+// translation system
+import { useTranslations } from "next-intl";
+
 // Components
+import ContactInfo from '@/components/features/contact-page-components/ContactInfo';
 import SocialMediaIcons from './SocialMediaIcons';
-import ContactInfo from '@/app/contact/components/ContactInfo';
 import SupportUs from './SupportUs';
 import QuickLinks from './QuickLinks';
 import BreadCrumbLinks from './BreadCrumbLinks';
 
 export default function Footer() {
+  const t = useTranslations("Footer");
+
   return (
     <footer id="site-footer" className=" z-[60] relative w-full bg-secondary-alt text-white overflow-hidden">
       <div className="px-6 lg:px-16 py-12">
@@ -47,15 +52,22 @@ export default function Footer() {
           </div>
           <SupportUs />
           <QuickLinks />
-          <BreadCrumbLinks title="Education Tools" list={educationTools} />
-          <BreadCrumbLinks title="Sign Up & Legal" list={extraPages} />
+          <BreadCrumbLinks
+            title={t("educationTools.title")}
+            list={educationTools}
+            translationNamespace="NavBar.resources"
+          />
+
+          <BreadCrumbLinks
+            title={t("legal.title")}
+            list={extraPages}
+            translationNamespace="Footer.legal"
+          />
         </div>
       </div>
 
-      <div className="bg-secondary py-4 text-center text-sm">
-        <p>
-          The Alberta Tomorrow Foundation is a 100% non-profit organization, a Registered Non-Profit Society in Alberta with Canada Revenue Agency Charitable Status, dedicated to promoting sustainable land-use planning in Alberta.
-        </p>
+      <div className="bg-secondary p-4 text-center text-sm">
+        <p className="max-w-6xl mx-auto">{t("bottomDescription")}</p>
       </div>
     </footer>
   );

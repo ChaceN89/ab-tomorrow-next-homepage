@@ -11,7 +11,8 @@
  * proper display across various screen sizes.
  */
 @import "tailwindcss";
-@import "../../app/globals.css";
+/* global styles are imported at the app root (src/app/globals.css) */
+@reference "../../../app/globals.css";
 
 
 /* Active link: bold + accent underline */

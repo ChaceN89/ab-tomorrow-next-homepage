@@ -19,7 +19,8 @@
             "tools": "Tools",
             "education": "Education",
             "about": "About",
-            "donate": "Donate"
+            "donate": "Donate",
+            "makeADonation": "Make a Donation"
         },
         "learnMore": {
             "label": "Learn More",

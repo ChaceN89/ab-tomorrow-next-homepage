@@ -137,6 +137,9 @@
                 "supporters": "Commanditaires",
                 "pastSponsors": "Anciens commanditaires"
             },
+            "banner": {
+                "tooltipLabel": "Partenaire"
+            },
             "sponsorshipPackageButton": "Téléchargez le dossier de parrainage",
             "sponsorshipTable": {
                 "columns": {

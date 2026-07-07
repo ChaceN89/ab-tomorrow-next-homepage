@@ -5,53 +5,62 @@
  *       and router-based informational links.
  *
  * @features
- * - Scroll-to section links (Home, Intro, Education, About, etc.)
- * - Informational links (FAQs, Board of Directors, Contact, Events, etc.)
+ * - Scroll-to section links
+ * - Informational router links
  * - Includes icons beside each link
- * - Uses `LinkItem` component for handling scroll and router links
+ * - Uses localized text from next-intl
  *
  * @dependencies
- * - LinkItem.jsx (handles Next.js and scroll links)
- * - navData.js (for scrollLinks and learnMoreDropDown lists)
+ * - next-intl
+ * - LinkItem.jsx
+ * - navData.js
  * 
  * @author Chace Nielson
  * @created Apr 1, 2025
- * @updated Apr 1, 2025
+ * @updated Jul 7, 2026 - set up translations
  */
+
+import { useTranslations } from "next-intl";
+
 // data
-import { scrollLinks, learnMoreDropDown } from '@/data/navData';
+import { scrollLinks, learnMoreDropDown } from "@/data/navData";
 
 // components
-import LinkItem from '@/components/navbar/LinkItem';
+import LinkItem from "../navbar/LinkItem";
 
 export default function QuickLinks() {
+  const footerT = useTranslations("Footer.quickLinks");
+  const navLinksT = useTranslations("NavBar.links");
+  const learnMoreT = useTranslations("NavBar.learnMore");
+
   return (
     <div>
-      <h3 className="text-xl font-semibold">Quick Links</h3>
+      <h3 className="text-xl font-semibold">{footerT("title")}</h3>
+
       <div className="grid grid-cols-2 gap-4 mt-4">
         {/* Scroll-based links */}
         <ul className="space-y-2">
-          {scrollLinks.map(({ label, scrollTo, icon }, idx) => (
+          {scrollLinks.map(({ labelKey, scrollTo, icon }, idx) => (
             <li key={idx}>
               <LinkItem
                 scrollTo={scrollTo}
                 className="flex items-center gap-2 text-sm hover:text-accent transition-colors duration-100"
               >
-                {icon} {label}
+                {icon} {navLinksT(labelKey)}
               </LinkItem>
             </li>
           ))}
         </ul>
 
-        {/* Router-based links (Learn More section) */}
+        {/* Router-based links */}
         <ul className="space-y-2">
-          {learnMoreDropDown.list.map(({ label, router, icon }, idx) => (
+          {learnMoreDropDown.list.map(({ labelKey, router, icon }, idx) => (
             <li key={idx}>
               <LinkItem
                 router={router}
                 className="flex items-center gap-2 text-sm hover:text-accent transition-colors duration-100"
               >
-                {icon} {label}
+                {icon} {learnMoreT(labelKey)}
               </LinkItem>
             </li>
           ))}
