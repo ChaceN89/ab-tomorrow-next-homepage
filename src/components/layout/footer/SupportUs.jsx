@@ -42,7 +42,9 @@ export default function SupportUs() {
           alt="Environmental Partner Logo"
           width={160}
           height={40}
-          className="w-36 lg:w-40 h-auto"
+          style={{
+            width: "auto",
+          }}
           priority={false}
         />
       </div>

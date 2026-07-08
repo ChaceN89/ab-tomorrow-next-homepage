@@ -42,6 +42,9 @@ export default function NavBar() {
   const pathname = usePathname();
   const isHomePage = pathname === "/" || pathname === "/en" || pathname === "/fr";
 
+  const hidePartnerBanner = (pathname || "").includes("/resources");
+  const navClassName = `fixed z-[9998] top-0 left-0 min-w-full py-2 backdrop-blur-md bg-gray-200/20 shadow-lg border-b border-white/10 ${!hidePartnerBanner ? "2xl:min-w-[calc(100%-14rem)]" : ""}`;
+
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
 
@@ -51,12 +54,9 @@ export default function NavBar() {
   }, []);
 
   return (
-    <nav
-      className="fixed z-[9998] top-0 left-0 min-w-full py-2 backdrop-blur-md bg-gray-200/20 shadow-lg border-b border-white/10 2xl:min-w-[calc(100%-14rem)]"
-      style={{
-        backgroundColor: `rgba(31, 41, 55, ${isHomePage ? Math.min(0.75, 0.4 + scrollY / 1000) : 0.75})`,
-      }}
-    >
+    <nav className={navClassName} style={{
+      backgroundColor: `rgba(31, 41, 55, ${isHomePage ? Math.min(0.75, 0.4 + scrollY / 1000) : 0.75})`,
+    }}>
       <div className="flex w-full md:flex-col lg:flex-row justify-between md:justify-start lg:justify-between items-center page-width">
         <div className="flex items-center">
           <LinkItem router="/" scrollTo="hero" disableActive className="text-white hover:cursor-pointer">

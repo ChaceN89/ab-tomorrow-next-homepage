@@ -70,6 +70,7 @@ function PartnerList() {
                     unoptimized
                     className={`object-contain ${partner.partnerClass || ""}`}
                     priority={index < 5}
+                    loading="eager"
                   />
                 </div>
               </Tooltip>

@@ -14,8 +14,12 @@ import DisplayTesting from "@/components/testing/DisplayTesting";
 import NewsPopup from "@/components/common/NewsPopup";
 import NavBar from "../navbar/NavBar";
 import PartnerBanner from "@/components/features/our-partner-componets/PartnerBanner";
+import { usePathname } from "next/navigation";
 
 export default function LocalizedShell({ children }) {
+  const pathname = usePathname() || "";
+  const hidePartnerBanner = pathname.includes("/resources");
+  const mainClassName = `flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background ${!hidePartnerBanner ? "lg:mr-56" : ""} min-h-[50vh] overflow-hidden`;
   return (
     <>
       <ScrollProgress />
@@ -23,11 +27,9 @@ export default function LocalizedShell({ children }) {
       <DisplayTesting />
       <NewsPopup />
       <NavBar />
-      <PartnerBanner />
+      {!hidePartnerBanner && <PartnerBanner />}
 
-      <main 
-        className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden"
-      >
+      <main className={mainClassName}>
         <HexSeparator randomColors rows={10} hexClass="bg-primary-alt opacity-10" />
         <div className="relative">{children}</div>
         <div className="mt-auto">

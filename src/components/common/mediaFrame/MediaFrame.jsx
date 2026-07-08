@@ -47,12 +47,12 @@ import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 export default function MediaFrame({
   type = "image",
   imgSrc = "",
-  videoSrc= "",
+  videoSrc = "",
   alt = "",
   title = "",
   description = "",
   className = "aspect-video",
-  maxSize="max-w-lg",
+  maxSize = "max-w-lg",
   showWheel = false,
   preload = false,
 }) {
@@ -63,7 +63,7 @@ export default function MediaFrame({
   });
 
   const { trackEvent } = useGoogleAnalytics();
-  
+
   // see if the vide can start being loaded
   const [canStartVidLoad, setCanStartVidLoad] = useState(preload)
 
@@ -82,15 +82,15 @@ export default function MediaFrame({
   const [playerReady, setPlayerReady] = useState(false);
 
   const handleVideoReady = (event) => {
-      playerRef.current = event.target;
-      setPlayerReady(true);
-      setVideoLoaded(true);
+    playerRef.current = event.target;
+    setPlayerReady(true);
+    setVideoLoaded(true);
 
-      if (shouldPlayWhenReadyRef.current) {
-          shouldPlayWhenReadyRef.current = false;
-          myOnPlay();
-          event.target.playVideo();
-      }
+    if (shouldPlayWhenReadyRef.current) {
+      shouldPlayWhenReadyRef.current = false;
+      myOnPlay();
+      event.target.playVideo();
+    }
   };
 
 
@@ -102,23 +102,23 @@ export default function MediaFrame({
 
   // Play the video from the thumbnail click event
   const playVideo = () => {
-      if (type !== "video") return;
+    if (type !== "video") return;
 
-      trackEvent("MediaFrame", "Play", `Video Started: ${videoSrc}`);
+    trackEvent("MediaFrame", "Play", `Video Started: ${videoSrc}`);
 
-      if (!canStartVidLoad) {
-          shouldPlayWhenReadyRef.current = true;
-          setCanStartVidLoad(true);
-          return;
-      }
+    if (!canStartVidLoad) {
+      shouldPlayWhenReadyRef.current = true;
+      setCanStartVidLoad(true);
+      return;
+    }
 
-      if (!playerReady || !playerRef.current) {
-          shouldPlayWhenReadyRef.current = true;
-          return;
-      }
+    if (!playerReady || !playerRef.current) {
+      shouldPlayWhenReadyRef.current = true;
+      return;
+    }
 
-      myOnPlay();
-      playerRef.current.playVideo();
+    myOnPlay();
+    playerRef.current.playVideo();
   };
 
   // Pause the video when the component unmounts
@@ -133,20 +133,19 @@ export default function MediaFrame({
     return null;
   }
 
-  return(
+  return (
     <div className={`w-full ${maxSize} mx-auto text-center space-y-2 text-inherit`}>
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
-      
-      <div  ref={ref} className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
-    
+
+      <div ref={ref} className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
+
         {(inView || preload) && (<>
 
-          <PulseLoader 
-            showWheel={type === "video" || showWheel} 
-            className={`transition-opacity duration-800 pointer-events-none ${
-              (imgLoaded && videoLoaded) ? "opacity-0" : "opacity-100"
-            }`} 
-          />      
+          <PulseLoader
+            showWheel={type === "video" || showWheel}
+            className={`transition-opacity duration-800 pointer-events-none ${(imgLoaded && videoLoaded) ? "opacity-0" : "opacity-100"
+              }`}
+          />
 
           {/* Load img if image or load it as thumnail if video is the type */}
           {(
@@ -154,49 +153,48 @@ export default function MediaFrame({
             (type == "video" && imgSrc &&  // or its a video with a thumbnail
               (!videoLoaded || !videoIsPlaying) // and if its a video with a thumbn ail its either not loaded or not playing
             )
-          ) &&  
+          ) &&
             <Image
               unoptimized
               src={imgSrc || '/ui-elements/placeholder.jpg'}
               alt={alt}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className={`object-cover transition-opacity duration-500 ${
-                imgLoaded ? "opacity-100" : "opacity-0"
+              className={`object-cover transition-opacity duration-500 ${imgLoaded ? "opacity-100" : "opacity-0"
                 }`}
               onLoad={() => setImgLoaded(true)}
+              loading="eager"
             />
           }
 
           {/* Video component */}
-          {type == "video" && canStartVidLoad  &&
+          {type == "video" && canStartVidLoad &&
             // <div className="bg-black">
-              <YouTube
-                videoId={videoSrc}
-                onReady={handleVideoReady}
-                loading="lazy"
-                iframeClassName="yt-frame"
-                onPlay={() => myOnPlay() }
-                opts={{
-                  width: "100%",
-                  height: "100%",
-                }}
-                className={`w-full h-full transition duration-200 ${
-                  (videoIsPlaying || !imgSrc)  ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
-                }`}           
-              />
-          }  
-
-          {/* Button over video to trigger playing */}
-          {(type=="video" && !videoIsPlaying ) &&
-            <PlayButton
-                videoLoaded={videoLoaded}
-                handlePlayClick={playVideo}
-                canPlayVideo={playerReady}
-                preload={preload}
+            <YouTube
+              videoId={videoSrc}
+              onReady={handleVideoReady}
+              loading="lazy"
+              iframeClassName="yt-frame"
+              onPlay={() => myOnPlay()}
+              opts={{
+                width: "100%",
+                height: "100%",
+              }}
+              className={`w-full h-full transition duration-200 ${(videoIsPlaying || !imgSrc) ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
+                }`}
             />
           }
-        </>)}       
+
+          {/* Button over video to trigger playing */}
+          {(type == "video" && !videoIsPlaying) &&
+            <PlayButton
+              videoLoaded={videoLoaded}
+              handlePlayClick={playVideo}
+              canPlayVideo={playerReady}
+              preload={preload}
+            />
+          }
+        </>)}
       </div>
 
       {description && <div className="text-left pt-1.5">{description}</div>}
