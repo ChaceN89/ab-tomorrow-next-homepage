@@ -1,152 +1,153 @@
 {
-    "HomePage": {
-        "Intro": {
-            "title": "Envision a Sustainable Future",
-            "description1": "Alberta’s rapid growth has built a strong economy, but it’s also placed pressure on the <Bold>forests, grasslands, and rivers</Bold> that sustain it.",
-            "description2": "<Bold>Alberta Tomorrow</Bold> is an interactive <Bold>educational simulator</Bold> that helps you explore sustainable land-use planning. Compare past and present landscapes, create your own development plans, and analyze the impact of agriculture, oil and gas, forestry, and more. You can even geotag photos, videos, and water data as part of your learning journey.",
-            "videos": {
-                "awardWinningEducation": {
-                    "title": "Award-Winning Education",
-                    "description": "The <Bold>Alberta Emerald Foundation</Bold> recognized Alberta Tomorrow for its impact on sustainability education, emphasizing its role in fostering awareness and understanding of responsible land use and environmental stewardship."
-                },
-                "planningForABetterFuture": {
-                    "title": "Planning for a Better Future",
-                    "description": "It shows how agriculture, oil and gas, and forestry impact the environment over time, using <Bold>real landscape imagery.</Bold> Users can also collect and save water data, images, videos, and other field observations."
-                },
-                "historicLandscapeSimulation": {
-                    "title": "Historic Landscape Simulation",
-                    "description": "Visualize <Bold>historical changes</Bold> in Alberta’s natural landscapes using real imagery."
-                },
-                "climatePlanningSimulation": {
-                    "title": "Climate Planning Simulation",
-                    "description": "See the current landscape in <Bold>30+ areas in Alberta.</Bold> Draw your own plan for Alberta and see the potential outcomes!"
-                }
-            }
+  "HomePage": {
+    "Intro": {
+      "title": "Envision a Sustainable Future",
+      "description1": "Alberta’s rapid growth has built a strong economy, but it’s also placed pressure on the <Bold>forests, grasslands, and rivers</Bold> that sustain it.",
+      "description2": "<Bold>Alberta Tomorrow</Bold> is an interactive <Bold>educational simulator</Bold> that helps you explore sustainable land-use planning. Compare past and present landscapes, create your own development plans, and analyze the impact of agriculture, oil and gas, forestry, and more. You can even geotag photos, videos, and water data as part of your learning journey.",
+      "videos": {
+        "awardWinningEducation": {
+          "title": "Award-Winning Education",
+          "description": "The <Bold>Alberta Emerald Foundation</Bold> recognized Alberta Tomorrow for its impact on sustainability education, emphasizing its role in fostering awareness and understanding of responsible land use and environmental stewardship."
         },
-        "CallToAction": {
-            "title": "Now set some goals and design a better future!",
-            "description": "Take control and shape Alberta’s future using the Alberta Tomorrow simulator.",
-            "quote": "Alberta Tomorrow gives my students real life exposure to real life decisions... all at their fingertips. Thank you for enriching my students' learning environment.",
-            "author": "– Stephanie Bennett, Biology Teacher"
+        "planningForABetterFuture": {
+          "title": "Planning for a Better Future",
+          "description": "It shows how agriculture, oil and gas, and forestry impact the environment over time, using <Bold>real landscape imagery.</Bold> Users can also collect and save water data, images, videos, and other field observations."
         },
-        "InteractiveTools": {
-            "title": "Explore Our Interactive Tools",
-            "description": "Use our powerful educational tools to explore land use, energy sustainability, and wildlife conservation in Alberta.",
-            "tools": {
-                "landUseSimulator": {
-                    "title": "Land Use Simulator",
-                    "description": "Explore how land use decisions impact Alberta’s landscapes. Compare past and present, create custom development plans, and analyze the effects of agriculture, oil & gas, forestry, and more."
-                },
-                "energyTomorrow": {
-                    "title": "Energy Tomorrow",
-                    "description": "Explore how Alberta’s energy systems affect the economy, environment, and communities. Learn about sustainable energy options, emissions, and the challenges of balancing energy needs with climate goals."
-                },
-                "wildlifeTomorrow": {
-                    "title": "Wildlife Tomorrow",
-                    "description": "Explores how climate change and human activity impact wildlife habitats across Alberta. Learn about conservation efforts, vulnerable species, and how our choices shape the future of biodiversity."
-                },
-                "kiosk": {
-                    "title": "",
-                    "description": ""
-                }
-            }
+        "historicLandscapeSimulation": {
+          "title": "Historic Landscape Simulation",
+          "description": "Visualize <Bold>historical changes</Bold> in Alberta’s natural landscapes using real imagery."
         },
-        "Education": {
-            "title": "Free Tools & Lesson Plans to Energize Your Classroom",
-            "description": "Alberta Tomorrow is a free digital resource designed to support K–12 and post-secondary education across Alberta.",
-            "videos": {
-                "visits": {
-                    "title": "Sign Up for Virtual & In-Class Visits",
-                    "description": "Discover how powerful your classroom can be! Alberta Tomorrow was developed by Albertans for Albertans, with full curriculum support and lesson plans. All available for free!"
-                },
-                "studentProjects": {
-                    "title": "Student Projects in Action",
-                    "description": "Grade 4 students at Glenbow School used Alberta Tomorrow to cover all cross-curricular competencies, and had fun while doing it!"
-                },
-                "gettingStarted": {
-                    "title": "Getting Started",
-                    "description": "Follow these easy steps to create your own Public, Teacher, or Student account in Alberta Tomorrow."
-                },
-                "waterRangersKit": {
-                    "title": "Water Rangers Kit",
-                    "description": "Do you want to take your students out to test water but don’t have the equipment? No problem! Check out our Water Rangers test kits. Not only are you getting great testing equipment, you are helping Alberta Tomorrow at the same time! A percentage of sales goes back to Alberta Tomorrow to keep the platform completely free for you!"
-                }
-            }
-        },
-        "TeacherTools": {
-            "title": "Features and Curriculum Connection",
-            "description1": "The Alberta Tomorrow Simulator is a powerful tool for teaching about land use, climate change, and the environment. It is designed to be used in a variety of subjects and grades, and is aligned with the Alberta Program of Studies.",
-            "description2": "There are curriculum links to many other grades and subjects. New lesson plans and materials are continually under development. For a full breakdown of the Alberta Program of Studies Connections and Suggested Activities see the full curriculum guide.",
-            "button": "Full Curriculum Guide",
-            "keyFeatures": {
-                "title": "Key Features",
-                "items": {
-                    "videosAndLandUsePractices": "View videos and discover the potential benefits and impacts of different land-uses and land-use practices in Alberta",
-                    "ecosystemsAndResources": "Improve your understanding of Alberta’s ecosystems and environmental resources",
-                    "pastAndFutureLandscapes": "See what’s happened in your area in the last century, and see what it might look like 30 years from now",
-                    "futurePlan": "Develop your own plan for Alberta’s future",
-                    "waterQualityAndObservations": "Track and share water quality and land-use observations with other classes throughout Alberta",
-                    "reports": "Create and submit reports with project findings",
-                    "climateScenarios": "Explore 3 different climate change scenarios for Alberta’s future, including temperature and precipitation graphs",
-                    "guardiansOfTheIce": "Experience Watersheds, Glaciers and Climate Change with our Guardians of the Ice Video Series",
-                    "naturalRegionsVirtualTours": "View 360 Virtual Tours of Alberta’s Natural Regions including plants, animals, and land use",
-                    "indigenousMapOverlays": "Explore Indigenous Map Overlays for Alberta including Traditional Territories and Treaty Areas",
-                    "indicators": "Land use plan using Environmental/Social Economic Indicators or Indigenous Indicators"
-                }
-            },
-            "teacherDashboard": {
-                "title": "Teacher Dashboard",
-                "resources": "Teacher resources including lesson plans and videos",
-                "controlPanel": "Control panel interface to manage your students and class observations"
-            },
-            "curriculumConnections": {
-                "title": "Course & Curriculum Connections"
-            }
-        },
-        "About": {
-            "title": "About Alberta Tomorrow",
-            "description1": "Alberta Tomorrow was originally created in 2005 by Matthew Carlson and Dr. Brad Stelfox of the ALCES group. Since then, Alberta Tomorrow has been used extensively by teachers and students throughout Alberta.",
-            "description2": "Alberta Tomorrow is critically reviewed and bias-neutral. Continued development is overseen by a steering committee comprised of representatives from industry, non-profits, and government. The application is:",
-            "bulletPoints": {
-                "peerReviewed": "*Peer reviewed* by qualified scientists",
-                "endorsed": "*Endorsed* by environmentally focused non-profits, industry, and government",
-                "teacherTested": "Teacher tested"
-            },
-            "description3": "The Alberta Tomorrow program is overseen by the Alberta Tomorrow Foundation, a registered charity in Canada. The Foundation's Board of Directors includes representatives from the education, non-profit, government, and industry sectors.",
-            "button": "Meet the Board of Directors",
-            "mission": {
-                "title": "Mission:",
-                "description": "To deliver a platform that empowers youth to design and sustain a future for our shared ecosystem."
-            },
-            "vision": {
-                "title": "Vision:",
-                "description": "An informed society actively fostering sustainable futures."
-            }
-        },
-        "IndigenousVoices": {
-            "title": "Indigenous Voices",
-            "description1": "We are pleased to introduce our <Bold>\"Indigenous Voices Module,\"</Bold> a new learning module in the Land Use Simulator that centers Indigenous ways of knowing through the Two-Eyed Seeing model.",
-            "description2": "The Two-Eyed Seeing model is a guiding principle for intercultural collaboration that encourages viewing the world through both Indigenous and Western perspectives, valuing both knowledge systems to achieve stronger outcomes together.\n\nThis interactive module highlights Indigenous perspectives and cultural-geographic knowledge while exploring land use and planning through Indigenous Territories and community-defined indicators.\n\nOur goal is to provide a meaningful platform where Indigenous knowledge systems and voices help shape land use education across Alberta, fostering reconciliation and shared understanding through future-focused tools.",
-            "bulletPoints": {
-                "mapOverlays": "<Bold>Explore</Bold> province-wide map overlays including Treaty Areas, Indigenous Territories and Languages, Reserves and Settlements, Métis Regions, and Residential School Locations.",
-                "indigenousKnowledge": "<Bold>Use Indigenous knowledge</Bold> to plan land use within study areas, guided by community-defined indicators, including those from the Stoney Nakoda Nation.",
-                "stoneyStories": "Watch bilingual <Bold>“Stoney Stories”</Bold> videos and explore lessons and stories from Indigenous communities such as the Stoney Nakoda and Blackfoot Nations."
-            },
-            "landAcknowledgement": {
-                "title": "Acknowledging the First Peoples of Alberta",
-                "description": "We acknowledge that Alberta is the traditional territory of many Indigenous Peoples, including the First Nations of Treaties 4, 6, 7, 8 and 10, the Otipemisiwak and the diverse communities who have cared for these lands for generations.\n\nWe honor their deep connections to the land, water, and environment, and recognize their enduring cultures, languages, and traditions. We also thank the many Indigenous communities and individuals who have generously shared their knowledge, time, and stories in support of this project.\n\nWe hope this application helps all of us reflect on our impact and better understand the land through both Indigenous and Western knowledge systems."
-            }
-        },
-        "GetInvolved": {
-            "title": "Be Part of Our Story",
-            "description1": "Join us in shaping Alberta's future. Together, we can make a difference. Download our sponsorship package today to learn more about becoming a partner.",
-            "title2": "Launch the App in Your Own Province",
-            "description2": "We are excited to launch the Canada Tomorrow initiative to allow students, teachers, and the public across Canada to learn about sustainable planning and climate change.",
-            "buttons": {
-                "canadaTomorrowInitiative": "Canada Tomorrow Initiative",
-                "visitCanadaTomorrow": "Visit Canada Tomorrow",
-                "visitBCTomorrow": "Visit BC Tomorrow"
-            }
+        "climatePlanningSimulation": {
+          "title": "Climate Planning Simulation",
+          "description": "See the current landscape in <Bold>30+ areas in Alberta.</Bold> Draw your own plan for Alberta and see the potential outcomes!"
         }
+      }
+    },
+    "CallToAction": {
+      "title": "Now set some goals and design a better future!",
+      "description": "Take control and shape Alberta’s future using the Alberta Tomorrow simulator.",
+      "quote": "Alberta Tomorrow gives my students real life exposure to real life decisions... all at their fingertips. Thank you for enriching my students' learning environment.",
+      "author": "– Stephanie Bennett, Biology Teacher",
+      "viewTools": "View our Education Tools"
+    },
+    "InteractiveTools": {
+      "title": "Explore Our Interactive Tools",
+      "description": "Use our powerful educational tools to explore land use, energy sustainability, and wildlife conservation in Alberta.",
+      "tools": {
+        "landUseSimulator": {
+          "title": "Land Use Simulator",
+          "description": "Explore how land use decisions impact Alberta’s landscapes. Compare past and present, create custom development plans, and analyze the effects of agriculture, oil & gas, forestry, and more."
+        },
+        "energyTomorrow": {
+          "title": "Energy Tomorrow",
+          "description": "Explore how Alberta’s energy systems affect the economy, environment, and communities. Learn about sustainable energy options, emissions, and the challenges of balancing energy needs with climate goals."
+        },
+        "wildlifeTomorrow": {
+          "title": "Wildlife Tomorrow",
+          "description": "Explores how climate change and human activity impact wildlife habitats across Alberta. Learn about conservation efforts, vulnerable species, and how our choices shape the future of biodiversity."
+        },
+        "kiosk": {
+          "title": "",
+          "description": ""
+        }
+      }
+    },
+    "Education": {
+      "title": "Free Tools & Lesson Plans to Energize Your Classroom",
+      "description": "Alberta Tomorrow is a free digital resource designed to support K–12 and post-secondary education across Alberta.",
+      "videos": {
+        "visits": {
+          "title": "Sign Up for Virtual & In-Class Visits",
+          "description": "Discover how powerful your classroom can be! Alberta Tomorrow was developed by Albertans for Albertans, with full curriculum support and lesson plans. All available for free!"
+        },
+        "studentProjects": {
+          "title": "Student Projects in Action",
+          "description": "Grade 4 students at Glenbow School used Alberta Tomorrow to cover all cross-curricular competencies, and had fun while doing it!"
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "description": "Follow these easy steps to create your own Public, Teacher, or Student account in Alberta Tomorrow."
+        },
+        "waterRangersKit": {
+          "title": "Water Rangers Kit",
+          "description": "Do you want to take your students out to test water but don’t have the equipment? No problem! Check out our Water Rangers test kits. Not only are you getting great testing equipment, you are helping Alberta Tomorrow at the same time! A percentage of sales goes back to Alberta Tomorrow to keep the platform completely free for you!"
+        }
+      }
+    },
+    "TeacherTools": {
+      "title": "Features and Curriculum Connection",
+      "description1": "The Alberta Tomorrow Simulator is a powerful tool for teaching about land use, climate change, and the environment. It is designed to be used in a variety of subjects and grades, and is aligned with the Alberta Program of Studies.",
+      "description2": "There are curriculum links to many other grades and subjects. New lesson plans and materials are continually under development. For a full breakdown of the Alberta Program of Studies Connections and Suggested Activities see the full curriculum guide.",
+      "button": "Full Curriculum Guide",
+      "keyFeatures": {
+        "title": "Key Features",
+        "items": {
+          "videosAndLandUsePractices": "View videos and discover the potential benefits and impacts of different land-uses and land-use practices in Alberta",
+          "ecosystemsAndResources": "Improve your understanding of Alberta’s ecosystems and environmental resources",
+          "pastAndFutureLandscapes": "See what’s happened in your area in the last century, and see what it might look like 30 years from now",
+          "futurePlan": "Develop your own plan for Alberta’s future",
+          "waterQualityAndObservations": "Track and share water quality and land-use observations with other classes throughout Alberta",
+          "reports": "Create and submit reports with project findings",
+          "climateScenarios": "Explore 3 different climate change scenarios for Alberta’s future, including temperature and precipitation graphs",
+          "guardiansOfTheIce": "Experience Watersheds, Glaciers and Climate Change with our Guardians of the Ice Video Series",
+          "naturalRegionsVirtualTours": "View 360 Virtual Tours of Alberta’s Natural Regions including plants, animals, and land use",
+          "indigenousMapOverlays": "Explore Indigenous Map Overlays for Alberta including Traditional Territories and Treaty Areas",
+          "indicators": "Land use plan using Environmental/Social Economic Indicators or Indigenous Indicators"
+        }
+      },
+      "teacherDashboard": {
+        "title": "Teacher Dashboard",
+        "resources": "Teacher resources including lesson plans and videos",
+        "controlPanel": "Control panel interface to manage your students and class observations"
+      },
+      "curriculumConnections": {
+        "title": "Course & Curriculum Connections"
+      }
+    },
+    "About": {
+      "title": "About Alberta Tomorrow",
+      "description1": "Alberta Tomorrow was originally created in 2005 by Matthew Carlson and Dr. Brad Stelfox of the ALCES group. Since then, Alberta Tomorrow has been used extensively by teachers and students throughout Alberta.",
+      "description2": "Alberta Tomorrow is critically reviewed and bias-neutral. Continued development is overseen by a steering committee comprised of representatives from industry, non-profits, and government. The application is:",
+      "bulletPoints": {
+        "peerReviewed": "*Peer reviewed* by qualified scientists",
+        "endorsed": "*Endorsed* by environmentally focused non-profits, industry, and government",
+        "teacherTested": "Teacher tested"
+      },
+      "description3": "The Alberta Tomorrow program is overseen by the Alberta Tomorrow Foundation, a registered charity in Canada. The Foundation's Board of Directors includes representatives from the education, non-profit, government, and industry sectors.",
+      "button": "Meet the Board of Directors",
+      "mission": {
+        "title": "Mission:",
+        "description": "To deliver a platform that empowers youth to design and sustain a future for our shared ecosystem."
+      },
+      "vision": {
+        "title": "Vision:",
+        "description": "An informed society actively fostering sustainable futures."
+      }
+    },
+    "IndigenousVoices": {
+      "title": "Indigenous Voices",
+      "description1": "We are pleased to introduce our <Bold>\"Indigenous Voices Module,\"</Bold> a new learning module in the Land Use Simulator that centers Indigenous ways of knowing through the Two-Eyed Seeing model.",
+      "description2": "The Two-Eyed Seeing model is a guiding principle for intercultural collaboration that encourages viewing the world through both Indigenous and Western perspectives, valuing both knowledge systems to achieve stronger outcomes together.\n\nThis interactive module highlights Indigenous perspectives and cultural-geographic knowledge while exploring land use and planning through Indigenous Territories and community-defined indicators.\n\nOur goal is to provide a meaningful platform where Indigenous knowledge systems and voices help shape land use education across Alberta, fostering reconciliation and shared understanding through future-focused tools.",
+      "bulletPoints": {
+        "mapOverlays": "<Bold>Explore</Bold> province-wide map overlays including Treaty Areas, Indigenous Territories and Languages, Reserves and Settlements, Métis Regions, and Residential School Locations.",
+        "indigenousKnowledge": "<Bold>Use Indigenous knowledge</Bold> to plan land use within study areas, guided by community-defined indicators, including those from the Stoney Nakoda Nation.",
+        "stoneyStories": "Watch bilingual <Bold>“Stoney Stories”</Bold> videos and explore lessons and stories from Indigenous communities such as the Stoney Nakoda and Blackfoot Nations."
+      },
+      "landAcknowledgement": {
+        "title": "Acknowledging the First Peoples of Alberta",
+        "description": "We acknowledge that Alberta is the traditional territory of many Indigenous Peoples, including the First Nations of Treaties 4, 6, 7, 8 and 10, the Otipemisiwak and the diverse communities who have cared for these lands for generations.\n\nWe honor their deep connections to the land, water, and environment, and recognize their enduring cultures, languages, and traditions. We also thank the many Indigenous communities and individuals who have generously shared their knowledge, time, and stories in support of this project.\n\nWe hope this application helps all of us reflect on our impact and better understand the land through both Indigenous and Western knowledge systems."
+      }
+    },
+    "GetInvolved": {
+      "title": "Be Part of Our Story",
+      "description1": "Join us in shaping Alberta's future. Together, we can make a difference. Download our sponsorship package today to learn more about becoming a partner.",
+      "title2": "Launch the App in Your Own Province",
+      "description2": "We are excited to launch the Canada Tomorrow initiative to allow students, teachers, and the public across Canada to learn about sustainable planning and climate change.",
+      "buttons": {
+        "canadaTomorrowInitiative": "Canada Tomorrow Initiative",
+        "visitCanadaTomorrow": "Visit Canada Tomorrow",
+        "visitBCTomorrow": "Visit BC Tomorrow"
+      }
     }
+  }
 }

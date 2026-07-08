@@ -5,7 +5,7 @@
  *
  * @author Chace Nielson
  * @created Mar 25, 2025
- * @updated Apr 1, 2025
+ * @updated July 8, 2026 - Added translation keys
  */
 
 export const callToActionData = {
@@ -13,12 +13,12 @@ export const callToActionData = {
   backgroundSm: "/ui-elements/parallax-2-sm.jpg",
   sideImage: "/ui-elements/albertaWatersheds.png",
   quoteIcon: "/ui-elements/quote.png",
-  heading: "Now set some goals and design a better future!",
-  description: "Take control and shape Alberta’s future using the Alberta Tomorrow simulator.",
+  headingKey: "title",
+  descriptionKey: "description",
   quote: {
-    text: "Alberta Tomorrow gives my students real life exposure to real life decisions... all at their fingertips. Thank you for enriching my students' learning environment.",
-    author: "— Stephanie Bennett, Biology Teacher",
+    textKey: "quote",
+    authorKey: "author",
   },
   scrollLink: "tools",
-  linkText: "View our Education Tools",
+  linkText: "viewTools",
 };
