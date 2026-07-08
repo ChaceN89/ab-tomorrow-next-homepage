@@ -13,29 +13,42 @@ import SectionHeader from '@/components/common/headers/SectionHeader';
 import NumberedHexList from '@/components/common/numberedHexList/NumberedHexList';
 import HexButton from '@/components/common/hexButton/HexButton';
 import { aboutData } from '@/data/home-page-data/aboutData';
+import { useTranslations } from 'next-intl';
 
 export default function About() {
+  const t = useTranslations('HomePage.About');
+
+  const richTextComponents = {
+    Bold: (chunks) => (
+      <span className="font-semibold">
+        {chunks}
+      </span>
+    ),
+  };
+
+  const featuresList = aboutData.keyFeatures.map((f) => ({ icon: f.icon, text: t.rich(f.textKey, richTextComponents) }));
+
   return (
     <section className="bg-accent  pb-2">
       <div className="home-section home-y-padding space-y-10">
 
         <SectionHeader
-          title={aboutData.title}
-          description={aboutData.description}
+          title={t(aboutData.titleKey)}
+          description={t.rich(aboutData.description1Key, { Bold: (chunks) => <span className="text-tertiary">{chunks}</span> })}
         />
 
         <div className="space-y-4 text-lg leading-relaxed">
-          <p>{aboutData.content[0]}</p>
+          <p>{t(aboutData.description2Key)}</p>
 
           <div className="p-4 bg-accent-alt/40 rounded-xl">
-            <NumberedHexList featuresList={aboutData.keyFeatures} />
+            <NumberedHexList featuresList={featuresList} />
           </div>
 
-          <p>{aboutData.content[1]}</p>
+          <p>{t(aboutData.description3Key)}</p>
 
           <div className="mt-4 flex justify-center">
             <HexButton asLink link={aboutData.buttonLink}>
-              {aboutData.buttonText}
+              {t(aboutData.buttonKey)}
             </HexButton>
           </div>
 
@@ -43,12 +56,12 @@ export default function About() {
 
         <div className="space-y-2 mt-2 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 items-start">
           <div>
-            <h3 className="text-2xl font-semibold text-secondary-alt">Mission:</h3>
-            <p className="text-lg">{aboutData.mission}</p>
+            <h3 className="text-2xl font-semibold text-secondary-alt">{t(aboutData.mission.titleKey)}</h3>
+            <p className="text-lg">{t(aboutData.mission.descriptionKey)}</p>
           </div>
           <div>
-            <h3 className="text-2xl font-semibold text-secondary-alt">Vision:</h3>
-            <p className="text-lg">{aboutData.vision}</p>
+            <h3 className="text-2xl font-semibold text-secondary-alt">{t(aboutData.vision.titleKey)}</h3>
+            <p className="text-lg">{t(aboutData.vision.descriptionKey)}</p>
           </div>
         </div>
       </div>

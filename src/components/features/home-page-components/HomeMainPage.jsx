@@ -37,7 +37,7 @@ import CallToAction from './mainPage/CallToAction'
 import InteractiveTools from './mainPage/InteractiveTools'
 import Education from './education/Education'
 import TeacherTools from './teacherTools/TeacherTools'
-// import About from './mainPage/About'
+import About from './mainPage/About'
 // import IndigenousVoices from './mainPage/IndigenousVoices'
 // import GetInvolved from './mainPage/GetInvolved'
 
@@ -69,22 +69,22 @@ export default function HomeMainPage() {
         <TeacherTools />
       </section>
 
-      {/* <section id='about' >
+      <section id='about' >
         <div className='overflow-hidden'>
-          <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-3 '/>
-          <HexSeparator bottom rows={2} hexClass='bg-primary '/>
-          <About/>
+          <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-3 ' />
+          <HexSeparator bottom rows={2} hexClass='bg-primary ' />
+          <About />
         </div>
-        <HexSeparator bottom rows={2} hexClass='bg-tertiary-alt '/>
+        <HexSeparator bottom rows={2} hexClass='bg-tertiary-alt ' />
         <div className='indigenous-voices'>
-          <IndigenousVoices/>
+          {/* <IndigenousVoices/> */}
         </div>
         <div className='overflow-hidden'>
-          <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-3 '/>
-          <HexSeparator bottom rows={2} hexClass='bg-tertiary '/>
-          <GetInvolved/>
+          <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-3 ' />
+          <HexSeparator bottom rows={2} hexClass='bg-tertiary ' />
+          {/* <GetInvolved/> */}
         </div>
-      </section> */}
+      </section>
     </div>
   )
 }

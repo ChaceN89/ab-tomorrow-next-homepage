@@ -185,8 +185,8 @@
       "description1": "Alberta Tomorrow was originally created in 2005 by Matthew Carlson and Dr. Brad Stelfox of the ALCES group. Since then, Alberta Tomorrow has been used extensively by teachers and students throughout Alberta.",
       "description2": "Alberta Tomorrow is critically reviewed and bias-neutral. Continued development is overseen by a steering committee comprised of representatives from industry, non-profits, and government. The application is:",
       "bulletPoints": {
-        "peerReviewed": "*Peer reviewed* by qualified scientists",
-        "endorsed": "*Endorsed* by environmentally focused non-profits, industry, and government",
+        "peerReviewed": "<Bold>Peer</Bold> reviewed by qualified scientists",
+        "endorsed": "<Bold>Endorsed</Bold> by environmentally focused non-profits, industry, and government",
         "teacherTested": "Teacher tested"
       },
       "description3": "The Alberta Tomorrow program is overseen by the Alberta Tomorrow Foundation, a registered charity in Canada. The Foundation's Board of Directors includes representatives from the education, non-profit, government, and industry sectors.",
