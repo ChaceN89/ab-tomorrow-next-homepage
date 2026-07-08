@@ -32,8 +32,8 @@ export default function LanguageSwitcher() {
     if (nextLocale === currentLocale) {
       return;
     }
-
-    const pathSegments = pathname.split("/").filter(Boolean);
+    const safePath = pathname || "/";
+    const pathSegments = safePath.split("/").filter(Boolean);
     const hasLocaleSegment = routing.locales.includes(pathSegments[0]);
 
     if (hasLocaleSegment) {

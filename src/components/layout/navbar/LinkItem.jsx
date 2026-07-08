@@ -16,6 +16,8 @@
 import React from 'react'
 import { Link as ScrollLink, scroller } from 'react-scroll'
 import { usePathname, useRouter } from 'next/navigation'
+import { useLocale } from 'next-intl'
+import { routing } from '@/i18n/routing'
 import useGoogleAnalytics from '@/components/analytics/useGoogleAnalytics'
 
 export default function LinkItem({
@@ -29,7 +31,8 @@ export default function LinkItem({
 }) {
   const pathname = usePathname()
   const routerNav = useRouter()
-  const isHomePage = pathname === '/'
+  const locale = useLocale()
+  const isHomePage = pathname === '/' || pathname === `/${locale}`
   const { trackEvent } = useGoogleAnalytics();
 
   // Function to handle internal routing and scrolling
@@ -44,8 +47,8 @@ export default function LinkItem({
           offset: -120,
         })
       } else {
-        routerNav.push('/')
-
+        // navigate to the localized home so the scroll target exists
+        routerNav.push(`/${locale}`)
         const observer = new MutationObserver(() => {
           const targetElement = document.getElementById(scrollTo)
           if (targetElement) {
@@ -63,7 +66,16 @@ export default function LinkItem({
         observer.observe(document.body, { childList: true, subtree: true })
       }
     } else if (router) {
-      routerNav.push(router)
+      // Ensure internal router paths include the current locale when missing
+      let target = router
+      if (typeof router === 'string' && router.startsWith('/')) {
+        const hasLocale = routing.locales.some((l) => router === `/${l}` || router.startsWith(`/${l}/`));
+        if (!hasLocale) {
+          target = `/${locale}${router}`
+        }
+      }
+
+      routerNav.push(target)
     }
   }
 
@@ -110,7 +122,16 @@ export default function LinkItem({
           href={router}
           onClick={(e) => {
             e.preventDefault()
-            routerNav.push(router)
+            // same locale-aware push as handleClick
+            let target = router
+            if (typeof router === 'string' && router.startsWith('/')) {
+              const hasLocale = routing.locales.some((l) => router === `/${l}` || router.startsWith(`/${l}/`));
+              if (!hasLocale) {
+                target = `/${locale}${router}`
+              }
+            }
+
+            routerNav.push(target)
           }}
           className={className}
         >

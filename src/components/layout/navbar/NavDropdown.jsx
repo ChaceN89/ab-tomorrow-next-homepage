@@ -44,7 +44,12 @@ export default function NavDropdown({
 
   const getText = (key, label) => {
     if (key && shouldTranslate) {
-      return t(key);
+      try {
+        return t(key);
+      } catch (err) {
+        // If translation lookup fails, fall back to provided label or key.
+        return label || key || "";
+      }
     }
 
     return label || key || "";

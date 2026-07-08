@@ -98,9 +98,7 @@ export default function NavBar() {
           />
 
           <HextDot />
-
           <LanguageSwitcher />
-          <HextDot />
           <DonateButton />
         </div>
 
