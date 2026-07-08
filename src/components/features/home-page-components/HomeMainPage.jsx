@@ -33,7 +33,7 @@
 import React from 'react'
 import Hero from './mainPage/Hero'
 import Intro from './mainPage/Intro'
-// import CallToAction from './mainPage/CallToAction'
+import CallToAction from './mainPage/CallToAction'
 // import InteractiveTools from './mainPage/InteractiveTools'
 // import Education from './mainPage/education/Education'
 // import TeacherTools from './mainPage/teacherTools/TeacherTools'
@@ -47,15 +47,15 @@ export default function HomeMainPage() {
   return (
     <div className='overflow-hidden'>
       <section id='hero'>
-        <Hero/>
+        <Hero />
       </section>
 
       <section id='intro' className='overflow-hidden' >
-        <HexSeparator rows={13} hexClass="bg-secondary-alt opacity-40"/>
-        <HexSeparator randomColors rows={13} hexClass='bg-primary-alt opacity-5 '/>
-        <Intro/>
-        <HexSeparator bottom rows={4} parentClass='h-8 bg-primary' hexClass="bg-secondary-alt opacity-40"/>
-        {/* <CallToAction/> */}
+        <HexSeparator rows={13} hexClass="bg-secondary-alt opacity-40" />
+        <HexSeparator randomColors rows={13} hexClass='bg-primary-alt opacity-5 ' />
+        <Intro />
+        <HexSeparator bottom rows={4} parentClass='h-8 bg-primary' hexClass="bg-secondary-alt opacity-40" />
+        {/* <CallToAction /> */}
       </section>
 
       {/* <section id='tools' className='overflow-hidden'>

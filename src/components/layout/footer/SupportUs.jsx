@@ -36,17 +36,17 @@ export default function SupportUs() {
       <div className="mt-4 flex gap-2 justify-start items-center">
         <DonateButton footer />
 
-        <Image
-          unoptimized
-          src="/external-logos/1ftp-EnvironmentalPartner-horizontal-FullColor.png"
-          alt="Environmental Partner Logo"
-          width={160}
-          height={40}
-          style={{
-            width: "auto",
-          }}
-          priority={false}
-        />
+        <div className="relative w-36 lg:w-40 h-20 shrink-0">
+          <Image
+            unoptimized
+            src="/external-logos/1ftp-EnvironmentalPartner-horizontal-FullColor.png"
+            alt="Environmental Partner Logo"
+            fill
+            sizes="160px"
+            className="object-contain"
+            priority={false}
+          />
+        </div>
       </div>
     </div>
   );
