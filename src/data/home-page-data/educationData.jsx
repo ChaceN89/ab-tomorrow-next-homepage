@@ -18,45 +18,34 @@
  */
 
 export const eductionData = {
-  title: "Free Tools & Lesson Plans to Energize Your Classroom",
-  description: "Alberta Tomorrow is a free digital resource designed to support K–12 and post-secondary education across Alberta.",
+  // translation keys under `HomePage.Education`
+  titleKey: 'title',
+  descriptionKey: 'description',
 
-  // Water Rangers Kit data - sepcific section
-  waterRangerKitTitle: "Water Rangers Kit",
-  waterRangerKitDescription: "Do you want to take your students out to test water but don’t have the equipment? No problem! Check out our Water Rangers test kits. Not only are you getting great testing equipment, you are helping Alberta Tomorrow at the same time! A percentage of sales goes back to Alberta Tomorrow to keep the platform completely free for you!",
-  waterRangerKitImg: "/ui-elements/water-rangers-kit.jpg",
+  // Water Rangers Kit data keys + image
+  waterRangerKitTitleKey: 'videos.waterRangersKit.title',
+  waterRangerKitDescriptionKey: 'videos.waterRangersKit.description',
+  waterRangerKitImg: '/ui-elements/water-rangers-kit.jpg',
 
-  // MediaFrame data
+  // MediaFrame data uses translation keys for titles/descriptions
   media: [
     {
-      type: "video",
-      videoSrc: "7RmwsUh1-0E",
-      title: "The Power of Alberta Tomorrow",
-      description: (
-        <p>
-          Discover how powerful your classroom can be! Alberta Tomorrow was developed by Albertans for Albertans, with full curriculum support and lesson plans — all available for free.
-        </p>
-      ),
+      type: 'video',
+      videoSrc: '7RmwsUh1-0E',
+      titleKey: 'videos.visits.title',
+      descriptionKey: 'videos.visits.description',
     },
     {
-      type: "video",
-      videoSrc: "XcK-MNL1zCg",
-      title: "Student Projects in Action",
-      description: (
-        <p>
-          Grade 4 students at Glenbow School used Alberta Tomorrow to cover <em>all</em> cross-curricular competencies — and had fun while doing it!
-        </p>
-      ),
+      type: 'video',
+      videoSrc: 'XcK-MNL1zCg',
+      titleKey: 'videos.studentProjects.title',
+      descriptionKey: 'videos.studentProjects.description',
     },
     {
-      type: "video",
-      videoSrc: "kJ6Pu5uByQM",
-      title: "Getting Started",
-      description: (
-        <p>
-          Follow these easy steps to create your own Public, Teacher, or Student account in Alberta Tomorrow.
-        </p>
-      ),
+      type: 'video',
+      videoSrc: 'kJ6Pu5uByQM',
+      titleKey: 'videos.gettingStarted.title',
+      descriptionKey: 'videos.gettingStarted.description',
     },
   ]
 };

@@ -29,23 +29,34 @@
 // UI Components
 import BackgroundWrapper from '@/components/layout/shell/BackgroundWrapper';
 import SectionHeader from '@/components/common/headers/SectionHeader';
-import MediaFrame from '@/components/media/mediaFrame/MediaFrame';
+import MediaFrame from '@/components/common/mediaFrame/MediaFrame';
 import HexButton from '@/components/common/hexButton/HexButton';
+import { useTranslations } from 'next-intl';
 
 // Data
 import { eductionData } from '@/data/home-page-data/educationData';
 
 export default function Education() {
-  return(
-    <BackgroundWrapper background={"/ui-elements/parallax-1.jpg"} backgroundSm={null} fixed blur >
+  const t = useTranslations('HomePage.Education');
+
+  const richTextComponents = {
+    Bold: (chunks) => (
+      <span className="text-tertiary">
+        {chunks}
+      </span>
+    )
+  };
+
+  return (
+    <BackgroundWrapper background={'/ui-elements/parallax-1.jpg'} backgroundSm={null} fixed blur>
       <div className='home-section home-y-padding space-y-8  '>
         <SectionHeader
-          title={eductionData.title}
-          description={eductionData.description}
+          title={t(eductionData.titleKey)}
+          description={t.rich(eductionData.descriptionKey, richTextComponents)}
         />
 
         {/* Link to sign up for classes */}
-        <div className="flex justify-center"> 
+        <div className="flex justify-center">
           <HexButton
             color='accent'
             hoverColor='primary'
@@ -53,7 +64,7 @@ export default function Education() {
             hoverTextColor='white'
             link={"https://docs.google.com/forms/d/e/1FAIpQLSfUWfMWO5LKtOtLHmLbdZ5SR3lhTqmWn0xTzE8elyFb3WTchA/viewform?vc=0&c=0&w=1&flr=0"}
           >
-            Sign Up for Virtual & In-Class Visits
+            {t(eductionData.media[0].titleKey)}
           </HexButton>
         </div>
 
@@ -65,22 +76,22 @@ export default function Education() {
               key={index}
               type={item.type}
               videoSrc={item.videoSrc}
-              alt={item.alt}
-              title={item.title}
-              description={item.description}
+              alt={t(item.titleKey)}
+              title={t(item.titleKey)}
+              description={<p>{t.rich(item.descriptionKey, richTextComponents)}</p>}
             />
           ))}
         </div>
 
         <MediaFrame
-            preload
-            imgSrc={eductionData.waterRangerKitImg}
-            alt={eductionData.waterRangerKitTitle}
-            title={eductionData.waterRangerKitTitle}
-            description={eductionData.waterRangerKitDescription}
-            showWheel
-          />
-        <div className='h-2'/>
+          preload
+          imgSrc={eductionData.waterRangerKitImg}
+          alt={t(eductionData.waterRangerKitTitleKey)}
+          title={t(eductionData.waterRangerKitTitleKey)}
+          description={<p>{t.rich(eductionData.waterRangerKitDescriptionKey, richTextComponents)}</p>}
+          showWheel
+        />
+        <div className='h-2' />
       </div>
     </BackgroundWrapper>
   )

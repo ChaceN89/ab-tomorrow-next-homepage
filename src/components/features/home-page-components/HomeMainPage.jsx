@@ -35,7 +35,7 @@ import Hero from './mainPage/Hero'
 import Intro from './mainPage/Intro'
 import CallToAction from './mainPage/CallToAction'
 import InteractiveTools from './mainPage/InteractiveTools'
-// import Education from './mainPage/education/Education'
+import Education from './education/Education'
 // import TeacherTools from './mainPage/teacherTools/TeacherTools'
 // import About from './mainPage/About'
 // import IndigenousVoices from './mainPage/IndigenousVoices'
@@ -63,11 +63,11 @@ export default function HomeMainPage() {
         <InteractiveTools />
       </section>
 
-      {/* <section id='education'>
-        <Education/>
-        <HexSeparator bottom rows={2} hexClass='bg-primary-alt' parentClass='bg-primary h-0.5'/>
-        <TeacherTools/>
-      </section> */}
+      <section id='education'>
+        <Education />
+        <HexSeparator bottom rows={2} hexClass='bg-primary-alt' parentClass='bg-primary h-0.5' />
+        {/* <TeacherTools/> */}
+      </section>
 
       {/* <section id='about' >
         <div className='overflow-hidden'>

@@ -33,14 +33,17 @@ export default function CallToAction() {
       <div className="relative z-30 flex flex-col lg:flex-row gap-10 justify-center items-center text-center text-white px-10">
         {/* Side Image (hidden on mobile) */}
         <div className="hidden lg:flex justify-center items-center">
-          <Image
-            unoptimized
-            src={callToActionData.sideImage}
-            alt="Alberta Watersheds"
-            width={400}
-            height={400}
-            className="max-h-96 object-contain"
-          />
+          <div className="relative w-96 h-96 shrink-0">
+            <Image
+              unoptimized
+              src={callToActionData.sideImage}
+              alt="Alberta Watersheds"
+              fill
+              sizes="384px"
+              className="object-contain"
+              priority={false}
+            />
+          </div>
         </div>
 
         {/* Frosted Glass Content Card */}
@@ -54,13 +57,17 @@ export default function CallToAction() {
           <div className="flex items-start gap-2 mt-6 max-w-2xl px-4">
             {/* Quote Icon */}
             <div className="hidden md:block shrink-0 mt-1">
-              <Image
-                unoptimized
-                src={callToActionData.quoteIcon}
-                alt="Quote Icon"
-                width={32}
-                height={32}
-              />
+              <div className="relative w-8 h-8">
+                <Image
+                  unoptimized
+                  src={callToActionData.quoteIcon}
+                  alt="Quote Icon"
+                  fill
+                  sizes="32px"
+                  className="object-contain"
+                  priority={false}
+                />
+              </div>
             </div>
 
             {/* Vertical Line */}
