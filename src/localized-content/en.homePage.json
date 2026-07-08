@@ -101,7 +101,83 @@
         "controlPanel": "Control panel interface to manage your students and class observations"
       },
       "curriculumConnections": {
-        "title": "Course & Curriculum Connections"
+        "title": "Course & Curriculum Connections",
+        "subjects": {
+          "Science": "Science",
+          "SocialStudies": "Social Studies",
+          "TimeandPlace": "Time and Place",
+          "Matter": "Matter",
+          "EarthSystems": "Earth Systems",
+          "LivingSystems": "Living Systems",
+          "Energy": "Energy",
+          "InteractionsandEcosystems": "Interactions and Ecosystems",
+          "PlantsforFoodandFibre": "Plants for Food and Fibre",
+          "FreshwaterandSaltwaterSystems": "Freshwater and Saltwater Systems",
+          "BiologicalDiversity": "Biological Diversity",
+          "EnvironmentalChemistry": "Environmental Chemistry",
+          "SocialTimeAndPlace": "Social Time and Place",
+          "SocialTimeandPlace": "Social Time and Place",
+          "Citizenship": "Citizenship",
+          "GovernanceandRights": "Governance and Rights",
+          "EconomicSystemsinCanada": "Economic Systems in Canada",
+          "EnergyFlowinGlobalSystems": "Energy Flow in Global Systems",
+          "ChemicalChange": "Chemical Change",
+          "ChangeinLivingSystems": "Change in Living Systems",
+          "ChemistryandtheEnvironment": "Chemistry and the Environment",
+          "EnergyandMatterExchangeintheBiosphere": "Energy and Matter Exchange in the Biosphere",
+          "Agriculture": "Agriculture",
+          "EnvironmentalStudies": "Environmental Studies",
+          "Forestry": "Forestry",
+          "PrimaryResources": "Primary Resources",
+          "Wildlife": "Wildlife",
+          "UrbanRuralPlanning": "Urban/Rural Planning",
+          "Biology": "Biology",
+          "Ecology": "Ecology"
+        },
+        "grades": {
+          "grade1": {
+            "title": "Grade 1"
+          },
+          "grade2": {
+            "title": "Grade 2"
+          },
+          "grade3": {
+            "title": "Grade 3"
+          },
+          "grade4": {
+            "title": "Grade 4"
+          },
+          "grade5": {
+            "title": "Grade 5"
+          },
+          "grade6": {
+            "title": "Grade 6 Science"
+          },
+          "grade7": {
+            "title": "Grade 7 Science"
+          },
+          "grade8": {
+            "title": "Grade 8 Science"
+          },
+          "grade9": {
+            "title": "Grade 9"
+          },
+          "science10": {
+            "title": "Science 10"
+          },
+          "science20": {
+            "title": "Science 20"
+          },
+          "biology20": {
+            "title": "Biology 20"
+          },
+          "cts": {
+            "title": "CTS"
+          },
+          "postSecondary": {
+            "title": "Post-Secondary"
+          }
+        }
       }
     },
     "About": {

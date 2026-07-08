@@ -36,7 +36,7 @@ import Intro from './mainPage/Intro'
 import CallToAction from './mainPage/CallToAction'
 import InteractiveTools from './mainPage/InteractiveTools'
 import Education from './education/Education'
-// import TeacherTools from './mainPage/teacherTools/TeacherTools'
+import TeacherTools from './teacherTools/TeacherTools'
 // import About from './mainPage/About'
 // import IndigenousVoices from './mainPage/IndigenousVoices'
 // import GetInvolved from './mainPage/GetInvolved'
@@ -66,7 +66,7 @@ export default function HomeMainPage() {
       <section id='education'>
         <Education />
         <HexSeparator bottom rows={2} hexClass='bg-primary-alt' parentClass='bg-primary h-0.5' />
-        {/* <TeacherTools/> */}
+        <TeacherTools />
       </section>
 
       {/* <section id='about' >

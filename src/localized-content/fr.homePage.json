@@ -101,7 +101,83 @@
         "controlPanel": "Interface de panneau de contrôle pour gérer les observations de vos élèves et de votre classe."
       },
       "curriculumConnections": {
-        "title": "Liens entre les cours et le curriculum"
+        "title": "Liens entre les cours et le curriculum",
+        "subjects": {
+          "Science": "Sciences",
+          "SocialStudies": "Études sociales",
+          "TimeandPlace": "Époque et lieu",
+          "Matter": "Matière",
+          "EarthSystems": "Systèmes de la Terre",
+          "LivingSystems": "Systèmes vivants",
+          "Energy": "Énergie",
+          "InteractionsandEcosystems": "Interactions et écosystèmes",
+          "PlantsforFoodandFibre": "Plantes pour la nourriture et la fibre",
+          "FreshwaterandSaltwaterSystems": "Eaux douces et eaux salées",
+          "BiologicalDiversity": "Biodiversité",
+          "EnvironmentalChemistry": "Chimie de l’environnement",
+          "SocialTimeAndPlace": "Époque sociale et lieu",
+          "SocialTimeandPlace": "Époque sociale et lieu",
+          "Citizenship": "Citoyenneté",
+          "GovernanceandRights": "Gouvernance et droits",
+          "EconomicSystemsinCanada": "Systèmes économiques au Canada",
+          "EnergyFlowinGlobalSystems": "Flux d’énergie dans les systèmes planétaires",
+          "ChemicalChange": "Transformation chimique",
+          "ChangeinLivingSystems": "Le changement dans les systèmes vivants",
+          "ChemistryandtheEnvironment": "La chimie et l'environnement",
+          "EnergyandMatterExchangeintheBiosphere": "L’échange d’énergie et de matière dans la biosphère",
+          "Agriculture": "Agriculture",
+          "EnvironmentalStudies": "Études environnementales",
+          "Forestry": "Foresterie",
+          "PrimaryResources": "Ressources primaires",
+          "Wildlife": "Faune",
+          "UrbanRuralPlanning": "Urbanisme/ruralisme",
+          "Biology": "Biologie",
+          "Ecology": "Écologie"
+        },
+        "grades": {
+          "grade1": {
+            "title": "1re année"
+          },
+          "grade2": {
+            "title": "2ᵉ année"
+          },
+          "grade3": {
+            "title": "3ᵉ année"
+          },
+          "grade4": {
+            "title": "4ᵉ année"
+          },
+          "grade5": {
+            "title": "5ᵉ année"
+          },
+          "grade6": {
+            "title": "Sciences (6e année)"
+          },
+          "grade7": {
+            "title": "Sciences (7e année)"
+          },
+          "grade8": {
+            "title": "Sciences (8e année)"
+          },
+          "grade9": {
+            "title": "9ᵉ année"
+          },
+          "science10": {
+            "title": "Sciences 10"
+          },
+          "science20": {
+            "title": "Sciences 20"
+          },
+          "biology20": {
+            "title": "Biologie 20"
+          },
+          "cts": {
+            "title": "ÉPT"
+          },
+          "postSecondary": {
+            "title": "Postsecondaire"
+          }
+        }
       }
     },
     "About": {

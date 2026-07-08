@@ -1,0 +1,109 @@
+{
+  "Times": {
+    "Minutes": "Minutes",
+    "Hours": "Hours",
+    "Classes": "Classes"
+  },
+  "Tools": {
+    "LandUseSimulator": "Land Use Simulator",
+    "EnergyTomorrow": "Energy Tomorrow",
+    "WildlifeTomorrow": "Wildlife Tomorrow"
+  },
+  "Themes": {
+    "GlaciersAndWatersheds": "Glaciers & Watersheds",
+    "ClimateChange": "Climate Change",
+    "LandUse": "Land Use",
+    "AlbertaNaturalRegionsAndEcosystems": "Alberta Natural Regions & Ecosystems",
+    "IndigenousVoices": "Indigenous Voices",
+    "BowRiverWatershed": "Bow River Watershed",
+    "Energy": "Energy"
+  },
+  "Subjects": {
+    "Science": "Science",
+    "Biology": "Biology",
+    "Chemistry": "Chemistry",
+    "Physics": "Physics",
+    "SocialStudies": "Social Studies",
+    "OutdoorAndEnvironmentalEducation": "Outdoor and Environmental Education",
+    "CTS": "CTS",
+    "EnglishLanguageArts": "English/Language Arts",
+    "Math": "Math",
+    "PhysicalEducation": "Physical Education",
+    "Health": "Health",
+    "FineArts": "Fine Arts",
+    "SpecialProjects": "Special Projects",
+    "LocallyDevelopedCourse": "Locally Developed Course",
+    "IndigenousStudies": "Indigenous Studies",
+    "Other": "Other"
+  },
+  "Grades": {
+    "Kindergarten": "Kindergarten",
+    "Grade1": "Grade 1",
+    "Grade2": "Grade 2",
+    "Grade3": "Grade 3",
+    "Grade4": "Grade 4",
+    "Grade5": "Grade 5",
+    "Grade6": "Grade 6",
+    "Grade7": "Grade 7",
+    "Grade8": "Grade 8",
+    "Grade9": "Grade 9",
+    "Grade10": "Grade 10",
+    "Grade11": "Grade 11",
+    "Grade12": "Grade 12",
+    "PostSecondary": "Post-Secondary",
+    "Grade6Science": "Grade 6 Science",
+    "Grade7Science": "Grade 7 Science",
+    "Grade8Science": "Grade 8 Science"
+  },
+  "CurriculumStrands": {
+    "LivingSystems": "Living Systems",
+    "EarthSystems": "Earth Systems",
+    "Energy": "Energy",
+    "Matter": "Matter",
+    "BiologicalDiversity": "Biological Diversity",
+    "EnvironmentalChemistry": "Environmental Chemistry",
+    "EnergyFlowInGlobalSystems": "Energy Flow in Global Systems",
+    "ChemicalChange": "Chemical Change",
+    "ChangeInLivingSystems": "Change in Living Systems",
+    "ChemistryAndTheEnvironment": "Chemistry and the Environment",
+    "InteractionsAndEcosystems": "Interactions and Ecosystems",
+    "PlantsForFoodAndFibre": "Plants for Food and Fibre",
+    "FreshwaterAndSaltwaterSystems": "Freshwater and Saltwater Systems",
+    "GovernanceAndRights": "Governance and Rights",
+    "EconomicSystemsInCanada": "Economic Systems in Canada",
+    "Citizenship": "Citizenship",
+    "TimeAndPlace": "Time and Place",
+    "SocialTimeAndPlace": "Social Time and Place",
+    "EnergyAndMatterExchangeInTheBiosphere": "Energy and Matter Exchange in the Biosphere",
+    "Agriculture": "Agriculture",
+    "EnvironmentalStudies": "Environmental Studies",
+    "Forestry": "Forestry",
+    "PrimaryResources": "Primary Resources",
+    "Wildlife": "Wildlife",
+    "UrbanRuralPlanning": "Urban/Rural Planning",
+    "Ecology": "Ecology"
+  },
+  "CurriculumLevel": {
+    "Elementary": "Elementary",
+    "JuniorHigh": "Junior High",
+    "HighSchool": "High School",
+    "Science10": "Science 10",
+    "Science20": "Science 20",
+    "Biology20": "Biology 20",
+    "CTS": "CTS",
+    "PostSecondary": "Post-Secondary"
+  },
+  "Tags": {
+    "ASenseOfTheLand": "A Sense of the Land",
+    "AbioticAndBioticFactors": "Abiotic and Biotic Factors",
+    "Adaptation": "adaptation",
+    "Adaptations": "adaptations",
+    "Agriculture": "agriculture",
+    "Alberta": "Alberta",
+    "AlbertaEnergy": "Alberta Energy",
+    "AlbertaLandscapes": "Alberta landscapes"
+  },
+  "VideoHashTags": {
+    "Traditionallanduse": "traditionallanduse"
+  }
+}
