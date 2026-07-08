@@ -38,7 +38,7 @@ import InteractiveTools from './mainPage/InteractiveTools'
 import Education from './education/Education'
 import TeacherTools from './teacherTools/TeacherTools'
 import About from './mainPage/About'
-// import IndigenousVoices from './mainPage/IndigenousVoices'
+import IndigenousVoices from './mainPage/IndigenousVoices'
 // import GetInvolved from './mainPage/GetInvolved'
 
 import HexSeparator from '@/components/common/hexSparator/HexSeparator'
@@ -77,7 +77,7 @@ export default function HomeMainPage() {
         </div>
         <HexSeparator bottom rows={2} hexClass='bg-tertiary-alt ' />
         <div className='indigenous-voices'>
-          {/* <IndigenousVoices/> */}
+          <IndigenousVoices />
         </div>
         <div className='overflow-hidden'>
           <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-3 ' />
