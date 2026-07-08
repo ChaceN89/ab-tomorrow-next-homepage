@@ -21,7 +21,7 @@ import { Link, scroller } from "react-scroll"; // ✅ make sure `scroller` is im
 import { FaChevronRight } from "react-icons/fa";
 import { IoArrowRedo } from "react-icons/io5";
 import { RiFocus3Line } from "react-icons/ri";
-import Tooltip from "@/components/media/Tooltip";
+import Tooltip from "@/components/common/Tooltip";
 
 
 export default function FilterDropdown({
@@ -31,7 +31,7 @@ export default function FilterDropdown({
   showScrollLinks = false,
   showFocusButton = false,
   initialOpen = false,
-  sortAlphabetically=false
+  sortAlphabetically = false
 }) {
 
   // initial state of the dropdown
@@ -71,19 +71,17 @@ export default function FilterDropdown({
       </button>
 
       <div
-        className={`origin-top transition-transform duration-400 ease-in-out transform overflow-hidden ${
-          open ? "scale-y-100" : "scale-y-0 h-0"
-        }`}
+        className={`origin-top transition-transform duration-400 ease-in-out transform overflow-hidden ${open ? "scale-y-100" : "scale-y-0 h-0"
+          }`}
       >
         {/* Remove stray debug text */}
         <div className="flex flex-col gap-2 p-4">
           <button
             onClick={toggleAll}
             className={`px-4 py-1 rounded-full border text-sm cursor-pointer text-start whitespace-nowrap truncate transition-colors
-              ${
-                Object.values(filterMap).every((val) => val)
-                  ? "bg-gray-200 text-black hover:opacity-70"
-                  : "bg-primary-alt text-white hover:opacity-90"
+              ${Object.values(filterMap).every((val) => val)
+                ? "bg-gray-200 text-black hover:opacity-70"
+                : "bg-primary-alt text-white hover:opacity-90"
               }`}
           >
             {Object.values(filterMap).every((val) => val)

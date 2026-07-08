@@ -17,8 +17,8 @@
  * - ./ContactInfo
  */
 import PageHeader from '@/components/common/headers/PageHeader';
-import SupportUs from '@/components/footer/SupportUs';
-import SocialMediaIcons from '@/components/footer/SocialMediaIcons';
+import SupportUs from '@/components/layout/footer/SupportUs';
+import SocialMediaIcons from '@/components/layout/footer/SocialMediaIcons';
 import ContactInfo from './ContactInfo';
 
 export default function Contact() {
@@ -32,9 +32,9 @@ export default function Contact() {
           subtitle="Have a question or want to get involved? Reach out to us!"
         />
         <div className='grid  grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10'>
-          <ContactInfo address/>
-          <SupportUs/>
-          <SocialMediaIcons title="Follow Us"/>
+          <ContactInfo address />
+          <SupportUs />
+          <SocialMediaIcons title="Follow Us" />
         </div>
       </div>
     </div>

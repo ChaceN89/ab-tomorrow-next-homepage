@@ -23,7 +23,7 @@
  */
 "use client";
 import SideBarWrapper from "@/components/layout/shell/SideBarWrapper";
-import { useLessonPlanResource } from "@/app/resources/components/lesson-plan-components/LessonPlanResourceContext";
+import { useLessonPlanResource } from "./LessonPlanResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
 import { useEffect } from "react";
 import LessonPlanFilters from "./LessonPlanFilters";
@@ -42,19 +42,19 @@ export default function LessonDisplay() {
       {/* Filters Sidebar */}
       <aside className="w-full md:w-52 xl:w-72 pt-4 ">
         <SideBarWrapper>
-          <LessonPlanFilters/>
+          <LessonPlanFilters />
         </SideBarWrapper>
       </aside>
 
       {/* Main Content */}
       <main className="flex-1 h-fit">
-        { loading || !lessonPlans ? (
+        {loading || !lessonPlans ? (
           <div className="relative mt-20">
-            <PulseLoader showWheel loadingText="Fetching Lesson Plans"/>
+            <PulseLoader showWheel loadingText="Fetching Lesson Plans" />
           </div>
         ) : (
           <div >
-            <LessonPlanThemeList/>
+            <LessonPlanThemeList />
           </div>
         )}
       </main>

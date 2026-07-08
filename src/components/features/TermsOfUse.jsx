@@ -9,10 +9,10 @@
  */
 
 import React from "react";
-import PolicySection from "@/components/Polices/PolicySection";
-import PolicySubSection from "@/components/Polices/PolicySubSection";
-import PolicyText from "@/components/Polices/PolicyText";
-import PageHeader from "@/components/common/headers/PageHeader";
+import PolicySection from "./policy-components/PolicySection";
+import PolicySubSection from "./policy-components/PolicySubSection";
+import PolicyText from "./policy-components/PolicyText";
+import PageHeader from "../common/headers/PageHeader";
 
 export default function TermsOfUse() {
 
@@ -20,7 +20,7 @@ export default function TermsOfUse() {
     <div className='page-width '>
       <div className='page'>
         <PageHeader title='Terms of Use' subtitle="Alberta Tomorrow Website Terms of Use License and Services Agreement" />
-        
+
         <PolicyText>
           <strong>APPLICATION:</strong> The provisions of this Agreement (the “Agreement”) apply to all access to or use of the Alberta Tomorrow Website and, where and as applicable, the Services (as defined below).
         </PolicyText>
@@ -28,7 +28,7 @@ export default function TermsOfUse() {
           <strong>Please read this Agreement carefully.</strong> This Agreement restricts and limits your rights. You agree to transact and contract electronically. By accepting this Agreement, and/or by accessing or using the Alberta Tomorrow website and/or the Services and/or the Materials, you enter into a binding legal agreement and contract with the Alberta Tomorrow Foundation (“Alberta Tomorrow”), and you accept all the terms and conditions of this Agreement, as set out below.
         </PolicyText>
 
-        <div className="h-12"/>
+        <div className="h-12" />
 
         <PolicySection title="1. Governing Law and Enforcement">
           <PolicySubSection title="Governing Law, Jurisdiction, and Breach Remedies">
@@ -264,7 +264,7 @@ export default function TermsOfUse() {
 
         <PolicySection title="10. Additional Services, Licenses or Statements of Work">
           <PolicyText>
-            (a) Alberta Tomorrow may, in its exclusive discretion, agree to provide further or additional products, services or licenses (<strong>“Additional Offerings”</strong>). Any such Additional Offerings will only be made available, if at all, in a separate written statement of work or schedule, appendix, exhibit, attachment or similar document (collectively, each a “Statement of Work”) with Alberta Tomorrow, provided that, in all cases, any such agreement or Statement of Work will always be subject to this Agreement. In the event of any conflict between this Agreement and any such other agreement or Statement of Work, the terms and conditions of this Agreement will prevail and take priority to the full extent of any such conflict.          
+            (a) Alberta Tomorrow may, in its exclusive discretion, agree to provide further or additional products, services or licenses (<strong>“Additional Offerings”</strong>). Any such Additional Offerings will only be made available, if at all, in a separate written statement of work or schedule, appendix, exhibit, attachment or similar document (collectively, each a “Statement of Work”) with Alberta Tomorrow, provided that, in all cases, any such agreement or Statement of Work will always be subject to this Agreement. In the event of any conflict between this Agreement and any such other agreement or Statement of Work, the terms and conditions of this Agreement will prevail and take priority to the full extent of any such conflict.
           </PolicyText>
         </PolicySection>
 
@@ -277,19 +277,19 @@ export default function TermsOfUse() {
               (b) This Agreement will enure to the benefit of and will be binding on and enforceable by you and Alberta Tomorrow and our respective successors and permitted assigns.
             </PolicyText>
           </PolicySubSection>
-    
+
           <PolicySubSection title="Agency, Partnership, and Joint Ventures">
             <PolicyText>
               (c) This Agreement does not create or imply any agency, partnership, joint venture, or other joint relationship between you and Alberta Tomorrow, and does not authorize you to bind or obligate Alberta Tomorrow.
             </PolicyText>
           </PolicySubSection>
-    
+
           <PolicySubSection title="Force Majeure">
             <PolicyText>
               (d) Any delay or failure of Alberta Tomorrow to perform its obligations under this Agreement or under any Statement of Work shall be excused if the delay or failure is caused by an event or occurrence beyond the reasonable control of Alberta Tomorrow and without its fault or negligence, such as, by way of example and not by way of limitation, acts of God, action by any governmental authority, fires, flood, wind storms, explosions, epidemics, pandemics, riots, natural disasters, wars, terrorist acts, sabotage, labour problems (including lock-outs, strikes and slowdowns), or court order or injunction.
             </PolicyText>
           </PolicySubSection>
-    
+
           <PolicySubSection title="Survival, Severability, and Waivers">
             <PolicyText>
               (e) If any part of this Agreement is void, prohibited, or unenforceable, the rest of this Agreement will continue in force and effect and will be construed as if such part had never been part of this Agreement.
@@ -301,13 +301,13 @@ export default function TermsOfUse() {
               (g) Any provision of this Agreement that, expressly or by its nature, extends beyond the termination of this Agreement will survive any termination of this Agreement. Without limitation, sections 1, 7, 8, and 9 shall survive any termination or expiry of this Agreement, howsoever caused, and shall continue in full force and effect.
             </PolicyText>
           </PolicySubSection>
-    
+
           <PolicySubSection title="Entire Agreement">
             <PolicyText>
               (h) This Agreement, including any Statement of Work or other referenced schedule, attachment, addendum, exhibit, purchase order or similar documentation, forms the entire agreement between you and Alberta Tomorrow, and supersedes all prior written and oral communications and agreements.
             </PolicyText>
           </PolicySubSection>
-    
+
           <PolicySubSection title="Further Assurances">
             <PolicyText>
               (i) If requested to do so, you will promptly and duly execute and deliver to Alberta Tomorrow such further documents and assurances and take such further action as Alberta Tomorrow may from time to time reasonably request in order to more effectively carry out the intent and purpose of this Agreement and to establish and protect the rights and remedies created or intended to be created hereby.

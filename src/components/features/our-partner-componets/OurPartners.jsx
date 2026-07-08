@@ -28,17 +28,16 @@ import {
   supporters,
   pastSponsors,
   partnerTitleData,
-} from "@/data/page-data/partnerData";  
+} from "@/data/page-data/partnerData";
 
 // Components
 import PartnerShowcase from "./PartnersShowcase";
 import PageHeader from "@/components/common/headers/PageHeader";
-import SponsorPackageBtn from "@/app/our-partners/components/SponsorPackageBtn";
+import SponsorPackageBtn from "./SponsorPackageBtn";
 import SponsorshipTable from "./SponsorshipTable";
 
 // import { Link as ScrollLink } from "react-scroll";
 import { Link as ScrollLink } from "react-scroll";
-
 
 export default function OurPartners() {
   return (
@@ -78,9 +77,9 @@ export default function OurPartners() {
 
 
         <div id='sponsor-package' className="flex justify-center items-center my-8 p-8">
-          <SponsorPackageBtn/>
+          <SponsorPackageBtn />
         </div>
-          <SponsorshipTable/>
+        <SponsorshipTable />
       </div>
     </div>
   )

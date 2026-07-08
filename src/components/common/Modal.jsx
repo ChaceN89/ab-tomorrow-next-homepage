@@ -29,7 +29,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { AnimatePresence } from 'framer-motion';
-import SlideTransition from "../animations/SlideTransition";
+import SlideTransition from "../layout/scroll/SlideTransition";
 
 export default function Modal({ children, onClose }) {
   const modalRef = useRef(null);
@@ -62,12 +62,12 @@ export default function Modal({ children, onClose }) {
     setTimeout(() => onClose(), 500); // Match SlideTransition duration
   };
 
-  
+
   return (
     <div
       className="fixed inset-0 z-[9990] flex justify-center items-end  bg-black/50 overflow-y-auto h-full w-full overflow-hidden min-w-screen min-h-screen"
       onClick={handleOverlayClick}
-    >    
+    >
       <AnimatePresence>
         {isVisible && (
           <SlideTransition
@@ -99,7 +99,7 @@ export default function Modal({ children, onClose }) {
                 onClick={handleClose}
                 aria-label="Close modal"
                 className="absolute top-2 right-2 text-secondary hover:text-accent hover:cursor-pointer"
-                >
+              >
                 <FaTimes size={22} />
               </button>
               {children}

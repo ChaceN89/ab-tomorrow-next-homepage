@@ -24,18 +24,18 @@ import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import { FaExpandArrowsAlt } from "react-icons/fa";
 
 // components
-import MediaFrame from "@/components/media/mediaFrame/MediaFrame";
+import MediaFrame from "@/components/common/mediaFrame/MediaFrame";
 import Link from "next/link";
-import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
+import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 
-export default function VideoCard({video, noExpand = false}) {
+export default function VideoCard({ video, noExpand = false }) {
   const { trackEvent } = useGoogleAnalytics();
 
   return (
-    <div  
+    <div
       onClick={() =>
         trackEvent("VideoCard", "Click", `Opened: ${video.title} | id: ${video.id}`, 1)
-      }     
+      }
       key={video.id} className="flex flex-col  h-full justify-end gap-2"
     >
 
@@ -43,7 +43,7 @@ export default function VideoCard({video, noExpand = false}) {
         <h3 className="text-lg font-semibold text-black">{video.title}</h3>
       </div>
       <div className="z-10">
-        
+
         <MediaFrame
           type="video"
           videoSrc={extractYouTubeId(video.media.url)}
@@ -53,32 +53,32 @@ export default function VideoCard({video, noExpand = false}) {
       </div>
       <div className="h-32 shadow-md rounded-b-lg bg-white/60 -mt-4 -mr-0.5 pt-4 overflow-hidden border-1 border-black/30 relative z-0 max-w-5xl self-center w-full">
         {!noExpand &&
-          <Link 
-            scroll={false} 
-            href={`?video=${video.id}`} 
+          <Link
+            scroll={false}
+            href={`?video=${video.id}`}
             className=" absolute bottom-1 right-2"
           >
             <FaExpandArrowsAlt className="text-secondary hover:scale-105 hover:text-accent" />
           </Link>
         }
 
-        <div className="h-full overflow-y-auto custom-scrollbar p-1.5 ">       
+        <div className="h-full overflow-y-auto custom-scrollbar p-1.5 ">
 
           <div className="flex gap-2  pr-1.5">
             <div className={`text-sm text-gray-500 flex-1 p-0.5 flex flex-col ${video.lessonPlans.length > 0 && "border-r border-gray-300"}`}>
-              {video.description} 
+              {video.description}
             </div>
 
             {video.lessonPlans.length > 0 && (
               <div className="w-[35%] 2xl:w-[25%] flex-shrink-0 flex flex-col gap-1.5  text-start">
                 <div className="text-sm font-semibold underline ">Lesson Plans</div>
                 {video.lessonPlans.map((plan, index) => (
-                  <a 
-                  key={index}
-                  href={plan.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-xs text-blue-600 hover:underline gap-1"
+                  <a
+                    key={index}
+                    href={plan.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-blue-600 hover:underline gap-1"
                   >
                     {plan.title || `Lesson Plan ${index + 1}`}
                   </a>

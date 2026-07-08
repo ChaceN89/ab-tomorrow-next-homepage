@@ -9,9 +9,9 @@
  */
 
 import React from "react";
-import PolicySection from "../../components/Polices/PolicySection";
-import PolicyText from "../../components/Polices/PolicyText";
-import PageHeader from "@/components/common/headers/PageHeader";
+import PolicySection from "./policy-components/PolicySection";
+import PolicyText from "./policy-components/PolicyText";
+import PageHeader from "../common/headers/PageHeader";
 
 export default function PrivacyPolicy() {
 
@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
           </PolicyText>
         </PolicySection>
 
-        <PolicySection title="Further Information"initiallyOpen>
+        <PolicySection title="Further Information" initiallyOpen>
           <PolicyText>
             For further information with respect to our privacy practices, or with respect to inquiries concerning personal information about you in our custody or control, or to update or correct your information, you may contact us at:
             <br />
