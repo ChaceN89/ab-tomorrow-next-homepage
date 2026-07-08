@@ -32,7 +32,7 @@
     },
     "InteractiveTools": {
       "title": "Explore Our Interactive Tools",
-      "description": "Use our powerful educational tools to explore land use, energy sustainability, and wildlife conservation in Alberta.",
+      "description": "Use our powerful <Bold>educational tools</Bold> to explore land use, energy sustainability, and wildlife conservation in Alberta.",
       "tools": {
         "landUseSimulator": {
           "title": "Land Use Simulator",

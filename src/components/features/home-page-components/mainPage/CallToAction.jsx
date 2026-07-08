@@ -20,8 +20,6 @@ import BackgroundWrapper from "@/components/layout/shell/BackgroundWrapper";
 import HexButton from "@/components/common/hexButton/HexButton";
 import { useTranslations } from "next-intl";
 
-
-
 export default function CallToAction() {
   const t = useTranslations("HomePage.CallToAction");
 

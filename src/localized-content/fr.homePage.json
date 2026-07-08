@@ -32,7 +32,7 @@
     },
     "InteractiveTools": {
       "title": "Explorez nos outils interactifs",
-      "description": "Utilisez nos outils pédagogiques performants pour explorer l’utilisation des terres, la durabilité énergétique et la conservation de la faune en Alberta.",
+      "description": "Utilisez nos <Bold>outils pédagogiques</Bold> performants pour explorer l’utilisation des terres, la durabilité énergétique et la conservation de la faune en Alberta.",
       "tools": {
         "landUseSimulator": {
           "title": "Simulateur d’utilisation des terres",

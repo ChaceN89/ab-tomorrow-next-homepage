@@ -34,7 +34,7 @@ import React from 'react'
 import Hero from './mainPage/Hero'
 import Intro from './mainPage/Intro'
 import CallToAction from './mainPage/CallToAction'
-// import InteractiveTools from './mainPage/InteractiveTools'
+import InteractiveTools from './mainPage/InteractiveTools'
 // import Education from './mainPage/education/Education'
 // import TeacherTools from './mainPage/teacherTools/TeacherTools'
 // import About from './mainPage/About'
@@ -58,10 +58,10 @@ export default function HomeMainPage() {
         <CallToAction />
       </section>
 
-      {/* <section id='tools' className='overflow-hidden'>
-        <HexSeparator randomColors rows={100} hexClass='bg-accent-alt opacity-5'/>
-        <InteractiveTools/>
-      </section> */}
+      <section id='tools' className='overflow-hidden'>
+        <HexSeparator randomColors rows={100} hexClass='bg-accent-alt opacity-5' />
+        <InteractiveTools />
+      </section>
 
       {/* <section id='education'>
         <Education/>

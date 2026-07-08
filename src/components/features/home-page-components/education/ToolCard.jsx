@@ -7,7 +7,7 @@
  * 
  * @author Chace Nielson
  * @created Mar 26, 2025
- * @updated Mar 26, 2025
+ * @updated July 8, 2026 - set up translations
  *
  * @features
  * - Displays icon, title, and description for each educational tool
@@ -23,15 +23,15 @@
 // UI Components
 import HexButton from '@/components/common/hexButton/HexButton'
 
-export default function ToolCard({tool, index}) {
+export default function ToolCard({ tool, index }) {
 
-  return(
-    <div 
+  return (
+    <div
       key={index}
       className="w-full max-w-2xl mx-auto text-center space-y-2 text-inherit"
     >
       <div
-        
+
         className="bg-primary/40 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg p-6 flex flex-col items-center transition hover:transform hover:translate-y-[-4px] small-shadow h-full"
       >
         <img src={tool.icon} alt={tool.name} className="w-28 h-28 object-contain mb-4" />
@@ -40,9 +40,9 @@ export default function ToolCard({tool, index}) {
 
         <div className="my-auto">
           {tool.inDevelopment ? (
-            <span className="text-gray-400 text-lg italic">Coming Soon</span>
+            <span className="text-gray-400 text-lg italic">{tool.buttonText || 'Coming Soon'}</span>
           ) : (
-            <HexButton link={tool.link} name={tool.buttonText || 'Learn More'} />
+            <HexButton link={tool.link}>{tool.buttonText || 'Learn More'}</HexButton>
           )}
         </div>
       </div>
