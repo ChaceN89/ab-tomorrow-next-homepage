@@ -10,7 +10,7 @@ import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import ScrollProgress from "../scroll/ScrollProgress";
 import Footer from "../footer/Footer";
 import ToasterLayout from "./ToasterLayout";
-import DisplayTesting from "@/components/testing-components/DisplayTesting";
+import DisplayTesting from "@/components/testing/DisplayTesting";
 import NewsPopup from "@/components/common/NewsPopup";
 import NavBar from "../navbar/NavBar";
 import PartnerBanner from "@/components/features/our-partner-componets/PartnerBanner";
@@ -25,7 +25,9 @@ export default function LocalizedShell({ children }) {
       <NavBar />
       <PartnerBanner />
 
-      <main className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden">
+      <main 
+        className="flex-1 relative flex flex-col pb-14 sm:pb-24 lg:pb-0 outlet-background lg:mr-56 min-h-[50vh] overflow-hidden"
+      >
         <HexSeparator randomColors rows={10} hexClass="bg-primary-alt opacity-10" />
         <div className="relative">{children}</div>
         <div className="mt-auto">

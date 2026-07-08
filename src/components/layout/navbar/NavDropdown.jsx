@@ -3,16 +3,18 @@
  * @module NavDropdown
  * @description 
  *   A dropdown menu component for the navigation bar. Displays a toggleable menu 
- *   with dynamic items, supporting localized navigation links.
+ *   with dynamic items, supporting localized navigation links, regular text labels,
+ *   and click actions.
  *
- * @props {Array} items - Dropdown items containing labelKey, icon, href, router, or scrollTo.
- * @props {string} titleKey - Translation key for the dropdown title.
- * @props {string} translationNamespace - Translation namespace for the dropdown title and item labels.
+ * @props {Array} items - Dropdown items containing labelKey, label, icon, href, router, scrollTo, or onClick.
+ * @props {string} [titleKey] - Translation key for the dropdown title.
+ * @props {string} [titleLabel] - Plain text label for the dropdown title.
+ * @props {string} [translationNamespace] - Translation namespace for the dropdown title and item labels.
  * @props {boolean} [openToLeft=false] - If true, aligns the dropdown to the right.
  *
  * @author Chace Nielson
  * @created 2025-01-10
- * @updated July 7, 2026 - set up translations
+ * @updated July 7, 2026 - supports translations, plain text, and action items
  */
 
 import React, { useState, useRef, useEffect } from "react";
@@ -23,8 +25,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import LinkItem from "./LinkItem";
 import { dropdownVariants } from "@/data/navData";
 
-export default function NavDropdown({ items, titleKey, translationNamespace, openToLeft = false }) {
-  const t = useTranslations(translationNamespace);
+export default function NavDropdown({
+  items,
+  titleKey,
+  titleLabel,
+  translationNamespace,
+  openToLeft = false
+}) {
+  const shouldTranslate = Boolean(translationNamespace);
+  const t = useTranslations(translationNamespace || "NavBar");
 
   const [isOpen, setIsOpen] = useState(false);
   const btnRef = useRef(null);
@@ -32,6 +41,14 @@ export default function NavDropdown({ items, titleKey, translationNamespace, ope
   const boundaryValue = 100;
 
   const toggleDropdown = () => setIsOpen((prev) => !prev);
+
+  const getText = (key, label) => {
+    if (key && shouldTranslate) {
+      return t(key);
+    }
+
+    return label || key || "";
+  };
 
   const isMouseOutOfBounds = (rect, mouseX, mouseY) => {
     if (!rect) return true;
@@ -54,6 +71,11 @@ export default function NavDropdown({ items, titleKey, translationNamespace, ope
     }
   };
 
+  const handleActionClick = (item) => {
+    item.onClick?.();
+    setIsOpen(false);
+  };
+
   useEffect(() => {
     if (isOpen) {
       document.addEventListener("mousemove", handleMouseLeave);
@@ -71,14 +93,15 @@ export default function NavDropdown({ items, titleKey, translationNamespace, ope
         onClick={toggleDropdown}
         className="w-full flex items-center whitespace-nowrap"
       >
-      <span className="relative z-10 flex items-start nav-element-default nav-element-default-hover">
-        <span className="leading-tight">{t(titleKey)}</span>
+        <span className="relative z-10 flex items-start nav-element-default nav-element-default-hover">
+          <span className="leading-tight">{getText(titleKey, titleLabel)}</span>
 
-        <FaChevronRight
-          size={12}
-          className={`shrink-0 self-start mt-1 transition-transform duration-400 ${isOpen ? "rotate-90 translate-x-0.5" : "rotate-0"}`}
-        />
-      </span>
+          <FaChevronRight
+            size={12}
+            className={`shrink-0 self-start mt-1 transition-transform duration-400 ${isOpen ? "rotate-90 translate-x-0.5" : "rotate-0"
+              }`}
+          />
+        </span>
       </button>
 
       {isOpen && (
@@ -91,27 +114,43 @@ export default function NavDropdown({ items, titleKey, translationNamespace, ope
             variants={dropdownVariants}
             className={`absolute ${openToLeft ? "right-0" : "left-0"} nav-dropdown-background`}
           >
-            {items.map((item, index) => (
-              <div
-                key={item.labelKey || index}
-                className={`nav-dropdown-cell ${
-                  index === 0 ? "rounded-t-lg" : ""
-                } ${index === items.length - 1 ? "rounded-b-lg" : ""}`}
-              >
-                <LinkItem
-                  href={item.href}
-                  router={item.router}
-                  scrollTo={item.scrollTo}
-                  disableActive
-                  className="nav-dropdown-cell"
+            {items.map((item, index) => {
+              const itemLabel = getText(item.labelKey, item.label);
+
+              return (
+                <div
+                  key={item.labelKey || item.label || index}
+                  className={`nav-dropdown-cell ${index === 0 ? "rounded-t-lg" : ""
+                    } ${index === items.length - 1 ? "rounded-b-lg" : ""}`}
                 >
-                  <div className="nav-dropdown-item">
-                    {item.icon}
-                    {item.labelKey ? t(item.labelKey) : item.label}
-                  </div>
-                </LinkItem>
-              </div>
-            ))}
+                  {item.onClick ? (
+                    <button
+                      type="button"
+                      onClick={() => handleActionClick(item)}
+                      className="nav-dropdown-cell w-full text-left"
+                    >
+                      <div className="nav-dropdown-item">
+                        {item.icon}
+                        {itemLabel}
+                      </div>
+                    </button>
+                  ) : (
+                    <LinkItem
+                      href={item.href}
+                      router={item.router}
+                      scrollTo={item.scrollTo}
+                      disableActive
+                      className="nav-dropdown-cell"
+                    >
+                      <div className="nav-dropdown-item">
+                        {item.icon}
+                        {itemLabel}
+                      </div>
+                    </LinkItem>
+                  )}
+                </div>
+              );
+            })}
           </motion.div>
         </AnimatePresence>
       )}

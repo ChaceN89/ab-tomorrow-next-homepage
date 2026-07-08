@@ -23,6 +23,8 @@ import NavLogo from "./NavLogo";
 import DonateButton from "./DonateButton";
 import MobileMenu from "./MobileMenu";
 
+import LanguageSwitcher from "@/components/layout/language/LanguageSwitcher";
+
 import { toolsDropDown, learnMoreDropDown, scrollLinks } from "@/data/navData";
 
 import "./nav.styles.css";
@@ -97,6 +99,8 @@ export default function NavBar() {
 
           <HextDot />
 
+          <LanguageSwitcher />
+          <HextDot />
           <DonateButton />
         </div>
 
