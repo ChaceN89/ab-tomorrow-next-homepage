@@ -59,5 +59,11 @@
       "termsOfUse": "Terms of Use"
     },
     "bottomDescription": "The Alberta Tomorrow Foundation is a 100% non-profit organization, a Registered Non-Profit Society in Alberta with Canada Revenue Agency Charitable Status, dedicated to promoting sustainable land-use planning in Alberta."
+  },
+  "NotFoundPage": {
+    "heading": "Oops! You're off the map.",
+    "descriptionLine1": "The page or resource you’re looking for doesn’t exist or might’ve moved.",
+    "descriptionLine2": "But no worries — let’s get you back on track.",
+    "backHome": "Return Home"
   }
 }

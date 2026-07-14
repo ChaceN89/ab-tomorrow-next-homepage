@@ -59,5 +59,11 @@
       "termsOfUse": "Conditions d’utilisation"
     },
     "bottomDescription": "La Alberta Tomorrow Foundation est entièrement sans but lucratif. Elle est une société sans but lucratif enregistrée en Alberta et bénéficiant du statut d’organisme de bienfaisance auprès de l’Agence du revenu du Canada, qui se consacre à la promotion d’une planification durable de l’utilisation des terres en Alberta."
+  },
+  "NotFoundPage": {
+    "heading": "Oups ! Vous n’êtes plus sur la carte.",
+    "descriptionLine1": "La page ou la ressource que vous recherchez n’existe pas ou a peut-être été déplacée.",
+    "descriptionLine2": "Mais pas d’inquiétude — remettons-vous sur la bonne voie.",
+    "backHome": "Retour à l’accueil"
   }
 }
