@@ -9,13 +9,20 @@
  */
 
 import React from 'react'
-import { setRequestLocale } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { getPageTitle } from '@/utils/metadataUtils'
 import Contact from '@/components/features/contact-page-components/Contact'
 
-// Page-specific metadata
-export const metadata = {
-  title: getPageTitle("Contact Us"),
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: 'Pages.ContactPage'
+  });
+
+  return {
+    title: getPageTitle(t('title'))
+  };
 }
 
 // Board of Directors Page Component

@@ -9,12 +9,20 @@
  */
 
 import React from 'react'
+import { getTranslations } from 'next-intl/server'
 import { getPageTitle } from '@/utils/metadataUtils'
 import LessonDisplay from '@/components/features/resource-page-components/components/lesson-plan-components/LessonDisplay'
 
-// Page-specific metadata
-export const metadata = {
-  title: getPageTitle("Lesson Plans"),
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: 'Pages.ResourcesPage'
+  });
+
+  return {
+    title: getPageTitle(t('lessonPlans'))
+  };
 }
 
 // Board of Directors Page Component

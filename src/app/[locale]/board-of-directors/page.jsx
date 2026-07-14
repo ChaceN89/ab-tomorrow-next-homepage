@@ -9,13 +9,20 @@
  */
 
 import React from 'react'
-import { setRequestLocale } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { getPageTitle } from '@/utils/metadataUtils'
 import BoardOfDirectors from '@/components/features/board-of-directors-components/BoardOfDirectors'
 
-// Page-specific metadata
-export const metadata = {
-  title: getPageTitle("Board of Directors"),
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: 'Pages.BoardOfDirectors'
+  });
+
+  return {
+    title: getPageTitle(t('title'))
+  };
 }
 
 // Board of Directors Page Component
