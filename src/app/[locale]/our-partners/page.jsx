@@ -1,27 +1,42 @@
 /**
  * @file page.jsx
- * @module app/partners
- * @desc Partners page for Alberta Tomorrow. Displays information about the project's partners.
+ * @module app/[locale]/our-partners
+ * @desc Localized Partners page for Alberta Tomorrow.
  *
  * @author Chace Nielson
- * @created Mar 31st, 2025
- * @updated Mar 31st, 2025
+ * @created Mar 31, 2025
+ * @updated Jul 14, 2026 - localized page metadata
+ *
+ * @dependencies
+ * - next-intl
+ * - metadataUtils
+ * - OurPartners
  */
 
-import React from 'react'
-import { setRequestLocale } from 'next-intl/server'
-import { getPageTitle } from '@/utils/metadataUtils'
-import OurPartners from '@/components/features/our-partner-componets/OurPartners'
+import {
+  getTranslations,
+  setRequestLocale
+} from "next-intl/server";
 
-// Page-specific metadata
-export const metadata = {
-  title: getPageTitle("Our Partners"),
+import { getPageTitle } from "@/utils/metadataUtils";
+import OurPartners from "@/components/features/our-partner-componets/OurPartners";
+
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: "Pages.Partners"
+  });
+
+  return {
+    title: getPageTitle(t("title"))
+  };
 }
 
-// Board of Directors Page Component
 export default async function PartnersPage({ params }) {
   const { locale } = await params;
+
   setRequestLocale(locale);
 
-  return (<OurPartners />)
+  return <OurPartners />;
 }

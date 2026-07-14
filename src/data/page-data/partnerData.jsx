@@ -2,30 +2,23 @@
  * @file partnerData.jsx
  * @module partnerData
  * @desc Contains structured data and utility functions for displaying Alberta Tomorrow's partners and sponsors.
- *       Provides categories, translation keys, logos, links, and dynamically filtered lists for displaying in
- *       components such as the Partner Banner, Partner Page, and sponsorship-related sections.
+ *       Provides categories, translation keys, logos, links, sponsorship table configuration, and dynamically
+ *       filtered lists for displaying in the Partner Banner, Partner Page, and sponsorship-related sections.
  *
  * @author Chace Nielson
  * @created Mar 14, 2025
- * @updated July 7, 2026 - set up translations
+ * @updated Jul 14, 2026 - added localized sponsorship table configuration
  *
  * @features
- * - Defines translation keys for the Partners Page title and description.
+ * - Defines translation keys for the Partners Page title, description, and buttons.
+ * - Defines translation keys for sponsor category headings.
+ * - Defines sponsorship table column keys, benefit keys, and benefit availability.
  * - Categorizes sponsors into Champions, Ambassadors, Mentors, Supporters, and Past Sponsors.
- * - Provides a structured list of sponsor objects with id, name, logo, link, category, and optional translation keys.
- * - Exports utility functions:
- *    - getSponsorsByCategory(type): Returns an array of sponsors matching the specified category.
- *    - getSponsorsExcludingCategory(type): Returns an array of sponsors excluding the specified category.
- * - Exports filtered sponsor lists for common use cases:
- *    - champions
- *    - mentors
- *    - ambassadors
- *    - supporters
- *    - pastSponsors
- *    - bannerPartners
+ * - Provides sponsor objects with ids, fallback names, logos, links, categories, and optional translation keys.
+ * - Exports utility functions for filtering sponsors by category.
  */
 
-// titles for the page
+// Partners page translation keys
 export const partnerTitleData = {
   titleKey: "title",
   subtitleKey: "description",
@@ -49,6 +42,90 @@ export const sponsorCategoryTitleKeys = {
   [sponsorCategory.MENTORS]: "tiers.mentors",
   [sponsorCategory.SUPPORTERS]: "tiers.supporters",
   [sponsorCategory.PAST_SPONSORS]: "tiers.pastSponsors"
+};
+
+// Sponsorship table translation keys and benefit availability
+export const sponsorshipTableData = {
+  benefitColumnKey: "sponsorshipTable.columns.benefit",
+  levels: [
+    {
+      id: "champion",
+      labelKey: "sponsorshipTable.columns.champion"
+    },
+    {
+      id: "ambassador",
+      labelKey: "sponsorshipTable.columns.ambassador"
+    },
+    {
+      id: "mentor",
+      labelKey: "sponsorshipTable.columns.mentor"
+    },
+    {
+      id: "supporter",
+      labelKey: "sponsorshipTable.columns.supporter"
+    },
+    {
+      id: "associate",
+      labelKey: "sponsorshipTable.columns.associate"
+    }
+  ],
+  benefits: [
+    {
+      id: "webpageLogo",
+      labelKey: "sponsorshipTable.rows.webpageLogo",
+      levels: [true, true, true, true, true]
+    },
+    {
+      id: "webpageLogoWithLink",
+      labelKey: "sponsorshipTable.rows.webpageLogoWithLink",
+      levels: [true, true, true, true, true]
+    },
+    {
+      id: "marketingMaterialLogo",
+      labelKey: "sponsorshipTable.rows.marketingMaterialLogo",
+      levels: [true, true, true, true, false]
+    },
+    {
+      id: "presentationLogo",
+      labelKey: "sponsorshipTable.rows.presentationLogo",
+      levels: [true, true, true, true, false]
+    },
+    {
+      id: "promotionalVideo",
+      labelKey: "sponsorshipTable.rows.promotionalVideo",
+      levels: [true, true, true, false, false]
+    },
+    {
+      id: "presentationAd",
+      labelKey: "sponsorshipTable.rows.presentationAd",
+      levels: [true, true, false, false, false]
+    },
+    {
+      id: "registrationPopup",
+      labelKey: "sponsorshipTable.rows.registrationPopup",
+      levels: [true, false, false, false, false]
+    },
+    {
+      id: "titleSponsor",
+      labelKey: "sponsorshipTable.rows.titleSponsor",
+      levels: [true, false, false, false, false]
+    },
+    {
+      id: "largeSummary",
+      labelKey: "sponsorshipTable.rows.largeSummary",
+      levels: [true, false, false, false, false]
+    },
+    {
+      id: "mediumSummary",
+      labelKey: "sponsorshipTable.rows.mediumSummary",
+      levels: [false, true, false, false, false]
+    },
+    {
+      id: "smallSummary",
+      labelKey: "sponsorshipTable.rows.smallSummary",
+      levels: [false, false, true, false, false]
+    }
+  ]
 };
 
 // List of sponsors
@@ -260,10 +337,12 @@ const sponsors = [
 ];
 
 // Function to get sponsors by category
-export const getSponsorsByCategory = (type) => sponsors.filter((sponsor) => sponsor.category.includes(type));
+export const getSponsorsByCategory = (type) =>
+  sponsors.filter((sponsor) => sponsor.category.includes(type));
 
 // Function to get sponsors excluding a specific category
-export const getSponsorsExcludingCategory = (type) => sponsors.filter((sponsor) => !sponsor.category.includes(type));
+export const getSponsorsExcludingCategory = (type) =>
+  sponsors.filter((sponsor) => !sponsor.category.includes(type));
 
 // Export all sponsors
 export const allSponsors = sponsors;
@@ -276,4 +355,6 @@ export const supporters = getSponsorsByCategory(sponsorCategory.SUPPORTERS);
 export const pastSponsors = getSponsorsByCategory(sponsorCategory.PAST_SPONSORS);
 
 // Banner partners excludes past sponsors
-export const bannerPartners = getSponsorsExcludingCategory(sponsorCategory.PAST_SPONSORS);
+export const bannerPartners = getSponsorsExcludingCategory(
+  sponsorCategory.PAST_SPONSORS
+);

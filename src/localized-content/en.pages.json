@@ -151,17 +151,17 @@
           "associate": "Associate <$1000"
         },
         "rows": {
-          "webpageLogo": "Logo on Alberta Tomorrow Sponsorship webpage with link",
-          "webpageLogoWithLink": "Logo on Alberta Tomorrow Sponsorship webpage with link",
-          "marketingMaterialLogo": "Logo on Alberta Tomorrow Marketing Material(postcards, bookmarks etc)",
-          "presentationLogo": "Logo on sponsorship slide in presentations",
-          "promotionalVideo": "Receive Alberta Tomorrow promotional video for company distribution",
-          "presentationAd": "One full slide advertisement in presentations",
-          "registrationPopup": "Sponsor pop-up with new user registration",
-          "titleSponsor": "Official title sponsor for module and simulator",
-          "largeSummary": "Large size summary on Alberta Tomorrow site with link to company website",
-          "mediumSummary": "Medium size summary on Alberta Tomorrow site with link to company website",
-          "smallSummary": "Small size summary on Alberta Tomorrow site with link to company website"
+          "webpageLogo": "Logo on Alberta Tomorrow <Bold>Sponsorship webpage</Bold> with link",
+          "webpageLogoWithLink": "Logo on Alberta Tomorrow <Bold>Sponsorship webpage</Bold> with link",
+          "marketingMaterialLogo": "Logo on Alberta Tomorrow <Bold>Marketing Material</Bold>(postcards, bookmarks etc)",
+          "presentationLogo": "Logo on <Bold>sponsorship slide</Bold> in presentations",
+          "promotionalVideo": "Receive Alberta Tomorrow <Bold>promotional video</Bold> for company distribution",
+          "presentationAd": "One <Bold>full slide advertisement</Bold> in presentations",
+          "registrationPopup": "Sponsor pop-up with <Bold>new user registration</Bold>",
+          "titleSponsor": "Official <Bold>title sponsor</Bold> for module and simulator",
+          "largeSummary": "<Bold>Large size</Bold> summary on Alberta Tomorrow site with link to company website",
+          "mediumSummary": "<Bold>Medium size</Bold> summary on Alberta Tomorrow site with link to company website",
+          "smallSummary": "<Bold>Small size</Bold> summary on Alberta Tomorrow site with link to company website"
         }
       },
       "specificPartners": {

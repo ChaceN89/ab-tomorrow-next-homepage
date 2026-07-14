@@ -151,17 +151,17 @@
           "associate": "Associé, 1 000 $ et moins"
         },
         "rows": {
-          "webpageLogo": "Logo sur la page Web des commanditaires d’Alberta Tomorrow avec lien",
-          "webpageLogoWithLink": "Logo sur la page Web des commanditaires d’Alberta Tomorrow avec lien",
-          "marketingMaterialLogo": "Logo sur le matériel marketing d’Alberta Tomorrow (cartes postales, signets, etc.)",
-          "presentationLogo": "Logo sur la diapositive des commanditaires dans les présentations",
-          "promotionalVideo": "Recevez la vidéo promotionnelle d’Alberta Tomorrow pour diffusion en entreprise",
-          "presentationAd": "Une diapositive publicitaire complète les présentations",
-          "registrationPopup": "Fenêtre contextuelle du commanditaire lors de l’inscription d’un nouvel utilisateur",
-          "titleSponsor": "Commanditaire officiel du module et du simulateur",
-          "largeSummary": "Résumé détaillé sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise",
-          "mediumSummary": "Résumé de taille moyenne sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise",
-          "smallSummary": "Résumé concis sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise"
+          "webpageLogo": "Logo sur la <Bold>page Web des commanditaires</Bold> d’Alberta Tomorrow avec lien",
+          "webpageLogoWithLink": "Logo sur la <Bold>page Web des commanditaires</Bold> d’Alberta Tomorrow avec lien",
+          "marketingMaterialLogo": "Logo sur le <Bold>matériel marketing</Bold> d’Alberta Tomorrow (cartes postales, signets, etc.)",
+          "presentationLogo": "Logo sur la <Bold>diapositive des commanditaires</Bold> dans les présentations",
+          "promotionalVideo": "Recevez la <Bold>vidéo promotionnelle</Bold> d’Alberta Tomorrow pour diffusion en entreprise",
+          "presentationAd": "Une <Bold>diapositive publicitaire complète</Bold> les présentations",
+          "registrationPopup": "Fenêtre contextuelle du commanditaire lors de <Bold>l’inscription d’un nouvel utilisateur</Bold>",
+          "titleSponsor": "<Bold>Commanditaire officiel</Bold> du module et du simulateur",
+          "largeSummary": "<Bold>Résumé détaillé</Bold> sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise",
+          "mediumSummary": "<Bold>Résumé de taille moyenne</Bold> sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise",
+          "smallSummary": "<Bold>Résumé concis</Bold> sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise"
         }
       },
       "specificPartners": {
