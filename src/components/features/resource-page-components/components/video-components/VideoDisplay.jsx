@@ -25,7 +25,7 @@
 import VideoFilters from "./VideoFilters";
 import SideBarWrapper from "@/components/layout/shell/SideBarWrapper";
 import VideoCategoryList from "./display/VideoCategoryList";
-import { useVideoResource } from "@/app/resources/components/video-components/VideoResourceContext";
+import { useVideoResource } from "@/components/features/resource-page-components/components/video-components/VideoResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
 import { useEffect } from "react";
 
@@ -42,19 +42,19 @@ export default function VideoDisplay() {
       {/* Filters Sidebar */}
       <aside className="w-full md:w-52 xl:w-72 pt-4 ">
         <SideBarWrapper>
-          <VideoFilters/>
+          <VideoFilters />
         </SideBarWrapper>
       </aside>
 
       {/* Main Content */}
       <main className="flex-1 h-fit">
-        { loading || !videos ? (
+        {loading || !videos ? (
           <div className="relative mt-20">
-            <PulseLoader showWheel loadingText="Fetching Videos"/>
+            <PulseLoader showWheel loadingText="Fetching Videos" />
           </div>
         ) : (
           <div >
-            <VideoCategoryList/>
+            <VideoCategoryList />
           </div>
         )}
       </main>

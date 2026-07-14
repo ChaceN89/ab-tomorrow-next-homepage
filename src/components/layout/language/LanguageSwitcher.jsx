@@ -7,7 +7,7 @@
  *
  * @author Chace Nielson
  * @created July 7, 2026
- * @updated July 7, 2026
+ * @updated July 14, 2026
  *
  * @dependencies
  * - next/navigation
@@ -16,7 +16,7 @@
  * - NavDropdown.jsx
  */
 
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 
 import { localeLabels, routing } from "@/i18n/routing";
@@ -25,13 +25,13 @@ import NavDropdown from "../navbar/NavDropdown";
 export default function LanguageSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const currentLocale = useLocale();
 
   const switchLocale = (nextLocale) => {
     if (nextLocale === currentLocale) {
       return;
     }
+
     const safePath = pathname || "/";
     const pathSegments = safePath.split("/").filter(Boolean);
     const hasLocaleSegment = routing.locales.includes(pathSegments[0]);
@@ -43,8 +43,9 @@ export default function LanguageSwitcher() {
     }
 
     const nextPath = `/${pathSegments.join("/")}`;
-    const queryString = searchParams.toString();
-    const nextUrl = queryString ? `${nextPath}?${queryString}` : nextPath;
+    const queryString =
+      typeof window !== "undefined" ? window.location.search : "";
+    const nextUrl = queryString ? `${nextPath}${queryString}` : nextPath;
 
     router.replace(nextUrl, { scroll: false });
   };
