@@ -1,223 +1,223 @@
 {
-    "Pages": {
-        "FAQs": {
-            "title": "Foire aux questions (FAQ)",
-            "description": "Trouvez les réponses aux questions les plus fréquemment posées concernant Alberta Tomorrow.",
-            "questions": {
-                "whoIsItFor": {
-                    "question": "À qui s’adresse cet outil pédagogique?",
-                    "answer": "À tout le monde! Tout le monde cherche à trouver un équilibre entre nos besoins environnementaux et socioéconomiques! Cet outil est destiné au grand public mais aussi aux enseignants et aux élèves du primaire et du secondaire, ainsi qu’aux étudiants du niveau postsecondaire. (Les enseignants inscrits peuvent trouver des plans de leçons et des outils pédagogiques pour des niveaux et des sujets en particulier à l’adresse : () )."
-                },
-                "isItFun": {
-                    "question": "Est-ce amusant à utiliser?",
-                    "answer": "Oui! Vous pouvez gagner des points, viser les meilleures notes, entreprendre des quêtes et relever des défis!"
-                },
-                "cost": {
-                    "question": "Combien coûte son utilisation?",
-                    "answer": "Rien du tout! L’outil vous est offert gratuitement! Créez simplement un compte et commencez à explorer votre région."
-                },
-                "schoolOnly": {
-                    "question": "Le simulateur est-il destiné uniquement à un usage scolaire?",
-                    "answer": "Non! Toute personne intéressée et disposant d’une connexion Internet peut s’inscrire et créer un compte utilisateur!"
-                },
-                "whatCanILearn": {
-                    "question": "Que puis-je apprendre en utilisant le simulateur?",
-                    "answers": {
-                        "landUseBalance": "Le juste équilibre entre l’utilisation de nos terres, l’environnement et l’économie.",
-                        "landscapeChange": "Comment notre paysage a évolué par le passé et pourrait évoluer à l’avenir.",
-                        "sustainableFuture": "Quelques changements nécessaires pour contribuer à un avenir durable pour votre région.",
-                        "climateScenarios": "Comment différents scénarios de changement climatique pourraient entraîner des répercussions sur notre environnement et notre économie futurs.",
-                        "managementPractices": "Pratiques de gestion bénéfiques pour atteindre un équilibre entre environnement et économie.",
-                        "glaciersAndWater": "L’influence des changements climatiques sur l’Alberta et nos glaciers – une source majeure d’eau potable.",
-                        "more": "Et bien plus encore!"
-                    }
-                },
-                "isItAPrediction": {
-                    "question": "Le simulateur permet-il de prédire ce qui va se passer?",
-                    "answer": "Non. Le simulateur utilise des scénarios hypothétiques pour modéliser des futurs possibles, et non pour faire des prédictions. Plus vous explorez de scénarios, mieux vous comprendrez comment vos actions d’aujourd’hui façonnent l’avenir."
-                },
-                "register": {
-                    "question": "Comment puis-je créer un compte?",
-                    "answer": "Inscrivez-vous ici. Vous pouvez également suivre ce tutoriel vidéo sur YouTube ou consulter ce guide PDF."
-                },
-                "lessonPlans": {
-                    "question": "Où puis-je trouver les plans de leçons?",
-                    "answer": "Dès qu’un enseignant s’inscrit et ouvre un compte enseignant, il a accès aux plans de leçons qui se trouvent dans le tableau de bord :"
-                },
-                "computerSupport": {
-                    "question": "Le simulateur fonctionnera-t-il sur mon ordinateur?",
-                    "answer": "Il devrait fonctionner avec la plupart des appareils modernes. Pour vérifier la compatibilité, rendez-vous sur webgl.org; un cube qui tourne devrait s’afficher."
-                },
-                "runningSlowly": {
-                    "question": "Pourquoi mon simulateur fonctionne-t-il lentement?",
-                    "answer": "Cette application est complexe et peut sembler plus lente sur de vieux ordinateurs. Utilisez un navigateur à jour et activez l’accélération graphique dans les paramètres. Les enseignants peuvent également précharger les simulations afin de réduire le temps d’attente en classe."
-                },
-                "shareWork": {
-                    "question": "Puis-je partager mon travail avec d’autres personnes?",
-                    "answer": "Oui! Utilisez l’outil de création de rapports situé à gauche de la simulation pour générer un rapport et le partager par courriel, Facebook ou Twitter."
-                },
-                "studentReports": {
-                    "question": "Puis-je encore accéder aux rapports des élèves dans la version 6.0?",
-                    "answer": "Non. Les enseignants ne peuvent pas consulter directement les rapports, mais les élèves peuvent les envoyer par courriel. Les enseignants peuvent toujours gérer les observations à partir du tableau de bord."
-                },
-                "emailAddress": {
-                    "question": "Ai-je besoin d’une adresse courriel pour m’inscrire?",
-                    "answer": "Oui. La plupart des élèves ont une adresse courriel scolaire. Nous recueillons des statistiques d’utilisation pour garantir le financement. Consultez nos conditions d’utilisation et notre politique de confidentialité."
-                },
-                "postalCode": {
-                    "question": "Je ne suis pas du Canada. Quel code postal puis-je utiliser?",
-                    "answer": "Vous pouvez utiliser le code A1A 1A1."
-                }
-            }
+  "Pages": {
+    "FAQs": {
+      "title": "Foire aux questions (FAQ)",
+      "description": "Trouvez les réponses aux questions les plus fréquemment posées concernant Alberta Tomorrow.",
+      "questions": {
+        "whoIsItFor": {
+          "question": "À qui s’adresse cet outil pédagogique?",
+          "answer": "À tout le monde! Tout le monde cherche à trouver un équilibre entre nos besoins environnementaux et socioéconomiques! Cet outil est destiné au grand public mais aussi aux enseignants et aux élèves du primaire et du secondaire, ainsi qu’aux étudiants du niveau postsecondaire. (Les enseignants inscrits peuvent trouver des plans de leçons et des outils pédagogiques pour des niveaux et des sujets en particulier à l’adresse : <SimulatorResources>simulator.albertatomorrow.ca/resources</SimulatorResources>)."
         },
-        "BoardOfDirectors": {
-            "title": "Conseil d’administration",
-            "description": "Découvrez les personnes qui guident la mission d’Alberta Tomorrow pour une planification durable de l’utilisation des terres.",
-            "members": {
-                "hughPepper": {
-                    "name": "Hugh Pepper",
-                    "title": "Président",
-                    "description": "Après une carrière de 37 ans en enseignement, Hugh a rejoint sa fille dans le commerce de fleurs. Pendant 12 ans, il a été élu municipal, où il a joué un rôle déterminant dans la mise en place du plan de gestion de l’accès à Ghost et a participé activement au dossier des enjeux régionaux liés à l’eau. Il est actuellement président du groupe d’étude sur les effets cumulatifs du bassin supérieur de la Bow et administrateur de l’organisme Action for Agriculture."
-                },
-                "matthewCarlson": {
-                    "name": "Matthew Carlson",
-                    "title": "Vice-président",
-                    "description": "Matt est un écologue qui s’intéresse à l’application d’une approche systémique pour communiquer les concepts d’utilisation des terres et élaborer des solutions pratiques aux défis que pose la gestion des ressources naturelles. Au cours des dix dernières années, il a développé et utilisé des outils de simulation pour explorer les effets futurs de l’utilisation des terres dans divers paysages. Ses projets récents ont porté sur l’application d’ALCES afin d’éclairer l’élaboration de plans d’aménagement du territoire qui concilient de manière appropriée les objectifs écologiques et socioéconomiques. Matt est également écologue pour l’Initiative boréale canadienne et détient une maîtrise en biologie de la conservation de l’Université de l’Alberta."
-                },
-                "jenniferJanzen": {
-                    "name": "Jennifer Janzen",
-                    "title": "Directrice générale",
-                    "description": "Jennifer Janzen a rejoint le groupe ALCES en 2008 en tant que coordonnatrice du projet Alberta Tomorrow, un simulateur éducatif en ligne d’utilisation des terres. Elle est titulaire d’un baccalauréat ès sciences en aménagement du territoire, études environnementales et biologie, ainsi que d’un baccalauréat en éducation de l’Université de la Saskatchewan. Elle a travaillé pour divers organismes gouvernementaux et sans but lucratif comme phytoécologue et formatrice en Saskatchewan et en Alberta."
-                },
-                "crystalDamer": {
-                    "name": "Crystal Damer",
-                    "title": "Membre du conseil d’administration",
-                    "description": "Crystal est une ancienne sous-ministre adjointe du gouvernement de l’Alberta; elle a consacré plus de 28 ans de sa vie au service public. En 2021, elle a entamé une seconde carrière en offrant des services de consultation et de gestion, principalement dans les domaines de l’utilisation des terres et de l’élaboration de politiques. Elle a été directrice générale du Secrétariat à l’aménagement du territoire, où elle a dirigé d’importants projets de planification régionale en Alberta."
-                },
-                "leanneJuneau": {
-                    "name": "Leanne Juneau",
-                    "title": "Membre du conseil d’administration",
-                    "description": "Leanne est cofondatrice et première vice-présidente du développement corporatif chez Cygnet Energy Ltd. Elle possède plus de 25 ans d’expérience en négociation et en réalisation d’accords stratégiques de fusions-acquisitions, d’exploration, de coentreprises et d’ententes commerciales dans l’Ouest canadien. Elle soutient la création d’une entreprise énergétique durable et respectueuse de l’environnement qui privilégie l’engagement socioéconomique mutuel avec les détenteurs de droits et la communauté."
-                },
-                "tobyHeaps": {
-                    "name": "Toby Heaps",
-                    "title": "Membre du conseil d’administration",
-                    "description": "Toby est le directeur général et cofondateur de Corporate Knights. Il a été à l’origine du premier classement mondial des 100 entreprises les plus durables au monde en 2005 et a forgé l’expression « capitalisme propre » en 2007. Le Financial Times, le Wall Street Journal et le Globe and Mail ont publié ses articles, et il est régulièrement invité à s’exprimer sur les ondes de CBC."
-                },
-                "karaVincent": {
-                    "name": "Kara Vincent",
-                    "title": "Secrétaire/trésorière",
-                    "description": "Kara est enseignante au primaire à Cochrane, en Alberta. Titulaire d’une maîtrise en éducation et communication environnementales, elle est passionnée par l’idée d’amener les enfants à explorer le monde extérieur et à apprendre au contact de la nature. Son mémoire de maîtrise portait sur l’influence du temps passé dans la nature sur le bien-être des jeunes."
-                },
-                "michaelCody": {
-                    "name": "Michael Cody",
-                    "title": "Membre du conseil d’administration",
-                    "description": "Michael est chef d’équipe et spécialiste au sein du département Environnement et Réglementation de Cenovus Energy Inc. Il apporte son soutien en matière de demandes réglementaires et de conformité, et il possède une expertise pointue dans les domaines du territoire et de la biodiversité. Fort d’une expérience de trente ans dans les secteurs forestier et énergétique, Michael travaille en foresterie, en pédologie et en développement rural."
-                },
-                "shawnaWeaver": {
-                    "name": "Shawna Weaver",
-                    "title": "Conseillère autochtone",
-                    "description": "Tansi! Aba Wathtech! Oki! Shawna est née et a grandi dans les Rocheuses, à Invermere, en Colombie-Britannique. Fière de ses origines métisses, de son identité de mère et d’enseignante, elle croit fermement que la vérité doit précéder la réconciliation. Shawna est titulaire d’un baccalauréat ès arts et d’un baccalauréat en éducation de l’Université de Lethbridge, avec une spécialisation en français et une mineure en études autochtones."
-                },
-                "bradStelfox": {
-                    "name": "Brad Stelfox, Ph. D.",
-                    "title": "Membre honoraire du conseil d’administration",
-                    "description": "Brad Stelfox a fondé Forem Technologies et le Groupe ALCES en 1995, et il est le concepteur et le développeur du modèle ALCES. Il est professeur associé à l’Université de l’Alberta et à l’Université de Calgary, où il étudie l’interaction entre les activités humaines sur le territoire et les paysages régionaux. Brad a reçu de nombreuses distinctions pour sa contribution à l’utilisation durable des terres."
-                }
-            }
+        "isItFun": {
+          "question": "Est-ce amusant à utiliser?",
+          "answer": "<Bold>Oui!</Bold> Vous pouvez gagner des points, viser les meilleures notes, entreprendre des quêtes et relever des défis!"
         },
-        "Partners": {
-            "title": "Nos partenaires",
-            "description": "Alberta Tomorrow est un organisme sans but lucratif qui compte sur le soutien de ses partenaires et commanditaires pour accomplir sa mission. Nous leur sommes reconnaissants de leur contribution et de leur engagement envers la gérance environnementale et la planification de l’utilisation des terres. Téléchargez dès aujourd’hui notre dossier de parrainage pour en savoir plus sur les possibilités de partenariat.",
-            "button": "Découvrez comment devenir un commanditaire",
-            "tiers": {
-                "champions": "Champions",
-                "ambassadors": "Ambassadeurs",
-                "mentors": "Mentors",
-                "supporters": "Commanditaires",
-                "pastSponsors": "Anciens commanditaires"
-            },
-            "banner": {
-                "tooltipLabel": "Partenaire"
-            },
-            "sponsorshipPackageButton": "Téléchargez le dossier de parrainage",
-            "sponsorshipTable": {
-                "columns": {
-                    "benefit": "Avantage",
-                    "champion": "Champion, 100 000 $ et plus",
-                    "ambassador": "Ambassadeur, 30 000 $ et plus",
-                    "mentor": "Mentor, 10 000 $ et plus",
-                    "supporter": "Commanditaires, 5 000 $ et plus",
-                    "associate": "Associé, 1 000 $ et moins"
-                },
-                "rows": {
-                    "webpageLogo": "Logo sur la page Web des commanditaires d’Alberta Tomorrow avec lien",
-                    "webpageLogoWithLink": "Logo sur la page Web des commanditaires d’Alberta Tomorrow avec lien",
-                    "marketingMaterialLogo": "Logo sur le matériel marketing d’Alberta Tomorrow (cartes postales, signets, etc.)",
-                    "presentationLogo": "Logo sur la diapositive des commanditaires dans les présentations",
-                    "promotionalVideo": "Recevez la vidéo promotionnelle d’Alberta Tomorrow pour diffusion en entreprise",
-                    "presentationAd": "Une diapositive publicitaire complète les présentations",
-                    "registrationPopup": "Fenêtre contextuelle du commanditaire lors de l’inscription d’un nouvel utilisateur",
-                    "titleSponsor": "Commanditaire officiel du module et du simulateur",
-                    "largeSummary": "Résumé détaillé sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise",
-                    "mediumSummary": "Résumé de taille moyenne sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise",
-                    "smallSummary": "Résumé concis sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise"
-                }
-            },
-            "specificPartners": {
-                "alces": {
-                    "title": "ALCES Aménagement paysager et utilisation des terres",
-                    "description": "Nous sommes une équipe interdisciplinaire de scientifiques, de consultants et de développeurs de logiciels dont la mission est de fournir une vision stratégique des conséquences des activités humaines sur notre planète et nos sociétés. Notre passion est d’apporter à nos clients les connaissances nécessaires pour prendre des décisions éclairées."
-                },
-                "calgaryFoundation": {
-                    "title": "Calgary Foundation",
-                    "description": "La Fondation favorise la philanthropie collaborative en établissant des liens solides entre les donateurs et les organismes communautaires, pour le bénéfice à long terme de Calgary et de sa région. En 2018-2019, la Calgary Foundation a reçu 65,2 millions de dollars en nouveaux dons, disposant d’un actif de 1,1 milliard de dollars, et elle a octroyé 48,9 millions de dollars à 981 organismes de bienfaisance."
-                },
-                "samuelHanen": {
-                    "title": "Samuel Hanen Society for Resource Conservation",
-                    "description": "Cette société est dédiée à la préservation des ressources naturelles et des écosystèmes."
-                },
-                "albertaEcotrust": {
-                    "title": "Alberta Ecotrust",
-                    "description": "Alberta Ecotrust est un partenariat unique entre le secteur privé et la communauté environnementale. Ensemble, nous investissons dans les personnes et les projets qui protègent les écosystèmes naturels dont nous dépendons pour vivre et prospérer."
-                },
-                "bowRiver": {
-                    "title": "Conseil du bassin de la rivière Bow",
-                    "description": "Le Conseil travaille en collaboration pour préserver, partager et protéger les eaux du bassin de la rivière Bow. Ensemble, grâce à la science et à l’inclusion, nous promouvons des solutions et des stratégies nouvelles pour un bassin hydrographique sain."
-                },
-                "integralEcology": {
-                    "title": "Integral Ecology Group (IEG)",
-                    "description": "Nous nous consacrons à l’étude des interactions entre les êtres humains et leurs environnements, et nous appliquons des approches novatrices pour relever les défis liés à l’évaluation, la restauration et la préservation des écosystèmes et du patrimoine culturel, ainsi qu’à la gestion de l’utilisation des terres. En combinant l’écologie, l’ethnoécologie, le suivi et l’échantillonnage des projets de restauration, les études sur les effets cumulatifs et la planification de l’utilisation des terres, nous intervenons dans diverses disciplines techniques pour proposer des recherches appliquées de pointe en matière d’écologie et de culture."
-                }
-            }
+        "cost": {
+          "question": "Combien coûte son utilisation?",
+          "answer": "<Bold>Rien du tout!</Bold> L’outil vous est offert gratuitement! Créez simplement un compte et commencez à explorer votre région."
         },
-        "ContactPage": {
-            "title": "Contactez-nous",
-            "description": "Vous avez des questions ou souhaitez participer? Contactez-nous!",
-            "followUs": "Suivez-nous"
+        "schoolOnly": {
+          "question": "Le simulateur est-il destiné uniquement à un usage scolaire?",
+          "answer": "<Bold>Non!</Bold> Toute personne intéressée et disposant d’une connexion Internet peut s’inscrire et créer un compte utilisateur!"
         },
-        "ResourcesPage": {
-            "title": "Ressources",
-            "description": "Explorez notre choix de plans de leçons, de vidéos et de ressources pour favoriser votre expérience d’apprentissage.",
-            "lessonPlans": "Plans de leçons",
-            "lessonPlansFound": "plans de leçons trouvés",
-            "videos": "Vidéos",
-            "videosFound": "vidéos trouvées",
-            "filters": {
-                "theme": "Filtrer par thème",
-                "tool": "Filtrer par outil",
-                "subject": "Filtrer par sujet",
-                "grade": "Filtrer par niveau scolaire",
-                "scrollToSection": "Défiler jusqu’à la section",
-                "showOnlyThisFilter": "Afficher uniquement ce filtre",
-                "toggle": "Niveaux scolaires"
-            },
-            "subjectsTitle": "Sujets",
-            "lessonFilesTitle": "Fichiers de leçons",
-            "relatedLinksTitle": "Liens connexes",
-            "exploreResources": "Explorer les ressources pédagogiques",
-            "navigateResourcesExplanation": "Utilisez la navigation ci-dessus pour parcourir les vidéos ou les plans de leçons liés aux écosystèmes, à la faune et au climat de l’Alberta.",
-            "selectResourceTool": "Sélectionnez un outil dans le menu des ressources pour commencer."
+        "whatCanILearn": {
+          "question": "Que puis-je apprendre en utilisant le simulateur?",
+          "answers": {
+            "landUseBalance": "Le juste équilibre entre l’utilisation de nos terres, l’environnement et l’économie.",
+            "landscapeChange": "Comment notre paysage a évolué par le passé et pourrait évoluer à l’avenir.",
+            "sustainableFuture": "Quelques changements nécessaires pour contribuer à un avenir durable pour votre région.",
+            "climateScenarios": "Comment différents scénarios de changement climatique pourraient entraîner des répercussions sur notre environnement et notre économie futurs.",
+            "managementPractices": "Pratiques de gestion bénéfiques pour atteindre un équilibre entre environnement et économie.",
+            "glaciersAndWater": "L’influence des changements climatiques sur l’Alberta et nos glaciers – une source majeure d’eau potable.",
+            "more": "Et bien plus encore!"
+          }
+        },
+        "isItAPrediction": {
+          "question": "Le simulateur permet-il de prédire ce qui va se passer?",
+          "answer": "<Bold>Non.</Bold> Le simulateur utilise des scénarios hypothétiques pour modéliser des futurs possibles, et non pour faire des prédictions. Plus vous explorez de scénarios, mieux vous comprendrez comment vos actions d’aujourd’hui façonnent l’avenir."
+        },
+        "register": {
+          "question": "Comment puis-je créer un compte?",
+          "answer": "<RegisterLink>Inscrivez-vous ici</RegisterLink>. Vous pouvez également suivre ce <YouTubeLink>tutoriel vidéo sur YouTube</YouTubeLink> ou consulter ce <PdfLink>guide PDF</PdfLink>."
+        },
+        "lessonPlans": {
+          "question": "Où puis-je trouver les plans de leçons?",
+          "answer": "Dès qu’un enseignant s’inscrit et ouvre un <Bold>compte enseignant</Bold>, il a accès aux plans de leçons qui se trouvent dans le tableau de bord : <SimulatorResources>simulator.albertatomorrow.ca/resources</SimulatorResources>"
+        },
+        "computerSupport": {
+          "question": "Le simulateur fonctionnera-t-il sur mon ordinateur?",
+          "answer": "Il devrait fonctionner avec la plupart des appareils modernes. Pour vérifier la compatibilité, rendez-vous sur <WebGLLink>webgl.org</WebGLLink>; un cube qui tourne devrait s’afficher."
+        },
+        "runningSlowly": {
+          "question": "Pourquoi mon simulateur fonctionne-t-il lentement?",
+          "answer": "Cette application est complexe et peut sembler plus lente sur de vieux ordinateurs. Utilisez un navigateur à jour et activez <Bold>l’accélération graphique</Bold> dans les paramètres. Les enseignants peuvent également précharger les simulations afin de réduire le temps d’attente en classe."
+        },
+        "shareWork": {
+          "question": "Puis-je partager mon travail avec d’autres personnes?",
+          "answer": "Oui! Utilisez l’outil de création de rapports situé à gauche de la simulation pour générer un rapport et le partager par courriel, Facebook ou Twitter."
+        },
+        "studentReports": {
+          "question": "Puis-je encore accéder aux rapports des élèves dans la version 6.0?",
+          "answer": "<Bold>Non.</Bold> Les enseignants ne peuvent pas consulter directement les rapports, mais les élèves peuvent les envoyer par courriel. Les enseignants peuvent toujours gérer les observations à partir du tableau de bord."
+        },
+        "emailAddress": {
+          "question": "Ai-je besoin d’une adresse courriel pour m’inscrire?",
+          "answer": "Oui. La plupart des élèves ont une adresse courriel scolaire. Nous recueillons des statistiques d’utilisation pour garantir le financement. Consultez nos <TermsLink>conditions d’utilisation</TermsLink> et notre <PrivacyLink>politique de confidentialité</PrivacyLink>."
+        },
+        "postalCode": {
+          "question": "Je ne suis pas du Canada. Quel code postal puis-je utiliser?",
+          "answer": "Vous pouvez utiliser le code <Code>A1A 1A1</Code>."
         }
+      }
+    },
+    "BoardOfDirectors": {
+      "title": "Conseil d’administration",
+      "description": "Découvrez les personnes qui guident la mission d’Alberta Tomorrow pour une planification durable de l’utilisation des terres.",
+      "members": {
+        "hughPepper": {
+          "name": "Hugh Pepper",
+          "title": "Président",
+          "description": "Après une carrière de 37 ans en enseignement, Hugh a rejoint sa fille dans le commerce de fleurs. Pendant 12 ans, il a été élu municipal, où il a joué un rôle déterminant dans la mise en place du plan de gestion de l’accès à Ghost et a participé activement au dossier des enjeux régionaux liés à l’eau. Il est actuellement président du groupe d’étude sur les effets cumulatifs du bassin supérieur de la Bow et administrateur de l’organisme Action for Agriculture."
+        },
+        "matthewCarlson": {
+          "name": "Matthew Carlson",
+          "title": "Vice-président",
+          "description": "Matt est un écologue qui s’intéresse à l’application d’une approche systémique pour communiquer les concepts d’utilisation des terres et élaborer des solutions pratiques aux défis que pose la gestion des ressources naturelles. Au cours des dix dernières années, il a développé et utilisé des outils de simulation pour explorer les effets futurs de l’utilisation des terres dans divers paysages. Ses projets récents ont porté sur l’application d’ALCES afin d’éclairer l’élaboration de plans d’aménagement du territoire qui concilient de manière appropriée les objectifs écologiques et socioéconomiques. Matt est également écologue pour l’Initiative boréale canadienne et détient une maîtrise en biologie de la conservation de l’Université de l’Alberta."
+        },
+        "jenniferJanzen": {
+          "name": "Jennifer Janzen",
+          "title": "Directrice générale",
+          "description": "Jennifer Janzen a rejoint le groupe ALCES en 2008 en tant que coordonnatrice du projet Alberta Tomorrow, un simulateur éducatif en ligne d’utilisation des terres. Elle est titulaire d’un baccalauréat ès sciences en aménagement du territoire, études environnementales et biologie, ainsi que d’un baccalauréat en éducation de l’Université de la Saskatchewan. Elle a travaillé pour divers organismes gouvernementaux et sans but lucratif comme phytoécologue et formatrice en Saskatchewan et en Alberta."
+        },
+        "crystalDamer": {
+          "name": "Crystal Damer",
+          "title": "Membre du conseil d’administration",
+          "description": "Crystal est une ancienne sous-ministre adjointe du gouvernement de l’Alberta; elle a consacré plus de 28 ans de sa vie au service public. En 2021, elle a entamé une seconde carrière en offrant des services de consultation et de gestion, principalement dans les domaines de l’utilisation des terres et de l’élaboration de politiques. Elle a été directrice générale du Secrétariat à l’aménagement du territoire, où elle a dirigé d’importants projets de planification régionale en Alberta."
+        },
+        "leanneJuneau": {
+          "name": "Leanne Juneau",
+          "title": "Membre du conseil d’administration",
+          "description": "Leanne est cofondatrice et première vice-présidente du développement corporatif chez Cygnet Energy Ltd. Elle possède plus de 25 ans d’expérience en négociation et en réalisation d’accords stratégiques de fusions-acquisitions, d’exploration, de coentreprises et d’ententes commerciales dans l’Ouest canadien. Elle soutient la création d’une entreprise énergétique durable et respectueuse de l’environnement qui privilégie l’engagement socioéconomique mutuel avec les détenteurs de droits et la communauté."
+        },
+        "tobyHeaps": {
+          "name": "Toby Heaps",
+          "title": "Membre du conseil d’administration",
+          "description": "Toby est le directeur général et cofondateur de Corporate Knights. Il a été à l’origine du premier classement mondial des 100 entreprises les plus durables au monde en 2005 et a forgé l’expression « capitalisme propre » en 2007. Le Financial Times, le Wall Street Journal et le Globe and Mail ont publié ses articles, et il est régulièrement invité à s’exprimer sur les ondes de CBC."
+        },
+        "karaVincent": {
+          "name": "Kara Vincent",
+          "title": "Secrétaire/trésorière",
+          "description": "Kara est enseignante au primaire à Cochrane, en Alberta. Titulaire d’une maîtrise en éducation et communication environnementales, elle est passionnée par l’idée d’amener les enfants à explorer le monde extérieur et à apprendre au contact de la nature. Son mémoire de maîtrise portait sur l’influence du temps passé dans la nature sur le bien-être des jeunes."
+        },
+        "michaelCody": {
+          "name": "Michael Cody",
+          "title": "Membre du conseil d’administration",
+          "description": "Michael est chef d’équipe et spécialiste au sein du département Environnement et Réglementation de Cenovus Energy Inc. Il apporte son soutien en matière de demandes réglementaires et de conformité, et il possède une expertise pointue dans les domaines du territoire et de la biodiversité. Fort d’une expérience de trente ans dans les secteurs forestier et énergétique, Michael travaille en foresterie, en pédologie et en développement rural."
+        },
+        "shawnaWeaver": {
+          "name": "Shawna Weaver",
+          "title": "Conseillère autochtone",
+          "description": "Tansi! Aba Wathtech! Oki! Shawna est née et a grandi dans les Rocheuses, à Invermere, en Colombie-Britannique. Fière de ses origines métisses, de son identité de mère et d’enseignante, elle croit fermement que la vérité doit précéder la réconciliation. Shawna est titulaire d’un baccalauréat ès arts et d’un baccalauréat en éducation de l’Université de Lethbridge, avec une spécialisation en français et une mineure en études autochtones."
+        },
+        "bradStelfox": {
+          "name": "Brad Stelfox, Ph. D.",
+          "title": "Membre honoraire du conseil d’administration",
+          "description": "Brad Stelfox a fondé Forem Technologies et le Groupe ALCES en 1995, et il est le concepteur et le développeur du modèle ALCES. Il est professeur associé à l’Université de l’Alberta et à l’Université de Calgary, où il étudie l’interaction entre les activités humaines sur le territoire et les paysages régionaux. Brad a reçu de nombreuses distinctions pour sa contribution à l’utilisation durable des terres."
+        }
+      }
+    },
+    "Partners": {
+      "title": "Nos partenaires",
+      "description": "Alberta Tomorrow est un organisme sans but lucratif qui compte sur le soutien de ses partenaires et commanditaires pour accomplir sa mission. Nous leur sommes reconnaissants de leur contribution et de leur engagement envers la gérance environnementale et la planification de l’utilisation des terres. Téléchargez dès aujourd’hui notre dossier de parrainage pour en savoir plus sur les possibilités de partenariat.",
+      "button": "Découvrez comment devenir un commanditaire",
+      "tiers": {
+        "champions": "Champions",
+        "ambassadors": "Ambassadeurs",
+        "mentors": "Mentors",
+        "supporters": "Commanditaires",
+        "pastSponsors": "Anciens commanditaires"
+      },
+      "banner": {
+        "tooltipLabel": "Partenaire"
+      },
+      "sponsorshipPackageButton": "Téléchargez le dossier de parrainage",
+      "sponsorshipTable": {
+        "columns": {
+          "benefit": "Avantage",
+          "champion": "Champion, 100 000 $ et plus",
+          "ambassador": "Ambassadeur, 30 000 $ et plus",
+          "mentor": "Mentor, 10 000 $ et plus",
+          "supporter": "Commanditaires, 5 000 $ et plus",
+          "associate": "Associé, 1 000 $ et moins"
+        },
+        "rows": {
+          "webpageLogo": "Logo sur la page Web des commanditaires d’Alberta Tomorrow avec lien",
+          "webpageLogoWithLink": "Logo sur la page Web des commanditaires d’Alberta Tomorrow avec lien",
+          "marketingMaterialLogo": "Logo sur le matériel marketing d’Alberta Tomorrow (cartes postales, signets, etc.)",
+          "presentationLogo": "Logo sur la diapositive des commanditaires dans les présentations",
+          "promotionalVideo": "Recevez la vidéo promotionnelle d’Alberta Tomorrow pour diffusion en entreprise",
+          "presentationAd": "Une diapositive publicitaire complète les présentations",
+          "registrationPopup": "Fenêtre contextuelle du commanditaire lors de l’inscription d’un nouvel utilisateur",
+          "titleSponsor": "Commanditaire officiel du module et du simulateur",
+          "largeSummary": "Résumé détaillé sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise",
+          "mediumSummary": "Résumé de taille moyenne sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise",
+          "smallSummary": "Résumé concis sur le site d’Alberta Tomorrow avec lien vers le site Web de l’entreprise"
+        }
+      },
+      "specificPartners": {
+        "alces": {
+          "title": "ALCES Aménagement paysager et utilisation des terres",
+          "description": "Nous sommes une équipe interdisciplinaire de scientifiques, de consultants et de développeurs de logiciels dont la mission est de fournir une vision stratégique des conséquences des activités humaines sur notre planète et nos sociétés. Notre passion est d’apporter à nos clients les connaissances nécessaires pour prendre des décisions éclairées."
+        },
+        "calgaryFoundation": {
+          "title": "Calgary Foundation",
+          "description": "La Fondation favorise la philanthropie collaborative en établissant des liens solides entre les donateurs et les organismes communautaires, pour le bénéfice à long terme de Calgary et de sa région. En 2018-2019, la Calgary Foundation a reçu 65,2 millions de dollars en nouveaux dons, disposant d’un actif de 1,1 milliard de dollars, et elle a octroyé 48,9 millions de dollars à 981 organismes de bienfaisance."
+        },
+        "samuelHanen": {
+          "title": "Samuel Hanen Society for Resource Conservation",
+          "description": "Cette société est dédiée à la préservation des ressources naturelles et des écosystèmes."
+        },
+        "albertaEcotrust": {
+          "title": "Alberta Ecotrust",
+          "description": "Alberta Ecotrust est un partenariat unique entre le secteur privé et la communauté environnementale. Ensemble, nous investissons dans les personnes et les projets qui protègent les écosystèmes naturels dont nous dépendons pour vivre et prospérer."
+        },
+        "bowRiver": {
+          "title": "Conseil du bassin de la rivière Bow",
+          "description": "Le Conseil travaille en collaboration pour préserver, partager et protéger les eaux du bassin de la rivière Bow. Ensemble, grâce à la science et à l’inclusion, nous promouvons des solutions et des stratégies nouvelles pour un bassin hydrographique sain."
+        },
+        "integralEcology": {
+          "title": "Integral Ecology Group (IEG)",
+          "description": "Nous nous consacrons à l’étude des interactions entre les êtres humains et leurs environnements, et nous appliquons des approches novatrices pour relever les défis liés à l’évaluation, la restauration et la préservation des écosystèmes et du patrimoine culturel, ainsi qu’à la gestion de l’utilisation des terres. En combinant l’écologie, l’ethnoécologie, le suivi et l’échantillonnage des projets de restauration, les études sur les effets cumulatifs et la planification de l’utilisation des terres, nous intervenons dans diverses disciplines techniques pour proposer des recherches appliquées de pointe en matière d’écologie et de culture."
+        }
+      }
+    },
+    "ContactPage": {
+      "title": "Contactez-nous",
+      "description": "Vous avez des questions ou souhaitez participer? Contactez-nous!",
+      "followUs": "Suivez-nous"
+    },
+    "ResourcesPage": {
+      "title": "Ressources",
+      "description": "Explorez notre choix de plans de leçons, de vidéos et de ressources pour favoriser votre expérience d’apprentissage.",
+      "lessonPlans": "Plans de leçons",
+      "lessonPlansFound": "plans de leçons trouvés",
+      "videos": "Vidéos",
+      "videosFound": "vidéos trouvées",
+      "filters": {
+        "theme": "Filtrer par thème",
+        "tool": "Filtrer par outil",
+        "subject": "Filtrer par sujet",
+        "grade": "Filtrer par niveau scolaire",
+        "scrollToSection": "Défiler jusqu’à la section",
+        "showOnlyThisFilter": "Afficher uniquement ce filtre",
+        "toggle": "Niveaux scolaires"
+      },
+      "subjectsTitle": "Sujets",
+      "lessonFilesTitle": "Fichiers de leçons",
+      "relatedLinksTitle": "Liens connexes",
+      "exploreResources": "Explorer les ressources pédagogiques",
+      "navigateResourcesExplanation": "Utilisez la navigation ci-dessus pour parcourir les vidéos ou les plans de leçons liés aux écosystèmes, à la faune et au climat de l’Alberta.",
+      "selectResourceTool": "Sélectionnez un outil dans le menu des ressources pour commencer."
     }
+  }
 }

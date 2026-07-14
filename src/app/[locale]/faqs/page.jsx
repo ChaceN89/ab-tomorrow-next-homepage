@@ -5,10 +5,11 @@
  *
  * @author Chace Nielson
  * @created Mar 31st, 2025
- * @updated Mar 31st, 2025
+ * @updated July 14 2026 - added set request local
  */
 
 import React from 'react'
+import { setRequestLocale } from 'next-intl/server'
 import { getPageTitle } from '@/utils/metadataUtils'
 import FAQs from '@/components/features/FAQs'
 
@@ -18,6 +19,9 @@ export const metadata = {
 }
 
 // Board of Directors Page Component
-export default function FaqsPage() {
+export default async function FaqsPage({ params }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (<FAQs />)
 }

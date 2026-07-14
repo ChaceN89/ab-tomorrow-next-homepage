@@ -9,6 +9,7 @@
 
 import { Suspense } from "react";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages } from "@/i18n/messages";
@@ -26,6 +27,9 @@ export default async function LocaleLayout({ children, params }) {
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
+  // Required for static rendering with next-intl in locale-based routes.
+  setRequestLocale(locale);
 
   const messages = getMessages(locale);
 
