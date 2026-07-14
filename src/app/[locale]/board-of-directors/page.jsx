@@ -5,10 +5,11 @@
  *
  * @author Chace Nielson
  * @created mar 31st, 2025
- * @updated mar 31st, 2025
+ * @updated Jul 14, 2026 - added translations - added setRequestLocale
  */
 
 import React from 'react'
+import { setRequestLocale } from 'next-intl/server'
 import { getPageTitle } from '@/utils/metadataUtils'
 import BoardOfDirectors from '@/components/features/board-of-directors-components/BoardOfDirectors'
 
@@ -18,6 +19,9 @@ export const metadata = {
 }
 
 // Board of Directors Page Component
-export default function BoardPage() {
+export default async function BoardPage({ params }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (<BoardOfDirectors />)
 }

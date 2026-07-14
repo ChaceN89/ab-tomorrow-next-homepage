@@ -9,6 +9,7 @@
  */
 
 import React from 'react'
+import { setRequestLocale } from 'next-intl/server'
 import { getPageTitle } from '@/utils/metadataUtils'
 import OurPartners from '@/components/features/our-partner-componets/OurPartners'
 
@@ -18,6 +19,9 @@ export const metadata = {
 }
 
 // Board of Directors Page Component
-export default function PartnersPage() {
+export default async function PartnersPage({ params }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (<OurPartners />)
 }
