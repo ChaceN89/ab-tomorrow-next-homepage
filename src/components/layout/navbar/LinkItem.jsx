@@ -35,6 +35,21 @@ export default function LinkItem({
   const isHomePage = pathname === '/' || pathname === `/${locale}`
   const { trackEvent } = useGoogleAnalytics();
 
+  const getLocalizedRouterTarget = (path) => {
+    if (typeof path !== 'string' || !path.startsWith('/')) {
+      return path
+    }
+
+    const hasLocale = routing.locales.some((l) => path === `/${l}` || path.startsWith(`/${l}/`))
+    const localizedPath = hasLocale ? path : `/${locale}${path}`
+
+    if (localizedPath === `/${locale}` || localizedPath === '/') {
+      return localizedPath
+    }
+
+    return localizedPath.endsWith('/') ? localizedPath : `${localizedPath}/`
+  }
+
   // Function to handle internal routing and scrolling
   const handleClick = (e) => {
     e.preventDefault()
@@ -66,16 +81,7 @@ export default function LinkItem({
         observer.observe(document.body, { childList: true, subtree: true })
       }
     } else if (router) {
-      // Ensure internal router paths include the current locale when missing
-      let target = router
-      if (typeof router === 'string' && router.startsWith('/')) {
-        const hasLocale = routing.locales.some((l) => router === `/${l}` || router.startsWith(`/${l}/`));
-        if (!hasLocale) {
-          target = `/${locale}${router}`
-        }
-      }
-
-      routerNav.push(target)
+      routerNav.push(getLocalizedRouterTarget(router))
     }
   }
 
@@ -119,19 +125,10 @@ export default function LinkItem({
       {/* Router Link */}
       {router && !scrollTo && (
         <a
-          href={router}
+          href={getLocalizedRouterTarget(router)}
           onClick={(e) => {
             e.preventDefault()
-            // same locale-aware push as handleClick
-            let target = router
-            if (typeof router === 'string' && router.startsWith('/')) {
-              const hasLocale = routing.locales.some((l) => router === `/${l}` || router.startsWith(`/${l}/`));
-              if (!hasLocale) {
-                target = `/${locale}${router}`
-              }
-            }
-
-            routerNav.push(target)
+            routerNav.push(getLocalizedRouterTarget(router))
           }}
           className={className}
         >
