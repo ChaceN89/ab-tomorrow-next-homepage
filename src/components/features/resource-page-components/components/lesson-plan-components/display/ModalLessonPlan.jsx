@@ -37,12 +37,12 @@ export default function ModalLessonPlan({ id }) {
 
 
           if (!res.ok) throw new Error(`Error fetching lesson plans: ${res.statusText}`);
-      
+
           const allPlans = await res.json();
           const matchedPlan = allPlans.find((p) => String(p.id) === String(id));
-      
+
           if (!matchedPlan) throw new Error("Lesson plan not found");
-      
+
           setPlan(matchedPlan);
 
           // API version for when API is created and deployed

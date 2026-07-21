@@ -47,8 +47,8 @@ export default function VideoCategoryList() {
       if (container) {
         container.scrollIntoView({ behavior: "smooth" });
       }
-    }    
-  
+    }
+
   }, [grouped]);
 
   return (

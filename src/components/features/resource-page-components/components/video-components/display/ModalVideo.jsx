@@ -36,7 +36,7 @@ export default function ModalVideo({ id, preventExpand = true }) {
     // Try to find video from context
     const localVideo = videos?.find((v) => String(v.id) === String(id));
 
-      // check the context first for the video
+    // check the context first for the video
     if (localVideo) {
       setVideo(localVideo);
       setLoading(false);
@@ -48,12 +48,12 @@ export default function ModalVideo({ id, preventExpand = true }) {
           // Temp Data Fetch until API is created and deployed
           const res = await fetch('/api-static-data/videos.json');
           if (!res.ok) throw new Error(`Error fetching videos: ${res.statusText}`);
-      
+
           const allVideos = await res.json();
           const matchedVideo = allVideos.find((v) => String(v.id) === String(id));
-      
+
           if (!matchedVideo) throw new Error("Video not found");
-      
+
           setVideo(matchedVideo);
 
           // API version for when API is created and deployed
@@ -82,9 +82,9 @@ export default function ModalVideo({ id, preventExpand = true }) {
   if (loading) return <div className='p-10'>Loading video data...</div>;
   if (!video) return <div className='p-10'>Video with id:{id} not found.</div>;
 
-  return(
+  return (
     <div className="flex flex-col gap-2 h-full w-full">
-      <Video video={video} noExpand={preventExpand}/>
+      <Video video={video} noExpand={preventExpand} />
     </div>
   )
 

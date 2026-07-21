@@ -19,5 +19,5 @@ export const metadata = {
 
 // Board of Directors Page Component
 export default function LessonPlansPage() {
-  return (<LessonDisplay/>)
+  return (<LessonDisplay />)
 }

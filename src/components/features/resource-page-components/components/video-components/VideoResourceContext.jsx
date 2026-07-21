@@ -37,8 +37,8 @@ export function VideoResourceProvider({ children }) {
 
       // API version for when API is created and deployed
       // const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/videos`);
-      
-      
+
+
       const data = await res.json();
       setVideos(data);
 

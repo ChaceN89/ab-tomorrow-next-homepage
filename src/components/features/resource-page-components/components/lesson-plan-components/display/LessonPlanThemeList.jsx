@@ -51,7 +51,7 @@ export default function LessonThemeList() {
       if (container) {
         container.scrollIntoView({ behavior: "smooth" });
       }
-    }   
+    }
   }, [grouped]);
 
   return (

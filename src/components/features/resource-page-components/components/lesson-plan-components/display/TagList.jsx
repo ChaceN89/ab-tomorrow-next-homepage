@@ -46,7 +46,7 @@ export default function TagList({ label, items = [], pillClass = "" }) {
           onClick={() => setExpanded(true)}
           className={`px-2 py-0.5 rounded-full underline text-blue-600 cursor-pointer hover:text-blue-900 ${pillClass}`}
         >
-           +{hiddenCount} more
+          +{hiddenCount} more
         </button>
       )}
       {expanded && hiddenCount > 0 && (

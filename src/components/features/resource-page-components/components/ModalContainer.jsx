@@ -37,15 +37,15 @@ export default function ModalContainer() {
 
   const closeModal = () => {
     const newParams = new URLSearchParams(searchParams.toString());
-  
+
     if (videoId) newParams.delete("video");
     if (lessonPlanId) newParams.delete("lesson-plan");
-  
+
     // Clean up the URL
     const basePath = window.location.pathname; // e.g., /resources or /resources/videos
     const newQuery = newParams.toString();
     const newUrl = newQuery ? `${basePath}?${newQuery}` : basePath;
-    
+
     // push the new url
     router.push(newUrl, { scroll: false });
   };
