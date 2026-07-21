@@ -16,14 +16,17 @@ import LinkListSection from "./LinkListSection";
 import Link from "next/link";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
+import { useLocale } from "next-intl";
 
 
 export default function LessonPlanCard({ plan }) {
   const { trackEvent } = useGoogleAnalytics();
+  const locale = useLocale();
+  const localizedLessonPlanHref = `/${locale}/resources/lesson-plans?lesson-plan=${plan.id}`;
 
   return (
     <Link
-      href={`/resources/lesson-plans?lesson-plan=${plan.id}`}
+      href={localizedLessonPlanHref}
       scroll={false}
       className="block h-full"
     >

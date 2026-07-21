@@ -27,9 +27,16 @@ import { FaExpandArrowsAlt } from "react-icons/fa";
 import MediaFrame from "@/components/common/mediaFrame/MediaFrame";
 import Link from "next/link";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
+import { useLocale } from "next-intl";
 
 export default function VideoCard({ video, noExpand = false }) {
   const { trackEvent } = useGoogleAnalytics();
+  const locale = useLocale();
+
+  const getLocalizedPlanHref = (href) => {
+    if (!href || !href.startsWith("/resources")) return href;
+    return `/${locale}${href}`;
+  };
 
   return (
     <div
@@ -75,7 +82,7 @@ export default function VideoCard({ video, noExpand = false }) {
                 {video.lessonPlans.map((plan, index) => (
                   <a
                     key={index}
-                    href={plan.link}
+                    href={getLocalizedPlanHref(plan.link)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs text-blue-600 hover:underline gap-1"
