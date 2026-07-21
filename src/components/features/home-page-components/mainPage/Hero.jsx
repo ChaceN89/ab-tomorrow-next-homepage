@@ -8,7 +8,7 @@
  *
  * @author Chace Nielson
  * @created Mar 24, 2025
- * @updated Apr 1, 2025
+ * @updated JUly 21 2026 - Moved Launch button to top
  *
  * @features
  * - Parallax-style hero background using `BackgroundWrapper`
@@ -38,7 +38,9 @@ export default function Hero() {
       className="text-white flex justify-center items-end text-center h-[94dvh] sm:h-[90vh] lg:h-screen overflow-hidden "
     >
       <div className="relative z-10 h-full flex flex-col justify-end items-center space-y-4 pb-8 sm:pb-10 fade-in">
+        <HexButton link={heroData.ctaLink} children={t("launchSimulator")} />
         <div className="flex justify-center items-center gap-3 sm:gap-12 md:gap-20 lg:gap-32">
+
           {heroData.awards.map((award, index) => (
             <Image
               unoptimized
@@ -52,7 +54,6 @@ export default function Hero() {
             />
           ))}
         </div>
-        <HexButton link={heroData.ctaLink} children={t("launchSimulator")} />
       </div>
     </BackgroundWrapper>
   );

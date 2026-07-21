@@ -16,11 +16,13 @@ import { VideoResourceProvider } from "@/components/features/resource-page-compo
 
 import ModalContainer from "@/components/features/resource-page-components/components/ModalContainer";
 
-export default function ResourceLayout({ children }) {
+export default async function ResourceLayout({ children, params }) {
+  const { locale } = await params;
+
   return (
     <LessonPlanResourceProvider>
       <VideoResourceProvider>
-        <ResourceHeader />
+        <ResourceHeader locale={locale} />
         <ModalContainer />
         <main id="resources-container" className="min-h-[50vh] pb-64">{children}</main>
       </VideoResourceProvider>

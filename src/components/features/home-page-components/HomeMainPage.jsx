@@ -7,7 +7,7 @@
  *
  * @author Chace Nielson
  * @created Mar 24, 2025
- * @updated Mar 25, 2025
+ * @updated JUly 21 2026 - remove the interactive tools section
  *
  * @features
  * - Assembles and orders homepage sections such as Hero, Intro, Tools, Education, About, and Get Involved
@@ -58,10 +58,10 @@ export default function HomeMainPage() {
         <CallToAction />
       </section>
 
-      <section id='tools' className='overflow-hidden'>
+      {/* <section id='tools' className='overflow-hidden'>
         <HexSeparator randomColors rows={100} hexClass='bg-accent-alt opacity-5' />
         <InteractiveTools />
-      </section>
+      </section> */}
 
       <section id='education'>
         <Education />

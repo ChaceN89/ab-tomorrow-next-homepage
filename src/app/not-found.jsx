@@ -9,5 +9,5 @@
 import NotFound from "@/components/layout/splashScreen/NotFound"
 
 export default function NotFoundPage() {
-  return (<NotFound/>)
+  return (<NotFound />)
 }

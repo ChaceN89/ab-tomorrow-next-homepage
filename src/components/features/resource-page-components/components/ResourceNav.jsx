@@ -17,15 +17,17 @@
  *
  * @author Chace Nielson
  * @created Apr 11, 2025
- * @updated Apr 11, 2025
+ * @updated July 21 2026 - added translations 
  */
 "use client";
 import { resourceLinks } from "@/data/resourceData/resourcePageData";
 import Link from 'next/link';
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 export default function ResourceNav() {
   const pathname = usePathname();
+  const t = useTranslations("Pages.ResourcesPage");
 
   return (
     <nav className="flex gap-5 mb-6 items-center">
@@ -33,11 +35,10 @@ export default function ResourceNav() {
         <div key={link.href} className="flex items-center gap-5">
           <Link
             href={link.href}
-            className={`text-xl transition hover:text-primary py-2 font-semibold ${
-              pathname === link.href ? "text-primary underline" : "text-gray-700"
-            }`}
+            className={`text-xl transition hover:text-primary py-2 font-semibold ${pathname === link.href ? "text-primary underline" : "text-gray-700"
+              }`}
           >
-            {link.label}
+            {t(link.labelKey)}
           </Link>
           {i < resourceLinks.length - 1 && (
             <div className="w-px h-5 bg-gray-700" />

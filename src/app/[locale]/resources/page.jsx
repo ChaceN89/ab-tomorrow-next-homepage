@@ -16,19 +16,27 @@
  * 
  * @author Chace Nielson
  * @created Apr 1, 2025
- * @updated Apr 11, 2025
+ * @updated JUly 21 2026 - added translations 
  */
 
-export default function ResourcesLanding() {
+import { getTranslations } from "next-intl/server";
+
+export default async function ResourcesLanding({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: "Pages.ResourcesPage"
+  });
+
   return (
     <div className="page-width">
       <div className="page text-center flex flex-col items-center gap-6 py-20">
-        <h1 className="text-3xl font-bold text-primary">Explore Educational Resources</h1>
+        <h1 className="text-3xl font-bold text-primary">{t("exploreResources")}</h1>
         <p className="text-lg text-gray-700 max-w-xl">
-          Use the navigation above to browse videos or lesson plans related to Alberta’s ecosystems, wildlife, and climate.
+          {t("navigateResourcesExplanation")}
         </p>
         <p className="text-md text-gray-500">
-          Select a tool from the <span className="font-semibold text-secondary">resource menu</span> to get started.
+          {t("selectResourceTool")}
         </p>
       </div>
     </div>

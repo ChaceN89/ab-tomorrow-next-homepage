@@ -2,15 +2,19 @@
  * @file VideoFilters.jsx
  * @module UI/Resources/VideoFilters
  * @desc Displays all video filter controls (category, tool, text, and 360° toggle).
- */
+ * @updated July 21 2026 - added translations 
+ 
+*/
 
 "use client";
 
 import React from "react";
+import { useTranslations } from "next-intl";
 import { useVideoResource } from "./VideoResourceContext";
 import FilterDropdown from "../FilterDropdown";
 
 export default function VideoFilters() {
+  const t = useTranslations("Pages.ResourcesPage");
   const {
     loading,
     categoryFilters,
@@ -32,8 +36,8 @@ export default function VideoFilters() {
         {loading
           ? "Loading videos..."
           : numResults > 0
-          ? `${numResults} Video${numResults > 1 ? "s" : ""} found`
-          : "No videos found"}
+            ? `${numResults} ${t("videosFound")}`
+            : "No videos found"}
       </p>
 
       <input
@@ -52,7 +56,7 @@ export default function VideoFilters() {
             type="checkbox"
             checked={only360}
             onChange={() => setOnly360(!only360)}
-            />
+          />
           <span>360° only</span>
         </label>
 
@@ -61,7 +65,7 @@ export default function VideoFilters() {
             type="checkbox"
             checked={hasLessonPlans}
             onChange={() => setHasLessonPlans(!hasLessonPlans)}
-            />
+          />
           <span>With Lesson Plans</span>
         </label>
       </div>
@@ -75,7 +79,7 @@ export default function VideoFilters() {
       />
 
       <FilterDropdown
-        label="Filter by Tool"
+        label={t("filters.tool")}
         filterMap={toolFilters}
         setFilterMap={setToolFilters}
       />

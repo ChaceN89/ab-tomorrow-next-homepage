@@ -4,16 +4,18 @@
  * @desc Displays all lesson plan filter controls (theme, tool, subject, grade, and search).
  * @author Chace Nielson
  * @created Apr 8, 2025
- * @updated Feb 10, 2026
+ * @updated July 21 2026 - added translations 
  */
 
 "use client";
 
 import React from "react";
+import { useTranslations } from "next-intl";
 import { useLessonPlanResource } from "./LessonPlanResourceContext";
 import FilterDropdown from "../FilterDropdown";
 
 export default function LessonPlanFilter() {
+  const t = useTranslations("Pages.ResourcesPage");
   const {
     loading,
     themeFilters,
@@ -35,8 +37,8 @@ export default function LessonPlanFilter() {
         {loading
           ? "Loading lesson plans..."
           : numResults > 0
-          ? `${numResults} Lesson Plan${numResults > 1 ? "s" : ""} found`
-          : "No lesson plans found"}
+            ? `${numResults} ${t("lessonPlansFound")}`
+            : "No lesson plans found"}
       </p>
 
       <input
@@ -48,7 +50,7 @@ export default function LessonPlanFilter() {
       />
 
       <FilterDropdown
-        label="Filter by Theme"
+        label={t("filters.theme")}
         filterMap={themeFilters}
         setFilterMap={setThemeFilters}
         showScrollLinks
@@ -64,14 +66,14 @@ export default function LessonPlanFilter() {
       /> */}
 
       <FilterDropdown
-        label="Filter by Subject"
+        label={t("filters.subject")}
         filterMap={subjectFilters}
         setFilterMap={setSubjectFilters}
         showFocusButton
       />
 
       <FilterDropdown
-        label="Filter by Grade"
+        label={t("filters.grade")}
         filterMap={gradeFilters}
         setFilterMap={setGradeFilters}
         showFocusButton

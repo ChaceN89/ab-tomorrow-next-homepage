@@ -11,7 +11,7 @@
  *
  * @author Chace Nielson
  * @created Apr 8, 2025
- * @updated Feb 10, 2026
+ * @updated July 21 2026 - added translations 
  */
 
 "use client";
@@ -22,6 +22,7 @@ import { FaChevronRight } from "react-icons/fa";
 import { IoArrowRedo } from "react-icons/io5";
 import { RiFocus3Line } from "react-icons/ri";
 import Tooltip from "@/components/common/Tooltip";
+import { useTranslations } from "next-intl";
 
 
 export default function FilterDropdown({
@@ -33,6 +34,7 @@ export default function FilterDropdown({
   initialOpen = false,
   sortAlphabetically = false
 }) {
+  const t = useTranslations("Pages.ResourcesPage");
 
   // initial state of the dropdown
   const [open, setOpen] = useState(initialOpen);
@@ -115,7 +117,7 @@ export default function FilterDropdown({
 
                   {/* Solo (Focus) button */}
                   {showFocusButton && (
-                    <Tooltip text="Show only this filter" openDuration={600}>
+                    <Tooltip text={t("filters.showOnlyThisFilter")} openDuration={600}>
                       <button
                         onClick={() => {
                           setFilterMap(
@@ -138,7 +140,7 @@ export default function FilterDropdown({
 
                 {/* Optional scroll link */}
                 {showScrollLinks && filterMap[item] && (
-                  <Tooltip text="Scroll to section" openDuration={500}>
+                  <Tooltip text={t("filters.scrollToSection")} openDuration={500}>
                     <Link
                       to={item}
                       smooth

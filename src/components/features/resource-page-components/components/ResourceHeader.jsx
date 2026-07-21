@@ -16,23 +16,32 @@
  *
  * @author Chace Nielson
  * @created Apr 11, 2025
- * @updated Apr 11, 2025
+ * @updated July 21 2026 - added translations 
  */
 
 import PageHeader from "@/components/common/headers/PageHeader";
+import { getTranslations } from "next-intl/server";
 import { resourcePageData } from "@/data/resourceData/resourcePageData";
 import ResourceNav from "./ResourceNav";
 
-export default function ResourceHeader() {
-  return(
+export default async function ResourceHeader({ locale }) {
+  const t = await getTranslations({
+    locale,
+    namespace: "Pages.ResourcesPage"
+  });
+
+  return (
     <>
-    <div className="page-width  ">
-      <div className="page -mb-14">
-        <PageHeader title={resourcePageData.title} subtitle={resourcePageData.subtitle} />
-        <ResourceNav />
+      <div className="page-width  ">
+        <div className="page -mb-14">
+          <PageHeader
+            title={t(resourcePageData.titleKey)}
+            subtitle={t(resourcePageData.subtitleKey)}
+          />
+          <ResourceNav />
+        </div>
       </div>
-    </div>
-    <hr className="border-b-2 border-secondary mb-4 mx-2"/>
+      <hr className="border-b-2 border-secondary mb-4 mx-2" />
     </>
   )
 }
