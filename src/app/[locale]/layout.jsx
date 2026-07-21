@@ -9,16 +9,29 @@
 
 import { Suspense } from "react";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages } from "@/i18n/messages";
+import { getPageTitle } from "@/utils/metadataUtils";
 import LocalizedShell from "@/components/layout/shell/LocalizedShell";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({
     locale
   }));
+}
+
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: "NavBar.links"
+  });
+
+  return {
+    title: getPageTitle(t("home"))
+  };
 }
 
 export default async function LocaleLayout({ children, params }) {

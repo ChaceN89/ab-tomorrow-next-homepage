@@ -13,9 +13,6 @@
 import "./globals.css";
 import "./layout.css";
 
-// functions
-import { getPageTitle } from "@/utils/metadataUtils";
-
 // viewport meta data
 export const viewport = {
   themeColor: "#2daeb5"
@@ -25,7 +22,7 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL("https://albertatomorrow.ca"),
 
-  title: getPageTitle("Home"),
+  title: "Alberta Tomorrow",
   description: "An interactive tool to explore Alberta's environmental changes over time.",
   icons: {
     icon: [
