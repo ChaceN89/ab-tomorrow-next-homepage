@@ -26,13 +26,13 @@ export default function LessonThemeList() {
 
   lessonPlans?.forEach((lp) => {
     const matchesTheme = themeFilters[lp.theme];
-    const matchesTool = lp.tools?.some((t) => toolFilters[t]);
+    const matchesTool = !Object.keys(toolFilters).length || !lp.tools?.length || lp.tools.some((t) => toolFilters[t]);
     const matchesSubject = lp.subjects?.some((s) => subjectFilters[s]);
     const matchesGrade = lp.grades?.some((g) => gradeFilters[g]);
 
     const matchesSearch =
-      lp.title.toLowerCase().includes(lowerSearch) ||
-      lp.description?.toLowerCase().includes(lowerSearch) ||
+      (lp.title || "").toLowerCase().includes(lowerSearch) ||
+      (lp.description || "").toLowerCase().includes(lowerSearch) ||
       lp.tags?.some((tag) => tag.toLowerCase().includes(lowerSearch));
 
     if (matchesTheme && matchesTool && matchesSubject && matchesGrade && matchesSearch) {

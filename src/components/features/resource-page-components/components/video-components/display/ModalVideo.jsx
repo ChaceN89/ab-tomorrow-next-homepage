@@ -24,10 +24,17 @@
  * @updated Apr 11, 2025
  */
 import React, { useEffect, useState } from 'react';
+import { useLocale } from 'next-intl';
 import { useVideoResource } from '../VideoResourceContext';
 import Video from './VideoCard';
+import {
+  formatCategoryLabel,
+  getLocalizedValue,
+  getSearchTerms,
+} from '@/utils/resourceNormalizeUtils';
 
 export default function ModalVideo({ id, preventExpand = true }) {
+  const locale = useLocale();
   const { videos } = useVideoResource();
   const [video, setVideo] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -54,7 +61,17 @@ export default function ModalVideo({ id, preventExpand = true }) {
 
           if (!matchedVideo) throw new Error("Video not found");
 
-          setVideo(matchedVideo);
+          setVideo({
+            ...matchedVideo,
+            category: formatCategoryLabel(matchedVideo.categoryId, locale),
+            title: getLocalizedValue(matchedVideo.title, locale),
+            description: getLocalizedValue(matchedVideo.description, locale),
+            hashtags: getSearchTerms(matchedVideo.searchTerms, locale),
+            lessonPlans: (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => ({
+              title: locale === 'fr' ? 'Plan de lecon' : 'Lesson Plan',
+              link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+            })),
+          });
 
           // API version for when API is created and deployed
           // const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/videos/${id}`);
@@ -69,7 +86,6 @@ export default function ModalVideo({ id, preventExpand = true }) {
 
           console.error('Error fetching video:', err);
           setVideo(null);
-          setSource("error");
         } finally {
           setLoading(false);
         }
@@ -77,7 +93,7 @@ export default function ModalVideo({ id, preventExpand = true }) {
 
       fetchVideo();
     }
-  }, [id, videos]);
+  }, [id, locale, videos]);
 
   if (loading) return <div className='p-10'>Loading video data...</div>;
   if (!video) return <div className='p-10'>Video with id:{id} not found.</div>;

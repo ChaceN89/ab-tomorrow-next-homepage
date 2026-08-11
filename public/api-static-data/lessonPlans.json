@@ -1,0 +1,3415 @@
+[
+  {
+    "id": "climate-01a-going-going-gone",
+    "themeId": "climate-change",
+    "title": {
+      "en": "Going Going Going Gone: Climate Change and the Columbia Icefield",
+      "fr": "Il recule, il recule, il disparaît – Les changements climatiques et le champ de glace Columbia"
+    },
+    "description": {
+      "en": "Students will explore how climate change has affected Alberta's glaciers and do some calculations to determine the loss of ice on the Athabasca Glacier.",
+      "fr": "Les élèves étudieront comment les glaciers de l’Alberta ont été touchés par les changements climatiques et ils feront des calculs pour déterminer la perte de glace sur le glacier Athabasca."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Going Going Going Gone: Lesson Plan",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Going Going Going Gone: Student Worksheet",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Climate Myths and Misconceptions: Slide Show",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Il recule, il recule, il disparaît : plan de leçon",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Il recule, il recule, il disparaît : feuille de travail de l’élève",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Mythes et idées fausses sur les changements climatiques : présentation",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-2",
+      "grade-3",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-10"
+    ],
+    "subjectIds": [
+      "science",
+      "biology",
+      "cts"
+    ],
+    "searchTerms": {
+      "en": [
+        "glaciers",
+        "climate change",
+        "math",
+        "ice loss",
+        "calculations",
+        "water",
+        "Science 14",
+        "Science 20",
+        "Biology 20",
+        "Energy Flow in Global Systems",
+        "Environmental Stewardship",
+        "Physical Geography of Canada"
+      ],
+      "fr": [
+        "glaciers",
+        "changements climatiques",
+        "mathématiques",
+        "perte de glace",
+        "calculs",
+        "eau",
+        "Sciences 14",
+        "Sciences 20",
+        "Biologie 20",
+        "flux d’énergie dans les systèmes mondiaux",
+        "gérance de l’environnement",
+        "géographie physique du Canada"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Understand seasonal variation in glacier mass.",
+        "Understand the effect of climate change on glacier mass.",
+        "Calculate loss of glacier ice on the Athabasca Glacier over the next 10 years.",
+        "Determine the loss of ice volume in Rocky Mountain Glaciers."
+      ],
+      "fr": [
+        "Comprendre la variation saisonnière dans la masse des glaciers.",
+        "Comprendre l’effet des changements climatiques sur la masse des glaciers.",
+        "Calculer la perte de glace sur le glacier Athabasca au cours des 10 prochaines années.",
+        "Déterminer la perte de volume de glace dans les glaciers des montagnes Rocheuses."
+      ]
+    },
+    "videoIds": [
+      "env-06c-greenhouse-gases",
+      "landscape-01b-climate-change",
+      "goi-35g-why-are-alberta-glaciers-important",
+      "goi-22g-forest-fires-and-glaciers",
+      "oth-01z-oxygen-isotopes"
+    ],
+    "relatedResources": []
+  },
+  {
+    "id": "climate-02a-scenarios",
+    "themeId": "climate-change",
+    "title": {
+      "en": "Climate Change in Alberta",
+      "fr": "Changements climatiques en Alberta"
+    },
+    "description": {
+      "en": "Students will use the Alberta Tomorrow simulator to investigate different climate change scenarios and see the consequences of different futures and the benefits of using beneficial management practices.",
+      "fr": "Les élèves utiliseront le simulateur d’Alberta Tomorrow pour étudier différents scénarios de changements climatiques et voir les répercussions des différents avenirs et les avantages d’appliquer les pratiques de gestion bénéfiques."
+    },
+    "approximateTime": {
+      "en": "N/A",
+      "fr": "N/A"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
+          "url": "N/A"
+        },
+        {
+          "fileType": "lesson-plan",
+          "title": "Science 6 Climate Change in Alberta - Lesson Plan",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Climate Change in Alberta - Student Worksheet",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Energy Resources and Climate Change in Alberta - Student Worksheet",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Climate Change: Truth and Misconceptions - Presentation Slides",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
+          "url": "N/A"
+        },
+        {
+          "fileType": "lesson-plan",
+          "title": "Sciences, 6e année, Changements climatiques en Alberta – plan de leçon",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Changements climatiques en Alberta – feuille de travail de l’élève",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Ressources énergétiques et changements climatiques – présentation PowerPoint",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "Science 14",
+        "Biology 20",
+        "A Sense of the Land",
+        "Wetland Ecosystems",
+        "Trees and Forests",
+        "Interactions and Ecosystems",
+        "Freshwater and Saltwater Ecosystems",
+        "Government Decision Making",
+        "Environmental Chemistry",
+        "Globalization",
+        "Energy and Matter in Chemical Change",
+        "The Changing Earth",
+        "Energy and Matter Exchange in the Biosphere",
+        "land use",
+        "wildlife",
+        "climate scenarios",
+        "RCPs",
+        "natural landscapes",
+        "shifting ecosystems",
+        "water quality",
+        "water consumption",
+        "alberta",
+        "economy",
+        "ecosystem services",
+        "beneficial management practices",
+        "business as usual",
+        "ghgs",
+        "climate change",
+        "biotic carbon storage",
+        "forestry",
+        "oil and gas production",
+        "agriculture",
+        "GDP",
+        "human population",
+        "fish health",
+        "future",
+        "land use planning",
+        "historical change",
+        "industrial activity"
+      ],
+      "fr": [
+        "Sciences 14",
+        "Biologie 20",
+        "territoire",
+        "écosystèmes des zones humides",
+        "arbres et forêts",
+        "interactions et écosystèmes",
+        "écosystèmes d’eau douce et d’eau salée",
+        "prise de décision gouvernementale",
+        "chimie environnementale",
+        "mondialisation",
+        "énergie et matière dans les changements chimiques",
+        "la Terre en évolution",
+        "échanges d’énergie et de matière dans la biosphère",
+        "utilisation des terres",
+        "faune",
+        "scénarios climatiques",
+        "RCPs",
+        "paysages naturels",
+        "écosystèmes changeants",
+        "qualité de l’eau",
+        "consommation d’eau",
+        "Alberta",
+        "économie",
+        "services écosystémiques",
+        "pratiques de gestion bénéfiques",
+        "maintien du statu quo",
+        "GES",
+        "changements climatiques",
+        "stockage biologique du carbone",
+        "foresterie",
+        "production de pétrole et de gaz",
+        "agriculture",
+        "PIB",
+        "population humaine",
+        "santé des poissons",
+        "avenir",
+        "planification de l’utilisation des terres",
+        "changement historique",
+        "activité industrielle"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Investigate the impact of climate change on Alberta's precipitation, climate",
+        "Investigate the impact of climate change on Alberta's natural regions",
+        "Investigate the impact of climate change on our environment and economy"
+      ],
+      "fr": [
+        "Étudier l’effet que peuvent avoir les changements climatiques sur la terre, les plantes, les humains et les autres animaux.",
+        "Examiner les actions personnelles qui peuvent être prises pour réduire les changements climatiques.",
+        "Étudier l’effet de la réduction des gaz à effet de serre nets."
+      ]
+    },
+    "videoIds": [
+      "landscape-01b-climate-change"
+    ],
+    "relatedResources": []
+  },
+  {
+    "id": "climate-03a-water-quality-glaciers",
+    "themeId": "climate-change",
+    "title": {
+      "en": "Water Quality, Climate Change and Alberta's Glaciers",
+      "fr": "Qualité de l’eau, changements climatiques et glaciers de l’Alberta"
+    },
+    "description": {
+      "en": "This lesson plan accompanies the webinar recording found under the video section. The webinar was held on May 27, 2020 and features four prominent scientists discussing climate change, glacier melt, water policy, and water quality in Alberta.",
+      "fr": "Ce plan de leçon accompagne l’enregistrement du webinaire que vous trouverez dans la section Vidéos. Le webinaire a été enregistré le 27 mai 2020 et met en vedette quatre éminents scientifiques qui discutent des changements climatiques, de la fonte des glaciers, de la réglementation des eaux et de la qualité de l’eau en Alberta."
+    },
+    "approximateTime": {
+      "en": "180 min",
+      "fr": "180 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Water Quality, Climate Change and Alberta's Glaciers",
+          "url": "N/A"
+        },
+        {
+          "fileType": "other-file-type",
+          "title": "Webinar Worksheet",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Glaciers in Alberta (Google Slides)",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
+          "url": "N/A"
+        },
+        {
+          "fileType": "other-file-type",
+          "title": "Feuille de travail du webinaire",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Les glaciers en Alberta (diapositives Google)",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "water",
+        "water quality",
+        "water consumption",
+        "glaciers",
+        "glacier melt",
+        "climate change",
+        "ice coring",
+        "forest fires",
+        "water policy",
+        "persistent chemicals",
+        "cfcs",
+        "ddt",
+        "albedo"
+      ],
+      "fr": [
+        "eau",
+        "qualité de l’eau",
+        "consommation d’eau",
+        "glaciers",
+        "fonte des glaciers",
+        "changements climatiques",
+        "carottage glaciaire",
+        "feux de forêt",
+        "réglementation des eaux",
+        "produits chimiques persistants",
+        "CFC",
+        "DDT",
+        "albédo"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "learn about water quality in Alberta",
+        "identify what watershed you live within",
+        "understand basic glacier terminology",
+        "describe the effect of climate change on Alberta's glaciers",
+        "be introduced to the impact of forest fires on glaciers",
+        "become aware of the importance of water policy in dealing with the effects of climate change",
+        "consider the impact of our activities on climate change and Alberta's glaciers"
+      ],
+      "fr": [
+        "Apprendre des faits sur la qualité de l’eau en Alberta.",
+        "Déterminer près de quel bassin hydrographique l’élève habite.",
+        "Comprendre la terminologie de base sur les glaciers.",
+        "Décrire l’effet des changements climatiques sur les glaciers de l’Alberta.",
+        "Comprendre l’impact des feux de forêt sur les glaciers.",
+        "Prendre conscience de l’importance de la réglementation des eaux pour composer avec les effets des changements climatiques.",
+        "Examiner l’impact de nos activités sur les changements climatiques et les glaciers de l’Alberta."
+      ]
+    },
+    "videoIds": [
+      "landscape-04b-glaciers-webinar"
+    ],
+    "relatedResources": [
+      {
+        "title": "Guardians of the Ice",
+        "url": "https://guardiansoftheice.com/the-columbia-icefield/"
+      }
+    ]
+  },
+  {
+    "id": "glaciers-01b-intro-to-glaciers",
+    "themeId": "glaciers-and-watersheds",
+    "title": {
+      "en": "Introduction to Glaciers",
+      "fr": "Introduction aux glaciers"
+    },
+    "description": {
+      "en": "In this lesson students will be introduced to the glaciers of Alberta, glacier terminology, meet a glaciologist from the University of Alberta and identify the effects of human activity on glaciers.",
+      "fr": "Dans le cadre de cette leçon, les élèves apprendront des faits sur les glaciers de l’Alberta, le vocabulaire associé aux glaciers; ils rencontreront une glaciologue de l’Université de l’Alberta et découvriront les effets des activités humaines sur les glaciers."
+    },
+    "approximateTime": {
+      "en": "40 min",
+      "fr": "40 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Introduction to Glaciers: Lesson Plan",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Introduction to Glaciers: Student Worksheet",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Glaciers in Alberta Slide Show",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Introduction aux glaciers : plan de leçon",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Introduction aux glaciers : feuille de travail de l’élève",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Les glaciers en Alberta : présentation PowerPoint",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-2",
+      "grade-3",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "Wetland Ecosystems",
+        "Interactions and Ecosystems",
+        "Freshwater and Saltwater Systems",
+        "Environmental Chemistry",
+        "Energy Flow in Global Systems",
+        "Energy and Matter in the Biosphere",
+        "Investigating Matter and Energy",
+        "Biology 20",
+        "Science 14",
+        "water",
+        "wetland",
+        "glaciers",
+        "human activity",
+        "terminology"
+      ],
+      "fr": [
+        "glaciers",
+        "alberta",
+        "glaciologue",
+        "vocabulaire",
+        "activités humaines",
+        "eau"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Develop an understanding of what glaciologists do.",
+        "Identify glacier locations in Alberta.",
+        "Be introduced to glacier vocabulary.",
+        "Learn what Dr. Ali Criscitiello does at the Ice Core Lab.",
+        "Identify the effects of human activity on glaciers."
+      ],
+      "fr": [
+        "Comprendre ce que fait un glaciologue.",
+        "Trouver l’emplacement des glaciers de l’Alberta.",
+        "Apprendre le vocabulaire associé aux glaciers.",
+        "Apprendre ce que fait Ali Cristiciello, Ph. D., au Laboratoire canadien des carottes de glace.",
+        "Découvrir les effets des activités humaines sur les glaciers."
+      ]
+    },
+    "videoIds": [
+      "goi-20g-this-is-the-athabasca-glacier",
+      "goi-10g-where-do-glaciers-form",
+      "goi-16g-how-glaciers-move",
+      "goi-02g-colour-of-the-ice",
+      "goi-07g-seasonal-change-on-the-glacier",
+      "goi-09g-what-is-a-moraine",
+      "goi-42g-how-big-is-the-athabasca-glacier",
+      "goi-04g-how-crevasses-form",
+      "goi-08g-striations-on-the-rocks",
+      "goi-01g-are-people-affecting-the-glaciers",
+      "goi-24g-growth-and-attrition",
+      "goi-19g-why-should-we-protect-glaciers"
+    ],
+    "relatedResources": [
+      {
+        "title": "U of A Ice Core Lab",
+        "url": "https://www.ualberta.ca/science/research-and-teaching/research/ice-core-archive/index.html"
+      }
+    ]
+  },
+  {
+    "id": "glaciers-02b-love-it-or-lose-it",
+    "themeId": "glaciers-and-watersheds",
+    "title": {
+      "en": "Love It or Lose It: Alberta Glacier Edition",
+      "fr": "Aimez-les ou perdez-les : les glaciers de l’Alberta"
+    },
+    "description": {
+      "en": "Students investigate the location of glaciers in Alberta and observe how they have changed over time. Students learn about how climate change is affecting our glaciers and come up with an action plan to help prevent the further loss of our glaciers.",
+      "fr": "Les élèves chercheront l’emplacement des glaciers de l’Alberta et observeront comment ils ont changé au fil du temps. Les élèves apprendront l’effet des changements climatiques sur nos glaciers et prépareront un plan d’action pour contribuer à prévenir et à ralentir la perte de nos glaciers."
+    },
+    "approximateTime": {
+      "en": "30 min plus project time",
+      "fr": "30 min plus le temps du projet"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Glaciers in Alberta Slide Show",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Les glaciers en Alberta : présentation",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-2",
+      "grade-3",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "A Sense of the Land",
+        "Physical Geography of Canada",
+        "Wetland Ecosystems",
+        "Interactions and Ecosystems",
+        "Freshwater and Saltwater Systems",
+        "Energy Flow in Global Systems",
+        "Energy and Matter Exchange",
+        "Grade 10 Science",
+        "Biology 20",
+        "glaciers",
+        "climate change",
+        "action plan",
+        "personal actions",
+        "glacier loss"
+      ],
+      "fr": [
+        "glaciers",
+        "changements climatiques",
+        "plan d’action",
+        "perte des glaciers"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Identify glacier location in Alberta.",
+        "Observe change in the glaciers over time.",
+        "Investigate how climate change is affecting Alberta's glaciers.",
+        "Develop an action plan of how they can help prevent further loss of the glaciers."
+      ],
+      "fr": [
+        "Trouver l’emplacement des glaciers de l’Alberta.",
+        "Observer comment les glaciers ont changé au fil du temps.",
+        "Étudier l’effet des changements climatiques sur les glaciers de l’Alberta.",
+        "Préparer un plan d’action pour contribuer à prévenir et à ralentir la perte des glaciers."
+      ]
+    },
+    "videoIds": [
+      "goi-43g-every-year-its-further-to-get-to-work",
+      "goi-14g-where-will-the-glacier-be-in-30-years",
+      "goi-24g-growth-and-attrition",
+      "goi-13g-where-was-the-glacier-in-1982",
+      "goi-12g-where-was-the-athabasca-glacier-in-2006",
+      "goi-19g-why-should-we-protect-glaciers",
+      "goi-01g-are-people-affecting-the-glaciers",
+      "goi-33g-what-can-we-do-to-protect-alberta"
+    ],
+    "relatedResources": [
+      {
+        "title": "Mountain Legacy Project",
+        "url": "http://mountainlegacy.ca/"
+      },
+      {
+        "title": "Guardians of the Ice",
+        "url": "https://guardiansoftheice.com/the-columbia-icefield/"
+      }
+    ]
+  },
+  {
+    "id": "glaciers-03b-ice-core-basics",
+    "themeId": "glaciers-and-watersheds",
+    "title": {
+      "en": "Ice Core Basics",
+      "fr": "Notions de base sur les carottes de glace"
+    },
+    "description": {
+      "en": "The students will watch videos of a glaciologist talking about how she analyzes the ice cores she collects from glaciers.",
+      "fr": "Les élèves regardent les vidéos d’une glaciologue qui parle de ses analyses des carottes de glace qu’elle prélève dans les glaciers."
+    },
+    "approximateTime": {
+      "en": "30 min",
+      "fr": "30 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Ice Core Basics: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1ju0v6zBaJoDP6enneGbY0HAMjSeIYZK63sP3gVRHw30/edit?usp=drive_link"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Ice Core Basics: Student Worksheet",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Notions de base sur les carottes de glace : plan de leçon",
+          "url": "https://docs.google.com/document/d/1bLE67Z_lkQd74jEWKgUM1ikKFIUMZETI/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Notions de base sur les carottes de glace : feuille de travail de l'élève",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-5",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "Wetlands",
+        "Interactions and Ecosystems",
+        "Freshwater and Saltwater Systems",
+        "Environmental Chemistry",
+        "Energy Flow in Global Systems",
+        "Energy and Matter in Chemical Change",
+        "Energy and Matter in the Biosphere",
+        "Chemical Changes",
+        "Matter and Energy",
+        "Biology 20",
+        "Science 14",
+        "oxygen isotopes",
+        "climate change",
+        "glaciers",
+        "water quality",
+        "persistent chemicals",
+        "cfc's"
+      ],
+      "fr": [
+        "carottes de glace",
+        "glaciologue",
+        "isotopes",
+        "produits chimiques persistants"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Understand what we can learn from ice core analysis.",
+        "See how ice coring is done.",
+        "Understand what Persistent Chemicals and Endocrine Receptors are."
+      ],
+      "fr": [
+        "Comprendre ce que nous pouvons apprendre de l’analyse des carottes de glace.",
+        "Voir comment on procède au prélèvement des échantillons de glace (carottage).",
+        "Comprendre en quoi consistent les produits chimiques persistants et les récepteurs endocriniens."
+      ]
+    },
+    "videoIds": [
+      "oth-01z-oxygen-isotopes",
+      "soc-06d-water-consumption",
+      "env-05c-water-quality",
+      "goi-30g-what-is-the-picarro-machine",
+      "goi-28g-measuring-isotopes",
+      "goi-27g-ion-chromatography",
+      "goi-26g-how-do-chemicals-that-were-trapped",
+      "goi-21g-endocrine-disruptors"
+    ],
+    "relatedResources": []
+  },
+  {
+    "id": "glaciers-04b-follow-the-flow",
+    "themeId": "glaciers-and-watersheds",
+    "title": {
+      "en": "Follow the Flow: Water Quality and the Columbia Icefield",
+      "fr": "Suivre le flux : la qualité de l’eau et le champ de glace Columbia"
+    },
+    "description": {
+      "en": "Students will learn what a watershed is and identify what watershed they live within. Through watching some short video interviews students will understand how climate change is resulting in persistent chemicals, some banned in Canada, are being released into the rivers from which we get our drinking water from.",
+      "fr": "Les élèves apprennent ce qu’est un bassin hydrographique et dans quel bassin hydrographique ils vivent. En regardant de courtes vidéos d’entrevues, les élèves comprendront comment les changements climatiques font que des produits chimiques persistants, dont certains sont interdits au Canada, sont rejetés dans les rivières où nous puisons notre eau potable."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Follow the Flow: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1twB1ff_o9mF3ilUHyIYNV9oBfgcYPau7naA4pnK7POk/edit?usp=drive_link"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Follow the Flow: Student Worksheet",
+          "url": "https://docs.google.com/document/d/1vhF9bySogY1Ie_ghov17TdJx93WA6u-j94BHeJCg2NM/edit?usp=drive_link"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Follow the Flow: Slide Show",
+          "url": "https://docs.google.com/presentation/d/12OrymNcfZXL8iWEIgtktG0Lkr0QsVZbCbdvhrtMJXr0/edit?usp=drive_link"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Glaciers in Alberta: Slide Show",
+          "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Suivre le flux : plan de leçon",
+          "url": "https://docs.google.com/document/d/1ETh1-9VemIzGnnd9eaVxbwtQ_IGlkw0g/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Suivre le flux : feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/14nd4-44ffnWBS-bjr41M6whUkDrrCarw/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Suivre le flux : présentation PowerPoint",
+          "url": "https://docs.google.com/presentation/d/1rl9N4QY6T2q3J9QYrYFAuIO2GN5l8C_b/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Les glaciers en Alberta : présentation PowerPoint",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-5",
+      "grade-7",
+      "grade-8",
+      "grade-10",
+      "grade-11",
+      "grade-12"
+    ],
+    "subjectIds": [
+      "science",
+      "biology",
+      "outdoor-environmental-education",
+      "cts"
+    ],
+    "searchTerms": {
+      "en": [
+        "Science 14",
+        "Biology 20",
+        "Physical Geography of Canada",
+        "Wetlands Ecosystems",
+        "Interactions and Ecosystems",
+        "Freshwater and Saltwater Systems",
+        "Environmental Chemistry",
+        "Energy Flow in Global Systems",
+        "Climate Change",
+        "Persistent Chemicals",
+        "cfcs",
+        "water",
+        "watershed",
+        "glaciers",
+        "water source"
+      ],
+      "fr": [
+        "bassin hydrographique",
+        "qualité de l’eau",
+        "produits chimiques persistants",
+        "changements climatiques",
+        "champ de glace Columbia"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Identify their watershed and drainage basin.",
+        "Find the Columbia Icefield on the map.",
+        "Define persistent chemicals.",
+        "Investigate factors that contribute to water quality."
+      ],
+      "fr": [
+        "Identifier leur bassin hydrographique et leur bassin versant.",
+        "Trouver le champ de glace Columbia sur la carte.",
+        "Définir les produits chimiques persistants.",
+        "Étudier les facteurs qui ont un effet sur la qualité de l’eau."
+      ]
+    },
+    "videoIds": [
+      "goi-32g-watershed-great-divide",
+      "goi-11g-where-does-water-from-the-snowdome",
+      "goi-26g-how-do-chemicals-that-were-trapped",
+      "goi-29g-persistent-chemicals-in-alberta",
+      "goi-05g-how-do-forest-fires-affect-glaciers"
+    ],
+    "relatedResources": []
+  },
+  {
+    "id": "glaciers-05b-water-test-procedures",
+    "themeId": "glaciers-and-watersheds",
+    "title": {
+      "en": "Water Test Procedures",
+      "fr": "Procédures d’analyse de l’eau"
+    },
+    "description": {
+      "en": "Water test procedures guide.",
+      "fr": "Guide des procédures d’analyse de l’eau."
+    },
+    "approximateTime": {
+      "en": "N/A",
+      "fr": "N/A"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "other-file-type",
+          "title": "Water Test Procedures",
+          "url": "https://drive.google.com/file/d/15I2aVVkdXZUWdPTEB7YQyk3OgvBG4SG-/view?usp=sharing"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Glaciers in Alberta Slide Show",
+          "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "other-file-type",
+          "title": "Procédures d’analyse de l’eau",
+          "url": "https://docs.google.com/document/d/1S0CSfCmP5sCkBeUdMuooNtXBOYhDOHch/edit"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Les glaciers en Alberta : présentation",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "Science 14",
+        "Biology 20",
+        "Water",
+        "Water Quality",
+        "Water Consumption",
+        "Glaciers",
+        "Wetlands",
+        "Watershed"
+      ],
+      "fr": [
+        "Sciences 14",
+        "Biologie 20",
+        "eau",
+        "qualité de l’eau",
+        "consommation d’eau",
+        "glaciers",
+        "zones humides",
+        "bassin versant"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [],
+      "fr": []
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "landuse-01c-yesterday-today-tomorrow",
+    "themeId": "land-use",
+    "title": {
+      "en": "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator",
+      "fr": "Hier, aujourd’hui et demain : Utiliser le simulateur d’Alberta Tomorrow"
+    },
+    "description": {
+      "en": "Students will see how the landscape has changed since 1900 as a result of human activity. They will then investigate a business-as-usual future based on past development rates.",
+      "fr": "Les élèves verront comment le paysage a changé depuis les années 1900 en raison de l’activité humaine. Ils étudieront le futur prévu selon un scénario d’avenir de « maintien du statu quo » qui repose sur le taux de développement passé."
+    },
+    "approximateTime": {
+      "en": "90 min",
+      "fr": "90 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
+          "url": "https://docs.google.com/document/d/1Bnm4lgL7gFeSJW0DRwunmlZUOey-v6mrSTRmU6-raBM/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/19_h05r90eQzVl3V6TfJLKg-mTrWGmQmo/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies",
+      "outdoor-environmental-education",
+      "cts"
+    ],
+    "searchTerms": {
+      "en": [
+        "land use",
+        "historical change",
+        "ecosystem services",
+        "climate change",
+        "simulator"
+      ],
+      "fr": [
+        "utilisation des terres",
+        "changement historique",
+        "indicateurs environnementaux",
+        "simulateur"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Explore the province of Alberta on satellite imagery",
+        "Identify which watershed they live in",
+        "See how the landscape has changed and the effect on environmental indicators",
+        "Explore a projected 'business as usual' scenario"
+      ],
+      "fr": [
+        "Explorer la province de l’Alberta par les images satellite.",
+        "Trouver dans quel bassin hydrographique ils habitent.",
+        "Voir comment le paysage a changé par le passé et l’effet sur les indicateurs environnementaux.",
+        "Étudier un scénario de « maintien du statu quo »."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "landuse-02c-my-future-alberta",
+    "themeId": "land-use",
+    "title": {
+      "en": "My Future Alberta: Creating a Landuse Plan for 2050",
+      "fr": "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050"
+    },
+    "description": {
+      "en": "Students use the Alberta Tomorrow simulator to create a land use plan for Alberta's future.",
+      "fr": "Les élèves utilisent le simulateur d’Alberta Tomorrow pour créer un plan d’utilisation des terres pour l’avenir de l’Alberta."
+    },
+    "approximateTime": {
+      "en": "90 min",
+      "fr": "90 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
+          "url": "https://docs.google.com/document/d/1m_ybmNFrgN1CYuKQUYUttrd_PDfzzsPwu8zMlEJRI24/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050 : plan de leçon et feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/13ybEAk6XIv5r9Fkqv-5k8-CwWaF2Ybm7/edit#heading=h.nqnhio4pqyoe"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies",
+      "outdoor-environmental-education",
+      "cts"
+    ],
+    "searchTerms": {
+      "en": [
+        "land use",
+        "future planning",
+        "economy",
+        "ecosystem services"
+      ],
+      "fr": [
+        "plan d’utilisation des terres",
+        "avenir",
+        "alberta",
+        "simulateur"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Create a landuse plan for Alberta's future"
+      ],
+      "fr": [
+        "Créer un plan d’utilisation des terres pour l’avenir de l’Alberta."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": [
+      {
+        "title": "Alberta Landuse Framework",
+        "url": "https://landuse.alberta.ca/Pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "id": "landuse-03c-biogeochemical-cycles",
+    "themeId": "land-use",
+    "title": {
+      "en": "Biogeochemical Cycles",
+      "fr": "Cycles biogéochimiques"
+    },
+    "description": {
+      "en": "Students explore the water, carbon, nitrogen, and phosphorus cycles and how landuse disrupts them. They use the simulator to explore scenarios and develop mitigation strategies.",
+      "fr": "Les élèves étudient les cycles biogéochimiques de l’eau, du carbone, de l’azote et du phosphore, et comment l’utilisation des terres perturbent ces derniers. Ils utilisent le simulateur pour explorer des scénarios et développer des stratégies d’atténuation."
+    },
+    "approximateTime": {
+      "en": "180 min",
+      "fr": "180 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Biogeochemical Cycles: Bio 20 Lesson Plan",
+          "url": "https://docs.google.com/document/d/18wXANYbaRv_r3vSBRlw0xNx00mF-X0KR/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Biogeochemical Cycles: Bio 20 Student Worksheet",
+          "url": "https://docs.google.com/document/d/1LeujOsQOvL-yAL3urmPKQSTDOXsijmjB/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        },
+        {
+          "fileType": "answer-key",
+          "title": "Biogeochemical Cycles: Bio 20 Answer Key",
+          "url": "https://docs.google.com/document/d/1OsCViid43oOZrJ6WL6ohsEjPyINpGnro/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Cycles biogéochimiques : Biologie 20 - plan de leçon",
+          "url": "https://docs.google.com/document/d/18ewlElnzNzp6wEi7dunsnkNpDBmT_yEK/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Cycles biogéochimiques : Biologie 20 - feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/1pJqdjwsseUphgvDzBbtxA-WFthAQPBq0/edit"
+        },
+        {
+          "fileType": "answer-key",
+          "title": "Cycles biogéochimiques : Biologie 20 - clé de correction",
+          "url": "https://docs.google.com/document/d/1W-q4bGaM-eG7EmsKLFV_llxrtT3c18Qu/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-11"
+    ],
+    "subjectIds": [
+      "biology",
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "biogeochemical cycles",
+        "nutrients",
+        "eutrophication",
+        "land use planning"
+      ],
+      "fr": [
+        "cycles biogéochimiques",
+        "éléments nutritifs",
+        "eutrophisation",
+        "utilisation des terres"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Define biogeochemical cycles",
+        "Investigate nutrient cycles and disruptions",
+        "Explore scenarios using the simulator",
+        "Develop a sustainable landuse plan"
+      ],
+      "fr": [
+        "Définir les cycles biogéochimiques.",
+        "Étudier les cycles des éléments nutritifs et les perturbations.",
+        "Explorer des scénarios en utilisant le simulateur.",
+        "Créer un plan durable d’utilisation des terres."
+      ]
+    },
+    "videoIds": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-03c-grizzly-habitat",
+      "env-04c-fish-habitat",
+      "env-05c-water-quality",
+      "env-06c-greenhouse-gases",
+      "soc-01d-human-population",
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "soc-06d-water-consumption"
+    ],
+    "relatedResources": []
+  },
+  {
+    "id": "landuse-04c-governments-have-it-rough",
+    "themeId": "land-use",
+    "title": {
+      "en": "Governments Have it Rough! Can You Make Everyone Happy?",
+      "fr": "C’est difficile pour les gouvernements! Pouvez-vous rendre tout le monde heureux?"
+    },
+    "description": {
+      "en": "Students assume the role of government planners tasked with balancing the interests of various stakeholders in land-use decisions. Through the simulator, they explore the complexities of policy-making and the challenges of satisfying diverse community needs.",
+      "fr": "Les élèves jouent le rôle des planificateurs gouvernementaux responsables de trouver le juste équilibre entre les intérêts des divers intervenants dans leurs décisions sur l’utilisation des terres. Avec le simulateur, ils explorent la complexité de l’élaboration des politiques et les défis de répondre aux divers besoins de la communauté."
+    },
+    "approximateTime": {
+      "en": "120 min",
+      "fr": "120 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Governments Have it Rough!: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Governments Have it Rough: Student Worksheet",
+          "url": "N/A"
+        },
+        {
+          "fileType": "answer-key",
+          "title": "Governments Have it Rough: Answer Key",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "C’est difficile pour les gouvernements! : plan de leçon",
+          "url": "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
+          "url": "N/A"
+        },
+        {
+          "fileType": "answer-key",
+          "title": "C’est difficile pour les gouvernements! : clé de correction",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-9"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "policy-making",
+        "stakeholder engagement",
+        "land-use planning",
+        "government roles"
+      ],
+      "fr": [
+        "gouvernements",
+        "intervenants",
+        "politiques",
+        "utilisation des terres"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will learn about the interaction between the economy and environmental indicators",
+        "Students will investigate multiple perspectives on appropriate land use",
+        "Students will role play different stakeholders",
+        "Students will develop a landuse plan that would be best for all Albertans"
+      ],
+      "fr": [
+        "Les élèves apprennent l’interaction entre l’économie et les indicateurs environnementaux.",
+        "Les élèves examinent des perspectives multiples sur l’utilisation des terres appropriée.",
+        "Les élèves jouent le rôle de différents intervenants.",
+        "Les élèves créent un plan d’utilisation des terres qui serait le plus profitable pour tous les Albertains."
+      ]
+    },
+    "videoIds": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-03c-grizzly-habitat",
+      "env-04c-fish-habitat",
+      "env-05c-water-quality",
+      "env-06c-greenhouse-gases",
+      "soc-01d-human-population",
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "soc-06d-water-consumption"
+    ],
+    "relatedResources": []
+  },
+  {
+    "id": "landuse-05c-did-we-do-that",
+    "themeId": "land-use",
+    "title": {
+      "en": "Did We Do That? A Study of Alberta's Geography and the Benefits and Drawbacks of Landuse",
+      "fr": "Did We Do That? A Study of Alberta's Geography and the Benefits and Drawbacks of Landuse (French Coming soon)"
+    },
+    "description": {
+      "en": "Grade 4 students will investigate Alberta's natural ecoregions through a series of educational videos, examining the benefits and drawbacks of different land-use decisions.",
+      "fr": "N/A"
+    },
+    "approximateTime": {
+      "en": "12 classes",
+      "fr": "12 cours"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Grade 4 Lesson Plan",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Plan de leçon de 4e année",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "A sense of the Land",
+        "land use",
+        "quality of life",
+        "wildlife",
+        "water quality",
+        "water consumption",
+        "alberta",
+        "economy",
+        "ecosystem services"
+      ],
+      "fr": [
+        "un sens du territoire",
+        "utilisation des terres",
+        "qualité de vie",
+        "faune",
+        "qualité de l’eau",
+        "consommation d’eau",
+        "Alberta",
+        "économie",
+        "services écosystémiques"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Investigate the geography of Alberta",
+        "Examine the benefits and drawbacks of land-use practices"
+      ],
+      "fr": [
+        "Étudier la géographie de l’Alberta.",
+        "Examiner les avantages et les inconvénients des pratiques d’utilisation des terres."
+      ]
+    },
+    "videoIds": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-03c-grizzly-habitat",
+      "env-04c-fish-habitat",
+      "env-05c-water-quality",
+      "env-06c-greenhouse-gases",
+      "soc-01d-human-population",
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "soc-06d-water-consumption"
+    ],
+    "relatedResources": []
+  },
+  {
+    "id": "landuse-06c-did-i-do-that",
+    "themeId": "land-use",
+    "title": {
+      "en": "Did I Do That? The Relationship Between Humans and Their Environment",
+      "fr": "Ai-je fait ça? Les rapports entre l’être humain et son environnement"
+    },
+    "description": {
+      "en": "Using the Alberta Tomorrow simulator, students investigate the unintended consequences of human activity on the environment. They are challenged to come up with a future landuse plan for their watershed that balances the economy with the environment.",
+      "fr": "À l’aide du simulateur d’Alberta Tomorrow, les élèves étudient les conséquences involontaires de l’activité humaine sur l’environnement. On les met au défi de préparer un plan d’utilisation des terres pour l’avenir, pour leur bassin hydrographique, qui assure l’équilibre entre l’économie et l’environnement."
+    },
+    "approximateTime": {
+      "en": "180 min",
+      "fr": "180 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Did we do that? Science 7 Lesson Plan",
+          "url": "https://docs.google.com/document/d/1CR-RG016EQChxUjxY3X1aESpoSiSfHoq/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Did we do that? Science 7 Student Worksheet",
+          "url": "N/A"
+        },
+        {
+          "fileType": "answer-key",
+          "title": "Did we do that? Science 7 Answer Sheet",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Avons-nous fait ça? Sciences 7e année, plan de leçon",
+          "url": "https://docs.google.com/document/d/17gp6CAHLREMW8NS83xN7td3SWwIvlV3l/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
+          "url": "N/A"
+        },
+        {
+          "fileType": "answer-key",
+          "title": "Avons-nous fait ça? Sciences 7e année, clé de correction",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-7"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "land use",
+        "quality of life",
+        "water quality",
+        "future planning",
+        "simulator"
+      ],
+      "fr": [
+        "conséquences involontaires",
+        "bassin hydrographique",
+        "équilibre",
+        "utilisation des terres"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Investigate past changes on the landscape",
+        "Investigate a possible future",
+        "Create their own landuse plan for the future"
+      ],
+      "fr": [
+        "Étudier les changements survenus dans le paysage dans le passé.",
+        "Étudier un futur possible.",
+        "Créer leur propre plan d’utilisation des terres pour l’avenir."
+      ]
+    },
+    "videoIds": [
+      "env-01c-natural-landscapes",
+      "env-02c-caribou-habitat",
+      "env-03c-grizzly-habitat",
+      "env-04c-fish-habitat",
+      "env-05c-water-quality",
+      "env-06c-greenhouse-gases",
+      "soc-01d-human-population",
+      "soc-02d-gdp",
+      "soc-03d-hydrocarbon-production",
+      "soc-04d-timber-production",
+      "soc-05d-agriculture-production",
+      "soc-06d-water-consumption"
+    ],
+    "relatedResources": []
+  },
+  {
+    "id": "landuse-07c-landuse-field-trip",
+    "themeId": "land-use",
+    "title": {
+      "en": "Landuse Field Trip",
+      "fr": "Sortie éducative liée à l’utilisation des terres"
+    },
+    "description": {
+      "en": "This is a self-led guide for teachers to go on a field trip with their class that investigates at least 2 different areas: one more pristine and one affected by landuse (e.g., a city, golf course). The lesson includes student worksheets and water test procedures. Users must supply their own test kits.",
+      "fr": "Il s’agit d’un guide pour une sortie éducative autonome pour les enseignants avec leur classe afin d’étudier au moins deux régions différentes : un paysage relativement intact et un autre touché par l’utilisation des terres (p. ex., une ville, un terrain de golf). La leçon comprend les feuilles de travail de l’élève et les procédures d’analyse de l’eau. Les utilisateurs doivent fournir leurs propres trousses d’analyse."
+    },
+    "approximateTime": {
+      "en": "1/2 day - full day depending on travel time",
+      "fr": "Une demi-journée à une journée complète selon le déplacement"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "other-file-type",
+          "title": "Landuse Field Trip",
+          "url": "https://docs.google.com/document/d/1SpC6AztxVAMg5Zf7DmUwN8wQ-Tll5m73/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "other-file-type",
+          "title": "Sortie éducative liée à l’utilisation des terres",
+          "url": "https://docs.google.com/document/d/188mTIwQakxOh1shXP96viDfY2BZBMfYJ/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies",
+      "outdoor-environmental-education",
+      "cts"
+    ],
+    "searchTerms": {
+      "en": [
+        "field trip",
+        "water quality",
+        "land use",
+        "watershed",
+        "outdoor learning"
+      ],
+      "fr": [
+        "sortie éducative",
+        "qualité de l’eau",
+        "utilisation des terres",
+        "bassin hydrographique"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Investigate and compare water quality in a relatively pristine area and compare to one that has been affected by landuse"
+      ],
+      "fr": [
+        "Examiner et comparer la qualité de l’eau dans un paysage relativement intact et dans un autre qui a été touché par l’utilisation des terres."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "landuse-08c-stakeholder-debate",
+    "themeId": "land-use",
+    "title": {
+      "en": "Stakeholder Debate",
+      "fr": "Débat d’intervenants"
+    },
+    "description": {
+      "en": "In this stakeholder debate, the class is divided into different stakeholder groups. Each group must create a landuse plan that achieves their goals as a company or organization. They present their proposals to the class or government, and in the end, a consensus landuse plan that meets the goals of society is decided upon.",
+      "fr": "Pour cette activité de débat, la classe est divisée en différents groupes d’intervenants. Chaque groupe doit créer un plan d’utilisation des terres qui permet de réaliser ses objectifs en tant que compagnie ou organisme. Les groupes présentent leurs propositions de plan d’utilisation des terres à la classe ou au gouvernement et, à la fin, ils doivent arriver à un consensus sur le plan à retenir qui répond aux objectifs de l’ensemble de la société."
+    },
+    "approximateTime": {
+      "en": "4 classes",
+      "fr": "4 cours"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Stakeholder Debate Lesson Plan",
+          "url": "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Débat d’intervenants : plan de leçon",
+          "url": "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies",
+      "outdoor-environmental-education",
+      "cts"
+    ],
+    "searchTerms": {
+      "en": [
+        "stakeholder debate",
+        "land use planning",
+        "economy",
+        "environmental indicators"
+      ],
+      "fr": [
+        "débat",
+        "intervenants",
+        "utilisation des terres",
+        "consensus"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will learn about the interaction between the economy and environmental indicators",
+        "Students will investigate multiple perspectives on appropriate land use",
+        "Students will role play different stakeholders",
+        "Students will develop a landuse plan that would be best for all Albertans"
+      ],
+      "fr": [
+        "Les élèves apprennent l’interaction entre l’économie et les indicateurs environnementaux.",
+        "Les élèves examinent des perspectives multiples sur l’utilisation des terres appropriée.",
+        "Les élèves jouent le rôle de différents intervenants.",
+        "Les élèves créent un plan d’utilisation des terres qui serait le plus profitable pour tous les Albertains."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "landuse-09c-mistakes-mitigations-and-making-amends",
+    "themeId": "land-use",
+    "title": {
+      "en": "Mistakes, Mitigations and Making Amends",
+      "fr": "Mistakes, Mitigations and Making Amends (French Coming soon)"
+    },
+    "description": {
+      "en": "This lesson explores how land-use decisions can have unintended consequences and what can be done to mitigate and repair harm over time.",
+      "fr": "N/A"
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "N/A"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Land Based Learning Webinar Worksheet",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "N/A",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11",
+      "grade-12"
+    ],
+    "subjectIds": [
+      "science",
+      "biology",
+      "other"
+    ],
+    "searchTerms": {
+      "en": [
+        "land use",
+        "mitigation",
+        "repair",
+        "environment"
+      ],
+      "fr": [
+        "utilisation des terres",
+        "atténuation",
+        "réparation",
+        "environnement"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will consider how land-use decisions create consequences and how communities can respond to repair harm."
+      ],
+      "fr": []
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "abregions-01d-virtual-field-trips-ecoregions",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "360 Virtual Field Trips to Alberta's 6 Ecoregions",
+      "fr": "Visites virtuelles à 360 degrés dans les six écorégions de l’Alberta."
+    },
+    "description": {
+      "en": "In this scavenger hunt lesson, students will learn what makes each of Alberta's 6 ecoregions unique by identifying icons for geography, geology, soils, landforms, climate, plants, animals, natural resource use, and interesting facts, including species at risk.",
+      "fr": "Dans le cadre de cette chasse au trésor, les élèves apprendront ce qui rend unique chacune des six écorégions de l’Alberta en repérant les icônes liées à la géographie, à la géologie, aux sols, au relief, au climat, aux plantes, aux animaux, à l’utilisation des ressources naturelles et à des faits intéressants, y compris les espèces en péril."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Alberta's Ecoregions - 360 Virtual Field Trips Lesson Plan",
+          "url": "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "360 Virtual Tours Scavenger Hunt Student Worksheet",
+          "url": "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
+          "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
+          "url": "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Écorégions de l’Alberta – visites virtuelles à 360 degrés : plan de leçon",
+          "url": "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
+          "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
+          "url": "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-8",
+      "grade-9"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "alberta",
+        "ecoregions",
+        "virtual field trips",
+        "scavenger hunt",
+        "species at risk",
+        "geography",
+        "geology",
+        "climate",
+        "plants",
+        "animals"
+      ],
+      "fr": [
+        "alberta",
+        "écorégions",
+        "visites virtuelles",
+        "chasse au trésor",
+        "espèces en péril",
+        "géographie",
+        "géologie",
+        "climat",
+        "plantes",
+        "animaux"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Demonstrate an understanding and appreciation of how geography, climate, soils, geology, plants, and animals define a natural ecoregion.",
+        "Identify species at risk in each ecoregion."
+      ],
+      "fr": [
+        "Faire la démonstration de leur compréhension et de leur appréciation de la manière dont la géographie, le climat, les sols, la géologie, les plantes et les animaux définissent une écorégion naturelle.",
+        "Identifier les espèces en péril dans chaque écorégion."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "abregions-02d-animal-adaptations",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Animal Adaptations - Using the 360 Virtual Field Trips",
+      "fr": "Animal Adaptations - Using the 360 Virtual Field Trips (French Coming soon)"
+    },
+    "description": {
+      "en": "In this lesson students will explore animals in all 6 ecoregions within Alberta and learn about how they are specially adapted to living there.",
+      "fr": "N/A"
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "N/A"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Grade 3 Science Adaptations and the 360 Virtual Field Trips",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Animal Adaptations Student Worksheet - Fillable Google Slides",
+          "url": "N/A"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "N/A",
+          "url": "N/A"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "N/A",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-3"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "animal adaptations",
+        "alberta",
+        "ecoregions"
+      ],
+      "fr": [
+        "adaptations animales",
+        "Alberta",
+        "écorégions"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will learn how animals are adapted to life in each of the 6 natural regions of Alberta"
+      ],
+      "fr": []
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "abregions-03d-plant-animal-adaptations",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Plant and Animal Adaptations - Using the 360 Virtual Field Trips",
+      "fr": "Adaptations des plantes et des animaux – visites virtuelles à 360 degrés"
+    },
+    "description": {
+      "en": "In this lesson students will explore the plants and animals in all 6 ecoregions within Alberta, learn how they are specially adapted to living there, what human activities affect their survival and which species are at risk in each ecoregion.",
+      "fr": "Au cours de cette leçon, les élèves étudieront les plantes et les animaux dans les six écorégions en Alberta; ils apprendront comment ils sont spécialement adaptés pour vivre à cet endroit, les activités humaines qui nuisent à leur survie et les espèces qui sont en péril dans chaque écorégion."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
+          "url": "https://drive.google.com/file/d/1oqRU9sDWebD92xmGi3RYhN-Ae00ACP_j/view?usp=drive_link"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Grade 9 Plant and Animal Adaptations Student Worksheet - Fillable Google Slides",
+          "url": "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "9e année, Sciences : Adaptations et visites virtuelles à 360 degrés",
+          "url": "https://docs.google.com/document/d/1IKLGOqi9ukqXGjawklTxjrAGOEzbS6wg/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "9e année, Adaptations des plantes et des animaux – feuille de travail de l’élève – diapositives Google à remplir",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-9"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "adaptations",
+        "plants",
+        "animals",
+        "ecoregions",
+        "alberta",
+        "species at risk"
+      ],
+      "fr": [
+        "adaptations",
+        "plantes",
+        "animaux",
+        "écorégions",
+        "alberta",
+        "espèces en péril"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will describe how plants and animals are adapted to life in each natural ecoregion of Alberta.",
+        "Students will identify risks to species survival in each ecoregion.",
+        "Students will identify species at risk in each region."
+      ],
+      "fr": [
+        "Les élèves décriront comment les plantes et les animaux se sont adaptés à la vie dans chacune des écorégions de l’Alberta.",
+        "Les élèves identifieront les risques pour la survie des espèces dans chaque écorégion.",
+        "Les élèves identifieront les espèces en péril dans chaque région."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "abregions-04d-natural-resources",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Alberta's Natural Resources",
+      "fr": "Ressources naturelles de l’Alberta"
+    },
+    "description": {
+      "en": "Students will investigate where different natural resources are located in Alberta and how they have influenced settlement, the environment and economy since 1910 to present, and how they may influence the province in the future.",
+      "fr": "Les élèves font des recherches sur l’emplacement des différentes ressources naturelles en Alberta et comment elles ont influencé le peuplement, l’environnement et l’économie, de 1910 à nos jours, et l’influence qu’elles peuvent avoir sur la province dans le futur."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Alberta's Natural Resources: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?usp=drive_link"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Alberta's Natural Resources: Student Worksheet",
+          "url": "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Ressources naturelles de l’Alberta : plan de leçon",
+          "url": "https://docs.google.com/document/d/1KUFyuRXXLDf0bmCnTnFo4xTqN6QxFoha/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/1HVNoxTzEKVB58FFgxduCn01xek2Lde6g/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-3"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "natural resources",
+        "alberta",
+        "settlement",
+        "economy",
+        "environment"
+      ],
+      "fr": [
+        "ressources naturelles",
+        "alberta",
+        "peuplement",
+        "économie",
+        "environnement"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Understand the difference between renewable and non-renewable resources",
+        "Explore how Alberta's geography affects the location and availability of natural resources",
+        "Analyze how natural resources have shaped Alberta's economic development and settlement patterns",
+        "Use satellite imagery and simulations to observe environmental and socio-economic changes over time",
+        "Predict and propose sustainable land use strategies for Alberta's future"
+      ],
+      "fr": [
+        "Comprendre les différences entre ressources renouvelables et non renouvelables.",
+        "Étudier quel effet la géographie de l’Alberta a sur l’emplacement et la disponibilité des ressources naturelles.",
+        "Analysez comment les ressources naturelles ont façonné le développement économique et les modèles d’établissement de l’Alberta.",
+        "Utiliser les images satellite et les simulations pour observer les changements des indicateurs environnementaux et socioéconomiques au fil du temps.",
+        "Prédire et proposer des stratégies d’utilisation durable des terres pour l’avenir de l’Alberta."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "abregions-05d-alberta-natural-regions",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Alberta's Natural Regions",
+      "fr": "Régions naturelles de l’Alberta"
+    },
+    "description": {
+      "en": "In this activity, students will research and construct maps of Alberta's Natural Regions.",
+      "fr": "Dans le cadre de cette activité, les élèves font des recherches et créent des cartes des régions naturelles de l’Alberta."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Alberta's Natural Regions",
+          "url": "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE/edit?usp=drive_link"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "360 Virtual Tours Scavenger Hunt Student Worksheet",
+          "url": "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL/view?usp=drive_link"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
+          "url": "https://docs.google.com/presentation/d/1cqF8G4yz8O23Jg65PTvcoe-juJLizHjjP8vPkZY1H4k"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
+          "url": "https://docs.google.com/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Régions naturelles de l’Alberta",
+          "url": "https://docs.google.com/document/d/1KWFyGht_qb3wHVTSE9zrLfotffrNw2uI/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
+          "url": "N/A"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
+          "url": "https://docs.google.com/presentation/d/1FrvTy8G4cR0kKAunb0rwjshiy56Uykg4/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-3"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "natural regions",
+        "alberta",
+        "maps",
+        "geography",
+        "physical regions"
+      ],
+      "fr": [
+        "régions naturelles",
+        "alberta",
+        "cartes",
+        "géographie",
+        "régions physiques"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Distinguish between Alberta's natural regions based on physical geography",
+        "Describe key natural features such as landforms, vegetation, and climate",
+        "Identify the relationship between natural resources and regional geography",
+        "Construct and annotate maps showing Alberta's physical regions"
+      ],
+      "fr": [
+        "Faire la distinction entre les régions naturelles de l’Alberta en fonction de la géographie physique.",
+        "Décrire les caractéristiques naturelles principales, comme les reliefs, la végétation et le climat.",
+        "Indiquer la relation entre les ressources naturelles et la géographie physique.",
+        "Créer et annoter des cartes montrant les régions physiques de l’Alberta."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "abregions-06d-ecosystem-diversity",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Alberta's Ecosystem Diversity",
+      "fr": "Diversité des écosystèmes de l’Alberta"
+    },
+    "description": {
+      "en": "In this activity, students explore Alberta's ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
+      "fr": "Dans le cadre de cette activité, les élèves étudient les écosystèmes de l’Alberta en effectuant des visites virtuelles à 360 degrés pour repérer et comparer les composants abiotiques et biotiques. Ils analyseront comment les caractéristiques de l’écosystème influence la diversité des plantes et des animaux."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Alberta's Ecosystems Scavenger Hunt",
+          "url": "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Ecosystems in Alberta: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Chasse au trésor dans les écosystèmes de l’Alberta",
+          "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Écosystèmes en Alberta : plan de leçon",
+          "url": "https://docs.google.com/document/d/1dgmUyS9EOvTZmjjOuaOaxHk207d3WOe6/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "ecosystem diversity",
+        "abiotic",
+        "biotic",
+        "plants",
+        "animals",
+        "alberta"
+      ],
+      "fr": [
+        "diversité des écosystèmes",
+        "abiotique",
+        "biotique",
+        "plantes",
+        "animaux",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Compare the characteristics of two Alberta ecosystems.",
+        "Describe the role of abiotic and biotic factors in ecosystems.",
+        "Identify factors that influence plant and animal diversity.",
+        "Understand how ecosystems interact with greenhouse gases and carbon storage."
+      ],
+      "fr": [
+        "Comparer les caractéristiques de deux écosystèmes de l’Alberta.",
+        "Décrire le rôle écologique des facteurs abiotiques et biotiques dans les écosystèmes.",
+        "Trouver les facteurs qui influencent la diversité des plantes et des animaux.",
+        "Comprendre comment les écosystèmes interagissent avec les gaz à effet de serre et le stockage du carbone."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "indigenous-01e-where-is-my-home",
+    "themeId": "indigenous-voices",
+    "title": {
+      "en": "Where is my Home? Using the Indigenous Map Overlays",
+      "fr": "Où est ma maison? Utiliser les superpositions cartographiques autochtones."
+    },
+    "description": {
+      "en": "A step-by-step lesson plan for using the Indigenous Map Overlays.",
+      "fr": "Un plan de leçon étape par étape pour utiliser les superpositions cartographiques autochtones."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Where is my Home? Using the Indigenous Map Layers",
+          "url": "https://drive.google.com/file/d/1FnOm7Ja6IlrK483QT2m0pPbPhoY7c5HY/view?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
+          "url": "https://docs.google.com/document/d/1D_ZcPRB23NF3M1BRHjbJpyPWWTWexcF8/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "indigenous-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "indigenous map overlays",
+        "home",
+        "community",
+        "treaty",
+        "reserves",
+        "settlements"
+      ],
+      "fr": [
+        "superpositions cartographiques autochtones",
+        "territoire",
+        "communauté",
+        "traité",
+        "réserves",
+        "établissements"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will locate their home, school and community on the satellite imagery using the Indigenous map layers, see their location in relation to treaty area, Indigenous territory, traditional languages, reserves and settlements, Métis regions, and residential school locations.",
+        "Students will compare sizes of Indigenous territories to reserves and settlements."
+      ],
+      "fr": [
+        "Les élèves trouvent leur maison, leur école et leur communauté sur l’image satellite à l’aide des superpositions cartographiques autochtones pour voir leur emplacement par rapport aux régions visées par un traité, aux territoires et aux langues autochtones, aux réserves et aux établissements, aux régions métisses et aux emplacements des pensionnats.",
+        "Comparer la taille des territoires autochtones par rapport à celle des réserves et des établissements."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "indigenous-02e-exploring-collective-rights",
+    "themeId": "indigenous-voices",
+    "title": {
+      "en": "Exploring Collective Rights Using the Indigenous Voices Module in Alberta Tomorrow",
+      "fr": "Étudier les droits collectifs à l’aide du module Voix autochtones dans Alberta Tomorrow."
+    },
+    "description": {
+      "en": "A lesson plan where students learn about Indigenous Rights and Treaty 7, and explore the geography of Indigenous peoples in Alberta through the Alberta Tomorrow Indigenous Voices Module.",
+      "fr": "Un plan de leçon dans lequel les élèves apprennent les droits des Autochtones en vertu du Traité 7, et étudient la géographie des peuples autochtones en Alberta avec le module Voix autochtones d’Alberta Tomorrow."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Exploring Collective Rights: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1nMh2BVY6ZRFW0c8RjIShGn6t2QYi_ZvF/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Exploring Collective Rights: Student Worksheet",
+          "url": "https://docs.google.com/document/d/10cCzISaKfH5wrf7O8CoBdIYfNG0V9sF4/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Étudier les droits collectifs : plan de leçon",
+          "url": "https://docs.google.com/document/d/1MmE7sHJaMq5gmPgNpxGjXOjK7UFx2LBy/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Étudier les droits collectifs : feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/1CL4u8LjHDWtwxPSM3EQ_4ilHDKVF0qgr/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-9"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "collective rights",
+        "treaty 7",
+        "indigenous rights",
+        "alberta"
+      ],
+      "fr": [
+        "droits collectifs",
+        "traité 7",
+        "droits des autochtones",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will explore the geography of Indigenous peoples in Alberta and learn about the relationship between the Canadian Charter of Rights and Freedoms and Indigenous Rights.",
+        "Students will critically assess how collective rights have impacted Indigenous communities and whether treaty rights are being honored."
+      ],
+      "fr": [
+        "Les élèves étudient la géographie des peuples autochtones en Alberta et apprennent la relation entre la Charte canadienne des droits et libertés et les droits des Autochtones.",
+        "Les élèves explorent d’un œil critique l’effet qu’ont eu les droits collectifs sur les communautés autochtones et ils évaluent si les droits issus de traités sont respectés."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "indigenous-03e-mapping-indigenous-areas",
+    "themeId": "indigenous-voices",
+    "title": {
+      "en": "Mapping Indigenous Areas",
+      "fr": "Cartographier les régions autochtones"
+    },
+    "description": {
+      "en": "Students will construct maps of traditional territories and treaty areas in Alberta using www.albertatomorrow.ca. They will begin by looking at the Stoney Nakoda people in greater detail.",
+      "fr": "Les élèves créent des cartes des territoires traditionnels et des régions visées par un traité en Alberta en se servant du simulateur à www.albertatomorrow.ca. Ils commencent par étudier en détail la nation Stoney Nakoda."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Mapping Indigenous Areas: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Mapping Indigenous Areas: Student Worksheet",
+          "url": "https://drive.google.com/file/d/1TD5lTrUbYJPh1OxBeEULOzkZ_q1L5xXv/view?usp=drive_link"
+        },
+        {
+          "fileType": "answer-key",
+          "title": "Mapping Indigenous Areas: Answer Sheet",
+          "url": "https://drive.google.com/file/d/1iv-eAK8aW24oybt-9kOSeA3h4rZengJv/view?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Cartographier les régions autochtones : plan de leçon",
+          "url": "https://docs.google.com/document/d/18ZRfCirFFmvnZ5-45KBM_QWpU4RuHHpU/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Cartographier les régions autochtones : feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0/edit#heading=h.vqtq7mb3t4ey"
+        },
+        {
+          "fileType": "answer-key",
+          "title": "Cartographier les régions autochtones : clé de correction",
+          "url": "https://docs.google.com/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu/edit#heading=h.7gig7j9bkhxk"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-3"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "indigenous areas",
+        "traditional territories",
+        "treaty areas",
+        "alberta"
+      ],
+      "fr": [
+        "régions autochtones",
+        "territoires traditionnels",
+        "régions visées par un traité",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Recognize Alberta as traditional territory of many Indigenous groups since time immemorial.",
+        "Identify the 5 numbered Treaty Areas in Alberta and the reasons they were signed.",
+        "Differentiate Traditional Territories, Treaty Areas, and Métis Settlements on a map.",
+        "Use Alberta Tomorrow map layers to explore overlap between Indigenous territories.",
+        "Develop respect for Indigenous contributions to Alberta's identity and land use history."
+      ],
+      "fr": [
+        "Reconnaître que l’Alberta est le territoire traditionnel de plusieurs Premières Nations depuis des temps immémoriaux.",
+        "Trouver les cinq zones des traités numérotés en Alberta et les raisons pour lesquelles ils ont été signés.",
+        "Distinguer sur une carte les territoires traditionnels, les régions visées par un traité et les établissements métis.",
+        "Utiliser les superpositions cartographiques d’Alberta Tomorrow pour examiner les chevauchements entre les territoires autochtones.",
+        "Inciter au respect pour les contributions des peuples autochtones à l’identité de l’Alberta et à l’histoire de l’utilisation des terres dans la province."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-01f-isotopes-and-climate-change",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Isotopes and Climate Change",
+      "fr": "Isotopes et changements climatiques"
+    },
+    "description": {
+      "en": "We can track climate changes by looking at what types of isotopes are in the water.",
+      "fr": "Nous pouvons étudier les changements climatiques en examinant les types d’isotopes présents dans l’eau."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Isotopes and Climate Change - Google Doc",
+          "url": "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Isotopes et changements climatiques – document Google",
+          "url": "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-7",
+      "grade-8",
+      "grade-9"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "isotopes",
+        "climate change",
+        "water"
+      ],
+      "fr": [
+        "isotopes",
+        "changements climatiques",
+        "eau"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the use of isotope tracking",
+        "Investigate the consequences of climate change",
+        "Examine the negative impact of climate change"
+      ],
+      "fr": [
+        "Examiner le recours à l’analyse des isotopes.",
+        "Étudier les répercussions des changements climatiques.",
+        "Examiner l’effet négatif des changements climatiques."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-02f-glenmore-dam-water-services",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Glenmore Dam and Reservoir: Water Services",
+      "fr": "Barrage et réservoir de Glenmore : services d’approvisionnement en eau"
+    },
+    "description": {
+      "en": "In this activity you will learn about the movement and management of water within the city of Calgary, along with the history of the Glenmore Reservoir and Dam.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur la circulation et la gestion de l’eau dans la Ville de Calgary, ainsi que l’histoire du réservoir et du barrage de Glenmore."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Glenmore Dam and Reservoir: Water Services - Google Doc",
+          "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Barrage et réservoir de Glenmore : services d’approvisionnement en eau – document Google",
+          "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "glenmore dam",
+        "water services",
+        "calgary"
+      ],
+      "fr": [
+        "barrage de glenmore",
+        "services d’eau",
+        "calgary"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Understand water movement and management in Calgary"
+      ],
+      "fr": [
+        "Comprendre la circulation et la gestion de l’eau à Calgary"
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-03f-water-quality-treatment",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Water Quality: Water Treatment",
+      "fr": "Qualité de l’eau : traitement des eaux"
+    },
+    "description": {
+      "en": "In this activity you will learn about the process of cleaning water to meet drinking standards within the City of Calgary.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur le processus d’épuration de l’eau pour répondre aux normes sur l’eau potable de la Ville de Calgary."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Water Quality: Water Treatment - Google Doc",
+          "url": "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Qualité de l’eau : traitement des eaux – document Google",
+          "url": "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "water quality",
+        "water treatment",
+        "calgary"
+      ],
+      "fr": [
+        "qualité de l’eau",
+        "traitement des eaux",
+        "calgary"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Investigate the stages of water treatment"
+      ],
+      "fr": [
+        "Étudier les étapes de traitement des eaux."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-04f-constructed-wetlands-stormwater",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Constructed Wetlands and Stormwater",
+      "fr": "Marais artificiels et eau pluviale"
+    },
+    "description": {
+      "en": "In this activity you will learn about stormwater and how wetlands are constructed to manage it.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur l’eau de pluie et sur la construction de marais artificiels pour la contenir."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Constructed Wetlands and Stormwater - Google Doc",
+          "url": "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Marais artificiels et eau pluviale – document Google",
+          "url": "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "wetlands",
+        "stormwater",
+        "water management"
+      ],
+      "fr": [
+        "zones humides",
+        "eau pluviale",
+        "gestion de l’eau"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine stormwater functions and the role of wetlands in water management and quality",
+        "Investigate the consequences of resource production, urbanization, and economic growth on wetlands and water quality",
+        "Examine the negative environmental impact of disruption of the watershed as a result of resource use"
+      ],
+      "fr": [
+        "Examiner les fonctions de l’eau pluviale et le rôle des marais dans la gestion et la qualité de l’eau.",
+        "Étudier les répercussions de la production des ressources, de l’urbanisation et de la croissance économique sur les marais et la qualité de l’eau.",
+        "Examiner les effets négatifs sur l’environnement de la perturbation des bassins hydrographiques à la suite de l’utilisation des ressources."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-05f-aquifers",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Aquifers",
+      "fr": "Aquifères"
+    },
+    "description": {
+      "en": "In this activity you will learn about the aquifer and groundwater within the Elbow River sub basin.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur l’aquifère et l’eau souterraine dans le sous-bassin de la rivière Elbow."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Aquifers - Google Doc",
+          "url": "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Aquifères – document Google",
+          "url": "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "aquifers",
+        "groundwater",
+        "elbow river"
+      ],
+      "fr": [
+        "aquifères",
+        "eau souterraine",
+        "rivière elbow"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the landscape and compare them to what the geology below could look like",
+        "Investigate the consequences of resource production, urbanization, and economic growth on aquifers and groundwater"
+      ],
+      "fr": [
+        "Examiner le paysage et le comparer à ce à quoi la géologie sous-jacente pourrait ressembler.",
+        "Étudier les répercussions de la production des ressources, de l’urbanisation et de la croissance économique sur les aquifères et l’eau souterraine."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-06f-the-watershed",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "The Watershed",
+      "fr": "Le bassin hydrographique"
+    },
+    "description": {
+      "en": "In this activity you will learn about how land use changes impact how water moves through the landscape and how that changes our interactions with it.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez l’effet des changements d’utilisation des terres sur la circulation de l’eau dans le paysage et comment cela change nos interactions avec l’eau."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "The Watershed - Google Doc",
+          "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Le bassin hydrographique – document Google",
+          "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "watershed",
+        "water movement",
+        "land use"
+      ],
+      "fr": [
+        "bassin hydrographique",
+        "circulation de l’eau",
+        "utilisation des terres"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the land and spaces where water exists",
+        "Investigate the different ways that people can interact with the rivers and water",
+        "Examine the need for water in our lives"
+      ],
+      "fr": [
+        "Examiner les terres et les espaces où l’eau est présente.",
+        "Étudier les différents moyens par lesquels les gens peuvent interagir avec les rivières et l’eau.",
+        "Étudier la nécessité de l’eau dans nos vies."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-07f-hydrology-land-development",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Hydrology and Land Development",
+      "fr": "Hydrologie et aménagement du territoire"
+    },
+    "description": {
+      "en": "In this activity you will learn about how land use changes impact how water moves through the landscape and how that changes our interactions with it.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez l’effet des changements d’utilisation des terres sur la circulation de l’eau dans le paysage et comment cela change nos interactions avec l’eau."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Hydrology and Land Development - Google Doc",
+          "url": "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Hydrologie et aménagement du territoire – document Google",
+          "url": "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "hydrology",
+        "land development",
+        "watershed"
+      ],
+      "fr": [
+        "hydrologie",
+        "aménagement du territoire",
+        "bassin hydrographique"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the watershed and hydrological practices",
+        "Investigate how a watershed functions"
+      ],
+      "fr": [
+        "Examiner les pratiques hydrologiques et relatives aux bassins hydrographiques.",
+        "Étudier le fonctionnement d’un bassin hydrographique."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-08f-watersheds-hydrology",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Watersheds and Hydrology",
+      "fr": "Bassins hydrographiques et hydrologie"
+    },
+    "description": {
+      "en": "In this activity you will learn about the basic functions of a watershed, and the hydrology that is involved.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez les fonctions de base d’un bassin hydrographique, et l’hydrologie que cela implique."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Watersheds and Hydrology - Google Doc",
+          "url": "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Bassins hydrographiques et hydrologie – document Google",
+          "url": "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "watersheds",
+        "hydrology",
+        "functions"
+      ],
+      "fr": [
+        "bassins hydrographiques",
+        "hydrologie",
+        "fonctions"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the stage of the watershed",
+        "Investigate watershed functions"
+      ],
+      "fr": [
+        "Examiner les étapes relatives au bassin hydrographique.",
+        "Étudier les fonctions d’un bassin hydrographique."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-09f-hydrology-climate-change",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Hydrology and Climate Change",
+      "fr": "Hydrologie et changements climatiques"
+    },
+    "description": {
+      "en": "In this activity you will learn about how to monitor climate change and hydrologic functions within a watershed.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez comment surveiller les changements climatiques et les fonctions hydrologiques dans un bassin hydrographique."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Hydrology and Climate Change - Google Doc",
+          "url": "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Hydrologie et changements climatiques – document Google",
+          "url": "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "hydrology",
+        "climate change",
+        "watershed"
+      ],
+      "fr": [
+        "hydrologie",
+        "changements climatiques",
+        "bassin hydrographique"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the effects of climate change on the water cycle and hydrology"
+      ],
+      "fr": [
+        "Examiner les effets des changements climatiques sur le cycle de l’eau et l’hydrologie."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-10f-invasive-species-control",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Invasive Species and Control",
+      "fr": "Espèces envahissantes et mesures de contrôle"
+    },
+    "description": {
+      "en": "In this activity you will learn about invasive species found in Alberta, along with methods to control them.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur les espèces envahissantes présentes en Alberta, ainsi que sur les méthodes visant à les contrôler."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Invasive Species and Control - Google Doc",
+          "url": "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Espèces envahissantes et mesures de contrôle – document Google",
+          "url": "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "invasive species",
+        "control",
+        "biodiversity"
+      ],
+      "fr": [
+        "espèces envahissantes",
+        "contrôle",
+        "biodiversité"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the role of invasive, introduced, and threatened species",
+        "Investigate the methods of addressing the management of invasive species",
+        "Observe spaces that native and introduced species are seen to examine the role of biodiversity"
+      ],
+      "fr": [
+        "Examiner le rôle des espèces envahissantes, introduites et menacées.",
+        "Étudier les méthodes employées pour gérer les espèces envahissantes.",
+        "Observer les endroits où ont été vues les espèces indigènes et introduites pour étudier le rôle de la biodiversité."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "brbc-11f-native-prairies-plants",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Native Prairies and Plants",
+      "fr": "Prairies et plantes indigènes"
+    },
+    "description": {
+      "en": "In this activity, you will learn about the biodiversity of the native prairies, and the many different types of functions native plants have roles in, as well as the importance of bees and other pollinators.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur la biodiversité des prairies indigènes, et sur les nombreux types différents de fonctions dans lesquelles les plantes indigènes ont des rôles à jouer, ainsi que l’importance des abeilles et des autres pollinisateurs."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Native Prairies and Plants - Google Doc",
+          "url": "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Prairies et plantes indigènes – document Google",
+          "url": "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "native prairies",
+        "plants",
+        "pollinators"
+      ],
+      "fr": [
+        "prairies indigènes",
+        "plantes",
+        "pollinisateurs"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the ecological roles of plants in the prairies",
+        "Investigate the methods of addressing threatened native species",
+        "Observe spaces that native and introduced species are seen to examine the role of biodiversity"
+      ],
+      "fr": [
+        "Étudier les rôles écologiques des plantes dans les prairies.",
+        "Étudier les méthodes employées pour protéger les espèces indigènes menacées.",
+        "Observer les endroits où ont été vues les espèces indigènes et introduites pour étudier le rôle de la biodiversité."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "energy-01g-renewable-vs-nonrenewable",
+    "themeId": "energy",
+    "title": {
+      "en": "Renewable vs Non-Renewable Resources",
+      "fr": "Ressources renouvelables ou non renouvelables"
+    },
+    "description": {
+      "en": "In this activity, students will compare renewable and non-renewable energy resources, exploring how they are used across Canada and how Alberta relies on both to meet its energy needs.",
+      "fr": "Dans le cadre de cette activité, les élèves comparent les ressources énergétiques renouvelables et non renouvelables, explorent leur utilisation au Canada et étudient comment l’Alberta dépend de ces deux types de ressources pour répondre à ses besoins en énergie."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Renewable vs Non-Renewable Resources - Lesson Plan",
+          "url": "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8/edit?usp=drive_link"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Renewable and Non-Renewable Sources of Energy - Presentation Slides",
+          "url": "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg/edit?usp=drive_link"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Renewable vs Non-Renewable Resources - Student Worksheet",
+          "url": "https://docs.google.com/document/d/1v5XpJO-O9B7I94GstDyZikDhgIzeCuo_pO6LtWPTWCc/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Ressources renouvelables ou non renouvelables : plan de leçon",
+          "url": "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_/edit"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Sources d’énergie renouvelables et non renouvelables : présentation PowerPoint",
+          "url": "https://docs.google.com/presentation/d/1kJBQH2n6TLF00_PLb1h--GYlEvwP-gD7/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-5"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "renewable energy",
+        "non-renewable resources",
+        "energy use",
+        "alberta"
+      ],
+      "fr": [
+        "énergie renouvelable",
+        "ressources non renouvelables",
+        "utilisation de l’énergie",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Compare renewable and non-renewable energy resources.",
+        "Discuss the advantages and disadvantages of different energy sources.",
+        "Examine how provinces and territories fulfill energy needs.",
+        "Understand Alberta's reliance on both renewable and non-renewable energy resources."
+      ],
+      "fr": [
+        "Comparer les ressources énergétiques renouvelables et non renouvelables.",
+        "Discuter des avantages et des inconvénients des différentes sources d’énergie.",
+        "Examiner comment les provinces et les territoires satisfont leurs besoins en énergie.",
+        "Comprendre la dépendance de l’Alberta à la fois aux ressources énergétiques renouvelables et non renouvelables."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  },
+  {
+    "id": "energy-02g-factors-affecting-use",
+    "themeId": "energy",
+    "title": {
+      "en": "Factors that Influence the type of Energy Used",
+      "fr": "Facteurs qui influencent le type d’énergie utilisée"
+    },
+    "description": {
+      "en": "In this lesson, students explore how energy choices are shaped by availability, accessibility, societal needs, economic considerations, and environmental impact. Using Alberta Tomorrow's simulation tools, students investigate past, present, and future scenarios around Alberta's energy use.",
+      "fr": "Dans le cadre de cette leçon, les élèves explorent comment les choix énergétiques sont déterminés par la disponibilité, l’accessibilité, les besoins de la société, les considérations économiques et l’impact environnemental. À l’aide des outils de simulation d’Alberta Tomorrow, les élèves étudient les scénarios passés, présents et futurs entourant l’utilisation de l’énergie en Alberta."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Factors that Influence the type of Energy Used: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1rE_PwNcHq2A9nr28g5SxS3sv3-3MJTwxoRz52nd8eJE/edit?usp=drive_link"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Factors that Influence the type of Energy Used: Student Worksheet",
+          "url": "https://docs.google.com/document/d/1T3bvL-Gh1cWDfkHCn6PtPiaKzS457F5EHrXWGdnbAe4/edit?usp=drive_link"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Energy Resources and Climate Change in Alberta - Presentation Slides",
+          "url": "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Facteurs qui influencent le type d’énergie utilisée : plan de leçon",
+          "url": "https://docs.google.com/document/d/1fmgBQURd1PYXInXwUZTr4sTy6ZRk-_ap/edit"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Facteurs qui influencent le type d’énergie utilisée : feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/1_d0tKmpd9cQ0qkrb1Rn2U_pUnjCHHFeA/edit"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Ressources énergétiques et changements climatiques en Alberta – présentation PowerPoint",
+          "url": "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt/edit?slide=id.p1#slide=id.p1"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "energy use",
+        "factors",
+        "simulations",
+        "alberta"
+      ],
+      "fr": [
+        "utilisation de l’énergie",
+        "facteurs",
+        "simulations",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Investigate factors that influence the selection of energy resources.",
+        "Explain how Alberta's energy use has changed over time and may change in the future.",
+        "Distinguish between societal, economic, and environmental impacts on energy choices.",
+        "Use simulations to analyze land use impacts on energy and sustainability."
+      ],
+      "fr": [
+        "Étudier les facteurs qui influencent la sélection des ressources énergétiques.",
+        "Expliquer comment l’utilisation de l’énergie en Alberta a changé au fil du temps et pourrait encore changer dans l’avenir.",
+        "Faire la différence entre les impacts sociaux, économiques et environnementaux sur les choix énergétiques.",
+        "Utiliser les simulations pour analyser les effets de l’utilisation des terres sur l’énergie et le développement durable."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": []
+  }
+]

@@ -22,13 +22,13 @@ export default function VideoCategoryList() {
 
   videos.forEach((v) => {
     const matchesCategory = categoryFilters[v.category];
-    const matchesTool = v.tools?.some((t) => toolFilters[t]);
+    const matchesTool = !Object.keys(toolFilters).length || !v.tools?.length || v.tools.some((t) => toolFilters[t]);
     const matches360 = only360 ? v.media?.is360 : true;
-    const matchesHasLessonPlans = hasLessonPlans ? v.lessonPlans.length > 0 : true;
+    const matchesHasLessonPlans = hasLessonPlans ? (v.lessonPlans?.length || 0) > 0 : true;
 
     const matchesSearch =
-      v.title.toLowerCase().includes(lowerSearch) ||
-      v.description.toLowerCase().includes(lowerSearch) ||
+      (v.title || "").toLowerCase().includes(lowerSearch) ||
+      (v.description || "").toLowerCase().includes(lowerSearch) ||
       v.hashtags?.some((tag) => tag.toLowerCase().includes(lowerSearch));
 
     if (matchesCategory && matchesTool && matchesSearch && matches360 && matchesHasLessonPlans) {

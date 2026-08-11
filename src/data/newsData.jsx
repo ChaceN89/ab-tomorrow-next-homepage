@@ -35,14 +35,14 @@ import { LuClipboardList } from "react-icons/lu";
 export const newsItems = [
 
   // First Item
-  {
-    icon: <FaFeather className="text-green-600 text-2xl" />, // Feather icon representing Indigenous heritage
-    title: "ALL NEW Indigenous Voices Module",
-    description:
-    'Featuring Province-wide Map Overlays, “Stoney Stories” videos in both languages, and land use planning using Stoney Nakoda lands and indicators!',
-    scrollLink: "indigenous-voices",
-  },
-  
+  // {
+  //   icon: <FaFeather className="text-green-600 text-2xl" />, // Feather icon representing Indigenous heritage
+  //   title: "ALL NEW Indigenous Voices Module",
+  //   description:
+  //   'Featuring Province-wide Map Overlays, “Stoney Stories” videos in both languages, and land use planning using Stoney Nakoda lands and indicators!',
+  //   scrollLink: "indigenous-voices",
+  // },
+
   // Second item
   // {
   //   icon: <FaTools className="text-yellow-400 text-2xl" />, // Tools icon to represent development
@@ -53,31 +53,31 @@ export const newsItems = [
   // },
 
   // about how lesson plans and videos have been added to the site
-  {
-    icon: <LuClipboardList className="text-black text-2xl" />,
-    title: "Lesson Plans Added",
-    description: (
-      <ul>
-        <li>
-          Grade 3 Social Studies
-          <ul className="list-disc list-inside ml-4">
-            <li>Alberta's Natural Resources</li>
-            <li>Alberta's Natural Regions</li>
-            <li>Mapping Indigenous Area</li>
-          </ul>
-        </li>
-        <li>
-          Science 5 and 6
-          <ul className="list-disc list-inside ml-4">
-            <li>Renewable vs Non-Renewable Resources</li>
-            <li>Factors Affecting Energy Use</li>
-            <li>Alberta's Ecosystem diversity</li>
-          </ul>
-        </li>
-      </ul>
-    ),
-    link: "/resources/lesson-plans",
-  }
+  // {
+  //   icon: <LuClipboardList className="text-black text-2xl" />,
+  //   title: "Lesson Plans Added",
+  //   description: (
+  //     <ul>
+  //       <li>
+  //         Grade 3 Social Studies
+  //         <ul className="list-disc list-inside ml-4">
+  //           <li>Alberta's Natural Resources</li>
+  //           <li>Alberta's Natural Regions</li>
+  //           <li>Mapping Indigenous Area</li>
+  //         </ul>
+  //       </li>
+  //       <li>
+  //         Science 5 and 6
+  //         <ul className="list-disc list-inside ml-4">
+  //           <li>Renewable vs Non-Renewable Resources</li>
+  //           <li>Factors Affecting Energy Use</li>
+  //           <li>Alberta's Ecosystem diversity</li>
+  //         </ul>
+  //       </li>
+  //     </ul>
+  //   ),
+  //   link: "/resources/lesson-plans",
+  // }
 
 ];
 

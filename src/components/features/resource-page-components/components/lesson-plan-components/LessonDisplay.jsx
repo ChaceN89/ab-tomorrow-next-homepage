@@ -30,12 +30,12 @@ import LessonPlanFilters from "./LessonPlanFilters";
 import LessonPlanThemeList from "./display/LessonPlanThemeList";
 
 export default function LessonDisplay() {
-  const { fetchLessonPlans, lessonPlans, loading, } = useLessonPlanResource();
+  const { fetchLessonPlans, lessonPlans, loading } = useLessonPlanResource();
 
-  // Fetch videos when the component mounts
+  // Fetch lesson plans when the component mounts
   useEffect(() => {
     fetchLessonPlans();
-  }, [lessonPlans]);
+  }, [fetchLessonPlans]);
 
   return (
     <div className="flex flex-col md:flex-row min-h-[100vh] gap-2 px-2 ">

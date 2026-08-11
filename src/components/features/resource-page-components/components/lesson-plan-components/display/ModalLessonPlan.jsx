@@ -15,10 +15,21 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { useLocale } from "next-intl";
 import { useLessonPlanResource } from "../LessonPlanResourceContext";
 import LessonPlanDetails from "./LessonPlanDetails";
+import {
+  formatGradeLabel,
+  formatSubjectLabel,
+  formatThemeLabel,
+  getLocalizedArray,
+  getLocalizedLinks,
+  getLocalizedValue,
+  getSearchTerms,
+} from "@/utils/resourceNormalizeUtils";
 
 export default function ModalLessonPlan({ id }) {
+  const locale = useLocale();
   const { lessonPlans } = useLessonPlanResource();
   const [plan, setPlan] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -32,7 +43,7 @@ export default function ModalLessonPlan({ id }) {
     } else {
       const fetchPlan = async () => {
         try {
-          const res = await fetch('/api-static-data/lesson-plans.json');
+          const res = await fetch('/api-static-data/lessonPlans.json');
           // const res = await fetch(`/app/resources/lesson-plans/lesson-plans.json`);
 
 
@@ -43,7 +54,21 @@ export default function ModalLessonPlan({ id }) {
 
           if (!matchedPlan) throw new Error("Lesson plan not found");
 
-          setPlan(matchedPlan);
+          setPlan({
+            ...matchedPlan,
+            theme: formatThemeLabel(matchedPlan.themeId, locale),
+            title: getLocalizedValue(matchedPlan.title, locale),
+            description: getLocalizedValue(matchedPlan.description, locale),
+            approximateTime: getLocalizedValue(matchedPlan.approximateTime, locale),
+            files: getLocalizedLinks(matchedPlan.files, locale),
+            relatedUrls: getLocalizedLinks(matchedPlan.relatedResources, locale),
+            grades: (matchedPlan.gradeIds || []).map((gradeId) => formatGradeLabel(gradeId, locale)),
+            subjects: (matchedPlan.subjectIds || []).map((subjectId) => formatSubjectLabel(subjectId, locale)),
+            tools: getLocalizedArray(matchedPlan.tools, locale),
+            tags: getSearchTerms(matchedPlan.searchTerms, locale),
+            learningOutcomes: getLocalizedArray(matchedPlan.learningOutcomes, locale),
+            videos: Array.isArray(matchedPlan.videoIds) ? matchedPlan.videoIds : [],
+          });
 
           // API version for when API is created and deployed
 
@@ -63,7 +88,7 @@ export default function ModalLessonPlan({ id }) {
 
       fetchPlan();
     }
-  }, [id, lessonPlans]);
+  }, [id, lessonPlans, locale]);
 
   if (loading) return <div className="p-10">Loading lesson plan data...</div>;
   if (!plan) return <div className="p-10">Lesson plan not found.</div>;
