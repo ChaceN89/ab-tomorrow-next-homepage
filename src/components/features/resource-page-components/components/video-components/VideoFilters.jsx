@@ -38,17 +38,17 @@ export default function VideoFilters() {
     <div className="flex flex-col py-2 gap-4 w-full">
       <p>
         {loading
-          ? "Loading videos..."
+          ? t("loadingVideos")
           : numResults > 0
             ? `${numResults} ${t("videosFound")}`
-            : "No videos found"}
+            : t("noVideosFound")}
       </p>
 
       <input
         type="text"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
-        placeholder="Search Videos..."
+        placeholder={t("searchVideosPlaceholder")}
         className="border px-4 py-2 rounded w-full"
       />
 
@@ -61,7 +61,7 @@ export default function VideoFilters() {
             checked={only360}
             onChange={() => setOnly360(!only360)}
           />
-          <span>360° only</span>
+          <span>{t("filters.only360")}</span>
         </label>
 
         <label className="flex items-center gap-2">
@@ -70,7 +70,7 @@ export default function VideoFilters() {
             checked={hasLessonPlans}
             onChange={() => setHasLessonPlans(!hasLessonPlans)}
           />
-          <span>Have lesson plans</span>
+          <span>{t("filters.hasLessonPlans")}</span>
         </label>
 
         <label className="flex items-center gap-2">
@@ -79,12 +79,12 @@ export default function VideoFilters() {
             checked={hasFrench}
             onChange={() => setHasFrench(!hasFrench)}
           />
-          <span>French available</span>
+          <span>{t("filters.frenchAvailable")}</span>
         </label>
       </div>
 
       <FilterDropdown
-        label="Filter by Category"
+        label={t("filters.category")}
         filterMap={categoryFilters}
         setFilterMap={setCategoryFilters}
         showScrollLinks

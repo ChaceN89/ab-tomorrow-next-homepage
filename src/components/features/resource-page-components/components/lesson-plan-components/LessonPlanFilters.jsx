@@ -39,17 +39,17 @@ export default function LessonPlanFilter() {
     <div className="flex flex-col py-2 gap-4 w-full">
       <p>
         {loading
-          ? "Loading lesson plans..."
+          ? t("loadingLessonPlans")
           : numResults > 0
             ? `${numResults} ${t("lessonPlansFound")}`
-            : "No lesson plans found"}
+            : t("noLessonPlansFound")}
       </p>
 
       <input
         type="text"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
-        placeholder="Search Lesson Plans..."
+        placeholder={t("searchLessonPlansPlaceholder")}
         className="border px-4 py-2 rounded w-full"
       />
 
@@ -60,7 +60,7 @@ export default function LessonPlanFilter() {
             checked={hasVideos}
             onChange={() => setHasVideos(!hasVideos)}
           />
-          <span>Has associated videos</span>
+          <span>{t("filters.hasAssociatedVideos")}</span>
         </label>
       </div>
 
