@@ -207,6 +207,7 @@
         "theme": "Filtrer par thème",
         "tool": "Filtrer par outil",
         "tags": "Filtrer par mots-clés",
+        "collapsedTab": "Filtres",
         "subject": "Filtrer par sujet",
         "grade": "Filtrer par niveau scolaire",
         "scrollToSection": "Défiler jusqu’à la section",

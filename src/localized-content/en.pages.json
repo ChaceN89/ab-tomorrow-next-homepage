@@ -207,6 +207,7 @@
         "theme": "Filter by Theme",
         "tool": "Filter by Tool",
         "tags": "Filter by Tags",
+        "collapsedTab": "Filters",
         "subject": "Filter by Subject",
         "grade": "Filter by Grade",
         "scrollToSection": "Scroll to Section",

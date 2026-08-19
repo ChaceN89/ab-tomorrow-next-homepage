@@ -25,12 +25,13 @@
 import SideBarWrapper from "@/components/layout/shell/SideBarWrapper";
 import { useLessonPlanResource } from "./LessonPlanResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import LessonPlanFilters from "./LessonPlanFilters";
 import LessonPlanThemeList from "./display/LessonPlanThemeList";
 
 export default function LessonDisplay() {
   const { fetchLessonPlans, lessonPlans, loading } = useLessonPlanResource();
+  const [isSidebarPinned, setIsSidebarPinned] = useState(true);
 
   // Fetch lesson plans when the component mounts
   useEffect(() => {
@@ -38,10 +39,13 @@ export default function LessonDisplay() {
   }, [fetchLessonPlans]);
 
   return (
-    <div className="flex flex-col md:flex-row min-h-[100vh] gap-2 px-2 ">
+    <div className="flex flex-col md:flex-row min-h-[100vh] gap-3 lg:gap-4 px-2 ">
       {/* Filters Sidebar */}
-      <aside className="w-full md:w-[15rem] xl:w-[21rem] pt-4 ">
-        <SideBarWrapper>
+      <aside
+        className={`w-full pt-4 transition-[width] duration-300 ${isSidebarPinned ? "md:w-[15rem] xl:w-[21rem]" : "md:w-10"
+          }`}
+      >
+        <SideBarWrapper onPinnedChange={setIsSidebarPinned}>
           <LessonPlanFilters />
         </SideBarWrapper>
       </aside>

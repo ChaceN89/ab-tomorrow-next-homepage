@@ -27,10 +27,11 @@ import SideBarWrapper from "@/components/layout/shell/SideBarWrapper";
 import VideoCategoryList from "./display/VideoCategoryList";
 import { useVideoResource } from "@/components/features/resource-page-components/components/video-components/VideoResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function VideoDisplay() {
   const { videos, loading, fetchVideos } = useVideoResource();
+  const [isSidebarPinned, setIsSidebarPinned] = useState(true);
 
   // Fetch videos when the component mounts
   useEffect(() => {
@@ -38,10 +39,13 @@ export default function VideoDisplay() {
   }, [fetchVideos]);
 
   return (
-    <div className="flex flex-col md:flex-row min-h-[100vh] gap-2 px-2 ">
+    <div className="flex flex-col md:flex-row min-h-[100vh] gap-3 lg:gap-4 px-2 ">
       {/* Filters Sidebar */}
-      <aside className="w-full md:w-[15rem] xl:w-[21rem] pt-4 ">
-        <SideBarWrapper>
+      <aside
+        className={`w-full pt-4 transition-[width] duration-300 ${isSidebarPinned ? "md:w-[15rem] xl:w-[21rem]" : "md:w-10"
+          }`}
+      >
+        <SideBarWrapper onPinnedChange={setIsSidebarPinned}>
           <VideoFilters />
         </SideBarWrapper>
       </aside>
