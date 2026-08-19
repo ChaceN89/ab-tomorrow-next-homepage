@@ -24,6 +24,55 @@ import {
 
 const LessonPlanContext = createContext();
 
+function isMeaningfulString(value) {
+  if (typeof value !== "string") return false;
+  const normalized = value.trim().toLowerCase();
+  return normalized !== "" && normalized !== "n/a" && normalized !== "na";
+}
+
+function hasMeaningfulLocaleValue(value) {
+  if (value == null) return false;
+
+  if (typeof value === "string") return isMeaningfulString(value);
+
+  if (Array.isArray(value)) {
+    return value.some((item) => hasMeaningfulLocaleValue(item));
+  }
+
+  if (typeof value === "object") {
+    return Object.values(value).some((item) => hasMeaningfulLocaleValue(item));
+  }
+
+  return false;
+}
+
+function detectLessonPlanLanguages(plan) {
+  const localeFields = [
+    plan.title,
+    plan.description,
+    plan.approximateTime,
+    plan.files,
+    plan.relatedResources,
+    plan.searchTerms,
+    plan.learningOutcomes,
+  ];
+
+  const hasEnglish = localeFields.some((field) => {
+    if (!field || typeof field !== "object" || Array.isArray(field)) return false;
+    return hasMeaningfulLocaleValue(field.en);
+  });
+
+  const hasFrench = localeFields.some((field) => {
+    if (!field || typeof field !== "object" || Array.isArray(field)) return false;
+    return hasMeaningfulLocaleValue(field.fr);
+  });
+
+  return {
+    hasEnglish,
+    hasFrench,
+  };
+}
+
 export function LessonPlanResourceProvider({ children }) {
   const locale = useLocale();
 
@@ -35,13 +84,16 @@ export function LessonPlanResourceProvider({ children }) {
   const [toolFilters, setToolFilters] = useState({});
   const [subjectFilters, setSubjectFilters] = useState({});
   const [gradeFilters, setGradeFilters] = useState({});
+  const [tagFilters, setTagFilters] = useState({});
   const [searchText, setSearchText] = useState("");
+  const [hasVideos, setHasVideos] = useState(false);
 
   const [numResults, setNumResults] = useState(0);
 
   const normalizeLessonPlan = useCallback(
     (plan) => {
       const videoIds = Array.isArray(plan.videoIds) ? plan.videoIds : [];
+      const languageAvailability = detectLessonPlanLanguages(plan);
 
       return {
         id: plan.id,
@@ -57,6 +109,10 @@ export function LessonPlanResourceProvider({ children }) {
         tags: getSearchTerms(plan.searchTerms, locale),
         learningOutcomes: getLocalizedArray(plan.learningOutcomes, locale),
         videos: videoIds,
+        availableLanguages: {
+          en: languageAvailability.hasEnglish,
+          fr: languageAvailability.hasFrench,
+        },
       };
     },
     [locale]
@@ -90,11 +146,14 @@ export function LessonPlanResourceProvider({ children }) {
       const tools = [...new Set(normalized.flatMap((l) => l.tools || []))];
       const subjects = [...new Set(normalized.flatMap((l) => l.subjects || []))];
       const grades = [...new Set(normalized.flatMap((l) => l.grades || []))];
+      const tags = [...new Set(normalized.flatMap((l) => l.tags || []))].filter(Boolean);
 
       setThemeFilters(themes.reduce((acc, t) => ({ ...acc, [t]: true }), {}));
       setToolFilters(tools.reduce((acc, t) => ({ ...acc, [t]: true }), {}));
       setSubjectFilters(subjects.reduce((acc, s) => ({ ...acc, [s]: true }), {}));
       setGradeFilters(grades.reduce((acc, g) => ({ ...acc, [g]: true }), {}));
+      // Tags should start unselected and only filter when one is selected.
+      setTagFilters(tags.reduce((acc, tag) => ({ ...acc, [tag]: false }), {}));
 
       setNumResults(normalized.length);
     } catch (err) {
@@ -118,8 +177,12 @@ export function LessonPlanResourceProvider({ children }) {
         setSubjectFilters,
         gradeFilters,
         setGradeFilters,
+        tagFilters,
+        setTagFilters,
         searchText,
         setSearchText,
+        hasVideos,
+        setHasVideos,
         numResults,
         setNumResults,
       }}

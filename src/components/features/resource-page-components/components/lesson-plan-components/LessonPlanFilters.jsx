@@ -26,8 +26,12 @@ export default function LessonPlanFilter() {
     setSubjectFilters,
     gradeFilters,
     setGradeFilters,
+    tagFilters,
+    setTagFilters,
     searchText,
     setSearchText,
+    hasVideos,
+    setHasVideos,
     numResults,
   } = useLessonPlanResource();
 
@@ -48,6 +52,17 @@ export default function LessonPlanFilter() {
         placeholder="Search Lesson Plans..."
         className="border px-4 py-2 rounded w-full"
       />
+
+      <div className="flex flex-wrap gap-4">
+        <label className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={hasVideos}
+            onChange={() => setHasVideos(!hasVideos)}
+          />
+          <span>Has associated videos</span>
+        </label>
+      </div>
 
       <FilterDropdown
         label={t("filters.theme")}
@@ -78,6 +93,13 @@ export default function LessonPlanFilter() {
         setFilterMap={setGradeFilters}
         showFocusButton
         sortAlphabetically
+      />
+
+      <FilterDropdown
+        label={t("filters.tags")}
+        filterMap={tagFilters}
+        setFilterMap={setTagFilters}
+        wrapItems
       />
     </div>
   );

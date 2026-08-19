@@ -21,12 +21,16 @@ export default function VideoFilters() {
     setCategoryFilters,
     toolFilters,
     setToolFilters,
+    tagFilters,
+    setTagFilters,
     searchText,
     setSearchText,
     only360,
     setOnly360,
     hasLessonPlans,
     setHasLessonPlans,
+    hasFrench,
+    setHasFrench,
     numResults
   } = useVideoResource();
 
@@ -66,7 +70,16 @@ export default function VideoFilters() {
             checked={hasLessonPlans}
             onChange={() => setHasLessonPlans(!hasLessonPlans)}
           />
-          <span>With Lesson Plans</span>
+          <span>Have lesson plans</span>
+        </label>
+
+        <label className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={hasFrench}
+            onChange={() => setHasFrench(!hasFrench)}
+          />
+          <span>French available</span>
         </label>
       </div>
 
@@ -77,6 +90,13 @@ export default function VideoFilters() {
         showScrollLinks
         showFocusButton
         initialOpen
+      />
+
+      <FilterDropdown
+        label={t("filters.tags")}
+        filterMap={tagFilters}
+        setFilterMap={setTagFilters}
+        wrapItems
       />
 
       {/* <FilterDropdown

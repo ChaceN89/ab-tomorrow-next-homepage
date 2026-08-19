@@ -17,7 +17,9 @@ export default function LessonThemeList() {
     toolFilters,
     subjectFilters,
     gradeFilters,
+    tagFilters,
     searchText,
+    hasVideos,
     setNumResults,
   } = useLessonPlanResource();
 
@@ -25,6 +27,7 @@ export default function LessonThemeList() {
 
   const grouped = useMemo(() => {
     const nextGrouped = {};
+    const selectedTags = Object.keys(tagFilters).filter((tag) => tagFilters[tag]);
 
     lessonPlans?.forEach((lp) => {
       const matchesTheme = themeFilters[lp.theme];
@@ -34,20 +37,41 @@ export default function LessonThemeList() {
         lp.tools.some((t) => toolFilters[t]);
       const matchesSubject = lp.subjects?.some((s) => subjectFilters[s]);
       const matchesGrade = lp.grades?.some((g) => gradeFilters[g]);
+      const matchesHasVideos = hasVideos ? (lp.videos?.length || 0) > 0 : true;
+      const matchesTag =
+        selectedTags.length === 0 ||
+        selectedTags.some((tag) => (lp.tags || []).includes(tag));
 
       const matchesSearch =
         (lp.title || "").toLowerCase().includes(lowerSearch) ||
         (lp.description || "").toLowerCase().includes(lowerSearch) ||
         lp.tags?.some((tag) => tag.toLowerCase().includes(lowerSearch));
 
-      if (matchesTheme && matchesTool && matchesSubject && matchesGrade && matchesSearch) {
+      if (
+        matchesTheme &&
+        matchesTool &&
+        matchesSubject &&
+        matchesGrade &&
+        matchesHasVideos &&
+        matchesTag &&
+        matchesSearch
+      ) {
         if (!nextGrouped[lp.theme]) nextGrouped[lp.theme] = [];
         nextGrouped[lp.theme].push(lp);
       }
     });
 
     return nextGrouped;
-  }, [gradeFilters, lessonPlans, lowerSearch, subjectFilters, themeFilters, toolFilters]);
+  }, [
+    gradeFilters,
+    hasVideos,
+    lessonPlans,
+    lowerSearch,
+    tagFilters,
+    subjectFilters,
+    themeFilters,
+    toolFilters,
+  ]);
 
   const totalResults = useMemo(
     () => Object.values(grouped).reduce((acc, arr) => acc + arr.length, 0),

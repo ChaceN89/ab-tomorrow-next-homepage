@@ -25,9 +25,11 @@ export function VideoResourceProvider({ children }) {
   // Filters for categories,tools, seach text, and toogle for 360 videos
   const [categoryFilters, setCategoryFilters] = useState({});
   const [toolFilters, setToolFilters] = useState({});
+  const [tagFilters, setTagFilters] = useState({});
   const [searchText, setSearchText] = useState("");
   const [only360, setOnly360] = useState(false);
   const [hasLessonPlans, setHasLessonPlans] = useState(false);
+  const [hasFrench, setHasFrench] = useState(false);
 
   const [numResults, setNumResults] = useState(0);
 
@@ -39,6 +41,9 @@ export function VideoResourceProvider({ children }) {
       category: formatCategoryLabel(video.categoryId, locale),
       title: getLocalizedValue(video.title, locale),
       description: getLocalizedValue(video.description, locale),
+      availableLanguages: Array.isArray(video.supportedLanguages)
+        ? video.supportedLanguages.map((lang) => String(lang).toLowerCase())
+        : [],
       hashtags: getSearchTerms(video.searchTerms, locale),
       tools: [],
       media: {
@@ -93,9 +98,12 @@ export function VideoResourceProvider({ children }) {
       // Init filter states
       const categories = [...new Set(normalized.map((v) => v.category))];
       const tools = [...new Set(normalized.flatMap((v) => v.tools || []))];
+      const tags = [...new Set(normalized.flatMap((v) => v.hashtags || []))].filter(Boolean);
 
       setCategoryFilters(categories.reduce((acc, cat) => ({ ...acc, [cat]: true }), {}));
       setToolFilters(tools.reduce((acc, tool) => ({ ...acc, [tool]: true }), {}));
+      // Tag dropdown should start unselected.
+      setTagFilters(tags.reduce((acc, tag) => ({ ...acc, [tag]: false }), {}));
 
       // Set the number of results
       setNumResults(normalized.length);
@@ -117,12 +125,16 @@ export function VideoResourceProvider({ children }) {
         setCategoryFilters,
         toolFilters,
         setToolFilters,
+        tagFilters,
+        setTagFilters,
         searchText,
         setSearchText,
         only360,
         setOnly360,
         hasLessonPlans,
         setHasLessonPlans,
+        hasFrench,
+        setHasFrench,
         numResults,
         setNumResults
       }}

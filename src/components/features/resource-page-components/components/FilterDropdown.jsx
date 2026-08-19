@@ -32,7 +32,8 @@ export default function FilterDropdown({
   showScrollLinks = false,
   showFocusButton = false,
   initialOpen = false,
-  sortAlphabetically = false
+  sortAlphabetically = false,
+  wrapItems = false,
 }) {
   const t = useTranslations("Pages.ResourcesPage");
 
@@ -92,75 +93,96 @@ export default function FilterDropdown({
           </button>
           <div className="w-full border-b border-gray-600" />
 
-          {filterKeys.map((item, index, arr) => (
-            <React.Fragment key={item}>
-              <div className="flex items-center justify-between gap-1 w-full">
-                {/* Left: Filter toggle + Solo button */}
+          {wrapItems ? (
+            <div className="flex flex-wrap gap-2">
+              {filterKeys.map((item) => (
+                <Tooltip key={item} text={`Toggle: ${item}`} openDuration={400}>
+                  <button
+                    className={`px-3 py-1 rounded-full border text-sm cursor-pointer transition-colors hover:scale-105 whitespace-nowrap
+                      ${filterMap[item] ? "bg-primary text-white" : "bg-gray-300 text-black"}`}
+                    onClick={() =>
+                      setFilterMap((prev) => ({
+                        ...prev,
+                        [item]: !prev[item],
+                      }))
+                    }
+                  >
+                    {item}
+                  </button>
+                </Tooltip>
+              ))}
+            </div>
+          ) : (
+            filterKeys.map((item, index, arr) => (
+              <React.Fragment key={item}>
+                <div className="flex items-center justify-between gap-1 w-full">
+                  {/* Left: Filter toggle + Solo button */}
 
-                <div className="flex items-center gap-1 flex-1 min-w-0">
-                  <div className="min-w-0 flex-1">
-                    <Tooltip text={`Toggle: ${item}`} openDuration={400}>
-                      <button
-                        className={`w-full px-2 py-0.5 rounded-full border text-sm cursor-pointer transition-colors hover:scale-105 flex items-center justify-start whitespace-nowrap truncate
+                  <div className="flex items-center gap-1 flex-1 min-w-0">
+                    <div className="min-w-0 flex-1">
+                      <Tooltip text={`Toggle: ${item}`} openDuration={400}>
+                        <button
+                          className={`w-full px-2 py-0.5 rounded-full border text-sm cursor-pointer transition-colors hover:scale-105 flex items-center justify-start whitespace-nowrap truncate
                           ${filterMap[item] ? "bg-primary text-white" : "bg-gray-300 text-black"}`}
-                        onClick={() =>
-                          setFilterMap((prev) => ({
-                            ...prev,
-                            [item]: !prev[item],
-                          }))
-                        }
-                      >
-                        <span className="block truncate">{item}</span>
-                      </button>
-                    </Tooltip>
+                          onClick={() =>
+                            setFilterMap((prev) => ({
+                              ...prev,
+                              [item]: !prev[item],
+                            }))
+                          }
+                        >
+                          <span className="block truncate">{item}</span>
+                        </button>
+                      </Tooltip>
+                    </div>
+
+                    {/* Solo (Focus) button */}
+                    {showFocusButton && (
+                      <Tooltip text={t("filters.showOnlyThisFilter")} openDuration={600}>
+                        <button
+                          onClick={() => {
+                            setFilterMap(
+                              Object.fromEntries(
+                                Object.keys(filterMap).map((key) => [key, key === item])
+                              )
+                            );
+                            scroller.scrollTo("resources-container", {
+                              offset: -80,
+                              duration: 800,
+                            });
+                          }}
+                          className="text-xs text-black px-1.5 py-0.5 rounded-full border bg-white hover:scale-110 transition flex items-center w-full  h-full cursor-pointer"
+                        >
+                          <RiFocus3Line className="inline-block text-lg" />
+                        </button>
+                      </Tooltip>
+                    )}
                   </div>
 
-                  {/* Solo (Focus) button */}
-                  {showFocusButton && (
-                    <Tooltip text={t("filters.showOnlyThisFilter")} openDuration={600}>
-                      <button
-                        onClick={() => {
-                          setFilterMap(
-                            Object.fromEntries(
-                              Object.keys(filterMap).map((key) => [key, key === item])
-                            )
-                          );
-                          scroller.scrollTo("resources-container", {
-                            offset: -80,
-                            duration: 800,
-                          });
-                        }}
-                        className="text-xs text-black px-1.5 py-0.5 rounded-full border bg-white hover:scale-110 transition flex items-center w-full  h-full cursor-pointer"
+                  {/* Optional scroll link */}
+                  {showScrollLinks && filterMap[item] && (
+                    <Tooltip text={t("filters.scrollToSection")} openDuration={500}>
+                      <Link
+                        to={item}
+                        smooth
+                        offset={-80}
+                        duration={700}
+                        className="group cursor-pointer flex-shrink-0"
                       >
-                        <RiFocus3Line className="inline-block text-lg" />
-                      </button>
+                        <div className="w-6">
+                          <IoArrowRedo className="inline-block w-full text-xl group-hover:text-2xl transition-all duration-200 text-black hover:text-tertiary " />
+                        </div>
+                      </Link>
                     </Tooltip>
                   )}
                 </div>
 
-                {/* Optional scroll link */}
-                {showScrollLinks && filterMap[item] && (
-                  <Tooltip text={t("filters.scrollToSection")} openDuration={500}>
-                    <Link
-                      to={item}
-                      smooth
-                      offset={-80}
-                      duration={700}
-                      className="group cursor-pointer flex-shrink-0"
-                    >
-                      <div className="w-6">
-                        <IoArrowRedo className="inline-block w-full text-xl group-hover:text-2xl transition-all duration-200 text-black hover:text-tertiary " />
-                      </div>
-                    </Link>
-                  </Tooltip>
+                {index < arr.length - 1 && (
+                  <div className="w-full border-b border-gray-400" />
                 )}
-              </div>
-
-              {index < arr.length - 1 && (
-                <div className="w-full border-b border-gray-400" />
-              )}
-            </React.Fragment>
-          ))}
+              </React.Fragment>
+            ))
+          )}
         </div>
       </div>
     </div>

@@ -40,7 +40,7 @@ export default function VideoDisplay() {
   return (
     <div className="flex flex-col md:flex-row min-h-[100vh] gap-2 px-2 ">
       {/* Filters Sidebar */}
-      <aside className="w-full md:w-52 xl:w-72 pt-4 ">
+      <aside className="w-full md:w-[15rem] xl:w-[21rem] pt-4 ">
         <SideBarWrapper>
           <VideoFilters />
         </SideBarWrapper>
