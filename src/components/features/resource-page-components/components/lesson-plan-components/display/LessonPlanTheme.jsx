@@ -18,9 +18,8 @@ export default function LessonPlanTheme({ theme, lessonPlans = [] }) {
   return (
     <Element
       name={theme}
-      className="bg-tertiary/20 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
+      className="bg-tertiary/35 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
     >
-      <HexSeparator rows={3} hexClass="bg-tertiary-alt/20" />
       <div className="relative">
         <h2 className="text-4xl font-bold border-b border-black py-4">{theme}</h2>
 

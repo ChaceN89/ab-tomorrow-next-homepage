@@ -71,7 +71,7 @@ export default function HomeMainPage() {
 
       <section id='about' >
         <div className='overflow-hidden'>
-          <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-3 ' />
+          <HexSeparator randomColors rows={100} maxCells={900} hexClass='bg-primary-alt opacity-3 ' />
           <HexSeparator bottom rows={2} hexClass='bg-primary ' />
           <About />
         </div>
@@ -80,7 +80,7 @@ export default function HomeMainPage() {
           <IndigenousVoices />
         </div>
         <div className='overflow-hidden'>
-          <HexSeparator randomColors rows={100} hexClass='bg-primary-alt opacity-3 ' />
+          <HexSeparator randomColors rows={100} maxCells={900} hexClass='bg-primary-alt opacity-3 ' />
           <HexSeparator bottom rows={2} hexClass='bg-tertiary ' />
           <GetInvolved />
         </div>

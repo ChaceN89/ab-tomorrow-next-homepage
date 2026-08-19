@@ -25,6 +25,7 @@ import { resourcePageData } from "@/data/resourceData/resourcePageData";
 import ResourceNav from "./ResourceNav";
 
 export default async function ResourceHeader({ locale }) {
+
   const t = await getTranslations({
     locale,
     namespace: "Pages.ResourcesPage"

@@ -62,11 +62,17 @@ export default function ModalVideo({ id, preventExpand = true }) {
           if (!matchedVideo) throw new Error("Video not found");
 
           setVideo({
-            ...matchedVideo,
+            id: matchedVideo.id,
             category: formatCategoryLabel(matchedVideo.categoryId, locale),
             title: getLocalizedValue(matchedVideo.title, locale),
             description: getLocalizedValue(matchedVideo.description, locale),
             hashtags: getSearchTerms(matchedVideo.searchTerms, locale),
+            media: {
+              type: matchedVideo.media?.type || 'youtube',
+              url: matchedVideo.media?.url || '',
+              thumbnailUrl: matchedVideo.media?.thumbnailUrl || matchedVideo.media?.thumbUrl || '',
+              is360: Boolean(matchedVideo.media?.is360),
+            },
             lessonPlans: (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => ({
               title: locale === 'fr' ? 'Plan de lecon' : 'Lesson Plan',
               link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,

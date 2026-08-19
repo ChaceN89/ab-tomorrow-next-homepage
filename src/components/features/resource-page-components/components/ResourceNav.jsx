@@ -21,7 +21,7 @@
  */
 "use client";
 import { resourceLinks } from "@/data/resourceData/resourcePageData";
-import Link from 'next/link';
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 
@@ -30,28 +30,37 @@ export default function ResourceNav() {
   const pathname = usePathname();
   const t = useTranslations("Pages.ResourcesPage");
 
+  const normalizePath = (path) => path.replace(/\/+$/, ""); // remove trailing slash
+
   return (
     <nav className="flex gap-5 mb-6 items-center">
       {resourceLinks.map((link, i) => {
         const localizedHref = `/${locale}${link.href}`;
-        const isActive = pathname === localizedHref;
+        const current = normalizePath(pathname);
+        const target = normalizePath(localizedHref);
+
+        // active on exact match or nested routes
+        const isActive = current === target || current.startsWith(`${target}/`);
 
         return (
           <div key={link.href} className="flex items-center gap-5">
             <Link
               href={localizedHref}
-              className={`text-xl transition hover:text-primary py-2 font-semibold ${isActive ? "text-primary underline" : "text-gray-700"
+              className={`text-xl py-2 font-semibold transition-colors border-b-2 ${isActive
+                  ? "text-primary border-primary"
+                  : "text-gray-700 border-transparent hover:text-primary hover:border-primary/50"
                 }`}
+              aria-current={isActive ? "page" : undefined}
             >
               {t(link.labelKey)}
             </Link>
+
             {i < resourceLinks.length - 1 && (
               <div className="w-px h-5 bg-gray-700" />
             )}
           </div>
-        )
+        );
       })}
     </nav>
   );
 }
-

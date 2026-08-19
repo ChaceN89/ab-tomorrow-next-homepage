@@ -1,5 +1,33 @@
 const DEFAULT_LOCALE = "en";
 
+function isPlaceholderString(value) {
+  if (typeof value !== "string") return false;
+  const normalized = value.trim().toLowerCase();
+  return normalized === "" || normalized === "n/a" || normalized === "na";
+}
+
+function hasMeaningfulValue(value) {
+  if (value == null) return false;
+  if (typeof value === "string") return !isPlaceholderString(value);
+  if (Array.isArray(value)) return value.length > 0;
+  if (typeof value === "object") return Object.keys(value).length > 0;
+  return true;
+}
+
+function pickLocalizedOrDefault(value, locale = DEFAULT_LOCALE, fallback = "") {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return value ?? fallback;
+  }
+
+  const localized = value[locale];
+  const defaultValue = value[DEFAULT_LOCALE];
+
+  if (hasMeaningfulValue(localized)) return localized;
+  if (hasMeaningfulValue(defaultValue)) return defaultValue;
+
+  return fallback;
+}
+
 function toTitleFromId(id = "") {
   return String(id)
     .replace(/[-_]+/g, " ")
@@ -8,11 +36,15 @@ function toTitleFromId(id = "") {
 
 export function getLocalizedValue(value, locale = DEFAULT_LOCALE) {
   if (value == null) return "";
-  if (typeof value === "string") return value;
+  if (typeof value === "string") return isPlaceholderString(value) ? "" : value;
   if (Array.isArray(value)) return value;
 
   if (typeof value === "object") {
-    return value[locale] ?? value[DEFAULT_LOCALE] ?? "";
+    const localized = pickLocalizedOrDefault(value, locale, "");
+    if (typeof localized === "string") {
+      return isPlaceholderString(localized) ? "" : localized;
+    }
+    return localized ?? "";
   }
 
   return "";
@@ -26,12 +58,12 @@ export function getLocalizedArray(value, locale = DEFAULT_LOCALE) {
   }
 
   if (typeof value === "object") {
-    const localized = value[locale] ?? value[DEFAULT_LOCALE] ?? [];
+    const localized = pickLocalizedOrDefault(value, locale, []);
     if (Array.isArray(localized)) {
       return localized.filter(Boolean).map((item) => String(item));
     }
 
-    if (typeof localized === "string" && localized.trim()) {
+    if (typeof localized === "string" && !isPlaceholderString(localized)) {
       return [localized.trim()];
     }
   }
@@ -73,7 +105,7 @@ export function getLocalizedLinks(value, locale = DEFAULT_LOCALE) {
   }
 
   if (typeof value === "object") {
-    const localized = value[locale] ?? value[DEFAULT_LOCALE];
+    const localized = pickLocalizedOrDefault(value, locale, undefined);
 
     if (Array.isArray(localized)) {
       return normalizeArrayLinks(localized, locale);
@@ -173,7 +205,7 @@ export function getSearchTerms(value, locale = DEFAULT_LOCALE) {
   }
 
   if (typeof value === "object") {
-    const localized = value[locale] ?? value[DEFAULT_LOCALE] ?? [];
+    const localized = pickLocalizedOrDefault(value, locale, []);
     if (Array.isArray(localized)) return localized.filter(Boolean).map((item) => String(item));
 
     return Object.values(value)

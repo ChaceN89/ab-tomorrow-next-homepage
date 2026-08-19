@@ -37,31 +37,27 @@ export default function PlayButton({ videoLoaded, handlePlayClick, canPlayVideo,
         border-black/40 group-hover:border-white/20
         backdrop-blur-lg
 
-
-              ${preload && videoLoaded ? "opacity-100" : preload && !videoLoaded ? "opacity-0" : "opacity-100"}
-
-
          px-6 py-3 rounded-full font-semibold shadow-lg transition border 
          `}>
-          
-          
+
+
           <div className="text-sm md:text-base lg:text-lg">
-            
-          {canPlayVideo ? (
-  videoLoaded ? (
-    <span className="flex items-center gap-2">
-      Play Video <FaPlay />
-    </span>
-  ) : (
-    <span className="flex items-center gap-2 animate-pulse">
-      Loading Video... <FaCloudDownloadAlt />
-    </span>
-  )
-) : (
-  <span className="flex items-center gap-2">
-    Load Video <FaCloudDownloadAlt />
-  </span>
-)}
+
+            {canPlayVideo ? (
+              videoLoaded ? (
+                <span className="flex items-center gap-2">
+                  Play Video <FaPlay />
+                </span>
+              ) : (
+                <span className="flex items-center gap-2 animate-pulse">
+                  Loading Video... <FaCloudDownloadAlt />
+                </span>
+              )
+            ) : (
+              <span className="flex items-center gap-2">
+                Load Video <FaCloudDownloadAlt />
+              </span>
+            )}
 
 
 

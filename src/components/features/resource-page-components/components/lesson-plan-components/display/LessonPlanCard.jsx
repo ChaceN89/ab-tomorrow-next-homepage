@@ -38,8 +38,7 @@ export default function LessonPlanCard({ plan }) {
                     p-3 border border-black/20 hover:ring-2 hover:ring-secondary transition-all"
       >
         <Tooltip text={plan.title} openDuration={500}>
-          <div className=" border rounded-md  bg-gray-50 relative overflow-hidden">
-            <HexSeparator rows={40} hexClass="bg-primary/15" />
+          <div className=" border rounded-md bg-primary/35 relative overflow-hidden">
             <div className="p-4 flex items-start gap-2">
 
               <FaClipboardList className="text-primary text-4xl flex-shrink-0" />

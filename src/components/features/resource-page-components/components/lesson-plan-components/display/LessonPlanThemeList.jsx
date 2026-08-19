@@ -6,7 +6,7 @@
 
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import { useLessonPlanResource } from "../LessonPlanResourceContext";
 import LessonPlanTheme from "./LessonPlanTheme";
 
@@ -21,38 +21,49 @@ export default function LessonThemeList() {
     setNumResults,
   } = useLessonPlanResource();
 
-  const grouped = {};
   const lowerSearch = searchText.toLowerCase();
 
-  lessonPlans?.forEach((lp) => {
-    const matchesTheme = themeFilters[lp.theme];
-    const matchesTool = !Object.keys(toolFilters).length || !lp.tools?.length || lp.tools.some((t) => toolFilters[t]);
-    const matchesSubject = lp.subjects?.some((s) => subjectFilters[s]);
-    const matchesGrade = lp.grades?.some((g) => gradeFilters[g]);
+  const grouped = useMemo(() => {
+    const nextGrouped = {};
 
-    const matchesSearch =
-      (lp.title || "").toLowerCase().includes(lowerSearch) ||
-      (lp.description || "").toLowerCase().includes(lowerSearch) ||
-      lp.tags?.some((tag) => tag.toLowerCase().includes(lowerSearch));
+    lessonPlans?.forEach((lp) => {
+      const matchesTheme = themeFilters[lp.theme];
+      const matchesTool =
+        !Object.keys(toolFilters).length ||
+        !lp.tools?.length ||
+        lp.tools.some((t) => toolFilters[t]);
+      const matchesSubject = lp.subjects?.some((s) => subjectFilters[s]);
+      const matchesGrade = lp.grades?.some((g) => gradeFilters[g]);
 
-    if (matchesTheme && matchesTool && matchesSubject && matchesGrade && matchesSearch) {
-      if (!grouped[lp.theme]) grouped[lp.theme] = [];
-      grouped[lp.theme].push(lp);
-    }
-  });
+      const matchesSearch =
+        (lp.title || "").toLowerCase().includes(lowerSearch) ||
+        (lp.description || "").toLowerCase().includes(lowerSearch) ||
+        lp.tags?.some((tag) => tag.toLowerCase().includes(lowerSearch));
+
+      if (matchesTheme && matchesTool && matchesSubject && matchesGrade && matchesSearch) {
+        if (!nextGrouped[lp.theme]) nextGrouped[lp.theme] = [];
+        nextGrouped[lp.theme].push(lp);
+      }
+    });
+
+    return nextGrouped;
+  }, [gradeFilters, lessonPlans, lowerSearch, subjectFilters, themeFilters, toolFilters]);
+
+  const totalResults = useMemo(
+    () => Object.values(grouped).reduce((acc, arr) => acc + arr.length, 0),
+    [grouped]
+  );
 
   useEffect(() => {
-    const total = Object.values(grouped).reduce((acc, arr) => acc + arr.length, 0);
-    setNumResults(total);
-    const container = document.getElementById("resources-container");
+    setNumResults(totalResults);
 
-    if (total == 0) {
+    if (totalResults === 0) {
       const container = document.getElementById("resources-container");
       if (container) {
         container.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [grouped]);
+  }, [setNumResults, totalResults]);
 
   return (
     <div className="py-4 space-y-4 mb-4 relative">

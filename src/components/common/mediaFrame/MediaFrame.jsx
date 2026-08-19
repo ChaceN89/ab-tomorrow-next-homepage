@@ -55,20 +55,25 @@ export default function MediaFrame({
   maxSize = "max-w-lg",
   showWheel = false,
   preload = false,
+  preloadVideo = false,
 }) {
+
+  const thumbnailSrc =
+    imgSrc || (type === "video" && videoSrc ? `https://img.youtube.com/vi/${videoSrc}/hqdefault.jpg` : "");
 
   const { ref, inView } = useInView({
     triggerOnce: true,     // only trigger once
     threshold: 0.2,        // 20% of the component must be visible
+    rootMargin: "300px 0px", // begin loading shortly before entering viewport
   });
 
   const { trackEvent } = useGoogleAnalytics();
 
   // see if the vide can start being loaded
-  const [canStartVidLoad, setCanStartVidLoad] = useState(preload)
+  const [canStartVidLoad, setCanStartVidLoad] = useState(preloadVideo)
 
   // laod and playing(if video) state
-  const [imgLoaded, setImgLoaded] = useState(imgSrc ? false : true);
+  const [imgLoaded, setImgLoaded] = useState(thumbnailSrc ? false : true);
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   // video playing state
@@ -129,9 +134,15 @@ export default function MediaFrame({
   }, []);
 
   // if neither image or video is provided, return null
-  if (!imgSrc && !videoSrc) {
+  if (!thumbnailSrc && !videoSrc) {
     return null;
   }
+
+  const shouldShowLoader =
+    type === "video"
+      ? (canStartVidLoad ? !videoLoaded : !imgLoaded && Boolean(thumbnailSrc))
+      : showWheel && !imgLoaded;
+
 
   return (
     <div className={`w-full ${maxSize} mx-auto text-center space-y-2 text-inherit`}>
@@ -139,31 +150,31 @@ export default function MediaFrame({
 
       <div ref={ref} className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
 
-        {(inView || preload) && (<>
+        {(inView || preload || preloadVideo) && (<>
 
           <PulseLoader
-            showWheel={type === "video" || showWheel}
-            className={`transition-opacity duration-800 pointer-events-none ${(imgLoaded && videoLoaded) ? "opacity-0" : "opacity-100"
+            showWheel={type === "video" ? canStartVidLoad || !thumbnailSrc : showWheel}
+            className={`transition-opacity duration-800 pointer-events-none ${shouldShowLoader ? "opacity-100" : "opacity-0"
               }`}
           />
 
           {/* Load img if image or load it as thumnail if video is the type */}
           {(
             type == "image" ||  // if an image 
-            (type == "video" && imgSrc &&  // or its a video with a thumbnail
+            (type == "video" && thumbnailSrc &&  // or its a video with a thumbnail
               (!videoLoaded || !videoIsPlaying) // and if its a video with a thumbn ail its either not loaded or not playing
             )
           ) &&
             <Image
               unoptimized
-              src={imgSrc || '/ui-elements/placeholder.jpg'}
+              src={thumbnailSrc || '/ui-elements/placeholder.jpg'}
               alt={alt}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className={`object-cover transition-opacity duration-500 ${imgLoaded ? "opacity-100" : "opacity-0"
                 }`}
               onLoad={() => setImgLoaded(true)}
-              loading="eager"
+              loading={preload ? "eager" : "lazy"}
             />
           }
 
@@ -180,7 +191,7 @@ export default function MediaFrame({
                 width: "100%",
                 height: "100%",
               }}
-              className={`w-full h-full transition duration-200 ${(videoIsPlaying || !imgSrc) ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
+              className={`w-full h-full transition duration-200 ${(videoIsPlaying || !thumbnailSrc) ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
                 }`}
             />
           }
@@ -191,7 +202,7 @@ export default function MediaFrame({
               videoLoaded={videoLoaded}
               handlePlayClick={playVideo}
               canPlayVideo={playerReady}
-              preload={preload}
+              preload={preloadVideo}
             />
           }
         </>)}

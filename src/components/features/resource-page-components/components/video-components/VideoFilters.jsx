@@ -76,13 +76,14 @@ export default function VideoFilters() {
         setFilterMap={setCategoryFilters}
         showScrollLinks
         showFocusButton
+        initialOpen
       />
 
-      <FilterDropdown
+      {/* <FilterDropdown
         label={t("filters.tool")}
         filterMap={toolFilters}
         setFilterMap={setToolFilters}
-      />
+      /> */}
     </div>
   );
 }

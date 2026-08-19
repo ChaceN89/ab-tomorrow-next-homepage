@@ -87,7 +87,7 @@ const Tooltip = ({ text, openDuration = 1000, className = '', children }) => {
       onMouseMove={handleMouseMove}
     >
       {children}
-      {mounted &&
+      {mounted && (hovered || showTooltip) &&
         createPortal(
           <div
             ref={tooltipRef}

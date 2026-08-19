@@ -55,7 +55,7 @@ export default function ModalLessonPlan({ id }) {
           if (!matchedPlan) throw new Error("Lesson plan not found");
 
           setPlan({
-            ...matchedPlan,
+            id: matchedPlan.id,
             theme: formatThemeLabel(matchedPlan.themeId, locale),
             title: getLocalizedValue(matchedPlan.title, locale),
             description: getLocalizedValue(matchedPlan.description, locale),

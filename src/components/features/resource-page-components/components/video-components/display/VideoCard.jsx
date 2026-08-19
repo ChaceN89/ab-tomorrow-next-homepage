@@ -32,6 +32,7 @@ import { useLocale } from "next-intl";
 export default function VideoCard({ video, noExpand = false }) {
   const { trackEvent } = useGoogleAnalytics();
   const locale = useLocale();
+  const thumbnailSrc = video.media?.thumbnailUrl || video.media?.thumbUrl || "";
 
   const getLocalizedPlanHref = (href) => {
     if (!href || !href.startsWith("/resources")) return href;
@@ -54,7 +55,7 @@ export default function VideoCard({ video, noExpand = false }) {
         <MediaFrame
           type="video"
           videoSrc={extractYouTubeId(video.media.url)}
-          imgSrc={video.media.thumbUrl}
+          imgSrc={thumbnailSrc}
           maxSize="max-w-5xl"
         />
       </div>

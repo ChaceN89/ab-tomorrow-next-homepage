@@ -10,7 +10,7 @@
 
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useState } from "react";
+import { createContext, useCallback, useContext, useState } from "react";
 import { useLocale } from "next-intl";
 import {
   formatGradeLabel,
@@ -44,7 +44,7 @@ export function LessonPlanResourceProvider({ children }) {
       const videoIds = Array.isArray(plan.videoIds) ? plan.videoIds : [];
 
       return {
-        ...plan,
+        id: plan.id,
         theme: formatThemeLabel(plan.themeId, locale),
         title: getLocalizedValue(plan.title, locale),
         description: getLocalizedValue(plan.description, locale),
@@ -103,10 +103,6 @@ export function LessonPlanResourceProvider({ children }) {
       setLoading(false);
     }
   }, [lessonPlans, loadedLocale, locale, normalizeLessonPlan]);
-
-  useEffect(() => {
-    fetchLessonPlans();
-  }, [fetchLessonPlans, locale]);
 
   return (
     <LessonPlanContext.Provider

@@ -35,12 +35,18 @@ export function VideoResourceProvider({ children }) {
     const lessonPlanIds = Array.isArray(video.lessonPlanIds) ? video.lessonPlanIds : [];
 
     return {
-      ...video,
+      id: video.id,
       category: formatCategoryLabel(video.categoryId, locale),
       title: getLocalizedValue(video.title, locale),
       description: getLocalizedValue(video.description, locale),
       hashtags: getSearchTerms(video.searchTerms, locale),
       tools: [],
+      media: {
+        type: video.media?.type || "youtube",
+        url: video.media?.url || "",
+        thumbnailUrl: video.media?.thumbnailUrl || video.media?.thumbUrl || "",
+        is360: Boolean(video.media?.is360),
+      },
       lessonPlans: lessonPlanIds
         .map((lessonPlanId) => {
           const plan = lessonPlanMap.get(lessonPlanId);
