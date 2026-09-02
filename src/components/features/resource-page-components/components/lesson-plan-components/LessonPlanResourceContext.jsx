@@ -95,24 +95,77 @@ export function LessonPlanResourceProvider({ children }) {
       const videoIds = Array.isArray(plan.videoIds) ? plan.videoIds : [];
       const languageAvailability = detectLessonPlanLanguages(plan);
 
+      const availableLanguages = ["en", "fr"].filter((lang) => {
+        if (lang === "en") return languageAvailability.hasEnglish;
+        if (lang === "fr") return languageAvailability.hasFrench;
+        return false;
+      });
+
+      const gradesByLanguage = {
+        en: (plan.gradeIds || []).map((gradeId) => formatGradeLabel(gradeId, "en")),
+        fr: (plan.gradeIds || []).map((gradeId) => formatGradeLabel(gradeId, "fr")),
+      };
+      const subjectsByLanguage = {
+        en: (plan.subjectIds || []).map((subjectId) => formatSubjectLabel(subjectId, "en")),
+        fr: (plan.subjectIds || []).map((subjectId) => formatSubjectLabel(subjectId, "fr")),
+      };
+      const toolsByLanguage = {
+        en: getLocalizedArray(plan.tools, "en"),
+        fr: getLocalizedArray(plan.tools, "fr"),
+      };
+      const tagsByLanguage = {
+        en: getSearchTerms(plan.searchTerms, "en"),
+        fr: getSearchTerms(plan.searchTerms, "fr"),
+      };
+      const learningOutcomesByLanguage = {
+        en: getLocalizedArray(plan.learningOutcomes, "en"),
+        fr: getLocalizedArray(plan.learningOutcomes, "fr"),
+      };
+
       return {
         id: plan.id,
         theme: formatThemeLabel(plan.themeId, locale),
-        title: getLocalizedValue(plan.title, locale),
-        description: getLocalizedValue(plan.description, locale),
-        approximateTime: getLocalizedValue(plan.approximateTime, locale),
-        files: getLocalizedLinks(plan.files, locale),
-        relatedUrls: getLocalizedLinks(plan.relatedResources, locale),
-        grades: (plan.gradeIds || []).map((gradeId) => formatGradeLabel(gradeId, locale)),
-        subjects: (plan.subjectIds || []).map((subjectId) => formatSubjectLabel(subjectId, locale)),
-        tools: getLocalizedArray(plan.tools, locale),
-        tags: getSearchTerms(plan.searchTerms, locale),
-        learningOutcomes: getLocalizedArray(plan.learningOutcomes, locale),
-        videos: videoIds,
-        availableLanguages: {
-          en: languageAvailability.hasEnglish,
-          fr: languageAvailability.hasFrench,
+        themeByLanguage: {
+          en: formatThemeLabel(plan.themeId, "en"),
+          fr: formatThemeLabel(plan.themeId, "fr"),
         },
+        title: getLocalizedValue(plan.title, locale),
+        titleByLanguage: {
+          en: getLocalizedValue(plan.title, "en"),
+          fr: getLocalizedValue(plan.title, "fr"),
+        },
+        description: getLocalizedValue(plan.description, locale),
+        descriptionByLanguage: {
+          en: getLocalizedValue(plan.description, "en"),
+          fr: getLocalizedValue(plan.description, "fr"),
+        },
+        approximateTime: getLocalizedValue(plan.approximateTime, locale),
+        approximateTimeByLanguage: {
+          en: getLocalizedValue(plan.approximateTime, "en"),
+          fr: getLocalizedValue(plan.approximateTime, "fr"),
+        },
+        files: getLocalizedLinks(plan.files, locale),
+        filesByLanguage: {
+          en: getLocalizedLinks(plan.files, "en"),
+          fr: getLocalizedLinks(plan.files, "fr"),
+        },
+        relatedUrls: getLocalizedLinks(plan.relatedResources, locale),
+        relatedUrlsByLanguage: {
+          en: getLocalizedLinks(plan.relatedResources, "en"),
+          fr: getLocalizedLinks(plan.relatedResources, "fr"),
+        },
+        grades: (plan.gradeIds || []).map((gradeId) => formatGradeLabel(gradeId, locale)),
+        gradesByLanguage,
+        subjects: (plan.subjectIds || []).map((subjectId) => formatSubjectLabel(subjectId, locale)),
+        subjectsByLanguage,
+        tools: getLocalizedArray(plan.tools, locale),
+        toolsByLanguage,
+        tags: getSearchTerms(plan.searchTerms, locale),
+        tagsByLanguage,
+        learningOutcomes: getLocalizedArray(plan.learningOutcomes, locale),
+        learningOutcomesByLanguage,
+        videos: videoIds,
+        availableLanguages,
       };
     },
     [locale]

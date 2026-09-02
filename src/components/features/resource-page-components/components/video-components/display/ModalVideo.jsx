@@ -33,7 +33,7 @@ import {
   getSearchTerms,
 } from '@/utils/resourceNormalizeUtils';
 
-export default function ModalVideo({ id, preventExpand = true }) {
+export default function ModalVideo({ id, preventExpand = true, forceLanguage = null }) {
   const locale = useLocale();
   const { videos } = useVideoResource();
   const [video, setVideo] = useState(null);
@@ -61,11 +61,24 @@ export default function ModalVideo({ id, preventExpand = true }) {
 
           if (!matchedVideo) throw new Error("Video not found");
 
+          const availableLanguages = Array.isArray(matchedVideo.supportedLanguages)
+            ? matchedVideo.supportedLanguages.map((lang) => String(lang).trim().toLowerCase()).filter((lang) => ['en', 'fr'].includes(lang))
+            : [];
+
           setVideo({
             id: matchedVideo.id,
             category: formatCategoryLabel(matchedVideo.categoryId, locale),
             title: getLocalizedValue(matchedVideo.title, locale),
+            titleByLanguage: {
+              en: getLocalizedValue(matchedVideo.title, 'en'),
+              fr: getLocalizedValue(matchedVideo.title, 'fr'),
+            },
             description: getLocalizedValue(matchedVideo.description, locale),
+            descriptionByLanguage: {
+              en: getLocalizedValue(matchedVideo.description, 'en'),
+              fr: getLocalizedValue(matchedVideo.description, 'fr'),
+            },
+            availableLanguages: availableLanguages.length ? availableLanguages : [locale],
             hashtags: getSearchTerms(matchedVideo.searchTerms, locale),
             media: {
               type: matchedVideo.media?.type || 'youtube',
@@ -74,9 +87,38 @@ export default function ModalVideo({ id, preventExpand = true }) {
               is360: Boolean(matchedVideo.media?.is360),
             },
             lessonPlans: (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => ({
+              id: lessonPlanId,
               title: locale === 'fr' ? 'Plan de lecon' : 'Lesson Plan',
+              titleByLanguage: {
+                en: 'Lesson Plan',
+                fr: 'Plan de lecon',
+              },
               link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+              linkByLanguage: {
+                en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+              },
             })),
+            lessonPlansByLanguage: {
+              en: (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => ({
+                id: lessonPlanId,
+                title: 'Lesson Plan',
+                link: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                linkByLanguage: {
+                  en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                  fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                },
+              })),
+              fr: (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => ({
+                id: lessonPlanId,
+                title: 'Plan de lecon',
+                link: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                linkByLanguage: {
+                  en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                  fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                },
+              })),
+            },
           });
 
           // API version for when API is created and deployed
@@ -106,7 +148,7 @@ export default function ModalVideo({ id, preventExpand = true }) {
 
   return (
     <div className="flex flex-col gap-2 h-full w-full">
-      <Video video={video} noExpand={preventExpand} />
+      <Video video={video} noExpand={preventExpand} forceLanguage={forceLanguage} />
     </div>
   )
 

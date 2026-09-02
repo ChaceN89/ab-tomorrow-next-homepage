@@ -226,11 +226,14 @@
         "toggle": "Niveaux scolaires"
       },
       "subjectsTitle": "Sujets",
+      "learningOutcomes": "Résultats d’apprentissage",
       "lessonFilesTitle": "Fichiers de leçons",
       "relatedLinksTitle": "Liens connexes",
       "exploreResources": "Explorer les ressources pédagogiques",
       "navigateResourcesExplanation": "Utilisez la navigation ci-dessus pour parcourir les vidéos ou les plans de leçons liés aux écosystèmes, à la faune et au climat de l’Alberta.",
-      "selectResourceTool": "Sélectionnez un outil dans le menu des ressources pour commencer."
+      "selectResourceTool": "Sélectionnez un outil dans le menu des ressources pour commencer.",
+      "seeMore": "Voir plus",
+      "seeLess": "Voir moins"
     }
   }
 }

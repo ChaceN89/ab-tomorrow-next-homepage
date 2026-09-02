@@ -388,8 +388,8 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-gone",
-      "climate-02a-scenarios"
+      "climate-01a-going-going-going-gone",
+      "climate-02a-investigating-climate-change"
     ]
   },
   {
@@ -521,7 +521,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-03a-water-quality-glaciers"
+      "climate-03a-water-quality-alberta-glaciers"
     ]
   },
   {
@@ -793,7 +793,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-gone",
+      "climate-01a-going-going-going-gone",
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
       "landuse-05c-did-we-do-that",
@@ -2645,7 +2645,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-gone"
+      "climate-01a-going-going-going-gone"
     ]
   },
   {
@@ -3240,7 +3240,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-gone"
+      "climate-01a-going-going-going-gone"
     ]
   },
   {
@@ -5313,7 +5313,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-gone",
+      "climate-01a-going-going-going-gone",
       "glaciers-03b-ice-core-basics"
     ]
   },

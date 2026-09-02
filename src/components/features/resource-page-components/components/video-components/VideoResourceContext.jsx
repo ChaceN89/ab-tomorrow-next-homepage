@@ -35,15 +35,47 @@ export function VideoResourceProvider({ children }) {
 
   const normalizeVideo = useCallback((video, lessonPlanMap) => {
     const lessonPlanIds = Array.isArray(video.lessonPlanIds) ? video.lessonPlanIds : [];
+    const availableLanguages = Array.isArray(video.supportedLanguages)
+      ? video.supportedLanguages.map((lang) => String(lang).toLowerCase()).filter((lang) => ["en", "fr"].includes(lang))
+      : [];
+
+    const lessonPlans = lessonPlanIds
+      .map((lessonPlanId) => {
+        const plan = lessonPlanMap.get(lessonPlanId);
+        const linkByLanguage = {
+          en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+          fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+        };
+
+        return {
+          id: lessonPlanId,
+          title:
+            getLocalizedValue(plan?.title, locale) ||
+            (locale === "fr" ? "Plan de lecon" : "Lesson Plan"),
+          titleByLanguage: {
+            en: getLocalizedValue(plan?.title, "en") || "Lesson Plan",
+            fr: getLocalizedValue(plan?.title, "fr") || "Plan de lecon",
+          },
+          link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+          linkByLanguage,
+        };
+      })
+      .filter((plan) => Boolean(plan.link));
 
     return {
       id: video.id,
       category: formatCategoryLabel(video.categoryId, locale),
       title: getLocalizedValue(video.title, locale),
+      titleByLanguage: {
+        en: getLocalizedValue(video.title, "en"),
+        fr: getLocalizedValue(video.title, "fr"),
+      },
       description: getLocalizedValue(video.description, locale),
-      availableLanguages: Array.isArray(video.supportedLanguages)
-        ? video.supportedLanguages.map((lang) => String(lang).toLowerCase())
-        : [],
+      descriptionByLanguage: {
+        en: getLocalizedValue(video.description, "en"),
+        fr: getLocalizedValue(video.description, "fr"),
+      },
+      availableLanguages,
       hashtags: getSearchTerms(video.searchTerms, locale),
       tools: [],
       media: {
@@ -52,18 +84,19 @@ export function VideoResourceProvider({ children }) {
         thumbnailUrl: video.media?.thumbnailUrl || video.media?.thumbUrl || "",
         is360: Boolean(video.media?.is360),
       },
-      lessonPlans: lessonPlanIds
-        .map((lessonPlanId) => {
-          const plan = lessonPlanMap.get(lessonPlanId);
-
-          return {
-            title:
-              getLocalizedValue(plan?.title, locale) ||
-              (locale === "fr" ? "Plan de lecon" : "Lesson Plan"),
-            link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-          };
-        })
-        .filter((plan) => Boolean(plan.link)),
+      lessonPlans,
+      lessonPlansByLanguage: {
+        en: lessonPlans.map((plan) => ({
+          ...plan,
+          title: plan.titleByLanguage.en || plan.title,
+          link: plan.linkByLanguage.en,
+        })),
+        fr: lessonPlans.map((plan) => ({
+          ...plan,
+          title: plan.titleByLanguage.fr || plan.title,
+          link: plan.linkByLanguage.fr,
+        })),
+      },
       lessonPlanIds,
     };
   }, [locale]);

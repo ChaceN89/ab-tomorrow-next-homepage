@@ -226,11 +226,14 @@
         "toggle": "Grades"
       },
       "subjectsTitle": "Subjects",
+      "learningOutcomes": "Learning Outcomes",
       "lessonFilesTitle": "Lesson Files",
-      "relatedLinksTitle": "Related Linkes",
+      "relatedLinksTitle": "Related Links",
       "exploreResources": "Explore Educational Resources",
       "navigateResourcesExplanation": "Use the navigation above to browse videos or lesson plans related to Alberta’s ecosystems, wildlife, and climate.",
-      "selectResourceTool": "Select a tool from the resource menu to get started."
+      "selectResourceTool": "Select a tool from the resource menu to get started.",
+      "seeMore": "See More",
+      "seeLess": "See less"
     }
   }
 }

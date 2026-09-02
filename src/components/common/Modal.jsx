@@ -65,7 +65,7 @@ export default function Modal({ children, onClose }) {
 
   return (
     <div
-      className="fixed inset-0 z-[9990] flex justify-center items-end  bg-black/50 overflow-y-auto h-full w-full overflow-hidden min-w-screen min-h-screen"
+      className="fixed inset-0 z-[9990] flex justify-center items-end bg-black/50 overflow-y-auto h-full w-full overflow-hidden min-w-screen min-h-screen"
       onClick={handleOverlayClick}
     >
       <AnimatePresence>
@@ -84,7 +84,7 @@ export default function Modal({ children, onClose }) {
               className="relative bg-white border border-black rounded-lg p-4 shadow-xl w-full 
               mb-2
               min-w-[85vw] 
-              max-w-[94vw] max-h-[94vh]
+              max-w-[94vw] max-h-[96vh]
 
               md:min-w-[85vw] md:min-h-[80vh]
               md:max-w-[92vw] md:max-h-[89vh]
