@@ -13,82 +13,74 @@
 
 import React, { useEffect } from "react";
 import toast from "react-hot-toast";
+import { useTranslations, useLocale } from "next-intl";
 import { newsItems } from "../../data/newsData";
 import { FaTimes } from "react-icons/fa";
-import { Link as ScrollLink } from "react-scroll";
-import Link from "next/link"; // Add this to the top of your file if not already there
-
-
+import Link from "next/link";
 
 export default function NewsPopup() {
-  // timing settings
-  const startDelay = 5000;     // Delay before first toast starts 
-  const toastDelay = 11000;     // Delay between each toast
-  const toastDuration = 9000; // Duration of each toast
+  const t = useTranslations("Popup");
+  const locale = useLocale();
+
+  const startDelay = 5000;
+  const toastDelay = 11000;
+  const toastDuration = 9000;
 
   useEffect(() => {
+    if (!newsItems.length) return;
+
     setTimeout(() => {
       newsItems.forEach((item, index) => {
         setTimeout(() => {
+          const title = item.titleKey ? t(item.titleKey) : item.title;
+          const description = item.descriptionKey ? t(item.descriptionKey) : item.description;
+          const linkText = item.linkTextKey ? t(item.linkTextKey) : "See More";
+          const localizedLink = item.link ? `/${locale}${item.link}` : null;
+
           toast(
-            (t) => (
-              <div className="flex items-start space-x-2 text-white ">
-                {/* Icon */}
-                <div >{item.icon}</div>
+            (toastId) => (
+              <div className="flex items-start space-x-2 text-white">
+                <div>{item.icon}</div>
 
-              {/* Content */}
-              <div className="flex flex-col space-y-1 ">
-                <strong className="text-lg pr-10">{item.title}</strong>
-                <div className="text-sm">{item.description}</div>
+                <div className="flex flex-col space-y-1">
+                  <strong className="text-lg pr-10">{title}</strong>
+                  <div className="text-sm">{description}</div>
+                  {item.bulletKeys?.length ? (
+                    <ul className="list-disc list-inside text-sm space-y-1">
+                      {item.bulletKeys.map((bulletKey) => (
+                        <li key={bulletKey}>{t(bulletKey)}</li>
+                      ))}
+                    </ul>
+                  ) : null}
 
-                {item.link ? (
-                  <Link
-                    href={item.link}
-                    className="text-blue-200 underline text-sm"
-                    onClick={() => toast.dismiss(t.id)}
+                  {localizedLink ? (
+                    <Link
+                      href={localizedLink}
+                      className="text-blue-200 underline text-sm"
+                      onClick={() => toast.dismiss(toastId.id)}
+                    >
+                      {linkText} →
+                    </Link>
+                  ) : null}
+
+                  <button
+                    onClick={() => toast.dismiss(toastId.id)}
+                    className="absolute top-2 right-2 text-white hover:text-red-500 hover:cursor-pointer text-lg"
                   >
-                    See More →
-                  </Link>
-                ) : item.scrollLink ? (
-                  <ScrollLink
-                    to={item.scrollLink}
-                    smooth={true}
-                    duration={1000}
-                    offset={-50}
-                    className="text-blue-200 underline text-sm cursor-pointer"
-                    onClick={() => toast.dismiss(t.id)}
-                  >
-                    Jump to Section →
-                  </ScrollLink>
-                ) : item.href ? (
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-200 underline text-sm"
-                    onClick={() => toast.dismiss(t.id)}
-                  >
-                    Read More →
-                  </a>
-                ) : null}
-
-
-                <button
-                  onClick={() => toast.dismiss(t.id)}
-                  className="absolute top-2 right-2 text-white hover:text-red-500 hover:cursor-pointer text-lg"
-                >
-                  <FaTimes />
-                </button>
+                    <FaTimes />
+                  </button>
+                </div>
               </div>
-            </div>
-          ), {
-            id: `news-toast-${index}`,
-            duration: toastDuration,
-          });
+            ),
+            {
+              id: `news-toast-${index}`,
+              duration: toastDuration,
+            }
+          );
         }, index * toastDelay);
       });
     }, startDelay);
-  }, []);
+  }, [t]);
 
   return null;
 }
