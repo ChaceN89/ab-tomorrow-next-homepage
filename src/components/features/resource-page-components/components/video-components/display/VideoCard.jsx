@@ -87,6 +87,7 @@ export default function VideoCard({ video, noExpand = false, forceLanguage = nul
           videoSrc={extractYouTubeId(video.media.url)}
           imgSrc={thumbnailSrc}
           maxSize="max-w-5xl"
+          captionLanguage={activeLanguage === "fr" ? "fr-ca" : "en"}
         />
       </div>
       <div className="h-32 shadow-md rounded-b-lg bg-white/60 -mt-4 -mr-0.5 pt-4 overflow-hidden border-1 border-black/30 relative z-0 max-w-5xl self-center w-full">
@@ -132,7 +133,7 @@ export default function VideoCard({ video, noExpand = false, forceLanguage = nul
                       rel="noopener noreferrer"
                       className="text-xs text-blue-600 hover:underline gap-1"
                     >
-                      {planLabel}
+                      • {planLabel}
                     </a>
                   );
                 })}

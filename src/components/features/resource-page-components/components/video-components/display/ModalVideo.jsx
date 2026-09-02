@@ -53,10 +53,17 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
         try {
 
           // Temp Data Fetch until API is created and deployed
-          const res = await fetch('/api-static-data/videos.json');
-          if (!res.ok) throw new Error(`Error fetching videos: ${res.statusText}`);
+          const [videosRes, lessonPlansRes] = await Promise.all([
+            fetch('/api-static-data/videos.json'),
+            fetch('/api-static-data/lessonPlans.json'),
+          ]);
 
-          const allVideos = await res.json();
+          if (!videosRes.ok) throw new Error(`Error fetching videos: ${videosRes.statusText}`);
+          if (!lessonPlansRes.ok) throw new Error(`Error fetching lesson plans: ${lessonPlansRes.statusText}`);
+
+          const allVideos = await videosRes.json();
+          const allLessonPlans = await lessonPlansRes.json();
+          const lessonPlanMap = new Map((allLessonPlans || []).map((plan) => [plan.id, plan]));
           const matchedVideo = allVideos.find((v) => String(v.id) === String(id));
 
           if (!matchedVideo) throw new Error("Video not found");
@@ -64,6 +71,25 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
           const availableLanguages = Array.isArray(matchedVideo.supportedLanguages)
             ? matchedVideo.supportedLanguages.map((lang) => String(lang).trim().toLowerCase()).filter((lang) => ['en', 'fr'].includes(lang))
             : [];
+
+          const lessonPlans = (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => {
+            const plan = lessonPlanMap.get(lessonPlanId);
+            const titleByLanguage = {
+              en: getLocalizedValue(plan?.title, 'en') || 'Lesson Plan',
+              fr: getLocalizedValue(plan?.title, 'fr') || 'Plan de lecon',
+            };
+
+            return {
+              id: lessonPlanId,
+              title: getLocalizedValue(plan?.title, locale) || (locale === 'fr' ? 'Plan de lecon' : 'Lesson Plan'),
+              titleByLanguage,
+              link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+              linkByLanguage: {
+                en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+              },
+            };
+          });
 
           setVideo({
             id: matchedVideo.id,
@@ -86,49 +112,20 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
               thumbnailUrl: matchedVideo.media?.thumbnailUrl || matchedVideo.media?.thumbUrl || '',
               is360: Boolean(matchedVideo.media?.is360),
             },
-            lessonPlans: (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => ({
-              id: lessonPlanId,
-              title: locale === 'fr' ? 'Plan de lecon' : 'Lesson Plan',
-              titleByLanguage: {
-                en: 'Lesson Plan',
-                fr: 'Plan de lecon',
-              },
-              link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-              linkByLanguage: {
-                en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-                fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-              },
-            })),
+            lessonPlans,
             lessonPlansByLanguage: {
-              en: (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => ({
-                id: lessonPlanId,
-                title: 'Lesson Plan',
-                link: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-                linkByLanguage: {
-                  en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-                  fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-                },
+              en: lessonPlans.map((plan) => ({
+                ...plan,
+                title: plan.titleByLanguage.en || plan.title,
+                link: plan.linkByLanguage.en,
               })),
-              fr: (matchedVideo.lessonPlanIds || []).map((lessonPlanId) => ({
-                id: lessonPlanId,
-                title: 'Plan de lecon',
-                link: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-                linkByLanguage: {
-                  en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-                  fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-                },
+              fr: lessonPlans.map((plan) => ({
+                ...plan,
+                title: plan.titleByLanguage.fr || plan.title,
+                link: plan.linkByLanguage.fr,
               })),
             },
           });
-
-          // API version for when API is created and deployed
-          // const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/videos/${id}`);
-
-          // if (!res.ok) {
-          //   throw new Error(`Error fetching video: ${res.statusText}`);
-          // }
-          // const data = await res.json();
-          // setVideo(data);
 
         } catch (err) {
 

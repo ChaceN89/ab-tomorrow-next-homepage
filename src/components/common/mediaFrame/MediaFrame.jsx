@@ -56,6 +56,7 @@ export default function MediaFrame({
   showWheel = false,
   preload = false,
   preloadVideo = false,
+  captionLanguage = "en",
 }) {
 
   const thumbnailSrc =
@@ -143,6 +144,9 @@ export default function MediaFrame({
       ? (canStartVidLoad ? !videoLoaded : !imgLoaded && Boolean(thumbnailSrc))
       : showWheel && !imgLoaded;
 
+  const normalizedCaptionLanguage = ["en", "fr", "fr-ca"].includes(captionLanguage)
+    ? captionLanguage
+    : "en";
 
   return (
     <div className={`w-full ${maxSize} mx-auto text-center space-y-2 text-inherit`}>
@@ -190,6 +194,11 @@ export default function MediaFrame({
               opts={{
                 width: "100%",
                 height: "100%",
+                playerVars: {
+                  cc_load_policy: 1,
+                  hl: normalizedCaptionLanguage === "fr-ca" ? "fr" : normalizedCaptionLanguage,
+                  cc_lang_pref: normalizedCaptionLanguage,
+                },
               }}
               className={`w-full h-full transition duration-200 ${(videoIsPlaying || !thumbnailSrc) ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
                 }`}
