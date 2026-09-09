@@ -58,7 +58,7 @@ export default function VideoDisplay() {
           </div>
         ) : (
           <div >
-            <VideoCategoryList />
+            <VideoCategoryList isSidebarPinned={isSidebarPinned} />
           </div>
         )}
       </main>

@@ -3,7 +3,7 @@ import React, { useEffect, useMemo } from "react";
 import VideoCategory from "./VideoCategory";
 import { useVideoResource } from "../VideoResourceContext";
 
-export default function VideoCategoryList() {
+export default function VideoCategoryList({ isSidebarPinned = true }) {
   const {
     videos,
     categoryFilters,
@@ -97,7 +97,12 @@ export default function VideoCategoryList() {
       )}
 
       {Object.entries(grouped).map(([category, vids]) => (
-        <VideoCategory key={category} category={category} videos={vids} />
+        <VideoCategory
+          key={category}
+          category={category}
+          videos={vids}
+          isSidebarPinned={isSidebarPinned}
+        />
       ))}
     </div>
   );

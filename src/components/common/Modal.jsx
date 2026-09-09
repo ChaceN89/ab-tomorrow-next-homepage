@@ -97,7 +97,7 @@ export default function Modal({ children, onClose, TopBackGroundClass, Title, He
               role="dialog"
               aria-modal="true"
               className="relative flex flex-col bg-white border-2 border-black rounded-lg shadow-xl w-full 
-              mb-2
+              mb-1
               min-w-[85vw] 
               max-w-[94vw] max-h-[96vh]
 

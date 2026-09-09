@@ -10,7 +10,7 @@ import React, { useEffect, useMemo } from "react";
 import { useLessonPlanResource } from "../LessonPlanResourceContext";
 import LessonPlanTheme from "./LessonPlanTheme";
 
-export default function LessonThemeList() {
+export default function LessonThemeList({ isSidebarPinned = true }) {
   const {
     lessonPlans,
     themeFilters,
@@ -101,7 +101,12 @@ export default function LessonThemeList() {
       )}
 
       {Object.entries(grouped).map(([theme, plans]) => (
-        <LessonPlanTheme key={theme} theme={theme} lessonPlans={plans} />
+        <LessonPlanTheme
+          key={theme}
+          theme={theme}
+          lessonPlans={plans}
+          isSidebarPinned={isSidebarPinned}
+        />
       ))}
     </div>
   );

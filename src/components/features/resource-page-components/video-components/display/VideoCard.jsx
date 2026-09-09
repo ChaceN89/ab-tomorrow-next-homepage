@@ -143,7 +143,7 @@ export default function VideoCard({
       <div className="w-full">
         <div className="w-full border rounded-md bg-secondary/20 relative overflow-hidden">
           <div className="p-4 flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center text-secondary transition-transform duration-300 group-hover:scale-110">
+            <div className="flex h-10 w-10 items-center justify-center text-secondary transition-transform duration-300 group-hover:scale-130">
               <FaRegPlayCircle className="text-[2rem]" aria-hidden="true" />
             </div>
             <div className="min-w-0 flex-1 min-h-[3rem] flex items-center">

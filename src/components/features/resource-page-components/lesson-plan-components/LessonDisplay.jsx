@@ -58,7 +58,7 @@ export default function LessonDisplay() {
           </div>
         ) : (
           <div >
-            <LessonPlanThemeList />
+            <LessonPlanThemeList isSidebarPinned={isSidebarPinned} />
           </div>
         )}
       </main>

@@ -94,7 +94,7 @@ export default function LessonPlanCard({ plan }) {
           >
             <div className="w-full border rounded-md bg-primary/35 relative overflow-hidden">
               <div className="p-4 flex items-center gap-2">
-                <FaClipboardList className="text-primary text-4xl flex-shrink-0 transition-transform duration-300 group-hover:scale-110" />
+                <FaClipboardList className="text-primary text-4xl flex-shrink-0 transition-transform duration-300 group-hover:scale-130" />
                 <div className="min-w-0 flex-1 min-h-[3rem] flex items-center">
                   <h3 className="text-base font-semibold leading-snug line-clamp-2 break-words">
                     {selectedContent.title}

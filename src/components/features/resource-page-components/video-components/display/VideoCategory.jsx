@@ -14,8 +14,12 @@ import { Element } from "react-scroll";
 // components
 import VideoCard from "./VideoCard";
 
-export default function VideoCategory({ category, videos = [] }) {
+export default function VideoCategory({ category, videos = [], isSidebarPinned = true }) {
   if (!videos.length) return null;
+
+  const gridClassName = isSidebarPinned
+    ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4 my-4"
+    : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 my-4";
 
   return (
     <Element
@@ -23,9 +27,9 @@ export default function VideoCategory({ category, videos = [] }) {
       className="bg-accent/30 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
     >
       <div className="relative ">
-        <h2 className="text-4xl font-bold border-b border-black py-4">{category}</h2>
+        <h2 className="text-4xl font-bold border-b border-black py-4">{category} - {videos.length}</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4 my-4 ">
+        <div className={gridClassName}>
           {videos.map((video) => (
             <VideoCard video={video} key={video.id} />
           ))}

@@ -22,7 +22,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { RiPushpin2Fill, RiPushpin2Line } from "react-icons/ri";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 export default function SideBarWrapper({
@@ -204,18 +204,34 @@ export default function SideBarWrapper({
           </button>
         )}
 
-        {isCollapsedView ? (
-          <div className="absolute inset-y-0 right-0 w-10 z-10 flex items-start justify-center pt-14 pointer-events-none">
-            <span
-              className="text-xs font-semibold tracking-wide text-black/90"
-              style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
+        <AnimatePresence initial={false} mode="wait">
+          {isCollapsedView ? (
+            <motion.div
+              key="collapsed-label"
+              className="absolute inset-y-0 right-0 w-10 z-10 flex items-start justify-center pt-14 pointer-events-none"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1, transition: { duration: 0.36, delay: 0.1 } }}
+              exit={{ opacity: 0, transition: { duration: 0.28 } }}
             >
-              {t("filters.collapsedTab")}
-            </span>
-          </div>
-        ) : (
-          children
-        )}
+              <span
+                className="text-xs font-semibold tracking-wide text-black/90"
+                style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
+              >
+                {t("filters.collapsedTab")}
+              </span>
+            </motion.div>
+          ) : (
+            <motion.div
+              key="expanded-content"
+              className="relative"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1, transition: { duration: 0.3 } }}
+              exit={{ opacity: 0, transition: { duration: 0.2 } }}
+            >
+              {children}
+            </motion.div>
+          )}
+        </AnimatePresence>
       </motion.div>
     </div>
   );

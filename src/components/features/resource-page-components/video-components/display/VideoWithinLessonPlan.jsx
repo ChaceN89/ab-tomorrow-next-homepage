@@ -145,10 +145,11 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
   if (!video) return <div className="p-4 text-sm text-gray-600">Video not found.</div>;
 
   return (
-    <div className="space-y-3">
-
-      <div className="rounded-lg border border-black/10 bg-gray-50 p-2 shadow-sm">
-        <h4 className="mb-2 text-base font-semibold leading-snug text-black">{selectedTitle}</h4>
+    <div className="h-full">
+      <div className="flex h-full flex-col rounded-lg border border-black/10 bg-gray-50 p-2 shadow-sm">
+        <div className="mb-2 h-[3rem] overflow-hidden">
+          <h4 className="text-base font-semibold leading-snug text-black line-clamp-2">{selectedTitle}</h4>
+        </div>
 
         <div className="w-full">
           <MediaFrame
