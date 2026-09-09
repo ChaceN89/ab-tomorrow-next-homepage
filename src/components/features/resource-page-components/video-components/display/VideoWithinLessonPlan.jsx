@@ -11,17 +11,16 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { useVideoResource } from "../VideoResourceContext";
 // import VideoCard from "./VideoCard";
 import { getLocalizedValue } from "@/utils/resourceNormalizeUtils";
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import MediaFrame from "@/components/common/mediaFrame/MediaFrame";
+import { getMessages } from "@/i18n/messages";
 
 export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
   const locale = useLocale();
-  const viewItemsT = useTranslations("ViewItems");
-  const detailsT = useTranslations("Details");
   const { videos } = useVideoResource();
 
   const [video, setVideo] = useState(null);
@@ -137,7 +136,9 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
   const youtubeHref = rawVideoUrl.startsWith("http")
     ? rawVideoUrl
     : (videoId ? `https://www.youtube.com/watch?v=${videoId}` : "");
-  const watchOnYoutubeLabel = detailsT("ViewOnYouTube");
+  const globalMessages = getMessages(activeLanguage) ?? getMessages(locale) ?? {};
+  const watchOnYoutubeLabel = globalMessages?.Details?.ViewOnYouTube || (activeLanguage === "fr" ? "Regarder sur YouTube" : "Watch on YouTube");
+  const viewInNewPageLabel = globalMessages?.ViewItems?.ViewInNewPage || (activeLanguage === "fr" ? "Voir dans une nouvelle page" : "View in New page");
   const openInNewPageHref = `/${activeLanguage}/resources/video?id=${encodeURIComponent(String(id || ""))}`;
 
   if (loading) return <div className="p-4 text-sm text-gray-600">Loading video...</div>;
@@ -177,7 +178,7 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
             rel="noopener noreferrer"
             className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
           >
-            {viewItemsT("ViewInNewPage")}
+            {viewInNewPageLabel}
           </Link>
         </div>
       </div>

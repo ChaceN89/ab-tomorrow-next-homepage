@@ -23,11 +23,9 @@ export default function VideoCard({
   openInNewPageLabel = "",
 }) {
   const t = useTranslations("Pages.ResourcesPage");
-  const detailsT = useTranslations("Details");
   const { trackEvent } = useGoogleAnalytics();
   const locale = useLocale();
   const router = useRouter();
-  const cardOpenInNewPageHref = openInNewPageHref || `/${locale}/resources/video?id=${encodeURIComponent(String(video?.id || ""))}`;
 
   const availableLanguages = useMemo(
     () => (Array.isArray(video?.availableLanguages) && video.availableLanguages.length
@@ -83,6 +81,8 @@ export default function VideoCard({
     ? forceLanguage
     : selectedLanguage;
 
+  const cardOpenInNewPageHref = openInNewPageHref || `/${activeLanguage}/resources/video?id=${encodeURIComponent(String(video?.id || ""))}`;
+
   const rawVideoUrl = video?.media?.url || "";
   const thumbnailSrc = video.media?.thumbnailUrl || video.media?.thumbUrl || "";
   const videoId = extractYouTubeId(rawVideoUrl);
@@ -98,13 +98,17 @@ export default function VideoCard({
   }, [activeLanguage, locale, video]);
 
   const resourceMessages = getMessages(activeLanguage)?.Pages?.ResourcesPage ?? {};
+  const globalMessages = getMessages(activeLanguage) ?? getMessages(locale) ?? {};
+  const viewItemsMessages = globalMessages?.ViewItems ?? {};
+  const detailsMessages = globalMessages?.Details ?? {};
   const seeMoreLabel = resourceMessages?.seeMore || t("seeMore", "See More");
   const seeLessLabel = resourceMessages?.seeLess || (activeLanguage === "fr" ? "Voir moins" : "See less");
   const visibleLessonPlans = expandedLessonPlans ? selectedContent.lessonPlans : selectedContent.lessonPlans.slice(0, 1);
   const localizedLabels = {
     lessonPlans: resourceMessages?.lessonPlans || t("lessonPlans"),
   };
-  const watchOnYoutubeLabel = detailsT("ViewOnYouTube");
+  const watchOnYoutubeLabel = detailsMessages?.ViewOnYouTube || (activeLanguage === "fr" ? "Regarder sur YouTube" : "Watch on YouTube");
+  const viewInNewPageLabel = openInNewPageLabel || viewItemsMessages?.ViewInNewPage || (activeLanguage === "fr" ? "Voir dans une nouvelle page" : "View in New page");
   const youtubeHref = rawVideoUrl.startsWith("http")
     ? rawVideoUrl
     : (videoId ? `https://www.youtube.com/watch?v=${videoId}` : "");
@@ -118,7 +122,7 @@ export default function VideoCard({
     }
 
     if (!directHref || !directHref.startsWith("/resources")) return directHref;
-    return `/${locale}${directHref}`;
+    return `/${activeLanguage}${directHref}`;
   };
 
   const isMissingLinkValue = (value) => {
@@ -238,6 +242,7 @@ export default function VideoCard({
             {watchOnYoutubeLabel}
           </a>
         ) : null}
+
         <Link
           href={cardOpenInNewPageHref}
           target="_blank"
@@ -245,7 +250,7 @@ export default function VideoCard({
           className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
           onClick={(event) => event.stopPropagation()}
         >
-          {openInNewPageLabel || "View in new page"}
+          {viewInNewPageLabel}
         </Link>
       </div>
     </div>

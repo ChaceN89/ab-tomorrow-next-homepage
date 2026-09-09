@@ -67,12 +67,12 @@
     "backHome": "Retour à l’accueil"
   },
   "ViewItems": {
-    "ViewInNewPage": "Voir dans une nouvelle page",
+    "ViewInNewPage": "Ouvrir la page",
     "missingVideoId": "Identifiant de la vidéo manquant."
   },
   "Details": {
     "LessonDetails": "Détails de la leçon",
     "VideoDetails": "Détails de la vidéo",
-    "ViewOnYouTube": "Regarder sur YouTube"
+    "ViewOnYouTube": "Voir sur YouTube"
   }
 }
