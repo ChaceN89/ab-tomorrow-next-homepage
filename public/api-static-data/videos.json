@@ -348,6 +348,82 @@
     "lessonPlanIds": []
   },
   {
+    "id": "tutorial-10a-create-account",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "simulator-tutorials",
+    "title": {
+      "en": "How to Create an Account to Use Alberta Tomorrow",
+      "fr": "Comment creer un compte pour utiliser Alberta Tomorrow"
+    },
+    "description": {
+      "en": "Follow these easy steps to create your own Public, Teacher, or Student account in Alberta Tomorrow.",
+      "fr": "Suivez ces etapes simples pour creer votre propre compte public, enseignant ou etudiant dans Alberta Tomorrow."
+    },
+    "media": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kJ6Pu5uByQM",
+      "cloudFrontUrl": "N/A",
+      "thumbnailUrl": "https://img.youtube.com/vi/kJ6Pu5uByQM/hqdefault.jpg",
+      "is360": false
+    },
+    "searchTerms": {
+      "en": [
+        "account",
+        "signup",
+        "teacher",
+        "student"
+      ],
+      "fr": [
+        "compte",
+        "inscription",
+        "enseignant",
+        "etudiant"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "tutorial-11a-indigenous-voices",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "simulator-tutorials",
+    "title": {
+      "en": "Indigenous Voices in Alberta Tomorrow",
+      "fr": "Voix autochtones dans Alberta Tomorrow"
+    },
+    "description": {
+      "en": "This video shows land use planning through an Indigenous lens in the Alberta Tomorrow simulation tool, including how the southern half of the Stoney Nakoda Traditional Territory has changed and may change in the future using indicators developed with Stoney Elders and Knowledge Keepers.",
+      "fr": "Cette video presente la planification de l'utilisation des terres selon une perspective autochtone dans Alberta Tomorrow, y compris l'evolution passee et future possible de la moitie sud du territoire traditionnel Stoney Nakoda a l'aide d'indicateurs elabores avec des aines et des gardiens du savoir Stoney."
+    },
+    "media": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=r-Yk6CjEKP8",
+      "cloudFrontUrl": "N/A",
+      "thumbnailUrl": "https://img.youtube.com/vi/r-Yk6CjEKP8/hqdefault.jpg",
+      "is360": false
+    },
+    "searchTerms": {
+      "en": [
+        "indigenous voices",
+        "stoney nakoda",
+        "land use planning",
+        "traditional territory"
+      ],
+      "fr": [
+        "voix autochtones",
+        "stoney nakoda",
+        "planification territoriale",
+        "territoire traditionnel"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
     "id": "landscape-01b-climate-change",
     "supportedLanguages": [
       "en",
