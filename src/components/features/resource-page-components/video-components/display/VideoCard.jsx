@@ -9,6 +9,11 @@ import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
 import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
+import { extractYouTubeId } from "@/utils/videoResouceUtils";
+
+import { FaRegPlayCircle } from "react-icons/fa";
+
+
 
 export default function VideoCard({
   video,
@@ -18,6 +23,7 @@ export default function VideoCard({
   openInNewPageLabel = "",
 }) {
   const t = useTranslations("Pages.ResourcesPage");
+  const detailsT = useTranslations("Details");
   const { trackEvent } = useGoogleAnalytics();
   const locale = useLocale();
   const router = useRouter();
@@ -77,7 +83,9 @@ export default function VideoCard({
     ? forceLanguage
     : selectedLanguage;
 
+  const rawVideoUrl = video?.media?.url || "";
   const thumbnailSrc = video.media?.thumbnailUrl || video.media?.thumbUrl || "";
+  const videoId = extractYouTubeId(rawVideoUrl);
 
   const selectedContent = useMemo(() => {
     const language = ["en", "fr"].includes(activeLanguage) ? activeLanguage : locale;
@@ -96,6 +104,10 @@ export default function VideoCard({
   const localizedLabels = {
     lessonPlans: resourceMessages?.lessonPlans || t("lessonPlans"),
   };
+  const watchOnYoutubeLabel = detailsT("ViewOnYouTube");
+  const youtubeHref = rawVideoUrl.startsWith("http")
+    ? rawVideoUrl
+    : (videoId ? `https://www.youtube.com/watch?v=${videoId}` : "");
 
   const getLocalizedPlanHref = (plan) => {
     if (!plan) return null;
@@ -118,7 +130,7 @@ export default function VideoCard({
   return (
     <div
       key={video.id}
-      className="flex h-full cursor-pointer flex-col justify-start gap-3 rounded-lg border border-black/10 bg-gray-50 p-3 shadow-lg transition-all hover:ring-2 hover:ring-secondary"
+      className="group flex h-full cursor-pointer flex-col justify-start gap-3 rounded-lg border border-black/10 bg-gray-50 p-3 shadow-lg transition-all hover:ring-2 hover:ring-secondary"
       onClick={() => {
         trackEvent("VideoCard", "Click", `Opened: ${selectedContent.title} | id: ${video.id}`, 1);
         router.push(`?video=${video.id}`, { scroll: false });
@@ -127,8 +139,8 @@ export default function VideoCard({
       <div className="w-full">
         <div className="w-full border rounded-md bg-secondary/30 relative overflow-hidden">
           <div className="p-4 flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-secondary text-lg font-bold text-white shadow-sm">
-              ▶
+            <div className="flex h-10 w-10 items-center justify-center text-secondary transition-transform duration-300 group-hover:scale-110">
+              <FaRegPlayCircle className="text-[2rem]" aria-hidden="true" />
             </div>
             <div className="min-w-0 flex-1 min-h-[3rem] flex items-center">
               <h3 className="text-base font-semibold leading-snug line-clamp-2 break-words text-black">
@@ -214,7 +226,18 @@ export default function VideoCard({
         )}
       </div>
 
-      <div className="mt-auto flex items-center justify-end pt-1">
+      <div className="mt-auto flex flex-wrap items-center justify-end gap-2 pt-1">
+        {youtubeHref ? (
+          <a
+            href={youtubeHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white"
+            onClick={(event) => event.stopPropagation()}
+          >
+            {watchOnYoutubeLabel}
+          </a>
+        ) : null}
         <Link
           href={cardOpenInNewPageHref}
           target="_blank"
