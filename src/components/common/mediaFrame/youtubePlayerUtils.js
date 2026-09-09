@@ -71,19 +71,19 @@ export function unmountYouTubePlayer(playerRef) {
   if (!playerRef?.current) return;
 
   try {
-    // remove ready marker from underlying iframe if present
-    try {
-      const iframeEl = playerRef.current.getIframe?.();
-      if (iframeEl) iframeEl.removeAttribute("data-yt-ready");
-    } catch (err) {
-      // ignore
+    // If the iframe is already detached, calling player API methods can throw noisy errors.
+    const iframeEl = playerRef.current.getIframe?.();
+
+    if (iframeEl) {
+      iframeEl.removeAttribute("data-yt-ready");
+
+      // Only destroy attached iframes; detached ones are already out of the DOM lifecycle.
+      if (iframeEl.isConnected) {
+        playerRef.current.destroy?.();
+      }
     }
-    // Stop playback
-    playerRef.current.stopVideo?.();   // Preferred: stops and resets
-    playerRef.current.pauseVideo?.();  // Backup: just pause
-    playerRef.current.destroy?.();     // ✅ Fully removes the iframe
   } catch (err) {
-    console.warn("🎬 Failed to destroy YouTube player on unmount:", err);
+    console.warn("Failed to destroy YouTube player on unmount:", err);
   }
 
   // Ensure the ref is cleared

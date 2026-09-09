@@ -33,7 +33,7 @@ import {
   getSearchTerms,
 } from '@/utils/resourceNormalizeUtils';
 
-export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true }) {
+export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true, prioritizeMedia = false }) {
   const locale = useLocale();
   const { videos } = useVideoResource();
   const [video, setVideo] = useState(null);
@@ -145,7 +145,7 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
 
   return (
     <div className="flex flex-col gap-2 h-full w-full">
-      <VideoDetails video={video} />
+      <VideoDetails video={video} prioritizeMedia={prioritizeMedia} />
     </div>
   )
 

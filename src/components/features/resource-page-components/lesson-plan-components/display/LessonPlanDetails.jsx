@@ -84,7 +84,7 @@ export default function LessonPlanDetails({ plan }) {
   }, [plan, selectedLanguage]);
 
   return (
-    <div className="flex flex-col h-full justify-start gap-4 rounded-lg p-2 border border-black/10 max-w-7xl mx-auto bg-tertiary/20">
+    <div className="flex flex-col h-full justify-start gap-4 rounded-lg p-6 border border-black/10 max-w-7xl mx-auto bg-tertiary/20">
       <div className="flex flex-wrap items-center justify-end gap-2">
         <CardLanguageSelect
           availableLanguages={availableLanguages}

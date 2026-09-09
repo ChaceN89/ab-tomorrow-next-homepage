@@ -92,6 +92,14 @@ export default function MediaFrame({
     setPlayerReady(true);
     setVideoLoaded(true);
 
+    // Mark iframe as ready so shared pause utilities only message initialized players.
+    try {
+      const iframeEl = event?.target?.getIframe?.();
+      if (iframeEl) iframeEl.setAttribute("data-yt-ready", "1");
+    } catch (err) {
+      // ignore iframe marker failures; they should not block playback
+    }
+
     if (shouldPlayWhenReadyRef.current) {
       shouldPlayWhenReadyRef.current = false;
       myOnPlay();

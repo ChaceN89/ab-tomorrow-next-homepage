@@ -31,7 +31,7 @@ export default function SingleVideoPage() {
 
   return (
     <section className="p-4 md:p-6">
-      <ModalVideo id={videoId} showOpenInNewPage={false} />
+      <ModalVideo id={videoId} showOpenInNewPage={false} prioritizeMedia />
     </section>
   );
 }

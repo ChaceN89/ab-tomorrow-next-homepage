@@ -20,7 +20,7 @@ import { getMessages } from "@/i18n/messages";
 import LinkListSection from "@/components/features/resource-page-components/lesson-plan-components/display/LinkListSection";
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
 
-export default function VideoDetails({ video }) {
+export default function VideoDetails({ video, prioritizeMedia = false }) {
   const t = useTranslations("Pages.ResourcesPage");
   const detailsT = useTranslations("Details");
   const locale = useLocale();
@@ -63,7 +63,7 @@ export default function VideoDetails({ video }) {
     : (videoId ? `https://www.youtube.com/watch?v=${videoId}` : "");
 
   return (
-    <div className="mx-auto flex h-full w-full max-w-7xl flex-col justify-start gap-4 rounded-lg border border-black/10 bg-tertiary/20 p-2">
+    <div className="mx-auto flex h-full w-full max-w-7xl flex-col justify-start gap-4 rounded-lg border border-black/10 bg-tertiary/20 p-6">
       <div className="flex flex-wrap items-center justify-end gap-2">
         <CardLanguageSelect
           availableLanguages={availableLanguages}
@@ -104,6 +104,7 @@ export default function VideoDetails({ video }) {
             videoSrc={videoId}
             imgSrc={thumbnailSrc}
             maxSize="max-w-full"
+            preload={prioritizeMedia}
             captionLanguage={selectedLanguage === "fr" ? "fr-ca" : "en"}
           />
         </div>
