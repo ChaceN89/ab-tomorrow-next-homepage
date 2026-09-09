@@ -24,7 +24,7 @@
  */
 "use client";
 import Link from 'next/link';
-import { usePathname, useSearchParams, useRouter } from 'next/navigation';
+import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from 'next-intl';
 import Modal from "@/components/common/Modal";
 import SingleVideo from './video-components/display/ModalVideo';
@@ -32,14 +32,11 @@ import ModalLessonPlan from './lesson-plan-components/display/ModalLessonPlan';
 
 export default function ModalContainer() {
   const searchParams = useSearchParams();
-  const pathname = usePathname();
   const locale = useLocale();
   const detailsT = useTranslations("Details");
   const viewItemsT = useTranslations("ViewItems");
   const videoId = searchParams.get("video");
   const lessonPlanId = searchParams.get("lesson-plan");
-
-  const router = useRouter();
 
   const lessonOpenHref = lessonPlanId
     ? `/${locale}/resources/lesson?id=${encodeURIComponent(String(lessonPlanId))}`
@@ -49,19 +46,19 @@ export default function ModalContainer() {
     : null;
 
   const closeModal = () => {
-    const newParams = new URLSearchParams(searchParams.toString());
+    const url = new URL(window.location.href);
 
-    newParams.delete("video");
-    newParams.delete("lesson-plan");
+    url.searchParams.delete("video");
+    url.searchParams.delete("lesson-plan");
 
-    // Clean up the URL
-    const newQuery = newParams.toString();
-    const newUrl = newQuery ? `${pathname}?${newQuery}` : pathname;
-
-    // replace the URL so direct-link modal close does not add extra history entries
-    router.replace(newUrl, { scroll: false });
+    window.history.replaceState(
+      null,
+      "",
+      `${url.pathname}${url.search}${url.hash}`
+    );
   };
 
+  const ModalHeaderLinkStyle = "inline-flex items-center rounded-full border border-primary/30 bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white";
 
   return (
     <>
@@ -76,7 +73,7 @@ export default function ModalContainer() {
                 href={lessonOpenHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center rounded-full border border-primary/30 bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
+                className={ModalHeaderLinkStyle}
               >
                 {viewItemsT("ViewInNewPage")}
               </Link>
@@ -98,7 +95,7 @@ export default function ModalContainer() {
                 href={videoOpenHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center rounded-full border border-primary/30 bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
+                className={ModalHeaderLinkStyle}
               >
                 {viewItemsT("ViewInNewPage")}
               </Link>

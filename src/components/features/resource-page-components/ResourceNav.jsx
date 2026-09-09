@@ -47,8 +47,8 @@ export default function ResourceNav() {
             <Link
               href={localizedHref}
               className={`text-xl py-2 font-semibold transition-colors border-b-2 ${isActive
-                  ? "text-primary border-primary"
-                  : "text-gray-700 border-transparent hover:text-primary hover:border-primary/50"
+                ? "text-primary border-primary"
+                : "text-gray-700 border-transparent hover:text-primary hover:border-primary/50"
                 }`}
               aria-current={isActive ? "page" : undefined}
             >
