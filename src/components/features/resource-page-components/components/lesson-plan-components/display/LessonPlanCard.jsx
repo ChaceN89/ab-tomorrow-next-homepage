@@ -16,7 +16,7 @@ import LinkListSection from "./LinkListSection";
 import Link from "next/link";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
-import CardLanguageSelect from "../../CardLanguageSelect";
+import CardLanguageSelect from "../../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
 
 export default function LessonPlanCard({ plan }) {

@@ -39,11 +39,11 @@ export default function LanguageSwitcherMobile({ onLocaleSwitched }) {
 
   return (
     <div
-      className="inline-flex overflow-hidden rounded-full border border-white/40 bg-white/10"
+      className="inline-flex overflow-hidden rounded-full border border-white/40 bg-white/10 backdrop-blur-sm"
       role="group"
       aria-label="Language switcher"
     >
-      {routing.locales.map((locale) => {
+      {routing.locales.map((locale, index) => {
         const isActive = locale === currentLocale;
 
         return (
@@ -51,7 +51,7 @@ export default function LanguageSwitcherMobile({ onLocaleSwitched }) {
             key={locale}
             type="button"
             onClick={() => switchLocale(locale)}
-            className={`px-3 py-1 text-xs font-semibold uppercase tracking-wide transition-colors ${isActive ? "bg-white text-primary" : "text-white hover:bg-white/20"}`}
+            className={`min-w-[68px] px-4 py-1 text-xs font-semibold uppercase tracking-wide transition-colors first:rounded-l-full last:rounded-r-full ${index > 0 ? "border-l border-white/30" : ""} ${isActive ? "bg-white text-primary" : "text-white hover:bg-white/20"}`}
             aria-pressed={isActive}
           >
             {String(locale).toUpperCase()}

@@ -9,29 +9,31 @@
 
 "use client";
 
-import React, { useMemo, useState } from "react";
-import { useTranslations } from "next-intl";
+import React, { useEffect, useMemo, useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
 import { FaClipboardList, FaFilePdf, FaLink, FaRegClock } from "react-icons/fa";
 import TagList from "./TagList";
 import LinkListSection from "./LinkListSection";
 import ModalVideo from "../../video-components/display/ModalVideo";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
-import CardLanguageSelect from "../../CardLanguageSelect";
+import CardLanguageSelect from "../../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
 
-export default function LessonPlanDetails({ plan }) {
+export default function LessonPlanDetails({ plan, headerAction = null }) {
   const t = useTranslations("Pages.ResourcesPage");
-  const initialLanguage = plan?.availableLanguages?.includes("en")
-    ? "en"
-    : plan?.availableLanguages?.includes("fr")
-      ? "fr"
-      : "en";
-
-  const [selectedLanguage, setSelectedLanguage] = useState(initialLanguage);
+  const locale = useLocale();
 
   const availableLanguages = Array.isArray(plan?.availableLanguages)
     ? [...new Set(plan.availableLanguages.map((lang) => String(lang || "").trim().toLowerCase()).filter((lang) => ["en", "fr"].includes(lang)))]
     : ["en"];
+  const localeFallback = availableLanguages.includes(locale) ? locale : availableLanguages[0] || "en";
+  const [selectedLanguage, setSelectedLanguage] = useState(localeFallback);
+
+  useEffect(() => {
+    const nextLanguage = availableLanguages.includes(locale) ? locale : availableLanguages[0] || "en";
+    setSelectedLanguage((current) => (current === nextLanguage ? current : nextLanguage));
+  }, [availableLanguages, locale]);
+
   const resourceMessages = getMessages(selectedLanguage)?.Pages?.ResourcesPage ?? getMessages("en")?.Pages?.ResourcesPage ?? {};
   const localizedLabels = {
     grades: resourceMessages?.filters?.toggle || t("filters.toggle"),
@@ -63,7 +65,8 @@ export default function LessonPlanDetails({ plan }) {
 
   return (
     <div className="flex flex-col h-full justify-start gap-4 rounded-lg p-6 border border-black/10 max-w-7xl mx-auto bg-tertiary/20">
-      <div className="flex justify-end">
+      <div className="flex flex-wrap items-center justify-end gap-2">
+        {headerAction}
         <CardLanguageSelect
           availableLanguages={availableLanguages}
           selectedLanguage={selectedLanguage}

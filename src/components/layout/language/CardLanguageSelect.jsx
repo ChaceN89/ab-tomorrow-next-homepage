@@ -43,12 +43,13 @@ export default function CardLanguageSelect({
       <div
         className="pointer-events-none absolute inset-y-1 left-1 rounded-full bg-primary shadow-[0_2px_10px_rgba(0,0,0,0.15)] transition-transform duration-300 ease-out"
         style={{
-          width: `calc((100% - ${(normalizedLanguages.length - 1) * 0.25}rem) / ${normalizedLanguages.length})`,
+          // Subtract horizontal inset (left-1 + right-1 = 0.5rem) before splitting into segments.
+          width: `calc((100% - 0.5rem) / ${normalizedLanguages.length})`,
           transform: `translateX(${activeIndex * 100}%)`,
         }}
       />
 
-      {normalizedLanguages.map((lang) => (
+      {normalizedLanguages.map((lang, index) => (
         <button
           key={lang}
           type="button"
@@ -57,9 +58,9 @@ export default function CardLanguageSelect({
             event.stopPropagation();
             onChange?.(lang);
           }}
-          className={`relative z-10 cursor-pointer rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide transition-all duration-300 ease-out ${safeSelectedLanguage === lang
-              ? "text-white"
-              : "text-gray-700 shadow-[inset_0_1px_0_rgba(255,255,255,0.7),0_1px_2px_rgba(15,23,42,0.08)] hover:bg-gray-100/80"
+          className={`relative z-10 flex items-center justify-center cursor-pointer px-2 py-1 text-[10px] font-semibold uppercase tracking-wide transition-colors duration-300 ease-out first:rounded-l-full last:rounded-r-full ${index > 0 ? "border-l border-white/0" : ""} ${safeSelectedLanguage === lang
+            ? "text-white"
+            : "text-gray-700 hover:bg-gray-100/100"
             }`}
         >
           {lang}

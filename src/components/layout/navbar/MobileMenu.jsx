@@ -149,8 +149,8 @@ function MobileMenu({ setIsOpen, isOpen }) {
                 translationNamespace={learnMoreDropDown.translationNamespace}
               />
 
-                <div className="py-4 flex flex-col items-start gap-3 flex-wrap">
-                  <LanguageSwitcherMobile onLocaleSwitched={() => setIsOpen(false)} />
+              <div className="py-4 flex flex-col items-start gap-3 flex-wrap">
+                <LanguageSwitcherMobile onLocaleSwitched={() => setIsOpen(false)} />
                 <DonateButton className="md:ml-0" />
               </div>
             </div>

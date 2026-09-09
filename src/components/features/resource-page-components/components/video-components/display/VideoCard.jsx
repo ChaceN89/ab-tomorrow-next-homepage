@@ -11,10 +11,16 @@ import MediaFrame from "@/components/common/mediaFrame/MediaFrame";
 import Link from "next/link";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
-import CardLanguageSelect from "../../CardLanguageSelect";
+import CardLanguageSelect from "../../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
 
-export default function VideoCard({ video, noExpand = false, forceLanguage = null }) {
+export default function VideoCard({
+  video,
+  noExpand = false,
+  forceLanguage = null,
+  openInNewPageHref = null,
+  openInNewPageLabel = "",
+}) {
   const t = useTranslations("Pages.ResourcesPage");
   const { trackEvent } = useGoogleAnalytics();
   const locale = useLocale();
@@ -29,6 +35,16 @@ export default function VideoCard({ video, noExpand = false, forceLanguage = nul
       setSelectedLanguage(forceLanguage);
     }
   }, [forceLanguage]);
+
+  useEffect(() => {
+    if (forceLanguage) return;
+
+    const nextLanguage = video?.availableLanguages?.includes(locale)
+      ? locale
+      : video?.availableLanguages?.[0] || "en";
+
+    setSelectedLanguage((current) => (current === nextLanguage ? current : nextLanguage));
+  }, [forceLanguage, locale, video?.availableLanguages]);
 
   const activeLanguage = forceLanguage && ["en", "fr"].includes(forceLanguage)
     ? forceLanguage
@@ -74,11 +90,25 @@ export default function VideoCard({ video, noExpand = false, forceLanguage = nul
         <h3 className="text-lg font-semibold text-black">{selectedContent.title}</h3>
       </div>
       {!forceLanguage && (
-        <CardLanguageSelect
-          availableLanguages={video.availableLanguages || [locale]}
-          selectedLanguage={selectedLanguage}
-          onChange={setSelectedLanguage}
-        />
+        <div className="flex flex-wrap items-center justify-end gap-2 px-1">
+          {openInNewPageHref ? (
+            <Link
+              href={openInNewPageHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
+            >
+              {openInNewPageLabel}
+            </Link>
+          ) : null}
+
+          <CardLanguageSelect
+            availableLanguages={video.availableLanguages || [locale]}
+            selectedLanguage={selectedLanguage}
+            onChange={setSelectedLanguage}
+            className="w-full max-w-[240px]"
+          />
+        </div>
       )}
 
       <div className="z-10">

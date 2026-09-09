@@ -65,5 +65,9 @@
     "descriptionLine1": "La page ou la ressource que vous recherchez n’existe pas ou a peut-être été déplacée.",
     "descriptionLine2": "Mais pas d’inquiétude — remettons-vous sur la bonne voie.",
     "backHome": "Retour à l’accueil"
+  },
+  "ViewItems": {
+    "ViewInNewPage": "Voir dans une nouvelle page",
+    "missingVideoId": "Identifiant de la vidéo manquant."
   }
 }

@@ -25,6 +25,7 @@
  */
 import React, { useEffect, useState } from 'react';
 import { useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { useVideoResource } from '../VideoResourceContext';
 import Video from './VideoCard';
 import {
@@ -33,11 +34,14 @@ import {
   getSearchTerms,
 } from '@/utils/resourceNormalizeUtils';
 
-export default function ModalVideo({ id, preventExpand = true, forceLanguage = null }) {
+export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true }) {
   const locale = useLocale();
+  const viewItemsT = useTranslations("ViewItems");
   const { videos } = useVideoResource();
   const [video, setVideo] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const openInNewPageHref = `/${locale}/resources/video?id=${encodeURIComponent(String(id || ""))}`;
 
   useEffect(() => {
     // Try to find video from context
@@ -145,7 +149,13 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
 
   return (
     <div className="flex flex-col gap-2 h-full w-full">
-      <Video video={video} noExpand={preventExpand} forceLanguage={forceLanguage} />
+      <Video
+        video={video}
+        noExpand={preventExpand}
+        forceLanguage={forceLanguage}
+        openInNewPageHref={showOpenInNewPage ? openInNewPageHref : null}
+        openInNewPageLabel={viewItemsT("ViewInNewPage")}
+      />
     </div>
   )
 

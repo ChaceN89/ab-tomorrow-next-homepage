@@ -15,7 +15,8 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { useLocale } from "next-intl";
+import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
 import { useLessonPlanResource } from "../LessonPlanResourceContext";
 import LessonPlanDetails from "./LessonPlanDetails";
 import {
@@ -28,11 +29,14 @@ import {
   getSearchTerms,
 } from "@/utils/resourceNormalizeUtils";
 
-export default function ModalLessonPlan({ id }) {
+export default function ModalLessonPlan({ id, showOpenInNewPage = true }) {
   const locale = useLocale();
+  const viewItemsT = useTranslations("ViewItems");
   const { lessonPlans } = useLessonPlanResource();
   const [plan, setPlan] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const openInNewPageHref = `/${locale}/resources/lesson?id=${encodeURIComponent(String(id || ""))}`;
 
   useEffect(() => {
     const localPlan = lessonPlans?.find((lp) => String(lp.id) === String(id));
@@ -152,7 +156,21 @@ export default function ModalLessonPlan({ id }) {
 
   return (
     <div className="flex flex-col gap-2 h-full w-full">
-      <LessonPlanDetails plan={plan} />
+      <LessonPlanDetails
+        plan={plan}
+        headerAction={
+          showOpenInNewPage ? (
+            <Link
+              href={openInNewPageHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
+            >
+              {viewItemsT("ViewInNewPage")}
+            </Link>
+          ) : null
+        }
+      />
     </div>
   );
 }

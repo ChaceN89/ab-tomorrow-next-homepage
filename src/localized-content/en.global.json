@@ -65,5 +65,9 @@
     "descriptionLine1": "The page or resource you’re looking for doesn’t exist or might’ve moved.",
     "descriptionLine2": "But no worries — let’s get you back on track.",
     "backHome": "Return Home"
+  },
+  "ViewItems": {
+    "ViewInNewPage": "View in New page",
+    "missingVideoId": "Missing video id."
   }
 }
