@@ -16,7 +16,7 @@ import { useVideoResource } from "../VideoResourceContext";
 // import VideoCard from "./VideoCard";
 import { getLocalizedValue } from "@/utils/resourceNormalizeUtils";
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
-import Tooltip from "@/components/common/Tooltip";
+import MediaFrame from "@/components/common/mediaFrame/MediaFrame";
 
 export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
   const locale = useLocale();
@@ -149,18 +149,15 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
       <div className="rounded-lg border border-black/10 bg-gray-50 p-2 shadow-sm">
         <h4 className="mb-2 text-base font-semibold leading-snug text-black">{selectedTitle}</h4>
 
-        {thumbnailSrc ? (
-          <Link href={openInNewPageHref} target="_blank" rel="noopener noreferrer" className="block overflow-hidden rounded-md border border-black/10 bg-white">
-            <Tooltip text={viewItemsT("ViewInNewPage")} openDuration={500}>
-              <img
-                src={thumbnailSrc}
-                alt={selectedTitle}
-                className="h-48 w-full object-cover hover:scale-110 transition-transform duration-300"
-                loading="lazy"
-              />
-            </Tooltip>
-          </Link>
-        ) : null}
+        <div className="w-full">
+          <MediaFrame
+            type="video"
+            videoSrc={videoId}
+            imgSrc={thumbnailSrc}
+            maxSize="max-w-full"
+            captionLanguage={activeLanguage === "fr" ? "fr-ca" : "en"}
+          />
+        </div>
 
         <div className="mt-2 flex flex-wrap items-center justify-end gap-2">
           {youtubeHref ? (
