@@ -69,5 +69,9 @@
   "ViewItems": {
     "ViewInNewPage": "View in New page",
     "missingVideoId": "Missing video id."
+  },
+  "Details": {
+    "LessonDetails": "Lesson Details",
+    "VideoDetails": "Video Details"
   }
 }

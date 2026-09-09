@@ -69,5 +69,9 @@
   "ViewItems": {
     "ViewInNewPage": "Voir dans une nouvelle page",
     "missingVideoId": "Identifiant de la vidéo manquant."
+  },
+  "Details": {
+    "LessonDetails": "Détails de la leçon",
+    "VideoDetails": "Détails de la vidéo"
   }
 }

@@ -9,7 +9,7 @@
 
 "use client";
 
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { FaClipboardList, FaFilePdf, FaLink, FaRegClock } from "react-icons/fa";
 import TagList from "./TagList";
@@ -19,20 +19,40 @@ import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
 
-export default function LessonPlanDetails({ plan, headerAction = null }) {
+export default function LessonPlanDetails({ plan }) {
   const t = useTranslations("Pages.ResourcesPage");
   const locale = useLocale();
 
-  const availableLanguages = Array.isArray(plan?.availableLanguages)
-    ? [...new Set(plan.availableLanguages.map((lang) => String(lang || "").trim().toLowerCase()).filter((lang) => ["en", "fr"].includes(lang)))]
-    : ["en"];
+  const availableLanguages = useMemo(
+    () => (Array.isArray(plan?.availableLanguages)
+      ? [...new Set(plan.availableLanguages.map((lang) => String(lang || "").trim().toLowerCase()).filter((lang) => ["en", "fr"].includes(lang)))]
+      : ["en"]),
+    [plan?.availableLanguages]
+  );
+
   const localeFallback = availableLanguages.includes(locale) ? locale : availableLanguages[0] || "en";
-  const [selectedLanguage, setSelectedLanguage] = useState(localeFallback);
+  const [selectedLanguage, setSelectedLanguage] = useState(() => localeFallback);
+  const lastLocaleRef = useRef(locale);
+  const lastPlanIdRef = useRef(plan?.id);
 
   useEffect(() => {
-    const nextLanguage = availableLanguages.includes(locale) ? locale : availableLanguages[0] || "en";
-    setSelectedLanguage((current) => (current === nextLanguage ? current : nextLanguage));
-  }, [availableLanguages, locale]);
+    const localeChanged = lastLocaleRef.current !== locale;
+    const planChanged = lastPlanIdRef.current !== plan?.id;
+
+    if (!localeChanged && !planChanged) {
+      return;
+    }
+
+    lastLocaleRef.current = locale;
+    lastPlanIdRef.current = plan?.id;
+    setSelectedLanguage(localeFallback);
+  }, [locale, localeFallback, plan?.id]);
+
+  useEffect(() => {
+    if (!availableLanguages.includes(selectedLanguage)) {
+      setSelectedLanguage(localeFallback);
+    }
+  }, [availableLanguages, localeFallback, selectedLanguage]);
 
   const resourceMessages = getMessages(selectedLanguage)?.Pages?.ResourcesPage ?? getMessages("en")?.Pages?.ResourcesPage ?? {};
   const localizedLabels = {
@@ -66,7 +86,6 @@ export default function LessonPlanDetails({ plan, headerAction = null }) {
   return (
     <div className="flex flex-col h-full justify-start gap-4 rounded-lg p-6 border border-black/10 max-w-7xl mx-auto bg-tertiary/20">
       <div className="flex flex-wrap items-center justify-end gap-2">
-        {headerAction}
         <CardLanguageSelect
           availableLanguages={availableLanguages}
           selectedLanguage={selectedLanguage}

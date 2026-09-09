@@ -23,8 +23,9 @@
  * @updated Apr 11, 2025
  */
 "use client";
+import Link from 'next/link';
 import { usePathname, useSearchParams, useRouter } from 'next/navigation';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Modal from "@/components/common/Modal";
 import SingleVideo from './video-components/display/ModalVideo';
 import ModalLessonPlan from './lesson-plan-components/display/ModalLessonPlan';
@@ -33,10 +34,19 @@ export default function ModalContainer() {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const locale = useLocale();
+  const detailsT = useTranslations("Details");
+  const viewItemsT = useTranslations("ViewItems");
   const videoId = searchParams.get("video");
   const lessonPlanId = searchParams.get("lesson-plan");
 
   const router = useRouter();
+
+  const lessonOpenHref = lessonPlanId
+    ? `/${locale}/resources/lesson?id=${encodeURIComponent(String(lessonPlanId))}`
+    : null;
+  const videoOpenHref = videoId
+    ? `/${locale}/resources/video?id=${encodeURIComponent(String(videoId))}`
+    : null;
 
   const closeModal = () => {
     const newParams = new URLSearchParams(searchParams.toString());
@@ -52,35 +62,50 @@ export default function ModalContainer() {
     router.replace(newUrl, { scroll: false });
   };
 
-  const switchLocale = (nextLocale) => {
-    if (!nextLocale || nextLocale === locale) {
-      return;
-    }
-
-    const pathSegments = (pathname || "/").split("/").filter(Boolean);
-    if (pathSegments.length > 0 && ["en", "fr"].includes(pathSegments[0])) {
-      pathSegments[0] = nextLocale;
-    } else {
-      pathSegments.unshift(nextLocale);
-    }
-
-    const nextPath = `/${pathSegments.join("/")}`;
-    const nextQuery = searchParams.toString();
-    const nextUrl = nextQuery ? `${nextPath}?${nextQuery}` : nextPath;
-    router.replace(nextUrl, { scroll: false });
-  };
 
   return (
     <>
-      {videoId && (
-        <Modal onClose={closeModal}>
-          <SingleVideo id={videoId} />
+      {lessonPlanId && (
+        <Modal
+          onClose={closeModal}
+          TopBackGroundClass="bg-primary/50"
+          Title={detailsT("LessonDetails")}
+          HeaderAction={
+            lessonOpenHref ? (
+              <Link
+                href={lessonOpenHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center rounded-full border border-primary/30 bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
+              >
+                {viewItemsT("ViewInNewPage")}
+              </Link>
+            ) : null
+          }
+        >
+          <ModalLessonPlan id={lessonPlanId} />
         </Modal>
       )}
 
-      {lessonPlanId && (
-        <Modal onClose={closeModal}>
-          <ModalLessonPlan id={lessonPlanId} />
+      {videoId && (
+        <Modal
+          onClose={closeModal}
+          TopBackGroundClass="bg-secondary/50"
+          Title={detailsT("VideoDetails")}
+          HeaderAction={
+            videoOpenHref ? (
+              <Link
+                href={videoOpenHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center rounded-full border border-primary/30 bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
+              >
+                {viewItemsT("ViewInNewPage")}
+              </Link>
+            ) : null
+          }
+        >
+          <SingleVideo id={videoId} />
         </Modal>
       )}
     </>

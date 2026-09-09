@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 // utils
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
@@ -24,11 +24,21 @@ export default function VideoCard({
   const t = useTranslations("Pages.ResourcesPage");
   const { trackEvent } = useGoogleAnalytics();
   const locale = useLocale();
-  const initialLanguage = video?.availableLanguages?.includes(locale)
-    ? locale
-    : video?.availableLanguages?.[0] || "en";
 
-  const [selectedLanguage, setSelectedLanguage] = useState(initialLanguage);
+  const availableLanguages = useMemo(
+    () => (Array.isArray(video?.availableLanguages) && video.availableLanguages.length
+      ? video.availableLanguages
+      : ["en"]),
+    [video?.availableLanguages]
+  );
+
+  const initialLanguage = availableLanguages.includes(locale)
+    ? locale
+    : availableLanguages[0] || "en";
+
+  const [selectedLanguage, setSelectedLanguage] = useState(() => initialLanguage);
+  const lastLocaleRef = useRef(locale);
+  const lastVideoIdRef = useRef(video?.id);
 
   useEffect(() => {
     if (forceLanguage && ["en", "fr"].includes(forceLanguage)) {
@@ -37,14 +47,32 @@ export default function VideoCard({
   }, [forceLanguage]);
 
   useEffect(() => {
-    if (forceLanguage) return;
+    if (forceLanguage) {
+      return;
+    }
 
-    const nextLanguage = video?.availableLanguages?.includes(locale)
-      ? locale
-      : video?.availableLanguages?.[0] || "en";
+    const localeChanged = lastLocaleRef.current !== locale;
+    const videoChanged = lastVideoIdRef.current !== video?.id;
 
-    setSelectedLanguage((current) => (current === nextLanguage ? current : nextLanguage));
-  }, [forceLanguage, locale, video?.availableLanguages]);
+    if (!localeChanged && !videoChanged) {
+      return;
+    }
+
+    lastLocaleRef.current = locale;
+    lastVideoIdRef.current = video?.id;
+
+    setSelectedLanguage(initialLanguage);
+  }, [forceLanguage, initialLanguage, locale, video?.id]);
+
+  useEffect(() => {
+    if (forceLanguage) {
+      return;
+    }
+
+    if (!availableLanguages.includes(selectedLanguage)) {
+      setSelectedLanguage(initialLanguage);
+    }
+  }, [availableLanguages, forceLanguage, initialLanguage, selectedLanguage]);
 
   const activeLanguage = forceLanguage && ["en", "fr"].includes(forceLanguage)
     ? forceLanguage
@@ -103,7 +131,7 @@ export default function VideoCard({
           ) : null}
 
           <CardLanguageSelect
-            availableLanguages={video.availableLanguages || [locale]}
+            availableLanguages={availableLanguages}
             selectedLanguage={selectedLanguage}
             onChange={setSelectedLanguage}
             className="w-full max-w-[240px]"

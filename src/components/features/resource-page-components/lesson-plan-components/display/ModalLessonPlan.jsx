@@ -158,18 +158,6 @@ export default function ModalLessonPlan({ id, showOpenInNewPage = true }) {
     <div className="flex flex-col gap-2 h-full w-full">
       <LessonPlanDetails
         plan={plan}
-        headerAction={
-          showOpenInNewPage ? (
-            <Link
-              href={openInNewPageHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
-            >
-              {viewItemsT("ViewInNewPage")}
-            </Link>
-          ) : null
-        }
       />
     </div>
   );
