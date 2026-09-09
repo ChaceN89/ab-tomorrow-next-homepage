@@ -26,19 +26,33 @@
  */
 
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { AnimatePresence } from 'framer-motion';
-import SlideTransition from "../animations/SlideTransition";
+import SlideTransition from "../layout/scroll/SlideTransition";
 
-export default function Modal({ children, onClose }) {
+export default function Modal({ children, onClose, TopBackGroundClass, Title, HeaderAction = null }) {
   const modalRef = useRef(null);
+  const closeTimerRef = useRef(null);
+  const isClosingRef = useRef(false);
 
   const [isVisible, setIsVisible] = useState(true); // Modal visibility state
 
+  const beginClose = useCallback(() => {
+    if (isClosingRef.current) return;
+    isClosingRef.current = true;
+
+    setIsVisible(false);
+    closeTimerRef.current = setTimeout(() => {
+      onClose();
+    }, 500);
+  }, [onClose]);
+
   useEffect(() => {
+    const previousOverflow = document.body.style.overflow;
+
     const handleKeyDown = (e) => {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") beginClose();
     };
 
     document.addEventListener("keydown", handleKeyDown);
@@ -46,28 +60,29 @@ export default function Modal({ children, onClose }) {
 
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
-      document.body.style.overflow = "";
+      if (closeTimerRef.current) {
+        clearTimeout(closeTimerRef.current);
+      }
+      document.body.style.overflow = previousOverflow;
     };
-  }, [onClose]);
+  }, [beginClose]);
 
   const handleOverlayClick = (e) => {
     if (modalRef.current && !modalRef.current.contains(e.target)) {
-      setIsVisible(false); // First trigger animation
-      setTimeout(() => onClose(), 500); // Match SlideTransition duration
+      beginClose();
     }
   };
 
   const handleClose = () => {
-    setIsVisible(false);
-    setTimeout(() => onClose(), 500); // Match SlideTransition duration
+    beginClose();
   };
 
-  
+
   return (
     <div
-      className="fixed inset-0 z-[9990] flex justify-center items-end  bg-black/50 overflow-y-auto h-full w-full overflow-hidden min-w-screen min-h-screen"
+      className={`fixed inset-0 z-[9990] flex justify-center items-end overflow-y-auto h-full w-full overflow-hidden min-w-screen min-h-screen transition-colors duration-500 ${isVisible ? "bg-black/50" : "bg-black/0 pointer-events-none"}`}
       onClick={handleOverlayClick}
-    >    
+    >
       <AnimatePresence>
         {isVisible && (
           <SlideTransition
@@ -81,10 +96,10 @@ export default function Modal({ children, onClose }) {
               ref={modalRef}
               role="dialog"
               aria-modal="true"
-              className="relative bg-white border border-black rounded-lg p-4 shadow-xl w-full 
+              className="relative flex flex-col bg-white border-2 border-black rounded-lg shadow-xl w-full 
               mb-2
               min-w-[85vw] 
-              max-w-[94vw] max-h-[94vh]
+              max-w-[94vw] max-h-[96vh]
 
               md:min-w-[85vw] md:min-h-[80vh]
               md:max-w-[92vw] md:max-h-[89vh]
@@ -92,17 +107,34 @@ export default function Modal({ children, onClose }) {
                               lg:min-h-[90vh]
                               lg:max-h-[93vh]
                               
-               overflow-y-auto custom-scrollbar
+               overflow-hidden
               "
             >
-              <button
-                onClick={handleClose}
-                aria-label="Close modal"
-                className="absolute top-2 right-2 text-secondary hover:text-accent hover:cursor-pointer"
-                >
-                <FaTimes size={22} />
-              </button>
-              {children}
+              <div className={`sticky top-0 z-20 border-b border-black/30 bg-primary/50 px-2 py-2 ${TopBackGroundClass || ""}`}>
+                <div className="relative flex min-h-8 items-center justify-center gap-2">
+                  {HeaderAction ? (
+                    <div className="absolute left-0">{HeaderAction}</div>
+                  ) : null}
+
+                  {Title ? (
+                    <h2 className="px-12 text-center text-sm font-semibold uppercase tracking-wide text-black/85">
+                      {Title}
+                    </h2>
+                  ) : null}
+
+                  <button
+                    onClick={handleClose}
+                    aria-label="Close modal"
+                    className="absolute right-0 inline-flex h-8 w-8 items-center justify-center rounded-full text-secondary transition-colors hover:cursor-pointer hover:bg-black/20 hover:text-accent"
+                  >
+                    <FaTimes size={20} />
+                  </button>
+                </div>
+              </div>
+
+              <div className="flex-1 overflow-y-auto custom-scrollbar p-4">
+                {children}
+              </div>
             </div>
           </SlideTransition>
         )}

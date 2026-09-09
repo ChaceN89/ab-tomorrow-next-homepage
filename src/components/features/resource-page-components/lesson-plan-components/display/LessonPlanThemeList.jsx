@@ -1,0 +1,108 @@
+/**
+ * @file LessonThemeList.jsx
+ * @module UI/Resources/LessonThemeList
+ * @desc Groups and renders lesson plans by theme, similar to video category grouping.
+ */
+
+"use client";
+
+import React, { useEffect, useMemo } from "react";
+import { useLessonPlanResource } from "../LessonPlanResourceContext";
+import LessonPlanTheme from "./LessonPlanTheme";
+
+export default function LessonThemeList() {
+  const {
+    lessonPlans,
+    themeFilters,
+    toolFilters,
+    subjectFilters,
+    gradeFilters,
+    tagFilters,
+    searchText,
+    hasVideos,
+    setNumResults,
+  } = useLessonPlanResource();
+
+  const lowerSearch = searchText.toLowerCase();
+
+  const grouped = useMemo(() => {
+    const nextGrouped = {};
+    const selectedTags = Object.keys(tagFilters).filter((tag) => tagFilters[tag]);
+
+    lessonPlans?.forEach((lp) => {
+      const matchesTheme = themeFilters[lp.theme];
+      const matchesTool =
+        !Object.keys(toolFilters).length ||
+        !lp.tools?.length ||
+        lp.tools.some((t) => toolFilters[t]);
+      const matchesSubject = lp.subjects?.some((s) => subjectFilters[s]);
+      const matchesGrade = lp.grades?.some((g) => gradeFilters[g]);
+      const matchesHasVideos = hasVideos ? (lp.videos?.length || 0) > 0 : true;
+      const matchesTag =
+        selectedTags.length === 0 ||
+        selectedTags.some((tag) => (lp.tags || []).includes(tag));
+
+      const matchesSearch =
+        (lp.title || "").toLowerCase().includes(lowerSearch) ||
+        (lp.description || "").toLowerCase().includes(lowerSearch) ||
+        lp.tags?.some((tag) => tag.toLowerCase().includes(lowerSearch));
+
+      if (
+        matchesTheme &&
+        matchesTool &&
+        matchesSubject &&
+        matchesGrade &&
+        matchesHasVideos &&
+        matchesTag &&
+        matchesSearch
+      ) {
+        if (!nextGrouped[lp.theme]) nextGrouped[lp.theme] = [];
+        nextGrouped[lp.theme].push(lp);
+      }
+    });
+
+    return nextGrouped;
+  }, [
+    gradeFilters,
+    hasVideos,
+    lessonPlans,
+    lowerSearch,
+    tagFilters,
+    subjectFilters,
+    themeFilters,
+    toolFilters,
+  ]);
+
+  const totalResults = useMemo(
+    () => Object.values(grouped).reduce((acc, arr) => acc + arr.length, 0),
+    [grouped]
+  );
+
+  useEffect(() => {
+    setNumResults(totalResults);
+
+    if (totalResults === 0) {
+      const container = document.getElementById("resources-container");
+      if (container) {
+        container.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [setNumResults, totalResults]);
+
+  return (
+    <div className="py-4 space-y-4 mb-4 relative">
+      {Object.keys(grouped).length === 0 && (
+        <div className="text-center h-[40vh] flex items-center justify-center">
+          <div className="space-y-2">
+            <h2 className="text-4xl font-bold">No Results Found</h2>
+            <div className="text-2xl">No lesson plans found. Try adjusting the filters.</div>
+          </div>
+        </div>
+      )}
+
+      {Object.entries(grouped).map(([theme, plans]) => (
+        <LessonPlanTheme key={theme} theme={theme} lessonPlans={plans} />
+      ))}
+    </div>
+  );
+}

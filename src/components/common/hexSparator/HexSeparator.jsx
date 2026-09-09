@@ -9,58 +9,87 @@
  * @prop {number} rows - The number of hexagon rows to display (default: 4).
  * @prop {number} cols - The number of hexagons per row (default: 80).
  * @prop {string} parentClass - Tailwind or custom classes for the outer wrapper. Controls height, padding, and background color.
- *                               Common use: `'bg-primary h-10'` to define color and height of the separator block.
  * @prop {string} hexClass - Classes applied to each hexagon element. Useful for customizing color, opacity, or hover effects.
- *                           Example: `'bg-accent opacity-50'`.
- * @prop {boolean} bottom - If true, renders the grid starting from the bottom up using `flex-col-reverse`. 
- *                          Use this for bottom separators that should bleed into the section above.
- *
- * @usage
- * <HexSeparator 
- *   rows={5} 
- *   cols={60} 
- *   parentClass="bg-secondary h-12"
- *   hexClass="bg-secondary-alt opacity-70"
- *   bottom={true}
- * />
+ * @prop {boolean} bottom - If true, renders the grid starting from the bottom up using `flex-col-reverse`.
+ * @prop {boolean} randomColors - If true, applies a deterministic mixed-color pattern to the hexagons.
  *
  * @author Chace Nielson
  * @created Mar 24, 2025
  * @updated Mar 24, 2025
  */
 
-// styles
-import './HexSeparator.styles.css'; // Import the CSS file for hexagon styles
+"use client";
 
-// Separator.jsx
-export default function HexSeparator({ 
-  rows = 4, 
-  cols = 80, 
-  parentClass = 'bg-primary h-0',
-  hexClass = 'bg-primary-alt opacity-50',
+import "./HexSeparator.styles.css";
+import { useEffect, useMemo, useRef, useState } from "react";
+
+export default function HexSeparator({
+  rows = 4,
+  cols,
+  parentClass = "bg-primary h-0",
+  hexClass = "bg-primary-alt opacity-50",
   bottom = false,
-  randomColors = false 
+  randomColors = false,
+  minCols = 8,
+  overscanCols = 4,
+  maxCells = 3000,
 }) {
+  const containerRef = useRef(null);
+  const [containerWidth, setContainerWidth] = useState(0);
 
-  const colorClasses = ['bg-primary', 'bg-accent', 'bg-tertiary', 'bg-secondary'];
+  useEffect(() => {
+    if (!containerRef.current) return;
 
-  const getRandomColorClass = () => {
-    const randomIndex = Math.floor(Math.random() * colorClasses.length);
-    return colorClasses[randomIndex] + " "+ hexClass;
-  };
+    const updateWidth = () => {
+      if (!containerRef.current) return;
+      setContainerWidth(containerRef.current.clientWidth || 0);
+    };
+
+    updateWidth();
+
+    if (typeof ResizeObserver !== "undefined") {
+      const observer = new ResizeObserver(updateWidth);
+      observer.observe(containerRef.current);
+      return () => observer.disconnect();
+    }
+
+    window.addEventListener("resize", updateWidth);
+    return () => window.removeEventListener("resize", updateWidth);
+  }, []);
+
+  const colorClasses = ["bg-primary", "bg-accent", "bg-tertiary", "bg-secondary"];
+  const HEX_STEP_PX = 60; // width + gap from CSS (41 + 19)
+
+  const computedCols = useMemo(() => {
+    if (typeof cols === "number" && cols > 0) return cols;
+    const baseCols = Math.ceil(containerWidth / HEX_STEP_PX);
+    return Math.max(minCols, baseCols + overscanCols * 2);
+  }, [cols, containerWidth, minCols, overscanCols]);
+
+  const effectiveRows = useMemo(() => {
+    if (!maxCells || maxCells <= 0) return rows;
+    const maxRowsFromCap = Math.max(1, Math.floor(maxCells / Math.max(1, computedCols)));
+    return Math.min(rows, maxRowsFromCap);
+  }, [computedCols, maxCells, rows]);
+
+  function getColorClass(rowIndex, colIndex) {
+    const colorIndex = (rowIndex * 7 + colIndex * 3) % colorClasses.length;
+
+    return `${colorClasses[colorIndex]} ${hexClass}`;
+  }
 
   return (
-    <div className={`relative ${parentClass} `}>
-      <div className={`absolute bottom-0 hex-grid  ${bottom && 'bottom-hex-grid'}`}>
-        {Array.from({ length: rows }).map((_, rowIndex) => (
+    <div ref={containerRef} className={`relative ${parentClass}`}>
+      <div className={`absolute bottom-0 hex-grid ${bottom ? "bottom-hex-grid" : ""}`}>
+        {Array.from({ length: effectiveRows }).map((_, rowIndex) => (
           <div
             key={`row-${rowIndex}`}
-            className={`hex-row ${rowIndex % 2 !== 0 ? 'hex-row-offset' : ''}`}
+            className={`hex-row ${rowIndex % 2 !== 0 ? "hex-row-offset" : ""}`}
           >
-            {Array.from({ length: cols }).map((_, colIndex) => (
+            {Array.from({ length: computedCols }).map((_, colIndex) => (
               <div
                 key={`hex-${rowIndex}-${colIndex}`}
-                className={`hexagon ${randomColors ? getRandomColorClass() : hexClass}`}
+                className={`hexagon ${randomColors ? getColorClass(rowIndex, colIndex) : hexClass}`}
               />
             ))}
           </div>

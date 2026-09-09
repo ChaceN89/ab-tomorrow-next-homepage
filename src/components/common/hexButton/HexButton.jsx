@@ -41,7 +41,7 @@
 // links and styles
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
-import useGoogleAnalytics from '@/analytics/useGoogleAnalytics';
+import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import "./HexButton.styles.css";
 
 export default function HexButton({

@@ -1,0 +1,36 @@
+/**
+ * @file VideoCategory.jsx
+ * @module UI/Resources/VideoCategory
+ * @desc Renders a single video category section with a title and a grid of MediaFrames.
+ *
+ * @props {string} category - The name of the category.
+ * @props {Array} videos - The list of videos in this category.
+ */
+
+
+import React from "react";
+import { Element } from "react-scroll";
+
+// components
+import VideoCard from "./VideoCard";
+
+export default function VideoCategory({ category, videos = [] }) {
+  if (!videos.length) return null;
+
+  return (
+    <Element
+      name={category}
+      className="bg-accent/30 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
+    >
+      <div className="relative ">
+        <h2 className="text-4xl font-bold border-b border-black py-4">{category}</h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4 my-4 ">
+          {videos.map((video) => (
+            <VideoCard video={video} key={video.id} />
+          ))}
+        </div>
+      </div>
+    </Element>
+  );
+}

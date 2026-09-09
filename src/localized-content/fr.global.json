@@ -1,0 +1,78 @@
+{
+  "Other": {
+    "launchSimulator": "Lancer le simulateur",
+    "comingSoon": "Bientôt disponible!",
+    "signUp": "S’inscrire",
+    "lessonPlans": "Plans de leçons",
+    "ExploreTheModule": "Explorer le module",
+    "ModuleFeatures": "Fonctionnalités du module"
+  },
+  "NavBar": {
+    "brand": "Alberta Tomorrow",
+    "resources": {
+      "label": "Ressources",
+      "landUseSimulator": "Simulateur d’utilisation des terres",
+      "lessonPlans": "Plans de leçons",
+      "videos": "Vidéos"
+    },
+    "links": {
+      "home": "Accueil",
+      "intro": "Introduction",
+      "tools": "Outils",
+      "education": "Éducation",
+      "about": "À propos",
+      "donate": "Faire un don",
+      "makeADonation": "Faire un don"
+    },
+    "learnMore": {
+      "label": "Plus",
+      "faqs": "FAQ",
+      "boardOfDirectors": "Conseil d’administration",
+      "partners": "Partenaires",
+      "events": "Événements",
+      "contact": "Nous joindre"
+    },
+    "mobile": {
+      "label": "Navigation"
+    }
+  },
+  "Footer": {
+    "contact": {
+      "title": "Contactez-nous",
+      "executiveDirector": "Directrice générale d’Alberta Tomorrow :",
+      "email": "Courriel :"
+    },
+    "support": {
+      "title": "Soutenez Alberta Tomorrow",
+      "description": "Aidez à maintenir la gratuité d’Alberta Tomorrow en faisant un don!"
+    },
+    "quickLinks": {
+      "title": "Raccourcis"
+    },
+    "educationTools": {
+      "title": "Outils pédagogiques"
+    },
+    "legal": {
+      "title": "Inscription et mentions légales",
+      "signUp": "S’inscrire",
+      "privacyPolicy": "Politique de confidentialité",
+      "termsOfUse": "Conditions d’utilisation"
+    },
+    "bottomDescription": "La Alberta Tomorrow Foundation est entièrement sans but lucratif. Elle est une société sans but lucratif enregistrée en Alberta et bénéficiant du statut d’organisme de bienfaisance auprès de l’Agence du revenu du Canada, qui se consacre à la promotion d’une planification durable de l’utilisation des terres en Alberta."
+  },
+  "NotFoundPage": {
+    "heading": "Oups ! Vous n’êtes plus sur la carte.",
+    "descriptionLine1": "La page ou la ressource que vous recherchez n’existe pas ou a peut-être été déplacée.",
+    "descriptionLine2": "Mais pas d’inquiétude — remettons-vous sur la bonne voie.",
+    "backHome": "Retour à l’accueil"
+  },
+  "ViewItems": {
+    "ViewInNewPage": "Voir dans une nouvelle page",
+    "missingVideoId": "Identifiant de la vidéo manquant."
+  },
+  "Details": {
+    "LessonDetails": "Détails de la leçon",
+    "VideoDetails": "Détails de la vidéo",
+    "ViewOnYouTube": "Regarder sur YouTube"
+  }
+}

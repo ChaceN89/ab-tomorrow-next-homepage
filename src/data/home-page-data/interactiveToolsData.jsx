@@ -5,37 +5,42 @@
  *
  * @author Chace Nielson
  * @created Mar 25, 2025
- * @updated Mar 25, 2025
+ * @updated July 8, 2026 - set up translations
  */
 
 
-export const interactiveToolsDataTitles ={
-  title: 'Explore Our Interactive Tools',
-  subtitle: <>Use our powerful <span className='text-accent'>educational tools</span> to explore land use, energy sustainability, and wildlife conservation in Alberta.</>
+export const interactiveToolsDataTitles = {
+  // translation keys within `HomePage.InteractiveTools`
+  titleKey: 'title',
+  subtitleKey: 'description',
 }
 
 export const interactiveToolsData = [
   {
-    name: 'Land Use Simulator',
+    id: 'landUseSimulator',
+    nameKey: 'tools.landUseSimulator.title',
     icon: "/site-logos/logo-lg.png",
-    description: 'Explore how land use decisions impact Alberta’s landscapes. Compare past and present, create custom development plans, and analyze the effects of agriculture, oil & gas, forestry, and more.',
+    descriptionKey: 'tools.landUseSimulator.description',
     link: 'https://www.simulator.albertatomorrow.ca',
-    buttonText: 'Try the Simulator',
+    inDevelopment: false,
+    buttonTextKey: 'tools.landUseSimulator.button',
   },
   {
-    name: 'Energy Tomorrow',
+    id: 'energyTomorrow',
+    nameKey: 'tools.energyTomorrow.title',
     icon: "/tool-logos/energy-tomorrow-logo.png",
-    description: 'Explore how Alberta’s energy systems affect the economy, environment, and communities. Learn about sustainable energy options, emissions, and the challenges of balancing energy needs with climate goals.',
+    descriptionKey: 'tools.energyTomorrow.description',
     inDevelopment: true,
     link: null,
-    buttonText: 'Coming Soon',
+    buttonTextKey: 'tools.energyTomorrow.button',
   },
   {
-    name: 'Wildlife Tomorrow',
+    id: 'wildlifeTomorrow',
+    nameKey: 'tools.wildlifeTomorrow.title',
     icon: "/tool-logos/wildlife-tomorrow-logo.png",
-    description: 'Explores how climate change and human activity impact wildlife habitats across Alberta. Learn about conservation efforts, vulnerable species, and how our choices shape the future of biodiversity.',
+    descriptionKey: 'tools.wildlifeTomorrow.description',
     inDevelopment: true,
     link: null,
-    buttonText: 'Coming Soon',
+    buttonTextKey: 'tools.wildlifeTomorrow.button',
   },
 ];

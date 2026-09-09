@@ -1,0 +1,31 @@
+/**
+ * @file layout.jsx
+ * @module Layout/Resources
+ * @desc Layout wrapper for the Resources section. This layout is used to display
+ *       the ResourcePage component and include nested pages such as Lesson Plans and Videos.
+ *
+ * @author Chace Nielson
+ * @created Apr 1, 2025
+ * @updated Apr 1, 2025
+ */
+
+import ResourceHeader from "@/components/features/resource-page-components/ResourceHeader";
+import { LessonPlanResourceProvider } from "@/components/features/resource-page-components/lesson-plan-components/LessonPlanResourceContext";
+import { VideoResourceProvider } from "@/components/features/resource-page-components/video-components/VideoResourceContext";
+
+
+import ModalContainer from "@/components/features/resource-page-components/ModalContainer";
+
+export default async function ResourceLayout({ children, params }) {
+  const { locale } = await params;
+
+  return (
+    <LessonPlanResourceProvider>
+      <VideoResourceProvider>
+        <ResourceHeader locale={locale} />
+        <ModalContainer />
+        <main id="resources-container" className="min-h-[50vh] pb-64">{children}</main>
+      </VideoResourceProvider>
+    </LessonPlanResourceProvider>
+  );
+}
