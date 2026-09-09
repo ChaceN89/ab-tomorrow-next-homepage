@@ -11,7 +11,7 @@
 import React from 'react'
 import { getTranslations } from 'next-intl/server'
 import { getPageTitle } from '@/utils/metadataUtils'
-import LessonDisplay from '@/components/features/resource-page-components/components/lesson-plan-components/LessonDisplay'
+import LessonDisplay from '@/components/features/resource-page-components/lesson-plan-components/LessonDisplay'
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;

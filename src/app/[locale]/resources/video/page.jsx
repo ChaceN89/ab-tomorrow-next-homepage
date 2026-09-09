@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 
-import ModalVideo from "@/components/features/resource-page-components/components/video-components/display/ModalVideo";
+import ModalVideo from "@/components/features/resource-page-components/video-components/display/ModalVideo";
 
 export default function SingleVideoPage() {
   const searchParams = useSearchParams();

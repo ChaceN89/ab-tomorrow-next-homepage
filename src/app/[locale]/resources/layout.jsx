@@ -9,12 +9,12 @@
  * @updated Apr 1, 2025
  */
 
-import ResourceHeader from "@/components/features/resource-page-components/components/ResourceHeader";
-import { LessonPlanResourceProvider } from "@/components/features/resource-page-components/components/lesson-plan-components/LessonPlanResourceContext";
-import { VideoResourceProvider } from "@/components/features/resource-page-components/components/video-components/VideoResourceContext";
+import ResourceHeader from "@/components/features/resource-page-components/ResourceHeader";
+import { LessonPlanResourceProvider } from "@/components/features/resource-page-components/lesson-plan-components/LessonPlanResourceContext";
+import { VideoResourceProvider } from "@/components/features/resource-page-components/video-components/VideoResourceContext";
 
 
-import ModalContainer from "@/components/features/resource-page-components/components/ModalContainer";
+import ModalContainer from "@/components/features/resource-page-components/ModalContainer";
 
 export default async function ResourceLayout({ children, params }) {
   const { locale } = await params;

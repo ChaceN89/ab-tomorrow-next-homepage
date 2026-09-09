@@ -11,7 +11,7 @@ import MediaFrame from "@/components/common/mediaFrame/MediaFrame";
 import Link from "next/link";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
-import CardLanguageSelect from "../../../../../layout/language/CardLanguageSelect";
+import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
 
 export default function VideoCard({

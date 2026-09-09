@@ -10,7 +10,7 @@
 import React from 'react'
 import { getTranslations } from 'next-intl/server'
 import { getPageTitle } from '@/utils/metadataUtils'
-import VideoDisplay from '@/components/features/resource-page-components/components/video-components/VideoDisplay'
+import VideoDisplay from '@/components/features/resource-page-components/video-components/VideoDisplay'
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 
-import ModalLessonPlan from "@/components/features/resource-page-components/components/lesson-plan-components/display/ModalLessonPlan";
+import ModalLessonPlan from "@/components/features/resource-page-components/lesson-plan-components/display/ModalLessonPlan";
 
 export default function SingleLessonPage() {
   const searchParams = useSearchParams();

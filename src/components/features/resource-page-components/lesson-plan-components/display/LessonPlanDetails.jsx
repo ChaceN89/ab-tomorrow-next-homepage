@@ -16,7 +16,7 @@ import TagList from "./TagList";
 import LinkListSection from "./LinkListSection";
 import ModalVideo from "../../video-components/display/ModalVideo";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
-import CardLanguageSelect from "../../../../../layout/language/CardLanguageSelect";
+import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
 
 export default function LessonPlanDetails({ plan, headerAction = null }) {
