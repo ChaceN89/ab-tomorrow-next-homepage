@@ -25,9 +25,8 @@
  */
 import React, { useEffect, useState } from 'react';
 import { useLocale } from 'next-intl';
-import { useTranslations } from 'next-intl';
 import { useVideoResource } from '../VideoResourceContext';
-import Video from './VideoCard';
+import VideoDetails from './VideoDetails';
 import {
   formatCategoryLabel,
   getLocalizedValue,
@@ -36,12 +35,9 @@ import {
 
 export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true }) {
   const locale = useLocale();
-  const viewItemsT = useTranslations("ViewItems");
   const { videos } = useVideoResource();
   const [video, setVideo] = useState(null);
   const [loading, setLoading] = useState(true);
-
-  const openInNewPageHref = `/${locale}/resources/video?id=${encodeURIComponent(String(id || ""))}`;
 
   useEffect(() => {
     // Try to find video from context
@@ -87,10 +83,10 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
               id: lessonPlanId,
               title: getLocalizedValue(plan?.title, locale) || (locale === 'fr' ? 'Plan de lecon' : 'Lesson Plan'),
               titleByLanguage,
-              link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+              link: `/${locale}/resources/lesson?id=${lessonPlanId}`,
               linkByLanguage: {
-                en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-                fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+                en: `/en/resources/lesson?id=${lessonPlanId}`,
+                fr: `/fr/resources/lesson?id=${lessonPlanId}`,
               },
             };
           });
@@ -149,13 +145,7 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
 
   return (
     <div className="flex flex-col gap-2 h-full w-full">
-      <Video
-        video={video}
-        noExpand={preventExpand}
-        forceLanguage={forceLanguage}
-        openInNewPageHref={showOpenInNewPage ? openInNewPageHref : null}
-        openInNewPageLabel={viewItemsT("ViewInNewPage")}
-      />
+      <VideoDetails video={video} />
     </div>
   )
 

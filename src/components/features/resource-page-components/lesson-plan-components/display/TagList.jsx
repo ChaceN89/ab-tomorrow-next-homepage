@@ -23,12 +23,11 @@
 
 import React, { useState } from "react";
 
-export default function TagList({ label, items = [], pillClass = "" }) {
+export default function TagList({ label, items = [], pillClass = "", numberOVisiblefItems = 30 }) {
   const [expanded, setExpanded] = useState(false);
 
   if (!items.length) return null;
 
-  const numberOVisiblefItems = 20;
 
   const visibleItems = expanded ? items : items.slice(0, numberOVisiblefItems);
   const hiddenCount = items.length - numberOVisiblefItems;

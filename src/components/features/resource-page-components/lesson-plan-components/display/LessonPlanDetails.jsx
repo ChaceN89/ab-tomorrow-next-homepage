@@ -14,10 +14,10 @@ import { useLocale, useTranslations } from "next-intl";
 import { FaClipboardList, FaFilePdf, FaLink, FaRegClock } from "react-icons/fa";
 import TagList from "./TagList";
 import LinkListSection from "./LinkListSection";
-import ModalVideo from "../../video-components/display/ModalVideo";
 import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
+import VideoWithinLessonPlan from "../../video-components/display/VideoWithinLessonPlan";
 
 export default function LessonPlanDetails({ plan }) {
   const t = useTranslations("Pages.ResourcesPage");
@@ -84,7 +84,7 @@ export default function LessonPlanDetails({ plan }) {
   }, [plan, selectedLanguage]);
 
   return (
-    <div className="flex flex-col h-full justify-start gap-4 rounded-lg p-6 border border-black/10 max-w-7xl mx-auto bg-tertiary/20">
+    <div className="flex flex-col h-full justify-start gap-4 rounded-lg p-2 border border-black/10 max-w-7xl mx-auto bg-tertiary/20">
       <div className="flex flex-wrap items-center justify-end gap-2">
         <CardLanguageSelect
           availableLanguages={availableLanguages}
@@ -153,7 +153,12 @@ export default function LessonPlanDetails({ plan }) {
         <TagList label={localizedLabels.subjects} items={selectedContent.subjects} pillClass="bg-blue-100 border border-blue-300 text-blue-700" />
         <TagList label={localizedLabels.tools} items={selectedContent.tools} pillClass="bg-green-100 border border-green-300 text-green-700" />
         <div className="col-span-3">
-          <TagList label={localizedLabels.tags} items={selectedContent.tags} pillClass="bg-yellow-100 border border-yellow-300 text-yellow-700" />
+          <TagList
+            label={localizedLabels.tags}
+            items={selectedContent.tags}
+            pillClass="bg-yellow-100 border border-yellow-300 text-yellow-700"
+            numberOVisiblefItems={5}
+          />
         </div>
       </div>
 
@@ -163,7 +168,7 @@ export default function LessonPlanDetails({ plan }) {
           <ul className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
             {plan.videos.map((vid, idx) => (
               <li key={idx}>
-                <ModalVideo id={vid} preventExpand={false} forceLanguage={selectedLanguage} />
+                <VideoWithinLessonPlan id={vid} forceLanguage={selectedLanguage} />
               </li>
             ))}
           </ul>

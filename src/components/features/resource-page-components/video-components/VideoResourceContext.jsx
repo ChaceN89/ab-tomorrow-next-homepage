@@ -43,8 +43,8 @@ export function VideoResourceProvider({ children }) {
       .map((lessonPlanId) => {
         const plan = lessonPlanMap.get(lessonPlanId);
         const linkByLanguage = {
-          en: `/en/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
-          fr: `/fr/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+          en: `/en/resources/lesson?id=${lessonPlanId}`,
+          fr: `/fr/resources/lesson?id=${lessonPlanId}`,
         };
 
         return {
@@ -56,7 +56,7 @@ export function VideoResourceProvider({ children }) {
             en: getLocalizedValue(plan?.title, "en") || "Lesson Plan",
             fr: getLocalizedValue(plan?.title, "fr") || "Plan de lecon",
           },
-          link: `/${locale}/resources/lesson-plans?lesson-plan=${lessonPlanId}`,
+          link: `/${locale}/resources/lesson?id=${lessonPlanId}`,
           linkByLanguage,
         };
       })
