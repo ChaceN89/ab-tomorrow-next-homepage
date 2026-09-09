@@ -9,7 +9,6 @@
 
 import React from "react";
 import { Element } from "react-scroll";
-import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import LessonPlanCard from "./LessonPlanCard";
 
 export default function LessonPlanTheme({ theme, lessonPlans = [] }) {
@@ -18,7 +17,7 @@ export default function LessonPlanTheme({ theme, lessonPlans = [] }) {
   return (
     <Element
       name={theme}
-      className="bg-tertiary/50 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
+      className="bg-tertiary/30 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
     >
       <div className="relative">
         <h2 className="text-4xl font-bold border-b border-black py-4">{theme}</h2>

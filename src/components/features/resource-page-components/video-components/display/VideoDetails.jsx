@@ -74,7 +74,7 @@ export default function VideoDetails({ video }) {
       </div>
 
       <div className="border rounded-md bg-gray-50 relative overflow-hidden">
-        <HexSeparator rows={40} hexClass="bg-primary/15" />
+        <HexSeparator rows={40} hexClass="bg-secondary/15" />
         <div className="p-4 flex items-start gap-2">
           <FaRegPlayCircle className="text-secondary text-4xl flex-shrink-0" />
           <div className="space-y-2 min-w-0 flex-1">

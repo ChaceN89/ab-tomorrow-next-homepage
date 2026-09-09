@@ -20,7 +20,7 @@ export default function VideoCategory({ category, videos = [] }) {
   return (
     <Element
       name={category}
-      className="bg-accent/50 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
+      className="bg-accent/30 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
     >
       <div className="relative ">
         <h2 className="text-4xl font-bold border-b border-black py-4">{category}</h2>
