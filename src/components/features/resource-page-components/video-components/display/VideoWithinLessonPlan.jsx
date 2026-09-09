@@ -147,7 +147,7 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
   return (
     <div className="h-full">
       <div className="flex h-full flex-col rounded-lg border border-black/10 bg-gray-50 p-2 shadow-sm">
-        <div className="mb-2 h-[3rem] overflow-hidden">
+        <div className="mb-2 min-h-[2.5rem]">
           <h4 className="text-base font-semibold leading-snug text-black line-clamp-2">{selectedTitle}</h4>
         </div>
 
