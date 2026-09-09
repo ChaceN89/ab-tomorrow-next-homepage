@@ -26,19 +26,33 @@
  */
 
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { AnimatePresence } from 'framer-motion';
 import SlideTransition from "../layout/scroll/SlideTransition";
 
 export default function Modal({ children, onClose }) {
   const modalRef = useRef(null);
+  const closeTimerRef = useRef(null);
+  const isClosingRef = useRef(false);
 
   const [isVisible, setIsVisible] = useState(true); // Modal visibility state
 
+  const beginClose = useCallback(() => {
+    if (isClosingRef.current) return;
+    isClosingRef.current = true;
+
+    setIsVisible(false);
+    closeTimerRef.current = setTimeout(() => {
+      onClose();
+    }, 500);
+  }, [onClose]);
+
   useEffect(() => {
+    const previousOverflow = document.body.style.overflow;
+
     const handleKeyDown = (e) => {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") beginClose();
     };
 
     document.addEventListener("keydown", handleKeyDown);
@@ -46,26 +60,27 @@ export default function Modal({ children, onClose }) {
 
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
-      document.body.style.overflow = "";
+      if (closeTimerRef.current) {
+        clearTimeout(closeTimerRef.current);
+      }
+      document.body.style.overflow = previousOverflow;
     };
-  }, [onClose]);
+  }, [beginClose]);
 
   const handleOverlayClick = (e) => {
     if (modalRef.current && !modalRef.current.contains(e.target)) {
-      setIsVisible(false); // First trigger animation
-      setTimeout(() => onClose(), 500); // Match SlideTransition duration
+      beginClose();
     }
   };
 
   const handleClose = () => {
-    setIsVisible(false);
-    setTimeout(() => onClose(), 500); // Match SlideTransition duration
+    beginClose();
   };
 
 
   return (
     <div
-      className="fixed inset-0 z-[9990] flex justify-center items-end bg-black/50 overflow-y-auto h-full w-full overflow-hidden min-w-screen min-h-screen"
+      className={`fixed inset-0 z-[9990] flex justify-center items-end overflow-y-auto h-full w-full overflow-hidden min-w-screen min-h-screen transition-colors duration-500 ${isVisible ? "bg-black/50" : "bg-black/0 pointer-events-none"}`}
       onClick={handleOverlayClick}
     >
       <AnimatePresence>

@@ -23,13 +23,16 @@
  * @updated Apr 11, 2025
  */
 "use client";
-import { useSearchParams, useRouter } from 'next/navigation';
+import { usePathname, useSearchParams, useRouter } from 'next/navigation';
+import { useLocale } from 'next-intl';
 import Modal from "@/components/common/Modal";
 import SingleVideo from './video-components/display/ModalVideo';
 import ModalLessonPlan from './lesson-plan-components/display/ModalLessonPlan';
 
 export default function ModalContainer() {
   const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const locale = useLocale();
   const videoId = searchParams.get("video");
   const lessonPlanId = searchParams.get("lesson-plan");
 
@@ -38,16 +41,33 @@ export default function ModalContainer() {
   const closeModal = () => {
     const newParams = new URLSearchParams(searchParams.toString());
 
-    if (videoId) newParams.delete("video");
-    if (lessonPlanId) newParams.delete("lesson-plan");
+    newParams.delete("video");
+    newParams.delete("lesson-plan");
 
     // Clean up the URL
-    const basePath = window.location.pathname; // e.g., /resources or /resources/videos
     const newQuery = newParams.toString();
-    const newUrl = newQuery ? `${basePath}?${newQuery}` : basePath;
+    const newUrl = newQuery ? `${pathname}?${newQuery}` : pathname;
 
-    // push the new url
-    router.push(newUrl, { scroll: false });
+    // replace the URL so direct-link modal close does not add extra history entries
+    router.replace(newUrl, { scroll: false });
+  };
+
+  const switchLocale = (nextLocale) => {
+    if (!nextLocale || nextLocale === locale) {
+      return;
+    }
+
+    const pathSegments = (pathname || "/").split("/").filter(Boolean);
+    if (pathSegments.length > 0 && ["en", "fr"].includes(pathSegments[0])) {
+      pathSegments[0] = nextLocale;
+    } else {
+      pathSegments.unshift(nextLocale);
+    }
+
+    const nextPath = `/${pathSegments.join("/")}`;
+    const nextQuery = searchParams.toString();
+    const nextUrl = nextQuery ? `${nextPath}?${nextQuery}` : nextPath;
+    router.replace(nextUrl, { scroll: false });
   };
 
   return (

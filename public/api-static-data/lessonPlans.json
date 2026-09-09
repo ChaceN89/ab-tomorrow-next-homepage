@@ -1,6 +1,6 @@
 [
   {
-    "id": "climate-01a-going-going-going-gone",
+    "id": "climate-01-going-going-going-gone",
     "themeId": "climate-change",
     "title": {
       "en": "Going Going Going Gone: Climate Change and the Columbia Icefield",
@@ -28,7 +28,7 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Climate Myths and Misconceptions: Slide Show",
+          "title": "Climate Change: Truth and Misconceptions - Presentation Slides",
           "url": "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk"
         }
       ],
@@ -45,7 +45,7 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Mythes et idées fausses sur les changements climatiques : présentation",
+          "title": "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
           "url": "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr"
         }
       ]
@@ -62,7 +62,8 @@
     "subjectIds": [
       "science",
       "biology",
-      "cts"
+      "cts",
+      "outdoor-environmental-education"
     ],
     "searchTerms": {
       "en": [
@@ -118,19 +119,19 @@
     "relatedResources": []
   },
   {
-    "id": "climate-02a-investigating-climate-change",
+    "id": "climate-02-climate-change-in-alberta-mild-med-hot",
     "themeId": "climate-change",
     "title": {
-      "en": "Climate Change in Alberta",
-      "fr": "Changements climatiques en Alberta"
+      "en": "Climate Change in Alberta: Investigating Mild Med Hot Climate Scenarios",
+      "fr": "Changements climatiques en Alberta : étudier les scénarios climatiques doux, moyens et chauds"
     },
     "description": {
       "en": "Students will use the Alberta Tomorrow simulator to investigate different climate change scenarios and see the consequences of different futures and the benefits of using beneficial management practices.",
       "fr": "Les élèves utiliseront le simulateur d’Alberta Tomorrow pour étudier différents scénarios de changements climatiques et voir les répercussions des différents avenirs et les avantages d’appliquer les pratiques de gestion bénéfiques."
     },
     "approximateTime": {
-      "en": "N/A",
-      "fr": "N/A"
+      "en": "90 min",
+      "fr": "90 min"
     },
     "files": {
       "en": [
@@ -140,19 +141,9 @@
           "url": "https://docs.google.com/document/d/1kymo9-CGBx6pPJtg5JnaGtfxYDVF_yGGFTJGeLc-ul4"
         },
         {
-          "fileType": "lesson-plan",
-          "title": "Science 6 Climate Change in Alberta - Lesson Plan",
-          "url": "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ"
-        },
-        {
           "fileType": "student-worksheet",
-          "title": "Climate Change in Alberta - Student Worksheet",
-          "url": "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM"
-        },
-        {
-          "fileType": "student-worksheet",
-          "title": "Energy Resources and Climate Change in Alberta - Student Worksheet",
-          "url": "N/A"
+          "title": "Climate Change in Alberta: Using the Alberta Tomorrow Simulator: Investigating Mild, Medium and Hot Scenarios Student Worksheet",
+          "url": "https://docs.google.com/document/d/11HWj4NpysAj7OpfOnATllkD-x4TVCevlpOZLTDhbZhU"
         },
         {
           "fileType": "presentation-slides",
@@ -163,23 +154,13 @@
       "fr": [
         {
           "fileType": "lesson-plan",
-          "title": "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
+          "title": "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
           "url": "https://docs.google.com/document/d/1mzr-jLVldiHcQmJdBxeQKTclW3nEChuA"
         },
         {
-          "fileType": "lesson-plan",
-          "title": "Sciences, 6e année, Changements climatiques en Alberta – plan de leçon",
-          "url": "https://docs.google.com/document/d/1foXxyndlaQ1SCCIg34hnse3Cmd0o4L0q"
-        },
-        {
           "fileType": "student-worksheet",
-          "title": "Changements climatiques en Alberta – feuille de travail de l’élève",
-          "url": "https://docs.google.com/document/d/1o-ZVm2iDaavBgXvBg0zEArZjEU4npiFq"
-        },
-        {
-          "fileType": "student-worksheet",
-          "title": "Ressources énergétiques et changements climatiques – présentation PowerPoint",
-          "url": "N/A"
+          "title": "Changements climatiques en Alberta : utiliser le simulateur d’Alberta Tomorrow : feuille de travail sur les scénarios doux, moyens et chauds",
+          "url": "https://docs.google.com/document/d/1W1cEJAggaNk5jpMf0KrTp8RKRK40d2Yg"
         },
         {
           "fileType": "presentation-slides",
@@ -201,7 +182,9 @@
     "subjectIds": [
       "social-studies",
       "science",
-      "biology"
+      "biology",
+      "cts",
+      "outdoor-environmental-education"
     ],
     "searchTerms": {
       "en": [
@@ -294,9 +277,9 @@
         "Investigate the impact of climate change on our environment and economy"
       ],
       "fr": [
-        "Étudier l’effet que peuvent avoir les changements climatiques sur la terre, les plantes, les humains et les autres animaux.",
-        "Examiner les actions personnelles qui peuvent être prises pour réduire les changements climatiques.",
-        "Étudier l’effet de la réduction des gaz à effet de serre nets."
+        "Étudier les effets des changements climatiques sur les précipitations et le climat en Alberta.",
+        "Étudier les effets des changements climatiques sur les régions naturelles de l’Alberta.",
+        "Étudier les effets des changements climatiques sur notre environnement et notre économie."
       ]
     },
     "videoIds": [
@@ -305,7 +288,7 @@
     "relatedResources": []
   },
   {
-    "id": "climate-03a-water-quality-alberta-glaciers",
+    "id": "climate-03-water-quality-climate-change-and-albertas-glaciers",
     "themeId": "climate-change",
     "title": {
       "en": "Water Quality, Climate Change and Alberta's Glaciers",
@@ -333,7 +316,7 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Glaciers in Alberta (Google Slides)",
+          "title": "Glaciers in Alberta: Slide Show",
           "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
         }
       ],
@@ -350,8 +333,8 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Les glaciers en Alberta (diapositives Google)",
-          "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
+          "title": "Les glaciers en Alberta : présentation PowerPoint",
+          "url": "https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li"
         }
       ]
     },
@@ -432,6 +415,107 @@
     ]
   },
   {
+    "id": "climate-04-science-6-climate-change-in-alberta",
+    "themeId": "climate-change",
+    "title": {
+      "en": "Sc 6: Climate Change in Alberta",
+      "fr": "Sc 6 : Changements climatiques en Alberta"
+    },
+    "description": {
+      "en": "In this activity, students will look at climate change and how it is impacting Alberta.",
+      "fr": "Dans cette activité, les élèves examineront les changements climatiques et la façon dont ils touchent l’Alberta."
+    },
+    "approximateTime": {
+      "en": "3 classes (45 min each)",
+      "fr": "3 cours (45 min chacun)"
+    },
+    "files": {
+      "en": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Climate Change in Alberta: Lesson Plan (Sc 6)",
+          "url": "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Climate Change in Alberta: Student Worksheet",
+          "url": "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Energy Resources and Climate Change in Alberta - Presentation Slides",
+          "url": "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Climate Change: Truth and Misconceptions - Presentation Slides",
+          "url": "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk"
+        }
+      ],
+      "fr": [
+        {
+          "fileType": "lesson-plan",
+          "title": "Changements climatiques en Alberta : plan de leçon (Sc 6)",
+          "url": "https://docs.google.com/document/d/1foXxyndlaQ1SCCIg34hnse3Cmd0o4L0q"
+        },
+        {
+          "fileType": "student-worksheet",
+          "title": "Changements climatiques en Alberta : feuille de travail de l’élève",
+          "url": "https://docs.google.com/document/d/1o-ZVm2iDaavBgXvBg0zEArZjEU4npiFq"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Ressources énergétiques et changements climatiques en Alberta – présentation PowerPoint",
+          "url": "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt"
+        },
+        {
+          "fileType": "presentation-slides",
+          "title": "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
+          "url": "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "science 6",
+        "climate change",
+        "alberta",
+        "energy",
+        "future",
+        "simulator"
+      ],
+      "fr": [
+        "sciences 6",
+        "changements climatiques",
+        "Alberta",
+        "énergie",
+        "avenir",
+        "simulateur"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "ES 1.1 Students investigate climate, changes in climate and the impact of climate change on Earth.",
+        "ES 1.3 Students investigate climate, changes in climate, and the impact of climate change on Earth."
+      ],
+      "fr": [
+        "ES 1.1 Les élèves étudient le climat, les changements climatiques et l’effet des changements climatiques sur la Terre.",
+        "ES 1.3 Les élèves étudient le climat, les changements climatiques et l’effet des changements climatiques sur la Terre."
+      ]
+    },
+    "videoIds": [
+      "landscape-01b-climate-change",
+      "soc-03d-hydrocarbon-production"
+    ],
+    "relatedResources": []
+  },
+  {
     "id": "glaciers-01b-intro-to-glaciers",
     "themeId": "glaciers-and-watersheds",
     "title": {
@@ -460,7 +544,7 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Glaciers in Alberta Slide Show",
+          "title": "Glaciers in Alberta: Slide Show",
           "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
         }
       ],
@@ -478,7 +562,7 @@
         {
           "fileType": "presentation-slides",
           "title": "Les glaciers en Alberta : présentation PowerPoint",
-          "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
+          "url": "https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li"
         }
       ]
     },
@@ -587,7 +671,7 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Glaciers in Alberta Slide Show",
+          "title": "Glaciers in Alberta: Slide Show",
           "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
         }
       ],
@@ -604,8 +688,8 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Les glaciers en Alberta : présentation",
-          "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
+          "title": "Les glaciers en Alberta : présentation PowerPoint",
+          "url": "https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li"
         }
       ]
     },
@@ -843,7 +927,7 @@
         {
           "fileType": "presentation-slides",
           "title": "Les glaciers en Alberta : présentation PowerPoint",
-          "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
+          "url": "https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li/"
         }
       ]
     },
@@ -934,7 +1018,7 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Glaciers in Alberta Slide Show",
+          "title": "Glaciers in Alberta: Slide Show",
           "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
         }
       ],
@@ -946,8 +1030,8 @@
         },
         {
           "fileType": "presentation-slides",
-          "title": "Les glaciers en Alberta : présentation",
-          "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
+          "title": "Les glaciers en Alberta : présentation PowerPoint",
+          "url": "https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li/"
         }
       ]
     },
@@ -1272,34 +1356,34 @@
         {
           "fileType": "lesson-plan",
           "title": "Governments Have it Rough!: Lesson Plan",
-          "url": "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI/edit"
+          "url": "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI"
         },
         {
           "fileType": "student-worksheet",
           "title": "Governments Have it Rough: Student Worksheet",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/11H-NnD8zzI7BCLU7fPeKvzeL0o_zJoVh"
         },
         {
           "fileType": "answer-key",
           "title": "Governments Have it Rough: Answer Key",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/17keBX7XHnluSLVzg9NDtJZUppjR_uo6s"
         }
       ],
       "fr": [
         {
           "fileType": "lesson-plan",
           "title": "C’est difficile pour les gouvernements! : plan de leçon",
-          "url": "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU/edit"
+          "url": "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU"
         },
         {
           "fileType": "student-worksheet",
           "title": "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/1OA13N3cipJ3OqQT6SR_L3SSsQ1QUnoyb"
         },
         {
           "fileType": "answer-key",
           "title": "C’est difficile pour les gouvernements! : clé de correction",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/15S5_EEWeuLmi4-yepippSg_yGpugEjnE"
         }
       ]
     },
@@ -1354,98 +1438,89 @@
     "relatedResources": []
   },
   {
-    "id": "landuse-05c-did-we-do-that",
+    "id": "landuse-05c-stakeholder-debate",
     "themeId": "land-use",
     "title": {
-      "en": "Did We Do That? A Study of Alberta's Geography and the Benefits and Drawbacks of Landuse",
-      "fr": "Did We Do That? A Study of Alberta's Geography and the Benefits and Drawbacks of Landuse (French Coming soon)"
+      "en": "Stakeholder Debate",
+      "fr": "Débat d’intervenants"
     },
     "description": {
-      "en": "Grade 4 students will investigate Alberta's natural ecoregions through a series of educational videos, examining the benefits and drawbacks of different land-use decisions.",
-      "fr": "N/A"
+      "en": "In this stakeholder debate, the class is divided into different stakeholder groups. Each group must create a landuse plan that achieves their goals as a company or organization. They present their proposals to the class or government, and in the end, a consensus landuse plan that meets the goals of society is decided upon.",
+      "fr": "Pour cette activité de débat, la classe est divisée en différents groupes d’intervenants. Chaque groupe doit créer un plan d’utilisation des terres qui permet de réaliser ses objectifs en tant que compagnie ou organisme. Les groupes présentent leurs propositions de plan d’utilisation des terres à la classe ou au gouvernement et, à la fin, ils doivent arriver à un consensus sur le plan à retenir qui répond aux objectifs de l’ensemble de la société."
     },
     "approximateTime": {
-      "en": "12 classes",
-      "fr": "12 cours"
+      "en": "4 classes",
+      "fr": "4 cours"
     },
     "files": {
       "en": [
         {
           "fileType": "lesson-plan",
-          "title": "Grade 4 Lesson Plan",
-          "url": "N/A"
+          "title": "Stakeholder Debate Lesson Plan",
+          "url": "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78"
         }
       ],
       "fr": [
         {
           "fileType": "lesson-plan",
-          "title": "Plan de leçon de 4e année",
-          "url": "N/A"
+          "title": "Débat d’intervenants : plan de leçon",
+          "url": "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT"
         }
       ]
     },
     "gradeIds": [
-      "grade-4"
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9",
+      "grade-10",
+      "grade-11"
     ],
     "subjectIds": [
-      "social-studies"
+      "science",
+      "social-studies",
+      "outdoor-environmental-education",
+      "cts"
     ],
     "searchTerms": {
       "en": [
-        "A sense of the Land",
-        "land use",
-        "quality of life",
-        "wildlife",
-        "water quality",
-        "water consumption",
-        "alberta",
+        "stakeholder debate",
+        "land use planning",
         "economy",
-        "ecosystem services"
+        "environmental indicators"
       ],
       "fr": [
-        "un sens du territoire",
+        "débat",
+        "intervenants",
         "utilisation des terres",
-        "qualité de vie",
-        "faune",
-        "qualité de l’eau",
-        "consommation d’eau",
-        "Alberta",
-        "économie",
-        "services écosystémiques"
+        "consensus"
       ]
     },
     "learningOutcomes": {
       "en": [
-        "Investigate the geography of Alberta",
-        "Examine the benefits and drawbacks of land-use practices"
+        "Students will learn about the interaction between the economy and environmental indicators",
+        "Students will investigate multiple perspectives on appropriate land use",
+        "Students will role play different stakeholders",
+        "Students will develop a landuse plan that would be best for all Albertans"
       ],
       "fr": [
-        "Étudier la géographie de l’Alberta.",
-        "Examiner les avantages et les inconvénients des pratiques d’utilisation des terres."
+        "Les élèves apprennent l’interaction entre l’économie et les indicateurs environnementaux.",
+        "Les élèves examinent des perspectives multiples sur l’utilisation des terres appropriée.",
+        "Les élèves jouent le rôle de différents intervenants.",
+        "Les élèves créent un plan d’utilisation des terres qui serait le plus profitable pour tous les Albertains."
       ]
     },
-    "videoIds": [
-      "env-01c-natural-landscapes",
-      "env-02c-caribou-habitat",
-      "env-03c-grizzly-habitat",
-      "env-04c-fish-habitat",
-      "env-05c-water-quality",
-      "env-06c-greenhouse-gases",
-      "soc-01d-human-population",
-      "soc-02d-gdp",
-      "soc-03d-hydrocarbon-production",
-      "soc-04d-timber-production",
-      "soc-05d-agriculture-production",
-      "soc-06d-water-consumption"
-    ],
+    "videoIds": [],
     "relatedResources": []
   },
   {
-    "id": "landuse-06c-did-i-do-that",
+    "id": "landuse-06c-did-we-do-that",
     "themeId": "land-use",
     "title": {
-      "en": "Did I Do That? The Relationship Between Humans and Their Environment",
-      "fr": "Ai-je fait ça? Les rapports entre l’être humain et son environnement"
+      "en": "Did WE Do That? The Relationship Between Humans and Their Environment",
+      "fr": "Avons-nous fait ça? Les rapports entre l’être humain et son environnement"
     },
     "description": {
       "en": "Using the Alberta Tomorrow simulator, students investigate the unintended consequences of human activity on the environment. They are challenged to come up with a future landuse plan for their watershed that balances the economy with the environment.",
@@ -1465,12 +1540,12 @@
         {
           "fileType": "student-worksheet",
           "title": "Did we do that? Science 7 Student Worksheet",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/19KxH-EaPWmDlqsE60XstzBlFCwTwSM8k"
         },
         {
           "fileType": "answer-key",
           "title": "Did we do that? Science 7 Answer Sheet",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/1FvtNf8WHVkLKo25ubjZknQ8DiM5QnfPY"
         }
       ],
       "fr": [
@@ -1482,12 +1557,12 @@
         {
           "fileType": "student-worksheet",
           "title": "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/1Lomq2mi_lvGGUIN2xBeP7IDJ9wE97dM-"
         },
         {
           "fileType": "answer-key",
           "title": "Avons-nous fait ça? Sciences 7e année, clé de correction",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/1yHLiOPXEtkyQMZNmc6DOUI0cyJuDgLhZ"
         }
       ]
     },
@@ -1609,154 +1684,6 @@
       "fr": [
         "Examiner et comparer la qualité de l’eau dans un paysage relativement intact et dans un autre qui a été touché par l’utilisation des terres."
       ]
-    },
-    "videoIds": [],
-    "relatedResources": []
-  },
-  {
-    "id": "landuse-08c-stakeholder-debate",
-    "themeId": "land-use",
-    "title": {
-      "en": "Stakeholder Debate",
-      "fr": "Débat d’intervenants"
-    },
-    "description": {
-      "en": "In this stakeholder debate, the class is divided into different stakeholder groups. Each group must create a landuse plan that achieves their goals as a company or organization. They present their proposals to the class or government, and in the end, a consensus landuse plan that meets the goals of society is decided upon.",
-      "fr": "Pour cette activité de débat, la classe est divisée en différents groupes d’intervenants. Chaque groupe doit créer un plan d’utilisation des terres qui permet de réaliser ses objectifs en tant que compagnie ou organisme. Les groupes présentent leurs propositions de plan d’utilisation des terres à la classe ou au gouvernement et, à la fin, ils doivent arriver à un consensus sur le plan à retenir qui répond aux objectifs de l’ensemble de la société."
-    },
-    "approximateTime": {
-      "en": "4 classes",
-      "fr": "4 cours"
-    },
-    "files": {
-      "en": [
-        {
-          "fileType": "lesson-plan",
-          "title": "Stakeholder Debate Lesson Plan",
-          "url": "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78"
-        }
-      ],
-      "fr": [
-        {
-          "fileType": "lesson-plan",
-          "title": "Débat d’intervenants : plan de leçon",
-          "url": "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT"
-        }
-      ]
-    },
-    "gradeIds": [
-      "grade-4",
-      "grade-5",
-      "grade-6",
-      "grade-7",
-      "grade-8",
-      "grade-9",
-      "grade-10",
-      "grade-11"
-    ],
-    "subjectIds": [
-      "science",
-      "social-studies",
-      "outdoor-environmental-education",
-      "cts"
-    ],
-    "searchTerms": {
-      "en": [
-        "stakeholder debate",
-        "land use planning",
-        "economy",
-        "environmental indicators"
-      ],
-      "fr": [
-        "débat",
-        "intervenants",
-        "utilisation des terres",
-        "consensus"
-      ]
-    },
-    "learningOutcomes": {
-      "en": [
-        "Students will learn about the interaction between the economy and environmental indicators",
-        "Students will investigate multiple perspectives on appropriate land use",
-        "Students will role play different stakeholders",
-        "Students will develop a landuse plan that would be best for all Albertans"
-      ],
-      "fr": [
-        "Les élèves apprennent l’interaction entre l’économie et les indicateurs environnementaux.",
-        "Les élèves examinent des perspectives multiples sur l’utilisation des terres appropriée.",
-        "Les élèves jouent le rôle de différents intervenants.",
-        "Les élèves créent un plan d’utilisation des terres qui serait le plus profitable pour tous les Albertains."
-      ]
-    },
-    "videoIds": [],
-    "relatedResources": []
-  },
-  {
-    "id": "landuse-09c-mistakes-mitigations-and-making-amends",
-    "themeId": "land-use",
-    "title": {
-      "en": "Mistakes, Mitigations and Making Amends",
-      "fr": "Mistakes, Mitigations and Making Amends (French Coming soon)"
-    },
-    "description": {
-      "en": "This lesson explores how land-use decisions can have unintended consequences and what can be done to mitigate and repair harm over time.",
-      "fr": "N/A"
-    },
-    "approximateTime": {
-      "en": "60 min",
-      "fr": "N/A"
-    },
-    "files": {
-      "en": [
-        {
-          "fileType": "lesson-plan",
-          "title": "Land Based Learning Webinar Worksheet",
-          "url": "N/A"
-        }
-      ],
-      "fr": [
-        {
-          "fileType": "lesson-plan",
-          "title": "N/A",
-          "url": "N/A"
-        }
-      ]
-    },
-    "gradeIds": [
-      "grade-4",
-      "grade-5",
-      "grade-6",
-      "grade-7",
-      "grade-8",
-      "grade-9",
-      "grade-10",
-      "grade-11",
-      "grade-12"
-    ],
-    "subjectIds": [
-      "science",
-      "biology",
-      "other"
-    ],
-    "searchTerms": {
-      "en": [
-        "land use",
-        "mitigation",
-        "repair",
-        "environment"
-      ],
-      "fr": [
-        "utilisation des terres",
-        "atténuation",
-        "réparation",
-        "environnement"
-      ]
-    },
-    "learningOutcomes": {
-      "en": [
-        "Students will consider how land-use decisions create consequences and how communities can respond to repair harm."
-      ],
-      "fr": []
     },
     "videoIds": [],
     "relatedResources": []
@@ -2225,7 +2152,7 @@
       "en": [
         {
           "fileType": "lesson-plan",
-          "title": "Alberta's Ecosystems Scavenger Hunt",
+          "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
           "url": "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
         },
         {
@@ -3278,7 +3205,7 @@
         {
           "fileType": "lesson-plan",
           "title": "Ressources renouvelables ou non renouvelables : plan de leçon",
-          "url": "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_/edit"
+          "url": "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_"
         },
         {
           "fileType": "presentation-slides",
@@ -3288,7 +3215,7 @@
         {
           "fileType": "student-worksheet",
           "title": "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
-          "url": "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf/edit"
+          "url": "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf"
         }
       ]
     },

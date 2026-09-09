@@ -388,8 +388,9 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-going-gone",
-      "climate-02a-investigating-climate-change"
+      "climate-01-going-going-going-gone",
+      "climate-02-climate-change-in-alberta-mild-med-hot",
+      "climate-04-science-6-climate-change-in-alberta"
     ]
   },
   {
@@ -521,7 +522,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-03a-water-quality-alberta-glaciers"
+      "climate-03-water-quality-climate-change-and-albertas-glaciers"
     ]
   },
   {
@@ -561,8 +562,7 @@
     "lessonPlanIds": [
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -608,8 +608,7 @@
     "lessonPlanIds": [
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -653,8 +652,7 @@
     "lessonPlanIds": [
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -698,8 +696,7 @@
     "lessonPlanIds": [
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -742,8 +739,7 @@
       "glaciers-03b-ice-core-basics",
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -793,11 +789,10 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-going-gone",
+      "climate-01-going-going-going-gone",
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -839,8 +834,7 @@
     "lessonPlanIds": [
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -880,8 +874,7 @@
     "lessonPlanIds": [
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -921,10 +914,10 @@
       ]
     },
     "lessonPlanIds": [
+      "climate-04-science-6-climate-change-in-alberta",
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -966,8 +959,7 @@
     "lessonPlanIds": [
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -1009,8 +1001,7 @@
     "lessonPlanIds": [
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -1053,8 +1044,7 @@
       "glaciers-03b-ice-core-basics",
       "landuse-03c-biogeochemical-cycles",
       "landuse-04c-governments-have-it-rough",
-      "landuse-05c-did-we-do-that",
-      "landuse-06c-did-i-do-that"
+      "landuse-06c-did-we-do-that"
     ]
   },
   {
@@ -2645,7 +2635,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-going-gone"
+      "climate-01-going-going-going-gone"
     ]
   },
   {
@@ -3240,7 +3230,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-going-gone"
+      "climate-01-going-going-going-gone"
     ]
   },
   {
@@ -5313,7 +5303,7 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-going-gone",
+      "climate-01-going-going-going-gone",
       "glaciers-03b-ice-core-basics"
     ]
   },
@@ -5402,6 +5392,50 @@
         "animaux",
         "geologie",
         "climat"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "oth-04z-webinar-1-earth-mistakes-mitigations-making-amends",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "other",
+    "title": {
+      "en": "Webinar 1 Earth Mistakes, Mitigations & Making Amends on the Land Alberta Tomorrow & CPAWS SA",
+      "fr": "Webinaire 1 : erreurs terrestres, mesures d’atténuation et réparation sur le territoire, Alberta Tomorrow et CPAWS SA"
+    },
+    "description": {
+      "en": "This is a recording of a webinar held on April 27, 2022.",
+      "fr": "Il s’agit de l’enregistrement d’un webinaire tenu le 27 avril 2022."
+    },
+    "media": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=dqkoz2CgSSU",
+      "cloudFrontUrl": "N/A",
+      "thumbnailUrl": "https://img.youtube.com/vi/dqkoz2CgSSU/hqdefault.jpg",
+      "is360": false
+    },
+    "searchTerms": {
+      "en": [
+        "webinar",
+        "earth mistakes",
+        "mitigations",
+        "making amends",
+        "alberta tomorrow",
+        "cpaws",
+        "land"
+      ],
+      "fr": [
+        "webinaire",
+        "atténuation",
+        "réparation",
+        "territoire",
+        "alberta tomorrow",
+        "cpaws",
+        "erreurs"
       ]
     },
     "lessonPlanIds": []
