@@ -12,7 +12,6 @@ import React from "react";
 import { Element } from "react-scroll";
 
 // components
-import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import VideoCard from "./VideoCard";
 
 export default function VideoCategory({ category, videos = [] }) {
@@ -21,9 +20,8 @@ export default function VideoCategory({ category, videos = [] }) {
   return (
     <Element
       name={category}
-      className="bg-tertiary/20 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
+      className="bg-accent/50 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
     >
-      <HexSeparator rows={4} hexClass="bg-tertiary-alt/20" />
       <div className="relative ">
         <h2 className="text-4xl font-bold border-b border-black py-4">{category}</h2>
 

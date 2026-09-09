@@ -80,11 +80,24 @@ export default function VideoDetails({ video }) {
           <div className="space-y-2 min-w-0 flex-1">
             <h2 className="text-2xl font-bold break-words">{selectedContent.title}</h2>
             <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">{selectedContent.description}</p>
+
+            {youtubeHref ? (
+              <div className="pt-1">
+                <a
+                  href={youtubeHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white"
+                >
+                  {watchOnYoutubeLabel}
+                </a>
+              </div>
+            ) : null}
           </div>
         </div>
       </div>
 
-      <div className="w-full max-w-5xl self-center rounded-md border border-black/10 bg-white p-3 shadow-sm">
+      <div className="w-full max-w-6xl self-center shadow-sm">
         <div className="w-full">
           <MediaFrame
             type="video"
@@ -94,19 +107,6 @@ export default function VideoDetails({ video }) {
             captionLanguage={selectedLanguage === "fr" ? "fr-ca" : "en"}
           />
         </div>
-
-        {youtubeHref ? (
-          <div className="mt-3 flex justify-end">
-            <a
-              href={youtubeHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white"
-            >
-              {watchOnYoutubeLabel}
-            </a>
-          </div>
-        ) : null}
       </div>
 
       {selectedContent.lessonPlans.length > 0 && (
