@@ -19,11 +19,13 @@ import CardLanguageSelect from "@/components/layout/language/CardLanguageSelect"
 import { getMessages } from "@/i18n/messages";
 import LinkListSection from "@/components/features/resource-page-components/lesson-plan-components/display/LinkListSection";
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
+import { useVideoResource } from "../VideoResourceContext";
 
 export default function VideoDetails({ video, prioritizeMedia = false }) {
   const t = useTranslations("Pages.ResourcesPage");
   const detailsT = useTranslations("Details");
   const locale = useLocale();
+  const { getPreferredThumbnailSrc } = useVideoResource();
 
   const availableLanguages = useMemo(
     () => (Array.isArray(video?.availableLanguages) && video.availableLanguages.length
@@ -54,7 +56,7 @@ export default function VideoDetails({ video, prioritizeMedia = false }) {
     };
   }, [selectedLanguage, video]);
 
-  const thumbnailSrc = video?.media?.thumbnailUrl || video?.media?.thumbUrl || "";
+  const thumbnailSrc = getPreferredThumbnailSrc(video);
   const rawVideoUrl = video?.media?.url || "";
   const videoId = extractYouTubeId(rawVideoUrl);
   const watchOnYoutubeLabel = detailsT("ViewOnYouTube");

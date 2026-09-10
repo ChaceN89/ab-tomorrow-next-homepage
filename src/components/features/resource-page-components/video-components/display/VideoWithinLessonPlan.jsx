@@ -21,7 +21,7 @@ import { getMessages } from "@/i18n/messages";
 
 export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
   const locale = useLocale();
-  const { videos } = useVideoResource();
+  const { videos, getPreferredThumbnailSrc } = useVideoResource();
 
   const [video, setVideo] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -130,7 +130,7 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
     return video?.titleByLanguage?.[activeLanguage] || video?.title || "";
   }, [activeLanguage, video]);
 
-  const thumbnailSrc = video?.media?.thumbnailUrl || video?.media?.thumbUrl || "";
+  const thumbnailSrc = getPreferredThumbnailSrc(video);
   const rawVideoUrl = video?.media?.url || "";
   const videoId = extractYouTubeId(rawVideoUrl);
   const youtubeHref = rawVideoUrl.startsWith("http")

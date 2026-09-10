@@ -12,6 +12,7 @@ import {
   getLocalizedValue,
   getSearchTerms,
 } from "@/utils/resourceNormalizeUtils";
+import { extractYouTubeId } from "@/utils/videoResouceUtils";
 const VideoContext = createContext();
 
 export function VideoResourceProvider({ children }) {
@@ -31,7 +32,31 @@ export function VideoResourceProvider({ children }) {
   const [hasLessonPlans, setHasLessonPlans] = useState(false);
   const [hasFrench, setHasFrench] = useState(false);
 
+  // Thumbnail source option:
+  // - "listed": prefer thumbnail URLs listed in videos.json (AWS/custom assets)
+  // - "youtube": prefer YouTube default thumbnails for all videos
+  // Change this value if you want a different global default behavior.
+  const THUMBNAIL_SOURCE_MODE = "listed";
+  const thumbnailSourceMode = THUMBNAIL_SOURCE_MODE;
+
   const [numResults, setNumResults] = useState(0);
+
+  const useYouTubeDefaultThumbnails = thumbnailSourceMode === "youtube";
+
+  const getPreferredThumbnailSrc = useCallback((video) => {
+    const listedThumbnail = video?.media?.thumbnailUrl || video?.media?.thumbUrl || "";
+    const rawVideoUrl = video?.media?.url || "";
+    const videoId = extractYouTubeId(rawVideoUrl);
+    const youtubeThumbnail = videoId
+      ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
+      : "";
+
+    if (thumbnailSourceMode === "youtube") {
+      return youtubeThumbnail || listedThumbnail;
+    }
+
+    return listedThumbnail || youtubeThumbnail;
+  }, [thumbnailSourceMode]);
 
   const normalizeVideo = useCallback((video, lessonPlanMap) => {
     const lessonPlanIds = Array.isArray(video.lessonPlanIds) ? video.lessonPlanIds : [];
@@ -169,7 +194,10 @@ export function VideoResourceProvider({ children }) {
         hasFrench,
         setHasFrench,
         numResults,
-        setNumResults
+        setNumResults,
+        thumbnailSourceMode,
+        useYouTubeDefaultThumbnails,
+        getPreferredThumbnailSrc,
       }}
     >
       {children}

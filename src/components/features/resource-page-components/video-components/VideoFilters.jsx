@@ -31,7 +31,7 @@ export default function VideoFilters() {
     setHasLessonPlans,
     hasFrench,
     setHasFrench,
-    numResults
+    numResults,
   } = useVideoResource();
 
   return (

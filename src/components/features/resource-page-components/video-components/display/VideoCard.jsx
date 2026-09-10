@@ -10,6 +10,7 @@ import { useLocale, useTranslations } from "next-intl";
 import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
+import { useVideoResource } from "../VideoResourceContext";
 
 import { FaRegPlayCircle } from "react-icons/fa";
 
@@ -24,6 +25,7 @@ export default function VideoCard({
 }) {
   const t = useTranslations("Pages.ResourcesPage");
   const { trackEvent } = useGoogleAnalytics();
+  const { getPreferredThumbnailSrc } = useVideoResource();
   const locale = useLocale();
   const router = useRouter();
 
@@ -84,7 +86,7 @@ export default function VideoCard({
   const cardOpenInNewPageHref = openInNewPageHref || `/${activeLanguage}/resources/video?id=${encodeURIComponent(String(video?.id || ""))}`;
 
   const rawVideoUrl = video?.media?.url || "";
-  const thumbnailSrc = video.media?.thumbnailUrl || video.media?.thumbUrl || "";
+  const thumbnailSrc = getPreferredThumbnailSrc(video);
   const videoId = extractYouTubeId(rawVideoUrl);
 
   const selectedContent = useMemo(() => {

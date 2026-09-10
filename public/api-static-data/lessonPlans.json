@@ -1807,69 +1807,83 @@
     "relatedResources": []
   },
   {
-    "id": "abregions-02d-animal-adaptations",
+    "id": "abregions-02d-ecosystem-diversity",
     "themeId": "alberta-natural-regions-and-ecosystems",
     "title": {
-      "en": "Animal Adaptations - Using the 360 Virtual Field Trips",
-      "fr": "Animal Adaptations - Using the 360 Virtual Field Trips (French Coming soon)"
+      "en": "Alberta's Ecosystem Diversity",
+      "fr": "Diversité des écosystèmes de l’Alberta"
     },
     "description": {
-      "en": "In this lesson students will explore animals in all 6 ecoregions within Alberta and learn about how they are specially adapted to living there.",
-      "fr": "N/A"
+      "en": "In this activity, students explore Alberta's ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
+      "fr": "Dans le cadre de cette activité, les élèves étudient les écosystèmes de l’Alberta en effectuant des visites virtuelles à 360 degrés pour repérer et comparer les composants abiotiques et biotiques. Ils analyseront comment les caractéristiques de l’écosystème influence la diversité des plantes et des animaux."
     },
     "approximateTime": {
       "en": "60 min",
-      "fr": "N/A"
+      "fr": "60 min"
     },
     "files": {
       "en": [
         {
           "fileType": "lesson-plan",
-          "title": "Grade 3 Science Adaptations and the 360 Virtual Field Trips",
-          "url": "/pdfs/lesson-plans/naturalRegions360/Grade3ScienceAdaptationsandthe360VirtualFieldTrips.pdf"
+          "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
+          "url": "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
         },
         {
           "fileType": "student-worksheet",
-          "title": "Animal Adaptations Student Worksheet - Fillable Google Slides",
-          "url": "N/A"
+          "title": "Ecosystems in Alberta: Lesson Plan",
+          "url": "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
         }
       ],
       "fr": [
         {
           "fileType": "lesson-plan",
-          "title": "N/A",
-          "url": "N/A"
+          "title": "Chasse au trésor dans les écosystèmes de l’Alberta",
+          "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
         },
         {
           "fileType": "student-worksheet",
-          "title": "N/A",
-          "url": "N/A"
+          "title": "Écosystèmes en Alberta : plan de leçon",
+          "url": "https://docs.google.com/document/d/1dgmUyS9EOvTZmjjOuaOaxHk207d3WOe6/edit"
         }
       ]
     },
     "gradeIds": [
-      "grade-3"
+      "grade-6"
     ],
     "subjectIds": [
       "science"
     ],
     "searchTerms": {
       "en": [
-        "animal adaptations",
-        "alberta",
-        "ecoregions"
+        "ecosystem diversity",
+        "abiotic",
+        "biotic",
+        "plants",
+        "animals",
+        "alberta"
       ],
       "fr": [
-        "adaptations animales",
-        "Alberta",
-        "écorégions"
+        "diversité des écosystèmes",
+        "abiotique",
+        "biotique",
+        "plantes",
+        "animaux",
+        "alberta"
       ]
     },
     "learningOutcomes": {
       "en": [
-        "Students will learn how animals are adapted to life in each of the 6 natural regions of Alberta"
+        "Compare the characteristics of two Alberta ecosystems.",
+        "Describe the role of abiotic and biotic factors in ecosystems.",
+        "Identify factors that influence plant and animal diversity.",
+        "Understand how ecosystems interact with greenhouse gases and carbon storage."
       ],
-      "fr": []
+      "fr": [
+        "Comparer les caractéristiques de deux écosystèmes de l’Alberta.",
+        "Décrire le rôle écologique des facteurs abiotiques et biotiques dans les écosystèmes.",
+        "Trouver les facteurs qui influencent la diversité des plantes et des animaux.",
+        "Comprendre comment les écosystèmes interagissent avec les gaz à effet de serre et le stockage du carbone."
+      ]
     },
     "videoIds": [],
     "relatedResources": []
@@ -2136,88 +2150,6 @@
         "Décrire les caractéristiques naturelles principales, comme les reliefs, la végétation et le climat.",
         "Indiquer la relation entre les ressources naturelles et la géographie physique.",
         "Créer et annoter des cartes montrant les régions physiques de l’Alberta."
-      ]
-    },
-    "videoIds": [],
-    "relatedResources": []
-  },
-  {
-    "id": "abregions-06d-ecosystem-diversity",
-    "themeId": "alberta-natural-regions-and-ecosystems",
-    "title": {
-      "en": "Alberta's Ecosystem Diversity",
-      "fr": "Diversité des écosystèmes de l’Alberta"
-    },
-    "description": {
-      "en": "In this activity, students explore Alberta's ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
-      "fr": "Dans le cadre de cette activité, les élèves étudient les écosystèmes de l’Alberta en effectuant des visites virtuelles à 360 degrés pour repérer et comparer les composants abiotiques et biotiques. Ils analyseront comment les caractéristiques de l’écosystème influence la diversité des plantes et des animaux."
-    },
-    "approximateTime": {
-      "en": "60 min",
-      "fr": "60 min"
-    },
-    "files": {
-      "en": [
-        {
-          "fileType": "lesson-plan",
-          "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
-          "url": "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
-        },
-        {
-          "fileType": "student-worksheet",
-          "title": "Ecosystems in Alberta: Lesson Plan",
-          "url": "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
-        }
-      ],
-      "fr": [
-        {
-          "fileType": "lesson-plan",
-          "title": "Chasse au trésor dans les écosystèmes de l’Alberta",
-          "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
-        },
-        {
-          "fileType": "student-worksheet",
-          "title": "Écosystèmes en Alberta : plan de leçon",
-          "url": "https://docs.google.com/document/d/1dgmUyS9EOvTZmjjOuaOaxHk207d3WOe6/edit"
-        }
-      ]
-    },
-    "gradeIds": [
-      "grade-6"
-    ],
-    "subjectIds": [
-      "science"
-    ],
-    "searchTerms": {
-      "en": [
-        "ecosystem diversity",
-        "abiotic",
-        "biotic",
-        "plants",
-        "animals",
-        "alberta"
-      ],
-      "fr": [
-        "diversité des écosystèmes",
-        "abiotique",
-        "biotique",
-        "plantes",
-        "animaux",
-        "alberta"
-      ]
-    },
-    "learningOutcomes": {
-      "en": [
-        "Compare the characteristics of two Alberta ecosystems.",
-        "Describe the role of abiotic and biotic factors in ecosystems.",
-        "Identify factors that influence plant and animal diversity.",
-        "Understand how ecosystems interact with greenhouse gases and carbon storage."
-      ],
-      "fr": [
-        "Comparer les caractéristiques de deux écosystèmes de l’Alberta.",
-        "Décrire le rôle écologique des facteurs abiotiques et biotiques dans les écosystèmes.",
-        "Trouver les facteurs qui influencent la diversité des plantes et des animaux.",
-        "Comprendre comment les écosystèmes interagissent avec les gaz à effet de serre et le stockage du carbone."
       ]
     },
     "videoIds": [],
@@ -2804,14 +2736,14 @@
         {
           "fileType": "lesson-plan",
           "title": "The Watershed - Google Doc",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz"
         }
       ],
       "fr": [
         {
           "fileType": "lesson-plan",
           "title": "Le bassin hydrographique – document Google",
-          "url": "N/A"
+          "url": "https://docs.google.com/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz"
         }
       ]
     },
