@@ -613,8 +613,8 @@
       "fr": "Paysages naturels"
     },
     "description": {
-      "en": "Prior to Alberta's European Settlement, 100% of the landscape was considered natural. Learn more about Alberta's natural landscapes and how best practices can reduce the footprint of development.",
-      "fr": "Avant la colonisation europeenne de l'Alberta, 100 % du paysage etait considere comme naturel. Apprenez-en davantage sur les paysages naturels de l'Alberta et sur la facon dont les bonnes pratiques peuvent reduire l'empreinte du developpement."
+      "en": "Explore Alberta’s natural regions and their diverse ecosystems, from grasslands and boreal forests to mountains and wetlands.",
+      "fr": "Découvrez les régions naturelles de l’Alberta dans cette vidéo. Apprenez-en davantage sur les caractéristiques de chaque région ainsi que sur les types d’utilisation des terres dans chacune d’elles."
     },
     "media": {
       "type": "youtube",
@@ -826,12 +826,12 @@
     ],
     "categoryId": "environmental-indicators",
     "title": {
-      "en": "Greenhouse Gases",
-      "fr": "Gaz à effet de serre"
+      "en": "Greenhouse Gases and Biotic Carbon Storage",
+      "fr": "Gaz à effet de serre et stockage du carbone biotique"
     },
     "description": {
-      "en": "Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can cut emissions.",
-      "fr": "Comprenez comment les émissions de gaz à effet de serre sont liées à la population et à la production de ressources, et comment les bonnes pratiques peuvent réduire ces émissions."
+      "en": "What are greenhouse gases (GHGs), and where do they come from? Explore the carbon cycle and how carbon is stored in living organisms. Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can reduce emissions.",
+      "fr": "Que sont les gaz à effet de serre (GES) et d’où viennent-ils? Explorez le cycle du carbone et la façon dont le carbone est stocké dans les organismes vivants. Découvrez comment les émissions de gaz à effet de serre sont liées à la population et à la production de ressources, et comment les bonnes pratiques peuvent réduire ces émissions."
     },
     "media": {
       "type": "youtube",
@@ -954,19 +954,19 @@
     ]
   },
   {
-    "id": "soc-03d-hydrocarbon-production",
+    "id": "soc-03d-oil-and-gas-production",
     "supportedLanguages": [
       "en",
       "fr"
     ],
     "categoryId": "socio-economic-indicators",
     "title": {
-      "en": "Hydrocarbon Production",
-      "fr": "Production d’hydrocarbures"
+      "en": "Oil and Gas Production",
+      "fr": "Production de pétrole et de gaz"
     },
     "description": {
-      "en": "Hydrocarbon production includes natural gas, oil, bitumen, and coal. Learn how energy production affects land use and the economy.",
-      "fr": "La production d’hydrocarbures comprend le gaz naturel, le pétrole, le bitume et le charbon. Apprenez l’effet de la production d’énergie sur l’utilisation des terres et l’économie."
+      "en": "Learn how oil and natural gas are produced in Alberta, how they contribute to the economy through royalties, and how their extraction affects land, water, and ecosystems.",
+      "fr": "Découvrez comment le pétrole et le gaz naturel sont produits en Alberta, comment ils contribuent à l’économie par les redevances et comment leur extraction affecte les terres, l’eau et les écosystèmes."
     },
     "media": {
       "type": "youtube",
@@ -977,16 +977,22 @@
     },
     "searchTerms": {
       "en": [
-        "ab oil and gas",
+        "alberta oil and gas",
+        "natural gas",
+        "oil sands",
         "hydrocarbons",
+        "royalties",
         "land use",
-        "ab economy"
+        "alberta economy"
       ],
       "fr": [
-        "petrole et gaz alberta",
+        "pétrole et gaz en alberta",
+        "gaz naturel",
+        "sables bitumineux",
         "hydrocarbures",
+        "redevances",
         "utilisation des terres",
-        "economie alberta"
+        "économie de l’alberta"
       ]
     },
     "lessonPlanIds": [
@@ -997,19 +1003,19 @@
     ]
   },
   {
-    "id": "soc-04d-timber-production",
+    "id": "soc-04d-forestry",
     "supportedLanguages": [
       "en",
       "fr"
     ],
     "categoryId": "socio-economic-indicators",
     "title": {
-      "en": "Timber Production",
-      "fr": "Production de bois d’œuvre"
+      "en": "Forestry",
+      "fr": "Foresterie"
     },
     "description": {
-      "en": "A value of 100% means all forested land is used for timber. Explore how forestry contributes to the economy and affects land use.",
-      "fr": "Une valeur de 100 % indique que toute la superficie qui est boisée sert à la production de bois d’œuvre. Apprenez comment la foresterie contribue à l’économie et son effet sur l’utilisation des terres."
+      "en": "Explore forestry in Alberta, from harvesting trees for lumber and paper to its effects on the landscape. Learn how logging and forestry roads affect old-growth forests, carbon storage, and wildlife habitat.",
+      "fr": "Explorez la foresterie en Alberta, de la récolte des arbres pour produire du bois d’œuvre et du papier à ses effets sur le paysage. Découvrez comment l’exploitation forestière et les chemins forestiers affectent les forêts anciennes, le stockage du carbone et les habitats fauniques."
     },
     "media": {
       "type": "youtube",
@@ -1020,16 +1026,22 @@
     },
     "searchTerms": {
       "en": [
-        "ab forestry",
+        "alberta forestry",
+        "timber production",
+        "logging",
         "land use",
-        "forestry",
-        "ab economy"
+        "old-growth forests",
+        "carbon storage",
+        "wildlife habitat"
       ],
       "fr": [
-        "foresterie alberta",
+        "foresterie en alberta",
+        "production de bois d’œuvre",
+        "exploitation forestière",
         "utilisation des terres",
-        "foresterie",
-        "economie alberta"
+        "forêts anciennes",
+        "stockage du carbone",
+        "habitats fauniques"
       ]
     },
     "lessonPlanIds": [

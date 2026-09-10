@@ -511,7 +511,7 @@
     },
     "videoIds": [
       "landscape-01b-climate-change",
-      "soc-03d-hydrocarbon-production"
+      "soc-03d-oil-and-gas-production"
     ],
     "relatedResources": []
   },
@@ -1006,8 +1006,8 @@
       "fr": "Guide des procédures d’analyse de l’eau."
     },
     "approximateTime": {
-      "en": "N/A",
-      "fr": "N/A"
+      "en": "90–120 minutes",
+      "fr": "90 à 120 minutes"
     },
     "files": {
       "en": [
@@ -1072,8 +1072,16 @@
       ]
     },
     "learningOutcomes": {
-      "en": [],
-      "fr": []
+      "en": [
+        "Follow procedures to test water for turbidity, nitrates, and dissolved oxygen, using equipment and handling reagents appropriately.",
+        "Record and interpret results using conversion charts, colour comparisons, and titration readings.",
+        "Explain how glaciers contribute to downstream water supplies."
+      ],
+      "fr": [
+        "Suivre les procédures d’analyse de la turbidité, des nitrates et de l’oxygène dissous dans l’eau, en utilisant le matériel et en manipulant les réactifs de manière appropriée.",
+        "Consigner et interpréter les résultats à l’aide de tableaux de conversion, de comparaisons de couleurs et de mesures de titrage.",
+        "Expliquer comment les glaciers contribuent à l’approvisionnement en eau en aval."
+      ]
     },
     "videoIds": [],
     "relatedResources": []
@@ -1329,8 +1337,8 @@
       "env-06c-greenhouse-gases",
       "soc-01d-human-population",
       "soc-02d-gdp",
-      "soc-03d-hydrocarbon-production",
-      "soc-04d-timber-production",
+      "soc-03d-oil-and-gas-production",
+      "soc-04d-forestry",
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],
@@ -1430,8 +1438,8 @@
       "env-06c-greenhouse-gases",
       "soc-01d-human-population",
       "soc-02d-gdp",
-      "soc-03d-hydrocarbon-production",
-      "soc-04d-timber-production",
+      "soc-03d-oil-and-gas-production",
+      "soc-04d-forestry",
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],
@@ -1608,8 +1616,8 @@
       "env-06c-greenhouse-gases",
       "soc-01d-human-population",
       "soc-02d-gdp",
-      "soc-03d-hydrocarbon-production",
-      "soc-04d-timber-production",
+      "soc-03d-oil-and-gas-production",
+      "soc-04d-forestry",
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],
