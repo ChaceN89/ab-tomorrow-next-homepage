@@ -2919,11 +2919,11 @@
     "categoryId": "glacier-series",
     "title": {
       "en": "Ion chromatograph",
-      "fr": "Chromatographe d’échange d’ions\nAli Criscitiello, Ph. D., parle du chromatographe d’échange d’ions et de ce que cela nous indique sur les glaciers.\n"
+      "fr": "Chromatographe d’ions"
     },
     "description": {
-      "en": "Dr. Ali Criscitiello talks about the Ion Chromatograph and what it tells us about the glaciers.",
-      "fr": "Ali Criscitiello, Ph. D., parle du chromatographe d’échange d’ions et de ce que cela nous indique sur les glaciers."
+      "en": "Dr. Ali Criscitiello talks about the ion chromatograph and what it tells us about glaciers.",
+      "fr": "Ali Criscitiello, Ph. D., parle du chromatographe d’ions et de ce qu’il nous apprend sur les glaciers."
     },
     "media": {
       "type": "youtube",
@@ -2934,16 +2934,20 @@
     },
     "searchTerms": {
       "en": [
-        "ion",
-        "chromatograph",
-        "abglaciers",
-        "climatechange",
-        "abwater"
+        "ions",
+        "ion chromatograph",
+        "ion chromatography",
+        "alberta glaciers",
+        "climate change",
+        "water"
       ],
       "fr": [
-        "agit",
-        "chromatographe",
-        "ionique"
+        "ions",
+        "chromatographe d’ions",
+        "chromatographie ionique",
+        "glaciers de l’alberta",
+        "changements climatiques",
+        "eau"
       ]
     },
     "lessonPlanIds": [
