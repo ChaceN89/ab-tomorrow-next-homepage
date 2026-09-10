@@ -35,7 +35,7 @@ export default function FilterDropdown({
   sortAlphabetically = false,
   wrapItems = false,
 }) {
-  const t = useTranslations("Pages.ResourcesPage");
+  const tFilters = useTranslations("Filters");
 
   // initial state of the dropdown
   const [open, setOpen] = useState(initialOpen);
@@ -88,15 +88,15 @@ export default function FilterDropdown({
               }`}
           >
             {Object.values(filterMap).every((val) => val)
-              ? "Unselect All Categories"
-              : "Select All Categories"}
+              ? tFilters("unselectAll")
+              : tFilters("selectAll")}
           </button>
           <div className="w-full border-b border-gray-600" />
 
           {wrapItems ? (
             <div className="flex flex-wrap gap-2">
               {filterKeys.map((item) => (
-                <Tooltip key={item} text={`Toggle: ${item}`} openDuration={400}>
+                <Tooltip key={item} text={tFilters("toggleFilter", { item })} openDuration={400}>
                   <button
                     className={`px-3 py-1 rounded-full border text-sm cursor-pointer transition-colors hover:scale-105 whitespace-nowrap
                       ${filterMap[item] ? "bg-primary text-white" : "bg-gray-300 text-black"}`}
@@ -120,7 +120,7 @@ export default function FilterDropdown({
 
                   <div className="flex items-center gap-1 flex-1 min-w-0">
                     <div className="min-w-0 flex-1">
-                      <Tooltip text={`Toggle: ${item}`} openDuration={400}>
+                      <Tooltip text={tFilters("toggleFilter", { item })} openDuration={400}>
                         <button
                           className={`w-full px-2 py-0.5 rounded-full border text-sm cursor-pointer transition-colors hover:scale-105 flex items-center justify-start whitespace-nowrap truncate
                           ${filterMap[item] ? "bg-primary text-white" : "bg-gray-300 text-black"}`}
@@ -138,7 +138,7 @@ export default function FilterDropdown({
 
                     {/* Solo (Focus) button */}
                     {showFocusButton && (
-                      <Tooltip text={t("filters.showOnlyThisFilter")} openDuration={600}>
+                      <Tooltip text={tFilters("showOnlyThisFilter")} openDuration={600}>
                         <button
                           onClick={() => {
                             setFilterMap(
@@ -161,7 +161,7 @@ export default function FilterDropdown({
 
                   {/* Optional scroll link */}
                   {showScrollLinks && filterMap[item] && (
-                    <Tooltip text={t("filters.scrollToSection")} openDuration={500}>
+                    <Tooltip text={tFilters("scrollToSection")} openDuration={500}>
                       <Link
                         to={item}
                         smooth

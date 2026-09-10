@@ -201,10 +201,11 @@ export function LessonPlanResourceProvider({ children }) {
       const grades = [...new Set(normalized.flatMap((l) => l.grades || []))];
       const tags = [...new Set(normalized.flatMap((l) => l.tags || []))].filter(Boolean);
 
-      setThemeFilters(themes.reduce((acc, t) => ({ ...acc, [t]: true }), {}));
-      setToolFilters(tools.reduce((acc, t) => ({ ...acc, [t]: true }), {}));
-      setSubjectFilters(subjects.reduce((acc, s) => ({ ...acc, [s]: true }), {}));
-      setGradeFilters(grades.reduce((acc, g) => ({ ...acc, [g]: true }), {}));
+      // Start unselected by default; list logic treats "none selected" as "show all".
+      setThemeFilters(themes.reduce((acc, t) => ({ ...acc, [t]: false }), {}));
+      setToolFilters(tools.reduce((acc, t) => ({ ...acc, [t]: false }), {}));
+      setSubjectFilters(subjects.reduce((acc, s) => ({ ...acc, [s]: false }), {}));
+      setGradeFilters(grades.reduce((acc, g) => ({ ...acc, [g]: false }), {}));
       // Tags should start unselected and only filter when one is selected.
       setTagFilters(tags.reduce((acc, tag) => ({ ...acc, [tag]: false }), {}));
 

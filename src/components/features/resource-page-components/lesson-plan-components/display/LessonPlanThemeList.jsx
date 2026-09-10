@@ -27,16 +27,20 @@ export default function LessonThemeList({ isSidebarPinned = true }) {
 
   const grouped = useMemo(() => {
     const nextGrouped = {};
+    const hasActiveThemeFilter = Object.values(themeFilters).some(Boolean);
+    const hasActiveToolFilter = Object.values(toolFilters).some(Boolean);
+    const hasActiveSubjectFilter = Object.values(subjectFilters).some(Boolean);
+    const hasActiveGradeFilter = Object.values(gradeFilters).some(Boolean);
     const selectedTags = Object.keys(tagFilters).filter((tag) => tagFilters[tag]);
 
     lessonPlans?.forEach((lp) => {
-      const matchesTheme = themeFilters[lp.theme];
+      const matchesTheme = !hasActiveThemeFilter || themeFilters[lp.theme];
       const matchesTool =
-        !Object.keys(toolFilters).length ||
+        !hasActiveToolFilter ||
         !lp.tools?.length ||
         lp.tools.some((t) => toolFilters[t]);
-      const matchesSubject = lp.subjects?.some((s) => subjectFilters[s]);
-      const matchesGrade = lp.grades?.some((g) => gradeFilters[g]);
+      const matchesSubject = !hasActiveSubjectFilter || lp.subjects?.some((s) => subjectFilters[s]);
+      const matchesGrade = !hasActiveGradeFilter || lp.grades?.some((g) => gradeFilters[g]);
       const matchesHasVideos = hasVideos ? (lp.videos?.length || 0) > 0 : true;
       const matchesTag =
         selectedTags.length === 0 ||

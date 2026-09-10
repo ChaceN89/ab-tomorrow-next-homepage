@@ -238,7 +238,7 @@ export default function VideoCard({
             href={youtubeHref}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white"
+            className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white hover:cursor-pointer"
             onClick={(event) => event.stopPropagation()}
           >
             {watchOnYoutubeLabel}
@@ -249,7 +249,7 @@ export default function VideoCard({
           href={cardOpenInNewPageHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white"
+          className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer"
           onClick={(event) => event.stopPropagation()}
         >
           {viewInNewPageLabel}

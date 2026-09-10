@@ -74,5 +74,12 @@
     "LessonDetails": "Détails de la leçon",
     "VideoDetails": "Détails de la vidéo",
     "ViewOnYouTube": "Voir sur YouTube"
+  },
+  "Filters": {
+    "selectAll": "Sélectionner tous les filtres",
+    "unselectAll": "Désélectionner tous les filtres",
+    "toggleFilter": "Basculer : {item}",
+    "showOnlyThisFilter": "Afficher uniquement ce filtre",
+    "scrollToSection": "Faire défiler jusqu’à la section"
   }
 }

@@ -158,8 +158,9 @@ export function VideoResourceProvider({ children }) {
       const tools = [...new Set(normalized.flatMap((v) => v.tools || []))];
       const tags = [...new Set(normalized.flatMap((v) => v.hashtags || []))].filter(Boolean);
 
-      setCategoryFilters(categories.reduce((acc, cat) => ({ ...acc, [cat]: true }), {}));
-      setToolFilters(tools.reduce((acc, tool) => ({ ...acc, [tool]: true }), {}));
+      // Start unselected by default; list logic treats "none selected" as "show all".
+      setCategoryFilters(categories.reduce((acc, cat) => ({ ...acc, [cat]: false }), {}));
+      setToolFilters(tools.reduce((acc, tool) => ({ ...acc, [tool]: false }), {}));
       // Tag dropdown should start unselected.
       setTagFilters(tags.reduce((acc, tag) => ({ ...acc, [tag]: false }), {}));
 

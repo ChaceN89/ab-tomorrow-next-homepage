@@ -24,7 +24,7 @@ export default async function ResourceLayout({ children, params }) {
       <VideoResourceProvider>
         <ResourceHeader locale={locale} />
         <ModalContainer />
-        <main id="resources-container" className="min-h-[50vh] pb-64">{children}</main>
+        <main id="resources-container" className="min-h-[50vh] pb-40">{children}</main>
       </VideoResourceProvider>
     </LessonPlanResourceProvider>
   );

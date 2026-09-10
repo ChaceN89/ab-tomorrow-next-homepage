@@ -33,19 +33,22 @@ import {
   getSearchTerms,
 } from '@/utils/resourceNormalizeUtils';
 
-export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true, prioritizeMedia = false }) {
+export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true, prioritizeMedia = false, onResolve = null }) {
   const locale = useLocale();
   const { videos } = useVideoResource();
   const [video, setVideo] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
+
     // Try to find video from context
     const localVideo = videos?.find((v) => String(v.id) === String(id));
 
     // check the context first for the video
     if (localVideo) {
       setVideo(localVideo);
+      if (typeof onResolve === "function") onResolve(true);
       setLoading(false);
     } else {
       // Fallback: fetch from API
@@ -66,7 +69,11 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
           const lessonPlanMap = new Map((allLessonPlans || []).map((plan) => [plan.id, plan]));
           const matchedVideo = allVideos.find((v) => String(v.id) === String(id));
 
-          if (!matchedVideo) throw new Error("Video not found");
+          if (!matchedVideo) {
+            setVideo(null);
+            if (typeof onResolve === "function") onResolve(false);
+            return;
+          }
 
           const availableLanguages = Array.isArray(matchedVideo.supportedLanguages)
             ? matchedVideo.supportedLanguages.map((lang) => String(lang).trim().toLowerCase()).filter((lang) => ['en', 'fr'].includes(lang))
@@ -127,10 +134,13 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
             },
           });
 
+          if (typeof onResolve === "function") onResolve(true);
+
         } catch (err) {
 
           console.error('Error fetching video:', err);
           setVideo(null);
+          if (typeof onResolve === "function") onResolve(false);
         } finally {
           setLoading(false);
         }
@@ -138,7 +148,7 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
 
       fetchVideo();
     }
-  }, [id, locale, videos]);
+  }, [id, locale, onResolve, videos]);
 
   if (loading) return <div className='p-10'>Loading video data...</div>;
   if (!video) return <div className='p-10'>Video with id:{id} not found.</div>;

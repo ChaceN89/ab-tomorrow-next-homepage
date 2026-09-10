@@ -47,6 +47,7 @@ export default function LessonPlanCard({ plan }) {
   }, [locale, plan, selectedLanguage]);
 
   const resourceMessages = getMessages(selectedLanguage)?.Pages?.ResourcesPage ?? getMessages(locale)?.Pages?.ResourcesPage ?? {};
+  const globalMessages = getMessages(selectedLanguage) ?? getMessages(locale) ?? {};
   const descriptionText = selectedContent?.description || "";
   const descriptionNeedsToggle = descriptionText.length > 180;
   const hasApproximateTime = Boolean(selectedContent.approximateTime && selectedContent.approximateTime.trim());
@@ -55,6 +56,8 @@ export default function LessonPlanCard({ plan }) {
 
   const availableLanguages = Array.isArray(plan?.availableLanguages) ? plan.availableLanguages : [locale];
   const localizedLessonPlanHref = `/${selectedLanguage}/resources/lesson-plans?lesson-plan=${plan.id}`;
+  const openInNewPageHref = `/${selectedLanguage}/resources/lesson?id=${encodeURIComponent(String(plan?.id || ""))}`;
+  const viewInNewPageLabel = globalMessages?.ViewItems?.ViewInNewPage || (selectedLanguage === "fr" ? "Voir dans une nouvelle page" : "View in New page");
 
   const cardGrades = plan?.gradesByLanguage?.[selectedLanguage] || plan?.grades || [];
   const cardSubjects = plan?.subjectsByLanguage?.[selectedLanguage] || plan?.subjects || [];
@@ -65,6 +68,9 @@ export default function LessonPlanCard({ plan }) {
     relatedLinks: resourceMessages?.relatedLinksTitle || t("relatedLinksTitle"),
     videos: resourceMessages?.videos || t("videos"),
   };
+  const lessonFilesCount = selectedContent.files?.length || 0;
+  const relatedLinksCount = selectedContent.relatedUrls?.length || 0;
+  const lessonFilesTitle = `${lessonFilesCount} ${localizedLabels.lessonFiles}${relatedLinksCount > 0 ? ` | ${relatedLinksCount} ${localizedLabels.relatedLinks}` : ""}`;
 
   return (
     <Link
@@ -150,7 +156,7 @@ export default function LessonPlanCard({ plan }) {
         <TagList label={localizedLabels.subjects} items={cardSubjects} pillClass="bg-blue-100 border border-blue-300 text-blue-700" />
 
         <LinkListSection
-          title={`${selectedContent.files?.length || 0} ${localizedLabels.lessonFiles}`}
+          title={lessonFilesTitle}
           items={selectedContent.files}
           icon={FaFilePdf}
           iconClassName="text-red-600"
@@ -159,7 +165,7 @@ export default function LessonPlanCard({ plan }) {
           seeLessText={seeLessLabel}
         />
 
-        <LinkListSection
+        {/* <LinkListSection
           title={localizedLabels.relatedLinks}
           items={selectedContent.relatedUrls}
           icon={FaLink}
@@ -167,14 +173,28 @@ export default function LessonPlanCard({ plan }) {
           maxVisibleItems={1}
           seeMoreText={seeMoreLabel}
           seeLessText={seeLessLabel}
-        />
+        /> */}
 
-        {plan.videos && plan.videos.length > 0 && (
-          <div className="mt-2 w-fit text-sm p-2 text font-semibold flex items-center gap-1 border-black bg-gray-300 rounded-xl">
-            <FaVideo />
-            {plan.videos.length} {localizedLabels.videos}
-          </div>
-        )}
+        <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-1">
+          {plan.videos && plan.videos.length > 0 ? (
+            <div className="w-fit rounded-xl border-black bg-gray-300 p-2 text-sm font-semibold flex items-center gap-1">
+              <FaVideo />
+              {plan.videos.length} {localizedLabels.videos}
+            </div>
+          ) : <span />}
+
+          <button
+            type="button"
+            onClick={(event) => {
+              event.preventDefault();
+              event.stopPropagation();
+              window.open(openInNewPageHref, "_blank", "noopener,noreferrer");
+            }}
+            className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer"
+          >
+            {viewInNewPageLabel}
+          </button>
+        </div>
       </div>
     </Link>
   );

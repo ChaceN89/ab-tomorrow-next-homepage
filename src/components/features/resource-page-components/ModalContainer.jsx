@@ -58,7 +58,7 @@ export default function ModalContainer() {
     );
   };
 
-  const ModalHeaderLinkStyle = "inline-flex items-center rounded-full border border-primary/30 bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white";
+  const ModalHeaderLinkStyle = "inline-flex items-center rounded-full border border-primary/30 bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer";
 
   return (
     <>

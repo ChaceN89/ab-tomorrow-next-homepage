@@ -21,12 +21,14 @@ export default function VideoCategoryList({ isSidebarPinned = true }) {
 
   const grouped = useMemo(() => {
     const nextGrouped = {};
+    const hasActiveCategoryFilter = Object.values(categoryFilters).some(Boolean);
+    const hasActiveToolFilter = Object.values(toolFilters).some(Boolean);
     const selectedTags = Object.keys(tagFilters).filter((tag) => tagFilters[tag]);
 
     videos.forEach((v) => {
-      const matchesCategory = categoryFilters[v.category];
+      const matchesCategory = !hasActiveCategoryFilter || categoryFilters[v.category];
       const matchesTool =
-        !Object.keys(toolFilters).length ||
+        !hasActiveToolFilter ||
         !v.tools?.length ||
         v.tools.some((t) => toolFilters[t]);
       const matches360 = only360 ? v.media?.is360 : true;

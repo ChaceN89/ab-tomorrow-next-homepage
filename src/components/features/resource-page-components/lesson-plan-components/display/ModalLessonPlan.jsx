@@ -29,7 +29,7 @@ import {
   getSearchTerms,
 } from "@/utils/resourceNormalizeUtils";
 
-export default function ModalLessonPlan({ id, showOpenInNewPage = true }) {
+export default function ModalLessonPlan({ id, showOpenInNewPage = true, onResolve = null }) {
   const locale = useLocale();
   const viewItemsT = useTranslations("ViewItems");
   const { lessonPlans } = useLessonPlanResource();
@@ -39,10 +39,13 @@ export default function ModalLessonPlan({ id, showOpenInNewPage = true }) {
   const openInNewPageHref = `/${locale}/resources/lesson?id=${encodeURIComponent(String(id || ""))}`;
 
   useEffect(() => {
+    setLoading(true);
+
     const localPlan = lessonPlans?.find((lp) => String(lp.id) === String(id));
 
     if (localPlan) {
       setPlan(localPlan);
+      if (typeof onResolve === "function") onResolve(true);
       setLoading(false);
     } else {
       const fetchPlan = async () => {
@@ -56,7 +59,11 @@ export default function ModalLessonPlan({ id, showOpenInNewPage = true }) {
           const allPlans = await res.json();
           const matchedPlan = allPlans.find((p) => String(p.id) === String(id));
 
-          if (!matchedPlan) throw new Error("Lesson plan not found");
+          if (!matchedPlan) {
+            setPlan(null);
+            if (typeof onResolve === "function") onResolve(false);
+            return;
+          }
 
           const availableLanguages = ["en", "fr"].filter((lang) => {
             const fieldMap = {
@@ -131,6 +138,8 @@ export default function ModalLessonPlan({ id, showOpenInNewPage = true }) {
             availableLanguages: availableLanguages.length ? availableLanguages : [locale],
           });
 
+          if (typeof onResolve === "function") onResolve(true);
+
           // API version for when API is created and deployed
 
           // const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/resources/lesson-plans/${id}`);
@@ -142,6 +151,7 @@ export default function ModalLessonPlan({ id, showOpenInNewPage = true }) {
         } catch (err) {
           console.error("❌ Failed to fetch lesson plan:", err);
           setPlan(null);
+          if (typeof onResolve === "function") onResolve(false);
         } finally {
           setLoading(false);
         }
@@ -149,7 +159,7 @@ export default function ModalLessonPlan({ id, showOpenInNewPage = true }) {
 
       fetchPlan();
     }
-  }, [id, lessonPlans, locale]);
+  }, [id, lessonPlans, locale, onResolve]);
 
   if (loading) return <div className="p-10">Loading lesson plan data...</div>;
   if (!plan) return <div className="p-10">Lesson plan not found.</div>;
