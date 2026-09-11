@@ -2870,7 +2870,7 @@
     "categoryId": "glacier-series",
     "title": {
       "en": "How do chemicals that were trapped in Alberta glaciers get into our water?",
-      "fr": "Comment les produits chimiques emprisonnés dans les glaciers de l’Alberta se retrouvent-ils dans notre eau?"
+      "fr": "Comment les polluants des glaciers de l’Alberta se retrouvent-ils dans notre eau?"
     },
     "description": {
       "en": "Dr. Ali Criscitiello discusses how chemicals, once trapped in frozen ice, will get into our water supply, even some that were banned years ago!",
@@ -3717,6 +3717,53 @@
     "lessonPlanIds": []
   },
   {
+    "id": "stoney-00h-introductions",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "stoney-voices",
+    "title": {
+      "en": "Introductions: Meet our Elders",
+      "fr": "Présentations: Rencontrez nos aînés"
+    },
+    "description": {
+      "en": "Meet the Elders from the Stoney Nakoda Nation who made this video series possible.",
+      "fr": "Rencontrez les aînés de la nation Stoney Nakoda qui ont rendu possible cette série de vidéos."
+    },
+    "media": {
+      "type": "youtube",
+      "url": "https://youtu.be/E1vzAxvrgR4?si=vCtjAcHbtMPzJsNf",
+      "cloudFrontUrl": "N/A",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/0b286b2d-05fe-4d19-b923-da03d9afd668/thumbnails/Introductions_tumb.0000001.jpg",
+      "is360": false
+    },
+    "searchTerms": {
+      "en": [
+        "indigenousstories",
+        "stoneynakoda",
+        "indigenouslanduse",
+        "morley",
+        "landuse",
+        "abwater",
+        "alberta",
+        "stoneyvoices",
+        "traditionallanduse"
+      ],
+      "fr": [
+        "presentations",
+        "rencontrez",
+        "aines",
+        "nation",
+        "stoney",
+        "nakoda",
+        "ont",
+        "rendu"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
     "id": "stoney-01h-consulting-with-the-stoney",
     "supportedLanguages": [
       "en",
@@ -3771,8 +3818,8 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Cement Factory",
-      "fr": "Cimenterie"
+      "en": "The Cement Factory",
+      "fr": "La cimenterie"
     },
     "description": {
       "en": "The Cement factory has been around for a long time. Listen to Elder Lawrence talk about how Exshaw got it's name and the impact of the plant on the Stoney people.",
@@ -3912,8 +3959,8 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Glaciers",
-      "fr": "Glaciers"
+      "en": "A Perspective on Glaciers",
+      "fr": "Un regard sur les glaciers"
     },
     "description": {
       "en": "Elder Margaret talks about her experience on the Columbia Ice field and what she thinks should be done.",
@@ -4006,7 +4053,7 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Reacclimatizing in the Sibbald",
+      "en": "Reacclimatizing in the Sibbald Area",
       "fr": "Se réacclimater dans la région de Sibbald"
     },
     "description": {
@@ -4058,7 +4105,7 @@
     },
     "description": {
       "en": "Elder Margaret is asked to describe the Stoney people before Treaty was signed.",
-      "fr": "On demande à l’aînée Margaret de décrire la nation Stoney avec la signature du Traité."
+      "fr": "On demande à l’aînée Margaret de décrire la nation Stoney avant la signature du Traité."
     },
     "media": {
       "type": "youtube",
@@ -4101,7 +4148,7 @@
     "categoryId": "stoney-voices",
     "title": {
       "en": "Life of a Stoney Boy",
-      "fr": "La vie d’un jeune garçon de la nation Stoney"
+      "fr": "la vie d’un jeune garçon de la nation Stoney"
     },
     "description": {
       "en": "Listen to Elder Terry tell a story from his youth.",
@@ -4192,11 +4239,11 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Yamnuska Meaning",
-      "fr": "Signification de Yamnuska"
+      "en": "How did Mount Yamnuska get its name?",
+      "fr": "Comment le mont Yamnuska a-t-il reçu son nom?"
     },
     "description": {
-      "en": "Lean how this iconic mountain in the Alberta Rocky Mountains got it's name.",
+      "en": "Learn how this iconic mountain in the Alberta Rocky Mountains got its name.",
       "fr": "Apprenez comment cette montagne iconique des montagnes Rocheuses de l’Alberta s’est valu son nom."
     },
     "media": {
@@ -4239,8 +4286,8 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Cougar Story",
-      "fr": "Histoire de la montagne Cougar"
+      "en": "The Cougars of Cougar Mountain",
+      "fr": "Les couguars de la montagne Cougar"
     },
     "description": {
       "en": "Elder Lawrence talks about how Cougar Mountain got its name.",
@@ -4333,8 +4380,8 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Concept of Time",
-      "fr": "Concept du temps"
+      "en": "The Concept of Time",
+      "fr": "Le concept du temps"
     },
     "description": {
       "en": "Travis talks about differences in the concept of time. The oral tradition says \"Back in time\".  Stoney used the surroundings and animals to tell time, seasons and the weather. \"The Sky was the clock, the moon, the stars.\"",
@@ -4373,25 +4420,25 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-15h-what-will-land-look-like",
+    "id": "stoney-15h-stoney-hope-for-the-future",
     "supportedLanguages": [
       "en",
       "fr"
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "What Will Land Look Like In The Future",
-      "fr": "À quoi ressemblera le territoire dans le futur"
+      "en": "Hope for the Future",
+      "fr": "L’espoir pour l’avenir"
     },
     "description": {
       "en": "What is your hope for the future?",
-      "fr": "Qu’espérez-vous pour le futur?"
+      "fr": "Qu’espérez-vous pour l’avenir?"
     },
     "media": {
       "type": "youtube",
-      "url": "https://youtu.be/EKJ4X0QhZmY?si=9FO7qzKUxNbzs-8y",
+      "url": "https://www.youtube.com/watch?v=UpJUo8M5Bck",
       "cloudFrontUrl": "N/A",
-      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/b37b2a2b-8c73-4eed-b62c-e2f6a0fd1bcd/thumbnails/What%20will%20the%20land%20look%20like%20in%20the%20future_tumb.0000000.jpg",
+      "thumbnailUrl": "https://img.youtube.com/vi/UpJUo8M5Bck/hqdefault.jpg",
       "is360": false
     },
     "searchTerms": {
@@ -4401,18 +4448,22 @@
         "indigenouslanduse",
         "morley",
         "landuse",
-        "abwater",
         "alberta",
         "stoneyvoices",
-        "traditionallanduse"
+        "traditionallanduse",
+        "hope",
+        "future"
       ],
       "fr": [
-        "quoi",
-        "ressemblera",
-        "territoire",
+        "stoney",
+        "nakoda",
+        "nation",
+        "autochtones",
+        "espoirs",
+        "avenir",
         "futur",
-        "esperez",
-        "vous"
+        "territoire",
+        "utilisation traditionnelle des terres"
       ]
     },
     "lessonPlanIds": []
@@ -4472,8 +4523,8 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Water - Now and The Future",
-      "fr": "Eau – aujourd’hui et dans le futur"
+      "en": "Water — For Now and for the Future",
+      "fr": "L’eau — pour aujourd’hui et pour l’avenir"
     },
     "description": {
       "en": "Listen to Elder Margaret talk about the importance of Water to the Stoney People and to everyone.",
@@ -4664,8 +4715,8 @@
       "fr": "Utiliser les terres"
     },
     "description": {
-      "en": "Listen to Elders talk about how the Stoney people used the land.",
-      "fr": "Écoutez les aînés parler de l’utilisation que faisaient les Stoney du territoire."
+      "en": "Listen to Stoney Elders discuss gathering food and medicines, hunting, and passing on cultural knowledge through camps on the land. Learn how recreation and cattle grazing affect these traditional practices.",
+      "fr": "Écoutez les aînés de la nation Stoney parler de la cueillette de nourriture et de plantes médicinales, de la chasse et de la transmission des savoirs culturels lors de camps sur le territoire. Découvrez comment les activités récréatives et le pâturage du bétail influencent ces pratiques traditionnelles."
     },
     "media": {
       "type": "youtube",
@@ -4711,8 +4762,8 @@
       "fr": "Histoire de l’orignal"
     },
     "description": {
-      "en": "Moose in Stoney Territory. Are there as many now as there were in the past?",
-      "fr": "L’orignal sur le territoire des Stoney. Y en a-t-il autant qu’il y en avait autrefois?"
+      "en": "Moose Habitat is reduced by industrial development and proximity to human activity. This video explores how habitat value is calculated in Alberta Tomorrow.",
+      "fr": "L’habitat de l’orignal est réduit par le développement industriel et la proximité des activités humaines. Cette vidéo explique comment la valeur de l’habitat est calculée dans Alberta Tomorrow."
     },
     "media": {
       "type": "youtube",
@@ -4981,65 +5032,19 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-28h-introductions",
+    "id": "bfv-01i-blackfoot-perspective-on-water",
     "supportedLanguages": [
       "en",
       "fr"
     ],
-    "categoryId": "stoney-voices",
-    "title": {
-      "en": "Introductions",
-      "fr": "Présentations"
-    },
-    "description": {
-      "en": "Meet the Elders from the Stoney Nakoda Nation who made this video series possible.",
-      "fr": "Rencontrez les aînés de la nation Stoney Nakoda qui ont rendu possible cette série de vidéos."
-    },
-    "media": {
-      "type": "youtube",
-      "url": "https://youtu.be/E1vzAxvrgR4?si=vCtjAcHbtMPzJsNf",
-      "cloudFrontUrl": "N/A",
-      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/0b286b2d-05fe-4d19-b923-da03d9afd668/thumbnails/Introductions_tumb.0000001.jpg",
-      "is360": false
-    },
-    "searchTerms": {
-      "en": [
-        "indigenousstories",
-        "stoneynakoda",
-        "indigenouslanduse",
-        "morley",
-        "landuse",
-        "abwater",
-        "alberta",
-        "stoneyvoices",
-        "traditionallanduse"
-      ],
-      "fr": [
-        "presentations",
-        "rencontrez",
-        "aines",
-        "nation",
-        "stoney",
-        "nakoda",
-        "ont",
-        "rendu"
-      ]
-    },
-    "lessonPlanIds": []
-  },
-  {
-    "id": "bfv-01i-blackfoot-perspective-on-water",
-    "supportedLanguages": [
-      "en"
-    ],
     "categoryId": "blackfoot-voices",
     "title": {
       "en": "A Blackfoot Perspective on Water",
-      "fr": "N/A"
+      "fr": "Un regard des Pieds-Noirs sur l’eau"
     },
     "description": {
       "en": "A video sharing the Blackfoot perspective on water and its significance in Indigenous culture and the environment.",
-      "fr": "N/A"
+      "fr": "Une vidéo présentant le point de vue des Pieds-Noirs sur l’eau et son importance dans la culture autochtone et l’environnement."
     },
     "media": {
       "type": "youtube",
@@ -5057,7 +5062,15 @@
         "culture",
         "land-stewardship"
       ],
-      "fr": []
+      "fr": [
+        "pieds-noirs",
+        "blackfoot",
+        "voix-autochtones",
+        "savoirs-ecologiques-traditionnels",
+        "eau",
+        "culture",
+        "gestion-du-territoire"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5489,19 +5502,19 @@
     "lessonPlanIds": []
   },
   {
-    "id": "oth-04z-webinar-1-earth-mistakes-mitigations-making-amends",
+    "id": "oth-04z-webinar-land-use-mistakes-mitigation-restoration",
     "supportedLanguages": [
       "en",
       "fr"
     ],
     "categoryId": "other",
     "title": {
-      "en": "Webinar 1 Earth Mistakes, Mitigations & Making Amends on the Land Alberta Tomorrow & CPAWS SA",
-      "fr": "Webinaire 1 : erreurs terrestres, mesures d’atténuation et réparation sur le territoire, Alberta Tomorrow et CPAWS SA"
+      "en": "Webinar 1: Land-Use Mistakes, Mitigation and Restoration",
+      "fr": "Webinaire 1 : utilisation des terres, erreurs, atténuation et restauration"
     },
     "description": {
-      "en": "This is a recording of a webinar held on April 27, 2022.",
-      "fr": "Il s’agit de l’enregistrement d’un webinaire tenu le 27 avril 2022."
+      "en": "Watch the recording of a webinar presented in English by Alberta Tomorrow and CPAWS SA on April 27, 2022, titled “Earth Mistakes, Mitigations & Making Amends on the Land.”",
+      "fr": "Visionnez l’enregistrement d’un webinaire présenté en anglais par Alberta Tomorrow et CPAWS SA le 27 avril 2022, intitulé « Earth Mistakes, Mitigations & Making Amends on the Land »."
     },
     "media": {
       "type": "youtube",
@@ -5514,20 +5527,23 @@
       "en": [
         "webinar",
         "earth mistakes",
-        "mitigations",
+        "land use",
+        "mitigation",
+        "restoration",
         "making amends",
         "alberta tomorrow",
-        "cpaws",
-        "land"
+        "cpaws"
       ],
       "fr": [
         "webinaire",
+        "utilisation des terres",
+        "erreurs",
         "atténuation",
+        "restauration",
         "réparation",
         "territoire",
         "alberta tomorrow",
-        "cpaws",
-        "erreurs"
+        "cpaws"
       ]
     },
     "lessonPlanIds": []
