@@ -122,8 +122,8 @@
     "id": "climate-02-climate-change-in-alberta-mild-med-hot",
     "themeId": "climate-change",
     "title": {
-      "en": "Climate Change in Alberta: Investigating Mild Med Hot Climate Scenarios",
-      "fr": "Changements climatiques en Alberta : étudier les scénarios climatiques doux, moyens et chauds"
+      "en": "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios",
+      "fr": "Changements climatiques en Alberta : étude des scénarios climatiques doux, moyens et chauds"
     },
     "description": {
       "en": "Students will use the Alberta Tomorrow simulator to investigate different climate change scenarios and see the consequences of different futures and the benefits of using beneficial management practices.",
@@ -422,8 +422,8 @@
       "fr": "Sc 6 : Changements climatiques en Alberta"
     },
     "description": {
-      "en": "In this activity, students will look at climate change and how it is impacting Alberta.",
-      "fr": "Dans cette activité, les élèves examineront les changements climatiques et la façon dont ils touchent l’Alberta."
+      "en": "Students explore how climate change is affecting Alberta by analyzing historical temperature and precipitation trends, comparing mild and hot future scenarios, and testing land-use and management choices in the Alberta Tomorrow simulator to evaluate impacts on ecosystems, greenhouse gases, and communities.",
+      "fr": "Les élèves explorent les effets des changements climatiques en Alberta en analysant les tendances historiques de température et de précipitations, en comparant des scénarios futurs modéré et chaud, et en testant des choix d’aménagement du territoire et de pratiques de gestion dans le simulateur Alberta Tomorrow afin d’évaluer les impacts sur les écosystèmes, les gaz à effet de serre et les communautés."
     },
     "approximateTime": {
       "en": "3 classes (45 min each)",
@@ -1925,7 +1925,7 @@
         {
           "fileType": "student-worksheet",
           "title": "9e année, Adaptations des plantes et des animaux – feuille de travail de l’élève – diapositives Google à remplir",
-          "url": "N/A"
+          "url": "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E"
         }
       ]
     },
@@ -2102,7 +2102,7 @@
         {
           "fileType": "student-worksheet",
           "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
-          "url": "N/A"
+          "url": "https://drive.google.com/file/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz"
         },
         {
           "fileType": "presentation-slides",
@@ -2112,7 +2112,7 @@
         {
           "fileType": "student-worksheet",
           "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
-          "url": "N/A"
+          "url": "https://drive.google.com/file/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0"
         }
       ]
     },
