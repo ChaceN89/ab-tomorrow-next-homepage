@@ -1,6 +1,18 @@
-import { redirect } from "next/navigation";
+"use client";
 
-// Server-side redirect to default locale to support static export.
+import { useEffect } from "react";
+
 export default function Page() {
-  redirect("/en");
+  useEffect(() => {
+    const browserLanguages = navigator.languages?.length
+      ? navigator.languages
+      : [navigator.language];
+    const locale = browserLanguages
+      .map((language) => language.toLowerCase().split("-")[0])
+      .find((language) => language === "en" || language === "fr") || "en";
+
+    window.location.replace(`/${locale}/`);
+  }, []);
+
+  return null;
 }
