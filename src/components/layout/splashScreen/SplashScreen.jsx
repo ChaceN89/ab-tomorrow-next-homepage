@@ -16,13 +16,13 @@ import './SplashScreen.styles.css'; // Import custom CSS for the splash screen
 export default function SplashScreen({ errorMsg = false, errorText = null, errorLocation = null }) {
   return (
     <div className="flex flex-col justify-between min-h-screen  overflow-hidden z-[99999] fixed w-screen h-screen ">
-      
+
       {/* Top Hex Separator */}
-      <HexSeparator 
+      {/* <HexSeparator 
         rows={10}
         hexClass="bg-secondary-alt opacity-15"
         bottom={false}
-      />
+      /> */}
 
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center flex-grow bg-primary">
@@ -57,11 +57,11 @@ export default function SplashScreen({ errorMsg = false, errorText = null, error
       </div>
 
       {/* Bottom Hex Separator */}
-      <HexSeparator 
+      {/* <HexSeparator 
         rows={10}
         hexClass="bg-secondary-alt opacity-15"
         bottom={true}
-      />
+      /> */}
     </div>
   );
 }
