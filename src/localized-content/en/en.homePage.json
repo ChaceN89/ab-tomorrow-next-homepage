@@ -87,6 +87,7 @@
           "frenchAvailability": "A limited number of double-sided French maps are also available; these do not include overlays.",
           "qrAlt": "QR code for the map order form",
           "qrInstruction": "Scan the QR code to order.",
+          "moreInfo": "For more information, email",
           "qrExpand": "View a larger QR code",
           "qrClose": "Close enlarged QR code"
         }

@@ -74,6 +74,7 @@ export const eductionData = {
     floorMapFrenchAvailabilityKey: 'videos.floorMaps.frenchAvailability',
     floorMapQrAltKey: 'videos.floorMaps.qrAlt',
     floorMapQrInstructionKey: 'videos.floorMaps.qrInstruction',
+    floorMapMoreInfoKey: 'videos.floorMaps.moreInfo',
     floorMapQrExpandKey: 'videos.floorMaps.qrExpand',
     floorMapQrCloseKey: 'videos.floorMaps.qrClose',
     floorMapOrderUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSe3asFB8Ck0EK8A5nqZpYhYrFSyPtHtgH4sk1Ku_rzh9iW-bw/viewform',

@@ -87,6 +87,7 @@
           "frenchAvailability": "Un nombre limité de cartes recto verso en français est aussi disponible; elles ne comprennent pas de calques.",
           "qrAlt": "Code QR du formulaire de commande des cartes",
           "qrInstruction": "Scannez le code QR pour commander.",
+          "moreInfo": "Pour plus d’informations, écrivez à",
           "qrExpand": "Afficher le code QR en plus grand",
           "qrClose": "Fermer l’aperçu du code QR"
         }

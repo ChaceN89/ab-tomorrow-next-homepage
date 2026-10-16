@@ -10,6 +10,8 @@ export default function FloorMapOrderQr({
   src,
   alt,
   instruction,
+  moreInfo,
+  contactEmail,
   orderUrl,
   expandLabel,
   closeLabel,
@@ -108,9 +110,20 @@ export default function FloorMapOrderQr({
             <FiMaximize2 aria-hidden="true" />
           </button>
         </div>
-        <p className="min-w-0 flex-1 text-base leading-relaxed sm:text-lg">
-          {instruction}
-        </p>
+        <div className="min-w-0 flex-1">
+          <p className="text-base font-bold leading-relaxed sm:text-lg">
+            {instruction}
+          </p>
+          <p className="mt-2 text-sm leading-relaxed sm:text-base">
+            {moreInfo}{' '}
+            <a
+              className="font-semibold text-tertiary underline underline-offset-2"
+              href={`mailto:${contactEmail}`}
+            >
+              {contactEmail}
+            </a>
+          </p>
+        </div>
       </div>
 
       {expandedView}

@@ -104,10 +104,10 @@ export default function Education() {
               <div className="space-y-3">
                 <p>{t.rich(eductionData.waterRangerKit.descriptionKey, richTextComponents)}</p>
                 <div className="rounded-xl border border-primary/20 bg-white/90 p-3 lg:py-6 xl:py-12">
-                  <p>
+                  <p className="text-base font-bold leading-relaxed sm:text-lg">
                     {t(eductionData.waterRangerKit.contactKey)}{' '}
                     <a
-                      className="font-semibold text-tertiary underline underline-offset-2"
+                      className="font-bold text-tertiary underline underline-offset-2"
                       href={`mailto:${eductionData.contactEmail}`}
                     >
                       {eductionData.contactEmail}
@@ -154,6 +154,8 @@ export default function Education() {
                   src={eductionData.floormap.floorMapQrImg}
                   alt={t(eductionData.floormap.floorMapQrAltKey)}
                   instruction={t(eductionData.floormap.floorMapQrInstructionKey)}
+                  moreInfo={t(eductionData.floormap.floorMapMoreInfoKey)}
+                  contactEmail={eductionData.contactEmail}
                   orderUrl={eductionData.floormap.floorMapOrderUrl}
                   expandLabel={t(eductionData.floormap.floorMapQrExpandKey)}
                   closeLabel={t(eductionData.floormap.floorMapQrCloseKey)}
