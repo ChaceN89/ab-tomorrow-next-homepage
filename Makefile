@@ -17,4 +17,4 @@ publish:
 		--distribution-id $(DISTRIBUTION_ID) \
 		--paths "/*"
 
-	@echo "✅ Deployment complete!"
+	@echo "✅ Deployment complete!\n\n"

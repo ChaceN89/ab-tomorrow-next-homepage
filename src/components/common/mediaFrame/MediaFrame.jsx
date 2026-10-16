@@ -36,7 +36,6 @@ import React, { useEffect, useRef, useState } from "react";
 import PulseLoader from "@/components/common/PulseLoader";
 import Image from "next/image";
 import YouTube from 'react-youtube';
-import { useInView } from "react-intersection-observer";
 import PlayButton from "./PlayButton";
 
 // Utility functions for pausing other videos and unmounting the YouTube player
@@ -61,12 +60,6 @@ export default function MediaFrame({
 
   const thumbnailSrc =
     imgSrc || (type === "video" && videoSrc ? `https://img.youtube.com/vi/${videoSrc}/hqdefault.jpg` : "");
-
-  const { ref, inView } = useInView({
-    triggerOnce: true,     // only trigger once
-    threshold: 0.2,        // 20% of the component must be visible
-    rootMargin: "300px 0px", // begin loading shortly before entering viewport
-  });
 
   const { trackEvent } = useGoogleAnalytics();
 
@@ -160,69 +153,66 @@ export default function MediaFrame({
     <div className={`w-full ${maxSize} mx-auto text-center space-y-2 text-inherit`}>
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
 
-      <div ref={ref} className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
+      <div className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
 
-        {(inView || preload || preloadVideo) && (<>
+        <PulseLoader
+          showWheel={type === "video" ? canStartVidLoad || !thumbnailSrc : showWheel}
+          className={`transition-opacity duration-800 pointer-events-none ${shouldShowLoader ? "opacity-100" : "opacity-0"
+            }`}
+        />
 
-          <PulseLoader
-            showWheel={type === "video" ? canStartVidLoad || !thumbnailSrc : showWheel}
-            className={`transition-opacity duration-800 pointer-events-none ${shouldShowLoader ? "opacity-100" : "opacity-0"
+        {/* Load img if image or load it as thumnail if video is the type */}
+        {(
+          type == "image" ||  // if an image 
+          (type == "video" && thumbnailSrc &&  // or its a video with a thumbnail
+            (!videoLoaded || !videoIsPlaying) // and if its a video with a thumbn ail its either not loaded or not playing
+          )
+        ) &&
+          <Image
+            unoptimized
+            src={thumbnailSrc || '/ui-elements/placeholder.jpg'}
+            alt={alt}
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className={`object-cover transition-opacity duration-500 ${imgLoaded ? "opacity-100" : "opacity-0"
+              }`}
+            onLoad={() => setImgLoaded(true)}
+            loading={preload ? "eager" : "lazy"}
+          />
+        }
+
+        {/* Video component */}
+        {type == "video" && canStartVidLoad &&
+          // <div className="bg-black">
+          <YouTube
+            videoId={videoSrc}
+            onReady={handleVideoReady}
+            loading="lazy"
+            iframeClassName="yt-frame"
+            onPlay={() => myOnPlay()}
+            opts={{
+              width: "100%",
+              height: "100%",
+              playerVars: {
+                cc_load_policy: 1,
+                hl: normalizedCaptionLanguage === "fr-ca" ? "fr" : normalizedCaptionLanguage,
+                cc_lang_pref: normalizedCaptionLanguage,
+              },
+            }}
+            className={`w-full h-full transition duration-200 ${(videoIsPlaying || !thumbnailSrc) ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
               }`}
           />
+        }
 
-          {/* Load img if image or load it as thumnail if video is the type */}
-          {(
-            type == "image" ||  // if an image 
-            (type == "video" && thumbnailSrc &&  // or its a video with a thumbnail
-              (!videoLoaded || !videoIsPlaying) // and if its a video with a thumbn ail its either not loaded or not playing
-            )
-          ) &&
-            <Image
-              unoptimized
-              src={thumbnailSrc || '/ui-elements/placeholder.jpg'}
-              alt={alt}
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className={`object-cover transition-opacity duration-500 ${imgLoaded ? "opacity-100" : "opacity-0"
-                }`}
-              onLoad={() => setImgLoaded(true)}
-              loading={preload ? "eager" : "lazy"}
-            />
-          }
-
-          {/* Video component */}
-          {type == "video" && canStartVidLoad &&
-            // <div className="bg-black">
-            <YouTube
-              videoId={videoSrc}
-              onReady={handleVideoReady}
-              loading="lazy"
-              iframeClassName="yt-frame"
-              onPlay={() => myOnPlay()}
-              opts={{
-                width: "100%",
-                height: "100%",
-                playerVars: {
-                  cc_load_policy: 1,
-                  hl: normalizedCaptionLanguage === "fr-ca" ? "fr" : normalizedCaptionLanguage,
-                  cc_lang_pref: normalizedCaptionLanguage,
-                },
-              }}
-              className={`w-full h-full transition duration-200 ${(videoIsPlaying || !thumbnailSrc) ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
-                }`}
-            />
-          }
-
-          {/* Button over video to trigger playing */}
-          {(type == "video" && !videoIsPlaying) &&
-            <PlayButton
-              videoLoaded={videoLoaded}
-              handlePlayClick={playVideo}
-              canPlayVideo={playerReady}
-              preload={preloadVideo}
-            />
-          }
-        </>)}
+        {/* Button over video to trigger playing */}
+        {(type == "video" && !videoIsPlaying) &&
+          <PlayButton
+            videoLoaded={videoLoaded}
+            handlePlayClick={playVideo}
+            canPlayVideo={playerReady}
+            preload={preloadVideo}
+          />
+        }
       </div>
 
       {description && <div className="text-left pt-1.5">{description}</div>}
