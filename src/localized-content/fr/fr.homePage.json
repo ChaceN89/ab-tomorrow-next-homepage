@@ -70,7 +70,25 @@
         },
         "waterRangersKit": {
           "title": "(Water Rangers Kit) Trousse de gardien de l’eau",
-          "description": "Vous voulez emmener vos élèves analyser la qualité de l’eau, mais vous n’avez pas le matériel nécessaire? Pas de souci! Découvrez nos trousses d’analyse de gardien de l’eau. En plus de vous procurer du matériel d’analyse de qualité, vous soutenez Alberta Tomorrow! Un pourcentage des ventes est reversé à Alberta Tomorrow pour que l’utilisation de sa plateforme demeure entièrement gratuite."
+          "description": "Vous voulez emmener vos élèves analyser la qualité de l’eau, mais vous n’avez pas le matériel nécessaire? Pas de souci! Découvrez nos trousses d’analyse de gardien de l’eau. En plus de vous procurer du matériel d’analyse de qualité, vous soutenez Alberta Tomorrow! Un pourcentage des ventes est reversé à Alberta Tomorrow pour que l’utilisation de sa plateforme demeure entièrement gratuite.",
+          "contact": "Pour obtenir une trousse d’analyse Water Rangers, écrivez à"
+        },
+        "floorMaps": {
+          "title": "Nouvelles cartes géantes à vendre!",
+          "imageAlt": "Carte des régions visées par les traités en Alberta",
+          "description": "À l’appui des nouveaux programmes d’études sociales et de sciences de la 1re à la 6e année, cette carte géante recto verso de 4 pi × 8 pi présente les régions naturelles de l’Alberta d’un côté et celles du Canada de l’autre.",
+          "overlaysTitle": "L’ensemble comprend également des calques transparents indiquant :",
+          "overlays": {
+            "treatyAreas": "les territoires visés par les traités en Alberta",
+            "metisRegions": "les régions métisses de l’Alberta",
+            "currentLandscape": "le paysage actuel de l’Alberta"
+          },
+          "bundle": "À l’achat de l’ensemble, recevez une version numérique des activités interdisciplinaires pour les élèves de la maternelle à la 6e année.",
+          "frenchAvailability": "Un nombre limité de cartes recto verso en français est aussi disponible; elles ne comprennent pas de calques.",
+          "qrAlt": "Code QR du formulaire de commande des cartes",
+          "qrInstruction": "Scannez le code QR pour commander.",
+          "qrExpand": "Afficher le code QR en plus grand",
+          "qrClose": "Fermer l’aperçu du code QR"
         }
       }
     },

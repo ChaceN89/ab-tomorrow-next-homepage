@@ -22,7 +22,7 @@ export default function NewsPopup() {
   const t = useTranslations("Popup");
   const locale = useLocale();
 
-  const startDelay = 5000;
+  const startDelay = 4000;
   const toastDelay = 11000;
   const toastDuration = 9000;
 
@@ -34,47 +34,80 @@ export default function NewsPopup() {
         setTimeout(() => {
           const title = item.titleKey ? t(item.titleKey) : item.title;
           const description = item.descriptionKey ? t(item.descriptionKey) : item.description;
-          const linkText = item.linkTextKey ? t(item.linkTextKey) : "See More";
-          const localizedLink = item.link ? `/${locale}${item.link}` : null;
 
           toast(
             (toastId) => (
-              <div className="flex items-start space-x-2 text-white">
-                <div>{item.icon}</div>
+              <div className="relative w-full overflow-hidden rounded-2xl border border-tertiary/50 bg-gradient-to-br from-primary-alt to-primary-alt/90 p-4 text-white shadow-xl">
+                <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-tertiary via-accent to-tertiary-alt" />
+                <button
+                  aria-label={t("close")}
+                  onClick={() => toast.dismiss(toastId.id)}
+                  className="absolute right-3 top-3 rounded-full p-1 text-white/80 transition-colors hover:bg-white/10 hover:text-white hover:cursor-pointer"
+                >
+                  <FaTimes />
+                </button>
 
-                <div className="flex flex-col space-y-1">
-                  <strong className="text-lg pr-10">{title}</strong>
-                  <div className="text-sm">{description}</div>
-                  {item.bulletKeys?.length ? (
-                    <ul className="list-disc list-inside text-sm space-y-1">
-                      {item.bulletKeys.map((bulletKey) => (
-                        <li key={bulletKey}>{t(bulletKey)}</li>
+                <div className="flex items-center gap-3 pr-7">
+                  <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-tertiary/15 text-tertiary">
+                    {item.icon}
+                  </span>
+                  <strong className="min-w-0 flex-1 text-base font-bold leading-snug text-white">
+                    {title}
+                  </strong>
+                </div>
+                <div className="mt-3">
+                  <p className="text-sm leading-relaxed text-white/85">
+                    {description}
+                  </p>
+
+                  {item.bulletLinks?.length ? (
+                    <ul className="mt-3 space-y-2">
+                      {item.bulletLinks.map((bullet) => (
+                        <li
+                          key={bullet.labelKey}
+                          className="flex min-w-0 items-center justify-between gap-3 rounded-lg border border-white/10 bg-white/5 px-3 py-2"
+                        >
+                          <span className="flex min-w-0 items-center gap-2 text-sm font-medium text-white">
+                            <span className="h-2 w-2 shrink-0 rounded-full bg-accent" />
+                            <span>{t(bullet.labelKey)}</span>
+                          </span>
+                          {bullet.external ? (
+                            <a
+                              href={bullet.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex shrink-0 items-center gap-1 rounded-md bg-tertiary px-2.5 py-1.5 text-xs font-bold text-primary-alt transition-colors hover:bg-accent"
+                            >
+                              {t("view")} <span aria-hidden="true">→</span>
+                            </a>
+                          ) : (
+                            <Link
+                              href={`/${locale}${bullet.href}`}
+                              className="inline-flex shrink-0 items-center gap-1 rounded-md bg-tertiary px-2.5 py-1.5 text-xs font-bold text-primary-alt transition-colors hover:bg-accent"
+                              onClick={() => toast.dismiss(toastId.id)}
+                            >
+                              {t("view")} <span aria-hidden="true">→</span>
+                            </Link>
+                          )}
+                        </li>
                       ))}
                     </ul>
                   ) : null}
-
-                  {localizedLink ? (
-                    <Link
-                      href={localizedLink}
-                      className="text-blue-200 underline text-sm"
-                      onClick={() => toast.dismiss(toastId.id)}
-                    >
-                      {linkText} →
-                    </Link>
-                  ) : null}
-
-                  <button
-                    onClick={() => toast.dismiss(toastId.id)}
-                    className="absolute top-2 right-2 text-white hover:text-red-500 hover:cursor-pointer text-lg"
-                  >
-                    <FaTimes />
-                  </button>
                 </div>
               </div>
             ),
             {
               id: `news-toast-${index}`,
               duration: toastDuration,
+              style: {
+                width: "min(24rem, calc(100vw - 2rem))",
+                maxWidth: "calc(100vw - 24px)",
+                padding: 0,
+                backgroundColor: "transparent",
+                border: "none",
+                boxShadow: "none",
+                backdropFilter: "none",
+              },
             }
           );
         }, index * toastDelay);

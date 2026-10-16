@@ -22,12 +22,8 @@ export const eductionData = {
   titleKey: 'title',
   descriptionKey: 'description',
 
-  // Water Rangers Kit data keys + image
-  waterRangerKitTitleKey: 'videos.waterRangersKit.title',
-  waterRangerKitDescriptionKey: 'videos.waterRangersKit.description',
-  waterRangerKitImg: '/ui-elements/water-rangers-kit.jpg',
 
-  // MediaFrame data uses translation keys for titles/descriptions
+  // MediaFrame data uses translation keys for titles/descriptions - top section
   media: [
     {
       type: 'video',
@@ -47,5 +43,43 @@ export const eductionData = {
       titleKey: 'videos.gettingStarted.title',
       descriptionKey: 'videos.gettingStarted.description',
     },
-  ]
+  ],
+
+
+
+  contactEmail: 'info@albertatomorrow.ca',
+
+  // Water Ranger Kit - second row
+  waterRangerKit: {
+    titleKey: 'videos.waterRangersKit.title',
+    descriptionKey: 'videos.waterRangersKit.description',
+    contactKey: 'videos.waterRangersKit.contact',
+    img: '/ui-elements/water-rangers-kit.jpg',
+  },
+
+
+  // Floor-sized map offer section - last row 
+  floormap: {
+    // Floor-sized map offer data keys + image
+    floorMapTitleKey: 'videos.floorMaps.title',
+    floorMapImageAltKey: 'videos.floorMaps.imageAlt',
+    floorMapDescriptionKey: 'videos.floorMaps.description',
+    floorMapOverlaysTitleKey: 'videos.floorMaps.overlaysTitle',
+    floorMapOverlayKeys: [
+      'videos.floorMaps.overlays.treatyAreas',
+      'videos.floorMaps.overlays.metisRegions',
+      'videos.floorMaps.overlays.currentLandscape',
+    ],
+    floorMapBundleKey: 'videos.floorMaps.bundle',
+    floorMapFrenchAvailabilityKey: 'videos.floorMaps.frenchAvailability',
+    floorMapQrAltKey: 'videos.floorMaps.qrAlt',
+    floorMapQrInstructionKey: 'videos.floorMaps.qrInstruction',
+    floorMapQrExpandKey: 'videos.floorMaps.qrExpand',
+    floorMapQrCloseKey: 'videos.floorMaps.qrClose',
+    floorMapOrderUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSe3asFB8Ck0EK8A5nqZpYhYrFSyPtHtgH4sk1Ku_rzh9iW-bw/viewform',
+    floorMapImg: '/ui-elements/alberta-treaty-overlays.jpg',
+    floorMapQrImg: '/ui-elements/floor-map-order-qr.png',
+  }
+
+  // map stuff here - its own object
 };

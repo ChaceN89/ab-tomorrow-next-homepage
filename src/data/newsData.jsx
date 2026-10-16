@@ -34,17 +34,23 @@ import { LuClipboardList } from "react-icons/lu";
  */
 export const newsItems = [
   {
-    icon: <FaFeather className="text-green-600 text-2xl" />,
+    icon: <FaFeather className="text-tertiary text-2xl" />,
     titleKey: "siteUpdateTitle",
     descriptionKey: "siteUpdateDescription",
-    bulletKeys: [
-      "siteUpdateLessonPlans",
-      "siteUpdateVideos",
-      "siteUpdateSimulator",
+    bulletLinks: [
+      {
+        labelKey: "siteUpdateLessonPlans",
+        href: "/resources/lesson-plans",
+      },
+      {
+        labelKey: "siteUpdateVideos",
+        href: "/resources/videos",
+      },
+      {
+        labelKey: "siteUpdateSimulator",
+        href: "https://www.simulator.albertatomorrow.ca",
+        external: true,
+      },
     ],
-    link: "/resources",
-    linkTextKey: "viewResources",
   },
 ];
-
-

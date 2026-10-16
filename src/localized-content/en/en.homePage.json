@@ -70,7 +70,25 @@
         },
         "waterRangersKit": {
           "title": "Water Rangers Kit",
-          "description": "Do you want to take your students out to test water but don’t have the equipment? No problem! Check out our Water Rangers test kits. Not only are you getting great testing equipment, you are helping Alberta Tomorrow at the same time! A percentage of sales goes back to Alberta Tomorrow to keep the platform completely free for you!"
+          "description": "Do you want to take your students out to test water but don’t have the equipment? No problem! Check out our Water Rangers test kits. Not only are you getting great testing equipment, you are helping Alberta Tomorrow at the same time! A percentage of sales goes back to Alberta Tomorrow to keep the platform completely free for you!",
+          "contact": "To get a Water Rangers testing kit, email"
+        },
+        "floorMaps": {
+          "title": "New Floor-Sized Maps for Sale!",
+          "imageAlt": "Map showing Alberta’s Treaty Areas",
+          "description": "Support the new Grade 1–6 Social Studies and Science curricula with a double-sided 4′ × 8′ floor map: Alberta’s Natural Regions on one side and Canada’s Natural Regions on the other.",
+          "overlaysTitle": "The set also includes clear map overlays of:",
+          "overlays": {
+            "treatyAreas": "Alberta Treaty Areas",
+            "metisRegions": "Alberta Métis Regions",
+            "currentLandscape": "Alberta’s landscape today"
+          },
+          "bundle": "Buy the set and receive a digital copy of Cross-Curricular Activities for Grades K–6.",
+          "frenchAvailability": "A limited number of double-sided French maps are also available; these do not include overlays.",
+          "qrAlt": "QR code for the map order form",
+          "qrInstruction": "Scan the QR code to order.",
+          "qrExpand": "View a larger QR code",
+          "qrClose": "Close enlarged QR code"
         }
       }
     },
