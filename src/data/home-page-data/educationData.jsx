@@ -17,7 +17,7 @@
  * - Water Rangers kit image from @/assets/ui-elements/water-rangers-kit.jpg
  */
 
-export const eductionData = {
+export const educationData = {
   // translation keys under `HomePage.Education`
   titleKey: 'title',
   descriptionKey: 'description',

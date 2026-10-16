@@ -28,6 +28,7 @@ export default function CallToAction() {
       background={callToActionData.background}
       backgroundSm={callToActionData.backgroundSm}
       fixed
+      lazy
       className="py-24 z-0 relative"
     >
       <div className="relative z-30 flex flex-col lg:flex-row gap-10 justify-center items-center text-center text-white px-10">

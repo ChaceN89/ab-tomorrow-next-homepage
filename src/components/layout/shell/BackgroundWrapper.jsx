@@ -33,19 +33,44 @@
  * @updated Apr 1, 2025
  */
 "use client";
-import React, { useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 
-export default function BackgroundWrapper({ background, backgroundSm, children, className = "", fixed = false, blur = false }) {
-  
+export default function BackgroundWrapper({ background, backgroundSm, children, className = "", fixed = false, blur = false, lazy = false }) {
+  const containerRef = useRef(null);
+  const [shouldLoad, setShouldLoad] = useState(!lazy);
+
   // Load state for the background image (high-res)
   const [loaded, setLoaded] = useState(false);
 
-  // Preload the high-res image and set loaded state when complete (use the low-res image as a placeholder)
   useEffect(() => {
-    const img = new Image();
-    img.src = background;
+    if (!lazy) {
+      setShouldLoad(true);
+      return;
+    }
+
+    if (!containerRef.current || typeof IntersectionObserver === 'undefined') {
+      setShouldLoad(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setShouldLoad(true);
+        observer.disconnect();
+      }
+    }, { rootMargin: '500px 0px' });
+
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, [lazy]);
+
+  useEffect(() => {
+    if (!shouldLoad) return;
+
+    const img = new window.Image();
     img.onload = () => setLoaded(true);
-  }, [background]);
+    img.src = background;
+  }, [background, shouldLoad]);
 
 
   // states for screen size and allowing fixed background
@@ -53,7 +78,7 @@ export default function BackgroundWrapper({ background, backgroundSm, children, 
     allowFixed: false,
     isLargeScreen: false
   });
-  
+
   // check screen size and set allowFixed and isLargeScreen states
   useEffect(() => {
     const checkScreen = () => {
@@ -84,14 +109,14 @@ export default function BackgroundWrapper({ background, backgroundSm, children, 
   };
 
   return (
-    <div className={`${className} relative bg-primary `}>
+    <div ref={containerRef} className={`${className} relative bg-primary `}>
       {/* Blurry low-res background */}
       {backgroundSm && (
         <div
           className="absolute inset-0 filter  transition-opacity duration-500"
           style={{
             ...baseBackgroundStyle,
-            backgroundImage: `url(${backgroundSm})`,
+            backgroundImage: shouldLoad ? `url(${backgroundSm})` : 'none',
             opacity: loaded ? 0 : 1,
             filter: 'blur(2px)',
           }}
@@ -103,7 +128,7 @@ export default function BackgroundWrapper({ background, backgroundSm, children, 
         className="absolute inset-0 transition-opacity duration-500"
         style={{
           ...baseBackgroundStyle,
-          backgroundImage: `url(${background})`,
+          backgroundImage: shouldLoad ? `url(${background})` : 'none',
           opacity: loaded ? 1 : 0
         }}
       />

@@ -14,9 +14,8 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages } from "@/i18n/messages";
 import { getPageTitle } from "@/utils/metadataUtils";
-import AnalyticsProvider from "@/components/analytics/AnalyticsProvider";
 import LocalizedShell from "@/components/layout/shell/LocalizedShell";
-import SplashScreen from "@/components/layout/splashScreen/SplashScreen";
+import AnalyticsProvider from "@/components/analytics/AnalyticsProvider";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({
@@ -50,11 +49,10 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <Suspense fallback={<SplashScreen />}>
-        <AnalyticsProvider>
-          <LocalizedShell>{children}</LocalizedShell>
-        </AnalyticsProvider>
+      <Suspense fallback={null}>
+        <AnalyticsProvider />
       </Suspense>
+      <LocalizedShell>{children}</LocalizedShell>
     </NextIntlClientProvider>
   );
 }

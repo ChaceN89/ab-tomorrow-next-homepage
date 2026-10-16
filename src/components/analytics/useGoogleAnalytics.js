@@ -27,7 +27,7 @@ import { useEffect } from 'react'
 import ReactGA from 'react-ga4'
 
 // get the Google Analytics tracking ID from the environment variables
-const trackingId = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "YOUR_GA_ID"
+const trackingId = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID
 const appVersion = process.env.NEXT_PUBLIC_APP_VERSION || "No Version Specified"
 
 let initialized = false
@@ -35,8 +35,8 @@ let initialized = false
 const useGoogleAnalytics = () => {
   useEffect(() => {
     if (
-      process.env.NODE_ENV === "development" || 
-      !trackingId || 
+      process.env.NODE_ENV === "development" ||
+      !trackingId ||
       initialized
     ) {
       return

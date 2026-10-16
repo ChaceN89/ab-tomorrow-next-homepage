@@ -9,6 +9,7 @@
  * @updated Apr 1, 2025
  */
 
+import { Suspense } from "react";
 import ResourceHeader from "@/components/features/resource-page-components/ResourceHeader";
 import { LessonPlanResourceProvider } from "@/components/features/resource-page-components/lesson-plan-components/LessonPlanResourceContext";
 import { VideoResourceProvider } from "@/components/features/resource-page-components/video-components/VideoResourceContext";
@@ -23,8 +24,12 @@ export default async function ResourceLayout({ children, params }) {
     <LessonPlanResourceProvider>
       <VideoResourceProvider>
         <ResourceHeader locale={locale} />
-        <ModalContainer />
-        <main id="resources-container" className="min-h-[50vh] pb-40">{children}</main>
+        <Suspense fallback={null}>
+          <ModalContainer />
+        </Suspense>
+        <Suspense fallback={null}>
+          <main id="resources-container" className="min-h-[50vh] pb-40">{children}</main>
+        </Suspense>
       </VideoResourceProvider>
     </LessonPlanResourceProvider>
   );

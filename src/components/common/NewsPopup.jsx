@@ -22,7 +22,7 @@ export default function NewsPopup() {
   const t = useTranslations("Popup");
   const locale = useLocale();
 
-  const startDelay = 4000;
+  const startDelay = 3000;
   const toastDelay = 11000;
   const toastDuration = 9000;
 

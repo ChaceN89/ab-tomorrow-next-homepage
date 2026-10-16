@@ -68,7 +68,6 @@ export default function IndigenousVoices() {
           {/* Media (Video) */}
           <div className="order-1 xl:order-2 w-full h-full xl:col-span-2">
             <MediaFrame
-              preload
               type="video"
               videoSrc={indigenousVoicesData.media.video.youtubeSrc}
               alt={indigenousVoicesData.media.video.title}
@@ -102,7 +101,6 @@ export default function IndigenousVoices() {
           {/* Media (Image) */}
           <div className="order-1 w-full h-full lg:col-span-2">
             <MediaFrame
-              preload
               type="image"
               imgSrc={indigenousVoicesData.media.img.src}
               alt={indigenousVoicesData.media.img.title}

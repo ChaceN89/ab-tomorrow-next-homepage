@@ -42,7 +42,8 @@ export default function AnalyticsProvider({ children }) {
       return
     }
 
-    const url = pathname + searchParams.toString()
+    const queryString = searchParams.toString()
+    const url = queryString ? `${pathname}?${queryString}` : pathname
     trackPageView(url)
   }, [pathname, searchParams, trackPageView])
 
