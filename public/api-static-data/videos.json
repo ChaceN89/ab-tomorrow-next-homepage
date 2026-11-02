@@ -1371,11 +1371,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Watershed 360 Tour",
-      "fr": "N/A"
+      "fr": "Visite à 360° du bassin versant"
     },
     "description": {
       "en": "Visit each sub-basin in the Bow River basin and get a feel for how people use the water and the landscape. Look at the different types of buildings, pathways, and activities that can take place within the watershed as you travel from the headwaters, down to the end in the prairies.",
-      "fr": "N/A"
+      "fr": "Visitez chaque sous-bassin du bassin de la rivière Bow et découvrez comment les gens utilisent l’eau et le paysage. Observez les différents types de bâtiments, de sentiers et d’activités présents dans le bassin versant, depuis les sources jusqu’aux Prairies."
     },
     "media": {
       "type": "youtube",
@@ -1391,7 +1391,12 @@
         "monitoring",
         "tour"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "visite"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1403,11 +1408,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Hydrology and Climate Change",
-      "fr": "N/A"
+      "fr": "Hydrologie et changements climatiques"
     },
     "description": {
       "en": "Tricia Stadnyk talks about how a watershed can affect the climate it is in, and in turn, how the climate then affects the landscape. Go from the headwaters through to the prairies as she talks about precipitation and more.",
-      "fr": "N/A"
+      "fr": "Tricia Stadnyk explique comment un bassin versant peut influencer le climat de sa région et, à son tour, comment le climat influence le paysage. Suivez le parcours des sources jusqu’aux Prairies tandis qu’elle parle des précipitations et d’autres sujets."
     },
     "media": {
       "type": "youtube",
@@ -1424,7 +1429,13 @@
         "climate",
         "hydrology"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "climat",
+        "hydrologie"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1436,11 +1447,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Watershed Management and Data",
-      "fr": "N/A"
+      "fr": "Gestion du bassin versant et données"
     },
     "description": {
       "en": "Dr. Lee Jackson talks about the Sustainable Watershed Integrated Management Platform and the necessity of shared water data for the health of the Bow River Basin. Explore from the headwaters into the prairies and learn about citizen science projects, and different data parameters.",
-      "fr": "N/A"
+      "fr": "Le Dr Lee Jackson présente la Plateforme intégrée de gestion durable des bassins versants et explique pourquoi le partage des données sur l’eau est essentiel à la santé du bassin de la rivière Bow. Explorez le territoire depuis les sources jusqu’aux Prairies et découvrez des projets de science citoyenne ainsi que différents paramètres de données."
     },
     "media": {
       "type": "youtube",
@@ -1456,7 +1467,13 @@
         "monitoring",
         "sustainability"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "durabilité",
+        "données"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1468,11 +1485,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Watersheds and Hydrology",
-      "fr": "N/A"
+      "fr": "Bassins versants et hydrologie"
     },
     "description": {
       "en": "Go from the mountains through the river basin while learning what a watershed is, and how hydrology is apparent in the landscape. Tricia Stadnyk will explain how hydrology can affect everything around it as you explore.",
-      "fr": "N/A"
+      "fr": "Parcourez le bassin fluvial depuis les montagnes et découvrez ce qu’est un bassin versant ainsi que les manifestations de l’hydrologie dans le paysage. Tricia Stadnyk explique comment l’hydrologie peut influencer tout ce qui l’entoure."
     },
     "media": {
       "type": "youtube",
@@ -1489,7 +1506,13 @@
         "hydrology",
         "landscape"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "hydrologie",
+        "paysage"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1501,11 +1524,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Hydrology and Land Development",
-      "fr": "N/A"
+      "fr": "Hydrologie et aménagement du territoire"
     },
     "description": {
       "en": "Explore the watershed while Tricia Stadnyk explains how landscapes and water are affected by development and use changes. How does hydrology within the watershed change when the landscape changes because of humans?",
-      "fr": "N/A"
+      "fr": "Explorez le bassin versant tandis que Tricia Stadnyk explique comment l’aménagement et les changements d’utilisation du territoire influencent les paysages et l’eau. Comment l’hydrologie du bassin versant change-t-elle lorsque les activités humaines transforment le paysage?"
     },
     "media": {
       "type": "youtube",
@@ -1520,7 +1543,13 @@
         "watershed",
         "monitoring"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "hydrologie",
+        "aménagement du territoire"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1532,11 +1561,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Elbow River Watershed Partnership (ERWP) Aquifers",
-      "fr": "N/A"
+      "fr": "Aquifères du partenariat du bassin versant de la rivière Elbow"
     },
     "description": {
       "en": "Explore the Elbow River watershed and learn about its groundwater, and state of the aquifer with Joe and Flora. Learn the definitions for what an aquifer is, how groundwater is used in the sub-basin, and how it is affected by people.",
-      "fr": "N/A"
+      "fr": "Explorez le bassin versant de la rivière Elbow avec Joe et Flora et découvrez ses eaux souterraines ainsi que l’état de son aquifère. Apprenez ce qu’est un aquifère, comment les eaux souterraines sont utilisées dans le sous-bassin et comment les activités humaines les influencent."
     },
     "media": {
       "type": "youtube",
@@ -1551,7 +1580,13 @@
         "watershed",
         "monitoring"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "eaux souterraines",
+        "aquifères"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1563,11 +1598,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Wetlands and Stormwater",
-      "fr": "N/A"
+      "fr": "Milieux humides et eaux pluviales"
     },
     "description": {
       "en": "Take a walk around the constructed wetlands in North Glenmore park with Liliana Bozic as she explains the uses of wetlands for storage and stormwater. Learn how water quality is affected by wetlands, and how land development changes, and seasons affect them.",
-      "fr": "N/A"
+      "fr": "Visitez les milieux humides aménagés du parc North Glenmore avec Liliana Bozic, qui explique comment ils servent au stockage de l’eau et à la gestion des eaux pluviales. Découvrez leur influence sur la qualité de l’eau, ainsi que les effets de l’aménagement du territoire et des saisons."
     },
     "media": {
       "type": "youtube",
@@ -1583,7 +1618,13 @@
         "monitoring",
         "storm"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "eaux pluviales",
+        "milieux humides"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1595,11 +1636,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Water Quality",
-      "fr": "N/A"
+      "fr": "Qualité de l’eau"
     },
     "description": {
       "en": "Join Patrick Van den Eynden as he talks about the City of Calgary's Glenmore Water Treatment Plant's process from getting the water from the reservoir, all the way to disinfection and sending the water out to service sites across the city.",
-      "fr": "N/A"
+      "fr": "Patrick Van den Eynden présente le processus de traitement de l’eau à l’usine de traitement de Glenmore de la Ville de Calgary, depuis le prélèvement dans le réservoir jusqu’à la désinfection et à l’acheminement de l’eau vers les différents secteurs de la ville."
     },
     "media": {
       "type": "youtube",
@@ -1614,7 +1655,13 @@
         "watershed",
         "monitoring"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "qualité de l’eau",
+        "traitement de l’eau"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1626,11 +1673,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Water Services",
-      "fr": "N/A"
+      "fr": "Services liés à l’eau"
     },
     "description": {
       "en": "Explore some of the Glenmore dam and reservoir as Patrick Van den Eynden talks about its history, infrastructure, services, and the City's water drinking system.",
-      "fr": "N/A"
+      "fr": "Explorez le barrage et le réservoir Glenmore tandis que Patrick Van den Eynden présente leur histoire, leurs infrastructures et leurs services, ainsi que le système d’approvisionnement en eau potable de la Ville."
     },
     "media": {
       "type": "youtube",
@@ -1645,7 +1692,13 @@
         "watershed",
         "monitoring"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "services liés à l’eau",
+        "approvisionnement en eau"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1657,11 +1710,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Native Prairies and Plants",
-      "fr": "N/A"
+      "fr": "Prairies naturelles et plantes indigènes"
     },
     "description": {
       "en": "As Megan Evans and Erin Anderson talk about the importance of prairies and their native plants, explore several grassland landscapes within the Bow River Basin.",
-      "fr": "N/A"
+      "fr": "Megan Evans et Erin Anderson expliquent l’importance des prairies et de leurs plantes indigènes. Explorez plusieurs paysages de prairies du bassin de la rivière Bow."
     },
     "media": {
       "type": "youtube",
@@ -1676,7 +1729,13 @@
         "watershed",
         "monitoring"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "prairies",
+        "plantes indigènes"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1688,11 +1747,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Invasive Species and Control",
-      "fr": "N/A"
+      "fr": "Espèces envahissantes et lutte contre elles"
     },
     "description": {
       "en": "Learn about invasive species in native grasslands, control systems, and the importance of native species from Erin Anderson and Megan Evans as you explore various prairie landscapes.",
-      "fr": "N/A"
+      "fr": "Erin Anderson et Megan Evans présentent les espèces envahissantes des prairies naturelles, les méthodes de lutte et l’importance des espèces indigènes. Explorez différents paysages des Prairies."
     },
     "media": {
       "type": "youtube",
@@ -1707,7 +1766,14 @@
         "watershed",
         "monitoring"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "espèces envahissantes",
+        "lutte",
+        "plantes indigènes"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -1719,11 +1785,11 @@
     "categoryId": "bow-river-watershed-360",
     "title": {
       "en": "Isotopes and Climate Change",
-      "fr": "N/A"
+      "fr": "Isotopes et changements climatiques"
     },
     "description": {
       "en": "Learn about how isotopes can be used to monitor climate change and hydrologic functions within a watershed.",
-      "fr": "N/A"
+      "fr": "Découvrez comment les isotopes permettent de surveiller les changements climatiques et les processus hydrologiques au sein d’un bassin versant."
     },
     "media": {
       "type": "youtube",
@@ -1740,7 +1806,13 @@
         "isotopes",
         "climate"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant",
+        "surveillance",
+        "isotopes",
+        "climat"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5082,11 +5154,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Investigating a Fish Kill",
-      "fr": "N/A"
+      "fr": "Enquête sur une mortalité de poissons"
     },
     "description": {
       "en": "Michael Sullivan, provincial fish science specialist with Alberta Fish and Wildlife talks at Lake Isle where thousands of sucker fish are poking their heads out of the water literally gasping for air because of oxygen deficiency in the water in this video from March 2014.",
-      "fr": "N/A"
+      "fr": "Michael Sullivan, spécialiste provincial des sciences halieutiques d’Alberta Fish and Wildlife, se rend au lac Isle, où des milliers de meuniers sortent la tête de l’eau, littéralement à bout de souffle en raison du manque d’oxygène. Cette vidéo date de mars 2014."
     },
     "media": {
       "type": "youtube",
@@ -5104,7 +5176,14 @@
         "fish-kill",
         "ab-environment"
       ],
-      "fr": []
+      "fr": [
+        "qualité de l’eau",
+        "eau en Alberta",
+        "utilisation des terres",
+        "eutrophisation",
+        "mortalité de poissons",
+        "environnement en Alberta"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5116,11 +5195,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Native Trout in Alberta",
-      "fr": "N/A"
+      "fr": "Truites indigènes de l’Alberta"
     },
     "description": {
       "en": "Watch this recording of a LiveStream presented by CPAWS SAB, Trout Unlimited and Cows and Fish to learn about Native Trout in Alberta.",
-      "fr": "N/A"
+      "fr": "Regardez cet enregistrement d’une diffusion en direct présentée par CPAWS SAB, Trout Unlimited et Cows and Fish pour en apprendre davantage sur les truites indigènes de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -5138,7 +5217,14 @@
         "recreation",
         "agriculture"
       ],
-      "fr": []
+      "fr": [
+        "qualité de l’eau",
+        "truites indigènes",
+        "CPAWS",
+        "Trout Unlimited",
+        "loisirs",
+        "agriculture"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5150,11 +5236,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Athabasca Sand Dunes Ecological Reserve",
-      "fr": "N/A"
+      "fr": "Réserve écologique des dunes de sable de l’Athabasca"
     },
     "description": {
       "en": "Open, moving sand dunes surrounded by lakes.",
-      "fr": "N/A"
+      "fr": "Des dunes de sable dégagées et mouvantes entourées de lacs."
     },
     "media": {
       "type": "youtube",
@@ -5170,7 +5256,12 @@
         "dunes",
         "ecological-reserve"
       ],
-      "fr": []
+      "fr": [
+        "Athabasca",
+        "sable",
+        "dunes",
+        "réserve écologique"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5182,11 +5273,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Writing on Stone Provincial Park",
-      "fr": "N/A"
+      "fr": "Parc provincial Writing-on-Stone"
     },
     "description": {
       "en": "Learn about the landforms and the significance of the area to the Blackfoot people.",
-      "fr": "N/A"
+      "fr": "Découvrez les formes de relief et l’importance de ce territoire pour les Pieds-Noirs."
     },
     "media": {
       "type": "youtube",
@@ -5202,7 +5293,12 @@
         "milk-river",
         "blackfoot"
       ],
-      "fr": []
+      "fr": [
+        "Writing-on-Stone",
+        "pétroglyphes",
+        "rivière Milk",
+        "Pieds-Noirs"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5214,11 +5310,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Hanging Culvert",
-      "fr": "N/A"
+      "fr": "Ponceau perché"
     },
     "description": {
       "en": "Listen to this fisheries biologist explain what a hanging culvert is in the upper reaches of the Red Deer River Watershed.",
-      "fr": "N/A"
+      "fr": "Écoutez une biologiste des pêches expliquer ce qu’est un ponceau perché dans le cours supérieur du bassin versant de la rivière Red Deer."
     },
     "media": {
       "type": "youtube",
@@ -5235,7 +5331,13 @@
         "watershed",
         "roads"
       ],
-      "fr": []
+      "fr": [
+        "ponceau",
+        "passage de cours d’eau",
+        "poissons",
+        "bassin versant",
+        "routes"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5247,11 +5349,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Forest Attack - Mountain Pine Beetle",
-      "fr": "N/A"
+      "fr": "Attaque de la forêt : dendroctone du pin ponderosa"
     },
     "description": {
       "en": "Follow biologists as they look for trees attacked by Mountain Pine Beetles.",
-      "fr": "N/A"
+      "fr": "Suivez des biologistes à la recherche d’arbres attaqués par le dendroctone du pin ponderosa."
     },
     "media": {
       "type": "youtube",
@@ -5267,7 +5369,12 @@
         "infestation",
         "biology"
       ],
-      "fr": []
+      "fr": [
+        "forêts",
+        "dendroctone du pin ponderosa",
+        "infestation",
+        "biologie"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5279,11 +5386,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Grassland Restoration",
-      "fr": "N/A"
+      "fr": "Restauration des prairies"
     },
     "description": {
       "en": "This ranch south of Manyberries is an Alberta Conservation Association site.",
-      "fr": "N/A"
+      "fr": "Ce ranch situé au sud de Manyberries est un site de l’Alberta Conservation Association."
     },
     "media": {
       "type": "youtube",
@@ -5299,7 +5406,12 @@
         "ranching",
         "conservation"
       ],
-      "fr": []
+      "fr": [
+        "prairies",
+        "restauration",
+        "élevage",
+        "conservation"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5311,11 +5423,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Beneath the Surface: Water Monitoring in the Ghost Watershed",
-      "fr": "N/A"
+      "fr": "Sous la surface : surveillance de l’eau dans le bassin versant de Ghost"
     },
     "description": {
       "en": "Peek into a bucket of bugs and see why these aquatic invertebrates are indicators of water quality.",
-      "fr": "N/A"
+      "fr": "Observez des invertébrés aquatiques dans un seau et découvrez pourquoi ils sont des indicateurs de la qualité de l’eau."
     },
     "media": {
       "type": "youtube",
@@ -5331,7 +5443,12 @@
         "monitoring",
         "aquatic-invertebrates"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "bassin versant de Ghost",
+        "surveillance",
+        "invertébrés aquatiques"
+      ]
     },
     "lessonPlanIds": []
   },
@@ -5343,11 +5460,11 @@
     "categoryId": "points-of-interest",
     "title": {
       "en": "Finding Water: Healthy Land, Healthy Stream",
-      "fr": "N/A"
+      "fr": "Trouver l’eau : terres saines, cours d’eau en santé"
     },
     "description": {
       "en": "A documentary video on the sources of Canada’s prairie rivers and their vulnerability to land use.",
-      "fr": "N/A"
+      "fr": "Un documentaire sur les sources des rivières des Prairies canadiennes et leur vulnérabilité aux changements d’utilisation des terres."
     },
     "media": {
       "type": "youtube",
@@ -5363,7 +5480,12 @@
         "land-use",
         "canadian-water"
       ],
-      "fr": []
+      "fr": [
+        "rivières des Prairies",
+        "santé des cours d’eau",
+        "utilisation des terres",
+        "eau au Canada"
+      ]
     },
     "lessonPlanIds": []
   },
