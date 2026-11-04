@@ -348,45 +348,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "tutorial-10a-create-account",
-    "supportedLanguages": [
-      "en",
-      "fr"
-    ],
-    "categoryId": "simulator-tutorials",
-    "title": {
-      "en": "How to Create an Account to Use Alberta Tomorrow",
-      "fr": "Comment creer un compte pour utiliser Alberta Tomorrow"
-    },
-    "description": {
-      "en": "Follow these easy steps to create your own Public, Teacher, or Student account in Alberta Tomorrow.",
-      "fr": "Suivez ces etapes simples pour creer votre propre compte public, enseignant ou etudiant dans Alberta Tomorrow."
-    },
-    "media": {
-      "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=kJ6Pu5uByQM",
-      "cloudFrontUrl": "N/A",
-      "thumbnailUrl": "https://img.youtube.com/vi/kJ6Pu5uByQM/hqdefault.jpg",
-      "is360": false
-    },
-    "searchTerms": {
-      "en": [
-        "account",
-        "signup",
-        "teacher",
-        "student"
-      ],
-      "fr": [
-        "compte",
-        "inscription",
-        "enseignant",
-        "etudiant"
-      ]
-    },
-    "lessonPlanIds": []
-  },
-  {
-    "id": "tutorial-11a-indigenous-voices",
+    "id": "tutorial-10a-indigenous-voices",
     "supportedLanguages": [
       "en",
       "fr"
