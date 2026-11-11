@@ -11,11 +11,20 @@
  * @features
  * - Title and description for the education section
  * - Water Rangers Kit promotional content (title, image, description)
- * - Media section with embedded YouTube videos and JSX-based descriptions
+ * - Media section with YouTube videos and the shared register-account video resource
  *
  * @dependencies
  * - Water Rangers kit image from @/assets/ui-elements/water-rangers-kit.jpg
  */
+
+import videos from "../../../public/api-static-data/videos.json";
+import { extractYouTubeId, normalizeVideoMedia } from "@/utils/videoResouceUtils";
+
+const gettingStartedVideo = videos.find((video) => video.id === "tutorial-01a-register-account");
+if (!gettingStartedVideo) {
+  throw new Error("Missing homepage video: tutorial-01a-register-account");
+}
+const gettingStartedMedia = normalizeVideoMedia(gettingStartedVideo);
 
 export const educationData = {
   // translation keys under `HomePage.Education`
@@ -39,7 +48,10 @@ export const educationData = {
     },
     {
       type: 'video',
-      videoSrc: 'kJ6Pu5uByQM',
+      videoSrc: extractYouTubeId(gettingStartedMedia.youtubeUrl),
+      primaryUrl: gettingStartedMedia.primaryUrl,
+      imgSrc: gettingStartedMedia.thumbnailUrl,
+      subtitles: gettingStartedVideo.subtitles,
       titleKey: 'videos.gettingStarted.title',
       descriptionKey: 'videos.gettingStarted.description',
     },

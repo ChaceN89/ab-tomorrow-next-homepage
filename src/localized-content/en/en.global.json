@@ -1,4 +1,10 @@
 {
+  "MediaFrame": {
+    "subtitleLabel": "English",
+    "playbackError": "Playback could not start. Please press Play to try again.",
+    "loadError": "This video could not be loaded. Please try again later.",
+    "subtitleError": "Subtitles could not be loaded. The video can still be played."
+  },
   "Other": {
     "launchSimulator": "Launch Simulator",
     "comingSoon": "Coming Soon",

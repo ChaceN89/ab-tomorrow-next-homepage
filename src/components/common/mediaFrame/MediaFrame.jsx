@@ -1,10 +1,11 @@
 /**
  * @file MediaFrame.jsx
  * @module UI/Media
- * @desc A reusable media component for displaying either YouTube videos or static images with optional titles, descriptions, loading states, and custom thumbnail overlays.
+ * @desc Displays primary HTML5 videos with subtitles, YouTube fallbacks, or static images.
  *
  * @features
- * - Displays YouTube video embeds with customizable options.
+ * - Prefers primary video URLs with native controls and localized WebVTT subtitles.
+ * - Uses YouTube when a primary URL is absent.
  * - Supports optional image fallback for non-video content.
  * - Shows a loading animation (PulseLoader) until content is fully loaded.
  * - If a `thumbUrl` is provided, it shows a thumbnail overlay with a custom play button before playing the video.
@@ -12,7 +13,9 @@
  * - Fully responsive with Tailwind utility classes and animation support.
  *
  * @props
- * @param {string} src - YouTube video ID or image path.
+ * @param {string} [videoSrc] - YouTube video ID, used when primary playback is unavailable.
+ * @param {string} [primaryUrl] - Preferred HTML5 video URL.
+ * @param {Object} [subtitles] - English/French WebVTT URLs keyed by language.
  * @param {string} [alt] - Alt text for images or thumbnails.
  * @param {string} [title] - Optional title to display above the media.
  * @param {string} [description] - Optional description displayed below the media.
@@ -32,21 +35,30 @@
  */
 
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import PulseLoader from "@/components/common/PulseLoader";
 import Image from "next/image";
 import YouTube from 'react-youtube';
 import PlayButton from "./PlayButton";
+import { getMessages } from "@/i18n/messages";
+import { getLocalizedValue } from "@/utils/resourceNormalizeUtils";
+import styles from "./MediaFrame.module.css";
 
 // Utility functions for pausing other videos and unmounting the YouTube player
 import { pauseOtherVideos, unmountYouTubePlayer } from "./youtubePlayerUtils";
 
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 
-export default function MediaFrame({
+export default function MediaFrame(props) {
+  return <MediaFrameContent key={`${props.primaryUrl || ""}:${props.videoSrc || ""}`} {...props} />;
+}
+
+function MediaFrameContent({
   type = "image",
   imgSrc = "",
   videoSrc = "",
+  primaryUrl = "",
+  subtitles = {},
   alt = "",
   title = "",
   description = "",
@@ -57,6 +69,11 @@ export default function MediaFrame({
   preloadVideo = false,
   captionLanguage = "en",
 }) {
+  const [videoError, setVideoError] = useState("");
+  const nativeVideoUrl = getLocalizedValue(primaryUrl).trim();
+  const isNativeVideo = Boolean(nativeVideoUrl);
+  const subtitleLanguage = captionLanguage.startsWith("fr") ? "fr" : "en";
+  const mediaMessages = getMessages(subtitleLanguage).MediaFrame;
 
   const thumbnailSrc =
     imgSrc || (type === "video" && videoSrc ? `https://img.youtube.com/vi/${videoSrc}/hqdefault.jpg` : "");
@@ -76,6 +93,7 @@ export default function MediaFrame({
 
   // get access to the video player is its active
   const playerRef = useRef(null);
+  const nativePlayerRef = useRef(null);
   const shouldPlayWhenReadyRef = useRef(false);
 
   const [playerReady, setPlayerReady] = useState(false);
@@ -104,8 +122,35 @@ export default function MediaFrame({
   // function to play the video and pause all other videos
   const myOnPlay = () => {
     setvideoIsPlaying(true);
-    pauseOtherVideos(videoSrc);
+    setVideoError("");
+    pauseOtherVideos(isNativeVideo ? "" : videoSrc, {
+      excludeNativeVideo: nativePlayerRef.current,
+    });
   }
+
+  const playNativeVideo = () => {
+    const player = nativePlayerRef.current;
+    if (!player) return;
+    shouldPlayWhenReadyRef.current = false;
+    player.play().catch((error) => {
+      console.error("Native video playback failed:", error);
+      setVideoError(mediaMessages.playbackError);
+      setvideoIsPlaying(false);
+    });
+  };
+
+  const handleNativeReady = () => {
+    setPlayerReady(true);
+    setVideoLoaded(true);
+    if (shouldPlayWhenReadyRef.current) playNativeVideo();
+  };
+
+  const handleNativeError = () => {
+    console.error("Primary video failed to load:", nativeVideoUrl, nativePlayerRef.current?.error);
+    shouldPlayWhenReadyRef.current = false;
+    setvideoIsPlaying(false);
+    setVideoError(mediaMessages.loadError);
+  };
 
   // Play the video from the thumbnail click event
   const playVideo = () => {
@@ -113,14 +158,26 @@ export default function MediaFrame({
 
     trackEvent("MediaFrame", "Play", `Video Started: ${videoSrc}`);
 
+    if (isNativeVideo && nativePlayerRef.current?.error) {
+      setVideoError("");
+      shouldPlayWhenReadyRef.current = true;
+      nativePlayerRef.current.load();
+      return;
+    }
+
     if (!canStartVidLoad) {
       shouldPlayWhenReadyRef.current = true;
       setCanStartVidLoad(true);
       return;
     }
 
-    if (!playerReady || !playerRef.current) {
+    if (!playerReady || !(isNativeVideo ? nativePlayerRef.current : playerRef.current)) {
       shouldPlayWhenReadyRef.current = true;
+      return;
+    }
+
+    if (isNativeVideo) {
+      playNativeVideo();
       return;
     }
 
@@ -135,8 +192,44 @@ export default function MediaFrame({
     };
   }, []);
 
+  const selectNativeSubtitleLanguage = useCallback(() => {
+    const player = nativePlayerRef.current;
+    if (!player) return;
+    for (const track of player.textTracks) {
+      track.mode = track.language === subtitleLanguage ? "showing" : "disabled";
+    }
+  }, [subtitleLanguage]);
+
+  const subtitleTrackRef = useCallback((element) => {
+    if (!element) return;
+    const formatCues = () => {
+      const cues = element.track.cues;
+      if (!cues) return;
+      // YouTube-exported VTT files pin cues to the left edge; normalize for native playback.
+      for (const cue of cues) {
+        cue.text = cue.text
+          .replace(/<\d{2}:\d{2}(?::\d{2})?\.\d{3}>/g, "")
+          .replace(/<\/?c(?:\.[^>]*)?>/g, "")
+          .trim();
+        cue.align = "center";
+        cue.position = 50;
+        cue.positionAlign = "center";
+        cue.size = 90;
+        cue.line = "auto";
+        cue.snapToLines = true;
+      }
+    };
+    element.addEventListener("load", formatCues);
+    if (element.readyState === 2) formatCues();
+    return () => element.removeEventListener("load", formatCues);
+  }, []);
+
+  useEffect(() => {
+    selectNativeSubtitleLanguage();
+  }, [selectNativeSubtitleLanguage, canStartVidLoad, isNativeVideo]);
+
   // if neither image or video is provided, return null
-  if (!thumbnailSrc && !videoSrc) {
+  if (!thumbnailSrc && !videoSrc && !nativeVideoUrl) {
     return null;
   }
 
@@ -153,28 +246,23 @@ export default function MediaFrame({
     <div className={`w-full ${maxSize} mx-auto text-center space-y-2 text-inherit`}>
       {title && <h3 className="text-xl font-semibold">{title}</h3>}
 
-      <div className={`relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
+      <div className={`${styles.viewport} relative rounded-lg shadow-lg overflow-hidden small-shadow ${className}`}>
 
         <PulseLoader
           showWheel={type === "video" ? canStartVidLoad || !thumbnailSrc : showWheel}
-          className={`transition-opacity duration-800 pointer-events-none ${shouldShowLoader ? "opacity-100" : "opacity-0"
+          className={`transition-opacity duration-800 pointer-events-none ${shouldShowLoader && !videoError ? "opacity-100" : "opacity-0"
             }`}
         />
 
-        {/* Load img if image or load it as thumnail if video is the type */}
-        {(
-          type == "image" ||  // if an image 
-          (type == "video" && thumbnailSrc &&  // or its a video with a thumbnail
-            (!videoLoaded || !videoIsPlaying) // and if its a video with a thumbn ail its either not loaded or not playing
-          )
-        ) &&
+        {(type === "image" || (type === "video" && thumbnailSrc)) &&
           <Image
             unoptimized
             src={thumbnailSrc || '/ui-elements/placeholder.jpg'}
             alt={alt}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
-            className={`object-cover transition-opacity duration-500 ${imgLoaded ? "opacity-100" : "opacity-0"
+            aria-hidden={type === "video" && videoLoaded}
+            className={`object-cover transition-opacity duration-500 motion-reduce:transition-none ${type === "video" ? "z-10 pointer-events-none" : ""} ${imgLoaded && !(type === "video" && videoLoaded) ? "opacity-100" : "opacity-0"
               }`}
             onLoad={() => setImgLoaded(true)}
             loading={preload ? "eager" : "lazy"}
@@ -182,7 +270,45 @@ export default function MediaFrame({
         }
 
         {/* Video component */}
-        {type == "video" && canStartVidLoad &&
+        {type === "video" && canStartVidLoad && isNativeVideo && (
+          <video
+            ref={nativePlayerRef}
+            data-media-frame
+            src={nativeVideoUrl}
+            poster={thumbnailSrc || undefined}
+            controls
+            playsInline
+            crossOrigin="anonymous"
+            preload="auto"
+            aria-label={title || alt}
+            onCanPlay={handleNativeReady}
+            onLoadedMetadata={selectNativeSubtitleLanguage}
+            onPlay={myOnPlay}
+            onError={handleNativeError}
+            className={`${styles.nativeVideo} relative h-full w-full bg-black`}
+          >
+            {["en", "fr"].map((language) => {
+              const src = getLocalizedValue(subtitles?.[language]).trim();
+              return src ? (
+                <track
+                  key={`${language}:${src}`}
+                  kind="subtitles"
+                  src={src}
+                  srcLang={language}
+                  label={getMessages(language).MediaFrame.subtitleLabel}
+                  default={language === subtitleLanguage}
+                  ref={subtitleTrackRef}
+                  onError={() => {
+                    console.error("Video subtitles failed to load:", src);
+                    setVideoError(mediaMessages.subtitleError);
+                  }}
+                />
+              ) : null;
+            })}
+          </video>
+        )}
+
+        {type == "video" && canStartVidLoad && !isNativeVideo &&
           // <div className="bg-black">
           <YouTube
             videoId={videoSrc}
@@ -199,7 +325,7 @@ export default function MediaFrame({
                 cc_lang_pref: normalizedCaptionLanguage,
               },
             }}
-            className={`w-full h-full transition duration-200 ${(videoIsPlaying || !thumbnailSrc) ? "opacity-100" : "opacity-0" // if video is playing or no thumbnail show it
+            className={`w-full h-full transition-opacity duration-500 motion-reduce:transition-none ${(videoLoaded || !thumbnailSrc) ? "opacity-100" : "opacity-0"
               }`}
           />
         }
@@ -215,6 +341,7 @@ export default function MediaFrame({
         }
       </div>
 
+      {videoError && <p role="alert" className="text-sm text-red-700">{videoError}</p>}
       {description && <div className="text-left pt-1.5">{description}</div>}
     </div>
   )

@@ -1,7 +1,8 @@
 /**
  * @file newsData.jsx
  * @module newsData
- * @desc Contains the data for the news items displayed in the popup on initial site load.
+ * @desc Contains news items displayed once per browser session across pages and tabs.
+ *       Each item's titleKey (or title) identifies its session cookie; change it for a new announcement.
  * 
  * @see {@link https://react-hot-toast.com/ | React Hot Toast Documentation}
  * @see {@link https://react-icons.github.io/react-icons/icons?name=fa | React Icons}

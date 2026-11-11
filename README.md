@@ -151,13 +151,50 @@ You can access these in-browser for dev testing. Other Applications will be able
   "title": "User Tutorial: Registering for an Account",
   "tools": ["Land Use Simulator"],
   "media": {
-    "url": "https://www.youtube.com/...",
-    "thumbUrl": "...",
+    "primaryUrl": "https://cdn.example.com/video.mp4",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
+    "thumbnailUrl": "https://cdn.example.com/thumbnail.jpg",
     "is360": false
+  },
+  "subtitles": {
+    "en": "https://cdn.example.com/en.vtt",
+    "fr": "https://cdn.example.com/fr.vtt"
   },
   "hashtags": ["account", "registration"]
 }
 ```
+
+Videos prefer `media.primaryUrl` using native playback controls and WebVTT subtitles.
+Missing, empty, or `"N/A"` primary URLs use `media.youtubeUrl`. If a configured
+primary video fails to load, the player displays an error instead of switching
+to YouTube. Legacy `media.url` is still
+supported as a YouTube fallback. "Watch on YouTube" links always use the YouTube URL.
+Subtitles default to the selected content language and can be changed in the player's
+caption controls. Omit unavailable subtitle URLs or set them to `"N/A"`.
+Native captions are centered within the player and sized to its width, with
+white text on a dark background. Shared native-control styles keep menu text dark.
+
+The MP4 and VTT files must be publicly readable. For cross-origin playback, configure
+the CDN/S3 CORS response to allow the site's origin (or `*` for public assets), and
+serve VTT files as `text/vtt`. The homepage's Getting Started video is sourced from
+`tutorial-01a-register-account` in `public/api-static-data/videos.json` at build time;
+rebuild the site after changing that entry.
+
+For public S3 media, a bucket CORS configuration can use:
+
+```json
+[
+  {
+    "AllowedOrigins": ["*"],
+    "AllowedMethods": ["GET", "HEAD"],
+    "AllowedHeaders": ["*"],
+    "ExposeHeaders": ["Accept-Ranges", "Content-Range", "Content-Length"]
+  }
+]
+```
+
+Alternatively, restrict `AllowedOrigins` to the production site origins and
+`http://localhost:3000` for development. Public-read access alone does not enable CORS.
 
 <br>
 

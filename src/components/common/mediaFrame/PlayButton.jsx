@@ -27,7 +27,7 @@ import { FaPlay, FaCloudDownloadAlt } from "react-icons/fa";
 export default function PlayButton({ videoLoaded, handlePlayClick, canPlayVideo, preload }) {
   return (
     <div
-      className={`absolute inset-0 `}
+      className={`absolute inset-0 z-20 `}
     >
       <div
         className="p-4 flex items-end justify-start inset-0 z-30 cursor-pointer group h-full w-full"
@@ -37,7 +37,8 @@ export default function PlayButton({ videoLoaded, handlePlayClick, canPlayVideo,
         border-black/40 group-hover:border-white/20
         backdrop-blur-lg
 
-         px-6 py-3 rounded-full font-semibold shadow-lg transition border 
+         px-6 py-3 rounded-full font-semibold shadow-lg transition duration-200 ease-out border
+         hover:scale-110 active:scale-95 motion-reduce:transform-none motion-reduce:transition-none
          `}>
 
 
@@ -55,7 +56,8 @@ export default function PlayButton({ videoLoaded, handlePlayClick, canPlayVideo,
               )
             ) : (
               <span className="flex items-center gap-2">
-                Load Video <FaCloudDownloadAlt />
+                <span className="sr-only">Play Video</span>
+                <FaPlay aria-hidden="true" />
               </span>
             )}
 

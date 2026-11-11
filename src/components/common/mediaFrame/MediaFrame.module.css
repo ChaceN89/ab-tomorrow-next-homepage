@@ -1,0 +1,37 @@
+.viewport {
+  container-type: inline-size;
+}
+
+.nativeVideo {
+  color: #111;
+  color-scheme: light;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  text-align: initial;
+}
+
+.nativeVideo::cue {
+  color: #fff;
+  background-color: rgb(0 0 0 / 85%);
+  font-family: Arial, sans-serif;
+  font-size: clamp(12px, 4cqw, 24px);
+  font-weight: 500;
+  text-shadow: 0 1px 2px #000;
+}
+
+.nativeVideo::-webkit-media-controls-overflow-menu-list,
+.nativeVideo::-webkit-media-controls-overflow-menu-list-item,
+.nativeVideo::-webkit-media-controls-overflow-menu-list-item-text,
+.nativeVideo::-webkit-media-controls-overflow-menu-list-item-subtitle,
+.nativeVideo::-webkit-media-controls-text-track-list,
+.nativeVideo::-webkit-media-controls-text-track-list-item {
+  color: #111 !important;
+  -webkit-text-fill-color: #111 !important;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  text-shadow: none;
+}
+
+.nativeVideo:fullscreen::cue {
+  font-size: 4vh;
+}

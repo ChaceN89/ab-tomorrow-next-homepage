@@ -4,7 +4,7 @@
  * @desc Utility functions for managing embedded YouTube player behavior across components.
  *
  * @features
- * - Pauses all other YouTube iframes except a target video.
+ * - Pauses other MediaFrame native videos and YouTube iframes.
  * - Safely pauses a specific video by ref.
  * - Plays a video with retry logic if the YouTube player is not yet ready.
  *
@@ -18,7 +18,11 @@
  * @updated Apr 12, 2025
  */
 
-export const pauseOtherVideos = (excludeVideoSrc = "", { maxRetries = 1, retryDelay = 200 } = {}) => {
+export const pauseOtherVideos = (excludeVideoSrc = "", { maxRetries = 1, retryDelay = 200, excludeNativeVideo = null } = {}) => {
+  document.querySelectorAll("video[data-media-frame]").forEach((video) => {
+    if (video !== excludeNativeVideo) video.pause();
+  });
+
   // Only target iframes that have been marked ready by `MediaFrame`'s onReady handler
   const allIframes = document.querySelectorAll('iframe.yt-frame[data-yt-ready="1"]');
 

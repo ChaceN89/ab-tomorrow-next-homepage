@@ -12,7 +12,7 @@
  * @features
  * - Section header with dynamic title and description from `educationData`
  * - Custom HexButton linking to a virtual/in-class visit sign-up form
- * - Responsive grid of educational YouTube videos
+ * - Responsive grid of educational videos with primary playback and YouTube fallback
  * - Promo layout for Water Rangers Kit including image, title, and description
  * - Fixed parallax-style background with `BackgroundWrapper`
  *
@@ -34,13 +34,14 @@ import HexButton from '@/components/common/hexButton/HexButton';
 import FloorMapOrderQr from './FloorMapOrderQr';
 import Image from 'next/image';
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 // Data
 import { educationData } from '@/data/home-page-data/educationData';
 
 export default function Education() {
   const t = useTranslations('HomePage.Education');
+  const locale = useLocale();
   const [waterRangerImageLoaded, setWaterRangerImageLoaded] = useState(false);
   const [floorMapImageLoaded, setFloorMapImageLoaded] = useState(false);
 
@@ -80,6 +81,10 @@ export default function Education() {
               key={index}
               type={item.type}
               videoSrc={item.videoSrc}
+              primaryUrl={item.primaryUrl}
+              imgSrc={item.imgSrc}
+              subtitles={item.subtitles}
+              captionLanguage={locale}
               alt={t(item.titleKey)}
               title={t(item.titleKey)}
               description={<p>{t.rich(item.descriptionKey, richTextComponents)}</p>}

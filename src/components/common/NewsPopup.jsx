@@ -1,7 +1,7 @@
 /**
  * @file NewsPopup.jsx
  * @module NewsPopup
- * @desc Displays a toast notification with the latest news items on initial site load.
+ * @desc Displays each news item once per browser session, shared across pages and tabs.
  *
  * @see {@link https://react-hot-toast.com/ | React Hot Toast Documentation}
  *
@@ -29,9 +29,13 @@ export default function NewsPopup() {
   useEffect(() => {
     if (!newsItems.length) return;
 
-    setTimeout(() => {
-      newsItems.forEach((item, index) => {
+    const timers = newsItems.map((item, index) =>
         setTimeout(() => {
+          const cookieName = `abt-news-seen-${encodeURIComponent(item.titleKey || item.title || String(index))}`;
+          if (document.cookie.split(";").some((cookie) => cookie.trim() === `${cookieName}=1`)) return;
+
+          // Omitting an expiry makes this a browser-session cookie shared across tabs.
+          document.cookie = `${cookieName}=1; Path=/; SameSite=Lax`;
           const title = item.titleKey ? t(item.titleKey) : item.title;
           const description = item.descriptionKey ? t(item.descriptionKey) : item.description;
 
@@ -110,10 +114,11 @@ export default function NewsPopup() {
               },
             }
           );
-        }, index * toastDelay);
-      });
-    }, startDelay);
-  }, [t]);
+        }, startDelay + index * toastDelay)
+    );
+
+    return () => timers.forEach(clearTimeout);
+  }, [t, locale]);
 
   return null;
 }

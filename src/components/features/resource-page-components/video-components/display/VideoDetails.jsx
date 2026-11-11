@@ -66,35 +66,32 @@ export default function VideoDetails({ video, prioritizeMedia = false }) {
 
   return (
     <div className="mx-auto flex h-full w-full max-w-7xl flex-col justify-start gap-4 rounded-lg border border-black/10 bg-tertiary/20 p-6">
-      <div className="flex flex-wrap items-center justify-end gap-2">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        {youtubeHref ? (
+          <a
+            href={youtubeHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white hover:cursor-pointer"
+          >
+            {watchOnYoutubeLabel}
+          </a>
+        ) : null}
         <CardLanguageSelect
           availableLanguages={availableLanguages}
           selectedLanguage={selectedLanguage}
           onChange={setSelectedLanguage}
-          className="w-full max-w-[240px]"
+          className="ml-auto w-full max-w-[240px]"
         />
       </div>
 
       <div className="border rounded-md bg-gray-50 relative overflow-hidden">
         <HexSeparator rows={40} hexClass="bg-secondary/15" />
-        <div className="p-4 flex items-start gap-2">
-          <FaRegPlayCircle className="text-secondary text-4xl flex-shrink-0" />
-          <div className="space-y-2 min-w-0 flex-1">
+        <div className="grid grid-cols-[auto_minmax(0,1fr)] items-center gap-4 p-4">
+          <FaRegPlayCircle className="text-secondary text-5xl sm:text-6xl" aria-hidden="true" />
+          <div className="min-w-0 space-y-2">
             <h2 className="text-2xl font-bold break-words">{selectedContent.title}</h2>
             <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">{selectedContent.description}</p>
-
-            {youtubeHref ? (
-              <div className="pt-1">
-                <a
-                  href={youtubeHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white hover:cursor-pointer"
-                >
-                  {watchOnYoutubeLabel}
-                </a>
-              </div>
-            ) : null}
           </div>
         </div>
       </div>
@@ -104,6 +101,8 @@ export default function VideoDetails({ video, prioritizeMedia = false }) {
           <MediaFrame
             type="video"
             videoSrc={videoId}
+            primaryUrl={video.media?.primaryUrl}
+            subtitles={video.subtitles}
             imgSrc={thumbnailSrc}
             maxSize="max-w-full"
             preload={prioritizeMedia}

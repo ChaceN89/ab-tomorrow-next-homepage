@@ -1,4 +1,10 @@
 {
+  "MediaFrame": {
+    "subtitleLabel": "Français",
+    "playbackError": "La lecture n’a pas pu démarrer. Appuyez sur Lecture pour réessayer.",
+    "loadError": "Cette vidéo n’a pas pu être chargée. Veuillez réessayer plus tard.",
+    "subtitleError": "Les sous-titres n’ont pas pu être chargés. La vidéo peut toujours être lue."
+  },
   "Other": {
     "launchSimulator": "Lancer le simulateur",
     "comingSoon": "Bientôt disponible!",

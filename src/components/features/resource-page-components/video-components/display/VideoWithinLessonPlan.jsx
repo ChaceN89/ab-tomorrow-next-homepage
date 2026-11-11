@@ -15,7 +15,7 @@ import { useLocale } from "next-intl";
 import { useVideoResource } from "../VideoResourceContext";
 // import VideoCard from "./VideoCard";
 import { getLocalizedValue } from "@/utils/resourceNormalizeUtils";
-import { extractYouTubeId } from "@/utils/videoResouceUtils";
+import { extractYouTubeId, normalizeVideoMedia } from "@/utils/videoResouceUtils";
 import MediaFrame from "@/components/common/mediaFrame/MediaFrame";
 import { getMessages } from "@/i18n/messages";
 
@@ -90,12 +90,8 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
             fr: getLocalizedValue(matchedVideo.description, "fr"),
           },
           availableLanguages: availableLanguages.length ? availableLanguages : [locale],
-          media: {
-            type: matchedVideo.media?.type || "youtube",
-            url: matchedVideo.media?.url || "",
-            thumbnailUrl: matchedVideo.media?.thumbnailUrl || matchedVideo.media?.thumbUrl || "",
-            is360: Boolean(matchedVideo.media?.is360),
-          },
+          media: normalizeVideoMedia(matchedVideo),
+          subtitles: matchedVideo.subtitles || {},
           lessonPlans,
           lessonPlansByLanguage: {
             en: lessonPlans.map((plan) => ({
@@ -155,6 +151,8 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
           <MediaFrame
             type="video"
             videoSrc={videoId}
+            primaryUrl={video.media?.primaryUrl}
+            subtitles={video.subtitles}
             imgSrc={thumbnailSrc}
             maxSize="max-w-full"
             captionLanguage={activeLanguage === "fr" ? "fr-ca" : "en"}

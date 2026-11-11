@@ -32,6 +32,7 @@ import {
   getLocalizedValue,
   getSearchTerms,
 } from '@/utils/resourceNormalizeUtils';
+import { normalizeVideoMedia } from '@/utils/videoResouceUtils';
 
 export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true, prioritizeMedia = false, onResolve = null }) {
   const locale = useLocale();
@@ -113,12 +114,8 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
             },
             availableLanguages: availableLanguages.length ? availableLanguages : [locale],
             hashtags: getSearchTerms(matchedVideo.searchTerms, locale),
-            media: {
-              type: matchedVideo.media?.type || 'youtube',
-              url: matchedVideo.media?.url || '',
-              thumbnailUrl: matchedVideo.media?.thumbnailUrl || matchedVideo.media?.thumbUrl || '',
-              is360: Boolean(matchedVideo.media?.is360),
-            },
+            media: normalizeVideoMedia(matchedVideo),
+            subtitles: matchedVideo.subtitles || {},
             lessonPlans,
             lessonPlansByLanguage: {
               en: lessonPlans.map((plan) => ({

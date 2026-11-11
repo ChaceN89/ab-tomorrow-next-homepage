@@ -12,7 +12,7 @@ import {
   getLocalizedValue,
   getSearchTerms,
 } from "@/utils/resourceNormalizeUtils";
-import { extractYouTubeId } from "@/utils/videoResouceUtils";
+import { extractYouTubeId, normalizeVideoMedia } from "@/utils/videoResouceUtils";
 const VideoContext = createContext();
 
 export function VideoResourceProvider({ children }) {
@@ -103,12 +103,8 @@ export function VideoResourceProvider({ children }) {
       availableLanguages,
       hashtags: getSearchTerms(video.searchTerms, locale),
       tools: [],
-      media: {
-        type: video.media?.type || "youtube",
-        url: video.media?.url || "",
-        thumbnailUrl: video.media?.thumbnailUrl || video.media?.thumbUrl || "",
-        is360: Boolean(video.media?.is360),
-      },
+      media: normalizeVideoMedia(video),
+      subtitles: video.subtitles || {},
       lessonPlans,
       lessonPlansByLanguage: {
         en: lessonPlans.map((plan) => ({
