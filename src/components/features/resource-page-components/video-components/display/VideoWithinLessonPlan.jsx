@@ -152,6 +152,7 @@ export default function VideoWithinLessonPlan({ id, forceLanguage = null }) {
             type="video"
             videoSrc={videoId}
             primaryUrl={video.media?.primaryUrl}
+            is360={video.media?.is360}
             subtitles={video.subtitles}
             imgSrc={thumbnailSrc}
             maxSize="max-w-full"

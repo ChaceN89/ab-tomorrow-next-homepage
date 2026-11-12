@@ -1,5 +1,10 @@
 {
   "MediaFrame": {
+    "videoLabel": "Lecteur vidéo",
+    "panoramaInstructions": "Vidéo à 360°. Faites glisser pour regarder autour de vous ou utilisez les touches fléchées. Utilisez plus et moins pour zoomer, et Début pour réinitialiser la vue.",
+    "panoramaHint": "Faites glisser pour regarder autour de vous · pincez ou Ctrl+molette pour zoomer",
+    "panoramaPlanet": "Vue « petite planète »",
+    "panoramaReset": "Réinitialiser la vue",
     "subtitleLabel": "Français",
     "playbackError": "La lecture n’a pas pu démarrer. Appuyez sur Lecture pour réessayer.",
     "loadError": "Cette vidéo n’a pas pu être chargée. Veuillez réessayer plus tard.",

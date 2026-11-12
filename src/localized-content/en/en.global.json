@@ -1,5 +1,10 @@
 {
   "MediaFrame": {
+    "videoLabel": "Video player",
+    "panoramaInstructions": "360 video. Drag to look around, or use the arrow keys. Use plus and minus to zoom, and Home to reset the view.",
+    "panoramaHint": "Drag to look around · pinch or Ctrl+scroll to zoom",
+    "panoramaPlanet": "Little planet view",
+    "panoramaReset": "Reset view",
     "subtitleLabel": "English",
     "playbackError": "Playback could not start. Please press Play to try again.",
     "loadError": "This video could not be loaded. Please try again later.",

@@ -164,15 +164,31 @@ You can access these in-browser for dev testing. Other Applications will be able
 }
 ```
 
-Videos prefer `media.primaryUrl` using native playback controls and WebVTT subtitles.
+Videos prefer `media.primaryUrl` using shared Video.js controls and WebVTT subtitles.
+The controls use explicit high-contrast menu colors and Arial text instead of the
+browser's native menu, which can select a locally installed thin font on macOS.
+When `media.is360` is `true` and a primary URL is provided, a lazily loaded
+Three.js renderer displays monoscopic equirectangular footage as a draggable
+360 panorama. It supports MP4 and HLS (`.m3u8`) sources, caption selection and
+fullscreen. Drag with a mouse or touch, use arrow keys to turn, or Home to reset.
+The source must be a full equirectangular panorama, typically 2:1 (for example
+3840x1920). A normal flat video or screen recording of YouTube's viewport cannot
+be converted to 360 by setting the flag: it will produce pinched poles and a seam.
+This applies to standalone video pages, video modals and lesson-plan videos;
+ordinary videos use the same controls without the spherical renderer.
+The flag does not change YouTube embeds.
+360 playback requires WebGL 2 and CORS access to the video. For HLS, all manifests,
+segments and any encryption keys must be accessible with the same CORS policy.
 Missing, empty, or `"N/A"` primary URLs use `media.youtubeUrl`. If a configured
 primary video fails to load, the player displays an error instead of switching
 to YouTube. Legacy `media.url` is still
 supported as a YouTube fallback. "Watch on YouTube" links always use the YouTube URL.
 Subtitles default to the selected content language and can be changed in the player's
 caption controls. Omit unavailable subtitle URLs or set them to `"N/A"`.
-Native captions are centered within the player and sized to its width, with
-white text on a dark background. Shared native-control styles keep menu text dark.
+Captions are centered within the player and sized to its width, with
+white text on a dark background. A 403 subtitle response means the configured file
+is missing or inaccessible; upload/fix permissions or mark that subtitle `"N/A"`.
+The player reports each subtitle failure once and keeps video playback available.
 
 The MP4 and VTT files must be publicly readable. For cross-origin playback, configure
 the CDN/S3 CORS response to allow the site's origin (or `*` for public assets), and

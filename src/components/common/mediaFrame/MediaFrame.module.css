@@ -2,36 +2,140 @@
   container-type: inline-size;
 }
 
-.nativeVideo {
-  color: #111;
-  color-scheme: light;
-  font-family: Arial, sans-serif;
-  font-weight: 400;
+.primaryVideo {
+  position: absolute;
+  inset: 0;
   text-align: initial;
 }
 
-.nativeVideo::cue {
+.primaryVideo :global(.video-js) {
+  width: 100%;
+  height: 100%;
   color: #fff;
-  background-color: rgb(0 0 0 / 85%);
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+.primaryVideo :global(.vjs-control-bar),
+.primaryVideo :global(.vjs-menu-content) {
+  color: #fff;
+  background-color: #18212b;
+}
+
+.primaryVideo :global(.vjs-menu-item) {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: none;
+}
+
+.primaryVideo :global(.vjs-menu-item:hover),
+.primaryVideo :global(.vjs-menu-item:focus),
+.primaryVideo :global(.vjs-menu-item.vjs-selected) {
+  color: #111;
+  background-color: #fff;
+}
+
+.primaryVideo :global(.vjs-text-track-display) {
+  z-index: 1;
+  pointer-events: none;
+}
+
+.primaryVideo :global(.vjs-control-bar),
+.primaryVideo :global(.vjs-big-play-button),
+.primaryVideo :global(.vjs-error-display),
+.primaryVideo :global(.vjs-loading-spinner) {
+  z-index: 2;
+}
+
+.primaryVideo :global(.vjs-text-track-cue > div) {
+  color: #fff !important;
+  background-color: rgb(0 0 0 / 85%) !important;
   font-family: Arial, sans-serif;
   font-size: clamp(12px, 4cqw, 24px);
   font-weight: 500;
   text-shadow: 0 1px 2px #000;
 }
 
-.nativeVideo::-webkit-media-controls-overflow-menu-list,
-.nativeVideo::-webkit-media-controls-overflow-menu-list-item,
-.nativeVideo::-webkit-media-controls-overflow-menu-list-item-text,
-.nativeVideo::-webkit-media-controls-overflow-menu-list-item-subtitle,
-.nativeVideo::-webkit-media-controls-text-track-list,
-.nativeVideo::-webkit-media-controls-text-track-list-item {
-  color: #111 !important;
-  -webkit-text-fill-color: #111 !important;
-  font-family: Arial, sans-serif;
-  font-weight: 500;
-  text-shadow: none;
+.primaryVideo :global(.media-panorama) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+  touch-action: none;
 }
 
-.nativeVideo:fullscreen::cue {
-  font-size: 4vh;
+.primaryVideo :global(.media-panorama:active) {
+  cursor: grabbing;
+}
+
+.primaryVideo :global(.media-panorama:focus-visible) {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+}
+
+.primaryVideo :global(.media-panorama-controls) {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  display: flex;
+  gap: 6px;
+}
+
+.primaryVideo :global(.media-panorama-controls button) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  color: #fff;
+  background-color: rgb(24 33 43 / 85%);
+  border: 1px solid rgb(255 255 255 / 35%);
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 150ms, transform 150ms;
+}
+
+.primaryVideo :global(.media-panorama-controls button[hidden]) {
+  display: none;
+}
+
+.primaryVideo :global(.media-panorama-controls button:hover),
+.primaryVideo :global(.media-panorama-controls button:focus-visible),
+.primaryVideo :global(.media-panorama-controls button.active) {
+  color: #111;
+  background-color: #fff;
+}
+
+.primaryVideo :global(.media-panorama-hint) {
+  position: absolute;
+  left: 50%;
+  bottom: 58px;
+  z-index: 3;
+  max-width: calc(100% - 24px);
+  padding: 6px 14px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  background-color: rgb(24 33 43 / 85%);
+  border-radius: 9999px;
+  transform: translateX(-50%);
+  transition: opacity 400ms;
+  pointer-events: none;
+}
+
+.primaryVideo :global(.media-panorama-hint.hidden) {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .primaryVideo :global(.media-panorama-controls button),
+  .primaryVideo :global(.media-panorama-hint) {
+    transition: none;
+  }
 }

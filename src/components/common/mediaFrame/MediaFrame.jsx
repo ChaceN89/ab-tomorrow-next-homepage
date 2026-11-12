@@ -4,8 +4,9 @@
  * @desc Displays primary HTML5 videos with subtitles, YouTube fallbacks, or static images.
  *
  * @features
- * - Prefers primary video URLs with native controls and localized WebVTT subtitles.
+ * - Prefers primary video URLs with Video.js controls and localized WebVTT subtitles.
  * - Uses YouTube when a primary URL is absent.
+ * - Uses a spherical Video.js player for primary 360 videos (MP4 or HLS).
  * - Supports optional image fallback for non-video content.
  * - Shows a loading animation (PulseLoader) until content is fully loaded.
  * - If a `thumbUrl` is provided, it shows a thumbnail overlay with a custom play button before playing the video.
@@ -15,6 +16,7 @@
  * @props
  * @param {string} [videoSrc] - YouTube video ID, used when primary playback is unavailable.
  * @param {string} [primaryUrl] - Preferred HTML5 video URL.
+ * @param {boolean} [is360=false] - Render primary video as a draggable 360 panorama.
  * @param {Object} [subtitles] - English/French WebVTT URLs keyed by language.
  * @param {string} [alt] - Alt text for images or thumbnails.
  * @param {string} [title] - Optional title to display above the media.
@@ -35,14 +37,17 @@
  */
 
 "use client";
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import PulseLoader from "@/components/common/PulseLoader";
 import Image from "next/image";
 import YouTube from 'react-youtube';
+import dynamic from "next/dynamic";
 import PlayButton from "./PlayButton";
 import { getMessages } from "@/i18n/messages";
 import { getLocalizedValue } from "@/utils/resourceNormalizeUtils";
 import styles from "./MediaFrame.module.css";
+
+const PrimaryVideo = dynamic(() => import("./PrimaryVideo"), { ssr: false });
 
 // Utility functions for pausing other videos and unmounting the YouTube player
 import { pauseOtherVideos, unmountYouTubePlayer } from "./youtubePlayerUtils";
@@ -50,7 +55,7 @@ import { pauseOtherVideos, unmountYouTubePlayer } from "./youtubePlayerUtils";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 
 export default function MediaFrame(props) {
-  return <MediaFrameContent key={`${props.primaryUrl || ""}:${props.videoSrc || ""}`} {...props} />;
+  return <MediaFrameContent key={`${props.primaryUrl || ""}:${props.videoSrc || ""}:${Boolean(props.is360)}`} {...props} />;
 }
 
 function MediaFrameContent({
@@ -58,6 +63,7 @@ function MediaFrameContent({
   imgSrc = "",
   videoSrc = "",
   primaryUrl = "",
+  is360 = false,
   subtitles = {},
   alt = "",
   title = "",
@@ -70,6 +76,7 @@ function MediaFrameContent({
   captionLanguage = "en",
 }) {
   const [videoError, setVideoError] = useState("");
+  const [subtitleError, setSubtitleError] = useState("");
   const nativeVideoUrl = getLocalizedValue(primaryUrl).trim();
   const isNativeVideo = Boolean(nativeVideoUrl);
   const subtitleLanguage = captionLanguage.startsWith("fr") ? "fr" : "en";
@@ -145,8 +152,8 @@ function MediaFrameContent({
     if (shouldPlayWhenReadyRef.current) playNativeVideo();
   };
 
-  const handleNativeError = () => {
-    console.error("Primary video failed to load:", nativeVideoUrl, nativePlayerRef.current?.error);
+  const handleNativeError = (error) => {
+    console.error("Primary video failed to load:", nativeVideoUrl, nativePlayerRef.current?.error || error);
     shouldPlayWhenReadyRef.current = false;
     setvideoIsPlaying(false);
     setVideoError(mediaMessages.loadError);
@@ -192,42 +199,6 @@ function MediaFrameContent({
     };
   }, []);
 
-  const selectNativeSubtitleLanguage = useCallback(() => {
-    const player = nativePlayerRef.current;
-    if (!player) return;
-    for (const track of player.textTracks) {
-      track.mode = track.language === subtitleLanguage ? "showing" : "disabled";
-    }
-  }, [subtitleLanguage]);
-
-  const subtitleTrackRef = useCallback((element) => {
-    if (!element) return;
-    const formatCues = () => {
-      const cues = element.track.cues;
-      if (!cues) return;
-      // YouTube-exported VTT files pin cues to the left edge; normalize for native playback.
-      for (const cue of cues) {
-        cue.text = cue.text
-          .replace(/<\d{2}:\d{2}(?::\d{2})?\.\d{3}>/g, "")
-          .replace(/<\/?c(?:\.[^>]*)?>/g, "")
-          .trim();
-        cue.align = "center";
-        cue.position = 50;
-        cue.positionAlign = "center";
-        cue.size = 90;
-        cue.line = "auto";
-        cue.snapToLines = true;
-      }
-    };
-    element.addEventListener("load", formatCues);
-    if (element.readyState === 2) formatCues();
-    return () => element.removeEventListener("load", formatCues);
-  }, []);
-
-  useEffect(() => {
-    selectNativeSubtitleLanguage();
-  }, [selectNativeSubtitleLanguage, canStartVidLoad, isNativeVideo]);
-
   // if neither image or video is provided, return null
   if (!thumbnailSrc && !videoSrc && !nativeVideoUrl) {
     return null;
@@ -271,41 +242,27 @@ function MediaFrameContent({
 
         {/* Video component */}
         {type === "video" && canStartVidLoad && isNativeVideo && (
-          <video
-            ref={nativePlayerRef}
-            data-media-frame
+          <PrimaryVideo
             src={nativeVideoUrl}
-            poster={thumbnailSrc || undefined}
-            controls
-            playsInline
-            crossOrigin="anonymous"
-            preload="auto"
-            aria-label={title || alt}
-            onCanPlay={handleNativeReady}
-            onLoadedMetadata={selectNativeSubtitleLanguage}
+            is360={is360}
+            poster={thumbnailSrc}
+            label={title || alt}
+            subtitles={subtitles}
+            language={subtitleLanguage}
+            videoRef={nativePlayerRef}
+            onReady={handleNativeReady}
             onPlay={myOnPlay}
             onError={handleNativeError}
-            className={`${styles.nativeVideo} relative h-full w-full bg-black`}
-          >
-            {["en", "fr"].map((language) => {
-              const src = getLocalizedValue(subtitles?.[language]).trim();
-              return src ? (
-                <track
-                  key={`${language}:${src}`}
-                  kind="subtitles"
-                  src={src}
-                  srcLang={language}
-                  label={getMessages(language).MediaFrame.subtitleLabel}
-                  default={language === subtitleLanguage}
-                  ref={subtitleTrackRef}
-                  onError={() => {
-                    console.error("Video subtitles failed to load:", src);
-                    setVideoError(mediaMessages.subtitleError);
-                  }}
-                />
-              ) : null;
-            })}
-          </video>
+            onSubtitleError={(src, error) => {
+              if (!error) {
+                setSubtitleError("");
+                return;
+              }
+              // A warning, not an error: missing subtitles must not trigger the Next.js error overlay.
+              console.warn("Video subtitles failed to load:", src, error);
+              setSubtitleError(mediaMessages.subtitleError);
+            }}
+          />
         )}
 
         {type == "video" && canStartVidLoad && !isNativeVideo &&
@@ -342,6 +299,7 @@ function MediaFrameContent({
       </div>
 
       {videoError && <p role="alert" className="text-sm text-red-700">{videoError}</p>}
+      {subtitleError && <p role="alert" className="text-sm text-red-700">{subtitleError}</p>}
       {description && <div className="text-left pt-1.5">{description}</div>}
     </div>
   )

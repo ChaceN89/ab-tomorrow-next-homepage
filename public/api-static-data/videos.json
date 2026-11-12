@@ -15,14 +15,15 @@
       "fr": "Regardez ce tutoriel pour voir comment créer un compte grand public, enseignant ou élève."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-01a-register-account/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-01a-register-account/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-01a-register-account/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-01a-register-account/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -62,14 +63,15 @@
       "fr": "Regardez ce tutoriel pour voir les différentes fonctions du simulateur d’Alberta Tomorrow. "
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-02a-simulator-overview/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=nnm0V6jmpbM",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-02a-simulator-overview/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-02a-simulator-overview/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-02a-simulator-overview/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -105,14 +107,15 @@
       "fr": "Un aperçu de la mission que vous accomplirez à l’aide d’Alberta Tomorrow."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-03a-your-mission/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=yNljbKNBI1M",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-03a-your-mission/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-03a-your-mission/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-03a-your-mission/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -146,14 +149,15 @@
       "fr": "Regardez cette vidéo pour comprendre l’évolution de votre zone d’étude depuis 1910!"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-04a-historical-simulation/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=qMXZYBHCD_E",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-04a-historical-simulation/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-04a-historical-simulation/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-04a-historical-simulation/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -187,14 +191,15 @@
       "fr": "Un scénario de « maintien du statu quo » vous donne un aperçu de ce à quoi pourrait ressembler l’avenir; ce scénario projette les tendances actuelles en matière d’utilisation des terres dans l’avenir."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-05a-create-bau-scenario/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=gWm7yWBkPHo",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-05a-create-bau-scenario/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-05a-create-bau-scenario/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-05a-create-bau-scenario/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -228,14 +233,15 @@
       "fr": "Cette vidéo vous montre comment choisir le bassin hydrographique de votre zone d’étude, établir des objectifs, apporter des changements sur la carte et exécuter votre scénario."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-06a-landuse-scenario/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=RQ2Pz6gLIQ0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-06a-landuse-scenario/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-06a-landuse-scenario/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-06a-landuse-scenario/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -269,14 +275,15 @@
       "fr": "Ce tutoriel vous guide dans la création de votre propre observation dans le simulateur, une observation que vous et tous les utilisateurs enregistrés peuvent voir."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-07a-create-observation/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=fp_WVPCdCnU",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-07a-create-observation/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-07a-create-observation/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-07a-create-observation/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -308,14 +315,15 @@
       "fr": "Voyez comment vous pouvez voir les changements qui pourraient survenir en raison des changements climatiques avec les scénarios climatiques Doux, Moyen et Chaud."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-08a-climate-scenarios/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=yF4SY7VoqDs",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-08a-climate-scenarios/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-08a-climate-scenarios/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-08a-climate-scenarios/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -349,14 +357,15 @@
       "fr": "Ce court tutoriel vous montre comment créer et partager un rapport dans le simulateur."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-09a-create-report/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=poxco59ASU8",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-09a-create-report/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-09a-create-report/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-09a-create-report/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -390,14 +399,15 @@
       "fr": "Cette video presente la planification de l'utilisation des terres selon une perspective autochtone dans Alberta Tomorrow, y compris l'evolution passee et future possible de la moitie sud du territoire traditionnel Stoney Nakoda a l'aide d'indicateurs elabores avec des aines et des gardiens du savoir Stoney."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-10a-indigenous-voices/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=r-Yk6CjEKP8",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-10a-indigenous-voices/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-10a-indigenous-voices/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-10a-indigenous-voices/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -431,14 +441,15 @@
       "fr": "Comment l’Alberta sera-t-elle touchée par les changements climatiques? Quelle est la différence entre changements climatiques et réchauffement planétaire?"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-01b-climate-change/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Okh7vn60kxg",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-01b-climate-change/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-01b-climate-change/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-01b-climate-change/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -480,14 +491,15 @@
       "fr": "Quelles sont les pratiques de gestion bénéfiques et quel effet ont-elles sur l’avenir de l’Alberta? Découvrez ce que les grandes compagnies, les agriculteurs et vous pouvez faire pour réduire au minimum les effets sur l’environnement."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-02b-management-practices/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=WBKwcDIqJ0U",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-02b-management-practices/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-02b-management-practices/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-02b-management-practices/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -531,14 +543,15 @@
       "fr": "Une introduction aux biens et services écologiques."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=WBdpkY9KSgs",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -574,14 +587,15 @@
       "fr": "Ce webinaire a eu lieu le 27 mai 2020 et met en vedette 4 scientifiques de renom qui parlent des changements climatiques et de la façon dont ils affecteront les glaciers, la fonte des glaciers, la politique de l’eau et la qualité de notre eau."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Xgb3_I8nagY",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -621,14 +635,15 @@
       "fr": "Découvrez les régions naturelles de l’Alberta dans cette vidéo. Apprenez-en davantage sur les caractéristiques de chaque région ainsi que sur les types d’utilisation des terres dans chacune d’elles."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-01c-natural-landscapes/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Lx94jZ9ZSBY",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-01c-natural-landscapes/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-01c-natural-landscapes/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-01c-natural-landscapes/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -664,14 +679,15 @@
       "fr": "Voyez l’effet du développement humain sur l’habitat du caribou et comment les bonnes pratiques peuvent réduire les perturbations dans leur environnement. "
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-02c-caribou-habitat/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=xiBz_Vov6H0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-02c-caribou-habitat/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-02c-caribou-habitat/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-02c-caribou-habitat/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -713,14 +729,15 @@
       "fr": "Apprenez comment le développement forestier et les activités humaines nuisent à l’habitat convenant au grizzli partout en Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-03c-grizzly-habitat/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=4wxOOhpNRhs",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-03c-grizzly-habitat/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-03c-grizzly-habitat/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-03c-grizzly-habitat/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -760,14 +777,15 @@
       "fr": "Découvrez comment les utilisations des terres nuisent à la santé des communautés de poissons, des populations de truites indigènes aux impacts de la pêche sportive et de la perturbation de l’habitat."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-04c-fish-habitat/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oti7o8JS62Q",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-04c-fish-habitat/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-04c-fish-habitat/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-04c-fish-habitat/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -807,14 +825,15 @@
       "fr": "Voyez comment l’écoulement de phosphore causé par l’agriculture et le peuplement nuit aux écosystèmes aquatiques et comment les bonnes pratiques peuvent améliorer la qualité de l’eau."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-05c-water-quality/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=qsaeCqrJ64o",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-05c-water-quality/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-05c-water-quality/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-05c-water-quality/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -853,14 +872,15 @@
       "fr": "Que sont les gaz à effet de serre (GES) et d’où viennent-ils? Explorez le cycle du carbone et la façon dont le carbone est stocké dans les organismes vivants. Découvrez comment les émissions de gaz à effet de serre sont liées à la population et à la production de ressources, et comment les bonnes pratiques peuvent réduire ces émissions."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-06c-greenhouse-gases/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=m7G3mSq2aD0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-06c-greenhouse-gases/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-06c-greenhouse-gases/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/C-EnvironmentalIndicators/env-06c-greenhouse-gases/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -909,14 +929,15 @@
       "fr": "On présume que la croissance maximale de la population représenterait le double de la population actuelle. Apprenez-en davantage au sujet des impacts prévus causés par la population et l’utilisation des terres en Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-01d-human-population/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=BOBc-sv-qJw",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-01d-human-population/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-01d-human-population/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-01d-human-population/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -954,14 +975,15 @@
       "fr": "Le PIB repose sur l’utilisation des terres dédiées à la production de pétrole et de gaz, à la foresterie et à l’agriculture. Apprenez comment le développement économique influence le PIB de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-02d-gdp/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=u9_-Oz9W3Dg",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-02d-gdp/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-02d-gdp/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-02d-gdp/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -997,14 +1019,15 @@
       "fr": "Découvrez comment le pétrole et le gaz naturel sont produits en Alberta, comment ils contribuent à l’économie par les redevances et comment leur extraction affecte les terres, l’eau et les écosystèmes."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Bfz4p6dQQcE",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1049,14 +1072,15 @@
       "fr": "Explorez la foresterie en Alberta, de la récolte des arbres pour produire du bois d’œuvre et du papier à ses effets sur le paysage. Découvrez comment l’exploitation forestière et les chemins forestiers affectent les forêts anciennes, le stockage du carbone et les habitats fauniques."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-04d-forestry/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=157uaHUOKJw",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-04d-forestry/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-04d-forestry/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-04d-forestry/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1100,14 +1124,15 @@
       "fr": "Apprenez comment l’utilisation des terres pour l’agriculture contribue à la production d’aliments et au développement économique en Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-05d-agriculture-production/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=hh84gk46swY",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-05d-agriculture-production/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-05d-agriculture-production/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-05d-agriculture-production/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1145,14 +1170,15 @@
       "fr": "Apprenez l’effet sur la consommation d’eau de l’agriculture, du peuplement et de l’utilisation des terres pour l’industrie, et comment les bonnes pratiques peuvent réduire la demande en eau."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-06d-water-consumption/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=WAIlkgtDTVk",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-06d-water-consumption/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-06d-water-consumption/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/D-SocioeconomicIndicators/soc-06d-water-consumption/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1191,14 +1217,15 @@
       "fr": "L’accès à l’utilisation des terres traditionnelles (UTT) mesure l’accessibilité aux terres pour les Autochtones pour entreprendre des activités liées aux utilisations traditionnelles. Elle tient compte des régions naturelles accessibles situées à l’extérieur des aires protégées."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-01e-tlu-access/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=yz52Ysp_meQ",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-01e-tlu-access/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-01e-tlu-access/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-01e-tlu-access/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1232,14 +1259,15 @@
       "fr": "L’habitat de l’orignal est réduit par le développement industriel et la proximité avec les activités humaines. Cette vidéo explore comment la valeur de l’habitat est calculée dans Alberta Tomorrow."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-02e-moose-habitat/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=rb0WIzUHnYw",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-02e-moose-habitat/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-02e-moose-habitat/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-02e-moose-habitat/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1273,14 +1301,15 @@
       "fr": "Cette vidéo explique l’indicateur Possibilités de chasse, une combinaison de l’accès aux UTT et de l’habitat de l’orignal qui représente l’accès à la chasse pour les Autochtones."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-03e-hunting-opportunity/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=d_wKqUZMaTk",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-03e-hunting-opportunity/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-03e-hunting-opportunity/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-03e-hunting-opportunity/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1314,14 +1343,15 @@
       "fr": "L’écoulement de phosphore et la conversion des terres diminuent la qualité de l’eau. Apprenez quel est l’impact sur les communautés autochtones et comment se mesure cet indicateur."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-04e-water-quality/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oG-PuCO-h7I",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-04e-water-quality/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-04e-water-quality/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-04e-water-quality/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1355,14 +1385,15 @@
       "fr": "Un habitat du poisson en santé se définit par des espèces indigènes diversifiées et moins de perturbations. Cette vidéo souligne l’importance de l’habitat pour les communautés autochtones."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-05e-fish-habitat/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oti7o8JS62Q",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-05e-fish-habitat/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-05e-fish-habitat/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-05e-fish-habitat/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1396,14 +1427,15 @@
       "fr": "Les possibilités de pêches combinent l’accès aux UTT et l’habitat du poisson pour indiquer l’accès aux activités de pêche fructueuse pour les peuples autochtones."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-06e-fishing-opportunity/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=vN_X59jznLE",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-06e-fishing-opportunity/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-06e-fishing-opportunity/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/E-IndigenousIndicators/ind-06e-fishing-opportunity/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1436,14 +1468,15 @@
       "fr": "Visitez chaque sous-bassin du bassin de la rivière Bow et découvrez comment les gens utilisent l’eau et le paysage. Observez les différents types de bâtiments, de sentiers et d’activités présents dans le bassin versant, depuis les sources jusqu’aux Prairies."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-01f-watershed/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/7f8e6a38b7534de6b27c6d87eade9d62/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=-66yGxMmQxE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=9",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-01f-watershed/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-01f-watershed/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-01f-watershed/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-01f-watershed/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1476,14 +1509,15 @@
       "fr": "Tricia Stadnyk explique comment un bassin versant peut influencer le climat de sa région et, à son tour, comment le climat influence le paysage. Suivez le parcours des sources jusqu’aux Prairies tandis qu’elle parle des précipitations et d’autres sujets."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-02f-hydro-climate/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/4364db1e1a7041538db38b0d58346cb5/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=6B31usY3S6E&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=2",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-02f-hydro-climate/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-02f-hydro-climate/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-02f-hydro-climate/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-02f-hydro-climate/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1518,14 +1552,15 @@
       "fr": "Le Dr Lee Jackson présente la Plateforme intégrée de gestion durable des bassins versants et explique pourquoi le partage des données sur l’eau est essentiel à la santé du bassin de la rivière Bow. Explorez le territoire depuis les sources jusqu’aux Prairies et découvrez des projets de science citoyenne ainsi que différents paramètres de données."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-03f-management-data/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/fa86c43190f043ce98aed64b16304c33/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=1sIN7zr8xoo&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=5",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-03f-management-data/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-03f-management-data/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-03f-management-data/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-03f-management-data/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1559,14 +1594,15 @@
       "fr": "Parcourez le bassin fluvial depuis les montagnes et découvrez ce qu’est un bassin versant ainsi que les manifestations de l’hydrologie dans le paysage. Tricia Stadnyk explique comment l’hydrologie peut influencer tout ce qui l’entoure."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/a2355c31a3d7451483e63750d2ae1f48/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=_hFqA3agfhk&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1601,14 +1637,15 @@
       "fr": "Explorez le bassin versant tandis que Tricia Stadnyk explique comment l’aménagement et les changements d’utilisation du territoire influencent les paysages et l’eau. Comment l’hydrologie du bassin versant change-t-elle lorsque les activités humaines transforment le paysage?"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-05f-hydro-dev/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/7a9a290fb3a84ce58f07e91f8e96049b/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=2qSAx5fmtWg&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=3",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-05f-hydro-dev/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-05f-hydro-dev/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-05f-hydro-dev/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-05f-hydro-dev/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1641,14 +1678,15 @@
       "fr": "Explorez le bassin versant de la rivière Elbow avec Joe et Flora et découvrez ses eaux souterraines ainsi que l’état de son aquifère. Apprenez ce qu’est un aquifère, comment les eaux souterraines sont utilisées dans le sous-bassin et comment les activités humaines les influencent."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/0acc6dd386ae4331bf1388181d2511dc/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=3wvA7macCMM",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1681,14 +1719,15 @@
       "fr": "Visitez les milieux humides aménagés du parc North Glenmore avec Liliana Bozic, qui explique comment ils servent au stockage de l’eau et à la gestion des eaux pluviales. Découvrez leur influence sur la qualité de l’eau, ainsi que les effets de l’aménagement du territoire et des saisons."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/eb92e3d8e984451f9386414c7dd75121/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=lmypedsjMjQ&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=10",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1722,14 +1761,15 @@
       "fr": "Patrick Van den Eynden présente le processus de traitement de l’eau à l’usine de traitement de Glenmore de la Ville de Calgary, depuis le prélèvement dans le réservoir jusqu’à la désinfection et à l’acheminement de l’eau vers les différents secteurs de la ville."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-08f-water-quality/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/0566b3f5515243b89026137be6fe050e/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=9ksSbswY_CA&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=8",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-08f-water-quality/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-08f-water-quality/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-08f-water-quality/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-08f-water-quality/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1762,14 +1802,15 @@
       "fr": "Explorez le barrage et le réservoir Glenmore tandis que Patrick Van den Eynden présente leur histoire, leurs infrastructures et leurs services, ainsi que le système d’approvisionnement en eau potable de la Ville."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-09f-water-services/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/71e5011337c04dda87b9327490254d70/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=BselhdsCzvM&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=6",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-09f-water-services/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-09f-water-services/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-09f-water-services/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-09f-water-services/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1802,14 +1843,15 @@
       "fr": "Megan Evans et Erin Anderson expliquent l’importance des prairies et de leurs plantes indigènes. Explorez plusieurs paysages de prairies du bassin de la rivière Bow."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-10f-native-prairies/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/31117838b5b049f195d0a14790e95a64/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=EAVeYoygr0c&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=11",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-10f-native-prairies/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-10f-native-prairies/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-10f-native-prairies/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-10f-native-prairies/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1842,14 +1884,15 @@
       "fr": "Erin Anderson et Megan Evans présentent les espèces envahissantes des prairies naturelles, les méthodes de lutte et l’importance des espèces indigènes. Explorez différents paysages des Prairies."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-11f-invasive-species/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/3360de4ce6ba4b1ead9e342a2cdec406/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=EQXmN_v_2qw&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=7",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-11f-invasive-species/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-11f-invasive-species/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-11f-invasive-species/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-11f-invasive-species/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1883,14 +1926,15 @@
       "fr": "Découvrez comment les isotopes permettent de surveiller les changements climatiques et les processus hydrologiques au sein d’un bassin versant."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-12f-isotopes-climate/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/faa923d3-a4a0-461d-b339-e5dbcc2c641c/hls/Isotopes.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=LebvVpUHCYE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=4",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-12f-isotopes-climate/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-12f-isotopes-climate/thumbnail.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-12f-isotopes-climate/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/F-BowRiverWatershed360/brbc-12f-isotopes-climate/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -1926,14 +1970,15 @@
       "fr": "Écoutez Peter Lemieux parler de l’effet des gens sur les glaciers."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ns7BiGb3cMQ",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -1978,14 +2023,15 @@
       "fr": "Écoutez Peter Lemieux expliquer pourquoi la glace des glaciers est parfois bleue."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-02g-colour-of-the-ice/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=7Ld_jQCuJzE",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-02g-colour-of-the-ice/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-02g-colour-of-the-ice/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-02g-colour-of-the-ice/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2029,14 +2075,15 @@
       "fr": "Écoutez Peter Lemieux expliquer comment les glaciers se déplacent."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-03g-glaciers-move/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=1KGk2LAvz4s",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-03g-glaciers-move/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-03g-glaciers-move/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-03g-glaciers-move/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2078,14 +2125,15 @@
       "fr": "Écoutez Peter Lemieux expliquer comment les crevasses se forment dans les glaciers."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-04g-how-crevasses-form/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=QbotXyLZXiQ",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-04g-how-crevasses-form/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-04g-how-crevasses-form/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-04g-how-crevasses-form/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2129,14 +2177,15 @@
       "fr": "Écoutez Peter Lemieux expliquer comment les feux de forêt l’été agissent sur les glaciers."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=LkkeMC8VhnA",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2180,14 +2229,15 @@
       "fr": "Écoutez Peter Lemieux expliquer pourquoi il est important que les glaciers soient protégés à l’intérieur des parcs nationaux."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Deu0HjSCzuM",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2228,14 +2278,15 @@
       "fr": "Écoutez Peter Lemieux expliquer les changements saisonniers sur le glacier."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KCKew0PiqOc",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2279,14 +2330,15 @@
       "fr": "Écoutez Peter Lemieux expliquer comment les glaciers peuvent causer des stries sur les roches quand ils se déplacent."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=sKF4M0v1GdM",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2321,14 +2373,15 @@
       "fr": "Écoutez Peter Lemieux expliquer les différents types de moraine glaciaire."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-09g-what-is-a-moraine/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=nFzRuDBiB28",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-09g-what-is-a-moraine/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-09g-what-is-a-moraine/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-09g-what-is-a-moraine/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2365,14 +2418,15 @@
       "fr": "Écoutez Peter Lemieux expliquer où les glaciers se forment dans les montagnes Rocheuses."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Y8IaKMp4dAk",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2415,14 +2469,15 @@
       "fr": "Écoutez Peter Lemieux parler d’où finit l’eau qui vient de Snow Dome."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZS8TG4_q24A",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2466,14 +2521,15 @@
       "fr": "Écoutez Peter Lemieux expliquer à quel point le glacier a reculé depuis 2006 et comment il le sait!"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=NCKgmaIkIm0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2517,14 +2573,15 @@
       "fr": "Écoutez Peter Lemieux expliquer où se situait le glacier Athabasca en 1982."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=xYQocIUXHQU",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2559,14 +2616,15 @@
       "fr": "Écoutez Peter Lemieux expliquer où pourrait se situer le glacier Athabasca dans 30 ans."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=HXQLMjomCes",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2604,14 +2662,15 @@
       "fr": "Venez marcher avec nous au glacier Athabasca sur le champ de glace Columbia."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=IvYUaGfUesM",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -2649,14 +2708,15 @@
       "fr": "Peter Lemieux explique comment les glaciers se déplacent."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-16g-how-glaciers-move/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Iy6sdst_Nnc",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-16g-how-glaciers-move/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-16g-how-glaciers-move/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-16g-how-glaciers-move/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2700,14 +2760,15 @@
       "fr": "Écoutez Peter Lemieux expliquer combien de glace perd le glacier Athabasca en une saison, et comment il le sait."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Htf4sCgOyvc",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2744,14 +2805,15 @@
       "fr": "Regardez cette vidéo dans laquelle Peter Lemieux explique pourquoi certains lacs glaciaires sont bleus."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KXSVsc1t8OQ",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2785,14 +2847,15 @@
       "fr": "Écoutez Peter Lemieux expliquer pourquoi il est si important de protéger nos glaciers."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=LKtGm_ZxZyU",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2837,14 +2900,15 @@
       "fr": "Venez marcher avec nous jusqu’au glacier Athabasca."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KF1JBsGdyZY",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -2880,14 +2944,15 @@
       "fr": "Ali Criscitiello, Ph. D., parle de la fonte des glaciers et de ce que cela a à voir avec les perturbateurs endocriniens."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-21g-endocrine-disruptors/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=fjJZesxnfBo",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-21g-endocrine-disruptors/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-21g-endocrine-disruptors/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-21g-endocrine-disruptors/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2931,14 +2996,15 @@
       "fr": "Ali Criscitiello, Ph. D., parle des effets des feux de forêt sur les glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=f2wUf95774k",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -2974,14 +3040,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique ce qu’est l’albédo et son lien avec les glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-23g-glacial-albedo/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=RbPa7lv1fv0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-23g-glacial-albedo/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-23g-glacial-albedo/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-23g-glacial-albedo/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3023,14 +3090,15 @@
       "fr": "Écoutez Ali Criscitiello, Ph. D., expliquer la progression et le retrait des glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-24g-growth-and-attrition/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=uATZEvCjoT4",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-24g-growth-and-attrition/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-24g-growth-and-attrition/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-24g-growth-and-attrition/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3075,14 +3143,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique les effets des activités humaines sur les glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=nr34h5i6oqI",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3118,14 +3187,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique comment les produits chimiques, autrefois emprisonnés dans la glace, se retrouvent dans notre approvisionnement en eau, même certains qui ont été interdits bien des années auparavant!"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=2ULp_NlGUHE",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3170,14 +3240,15 @@
       "fr": "Ali Criscitiello, Ph. D., parle du chromatographe d’ions et de ce qu’il nous apprend sur les glaciers."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-27g-ion-chromatography/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=L7F4VIAwcA0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-27g-ion-chromatography/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-27g-ion-chromatography/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-27g-ion-chromatography/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3217,14 +3288,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique comment son équipement mesure les isotopes de l’oxygène présents dans les glaciers de l’Alberta et ce qu’ils nous indiquent."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-28g-measuring-isotopes/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=pHCFmnNBeL0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-28g-measuring-isotopes/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-28g-measuring-isotopes/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-28g-measuring-isotopes/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3268,14 +3340,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique ce que sont les produits chimiques persistants et le danger que représente leur rejet dans l’environnement après avoir été emprisonnés dans les glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=dlIX3EisMpo",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3319,14 +3392,15 @@
       "fr": "La glaciologue Ali Criscitiello, Ph. D., du Laboratoire canadien des carottes de glace (CICL) parle des technologies qu’elle utilise pour étudier les glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ps7dhpC1Gec",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3368,14 +3442,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique comment les glaciers contribuent à l’élévation du niveau des mers."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-31g-sea-level-rise/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=uJ0ucfNs_io",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-31g-sea-level-rise/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-31g-sea-level-rise/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-31g-sea-level-rise/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3417,14 +3492,15 @@
       "fr": "Ali Criscitiello, Ph. D., parle de l’eau de fonte du champ de glace Columbia et de l’endroit où elle finit."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-32g-watershed-great-divide/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=OGN943BCxAk",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-32g-watershed-great-divide/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-32g-watershed-great-divide/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-32g-watershed-great-divide/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3464,14 +3540,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique ce que nous pouvons faire pour protéger les glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=iHKg1WAQ3h8",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3515,14 +3592,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique où se trouvent les glaciers."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=22vQm0cfKnI",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3561,14 +3639,15 @@
       "fr": "Ali Criscitiello, Ph. D., parle de l’importance des glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=HOhflZn8cqo",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3612,14 +3691,15 @@
       "fr": "Ali Criscitiello, Ph. D., explique pourquoi il est important de protéger les glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=PUJYQnJx3tY",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3661,14 +3741,15 @@
       "fr": "Coupe de carottes de glace au Laboratoire canadien des carottes de glace."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=VLaZWe8nACs",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3708,14 +3789,15 @@
       "fr": "Ali Criscitiello, Ph. D., montre comment elle coupe des carottes de glace pour les analyser dans le Laboratoire canadien des carottes de glace de l’Université de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=o4lpNdvjl98",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3757,14 +3839,15 @@
       "fr": "La glaciologue Ali Criscitiello, Ph. D., se prépare à entrer dans le Laboratoire canadien des carottes de glace."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ofv6WtFd1Zc",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3806,14 +3889,15 @@
       "fr": "Ali Criscitiello, Ph. D., nous amène dans le congélateur du Laboratoire canadien des carottes de glace."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-40g-into-the-cold/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-40g-into-the-cold/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=7cQbvb4l3Ro",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-40g-into-the-cold/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-40g-into-the-cold/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-40g-into-the-cold/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-40g-into-the-cold/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3845,14 +3929,15 @@
       "fr": "Ali Criscitiello, Ph. D., nous amène dans le laboratoire qu’elle utilise pour étudier les glaciers de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-41g-into-the-lab/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-41g-into-the-lab/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Nt4575dF2ME",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-41g-into-the-lab/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-41g-into-the-lab/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-41g-into-the-lab/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-41g-into-the-lab/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3884,14 +3969,15 @@
       "fr": "Écoutez Peter Lemieux parler de la taille du glacier Athabasca."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=qq7vwd_ahzU",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3930,14 +4016,15 @@
       "fr": "Écoutez Peter Lemieux parler du recul du glacier Athabasca."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=efoZxoc0_RE",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -3981,14 +4068,15 @@
       "fr": "Ali Criscitiello explique comment elle en est venue à s’intéresser à l’étude des glaciers et ce qu’elle fait au Laboratoire canadien des carottes de glace."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=VIt0NySXoGM",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4030,14 +4118,15 @@
       "fr": "Rencontrez les aînés de la nation Stoney Nakoda qui ont rendu possible cette série de vidéos."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-00h-introductions/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/video.mp4",
       "youtubeUrl": "https://youtu.be/E1vzAxvrgR4?si=vCtjAcHbtMPzJsNf",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-00h-introductions/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-00h-introductions/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-00h-introductions/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4080,14 +4169,15 @@
       "fr": "La nation Stoney veut faire partie des discussions concernant l’avenir des terres des Stoney. Écoutez les aînés parler de l’utilisation qu’ils faisaient autrefois du territoire."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/video.mp4",
       "youtubeUrl": "https://youtu.be/CEmbcJ_2oPA?si=aqTK4AvzdPw2yPXx",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4130,14 +4220,15 @@
       "fr": "La cimenterie existe depuis très longtemps. Écoutez l’aîné Lawrence expliquer ce qui a valu son nom à Exshaw et l’impact de l’usine sur la nation Stoney."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-02h-cement-factory/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/video.mp4",
       "youtubeUrl": "https://youtu.be/KFbHx-jduws?si=IpEgy6vTFzxCDL-u",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-02h-cement-factory/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-02h-cement-factory/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-02h-cement-factory/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4180,14 +4271,15 @@
       "fr": "L’aîné Lawrence parle du chemin de fer qui traverse le territoire des Stoney."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-03h-the-railway/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/video.mp4",
       "youtubeUrl": "https://youtu.be/NvR7dT83UKE?si=MWipJUoMutYdAGzY",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-03h-the-railway/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-03h-the-railway/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-03h-the-railway/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4230,14 +4322,15 @@
       "fr": "Apprenez comment la nation Stoney a utilisé les terres pour assurer sa protection."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-04h-using-land-for-protection/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/video.mp4",
       "youtubeUrl": "https://youtu.be/ZqpwZ1irYFY?si=sdiru7LP4nhu6jox",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-04h-using-land-for-protection/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-04h-using-land-for-protection/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-04h-using-land-for-protection/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4280,14 +4373,15 @@
       "fr": "L’aînée Margaret raconte son expérience sur le champ de glace Columbia et explique ce qu’on devrait faire selon elle."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-05h-glaciers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/video.mp4",
       "youtubeUrl": "https://youtu.be/IxZgkmJnYrw?si=2haLY-beyIpsZQ5W",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-05h-glaciers/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-05h-glaciers/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-05h-glaciers/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4330,14 +4424,15 @@
       "fr": "Selon les Stoney, leur territoire va de Jasper jusqu’aux États-Unis. C’est la terre sur laquelle le Créateur les a placés."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-06h-creator-story/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/video.mp4",
       "youtubeUrl": "https://youtu.be/HKy3Sb2u-Mk?si=FUDzF1rx4dzmQzKz",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-06h-creator-story/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-06h-creator-story/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-06h-creator-story/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4380,14 +4475,15 @@
       "fr": "Travis explique que la nation Stoney utilisait la région de Sibbald pour se réacclimater à l’altitude des montagnes après avoir voyagé au Sud."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-07h-reacclimatizing/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=XQv_Gy_gpWo",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-07h-reacclimatizing/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-07h-reacclimatizing/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-07h-reacclimatizing/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4430,14 +4526,15 @@
       "fr": "On demande à l’aînée Margaret de décrire la nation Stoney avant la signature du Traité."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-08h-before-treaty/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/video.mp4",
       "youtubeUrl": "https://youtu.be/tuNheHwbU7c?si=uTlYq-LqELvWmpuf",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-08h-before-treaty/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-08h-before-treaty/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-08h-before-treaty/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4480,14 +4577,15 @@
       "fr": "Écoutez l’aîné Terry raconter une histoire de sa jeunesse."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/video.mp4",
       "youtubeUrl": "https://youtu.be/2CaTbIIOHNE?si=yevh87KVNQY-uCua",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4530,14 +4628,15 @@
       "fr": "Travis parle de la réintroduction du bison sur le territoire."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-10h-bringing-back-the-bison/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/video.mp4",
       "youtubeUrl": "https://youtu.be/Y5ib6lh4HLE?si=p3HpiNYvKy9rFqPT",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-10h-bringing-back-the-bison/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-10h-bringing-back-the-bison/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-10h-bringing-back-the-bison/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4578,14 +4677,15 @@
       "fr": "Apprenez comment cette montagne iconique des montagnes Rocheuses de l’Alberta s’est valu son nom."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-11h-yamnuska-meaning/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/video.mp4",
       "youtubeUrl": "https://youtu.be/GX0PKaCqJiI?si=lL2dqXTkoa-tjh3r",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-11h-yamnuska-meaning/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-11h-yamnuska-meaning/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-11h-yamnuska-meaning/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4628,14 +4728,15 @@
       "fr": "L’aîné Lawrence explique ce qui a valu son nom à la montagne Cougar."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-12h-cougar-story/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/video.mp4",
       "youtubeUrl": "https://youtu.be/9269H-WWRBg?si=DX65Ftlw44R5YvbW",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-12h-cougar-story/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-12h-cougar-story/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-12h-cougar-story/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4678,14 +4779,15 @@
       "fr": "Comment la nation Stoney survivait-elle à l’extérieur du territoire, surtout durant l’hiver? Regardez cette vidéo pour le découvrir."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-13h-food-and-camp/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/video.mp4",
       "youtubeUrl": "https://youtu.be/s1NAu1rTZzQ?si=8RolJGkfnYz5Bm06",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-13h-food-and-camp/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-13h-food-and-camp/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-13h-food-and-camp/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4728,14 +4830,15 @@
       "fr": "Travis parle des différences en matière de concept du temps. La tradition orale dit « Dans le temps ». Les Stoney se servaient de l’environnement et des animaux comme calendrier, des saisons et de la température. « Le ciel était notre montre, la lune, les étoiles »."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-14h-concept-of-time/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=8Rxut4EAyYg",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-14h-concept-of-time/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-14h-concept-of-time/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-14h-concept-of-time/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4778,14 +4881,15 @@
       "fr": "Qu’espérez-vous pour l’avenir?"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=UpJUo8M5Bck",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4830,14 +4934,15 @@
       "fr": "L’aîné Lawrence parle de l’expérience des Stoney durant la Crise de 1929."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-16h-great-depression/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/video.mp4",
       "youtubeUrl": "https://youtu.be/57vkAX541xY?si=pygUdIJEajIdovUC",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-16h-great-depression/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-16h-great-depression/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-16h-great-depression/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4880,14 +4985,15 @@
       "fr": "Écoutez l’aînée Margaret expliquer l’importance de l’eau pour la nation Stoney et pour toute la population."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-17h-water-now-and-future/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oG-PuCO-h7I&list=PLvZi8sQT8o8MTHACtzLmHa69Eln1AiDsn",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-17h-water-now-and-future/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-17h-water-now-and-future/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-17h-water-now-and-future/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4930,14 +5036,15 @@
       "fr": "Un porte-parole de la nation des Stoney doit prendre part à la planification de l’utilisation des terres en Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-18h-stoney-voice-at-table/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/video.mp4",
       "youtubeUrl": "https://youtu.be/kuFB4CrTufw?si=rVjuYL9xCxY5HwVm",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-18h-stoney-voice-at-table/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-18h-stoney-voice-at-table/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-18h-stoney-voice-at-table/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -4980,14 +5087,15 @@
       "fr": "Autrefois, les Stoney mangeaient le poisson qu’ils pêchaient dans la rivière Bow, mais ils n’osent plus le faire. Ils profitent de la rivière, mais ils ne mangent plus le poisson."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-19h-fishing-on-the-bow/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/video.mp4",
       "youtubeUrl": "https://youtu.be/vN_X59jznLE?si=qs742rPJ9WvbOe1y",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-19h-fishing-on-the-bow/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-19h-fishing-on-the-bow/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-19h-fishing-on-the-bow/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5030,14 +5138,15 @@
       "fr": "Travis explique comment on lui a appris à survivre à une tornade sur le territoire des Stoney."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-20h-tornado/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/video.mp4",
       "youtubeUrl": "https://youtu.be/Yhx8ylh81EM?si=gPY1Fj7h65WvWSk1",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-20h-tornado/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-20h-tornado/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-20h-tornado/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5080,14 +5189,15 @@
       "fr": "Écoutez les aînés de la nation Stoney parler de la cueillette de nourriture et de plantes médicinales, de la chasse et de la transmission des savoirs culturels lors de camps sur le territoire. Découvrez comment les activités récréatives et le pâturage du bétail influencent ces pratiques traditionnelles."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-21h-using-the-land/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/video.mp4",
       "youtubeUrl": "https://youtu.be/yz52Ysp_meQ?si=2uYyt4W4Qjq31z2N",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-21h-using-the-land/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-21h-using-the-land/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-21h-using-the-land/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5130,14 +5240,15 @@
       "fr": "L’habitat de l’orignal est réduit par le développement industriel et la proximité des activités humaines. Cette vidéo explique comment la valeur de l’habitat est calculée dans Alberta Tomorrow."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-22h-moose-story/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/video.mp4",
       "youtubeUrl": "https://youtu.be/rb0WIzUHnYw?si=r438JuVzkL4PxsaR",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-22h-moose-story/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-22h-moose-story/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-22h-moose-story/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5179,14 +5290,15 @@
       "fr": "Travis explique comment les populations d’animaux sauvages ont changé sur le territoire des Stoney et ce qui doit être fait pour les protéger et éviter d’autres pertes. « Nous entrons sur le territoire des animaux ailés et à quatre pattes et nous devons faire attention à ce que nous y faisons. »"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-23h-land-use-and-wildlife/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/video.mp4",
       "youtubeUrl": "https://youtu.be/d_wKqUZMaTk?si=3dnMMNcSOKg8pW5X",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-23h-land-use-and-wildlife/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-23h-land-use-and-wildlife/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-23h-land-use-and-wildlife/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5229,14 +5341,15 @@
       "fr": "La région Sibbald sert aujourd’hui pour le camping et les activités récréatives, mais est-ce compatible avec les utilisations des terres traditionnelles des Stoney?"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-24h-protected-areas/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/video.mp4",
       "youtubeUrl": "https://youtu.be/IuvVMb1y0oU?si=mka-5Q1s3IP_kDPU",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-24h-protected-areas/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-24h-protected-areas/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-24h-protected-areas/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5279,14 +5392,15 @@
       "fr": "L’aîné Terry parle de la nécessité de RéconciliACTION après la Réconciliation."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-25h-reconcili-action/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/video.mp4",
       "youtubeUrl": "https://youtu.be/P65TspAOwrU?si=JEA8buNzlAZus7Jl",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-25h-reconcili-action/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-25h-reconcili-action/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-25h-reconcili-action/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5329,14 +5443,15 @@
       "fr": "Travis se rappelle des histoires des Stoney qui rencontraient les colons pour la première fois."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-26h-first-contact/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/video.mp4",
       "youtubeUrl": "https://youtu.be/7pI3iyUuhK0?si=Y-8Gc_UmAStwrK1Y",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-26h-first-contact/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-26h-first-contact/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-26h-first-contact/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5379,14 +5494,15 @@
       "fr": "Écoutez les aînés parler de l’importance des Sibbald Flats pour la chasse, la cueillette de petits fruits et les utilisations traditionnelles, et de l’incompatibilité avec certaines autres utilisations du territoire."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-27h-access-to-land/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=4ZixFCSIMww",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-27h-access-to-land/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-27h-access-to-land/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/H-StoneyVideos/stoney-27h-access-to-land/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5429,14 +5545,15 @@
       "fr": "Une vidéo présentant le point de vue des Pieds-Noirs sur l’eau et son importance dans la culture autochtone et l’environnement."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/I-BlackfootVideos/bfv-01i-blackfoot-perspective-on-water/video.mp4",
+      "primaryUrl": "N/A",
       "youtubeUrl": "https://www.youtube.com/watch?v=r-NzlnMgDj4",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/I-BlackfootVideos/bfv-01i-blackfoot-perspective-on-water/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://img.youtube.com/vi/r-NzlnMgDj4/hqdefault.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@siksikasteam4025"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/I-BlackfootVideos/bfv-01i-blackfoot-perspective-on-water/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/I-BlackfootVideos/bfv-01i-blackfoot-perspective-on-water/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5474,14 +5591,15 @@
       "fr": "Michael Sullivan, spécialiste provincial des sciences halieutiques d’Alberta Fish and Wildlife, se rend au lac Isle, où des milliers de meuniers sortent la tête de l’eau, littéralement à bout de souffle en raison du manque d’oxygène. Cette vidéo date de mars 2014."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=PD8FnEmi-l0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@edmontonjournal"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5518,14 +5636,15 @@
       "fr": "Regardez cet enregistrement d’une diffusion en direct présentée par CPAWS SAB, Trout Unlimited et Cows and Fish pour en apprendre davantage sur les truites indigènes de l’Alberta."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-02j-native-trout-in-alberta/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-02j-native-trout-in-alberta/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=lztrWhXpnHg",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-02j-native-trout-in-alberta/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-02j-native-trout-in-alberta/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-02j-native-trout-in-alberta/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-02j-native-trout-in-alberta/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-02j-native-trout-in-alberta/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5562,14 +5681,15 @@
       "fr": "Des dunes de sable dégagées et mouvantes entourées de lacs."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KrkcyfUn274",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5602,14 +5722,15 @@
       "fr": "Découvrez les formes de relief et l’importance de ce territoire pour les Pieds-Noirs."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=-MJXlSxkka8",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5642,14 +5763,15 @@
       "fr": "Écoutez une biologiste des pêches expliquer ce qu’est un ponceau perché dans le cours supérieur du bassin versant de la rivière Red Deer."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-05j-hanging-culvert/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-05j-hanging-culvert/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=r-_LsSi7FJ0",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-05j-hanging-culvert/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-05j-hanging-culvert/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-05j-hanging-culvert/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-05j-hanging-culvert/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-05j-hanging-culvert/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5684,14 +5806,15 @@
       "fr": "Suivez des biologistes à la recherche d’arbres attaqués par le dendroctone du pin ponderosa."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=3ojS4z9Z68c",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5724,14 +5847,15 @@
       "fr": "Ce ranch situé au sud de Manyberries est un site de l’Alberta Conservation Association."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-07j-grassland-restoration/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-07j-grassland-restoration/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=u1qMoL3V61g",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-07j-grassland-restoration/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-07j-grassland-restoration/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-07j-grassland-restoration/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-07j-grassland-restoration/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-07j-grassland-restoration/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5764,14 +5888,15 @@
       "fr": "Observez des invertébrés aquatiques dans un seau et découvrez pourquoi ils sont des indicateurs de la qualité de l’eau."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KdEN85OgG4o",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@ghostwatershed7386"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5804,14 +5929,15 @@
       "fr": "Un documentaire sur les sources des rivières des Prairies canadiennes et leur vulnérabilité aux changements d’utilisation des terres."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=E2wYNZJ-tC4",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@livingstonelandownersgroup2629"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5845,14 +5971,15 @@
       "fr": "Courte explication des isotopes de l’oxygène, et de l’utilisation de ces isotopes pour étudier les climats passés."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-01z-oxygen-isotopes/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=YfRDNyB1XOY",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-01z-oxygen-isotopes/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@suzanneobrien3361"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-01z-oxygen-isotopes/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-01z-oxygen-isotopes/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5893,14 +6020,15 @@
       "fr": "La météorisation chimique des roches continentale (hydrolyse) retire le CO2 de l’atmosphère au fil du temps géologique. Est-ce cela pourrait expliquer pourquoi la Terre n’était pas gelée dans ses jeunes années lorsque le Soleil était très faible?"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=rEeixDNVjeE",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@suzanneobrien3361"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5940,14 +6068,15 @@
       "fr": "Le moment est enfin arrivé! Effectuez les visites virtuelles à 360 degrés dans les écorégions de l’Alberta! Une pour chaque écorégion : explorez les plantes, les animaux, la géologie, les reliefs, le climat, l’utilisation des terres et les espèces en péril! Pour accéder aux visites, créez votre compte d’Alberta Tomorrow à www.albertatomorrow.ca DÈS AUJOURD’HUI!"
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=rL13Xz_x2dA",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/fr.vtt"
     },
     "searchTerms": {
       "en": [
@@ -5988,14 +6117,15 @@
       "fr": "Visionnez l’enregistrement d’un webinaire présenté en anglais par Alberta Tomorrow et CPAWS SA le 27 avril 2022, intitulé « Earth Mistakes, Mitigations & Making Amends on the Land »."
     },
     "media": {
-      "primaryUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=dqkoz2CgSSU",
-      "thumbnailUrl": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/thumbnail.jpg",
-      "is360": false
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/en.vtt",
-      "fr": "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/fr.vtt"
     },
     "searchTerms": {
       "en": [
