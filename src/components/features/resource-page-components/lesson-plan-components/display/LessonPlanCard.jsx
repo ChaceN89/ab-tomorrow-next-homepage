@@ -16,7 +16,7 @@ import LinkListSection from "./LinkListSection";
 import Link from "next/link";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
-import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
+import CardLanguageSwitch from "@/components/layout/language/CardLanguageSwitch";
 import { getMessages } from "@/i18n/messages";
 
 export default function LessonPlanCard({ plan }) {
@@ -124,12 +124,6 @@ export default function LessonPlanCard({ plan }) {
           </Tooltip>
         </div>
 
-        <CardLanguageSelect
-          availableLanguages={availableLanguages}
-          selectedLanguage={selectedLanguage}
-          onChange={setSelectedLanguage}
-        />
-
         <div className="border-b pb-1">
           <p
             className={`text-sm text-gray-700 transition-all duration-200 ${descriptionExpanded ? "max-h-none overflow-visible" : "max-h-10 overflow-hidden"}`}
@@ -176,24 +170,33 @@ export default function LessonPlanCard({ plan }) {
         /> */}
 
         <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-1">
-          {plan.videos && plan.videos.length > 0 ? (
-            <div className="w-fit rounded-xl border-black bg-gray-300 p-2 text-sm font-semibold flex items-center gap-1">
-              <FaVideo />
-              {plan.videos.length} {localizedLabels.videos}
-            </div>
-          ) : <span />}
+          <CardLanguageSwitch
+            availableLanguages={availableLanguages}
+            selectedLanguage={selectedLanguage}
+            onChange={setSelectedLanguage}
+            label={t("filters.lessonPlanLanguage")}
+          />
 
-          <button
-            type="button"
-            onClick={(event) => {
-              event.preventDefault();
-              event.stopPropagation();
-              window.open(openInNewPageHref, "_blank", "noopener,noreferrer");
-            }}
-            className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer"
-          >
-            {viewInNewPageLabel}
-          </button>
+          <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
+            {plan.videos && plan.videos.length > 0 ? (
+              <div className="flex shrink-0 items-center gap-1 rounded-lg border border-black/10 bg-gray-300 px-2 py-1 text-xs font-semibold">
+                <FaVideo aria-hidden="true" />
+                {plan.videos.length} {localizedLabels.videos}
+              </div>
+            ) : null}
+
+            <button
+              type="button"
+              onClick={(event) => {
+                event.preventDefault();
+                event.stopPropagation();
+                window.open(openInNewPageHref, "_blank", "noopener,noreferrer");
+              }}
+              className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer"
+            >
+              {viewInNewPageLabel}
+            </button>
+          </div>
         </div>
       </div>
     </Link>

@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
-import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
+import CardLanguageSwitch from "@/components/layout/language/CardLanguageSwitch";
 import { getMessages } from "@/i18n/messages";
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import { useVideoResource } from "../VideoResourceContext";
@@ -157,17 +157,6 @@ export default function VideoCard({
         </div>
       </div>
 
-      {!forceLanguage && (
-        <CardLanguageSelect
-          availableLanguages={availableLanguages}
-          selectedLanguage={selectedLanguage}
-          onChange={(nextLanguage) => {
-            setSelectedLanguage(nextLanguage);
-          }}
-          className="w-full"
-        />
-      )}
-
       <div className="overflow-hidden rounded-md border border-black/10 bg-white shadow-sm">
         <img
           src={thumbnailSrc}
@@ -232,28 +221,39 @@ export default function VideoCard({
         )}
       </div>
 
-      <div className="mt-auto flex flex-wrap items-center justify-end gap-2 pt-1">
-        {youtubeHref ? (
-          <a
-            href={youtubeHref}
+      <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-1">
+        {!forceLanguage && (
+          <CardLanguageSwitch
+            availableLanguages={availableLanguages}
+            selectedLanguage={selectedLanguage}
+            onChange={setSelectedLanguage}
+            label={t("filters.videoLanguage")}
+          />
+        )}
+
+        <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
+          {youtubeHref ? (
+            <a
+              href={youtubeHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white hover:cursor-pointer"
+              onClick={(event) => event.stopPropagation()}
+            >
+              {watchOnYoutubeLabel}
+            </a>
+          ) : null}
+
+          <Link
+            href={cardOpenInNewPageHref}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white hover:cursor-pointer"
+            className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer"
             onClick={(event) => event.stopPropagation()}
           >
-            {watchOnYoutubeLabel}
-          </a>
-        ) : null}
-
-        <Link
-          href={cardOpenInNewPageHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer"
-          onClick={(event) => event.stopPropagation()}
-        >
-          {viewInNewPageLabel}
-        </Link>
+            {viewInNewPageLabel}
+          </Link>
+        </div>
       </div>
     </div>
   );

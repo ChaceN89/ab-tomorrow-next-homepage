@@ -60,7 +60,7 @@ export default function CardLanguageSelect({
           }}
           className={`relative z-10 flex items-center justify-center cursor-pointer px-2 py-1 text-[10px] font-semibold uppercase tracking-wide transition-colors duration-300 ease-out first:rounded-l-full last:rounded-r-full ${index > 0 ? "border-l border-white/0" : ""} ${safeSelectedLanguage === lang
             ? "text-white"
-            : "text-gray-700 hover:bg-gray-100/100"
+            : "text-gray-700 hover:bg-primary hover:text-white"
             }`}
         >
           {lang}

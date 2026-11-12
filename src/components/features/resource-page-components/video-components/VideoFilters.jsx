@@ -29,8 +29,10 @@ export default function VideoFilters() {
     setOnly360,
     hasLessonPlans,
     setHasLessonPlans,
-    hasFrench,
-    setHasFrench,
+    hasEnglishSubtitles,
+    setHasEnglishSubtitles,
+    hasFrenchSubtitles,
+    setHasFrenchSubtitles,
     numResults,
   } = useVideoResource();
 
@@ -76,10 +78,19 @@ export default function VideoFilters() {
         <label className="flex items-center gap-2">
           <input
             type="checkbox"
-            checked={hasFrench}
-            onChange={() => setHasFrench(!hasFrench)}
+            checked={hasEnglishSubtitles}
+            onChange={() => setHasEnglishSubtitles(!hasEnglishSubtitles)}
           />
-          <span>{t("filters.frenchAvailable")}</span>
+          <span>{t("filters.englishSubtitlesAvailable")}</span>
+        </label>
+
+        <label className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={hasFrenchSubtitles}
+            onChange={() => setHasFrenchSubtitles(!hasFrenchSubtitles)}
+          />
+          <span>{t("filters.frenchSubtitlesAvailable")}</span>
         </label>
       </div>
 

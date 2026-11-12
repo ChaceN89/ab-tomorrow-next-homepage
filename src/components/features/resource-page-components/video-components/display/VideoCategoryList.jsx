@@ -12,7 +12,8 @@ export default function VideoCategoryList({ isSidebarPinned = true }) {
     searchText,
     only360,
     hasLessonPlans,
-    hasFrench,
+    hasEnglishSubtitles,
+    hasFrenchSubtitles,
     setNumResults,
   } = useVideoResource();
 
@@ -33,7 +34,12 @@ export default function VideoCategoryList({ isSidebarPinned = true }) {
         v.tools.some((t) => toolFilters[t]);
       const matches360 = only360 ? v.media?.is360 : true;
       const matchesHasLessonPlans = hasLessonPlans ? (v.lessonPlans?.length || 0) > 0 : true;
-      const matchesFrench = hasFrench ? (v.availableLanguages || []).includes("fr") : true;
+      const matchesEnglishSubtitles = hasEnglishSubtitles
+        ? (v.availableSubtitleLanguages || []).includes("en")
+        : true;
+      const matchesFrenchSubtitles = hasFrenchSubtitles
+        ? (v.availableSubtitleLanguages || []).includes("fr")
+        : true;
       const matchesTag =
         selectedTags.length === 0 ||
         selectedTags.some((tag) => (v.hashtags || []).includes(tag));
@@ -49,7 +55,8 @@ export default function VideoCategoryList({ isSidebarPinned = true }) {
         matchesSearch &&
         matches360 &&
         matchesHasLessonPlans &&
-        matchesFrench &&
+        matchesEnglishSubtitles &&
+        matchesFrenchSubtitles &&
         matchesTag
       ) {
         if (!nextGrouped[v.category]) nextGrouped[v.category] = [];
@@ -60,7 +67,8 @@ export default function VideoCategoryList({ isSidebarPinned = true }) {
     return nextGrouped;
   }, [
     categoryFilters,
-    hasFrench,
+    hasEnglishSubtitles,
+    hasFrenchSubtitles,
     hasLessonPlans,
     lowerSearch,
     only360,

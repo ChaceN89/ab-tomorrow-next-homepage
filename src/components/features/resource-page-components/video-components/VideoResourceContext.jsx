@@ -30,7 +30,8 @@ export function VideoResourceProvider({ children }) {
   const [searchText, setSearchText] = useState("");
   const [only360, setOnly360] = useState(false);
   const [hasLessonPlans, setHasLessonPlans] = useState(false);
-  const [hasFrench, setHasFrench] = useState(false);
+  const [hasEnglishSubtitles, setHasEnglishSubtitles] = useState(false);
+  const [hasFrenchSubtitles, setHasFrenchSubtitles] = useState(false);
 
   // Thumbnail source option:
   // - "listed": prefer thumbnail URLs listed in videos.json (AWS/custom assets)
@@ -63,6 +64,9 @@ export function VideoResourceProvider({ children }) {
     const availableLanguages = Array.isArray(video.supportedLanguages)
       ? video.supportedLanguages.map((lang) => String(lang).toLowerCase()).filter((lang) => ["en", "fr"].includes(lang))
       : [];
+    const availableSubtitleLanguages = ["en", "fr"].filter((language) =>
+      Boolean(getLocalizedValue(video.subtitles?.[language]).trim())
+    );
 
     const lessonPlans = lessonPlanIds
       .map((lessonPlanId) => {
@@ -101,6 +105,7 @@ export function VideoResourceProvider({ children }) {
         fr: getLocalizedValue(video.description, "fr"),
       },
       availableLanguages,
+      availableSubtitleLanguages,
       hashtags: getSearchTerms(video.searchTerms, locale),
       tools: [],
       media: normalizeVideoMedia(video),
@@ -188,8 +193,10 @@ export function VideoResourceProvider({ children }) {
         setOnly360,
         hasLessonPlans,
         setHasLessonPlans,
-        hasFrench,
-        setHasFrench,
+        hasEnglishSubtitles,
+        setHasEnglishSubtitles,
+        hasFrenchSubtitles,
+        setHasFrenchSubtitles,
         numResults,
         setNumResults,
         thumbnailSourceMode,
