@@ -9,7 +9,6 @@ import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
 import CardLanguageSwitch from "@/components/layout/language/CardLanguageSwitch";
 import { getMessages } from "@/i18n/messages";
-import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import { useVideoResource } from "../VideoResourceContext";
 
 import { FaRegPlayCircle } from "react-icons/fa";
@@ -85,9 +84,7 @@ export default function VideoCard({
 
   const cardOpenInNewPageHref = openInNewPageHref || `/${activeLanguage}/resources/video?id=${encodeURIComponent(String(video?.id || ""))}`;
 
-  const rawVideoUrl = video?.media?.url || "";
   const thumbnailSrc = getPreferredThumbnailSrc(video);
-  const videoId = extractYouTubeId(rawVideoUrl);
 
   const selectedContent = useMemo(() => {
     const language = ["en", "fr"].includes(activeLanguage) ? activeLanguage : locale;
@@ -102,18 +99,13 @@ export default function VideoCard({
   const resourceMessages = getMessages(activeLanguage)?.Pages?.ResourcesPage ?? {};
   const globalMessages = getMessages(activeLanguage) ?? getMessages(locale) ?? {};
   const viewItemsMessages = globalMessages?.ViewItems ?? {};
-  const detailsMessages = globalMessages?.Details ?? {};
   const seeMoreLabel = resourceMessages?.seeMore || t("seeMore", "See More");
   const seeLessLabel = resourceMessages?.seeLess || (activeLanguage === "fr" ? "Voir moins" : "See less");
   const visibleLessonPlans = expandedLessonPlans ? selectedContent.lessonPlans : selectedContent.lessonPlans.slice(0, 1);
   const localizedLabels = {
     lessonPlans: resourceMessages?.lessonPlans || t("lessonPlans"),
   };
-  const watchOnYoutubeLabel = detailsMessages?.ViewOnYouTube || (activeLanguage === "fr" ? "Regarder sur YouTube" : "Watch on YouTube");
   const viewInNewPageLabel = openInNewPageLabel || viewItemsMessages?.ViewInNewPage || (activeLanguage === "fr" ? "Voir dans une nouvelle page" : "View in New page");
-  const youtubeHref = rawVideoUrl.startsWith("http")
-    ? rawVideoUrl
-    : (videoId ? `https://www.youtube.com/watch?v=${videoId}` : "");
 
   const getLocalizedPlanHref = (plan) => {
     if (!plan) return null;
@@ -232,18 +224,6 @@ export default function VideoCard({
         )}
 
         <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
-          {youtubeHref ? (
-            <a
-              href={youtubeHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white hover:cursor-pointer"
-              onClick={(event) => event.stopPropagation()}
-            >
-              {watchOnYoutubeLabel}
-            </a>
-          ) : null}
-
           <Link
             href={cardOpenInNewPageHref}
             target="_blank"
