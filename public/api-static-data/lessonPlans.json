@@ -300,7 +300,7 @@
     "relatedResources": []
   },
   {
-    "id": "climate-03-water-quality-climate-change-and-albertas-glaciers",
+    "id": "web-02y-water-quality-climate-change-and-albertas-glaciers",
     "themeId": "climate-change",
     "title": {
       "en": "Water Quality, Climate Change and Alberta's Glaciers",
@@ -320,19 +320,19 @@
           "fileType": "lesson-plan",
           "title": "Water Quality, Climate Change and Alberta's Glaciers",
           "url": "https://docs.google.com/document/d/1MjOnNaKi6lQFOL0m1NSMnsuDVB4lAAudYnvEKFd8rAQ/edit",
-          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/climate-03-water-quality-climate-change-and-albertas-glaciers/en-lesson-plan.pdf"
+          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/web-02y-water-quality-climate-change-and-albertas-glaciers/en-lesson-plan.pdf"
         },
         {
           "fileType": "other-file-type",
           "title": "Webinar Worksheet",
           "url": "https://docs.google.com/document/d/13bOMHwW_JAi2y5mR6XzAv_I5oKgr6rxUNaP3QhypO5s/edit",
-          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/climate-03-water-quality-climate-change-and-albertas-glaciers/en-other-file-type.pdf"
+          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/web-02y-water-quality-climate-change-and-albertas-glaciers/en-other-file-type.pdf"
         },
         {
           "fileType": "presentation-slides",
           "title": "Glaciers in Alberta: Slide Show",
           "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg",
-          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/climate-03-water-quality-climate-change-and-albertas-glaciers/en-presentation-slides.pdf"
+          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/web-02y-water-quality-climate-change-and-albertas-glaciers/en-presentation-slides.pdf"
         }
       ],
       "fr": [
@@ -340,19 +340,19 @@
           "fileType": "lesson-plan",
           "title": "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
           "url": "https://docs.google.com/document/d/1b687DrrAuzuItF7NjG60bzJAzJKKydgaYw5cC9ENM3k/edit",
-          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/climate-03-water-quality-climate-change-and-albertas-glaciers/fr-lesson-plan.pdf"
+          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/web-02y-water-quality-climate-change-and-albertas-glaciers/fr-lesson-plan.pdf"
         },
         {
           "fileType": "other-file-type",
           "title": "Feuille de travail du webinaire",
           "url": "https://docs.google.com/document/d/1CFqsV9zXHUhzednNzgazYYg4DMFPwX2jPb4wiytGU7c/edit",
-          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/climate-03-water-quality-climate-change-and-albertas-glaciers/fr-other-file-type.pdf"
+          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/web-02y-water-quality-climate-change-and-albertas-glaciers/fr-other-file-type.pdf"
         },
         {
           "fileType": "presentation-slides",
           "title": "Les glaciers en Alberta : présentation PowerPoint",
           "url": "https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li",
-          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/climate-03-water-quality-climate-change-and-albertas-glaciers/fr-presentation-slides.pdf"
+          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/web-02y-water-quality-climate-change-and-albertas-glaciers/fr-presentation-slides.pdf"
         }
       ]
     },
@@ -423,7 +423,7 @@
       ]
     },
     "videoIds": [
-      "landscape-04b-glaciers-webinar"
+      "web-02y-water-quality-climate-change-and-albertas-glaciers"
     ],
     "relatedResources": [
       {

@@ -572,54 +572,6 @@
     "lessonPlanIds": []
   },
   {
-    "id": "landscape-04b-glaciers-webinar",
-    "supportedLanguages": [
-      "en",
-      "fr"
-    ],
-    "categoryId": "understanding-the-landscape",
-    "title": {
-      "en": "Water Quality, Climate Change and Alberta's Glaciers Webinar",
-      "fr": "Qualité de l’eau, changements climatiques et glaciers de l’Alberta : webinaire"
-    },
-    "description": {
-      "en": "This webinar was held on May 27, 2020 and features 4 prominent scientists talking about climate change and how it will affect glaciers, glacier melt, water policy and our water quality.",
-      "fr": "Ce webinaire a eu lieu le 27 mai 2020 et met en vedette 4 scientifiques de renom qui parlent des changements climatiques et de la façon dont ils affecteront les glaciers, la fonte des glaciers, la politique de l’eau et la qualité de notre eau."
-    },
-    "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/video.mp4",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Xgb3_I8nagY",
-      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/thumbnail.jpg",
-      "is360": false,
-      "provider": "https://www.youtube.com/@albertatomorrow"
-    },
-    "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/fr.vtt"
-    },
-    "searchTerms": {
-      "en": [
-        "ab glaciers",
-        "climate change",
-        "water quality",
-        "columbia icefield",
-        "athabasca glacier",
-        "land use"
-      ],
-      "fr": [
-        "glaciers alberta",
-        "changements climatiques",
-        "qualite de l'eau",
-        "champ de glace columbia",
-        "glacier athabasca",
-        "utilisation des terres"
-      ]
-    },
-    "lessonPlanIds": [
-      "climate-03-water-quality-climate-change-and-albertas-glaciers"
-    ]
-  },
-  {
     "id": "env-01c-natural-landscapes",
     "supportedLanguages": [
       "en",
@@ -5956,6 +5908,401 @@
     "lessonPlanIds": []
   },
   {
+    "id": "atp-01x-planning-for-a-better-future",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "alberta-tomorrow-platform",
+    "title": {
+      "en": "Alberta Tomorrow - Planning for a Better Future",
+      "fr": "Alberta Tomorrow - Planifier un avenir meilleur"
+    },
+    "description": {
+      "en": "Balancing environment and economy is tough, but essential. Watch this video to see why and how we can plan for a better future.",
+      "fr": "Il est difficile, mais essentiel, de concilier l’environnement et l’économie. Regardez cette vidéo pour comprendre pourquoi et comment nous pouvons planifier un avenir meilleur."
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-01x-planning-for-a-better-future/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Q6-l7HymJTQ",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-01x-planning-for-a-better-future/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-01x-planning-for-a-better-future/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-01x-planning-for-a-better-future/fr.vtt"
+    },
+    "searchTerms": {
+      "en": [
+        "alberta tomorrow",
+        "planning for a better future",
+        "environment and economy"
+      ],
+      "fr": [
+        "alberta tomorrow",
+        "avenir meilleur",
+        "environnement",
+        "économie",
+        "planification durable"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "atp-02x-seeing-is-believing",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "alberta-tomorrow-platform",
+    "title": {
+      "en": "Seeing is Believing: A Legacy of Providing EdTech for Sustainability to Alberta Students",
+      "fr": "Voir pour y croire : un héritage d’outils éducatifs pour un avenir durable en Alberta"
+    },
+    "description": {
+      "en": "Produced by the Alberta Emerald Foundation: 2022",
+      "fr": "Produit par l’Alberta Emerald Foundation en 2022."
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-02x-seeing-is-believing/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MHDH_m0agFM",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-02x-seeing-is-believing/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-02x-seeing-is-believing/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-02x-seeing-is-believing/fr.vtt"
+    },
+    "searchTerms": {
+      "en": [
+        "alberta tomorrow",
+        "seeing is believing",
+        "alberta emerald foundation",
+        "sustainability education",
+        "educational technology"
+      ],
+      "fr": [
+        "alberta emerald foundation",
+        "développement durable",
+        "éducation environnementale",
+        "technologies éducatives"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "atp-03x-power-of-alberta-tomorrow",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "alberta-tomorrow-platform",
+    "title": {
+      "en": "The Power of Alberta Tomorrow",
+      "fr": "La puissance d’Alberta Tomorrow"
+    },
+    "description": {
+      "en": "Discover how Alberta Tomorrow helps people explore land-use planning and possible futures for Alberta.",
+      "fr": "Découvrez comment Alberta Tomorrow permet d’explorer l’aménagement du territoire et différents avenirs possibles pour l’Alberta."
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7RmwsUh1-0E",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/fr.vtt"
+    },
+    "searchTerms": {
+      "en": [
+        "alberta tomorrow",
+        "land-use planning",
+        "future planning"
+      ],
+      "fr": [
+        "alberta tomorrow",
+        "aménagement du territoire",
+        "planification de l’avenir"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "atp-04x-alberta-tomorrow-in-the-classroom",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "alberta-tomorrow-platform",
+    "title": {
+      "en": "Alberta Tomorrow in the Classroom",
+      "fr": "Alberta Tomorrow en classe"
+    },
+    "description": {
+      "en": "See how Alberta Tomorrow can be used in the classroom.",
+      "fr": "Découvrez comment Alberta Tomorrow peut être utilisé en classe."
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-04x-alberta-tomorrow-in-the-classroom/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XcK-MNL1zCg",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-04x-alberta-tomorrow-in-the-classroom/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": null,
+      "fr": null
+    },
+    "searchTerms": {
+      "en": [
+        "alberta tomorrow",
+        "classroom",
+        "education"
+      ],
+      "fr": [
+        "alberta tomorrow",
+        "classe",
+        "éducation"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "atp-05x-intro-360-virtual-field-trips",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "alberta-tomorrow-platform",
+    "title": {
+      "en": "Introducing Alberta Tomorrow's 360 Virtual Field Trips",
+      "fr": "Présentation des visites virtuelles à 360 degrés d’Alberta Tomorrow"
+    },
+    "description": {
+      "en": "The time has finally come! Check out the 360 Virtual Field Trips to Alberta's Ecoregions! 1 for each ecoregion exploring the plants, animals, geology, landforms, climate, land uses and species at risk! Register for your Alberta Tomorrow account at www.albertatomorrow.ca to gain access TODAY!",
+      "fr": "Le moment est enfin arrivé! Effectuez les visites virtuelles à 360 degrés dans les écorégions de l’Alberta! Une pour chaque écorégion : explorez les plantes, les animaux, la géologie, les reliefs, le climat, l’utilisation des terres et les espèces en péril! Pour accéder aux visites, créez votre compte d’Alberta Tomorrow à www.albertatomorrow.ca DÈS AUJOURD’HUI!"
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-05x-intro-360-virtual-field-trips/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rL13Xz_x2dA",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-05x-intro-360-virtual-field-trips/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-05x-intro-360-virtual-field-trips/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-05x-intro-360-virtual-field-trips/fr.vtt"
+    },
+    "searchTerms": {
+      "en": [
+        "360-virtual-field-trips",
+        "ecoregions",
+        "climate-change",
+        "climate-science",
+        "isotope-geochemistry",
+        "land-stewardship",
+        "paleoclimate"
+      ],
+      "fr": [
+        "visites",
+        "virtuelles",
+        "ecoregions",
+        "alberta",
+        "plantes",
+        "animaux",
+        "geologie",
+        "climat"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "atp-06x-bow-river-watershed-historic-animation",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "alberta-tomorrow-platform",
+    "title": {
+      "en": "Bow River Watershed Historic Animation",
+      "fr": "Animation historique du bassin versant de la rivière Bow"
+    },
+    "description": {
+      "en": "See how the Bow River Watershed has changed from 1910 to present.",
+      "fr": "Découvrez comment le bassin versant de la rivière Bow a évolué de 1910 à aujourd’hui."
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-06x-bow-river-watershed-historic-animation/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9o_BQt5agnE",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-06x-bow-river-watershed-historic-animation/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-06x-bow-river-watershed-historic-animation/en.vtt",
+      "fr": null
+    },
+    "searchTerms": {
+      "en": [
+        "bow river watershed",
+        "historic animation",
+        "landscape change",
+        "alberta"
+      ],
+      "fr": [
+        "bassin versant de la rivière Bow",
+        "animation historique",
+        "changements du paysage",
+        "Alberta"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "atp-07x-canada-tomorrow",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "alberta-tomorrow-platform",
+    "title": {
+      "en": "Canada Tomorrow",
+      "fr": "Canada Tomorrow"
+    },
+    "description": {
+      "en": "An introduction to Canada Tomorrow.",
+      "fr": "Une présentation de Canada Tomorrow."
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-07x-canada-tomorrow/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vRLmJ_2zab0",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-07x-canada-tomorrow/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-07x-canada-tomorrow/en.vtt",
+      "fr": null
+    },
+    "searchTerms": {
+      "en": [
+        "canada tomorrow",
+        "land-use planning",
+        "future planning"
+      ],
+      "fr": [
+        "canada tomorrow",
+        "aménagement du territoire",
+        "planification de l’avenir"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "web-01y-webinar-land-use-mistakes-mitigation-restoration",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "webinars",
+    "title": {
+      "en": "Webinar 1: Land-Use Mistakes, Mitigation and Restoration",
+      "fr": "Webinaire 1 : utilisation des terres, erreurs, atténuation et restauration"
+    },
+    "description": {
+      "en": "Watch the recording of a webinar presented in English by Alberta Tomorrow and CPAWS SA on April 27, 2022, titled “Earth Mistakes, Mitigations & Making Amends on the Land.”",
+      "fr": "Visionnez l’enregistrement d’un webinaire présenté en anglais par Alberta Tomorrow et CPAWS SA le 27 avril 2022, intitulé « Earth Mistakes, Mitigations & Making Amends on the Land »."
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-01y-webinar-land-use-mistakes-mitigation-restoration/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dqkoz2CgSSU&list=PLvZi8sQT8o8PgzjiO0jxe4r8HYmj7vFgG",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-01y-webinar-land-use-mistakes-mitigation-restoration/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-01y-webinar-land-use-mistakes-mitigation-restoration/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-01y-webinar-land-use-mistakes-mitigation-restoration/fr.vtt"
+    },
+    "searchTerms": {
+      "en": [
+        "webinar",
+        "earth mistakes",
+        "land use",
+        "mitigation",
+        "restoration",
+        "making amends",
+        "alberta tomorrow",
+        "cpaws"
+      ],
+      "fr": [
+        "webinaire",
+        "utilisation des terres",
+        "erreurs",
+        "atténuation",
+        "restauration",
+        "réparation",
+        "territoire",
+        "alberta tomorrow",
+        "cpaws"
+      ]
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "web-02y-water-quality-climate-change-and-albertas-glaciers",
+    "supportedLanguages": [
+      "en",
+      "fr"
+    ],
+    "categoryId": "webinars",
+    "title": {
+      "en": "Water Quality, Climate Change and Alberta's Glaciers Webinar",
+      "fr": "Qualité de l’eau, changements climatiques et glaciers de l’Alberta : webinaire"
+    },
+    "description": {
+      "en": "This webinar was held on May 27, 2020 and features 4 prominent scientists talking about climate change and how it will affect glaciers, glacier melt, water policy and our water quality.",
+      "fr": "Ce webinaire a eu lieu le 27 mai 2020 et met en vedette 4 scientifiques de renom qui parlent des changements climatiques et de la façon dont ils affecteront les glaciers, la fonte des glaciers, la politique de l’eau et la qualité de notre eau."
+    },
+    "media": {
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-02y-water-quality-climate-change-and-albertas-glaciers/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Xgb3_I8nagY",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-02y-water-quality-climate-change-and-albertas-glaciers/thumbnail.jpg",
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
+    },
+    "subtitles": {
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-02y-water-quality-climate-change-and-albertas-glaciers/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-02y-water-quality-climate-change-and-albertas-glaciers/fr.vtt"
+    },
+    "searchTerms": {
+      "en": [
+        "ab glaciers",
+        "climate change",
+        "water quality",
+        "columbia icefield",
+        "athabasca glacier",
+        "land use"
+      ],
+      "fr": [
+        "glaciers alberta",
+        "changements climatiques",
+        "qualite de l'eau",
+        "champ de glace columbia",
+        "glacier athabasca",
+        "utilisation des terres"
+      ]
+    },
+    "lessonPlanIds": [
+      "web-02y-water-quality-climate-change-and-albertas-glaciers"
+    ]
+  },
+  {
     "id": "oth-01z-oxygen-isotopes",
     "supportedLanguages": [
       "en",
@@ -5979,7 +6326,7 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -6028,7 +6375,7 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -6053,101 +6400,44 @@
     "lessonPlanIds": []
   },
   {
-    "id": "oth-03z-intro-360-virtual-field-trips",
+    "id": "oth-03z-sand-dunes-of-alberta",
     "supportedLanguages": [
-      "en",
-      "fr"
+      "en"
     ],
     "categoryId": "other",
     "title": {
-      "en": "Introducing Alberta Tomorrow's 360 Virtual Field Trips",
-      "fr": "Présentation des visites virtuelles à 360 degrés d’Alberta Tomorrow"
+      "en": "Sand Dunes of Alberta: Amazing Ecological Areas in Alberta, Canada",
+      "fr": "Dunes de sable de l’Alberta : des milieux écologiques remarquables au Canada"
     },
     "description": {
-      "en": "The time has finally come! Check out the 360 Virtual Field Trips to Alberta's Ecoregions! 1 for each ecoregion exploring the plants, animals, geology, landforms, climate, land uses and species at risk! Register for your Alberta Tomorrow account at www.albertatomorrow.ca to gain access TODAY!",
-      "fr": "Le moment est enfin arrivé! Effectuez les visites virtuelles à 360 degrés dans les écorégions de l’Alberta! Une pour chaque écorégion : explorez les plantes, les animaux, la géologie, les reliefs, le climat, l’utilisation des terres et les espèces en péril! Pour accéder aux visites, créez votre compte d’Alberta Tomorrow à www.albertatomorrow.ca DÈS AUJOURD’HUI!"
+      "en": "I head out to explore the Athabasca sand dunes, which are located in north eastern Alberta, Canada. Living in Alberta, Canada, you might not expect to find sand dunes, but as you will see, this is truly one of the amazing ecological areas to be found in the province.",
+      "fr": "Je pars explorer les dunes de sable de l’Athabasca, situées dans le nord-est de l’Alberta, au Canada. Si vous vivez en Alberta, vous ne vous attendez peut-être pas à y trouver des dunes de sable. Comme vous le verrez, il s’agit vraiment de l’un des milieux écologiques remarquables de la province."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/video.mp4",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rL13Xz_x2dA",
-      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/thumbnail.jpg",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-sand-dunes-of-alberta/video.mp4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KrkcyfUn274",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-sand-dunes-of-alberta/thumbnail.jpg",
       "is360": false,
-      "provider": "https://www.youtube.com/@albertatomorrow"
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/fr.vtt"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-sand-dunes-of-alberta/en.vtt",
+      "fr": null
     },
     "searchTerms": {
       "en": [
-        "360-virtual-field-trips",
-        "ecoregions",
-        "climate-change",
-        "climate-science",
-        "isotope-geochemistry",
-        "land-stewardship",
-        "paleoclimate"
-      ],
-      "fr": [
-        "visites",
-        "virtuelles",
-        "ecoregions",
+        "sand dunes",
+        "athabasca",
+        "ecological areas",
         "alberta",
-        "plantes",
-        "animaux",
-        "geologie",
-        "climat"
-      ]
-    },
-    "lessonPlanIds": []
-  },
-  {
-    "id": "oth-04z-webinar-land-use-mistakes-mitigation-restoration",
-    "supportedLanguages": [
-      "en",
-      "fr"
-    ],
-    "categoryId": "other",
-    "title": {
-      "en": "Webinar 1: Land-Use Mistakes, Mitigation and Restoration",
-      "fr": "Webinaire 1 : utilisation des terres, erreurs, atténuation et restauration"
-    },
-    "description": {
-      "en": "Watch the recording of a webinar presented in English by Alberta Tomorrow and CPAWS SA on April 27, 2022, titled “Earth Mistakes, Mitigations & Making Amends on the Land.”",
-      "fr": "Visionnez l’enregistrement d’un webinaire présenté en anglais par Alberta Tomorrow et CPAWS SA le 27 avril 2022, intitulé « Earth Mistakes, Mitigations & Making Amends on the Land »."
-    },
-    "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/video.mp4",
-      "youtubeUrl": "https://www.youtube.com/watch?v=dqkoz2CgSSU",
-      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/thumbnail.jpg",
-      "is360": false,
-      "provider": "https://www.youtube.com/@albertatomorrow"
-    },
-    "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/fr.vtt"
-    },
-    "searchTerms": {
-      "en": [
-        "webinar",
-        "earth mistakes",
-        "land use",
-        "mitigation",
-        "restoration",
-        "making amends",
-        "alberta tomorrow",
-        "cpaws"
+        "canada"
       ],
       "fr": [
-        "webinaire",
-        "utilisation des terres",
-        "erreurs",
-        "atténuation",
-        "restauration",
-        "réparation",
-        "territoire",
-        "alberta tomorrow",
-        "cpaws"
+        "dunes de sable",
+        "athabasca",
+        "écologie",
+        "alberta",
+        "canada"
       ]
     },
     "lessonPlanIds": []
