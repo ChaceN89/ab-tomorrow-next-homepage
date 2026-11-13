@@ -188,7 +188,7 @@ export default function SideBarWrapper({
         }}
         className={
           className +
-          ` scroll-element md:pb-[28rem] rounded-lg shadow-md border border-black/30 overflow-hidden px-1 bg-gray-200`
+          ` scroll-element pb-8 md:pb-96 rounded-lg shadow-md border border-black/30 overflow-hidden px-1 bg-gray-200`
         }
       >
         {isLargeScreen && (

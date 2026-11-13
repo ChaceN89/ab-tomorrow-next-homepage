@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
+import PulseLoader from "@/components/common/PulseLoader";
 import CardLanguageSwitch from "@/components/layout/language/CardLanguageSwitch";
 import { getMessages } from "@/i18n/messages";
 import { useVideoResource } from "../VideoResourceContext";
@@ -41,6 +42,7 @@ export default function VideoCard({
 
   const [selectedLanguage, setSelectedLanguage] = useState(() => initialLanguage);
   const [expandedLessonPlans, setExpandedLessonPlans] = useState(false);
+  const [loadedThumbnailSrc, setLoadedThumbnailSrc] = useState(null);
   const lastLocaleRef = useRef(locale);
   const lastVideoIdRef = useRef(video?.id);
 
@@ -85,6 +87,7 @@ export default function VideoCard({
   const cardOpenInNewPageHref = openInNewPageHref || `/${activeLanguage}/resources/video?id=${encodeURIComponent(String(video?.id || ""))}`;
 
   const thumbnailSrc = getPreferredThumbnailSrc(video);
+  const thumbnailLoaded = !thumbnailSrc || loadedThumbnailSrc === thumbnailSrc;
 
   const selectedContent = useMemo(() => {
     const language = ["en", "fr"].includes(activeLanguage) ? activeLanguage : locale;
@@ -149,12 +152,21 @@ export default function VideoCard({
         </div>
       </div>
 
-      <div className="overflow-hidden rounded-md border border-black/10 bg-white shadow-sm">
+      <div className="relative h-52 overflow-hidden rounded-md border border-black/10 bg-white shadow-sm">
+        {!thumbnailLoaded && (
+          <PulseLoader
+            showWheel
+            className="pointer-events-none opacity-100"
+          />
+        )}
         <img
           src={thumbnailSrc}
           alt={selectedContent.title}
-          className="h-52 w-full object-cover"
+          className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 motion-reduce:transition-none ${
+            thumbnailLoaded ? "opacity-100" : "opacity-0"
+          }`}
           loading="lazy"
+          onLoad={() => setLoadedThumbnailSrc(thumbnailSrc)}
           onClick={(event) => {
             event.preventDefault();
             event.stopPropagation();

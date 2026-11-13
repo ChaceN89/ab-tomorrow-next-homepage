@@ -16,7 +16,7 @@
 
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link, scroller } from "react-scroll"; // ✅ make sure `scroller` is imported
 import { FaChevronRight } from "react-icons/fa";
 import { IoArrowRedo } from "react-icons/io5";
@@ -36,9 +36,25 @@ export default function FilterDropdown({
   wrapItems = false,
 }) {
   const tFilters = useTranslations("Filters");
+  const pendingScrollTargetRef = useRef(null);
 
   // initial state of the dropdown
   const [open, setOpen] = useState(initialOpen);
+
+  useEffect(() => {
+    const target = pendingScrollTargetRef.current;
+    if (!showScrollLinks || !target) return;
+
+    pendingScrollTargetRef.current = null;
+    const frame = window.requestAnimationFrame(() => {
+      scroller.scrollTo(target, {
+        offset: -80,
+        duration: 350,
+      });
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [filterMap, showScrollLinks]);
 
   // button to toggle everything on or off
   const toggleAll = () => {
@@ -124,12 +140,15 @@ export default function FilterDropdown({
                         <button
                           className={`w-full px-2 py-0.5 rounded-full border text-sm cursor-pointer transition-colors hover:scale-105 flex items-center justify-start whitespace-nowrap truncate
                           ${filterMap[item] ? "bg-primary text-white" : "bg-gray-300 text-black"}`}
-                          onClick={() =>
+                          onClick={() => {
+                            if (showScrollLinks && !filterMap[item]) {
+                              pendingScrollTargetRef.current = item;
+                            }
                             setFilterMap((prev) => ({
                               ...prev,
                               [item]: !prev[item],
-                            }))
-                          }
+                            }));
+                          }}
                         >
                           <span className="block truncate">{item}</span>
                         </button>
@@ -141,15 +160,20 @@ export default function FilterDropdown({
                       <Tooltip text={tFilters("showOnlyThisFilter")} openDuration={600}>
                         <button
                           onClick={() => {
+                            if (showScrollLinks) {
+                              pendingScrollTargetRef.current = item;
+                            }
                             setFilterMap(
                               Object.fromEntries(
                                 Object.keys(filterMap).map((key) => [key, key === item])
                               )
                             );
-                            scroller.scrollTo("resources-container", {
-                              offset: -80,
-                              duration: 800,
-                            });
+                            if (!showScrollLinks) {
+                              scroller.scrollTo("resources-container", {
+                                offset: -80,
+                                duration: 800,
+                              });
+                            }
                           }}
                           className="text-xs text-black px-1.5 py-0.5 rounded-full border bg-white hover:scale-110 transition flex items-center w-full  h-full cursor-pointer"
                         >

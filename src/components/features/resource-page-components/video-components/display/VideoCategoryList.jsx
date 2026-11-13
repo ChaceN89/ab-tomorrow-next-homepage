@@ -1,5 +1,5 @@
 // components/pages/resources/videos/VideoCategoryList.jsx
-import React, { useEffect, useMemo } from "react";
+import React, { useEffect, useMemo, useRef } from "react";
 import VideoCategory from "./VideoCategory";
 import { useVideoResource } from "../VideoResourceContext";
 
@@ -81,22 +81,24 @@ export default function VideoCategoryList({ isSidebarPinned = true }) {
     () => Object.values(grouped).reduce((acc, arr) => acc + arr.length, 0),
     [grouped]
   );
+  const previousTotalResultsRef = useRef(null);
 
-  // update the number of results from interanall search
   useEffect(() => {
     setNumResults(totalResults);
 
-    if (totalResults === 0) {
+    const previousTotalResults = previousTotalResultsRef.current;
+    previousTotalResultsRef.current = totalResults;
+
+    if (totalResults === 0 || (previousTotalResults > 1 && totalResults === 1)) {
       const container = document.getElementById("resources-container");
       if (container) {
-        container.scrollIntoView({ behavior: "smooth" });
+        container.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
-
   }, [setNumResults, totalResults]);
 
   return (
-    <div className="py-4 space-y-4 mb-4 relative">
+    <div className="relative space-y-4 pt-4 pb-4">
       {Object.keys(grouped).length === 0 && (
         <div className="text-center  h-[40vh] flex items-center justify-center">
           <div className="space-y-2">

@@ -24,10 +24,13 @@ import React from "react";
 import { FaPlay, FaCloudDownloadAlt } from "react-icons/fa";
 
 
-export default function PlayButton({ videoLoaded, handlePlayClick, canPlayVideo, preload }) {
+export default function PlayButton({ videoLoaded, handlePlayClick, canPlayVideo, preload, visible = true }) {
   return (
     <div
-      className={`absolute inset-0 z-20 `}
+      aria-hidden={!visible}
+      className={`absolute inset-0 z-20 transition-opacity duration-300 motion-reduce:transition-none ${
+        visible ? "opacity-100" : "pointer-events-none opacity-0"
+      }`}
     >
       <div
         className="p-4 flex items-end justify-start inset-0 z-30 cursor-pointer group h-full w-full"

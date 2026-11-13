@@ -99,14 +99,29 @@ function MediaFrameContent({
 
   // video playing state
   const [videoIsPlaying, setvideoIsPlaying] = useState(false)
+  const [playbackRequested, setPlaybackRequested] = useState(false);
+  const [showPlaybackSpinner, setShowPlaybackSpinner] = useState(false);
 
 
   // get access to the video player is its active
   const playerRef = useRef(null);
   const nativePlayerRef = useRef(null);
   const shouldPlayWhenReadyRef = useRef(false);
+  const playbackRequestPendingRef = useRef(false);
+  const playbackSpinnerTimerRef = useRef(null);
 
   const [playerReady, setPlayerReady] = useState(false);
+
+  const clearPlaybackWait = () => {
+    if (playbackSpinnerTimerRef.current !== null) {
+      window.clearTimeout(playbackSpinnerTimerRef.current);
+      playbackSpinnerTimerRef.current = null;
+    }
+
+    playbackRequestPendingRef.current = false;
+    setPlaybackRequested(false);
+    setShowPlaybackSpinner(false);
+  };
 
   const handleVideoReady = (event) => {
     playerRef.current = event.target;
@@ -123,7 +138,6 @@ function MediaFrameContent({
 
     if (shouldPlayWhenReadyRef.current) {
       shouldPlayWhenReadyRef.current = false;
-      myOnPlay();
       event.target.playVideo();
     }
   };
@@ -131,6 +145,7 @@ function MediaFrameContent({
 
   // function to play the video and pause all other videos
   const myOnPlay = () => {
+    clearPlaybackWait();
     setvideoIsPlaying(true);
     setVideoError("");
     pauseOtherVideos(useNativeVideo ? "" : videoSrc, {
@@ -144,6 +159,7 @@ function MediaFrameContent({
     shouldPlayWhenReadyRef.current = false;
     player.play().catch((error) => {
       console.error("Native video playback failed:", error);
+      clearPlaybackWait();
       setVideoError(mediaMessages.playbackError);
       setvideoIsPlaying(false);
     });
@@ -163,20 +179,38 @@ function MediaFrameContent({
     setSubtitleError("");
     if (videoSrc) {
       console.warn("Primary video failed; falling back to YouTube:", nativeVideoUrl, mediaError);
-      shouldPlayWhenReadyRef.current = shouldPlayWhenReadyRef.current || videoIsPlaying;
+      shouldPlayWhenReadyRef.current = shouldPlayWhenReadyRef.current || playbackRequestPendingRef.current;
       setVideoError("");
       setNativeVideoFailed(true);
       return;
     }
 
     console.error("Primary video failed to load:", nativeVideoUrl, mediaError);
+    clearPlaybackWait();
     shouldPlayWhenReadyRef.current = false;
+    setVideoError(mediaMessages.loadError);
+  };
+
+  const handleYouTubeError = (event) => {
+    console.error("YouTube video failed to load:", videoSrc, event?.data);
+    clearPlaybackWait();
+    setvideoIsPlaying(false);
     setVideoError(mediaMessages.loadError);
   };
 
   // Play the video from the thumbnail click event
   const playVideo = () => {
-    if (type !== "video") return;
+    if (type !== "video" || playbackRequestPendingRef.current) return;
+
+    playbackRequestPendingRef.current = true;
+    setPlaybackRequested(true);
+    setShowPlaybackSpinner(false);
+    playbackSpinnerTimerRef.current = window.setTimeout(() => {
+      playbackSpinnerTimerRef.current = null;
+      if (playbackRequestPendingRef.current) {
+        setShowPlaybackSpinner(true);
+      }
+    }, 3000);
 
     if (thumbnailSrc && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setThumbnailClickAnimation(true);
@@ -207,13 +241,15 @@ function MediaFrameContent({
       return;
     }
 
-    myOnPlay();
     playerRef.current.playVideo();
   };
 
   // Pause the video when the component unmounts
   useEffect(() => {
     return () => {
+      if (playbackSpinnerTimerRef.current !== null) {
+        window.clearTimeout(playbackSpinnerTimerRef.current);
+      }
       unmountYouTubePlayer(playerRef);
     };
   }, []);
@@ -225,7 +261,9 @@ function MediaFrameContent({
 
   const shouldShowLoader =
     type === "video"
-      ? (canStartVidLoad ? !videoLoaded : !imgLoaded && Boolean(thumbnailSrc))
+      ? (canStartVidLoad
+        ? (playbackRequested ? showPlaybackSpinner : !videoLoaded)
+        : !imgLoaded && Boolean(thumbnailSrc))
       : showWheel && !imgLoaded;
 
   const normalizedCaptionLanguage = ["en", "fr", "fr-ca"].includes(captionLanguage)
@@ -240,7 +278,7 @@ function MediaFrameContent({
 
         <PulseLoader
           showWheel={type === "video" ? canStartVidLoad || !thumbnailSrc : showWheel}
-          className={`transition-opacity duration-800 pointer-events-none ${shouldShowLoader && !videoError ? "opacity-100" : "opacity-0"
+          className={`z-30 transition-opacity duration-800 pointer-events-none ${shouldShowLoader && !videoError ? "opacity-100" : "opacity-0"
             }`}
         />
 
@@ -251,8 +289,8 @@ function MediaFrameContent({
             alt={alt}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
-            aria-hidden={type === "video" && videoLoaded}
-            className={`object-cover ${type === "video" ? styles.videoThumbnail : "transition-opacity duration-500 motion-reduce:transition-none"} ${thumbnailClickAnimation ? styles.thumbnailClickAnimation : ""} ${type === "video" ? "z-10 pointer-events-none" : ""} ${imgLoaded && !(type === "video" && videoLoaded) ? "opacity-100" : "opacity-0"
+            aria-hidden={type === "video" && videoIsPlaying}
+            className={`object-cover ${type === "video" ? styles.videoThumbnail : "transition-opacity duration-500 motion-reduce:transition-none"} ${thumbnailClickAnimation ? styles.thumbnailClickAnimation : ""} ${type === "video" ? "z-10 pointer-events-none" : ""} ${imgLoaded && !(type === "video" && videoIsPlaying) ? "opacity-100" : "opacity-0"
               }`}
             onAnimationEnd={() => setThumbnailClickAnimation(false)}
             onLoad={() => setImgLoaded(true)}
@@ -290,6 +328,7 @@ function MediaFrameContent({
           <YouTube
             videoId={videoSrc}
             onReady={handleVideoReady}
+            onError={handleYouTubeError}
             loading="lazy"
             iframeClassName="yt-frame"
             onPlay={() => myOnPlay()}
@@ -302,18 +341,19 @@ function MediaFrameContent({
                 cc_lang_pref: normalizedCaptionLanguage,
               },
             }}
-            className={`w-full h-full transition-opacity duration-500 motion-reduce:transition-none ${(videoLoaded || !thumbnailSrc) ? "opacity-100" : "opacity-0"
+            className={`w-full h-full transition-opacity duration-500 motion-reduce:transition-none ${(videoIsPlaying || !thumbnailSrc) ? "opacity-100" : "opacity-0"
               }`}
           />
         }
 
         {/* Button over video to trigger playing */}
-        {(type == "video" && !videoIsPlaying) &&
+        {(type == "video" && !videoIsPlaying && !videoError) &&
           <PlayButton
             videoLoaded={videoLoaded}
             handlePlayClick={playVideo}
             canPlayVideo={playerReady}
             preload={preloadVideo}
+            visible={!playbackRequested}
           />
         }
       </div>

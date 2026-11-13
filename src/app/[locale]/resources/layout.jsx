@@ -28,7 +28,7 @@ export default async function ResourceLayout({ children, params }) {
           <ModalContainer />
         </Suspense>
         <Suspense fallback={null}>
-          <main id="resources-container" className="min-h-[50vh] pb-40">{children}</main>
+          <main id="resources-container" className="min-h-[30vh] scroll-mt-20 pb-48">{children}</main>
         </Suspense>
       </VideoResourceProvider>
     </LessonPlanResourceProvider>

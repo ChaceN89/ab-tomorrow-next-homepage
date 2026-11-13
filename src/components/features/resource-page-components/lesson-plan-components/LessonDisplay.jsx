@@ -32,14 +32,26 @@ import LessonPlanThemeList from "./display/LessonPlanThemeList";
 export default function LessonDisplay() {
   const { fetchLessonPlans, lessonPlans, loading } = useLessonPlanResource();
   const [isSidebarPinned, setIsSidebarPinned] = useState(true);
+  const [contentVisible, setContentVisible] = useState(false);
+  const isReady = !loading && Array.isArray(lessonPlans);
 
   // Fetch lesson plans when the component mounts
   useEffect(() => {
     fetchLessonPlans();
   }, [fetchLessonPlans]);
 
+  useEffect(() => {
+    if (!isReady) {
+      setContentVisible(false);
+      return;
+    }
+
+    const frame = window.requestAnimationFrame(() => setContentVisible(true));
+    return () => window.cancelAnimationFrame(frame);
+  }, [isReady]);
+
   return (
-    <div className="flex flex-col md:flex-row min-h-[100vh] gap-3 lg:gap-4 px-2 ">
+    <div className="flex flex-col md:flex-row gap-3 lg:gap-4 px-2 ">
       {/* Filters Sidebar */}
       <aside
         className={`w-full pt-4 transition-[width] duration-300 ${isSidebarPinned ? "md:w-[15rem] xl:w-[21rem]" : "md:w-10"
@@ -51,16 +63,20 @@ export default function LessonDisplay() {
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 h-fit">
-        {loading || !lessonPlans ? (
-          <div className="relative mt-20">
-            <PulseLoader showWheel loadingText="Fetching Lesson Plans" />
-          </div>
-        ) : (
-          <div >
+      <main className="relative min-h-[30vh] flex-1 h-fit">
+        {isReady && (
+          <div className={`transition-opacity duration-500 motion-reduce:transition-none ${contentVisible ? "opacity-100" : "opacity-0"}`}>
             <LessonPlanThemeList isSidebarPinned={isSidebarPinned} />
           </div>
         )}
+        <div
+          aria-hidden={isReady && contentVisible}
+          className={`absolute inset-0 z-10 transition-opacity duration-500 motion-reduce:transition-none ${
+            isReady && contentVisible ? "pointer-events-none opacity-0" : "opacity-100"
+          }`}
+        >
+          <PulseLoader showWheel loadingText="Fetching Lesson Plans" />
+        </div>
       </main>
     </div>
   );
