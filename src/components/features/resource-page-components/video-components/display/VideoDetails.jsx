@@ -86,7 +86,7 @@ export default function VideoDetails({ video, prioritizeMedia = false, onTitleCh
         </div>
       </div>
 
-      <div className="w-full max-w-6xl self-center border rounded-md bg-gray-50 relative overflow-hidden">
+      <div className="w-full max-w-6xl shrink-0 self-center border rounded-md bg-gray-50 relative overflow-hidden">
         <HexSeparator rows={40} hexClass="bg-secondary/15" />
         <div className="grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-4 gap-y-3 p-4 md:grid-cols-[auto_minmax(0,1fr)_minmax(160px,220px)]">
           <FaRegPlayCircle className="text-secondary text-5xl sm:text-6xl" aria-hidden="true" />
