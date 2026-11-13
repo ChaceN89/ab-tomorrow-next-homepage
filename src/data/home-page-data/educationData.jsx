@@ -2,7 +2,7 @@
  * @file educationData.js
  * @module data/education
  * @desc Structured content data for the Education section of Alberta Tomorrow.
- *       Includes static copy, YouTube video metadata, and Water Rangers Kit information.
+ *       Includes static copy, homepage video metadata, and Water Rangers Kit information.
  * 
  * @author Chace Nielson
  * @created Mar 25, 2025
@@ -11,20 +11,11 @@
  * @features
  * - Title and description for the education section
  * - Water Rangers Kit promotional content (title, image, description)
- * - Media section with YouTube videos and the shared register-account video resource
+ * - Media section with local copies of homepage video metadata from videos.json
  *
  * @dependencies
  * - Water Rangers kit image from @/assets/ui-elements/water-rangers-kit.jpg
  */
-
-import videos from "../../../public/api-static-data/videos.json";
-import { extractYouTubeId, normalizeVideoMedia } from "@/utils/videoResouceUtils";
-
-const gettingStartedVideo = videos.find((video) => video.id === "tutorial-01a-register-account");
-if (!gettingStartedVideo) {
-  throw new Error("Missing homepage video: tutorial-01a-register-account");
-}
-const gettingStartedMedia = normalizeVideoMedia(gettingStartedVideo);
 
 export const educationData = {
   // translation keys under `HomePage.Education`
@@ -37,21 +28,36 @@ export const educationData = {
     {
       type: 'video',
       videoSrc: '7RmwsUh1-0E',
+      primaryUrl: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/video.mp4',
+      imgSrc: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/thumbnail.jpg',
+      subtitles: {
+        en: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/en.vtt',
+        fr: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/fr.vtt',
+      },
       titleKey: 'videos.visits.title',
       descriptionKey: 'videos.visits.description',
     },
     {
       type: 'video',
       videoSrc: 'XcK-MNL1zCg',
+      primaryUrl: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-04x-alberta-tomorrow-in-the-classroom/video.mp4',
+      imgSrc: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-04x-alberta-tomorrow-in-the-classroom/thumbnail.jpg',
+      subtitles: {
+        en: null,
+        fr: null,
+      },
       titleKey: 'videos.studentProjects.title',
       descriptionKey: 'videos.studentProjects.description',
     },
     {
       type: 'video',
-      videoSrc: extractYouTubeId(gettingStartedMedia.youtubeUrl),
-      primaryUrl: gettingStartedMedia.primaryUrl,
-      imgSrc: gettingStartedMedia.thumbnailUrl,
-      subtitles: gettingStartedVideo.subtitles,
+      videoSrc: '5Qi8v-Y3iXM',
+      primaryUrl: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/video.mp4',
+      imgSrc: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/thumbnail.jpg',
+      subtitles: {
+        en: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/en.vtt',
+        fr: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/fr.vtt',
+      },
       titleKey: 'videos.gettingStarted.title',
       descriptionKey: 'videos.gettingStarted.description',
     },

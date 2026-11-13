@@ -2,6 +2,29 @@
   container-type: inline-size;
 }
 
+.videoThumbnail {
+  transition: opacity 500ms ease, transform 250ms ease;
+}
+
+.viewport:not(.videoLoading):hover .videoThumbnail {
+  transform: scale(1.05);
+}
+
+.thumbnailClickAnimation {
+  animation: thumbnail-click-pulse 420ms ease-out;
+}
+
+@keyframes thumbnail-click-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(1.1);
+  }
+}
+
 .primaryVideo {
   position: absolute;
   inset: 0;
@@ -83,8 +106,23 @@
   font-family: Arial, sans-serif;
   font-size: clamp(12px, 4cqw, 24px);
   font-weight: 500;
+  line-height: 1.26;
   padding: 0.1em 0.35em;
   text-shadow: 0 1px 2px #000;
+}
+
+.primaryVideo :global(.vjs-text-track) {
+  margin-bottom: 0;
+}
+
+@container (min-width: 900px) {
+  .primaryVideo :global(.vjs-text-track-cue > div) {
+    line-height: 1.1;
+  }
+
+  .primaryVideo :global(.vjs-text-track) {
+    margin-bottom: -0.05em;
+  }
 }
 
 .primaryVideo :global(.media-panorama) {
@@ -163,6 +201,14 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .videoThumbnail {
+    transition: none;
+  }
+
+  .thumbnailClickAnimation {
+    animation: none;
+  }
+
   .primaryVideo :global(.media-panorama-controls button),
   .primaryVideo :global(.media-panorama-hint) {
     transition: none;

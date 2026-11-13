@@ -22,8 +22,14 @@ export const indigenousVoicesData = {
       title: 'Indigenous Voices', // lowercase "title"
     },
     video: {
-      youtubeSrc: '8Rxut4EAyYg',
-      title: 'The Stoney Concept of Time'
+      videoSrc: '8Rxut4EAyYg',
+      primaryUrl: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/video.mp4',
+      imgSrc: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/thumbnail.jpg',
+      subtitles: {
+        en: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/en.vtt',
+        fr: 'https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/fr.vtt',
+      },
+      titleKey: 'videoTitle',
     }
   },
 

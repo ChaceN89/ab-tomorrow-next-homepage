@@ -8,13 +8,14 @@
  * @updated July 7, 2026 - set up translations
  */
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import MediaFrame from "@/components/common/mediaFrame/MediaFrame";
 import { introData } from "@/data/home-page-data/introData";
 
 export default function Intro() {
   const t = useTranslations("HomePage.Intro");
+  const locale = useLocale();
 
   const richTextComponents = {
     Bold: (chunks) => (
@@ -45,12 +46,15 @@ export default function Intro() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 xl:gap-12 my-6 md:my-12 sm:px-12 lg:px-2 2xl:px-20">
-          {introData.media.map((item, index) => (
+          {[...introData.videos, ...introData.images].map((item, index) => (
             <MediaFrame
               key={index}
               type={item.type}
               videoSrc={item.videoSrc}
+              primaryUrl={item.primaryUrl}
               imgSrc={item.imgSrc}
+              subtitles={item.subtitles}
+              captionLanguage={locale}
               alt={item.altKey ? t(item.altKey) : t(item.titleKey)}
               title={t(item.titleKey)}
               description={

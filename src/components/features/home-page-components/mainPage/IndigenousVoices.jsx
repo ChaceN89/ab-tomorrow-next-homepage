@@ -14,17 +14,19 @@ import NumberedHexList from '@/components/common/numberedHexList/NumberedHexList
 import HexButton from '@/components/common/hexButton/HexButton';
 import MediaFrame from '@/components/common/mediaFrame/MediaFrame';
 import { indigenousVoicesData } from '@/data/home-page-data/indigenousVoicesData';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function IndigenousVoices() {
   const t = useTranslations('HomePage.IndigenousVoices');
   const tOther = useTranslations('Other');
+  const locale = useLocale();
 
   const richTextComponents = {
     Bold: (chunks) => <span className="font-semibold">{chunks}</span>,
   };
 
   const title = t(indigenousVoicesData.titleKey);
+  const videoTitle = t(indigenousVoicesData.media.video.titleKey);
   const headerDescription = t.rich(indigenousVoicesData.description1Key, richTextComponents);
   const content = t.rich(indigenousVoicesData.contentKey, richTextComponents);
 
@@ -69,9 +71,13 @@ export default function IndigenousVoices() {
           <div className="order-1 xl:order-2 w-full h-full xl:col-span-2">
             <MediaFrame
               type="video"
-              videoSrc={indigenousVoicesData.media.video.youtubeSrc}
-              alt={indigenousVoicesData.media.video.title}
-              title={indigenousVoicesData.media.video.title}
+              videoSrc={indigenousVoicesData.media.video.videoSrc}
+              primaryUrl={indigenousVoicesData.media.video.primaryUrl}
+              imgSrc={indigenousVoicesData.media.video.imgSrc}
+              subtitles={indigenousVoicesData.media.video.subtitles}
+              captionLanguage={locale}
+              alt={videoTitle}
+              title={videoTitle}
               className="h-64 md:h-80 lg:h-96"
             />
           </div>

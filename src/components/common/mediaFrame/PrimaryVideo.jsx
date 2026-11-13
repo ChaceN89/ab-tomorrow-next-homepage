@@ -74,7 +74,6 @@ export default function PrimaryVideo({
 
         const element = document.createElement("video");
         element.className = "video-js vjs-big-play-centered";
-        element.setAttribute("crossorigin", "anonymous");
         element.setAttribute("playsinline", "");
         element.setAttribute("data-media-frame", "");
         element.setAttribute("aria-label", label);
