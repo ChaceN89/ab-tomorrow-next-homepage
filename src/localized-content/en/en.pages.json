@@ -222,6 +222,14 @@
         "englishSubtitlesAvailable": "English subtitles available",
         "frenchSubtitlesAvailable": "French subtitles available",
         "hasAssociatedVideos": "Has associated videos",
+        "lessonFileTypes": {
+          "label": "Lesson plan file types",
+          "lessonPlan": "Has lesson plan",
+          "answerKey": "Has answer key",
+          "studentWorksheet": "Has student worksheet",
+          "presentationSlides": "Has presentation slides",
+          "otherFileType": "Has other file type"
+        },
         "subject": "Filter by Subject",
         "grade": "Filter by Grade",
         "scrollToSection": "Scroll to Section",
@@ -229,8 +237,37 @@
         "toggle": "Grades"
       },
       "subjectsTitle": "Subjects",
+      "tagsTitle": "Tags",
       "learningOutcomes": "Learning Outcomes",
+      "lessonFileTitle": "Lesson File",
       "lessonFilesTitle": "Lesson Files",
+      "lessonFileGroups": {
+        "lesson-plan": {
+          "singular": "Lesson Plan",
+          "plural": "Lesson Plans"
+        },
+        "answer-key": {
+          "singular": "Answer Key",
+          "plural": "Answer Keys"
+        },
+        "student-worksheet": {
+          "singular": "Student Worksheet",
+          "plural": "Student Worksheets"
+        },
+        "presentation-slides": {
+          "singular": "Presentation Slide",
+          "plural": "Presentation Slides"
+        },
+        "other-file-type": {
+          "singular": "Other File",
+          "plural": "Other Files"
+        }
+      },
+      "lessonFileActions": {
+        "viewPdf": "View PDF",
+        "googleDocs": "Google Docs",
+        "downloadPdf": "Download PDF"
+      },
       "relatedLinksTitle": "Related Links",
       "exploreResources": "Explore Educational Resources",
       "navigateResourcesExplanation": "Use the navigation above to browse videos or lesson plans related to Alberta’s ecosystems, wildlife, and climate.",

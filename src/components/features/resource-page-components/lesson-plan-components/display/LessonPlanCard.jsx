@@ -9,10 +9,9 @@
 "use client";
 
 import React, { useEffect, useMemo, useState } from "react";
-import { FaFilePdf, FaLink, FaClipboardList, FaRegClock, FaVideo } from "react-icons/fa";
+import { FaClipboardList, FaRegClock, FaVideo } from "react-icons/fa";
 import TagList from "./TagList";
 import Tooltip from "@/components/common/Tooltip";
-import LinkListSection from "./LinkListSection";
 import Link from "next/link";
 import useGoogleAnalytics from "@/components/analytics/useGoogleAnalytics";
 import { useLocale, useTranslations } from "next-intl";
@@ -64,13 +63,12 @@ export default function LessonPlanCard({ plan }) {
   const localizedLabels = {
     grades: resourceMessages?.filters?.toggle || t("filters.toggle"),
     subjects: resourceMessages?.subjectsTitle || t("subjectsTitle"),
+    lessonFile: resourceMessages?.lessonFileTitle || t("lessonFileTitle"),
     lessonFiles: resourceMessages?.lessonFilesTitle || t("lessonFilesTitle"),
-    relatedLinks: resourceMessages?.relatedLinksTitle || t("relatedLinksTitle"),
     videos: resourceMessages?.videos || t("videos"),
   };
   const lessonFilesCount = selectedContent.files?.length || 0;
-  const relatedLinksCount = selectedContent.relatedUrls?.length || 0;
-  const lessonFilesTitle = `${lessonFilesCount} ${localizedLabels.lessonFiles}${relatedLinksCount > 0 ? ` | ${relatedLinksCount} ${localizedLabels.relatedLinks}` : ""}`;
+  const lessonFilesLabel = lessonFilesCount === 1 ? localizedLabels.lessonFile : localizedLabels.lessonFiles;
 
   return (
     <Link
@@ -149,54 +147,42 @@ export default function LessonPlanCard({ plan }) {
         <TagList label={localizedLabels.grades} items={cardGrades} pillClass="bg-gray-100 border border-gray-300 text-gray-700" />
         <TagList label={localizedLabels.subjects} items={cardSubjects} pillClass="bg-blue-100 border border-blue-300 text-blue-700" />
 
-        <LinkListSection
-          title={lessonFilesTitle}
-          items={selectedContent.files}
-          icon={FaFilePdf}
-          iconClassName="text-red-600"
-          maxVisibleItems={1}
-          seeMoreText={seeMoreLabel}
-          seeLessText={seeLessLabel}
-        />
+        {(lessonFilesCount > 0 || plan.videos?.length > 0) && (
+          <div className="flex flex-wrap items-center justify-start gap-2 pt-1">
+            {lessonFilesCount > 0 ? (
+              <div className="flex shrink-0 items-center gap-1 rounded-lg border border-primary/30 bg-primary/35 px-2 py-1 text-sm font-semibold text-gray-900">
+                <FaClipboardList className="text-primary" aria-hidden="true" />
+                {lessonFilesCount} {lessonFilesLabel}
+              </div>
+            ) : null}
 
-        {/* <LinkListSection
-          title={localizedLabels.relatedLinks}
-          items={selectedContent.relatedUrls}
-          icon={FaLink}
-          iconClassName="text-blue-700"
-          maxVisibleItems={1}
-          seeMoreText={seeMoreLabel}
-          seeLessText={seeLessLabel}
-        /> */}
+            {plan.videos && plan.videos.length > 0 ? (
+              <div className="flex shrink-0 items-center gap-1 rounded-lg border border-black/10 bg-gray-300 px-2 py-1 text-sm font-semibold">
+                <FaVideo aria-hidden="true" />
+                {plan.videos.length} {localizedLabels.videos}
+              </div>
+            ) : null}
+          </div>
+        )}
 
-        <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-1">
+        <div className="mt-auto flex items-center justify-between gap-2 pt-1">
           <CardLanguageSwitch
             availableLanguages={availableLanguages}
             selectedLanguage={selectedLanguage}
             onChange={setSelectedLanguage}
             label={t("filters.lessonPlanLanguage")}
           />
-
-          <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
-            {plan.videos && plan.videos.length > 0 ? (
-              <div className="flex shrink-0 items-center gap-1 rounded-lg border border-black/10 bg-gray-300 px-2 py-1 text-xs font-semibold">
-                <FaVideo aria-hidden="true" />
-                {plan.videos.length} {localizedLabels.videos}
-              </div>
-            ) : null}
-
-            <button
-              type="button"
-              onClick={(event) => {
-                event.preventDefault();
-                event.stopPropagation();
-                window.open(openInNewPageHref, "_blank", "noopener,noreferrer");
-              }}
-              className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer"
-            >
-              {viewInNewPageLabel}
-            </button>
-          </div>
+          <button
+            type="button"
+            onClick={(event) => {
+              event.preventDefault();
+              event.stopPropagation();
+              window.open(openInNewPageHref, "_blank", "noopener,noreferrer");
+            }}
+            className="inline-flex items-center rounded-full border border-primary/30 bg-white px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-primary shadow-[0_2px_10px_rgba(15,23,42,0.08)] transition-colors hover:bg-primary hover:text-white hover:cursor-pointer"
+          >
+            {viewInNewPageLabel}
+          </button>
         </div>
       </div>
     </Link>

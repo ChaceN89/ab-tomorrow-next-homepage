@@ -29,7 +29,7 @@ import {
   getSearchTerms,
 } from "@/utils/resourceNormalizeUtils";
 
-export default function ModalLessonPlan({ id, showOpenInNewPage = true, onResolve = null }) {
+export default function ModalLessonPlan({ id, showOpenInNewPage = true, onResolve = null, onTitleChange = null }) {
   const locale = useLocale();
   const viewItemsT = useTranslations("ViewItems");
   const { lessonPlans } = useLessonPlanResource();
@@ -168,6 +168,7 @@ export default function ModalLessonPlan({ id, showOpenInNewPage = true, onResolv
     <div className="flex flex-col gap-2 h-full w-full">
       <LessonPlanDetails
         plan={plan}
+        onTitleChange={onTitleChange}
       />
     </div>
   );

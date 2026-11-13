@@ -11,11 +11,18 @@
 
 import React from "react";
 import { useTranslations } from "next-intl";
-import { useLessonPlanResource } from "./LessonPlanResourceContext";
+import { LESSON_PLAN_FILE_TYPES, useLessonPlanResource } from "./LessonPlanResourceContext";
 import FilterDropdown from "../FilterDropdown";
 
 export default function LessonPlanFilter() {
   const t = useTranslations("Pages.ResourcesPage");
+  const fileTypeLabels = {
+    "lesson-plan": t("filters.lessonFileTypes.lessonPlan"),
+    "answer-key": t("filters.lessonFileTypes.answerKey"),
+    "student-worksheet": t("filters.lessonFileTypes.studentWorksheet"),
+    "presentation-slides": t("filters.lessonFileTypes.presentationSlides"),
+    "other-file-type": t("filters.lessonFileTypes.otherFileType"),
+  };
   const {
     loading,
     themeFilters,
@@ -32,6 +39,8 @@ export default function LessonPlanFilter() {
     setSearchText,
     hasVideos,
     setHasVideos,
+    fileTypeFilters,
+    setFileTypeFilters,
     numResults,
   } = useLessonPlanResource();
 
@@ -63,6 +72,27 @@ export default function LessonPlanFilter() {
           <span>{t("filters.hasAssociatedVideos")}</span>
         </label>
       </div>
+
+      <fieldset className="space-y-2">
+        <legend className="font-semibold">{t("filters.lessonFileTypes.label")}</legend>
+        <div className="flex flex-col gap-2">
+          {LESSON_PLAN_FILE_TYPES.map((fileType) => (
+            <label key={fileType} className="flex items-center gap-2">
+              <input
+                type="checkbox"
+                checked={fileTypeFilters[fileType]}
+                onChange={() =>
+                  setFileTypeFilters((current) => ({
+                    ...current,
+                    [fileType]: !current[fileType],
+                  }))
+                }
+              />
+              <span>{fileTypeLabels[fileType]}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
 
       <FilterDropdown
         label={t("filters.theme")}

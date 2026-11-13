@@ -39,10 +39,14 @@ export default function ModalContainer() {
   const videoId = searchParams.get("video");
   const lessonPlanId = searchParams.get("lesson-plan");
   const [resolvedVideoTitle, setResolvedVideoTitle] = useState({ id: null, title: "" });
+  const [resolvedLessonTitle, setResolvedLessonTitle] = useState({ id: null, title: "" });
 
   const handleVideoTitleChange = useCallback((title) => {
     setResolvedVideoTitle({ id: videoId, title });
   }, [videoId]);
+  const handleLessonTitleChange = useCallback((title) => {
+    setResolvedLessonTitle({ id: lessonPlanId, title });
+  }, [lessonPlanId]);
 
   const lessonOpenHref = lessonPlanId
     ? `/${locale}/resources/lesson?id=${encodeURIComponent(String(lessonPlanId))}`
@@ -51,6 +55,7 @@ export default function ModalContainer() {
     ? `/${locale}/resources/video?id=${encodeURIComponent(String(videoId))}`
     : null;
   const videoTitle = resolvedVideoTitle.id === videoId ? resolvedVideoTitle.title : "";
+  const lessonTitle = resolvedLessonTitle.id === lessonPlanId ? resolvedLessonTitle.title : "";
 
   const closeModal = () => {
     const url = new URL(window.location.href);
@@ -73,7 +78,7 @@ export default function ModalContainer() {
         <Modal
           onClose={closeModal}
           TopBackGroundClass="bg-primary/50"
-          Title={detailsT("LessonDetails")}
+          Title={lessonTitle ? <>{detailsT("LessonDetails")} - <em>{lessonTitle}</em></> : detailsT("LessonDetails")}
           HeaderAction={
             lessonOpenHref ? (
               <Link
@@ -87,7 +92,7 @@ export default function ModalContainer() {
             ) : null
           }
         >
-          <ModalLessonPlan id={lessonPlanId} />
+          <ModalLessonPlan id={lessonPlanId} onTitleChange={handleLessonTitleChange} />
         </Modal>
       )}
 

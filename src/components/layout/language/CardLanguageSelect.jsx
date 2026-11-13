@@ -26,7 +26,7 @@ export default function CardLanguageSelect({
   if (normalizedLanguages.length === 1) {
     return (
       <div
-        className={`inline-flex w-full items-center justify-center rounded-full border border-black/15 bg-white/80 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-gray-700 shadow-sm ${className}`}
+        className={`inline-flex items-center justify-center rounded-full border border-black/15 bg-white/80 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-gray-700 shadow-sm ${className}`}
       >
         {safeSelectedLanguage}
       </div>
@@ -35,7 +35,7 @@ export default function CardLanguageSelect({
 
   return (
     <div
-      className={`relative grid w-full overflow-hidden rounded-full border border-black/15 bg-white/80 p-1 shadow-[0_2px_10px_rgba(15,23,42,0.08)] ${className}`}
+      className={`relative inline-grid overflow-hidden rounded-full border border-black/15 bg-white/80 p-1 shadow-[0_2px_10px_rgba(15,23,42,0.08)] ${className}`}
       style={{
         gridTemplateColumns: `repeat(${normalizedLanguages.length}, minmax(0, 1fr))`,
       }}

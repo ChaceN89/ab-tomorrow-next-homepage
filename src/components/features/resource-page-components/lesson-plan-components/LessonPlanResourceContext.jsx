@@ -24,6 +24,14 @@ import {
 
 const LessonPlanContext = createContext();
 
+export const LESSON_PLAN_FILE_TYPES = [
+  "lesson-plan",
+  "answer-key",
+  "student-worksheet",
+  "presentation-slides",
+  "other-file-type",
+];
+
 function isMeaningfulString(value) {
   if (typeof value !== "string") return false;
   const normalized = value.trim().toLowerCase();
@@ -87,6 +95,9 @@ export function LessonPlanResourceProvider({ children }) {
   const [tagFilters, setTagFilters] = useState({});
   const [searchText, setSearchText] = useState("");
   const [hasVideos, setHasVideos] = useState(false);
+  const [fileTypeFilters, setFileTypeFilters] = useState(() =>
+    Object.fromEntries(LESSON_PLAN_FILE_TYPES.map((fileType) => [fileType, false]))
+  );
 
   const [numResults, setNumResults] = useState(0);
 
@@ -237,6 +248,8 @@ export function LessonPlanResourceProvider({ children }) {
         setSearchText,
         hasVideos,
         setHasVideos,
+        fileTypeFilters,
+        setFileTypeFilters,
         numResults,
         setNumResults,
       }}

@@ -20,6 +20,7 @@ export default function LessonThemeList({ isSidebarPinned = true }) {
     tagFilters,
     searchText,
     hasVideos,
+    fileTypeFilters,
     setNumResults,
   } = useLessonPlanResource();
 
@@ -32,6 +33,7 @@ export default function LessonThemeList({ isSidebarPinned = true }) {
     const hasActiveSubjectFilter = Object.values(subjectFilters).some(Boolean);
     const hasActiveGradeFilter = Object.values(gradeFilters).some(Boolean);
     const selectedTags = Object.keys(tagFilters).filter((tag) => tagFilters[tag]);
+    const selectedFileTypes = Object.keys(fileTypeFilters).filter((fileType) => fileTypeFilters[fileType]);
 
     lessonPlans?.forEach((lp) => {
       const matchesTheme = !hasActiveThemeFilter || themeFilters[lp.theme];
@@ -42,6 +44,9 @@ export default function LessonThemeList({ isSidebarPinned = true }) {
       const matchesSubject = !hasActiveSubjectFilter || lp.subjects?.some((s) => subjectFilters[s]);
       const matchesGrade = !hasActiveGradeFilter || lp.grades?.some((g) => gradeFilters[g]);
       const matchesHasVideos = hasVideos ? (lp.videos?.length || 0) > 0 : true;
+      const matchesFileType =
+        selectedFileTypes.length === 0 ||
+        lp.files?.some((file) => selectedFileTypes.includes(file.fileType));
       const matchesTag =
         selectedTags.length === 0 ||
         selectedTags.some((tag) => (lp.tags || []).includes(tag));
@@ -57,6 +62,7 @@ export default function LessonThemeList({ isSidebarPinned = true }) {
         matchesSubject &&
         matchesGrade &&
         matchesHasVideos &&
+        matchesFileType &&
         matchesTag &&
         matchesSearch
       ) {
@@ -69,6 +75,7 @@ export default function LessonThemeList({ isSidebarPinned = true }) {
   }, [
     gradeFilters,
     hasVideos,
+    fileTypeFilters,
     lessonPlans,
     lowerSearch,
     tagFilters,

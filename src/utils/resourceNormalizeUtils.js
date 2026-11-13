@@ -89,10 +89,10 @@ function normalizeArrayLinks(items, locale) {
       }
 
       const title = getLocalizedValue(item.title, locale) || item.label || item.name || "Resource";
-      const link = item.link || item.url || item.href;
+      const link = item.link || item.url || item.href || item.pdfUrl;
 
       if (!link || typeof link !== "string") return null;
-      return { title, link };
+      return { ...item, title, link };
     })
     .filter(Boolean);
 }

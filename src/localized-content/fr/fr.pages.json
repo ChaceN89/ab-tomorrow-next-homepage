@@ -222,6 +222,14 @@
         "englishSubtitlesAvailable": "Sous-titres en anglais disponibles",
         "frenchSubtitlesAvailable": "Sous-titres en français disponibles",
         "hasAssociatedVideos": "A des vidéos associées",
+        "lessonFileTypes": {
+          "label": "Types de fichiers des plans de leçon",
+          "lessonPlan": "Avec plan de leçon",
+          "answerKey": "Avec corrigé",
+          "studentWorksheet": "Avec fiche d'exercices",
+          "presentationSlides": "Avec diapositives de présentation",
+          "otherFileType": "Avec un autre type de fichier"
+        },
         "subject": "Filtrer par sujet",
         "grade": "Filtrer par niveau scolaire",
         "scrollToSection": "Défiler jusqu’à la section",
@@ -229,8 +237,37 @@
         "toggle": "Niveaux scolaires"
       },
       "subjectsTitle": "Sujets",
+      "tagsTitle": "Mots-clés",
       "learningOutcomes": "Résultats d’apprentissage",
+      "lessonFileTitle": "Fichier de leçon",
       "lessonFilesTitle": "Fichiers de leçons",
+      "lessonFileGroups": {
+        "lesson-plan": {
+          "singular": "Plan de leçon",
+          "plural": "Plans de leçon"
+        },
+        "answer-key": {
+          "singular": "Corrigé",
+          "plural": "Corrigés"
+        },
+        "student-worksheet": {
+          "singular": "Fiche d’exercices",
+          "plural": "Fiches d’exercices"
+        },
+        "presentation-slides": {
+          "singular": "Diapositive de présentation",
+          "plural": "Diapositives de présentation"
+        },
+        "other-file-type": {
+          "singular": "Autre fichier",
+          "plural": "Autres fichiers"
+        }
+      },
+      "lessonFileActions": {
+        "viewPdf": "Afficher le PDF",
+        "googleDocs": "Google Docs",
+        "downloadPdf": "Télécharger le PDF"
+      },
       "relatedLinksTitle": "Liens connexes",
       "exploreResources": "Explorer les ressources pédagogiques",
       "navigateResourcesExplanation": "Utilisez la navigation ci-dessus pour parcourir les vidéos ou les plans de leçons liés aux écosystèmes, à la faune et au climat de l’Alberta.",
