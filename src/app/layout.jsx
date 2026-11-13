@@ -60,7 +60,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased flex flex-col min-h-screen min-w-56">
+      <body className="antialiased flex flex-col min-h-screen min-w-56" suppressHydrationWarning>
         {children}
       </body>
     </html>
