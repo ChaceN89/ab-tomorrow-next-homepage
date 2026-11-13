@@ -22,7 +22,7 @@
  * @updated Apr 10, 2025
  */
 "use client";
-import SideBarWrapper from "@/components/layout/shell/SideBarWrapper";
+import SideBarWrapper, { SIDEBAR_TRANSITION } from "@/components/layout/shell/SideBarWrapper";
 import { useLessonPlanResource } from "./LessonPlanResourceContext";
 import PulseLoader from "@/components/common/PulseLoader";
 import { useEffect, useState } from "react";
@@ -54,8 +54,9 @@ export default function LessonDisplay() {
     <div className="flex flex-col md:flex-row gap-3 lg:gap-4 px-2 ">
       {/* Filters Sidebar */}
       <aside
-        className={`w-full pt-4 transition-[width] duration-500 ease-in-out md:flex-none ${isSidebarPinned ? "md:w-[15rem] xl:w-[21rem]" : "md:w-10"
+        className={`w-full pt-4 md:flex-none ${isSidebarPinned ? "md:w-[15rem] xl:w-[21rem]" : "md:w-10"
           }`}
+        style={{ transition: `width ${SIDEBAR_TRANSITION}` }}
       >
         <SideBarWrapper onPinnedChange={setIsSidebarPinned}>
           <LessonPlanFilters />

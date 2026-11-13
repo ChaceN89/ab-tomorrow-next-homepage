@@ -22,13 +22,14 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { RiPushpin2Fill, RiPushpin2Line } from "react-icons/ri";
-import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 const SIDEBAR_TOP_GAP = 12;
 const COMPACT_SCREEN_BREAKPOINT = 1280;
-// Keep in sync with the layout column transition in VideoDisplay / LessonDisplay.
-const SIDEBAR_TRANSITION = "0.5s ease-in-out";
+// Keep in sync with the layout column transition in VideoDisplay / LessonDisplay (both import this).
+// DEBUG: temporarily 10x slower (normally "0.5s ease-in-out") to inspect the animation sync.
+export const SIDEBAR_TRANSITION = "0.4s linear";
+// export const SIDEBAR_TRANSITION = "10s ease-in-out";
 
 export default function SideBarWrapper({
   children,
@@ -39,11 +40,10 @@ export default function SideBarWrapper({
 }) {
   const t = useTranslations("Pages.ResourcesPage");
   const COLLAPSED_HANDLE_WIDTH = 40;
-  const HOVER_REOPEN_DELAY_MS = 260;
   const HOVER_ACTIVATION_TOP_GUTTER = 64;
 
   const wrapperRef = useRef(null);
-  const hoverSuppressUntilRef = useRef(0);
+  const hoverLockedRef = useRef(false);
   const [lock, setLock] = useState(false);
   const [isLargeScreen, setIsLargeScreen] = useState(true);
   const [isCompactScreen, setIsCompactScreen] = useState(false);
@@ -109,26 +109,24 @@ export default function SideBarWrapper({
     }
   }, [isPinnedOpen, onPinnedChange]);
 
-  const isHoverSuppressed = () => Date.now() < hoverSuppressUntilRef.current;
-
   const isPastTopHoverGutter = (event) => {
     const rect = event.currentTarget.getBoundingClientRect();
     const relativeY = event.clientY - rect.top;
     return relativeY > HOVER_ACTIVATION_TOP_GUTTER;
   };
 
+  // Hover-expand stays blocked after a pin-collapse until the pointer leaves, so it can't reopen mid-slide.
   const handlePinToggle = () => {
-    setIsPinnedOpen((prev) => {
-      const nextPinnedOpen = !prev;
+    const nextPinnedOpen = !isPinnedOpen;
 
-      // When switching to collapsed mode from the pin button, avoid instant re-open from hover.
-      if (!nextPinnedOpen) {
-        setIsHoverExpanded(false);
-        hoverSuppressUntilRef.current = Date.now() + HOVER_REOPEN_DELAY_MS;
-      }
+    if (!nextPinnedOpen) {
+      setIsHoverExpanded(false);
+      hoverLockedRef.current = true;
+    }
 
-      return nextPinnedOpen;
-    });
+    // Notify the parent in the same event so the layout column starts on the same frame as the panel.
+    setIsPinnedOpen(nextPinnedOpen);
+    if (typeof onPinnedChange === "function") onPinnedChange(nextPinnedOpen);
   };
 
 
@@ -194,18 +192,19 @@ export default function SideBarWrapper({
             shouldCollapse &&
             !isCompactScreen &&
             !isHoverExpanded &&
-            !isHoverSuppressed() &&
+            !hoverLockedRef.current &&
             isPastTopHoverGutter(event)
           ) {
             setIsHoverExpanded(true);
           }
         }}
         onMouseLeave={() => {
+          hoverLockedRef.current = false;
           if (shouldCollapse) setIsHoverExpanded(false);
         }}
         className={
           className +
-          ` ${panelWidthClassName} w-full scroll-element pb-8 md:pb-96 rounded-lg shadow-md border border-black/30 overflow-hidden px-1 bg-gray-200`
+          ` ${panelWidthClassName} w-full scroll-element pb-8 md:pb-[420px] rounded-lg shadow-md border border-black/30 overflow-hidden px-1 bg-gray-200`
         }
       >
         {isLargeScreen && (
@@ -213,7 +212,10 @@ export default function SideBarWrapper({
             type="button"
             onClick={handlePinToggle}
             className="absolute top-2 z-20 h-8 w-8 rounded-full border border-black/25 bg-white text-black hover:bg-white cursor-pointer flex items-center justify-center"
-            style={isCollapsedView ? { right: `${(COLLAPSED_HANDLE_WIDTH - 36) / 2}px` } : { right: "0.25rem" }}
+            style={{
+              right: isCollapsedView ? `${(COLLAPSED_HANDLE_WIDTH - 36) / 2}px` : "0.25rem",
+              transition: `right ${SIDEBAR_TRANSITION}`,
+            }}
             title={isPinnedOpen ? "Switch to hover-expand mode" : "Keep sidebar open"}
             aria-label={isPinnedOpen ? "Switch to hover-expand mode" : "Keep sidebar open"}
           >
@@ -221,34 +223,28 @@ export default function SideBarWrapper({
           </button>
         )}
 
-        <AnimatePresence initial={false} mode="wait">
-          {isCollapsedView ? (
-            <motion.div
-              key="collapsed-label"
-              className="absolute inset-y-0 right-0 w-10 z-10 flex items-start justify-center pt-14 pointer-events-none"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1, transition: { duration: 0.36, delay: 0.1 } }}
-              exit={{ opacity: 0, transition: { duration: 0.28 } }}
-            >
-              <span
-                className="text-xs font-semibold tracking-wide text-black/90"
-                style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
-              >
-                {t("filters.collapsedTab")}
-              </span>
-            </motion.div>
-          ) : (
-            <motion.div
-              key="expanded-content"
-              className="relative md:w-[calc(15rem-10px)] xl:w-[calc(21rem-10px)]"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1, transition: { duration: 0.3 } }}
-              exit={{ opacity: 0, transition: { duration: 0.2 } }}
-            >
-              {children}
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {/* Both layers stay mounted and cross-fade with the same timing as the slide, so content never lags the width. */}
+        <div
+          className="relative md:w-[calc(15rem-10px)] xl:w-[calc(21rem-10px)]"
+          style={{ opacity: isCollapsedView ? 0 : 1, transition: `opacity ${SIDEBAR_TRANSITION}` }}
+          inert={isCollapsedView}
+          aria-hidden={isCollapsedView}
+        >
+          {children}
+        </div>
+
+        <div
+          className="absolute inset-y-0 right-0 w-10 z-10 flex items-start justify-center pt-14 pointer-events-none"
+          style={{ opacity: isCollapsedView ? 1 : 0, transition: `opacity ${SIDEBAR_TRANSITION}` }}
+          aria-hidden
+        >
+          <span
+            className="text-xs font-semibold tracking-wide text-black/90"
+            style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
+          >
+            {t("filters.collapsedTab")}
+          </span>
+        </div>
       </div>
     </div>
   );
