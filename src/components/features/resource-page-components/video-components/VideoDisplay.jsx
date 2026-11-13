@@ -54,7 +54,7 @@ export default function VideoDisplay() {
     <div className="flex flex-col md:flex-row gap-3 lg:gap-4 px-2 ">
       {/* Filters Sidebar */}
       <aside
-        className={`w-full pt-4 transition-[width] duration-300 ${isSidebarPinned ? "md:w-[15rem] xl:w-[21rem]" : "md:w-10"
+        className={`w-full pt-4 transition-[width] duration-500 ease-in-out md:flex-none ${isSidebarPinned ? "md:w-[15rem] xl:w-[21rem]" : "md:w-10"
           }`}
       >
         <SideBarWrapper onPinnedChange={setIsSidebarPinned}>
@@ -63,10 +63,10 @@ export default function VideoDisplay() {
       </aside>
 
       {/* Main Content */}
-      <main className="relative min-h-[30vh] flex-1 h-fit">
+      <main className="relative min-h-[30vh] min-w-0 flex-1 h-fit">
         {isReady && (
           <div className={`transition-opacity duration-1500 motion-reduce:transition-none ${contentVisible ? "opacity-100" : "opacity-0"}`}>
-            <VideoCategoryList isSidebarPinned={isSidebarPinned} />
+            <VideoCategoryList />
           </div>
         )}
         <div

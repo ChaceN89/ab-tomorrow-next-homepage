@@ -26,6 +26,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 const SIDEBAR_TOP_GAP = 12;
+const COMPACT_SCREEN_BREAKPOINT = 1280;
+// Keep in sync with the layout column transition in VideoDisplay / LessonDisplay.
+const SIDEBAR_TRANSITION = "0.5s ease-in-out";
 
 export default function SideBarWrapper({
   children,
@@ -43,6 +46,7 @@ export default function SideBarWrapper({
   const hoverSuppressUntilRef = useRef(0);
   const [lock, setLock] = useState(false);
   const [isLargeScreen, setIsLargeScreen] = useState(true);
+  const [isCompactScreen, setIsCompactScreen] = useState(false);
   const [sidebarTop, setSidebarTop] = useState(minDistFromTop);
   const [isPinnedOpen, setIsPinnedOpen] = useState(true);
   const [isHoverExpanded, setIsHoverExpanded] = useState(false);
@@ -50,7 +54,9 @@ export default function SideBarWrapper({
   // Track screen size
   useEffect(() => {
     const updateSize = () => {
-      setIsLargeScreen(window.innerWidth >= minBreakpoint);
+      const screenWidth = window.innerWidth;
+      setIsLargeScreen(screenWidth >= minBreakpoint);
+      setIsCompactScreen(screenWidth >= minBreakpoint && screenWidth < COMPACT_SCREEN_BREAKPOINT);
     };
     updateSize();
 
@@ -58,37 +64,15 @@ export default function SideBarWrapper({
     return () => window.removeEventListener("resize", updateSize);
   }, [minBreakpoint]);
 
-  // Add ResizeObserver to track wrapper width
-  const [wrapperWidth, setWrapperWidth] = useState(null);
-  const [expandedPanelWidth, setExpandedPanelWidth] = useState(null);
-  const [expandedPanelHeight, setExpandedPanelHeight] = useState(null);
-
-  useEffect(() => {
-    if (!wrapperRef.current) return;
-
-    const resizeObserver = new ResizeObserver(entries => {
-      for (let entry of entries) {
-        const nextWidth = entry.contentRect.width;
-        const nextHeight = entry.contentRect.height;
-        setWrapperWidth(nextWidth);
-        // Preserve the largest observed width so collapsed mode can still expand over content.
-        setExpandedPanelWidth((prev) => (prev == null ? nextWidth : Math.max(prev, nextWidth)));
-        // Preserve largest observed height so collapsed rail keeps full height.
-        setExpandedPanelHeight((prev) => (prev == null ? nextHeight : Math.max(prev, nextHeight)));
-      }
-    });
-
-    resizeObserver.observe(wrapperRef.current);
-
-    return () => resizeObserver.disconnect();
-  }, []);
-
   useEffect(() => {
     if (!isLargeScreen) {
       setIsPinnedOpen(true);
       setIsHoverExpanded(false);
+    } else {
+      setIsPinnedOpen(!isCompactScreen);
+      setIsHoverExpanded(false);
     }
-  }, [isLargeScreen]);
+  }, [isCompactScreen, isLargeScreen]);
 
   useEffect(() => {
     if (!isLargeScreen) return;
@@ -165,43 +149,42 @@ export default function SideBarWrapper({
 
   const shouldCollapse = isLargeScreen && !isPinnedOpen;
   const isExpanded = !shouldCollapse || isHoverExpanded;
-  const panelTranslateX = shouldCollapse && !isExpanded
-    ? `calc(-100% + ${COLLAPSED_HANDLE_WIDTH}px)`
-    : "0";
   const isCollapsedView = shouldCollapse && !isExpanded;
 
   // Keep sticky behavior consistent with pinned mode: only fix after lock threshold.
   const shouldUseOverlayPosition = isLargeScreen && lock;
-  const panelWidth = shouldCollapse
-    ? (expandedPanelWidth || wrapperWidth || "100%")
-    : (wrapperWidth || "100%");
+  const panelHeight = isLargeScreen
+    ? `calc(100dvh - ${sidebarTop}px - ${SIDEBAR_TOP_GAP}px)`
+    : undefined;
 
+  // Width comes from CSS (same values as the layout column) so it always follows the current screen size.
+  const panelWidthClassName = isCollapsedView ? "md:w-10" : "md:w-[15rem] xl:w-[21rem]";
+
+  // Width uses the same duration/easing as the layout column so the two move in lockstep.
   const wrapperStyle = shouldUseOverlayPosition
     ? {
       position: "fixed",
       top: `${sidebarTop}px`,
-      width: panelWidth,
+      height: panelHeight,
+      maxHeight: panelHeight,
       zIndex: 4,
-      minHeight: isCollapsedView ? `calc(100vh - ${sidebarTop}px)` : undefined,
-      maxHeight: `calc(100vh - ${sidebarTop}px)`,
       overflowY: "auto",
-      transition: "top 0.3s ease-in-out",
+      overflowX: "hidden",
+      transition: `width ${SIDEBAR_TRANSITION}, top 0.3s ease-in-out, height 0.3s ease-in-out`,
     }
     : {
       position: "relative",
-      width: panelWidth,
+      height: panelHeight,
       zIndex: shouldCollapse ? 4 : "auto",
-      minHeight: isCollapsedView ? expandedPanelHeight || undefined : undefined,
+      overflowY: isLargeScreen ? "auto" : undefined,
+      overflowX: isLargeScreen ? "hidden" : undefined,
+      transition: `width ${SIDEBAR_TRANSITION}`,
     };
 
   return (
     <div className="w-full" ref={wrapperRef} style={{ position: "relative" }}>
-      <motion.div
-        animate={{ x: panelTranslateX }}
-        transition={{ type: "spring", stiffness: 320, damping: 34, mass: 0.75 }}
-        style={{
-          ...wrapperStyle,
-        }}
+      <div
+        style={wrapperStyle}
         onMouseEnter={() => {
           // Ignore top-edge hover so pin-area interactions do not auto-popout.
           // Expansion still works when entering/living below the top gutter.
@@ -209,6 +192,7 @@ export default function SideBarWrapper({
         onMouseMove={(event) => {
           if (
             shouldCollapse &&
+            !isCompactScreen &&
             !isHoverExpanded &&
             !isHoverSuppressed() &&
             isPastTopHoverGutter(event)
@@ -221,7 +205,7 @@ export default function SideBarWrapper({
         }}
         className={
           className +
-          ` scroll-element pb-8 md:pb-96 rounded-lg shadow-md border border-black/30 overflow-hidden px-1 bg-gray-200`
+          ` ${panelWidthClassName} w-full scroll-element pb-8 md:pb-96 rounded-lg shadow-md border border-black/30 overflow-hidden px-1 bg-gray-200`
         }
       >
         {isLargeScreen && (
@@ -256,7 +240,7 @@ export default function SideBarWrapper({
           ) : (
             <motion.div
               key="expanded-content"
-              className="relative"
+              className="relative md:w-[calc(15rem-10px)] xl:w-[calc(21rem-10px)]"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1, transition: { duration: 0.3 } }}
               exit={{ opacity: 0, transition: { duration: 0.2 } }}
@@ -265,7 +249,7 @@ export default function SideBarWrapper({
             </motion.div>
           )}
         </AnimatePresence>
-      </motion.div>
+      </div>
     </div>
   );
 }
