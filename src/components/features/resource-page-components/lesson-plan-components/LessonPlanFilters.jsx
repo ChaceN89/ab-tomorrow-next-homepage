@@ -21,7 +21,6 @@ export default function LessonPlanFilter() {
     "answer-key": t("filters.lessonFileTypes.answerKey"),
     "student-worksheet": t("filters.lessonFileTypes.studentWorksheet"),
     "presentation-slides": t("filters.lessonFileTypes.presentationSlides"),
-    "other-file-type": t("filters.lessonFileTypes.otherFileType"),
   };
   const {
     loading,
@@ -62,7 +61,7 @@ export default function LessonPlanFilter() {
         className="border px-4 py-2 rounded w-full"
       />
 
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-x-4 gap-y-2">
         <label className="flex items-center gap-2">
           <input
             type="checkbox"
@@ -71,28 +70,23 @@ export default function LessonPlanFilter() {
           />
           <span>{t("filters.hasAssociatedVideos")}</span>
         </label>
-      </div>
 
-      <fieldset className="space-y-2">
-        <legend className="font-semibold">{t("filters.lessonFileTypes.label")}</legend>
-        <div className="flex flex-col gap-2">
-          {LESSON_PLAN_FILE_TYPES.map((fileType) => (
-            <label key={fileType} className="flex items-center gap-2">
-              <input
-                type="checkbox"
-                checked={fileTypeFilters[fileType]}
-                onChange={() =>
-                  setFileTypeFilters((current) => ({
-                    ...current,
-                    [fileType]: !current[fileType],
-                  }))
-                }
-              />
-              <span>{fileTypeLabels[fileType]}</span>
-            </label>
-          ))}
-        </div>
-      </fieldset>
+        {LESSON_PLAN_FILE_TYPES.map((fileType) => (
+          <label key={fileType} className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={fileTypeFilters[fileType]}
+              onChange={() =>
+                setFileTypeFilters((current) => ({
+                  ...current,
+                  [fileType]: !current[fileType],
+                }))
+              }
+            />
+            <span>{fileTypeLabels[fileType]}</span>
+          </label>
+        ))}
+      </div>
 
       <FilterDropdown
         label={t("filters.theme")}

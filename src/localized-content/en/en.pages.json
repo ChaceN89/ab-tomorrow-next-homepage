@@ -221,14 +221,12 @@
         "lessonPlanLanguage": "Lesson plan language",
         "englishSubtitlesAvailable": "English subtitles available",
         "frenchSubtitlesAvailable": "French subtitles available",
-        "hasAssociatedVideos": "Has associated videos",
+        "hasAssociatedVideos": "Has videos",
         "lessonFileTypes": {
-          "label": "Lesson plan file types",
-          "lessonPlan": "Has lesson plan",
-          "answerKey": "Has answer key",
-          "studentWorksheet": "Has student worksheet",
-          "presentationSlides": "Has presentation slides",
-          "otherFileType": "Has other file type"
+          "lessonPlan": "Teacher lesson plan",
+          "answerKey": "Answer key",
+          "studentWorksheet": "Student worksheet",
+          "presentationSlides": "Presentation slides"
         },
         "subject": "Filter by Subject",
         "grade": "Filter by Grade",

@@ -29,7 +29,6 @@ export const LESSON_PLAN_FILE_TYPES = [
   "answer-key",
   "student-worksheet",
   "presentation-slides",
-  "other-file-type",
 ];
 
 function isMeaningfulString(value) {

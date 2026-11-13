@@ -221,14 +221,12 @@
         "lessonPlanLanguage": "Langue du plan de leçon",
         "englishSubtitlesAvailable": "Sous-titres en anglais disponibles",
         "frenchSubtitlesAvailable": "Sous-titres en français disponibles",
-        "hasAssociatedVideos": "A des vidéos associées",
+        "hasAssociatedVideos": "A des vidéos",
         "lessonFileTypes": {
-          "label": "Types de fichiers des plans de leçon",
-          "lessonPlan": "Avec plan de leçon",
-          "answerKey": "Avec corrigé",
-          "studentWorksheet": "Avec fiche d'exercices",
-          "presentationSlides": "Avec diapositives de présentation",
-          "otherFileType": "Avec un autre type de fichier"
+          "lessonPlan": "Plan de leçon de l'enseignant",
+          "answerKey": "Corrigé",
+          "studentWorksheet": "Fiche d'exercices",
+          "presentationSlides": "Diapositives de présentation"
         },
         "subject": "Filtrer par sujet",
         "grade": "Filtrer par niveau scolaire",
