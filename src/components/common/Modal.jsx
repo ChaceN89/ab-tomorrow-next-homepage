@@ -80,12 +80,13 @@ export default function Modal({ children, onClose, TopBackGroundClass, Title, He
 
   return (
     <div
-      className={`fixed inset-0 z-[9990] flex justify-center items-end overflow-y-auto h-full w-full overflow-hidden min-w-screen min-h-screen transition-colors duration-500 ${isVisible ? "bg-black/50" : "bg-black/0 pointer-events-none"}`}
+      className={`fixed inset-0 z-[9990] flex items-center justify-center overflow-hidden pt-14 pb-4 md:pt-24 lg:pt-16 transition-colors duration-500 ${isVisible ? "bg-black/50" : "bg-black/0 pointer-events-none"}`}
       onClick={handleOverlayClick}
     >
       <AnimatePresence>
         {isVisible && (
           <SlideTransition
+            className="h-full"
             enter="right" // Slide in from the right
             exit="left"   // Slide out to the left
             duration={0.5} // Match the timeout duration
@@ -96,17 +97,9 @@ export default function Modal({ children, onClose, TopBackGroundClass, Title, He
               ref={modalRef}
               role="dialog"
               aria-modal="true"
-              className="relative flex flex-col bg-white border-2 border-black rounded-lg shadow-xl w-full 
-              mb-1
+              className="relative flex h-full max-h-full flex-col bg-white border-2 border-black rounded-lg shadow-xl w-full
               min-w-[85vw] 
-              max-w-[94vw] max-h-[96vh]
-
-              md:min-w-[85vw] md:min-h-[80vh]
-              md:max-w-[92vw] md:max-h-[89vh]
-
-                              lg:min-h-[90vh]
-                              lg:max-h-[93vh]
-                              
+              max-w-[94vw] md:max-w-[92vw]
                overflow-hidden
               "
             >
