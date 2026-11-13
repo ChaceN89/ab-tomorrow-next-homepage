@@ -3,7 +3,8 @@
 /**
  * @file LanguageSwitcher.jsx
  * @module LanguageSwitcher
- * @desc Dropdown component that lets users switch between supported localized routes.
+ * @desc Inline "EN / FR" toggle that lets users switch between the supported localized routes.
+ *       The active language is bold; the inactive one is slightly smaller and transitions on switch.
  *
  * @author Chace Nielson
  * @created July 7, 2026
@@ -13,14 +14,13 @@
  * - next/navigation
  * - next-intl
  * - routing.js
- * - NavDropdown.jsx
  */
 
+import React from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 
 import { localeLabels, routing } from "@/i18n/routing";
-import NavDropdown from "../navbar/NavDropdown";
 
 export default function LanguageSwitcher() {
   const router = useRouter();
@@ -50,16 +50,30 @@ export default function LanguageSwitcher() {
     router.replace(nextUrl, { scroll: false });
   };
 
-  const languageItems = routing.locales.map((locale) => ({
-    label: localeLabels[locale] || locale.toUpperCase(),
-    onClick: () => switchLocale(locale)
-  }));
+  const nextLocale = routing.locales.find((locale) => locale !== currentLocale) || currentLocale;
 
   return (
-    <NavDropdown
-      titleLabel={localeLabels[currentLocale] || currentLocale.toUpperCase()}
-      items={languageItems}
-      openToLeft
-    />
+    <button
+      type="button"
+      onClick={() => switchLocale(nextLocale)}
+      aria-label={nextLocale === "fr" ? "Passer au français" : "Switch to English"}
+      className="group flex cursor-pointer items-center whitespace-nowrap px-nav py-1 text-white"
+    >
+      {routing.locales.map((locale, index) => {
+        const isActive = locale === currentLocale;
+
+        return (
+          <React.Fragment key={locale}>
+            {index > 0 && <span aria-hidden className="mx-0.5 text-sm text-white/50">/</span>}
+            <span
+              lang={locale}
+              className={`transition-[font-size,font-weight,opacity,color] duration-300 ease-in-out ${isActive ? "text-base font-bold opacity-100" : "text-sm font-normal opacity-70 group-hover:text-accent group-hover:opacity-100"}`}
+            >
+              {localeLabels[locale] || locale.toUpperCase()}
+            </span>
+          </React.Fragment>
+        );
+      })}
+    </button>
   );
 }
