@@ -15,7 +15,7 @@ import './SplashScreen.styles.css'; // Import custom CSS for the splash screen
 
 export default function SplashScreen({ errorMsg = false, errorText = null, errorLocation = null }) {
   return (
-    <div className="flex flex-col justify-between min-h-screen  overflow-hidden z-[99999] fixed w-screen h-screen ">
+    <div className="fixed inset-0 z-[99999] flex h-screen w-screen min-h-screen flex-col justify-between overflow-hidden bg-primary">
 
       {/* Top Hex Separator */}
       {/* <HexSeparator 
