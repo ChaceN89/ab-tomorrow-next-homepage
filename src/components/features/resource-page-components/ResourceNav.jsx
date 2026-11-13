@@ -24,11 +24,16 @@ import { resourceLinks } from "@/data/resourceData/resourcePageData";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
+import { FaClipboardList, FaVideo } from "react-icons/fa";
 
 export default function ResourceNav() {
   const locale = useLocale();
   const pathname = usePathname();
   const t = useTranslations("Pages.ResourcesPage");
+  const navIcons = {
+    lessonPlans: FaClipboardList,
+    videos: FaVideo,
+  };
 
   const normalizePath = (path) => path.replace(/\/+$/, ""); // remove trailing slash
 
@@ -41,17 +46,19 @@ export default function ResourceNav() {
 
         // active on exact match or nested routes
         const isActive = current === target || current.startsWith(`${target}/`);
+        const Icon = navIcons[link.labelKey];
 
         return (
           <div key={link.href} className="flex items-center gap-5">
             <Link
               href={localizedHref}
-              className={`text-xl py-2 font-semibold transition-colors border-b-2 ${isActive
+              className={`inline-flex items-center gap-2 text-xl py-2 font-semibold transition-colors border-b-2 ${isActive
                 ? "text-primary border-primary"
                 : "text-gray-700 border-transparent hover:text-primary hover:border-primary/50"
                 }`}
               aria-current={isActive ? "page" : undefined}
             >
+              {Icon && <Icon aria-hidden="true" className="h-5 w-5" />}
               {t(link.labelKey)}
             </Link>
 

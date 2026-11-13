@@ -132,7 +132,7 @@ export default function Modal({ children, onClose, TopBackGroundClass, Title, He
                 </div>
               </div>
 
-              <div className="flex-1 overflow-y-auto custom-scrollbar p-4">
+              <div className="flex-1 overflow-y-auto scroll-element p-4">
                 {children}
               </div>
             </div>

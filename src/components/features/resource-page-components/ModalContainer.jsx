@@ -23,6 +23,7 @@
  * @updated Apr 11, 2025
  */
 "use client";
+import { useCallback, useState } from "react";
 import Link from 'next/link';
 import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from 'next-intl';
@@ -37,6 +38,11 @@ export default function ModalContainer() {
   const viewItemsT = useTranslations("ViewItems");
   const videoId = searchParams.get("video");
   const lessonPlanId = searchParams.get("lesson-plan");
+  const [resolvedVideoTitle, setResolvedVideoTitle] = useState({ id: null, title: "" });
+
+  const handleVideoTitleChange = useCallback((title) => {
+    setResolvedVideoTitle({ id: videoId, title });
+  }, [videoId]);
 
   const lessonOpenHref = lessonPlanId
     ? `/${locale}/resources/lesson?id=${encodeURIComponent(String(lessonPlanId))}`
@@ -44,6 +50,7 @@ export default function ModalContainer() {
   const videoOpenHref = videoId
     ? `/${locale}/resources/video?id=${encodeURIComponent(String(videoId))}`
     : null;
+  const videoTitle = resolvedVideoTitle.id === videoId ? resolvedVideoTitle.title : "";
 
   const closeModal = () => {
     const url = new URL(window.location.href);
@@ -88,7 +95,7 @@ export default function ModalContainer() {
         <Modal
           onClose={closeModal}
           TopBackGroundClass="bg-secondary/50"
-          Title={detailsT("VideoDetails")}
+          Title={videoTitle ? <>{detailsT("VideoDetails")} - <em>{videoTitle}</em></> : detailsT("VideoDetails")}
           HeaderAction={
             videoOpenHref ? (
               <Link
@@ -102,7 +109,7 @@ export default function ModalContainer() {
             ) : null
           }
         >
-          <SingleVideo id={videoId} />
+          <SingleVideo id={videoId} onTitleChange={handleVideoTitleChange} />
         </Modal>
       )}
     </>

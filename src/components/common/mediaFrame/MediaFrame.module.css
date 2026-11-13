@@ -37,6 +37,34 @@
   background-color: #fff;
 }
 
+.primaryVideo :global(.vjs-playback-rate .vjs-menu) {
+  left: -1em;
+  width: 6em;
+}
+
+.primaryVideo :global(.video-js .vjs-playback-rate .vjs-menu .vjs-menu-content) {
+  max-height: none;
+  overflow: visible;
+}
+
+.primaryVideo :global(.vjs-volume-panel.media-volume-open .vjs-volume-control) {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+}
+
+.primaryVideo :global(.vjs-volume-panel.media-volume-open .vjs-volume-control.vjs-volume-vertical) {
+  left: -3.5em;
+}
+
+.primaryVideo :global(.vjs-subs-caps-button .vjs-menu) {
+  display: none !important;
+}
+
+.primaryVideo :global(.vjs-subs-caps-button.media-captions-off) {
+  opacity: 0.55;
+}
+
 .primaryVideo :global(.vjs-text-track-display) {
   z-index: 1;
   pointer-events: none;

@@ -10,11 +10,14 @@
 
 import React from "react";
 import { Element } from "react-scroll";
+import { useTranslations } from "next-intl";
 
 // components
 import VideoCard from "./VideoCard";
 
 export default function VideoCategory({ category, videos = [], isSidebarPinned = true }) {
+  const t = useTranslations("Pages.ResourcesPage");
+
   if (!videos.length) return null;
 
   const gridClassName = isSidebarPinned
@@ -27,7 +30,7 @@ export default function VideoCategory({ category, videos = [], isSidebarPinned =
       className="bg-accent/30 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
     >
       <div className="relative ">
-        <h2 className="text-4xl font-bold border-b border-black py-4">{category} - {videos.length}</h2>
+        <h2 className="text-4xl font-bold border-b border-black py-4">{category} - {videos.length} {t("videos")}</h2>
 
         <div className={gridClassName}>
           {videos.map((video) => (

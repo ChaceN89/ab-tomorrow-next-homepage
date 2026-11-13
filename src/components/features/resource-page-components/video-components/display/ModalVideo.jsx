@@ -34,7 +34,7 @@ import {
 } from '@/utils/resourceNormalizeUtils';
 import { normalizeVideoMedia } from '@/utils/videoResouceUtils';
 
-export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true, prioritizeMedia = false, onResolve = null }) {
+export default function ModalVideo({ id, preventExpand = true, forceLanguage = null, showOpenInNewPage = true, prioritizeMedia = false, onResolve = null, onTitleChange = null }) {
   const locale = useLocale();
   const { videos } = useVideoResource();
   const [video, setVideo] = useState(null);
@@ -152,7 +152,7 @@ export default function ModalVideo({ id, preventExpand = true, forceLanguage = n
 
   return (
     <div className="flex flex-col gap-2 h-full w-full">
-      <VideoDetails video={video} prioritizeMedia={prioritizeMedia} />
+      <VideoDetails video={video} prioritizeMedia={prioritizeMedia} onTitleChange={onTitleChange} />
     </div>
   )
 

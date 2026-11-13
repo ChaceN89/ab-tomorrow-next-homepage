@@ -9,7 +9,7 @@
 
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { FaRegPlayCircle } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
@@ -21,7 +21,7 @@ import LinkListSection from "@/components/features/resource-page-components/less
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import { useVideoResource } from "../VideoResourceContext";
 
-export default function VideoDetails({ video, prioritizeMedia = false }) {
+export default function VideoDetails({ video, prioritizeMedia = false, onTitleChange = null }) {
   const t = useTranslations("Pages.ResourcesPage");
   const detailsT = useTranslations("Details");
   const locale = useLocale();
@@ -56,6 +56,10 @@ export default function VideoDetails({ video, prioritizeMedia = false }) {
     };
   }, [selectedLanguage, video]);
 
+  useEffect(() => {
+    onTitleChange?.(selectedContent.title);
+  }, [onTitleChange, selectedContent.title]);
+
   const thumbnailSrc = getPreferredThumbnailSrc(video);
   const rawVideoUrl = video?.media?.url || "";
   const videoId = extractYouTubeId(rawVideoUrl);
@@ -65,37 +69,7 @@ export default function VideoDetails({ video, prioritizeMedia = false }) {
     : (videoId ? `https://www.youtube.com/watch?v=${videoId}` : "");
 
   return (
-    <div className="mx-auto flex h-full w-full max-w-7xl flex-col justify-start gap-4 rounded-lg border border-black/10 bg-tertiary/20 p-6">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        {youtubeHref ? (
-          <a
-            href={youtubeHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white hover:cursor-pointer"
-          >
-            {watchOnYoutubeLabel}
-          </a>
-        ) : null}
-        <CardLanguageSelect
-          availableLanguages={availableLanguages}
-          selectedLanguage={selectedLanguage}
-          onChange={setSelectedLanguage}
-          className="ml-auto w-full max-w-[240px]"
-        />
-      </div>
-
-      <div className="border rounded-md bg-gray-50 relative overflow-hidden">
-        <HexSeparator rows={40} hexClass="bg-secondary/15" />
-        <div className="grid grid-cols-[auto_minmax(0,1fr)] items-center gap-4 p-4">
-          <FaRegPlayCircle className="text-secondary text-5xl sm:text-6xl" aria-hidden="true" />
-          <div className="min-w-0 space-y-2">
-            <h2 className="text-2xl font-bold break-words">{selectedContent.title}</h2>
-            <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">{selectedContent.description}</p>
-          </div>
-        </div>
-      </div>
-
+    <div className="mx-auto flex h-full w-full max-w-7xl flex-col justify-start gap-4">
       <div className="w-full max-w-6xl self-center shadow-sm">
         <div className="w-full">
           <MediaFrame
@@ -109,6 +83,37 @@ export default function VideoDetails({ video, prioritizeMedia = false }) {
             preload={prioritizeMedia}
             captionLanguage={selectedLanguage === "fr" ? "fr-ca" : "en"}
           />
+        </div>
+      </div>
+
+      <div className="w-full max-w-6xl self-center border rounded-md bg-gray-50 relative overflow-hidden">
+        <HexSeparator rows={40} hexClass="bg-secondary/15" />
+        <div className="grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-4 gap-y-3 p-4 md:grid-cols-[auto_minmax(0,1fr)_minmax(160px,220px)]">
+          <FaRegPlayCircle className="text-secondary text-5xl sm:text-6xl" aria-hidden="true" />
+          <div className="min-w-0 space-y-2">
+            <h2 className="text-2xl font-bold break-words">{selectedContent.title}</h2>
+            <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">{selectedContent.description}</p>
+          </div>
+          <div className="col-span-2 flex flex-col items-end gap-2 md:col-span-1">
+            <div className="flex w-40 max-w-full flex-col gap-2">
+              <CardLanguageSelect
+                availableLanguages={availableLanguages}
+                selectedLanguage={selectedLanguage}
+                onChange={setSelectedLanguage}
+                className="w-full"
+              />
+              {youtubeHref ? (
+                <a
+                  href={youtubeHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-full items-center justify-center rounded-full border border-red-300 bg-red-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-red-700 shadow-[0_2px_10px_rgba(185,28,28,0.08)] transition-colors hover:bg-red-600 hover:text-white hover:cursor-pointer"
+                >
+                  {watchOnYoutubeLabel}
+                </a>
+              ) : null}
+            </div>
+          </div>
         </div>
       </div>
 

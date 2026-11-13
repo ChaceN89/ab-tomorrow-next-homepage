@@ -9,9 +9,12 @@
 
 import React from "react";
 import { Element } from "react-scroll";
+import { useTranslations } from "next-intl";
 import LessonPlanCard from "./LessonPlanCard";
 
 export default function LessonPlanTheme({ theme, lessonPlans = [], isSidebarPinned = true }) {
+  const t = useTranslations("Pages.ResourcesPage");
+
   if (!lessonPlans.length) return null;
 
   const gridClassName = isSidebarPinned
@@ -24,7 +27,7 @@ export default function LessonPlanTheme({ theme, lessonPlans = [], isSidebarPinn
       className="bg-tertiary/30 px-6 rounded-xl border-2 border-secondary shadow-2xl overflow-hidden relative"
     >
       <div className="relative">
-        <h2 className="text-4xl font-bold border-b border-black py-4">{theme} - {lessonPlans.length}</h2>
+        <h2 className="text-4xl font-bold border-b border-black py-4">{theme} - {lessonPlans.length} {t("lessonPlans")}</h2>
 
         <div className={gridClassName}>
           {lessonPlans.map((plan) => (

@@ -49,7 +49,7 @@ export default function CardLanguageSelect({
         }}
       />
 
-      {normalizedLanguages.map((lang, index) => (
+      {normalizedLanguages.map((lang) => (
         <button
           key={lang}
           type="button"
@@ -58,9 +58,9 @@ export default function CardLanguageSelect({
             event.stopPropagation();
             onChange?.(lang);
           }}
-          className={`relative z-10 flex items-center justify-center cursor-pointer px-2 py-1 text-[10px] font-semibold uppercase tracking-wide transition-colors duration-300 ease-out first:rounded-l-full last:rounded-r-full ${index > 0 ? "border-l border-white/0" : ""} ${safeSelectedLanguage === lang
+          className={`relative z-10 flex items-center justify-center cursor-pointer rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide transition-colors duration-300 ease-out ${safeSelectedLanguage === lang
             ? "text-white"
-            : "text-gray-700 hover:bg-primary hover:text-white"
+            : "text-gray-700 hover:bg-primary/60 hover:text-gray-900"
             }`}
         >
           {lang}
