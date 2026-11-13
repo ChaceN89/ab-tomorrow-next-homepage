@@ -107,6 +107,8 @@ export default function NavBar() {
     <motion.nav
       {...motionProps}
       className={navClassName}
+      data-site-navbar
+      data-hidden={hidden}
       style={{
         backgroundColor: `rgba(31, 41, 55, ${isHomePage ? Math.min(0.75, 0.4 + scrollY / 1000) : 0.75})`,
       }}

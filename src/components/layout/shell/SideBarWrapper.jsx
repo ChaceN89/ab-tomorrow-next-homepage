@@ -25,6 +25,8 @@ import { RiPushpin2Fill, RiPushpin2Line } from "react-icons/ri";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
+const SIDEBAR_TOP_GAP = 12;
+
 export default function SideBarWrapper({
   children,
   minDistFromTop = 48,
@@ -41,6 +43,7 @@ export default function SideBarWrapper({
   const hoverSuppressUntilRef = useRef(0);
   const [lock, setLock] = useState(false);
   const [isLargeScreen, setIsLargeScreen] = useState(true);
+  const [sidebarTop, setSidebarTop] = useState(minDistFromTop);
   const [isPinnedOpen, setIsPinnedOpen] = useState(true);
   const [isHoverExpanded, setIsHoverExpanded] = useState(false);
 
@@ -88,6 +91,35 @@ export default function SideBarWrapper({
   }, [isLargeScreen]);
 
   useEffect(() => {
+    if (!isLargeScreen) return;
+
+    const navbar = document.querySelector("[data-site-navbar]");
+    if (!navbar) {
+      setSidebarTop(minDistFromTop + SIDEBAR_TOP_GAP);
+      return;
+    }
+
+    const updateSidebarTop = () => {
+      const navbarHeight = navbar.getBoundingClientRect().height;
+      setSidebarTop(
+        navbar.dataset.hidden === "true"
+          ? SIDEBAR_TOP_GAP
+          : Math.max(minDistFromTop, navbarHeight) + SIDEBAR_TOP_GAP
+      );
+    };
+
+    updateSidebarTop();
+    const observer = new MutationObserver(updateSidebarTop);
+    observer.observe(navbar, { attributes: true, attributeFilter: ["data-hidden"] });
+    window.addEventListener("resize", updateSidebarTop);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", updateSidebarTop);
+    };
+  }, [isLargeScreen, minDistFromTop]);
+
+  useEffect(() => {
     if (typeof onPinnedChange === "function") {
       onPinnedChange(isPinnedOpen);
     }
@@ -123,13 +155,13 @@ export default function SideBarWrapper({
     const handleScroll = () => {
       if (!wrapperRef.current) return;
       const top = wrapperRef.current.getBoundingClientRect().top;
-      setLock(top <= minDistFromTop);
+      setLock(top <= sidebarTop);
     };
 
     handleScroll(); // run once
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [minDistFromTop, isLargeScreen]);
+  }, [minDistFromTop, isLargeScreen, sidebarTop]);
 
   const shouldCollapse = isLargeScreen && !isPinnedOpen;
   const isExpanded = !shouldCollapse || isHoverExpanded;
@@ -147,12 +179,13 @@ export default function SideBarWrapper({
   const wrapperStyle = shouldUseOverlayPosition
     ? {
       position: "fixed",
-      top: `${minDistFromTop}px`,
+      top: `${sidebarTop}px`,
       width: panelWidth,
       zIndex: 4,
-      minHeight: isCollapsedView ? `calc(100vh - ${minDistFromTop}px)` : undefined,
-      maxHeight: `calc(100vh - ${minDistFromTop}px)`,
+      minHeight: isCollapsedView ? `calc(100vh - ${sidebarTop}px)` : undefined,
+      maxHeight: `calc(100vh - ${sidebarTop}px)`,
       overflowY: "auto",
+      transition: "top 0.3s ease-in-out",
     }
     : {
       position: "relative",
