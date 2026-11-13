@@ -66,6 +66,7 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
     relatedLinks: resourceMessages?.relatedLinksTitle || t("relatedLinksTitle"),
     learningOutcomes: selectedLanguage === "fr" ? "Résultats d’apprentissage" : t("learningOutcomes", "Learning Outcomes"),
     fileActions: resourceMessages?.lessonFileActions || englishResourceMessages?.lessonFileActions || {},
+    fileGroups: resourceMessages?.lessonFileGroups || englishResourceMessages?.lessonFileGroups || {},
     singularFiles: resourceMessages?.lessonFileTitle || englishResourceMessages?.lessonFileTitle || "Lesson File",
   };
 
@@ -142,14 +143,19 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
                 const pdfUrl = file?.pdfUrl || "";
                 const googleDocsUrl = file?.url || (file?.link !== pdfUrl ? file?.link : "");
                 const fileTitle = file?.title || file?.label || file?.name || "Resource";
+                const fileTypeLabel = localizedLabels.fileGroups?.[file?.fileType]?.singular || "";
 
                 return (
                   <li
                     key={`${fileTitle}-${index}`}
-                    className="flex flex-col gap-3 py-3 sm:flex-row sm:items-center sm:justify-between"
+                    className="flex flex-col gap-1.5 py-2"
                   >
                     <span className="min-w-0 break-words text-sm font-medium text-gray-800">{fileTitle}</span>
-                    <div className="flex flex-wrap items-center gap-2 sm:shrink-0">
+                    <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+                      {fileTypeLabel ? (
+                        <span className="text-xs font-semibold italic tracking-wide text-primary">"{fileTypeLabel}"</span>
+                      ) : <span aria-hidden="true" />}
+                      <div className="flex flex-wrap items-center gap-2">
                       {pdfUrl ? (
                         <a
                           href={pdfUrl}
@@ -157,7 +163,7 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
                           rel="noopener noreferrer"
                           aria-label={`${localizedLabels.fileActions.viewPdf}: ${fileTitle}`}
                           title={localizedLabels.fileActions.viewPdf}
-                          className="inline-flex items-center gap-1.5 rounded-md border border-black/10 bg-gray-50 px-2 py-1.5 text-xs font-medium text-gray-700 transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"
+                          className="inline-flex items-center gap-1.5 rounded-md border border-black/10 bg-gray-50 px-2 py-0.5 text-xs font-medium text-gray-700 transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"
                         >
                           <FaEye aria-hidden="true" />
                           <span>{localizedLabels.fileActions.viewPdf}</span>
@@ -170,7 +176,7 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
                           rel="noopener noreferrer"
                           aria-label={`${localizedLabels.fileActions.googleDocs}: ${fileTitle}`}
                           title={localizedLabels.fileActions.googleDocs}
-                          className="inline-flex items-center gap-1.5 rounded-md border border-black/10 bg-gray-50 px-2 py-1.5 text-xs font-medium text-gray-700 transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"
+                          className="inline-flex items-center gap-1.5 rounded-md border border-black/10 bg-gray-50 px-2 py-0.5 text-xs font-medium text-gray-700 transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"
                         >
                           <SiGoogledocs aria-hidden="true" />
                           <span>{localizedLabels.fileActions.googleDocs}</span>
@@ -182,12 +188,13 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
                           download
                           aria-label={`${localizedLabels.fileActions.downloadPdf}: ${fileTitle}`}
                           title={localizedLabels.fileActions.downloadPdf}
-                          className="inline-flex items-center gap-1.5 rounded-md border border-black/10 bg-gray-50 px-2 py-1.5 text-xs font-medium text-gray-700 transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"
+                          className="inline-flex items-center gap-1.5 rounded-md border border-black/10 bg-gray-50 px-2 py-0.5 text-xs font-medium text-gray-700 transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"
                         >
                           <FaDownload aria-hidden="true" />
                           <span>{localizedLabels.fileActions.downloadPdf}</span>
                         </a>
                       ) : null}
+                      </div>
                     </div>
                   </li>
                 );
