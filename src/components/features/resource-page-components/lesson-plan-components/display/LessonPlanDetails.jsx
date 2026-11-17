@@ -12,6 +12,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { FaClipboardList, FaDownload, FaEye, FaLink, FaRegClock } from "react-icons/fa";
+import toast from "react-hot-toast";
 import { SiGoogledocs } from "react-icons/si";
 import TagList from "./TagList";
 import LinkListSection from "./LinkListSection";
@@ -68,6 +69,34 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
     fileActions: resourceMessages?.lessonFileActions || englishResourceMessages?.lessonFileActions || {},
     fileGroups: resourceMessages?.lessonFileGroups || englishResourceMessages?.lessonFileGroups || {},
     singularFiles: resourceMessages?.lessonFileTitle || englishResourceMessages?.lessonFileTitle || "Lesson File",
+  };
+
+  const handlePdfDownload = async (event, pdfUrl, fileTitle) => {
+    event.preventDefault();
+
+    try {
+      const response = await fetch(pdfUrl);
+      if (!response.ok) {
+        throw new Error(`PDF request failed with status ${response.status}`);
+      }
+
+      const pdfBlob = await response.blob();
+      const objectUrl = URL.createObjectURL(pdfBlob);
+      const link = document.createElement("a");
+      const safeFileTitle = fileTitle
+        .replace(/[<>:"/\\|?*\u0000-\u001F]/g, "-")
+        .replace(/\s+/g, " ")
+        .trim() || "lesson-plan";
+      link.href = objectUrl;
+      link.download = /\.pdf$/i.test(safeFileTitle) ? safeFileTitle : `${safeFileTitle}.pdf`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.setTimeout(() => URL.revokeObjectURL(objectUrl), 60_000);
+    } catch (error) {
+      console.error("PDF download failed:", error);
+      toast.error(localizedLabels.fileActions.downloadFailed);
+    }
   };
 
   const selectedContent = useMemo(() => {
@@ -186,6 +215,7 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
                         <a
                           href={pdfUrl}
                           download
+                          onClick={(event) => handlePdfDownload(event, pdfUrl, fileTitle)}
                           aria-label={`${localizedLabels.fileActions.downloadPdf}: ${fileTitle}`}
                           title={localizedLabels.fileActions.downloadPdf}
                           className="inline-flex items-center gap-1.5 rounded-md border border-black/10 bg-gray-50 px-2 py-0.5 text-xs font-medium text-gray-700 transition-colors hover:border-primary/40 hover:bg-primary/10 hover:text-primary"

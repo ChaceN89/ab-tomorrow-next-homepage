@@ -264,7 +264,8 @@
       "lessonFileActions": {
         "viewPdf": "Afficher le PDF",
         "googleDocs": "Google Docs",
-        "downloadPdf": "Télécharger le PDF"
+        "downloadPdf": "Télécharger le PDF",
+        "downloadFailed": "Le téléchargement du PDF a échoué. Veuillez réessayer."
       },
       "relatedLinksTitle": "Liens connexes",
       "exploreResources": "Explorer les ressources pédagogiques",

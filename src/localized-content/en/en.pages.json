@@ -264,7 +264,8 @@
       "lessonFileActions": {
         "viewPdf": "View PDF",
         "googleDocs": "Google Docs",
-        "downloadPdf": "Download PDF"
+        "downloadPdf": "Download PDF",
+        "downloadFailed": "Could not download the PDF. Please try again."
       },
       "relatedLinksTitle": "Related Links",
       "exploreResources": "Explore Educational Resources",
