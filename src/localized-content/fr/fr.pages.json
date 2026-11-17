@@ -209,6 +209,12 @@
       "loadingVideos": "Chargement des vidéos...",
       "noVideosFound": "Aucune vidéo trouvée",
       "searchVideosPlaceholder": "Rechercher des vidéos...",
+      "shareLink": {
+        "copyVideo": "Copier le lien de la vidéo",
+        "copyLessonPlan": "Copier le lien du plan de leçon",
+        "copied": "Copié dans le presse-papiers",
+        "failed": "Impossible de copier le lien. Veuillez réessayer."
+      },
       "filters": {
         "theme": "Filtrer par thème",
         "category": "Filtrer par catégorie",

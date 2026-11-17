@@ -20,6 +20,7 @@ import { getMessages } from "@/i18n/messages";
 import LinkListSection from "@/components/features/resource-page-components/lesson-plan-components/display/LinkListSection";
 import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import { useVideoResource } from "../VideoResourceContext";
+import CopyResourceLink from "../../CopyResourceLink";
 
 export default function VideoDetails({ video, prioritizeMedia = false, onTitleChange = null }) {
   const t = useTranslations("Pages.ResourcesPage");
@@ -96,12 +97,6 @@ export default function VideoDetails({ video, prioritizeMedia = false, onTitleCh
           </div>
           <div className="col-span-2 flex flex-col items-end gap-2 md:col-span-1">
             <div className="flex w-40 max-w-full flex-col gap-2">
-              <CardLanguageSelect
-                availableLanguages={availableLanguages}
-                selectedLanguage={selectedLanguage}
-                onChange={setSelectedLanguage}
-                className="w-full"
-              />
               {youtubeHref ? (
                 <a
                   href={youtubeHref}
@@ -112,6 +107,18 @@ export default function VideoDetails({ video, prioritizeMedia = false, onTitleCh
                   {watchOnYoutubeLabel}
                 </a>
               ) : null}
+              <div className="flex w-full items-center gap-2">
+                <CopyResourceLink
+                  resourceType="video"
+                  href={`/${selectedLanguage}/resources/video/?id=${encodeURIComponent(video.id)}`}
+                />
+                <CardLanguageSelect
+                  availableLanguages={availableLanguages}
+                  selectedLanguage={selectedLanguage}
+                  onChange={setSelectedLanguage}
+                  className="min-w-0 flex-1"
+                />
+              </div>
             </div>
           </div>
         </div>

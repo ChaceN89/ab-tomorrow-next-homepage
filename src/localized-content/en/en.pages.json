@@ -209,6 +209,12 @@
       "loadingVideos": "Loading videos...",
       "noVideosFound": "No videos found",
       "searchVideosPlaceholder": "Search Videos...",
+      "shareLink": {
+        "copyVideo": "Copy video link",
+        "copyLessonPlan": "Copy lesson plan link",
+        "copied": "Copied to clipboard",
+        "failed": "Could not copy the link. Please try again."
+      },
       "filters": {
         "theme": "Filter by Theme",
         "category": "Filter by Category",

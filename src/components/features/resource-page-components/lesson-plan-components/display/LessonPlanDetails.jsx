@@ -20,6 +20,7 @@ import HexSeparator from "@/components/common/hexSparator/HexSeparator";
 import CardLanguageSelect from "../../../../layout/language/CardLanguageSelect";
 import { getMessages } from "@/i18n/messages";
 import VideoWithinLessonPlan from "../../video-components/display/VideoWithinLessonPlan";
+import CopyResourceLink from "../../CopyResourceLink";
 
 export default function LessonPlanDetails({ plan, onTitleChange = null }) {
   const t = useTranslations("Pages.ResourcesPage");
@@ -141,7 +142,7 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
             <h2 className="break-words text-2xl font-bold">{selectedContent.title}</h2>
             <p className="whitespace-pre-line text-sm leading-relaxed text-gray-700">{selectedContent.description}</p>
           </div>
-          <div className="col-span-2 flex flex-col items-end md:col-span-1 md:self-start">
+          <div className="col-span-2 flex flex-col items-end gap-2 md:col-span-1 md:self-start">
             <div className="w-fit max-w-full">
               <CardLanguageSelect
                 availableLanguages={availableLanguages}
@@ -150,6 +151,10 @@ export default function LessonPlanDetails({ plan, onTitleChange = null }) {
                 className="w-fit"
               />
             </div>
+            <CopyResourceLink
+              resourceType="lessonPlan"
+              href={`/${selectedLanguage}/resources/lesson/?id=${encodeURIComponent(plan.id)}`}
+            />
           </div>
         </div>
       </div>
