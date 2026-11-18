@@ -1158,16 +1158,28 @@
     "files": {
       "en": [
         {
+          "fileType": "lesson-plan",
+          "title": "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator – Lesson Plan",
+          "url": "https://docs.google.com/document/d/1BeXdyFmB5N8-YULrpCXc3eHewXub1t4yOW7vxbn1dWE",
+          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/C_LandUseLessons/landuse-01c-yesterday-today-tomorrow/en-lesson-plan.pdf"
+        },
+        {
           "fileType": "student-worksheet",
-          "title": "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
-          "url": "https://docs.google.com/document/d/14yCZEC8QEglyvSQD1HabXoy6kDXtGjRsr1Mhf6PGd-8",
+          "title": "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator – Student Worksheet",
+          "url": "https://docs.google.com/document/d/12SL7VWLPtAmFmwuG_HOJeTm7eP8auD59QhGyw_OZ4w",
           "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/C_LandUseLessons/landuse-01c-yesterday-today-tomorrow/en-student-worksheet.pdf"
         }
       ],
       "fr": [
         {
+          "fileType": "lesson-plan",
+          "title": "Hier, aujourd’hui et demain : utiliser le simulateur d’Alberta Tomorrow – plan de leçon",
+          "url": "https://docs.google.com/document/d/15SUd9s83cUVQmTzbSna9xd3xwv-UmhIMJ4-R625EWb4",
+          "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/C_LandUseLessons/landuse-01c-yesterday-today-tomorrow/fr-lesson-plan.pdf"
+        },
+        {
           "fileType": "student-worksheet",
-          "title": "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
+          "title": "Hier, aujourd’hui et demain : utiliser le simulateur d’Alberta Tomorrow – fiche de travail de l’élève",
           "url": "https://docs.google.com/document/d/1JQJsZ9KmWvpo-w44hgxg4lj4gxrNGmQP_oFhxPwL_Qw",
           "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/C_LandUseLessons/landuse-01c-yesterday-today-tomorrow/fr-student-worksheet.pdf"
         }
@@ -2301,7 +2313,7 @@
         {
           "fileType": "student-worksheet",
           "title": "Where is my Home? Using the Indigenous Map Layers: Student Worksheet",
-          "url": "https://docs.google.com/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA",
+          "url": "https://docs.google.com/document/d/1BvCBPAJOSGBhtpgX2y8M_FUQzc0FdIEXa5nynS5JSt0",
           "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/E_IndigenousVoicesLessons/indigenous-01e-where-is-my-home/en-student-worksheet.pdf"
         }
       ],
@@ -2315,7 +2327,7 @@
         {
           "fileType": "student-worksheet",
           "title": "Où est ma maison? Utiliser les superpositions cartographiques autochtones : feuille de travail de l’élève",
-          "url": "https://docs.google.com/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ",
+          "url": "https://docs.google.com/document/d/16BKH_B0hc1HMGosns7oPfGSIPxP9M92m9kBHk9mQC_k",
           "pdfUrl": "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/E_IndigenousVoicesLessons/indigenous-01e-where-is-my-home/fr-student-worksheet.pdf"
         }
       ]
