@@ -114,7 +114,7 @@ export default function ModalContainer() {
             ) : null
           }
         >
-          <SingleVideo id={videoId} onTitleChange={handleVideoTitleChange} />
+          <SingleVideo id={videoId} onTitleChange={handleVideoTitleChange} isModal />
         </Modal>
       )}
     </>

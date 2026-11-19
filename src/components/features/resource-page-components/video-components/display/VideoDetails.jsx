@@ -22,7 +22,7 @@ import { extractYouTubeId } from "@/utils/videoResouceUtils";
 import { useVideoResource } from "../VideoResourceContext";
 import CopyResourceLink from "../../CopyResourceLink";
 
-export default function VideoDetails({ video, prioritizeMedia = false, onTitleChange = null }) {
+export default function VideoDetails({ video, prioritizeMedia = false, onTitleChange = null, isModal = false }) {
   const t = useTranslations("Pages.ResourcesPage");
   const detailsT = useTranslations("Details");
   const locale = useLocale();
@@ -69,31 +69,50 @@ export default function VideoDetails({ video, prioritizeMedia = false, onTitleCh
     ? rawVideoUrl
     : (videoId ? `https://www.youtube.com/watch?v=${videoId}` : "");
 
+  const mediaFrame = (
+  <MediaFrame
+    type="video"
+    videoSrc={videoId}
+    primaryUrl={video.media?.primaryUrl}
+    is360={video.media?.is360}
+    subtitles={video.subtitles}
+    imgSrc={thumbnailSrc}
+    maxSize="max-w-full"
+    preload={prioritizeMedia}
+    captionLanguage={selectedLanguage === "fr" ? "fr-ca" : "en"}
+  />
+  );
+
   return (
-    <div className="mx-auto flex h-full w-full max-w-7xl flex-col justify-start gap-4">
-      <div className="w-full max-w-6xl self-center shadow-sm">
-        <div className="w-full">
-          <MediaFrame
-            type="video"
-            videoSrc={videoId}
-            primaryUrl={video.media?.primaryUrl}
-            is360={video.media?.is360}
-            subtitles={video.subtitles}
-            imgSrc={thumbnailSrc}
-            maxSize="max-w-full"
-            preload={prioritizeMedia}
-            captionLanguage={selectedLanguage === "fr" ? "fr-ca" : "en"}
-          />
+    <div className={`mx-auto flex h-full w-full max-w-7xl flex-col justify-start ${isModal ? "min-h-[22rem] gap-2" : "gap-4"}`}>
+      {isModal ? (
+        // The container query lets the 16:9 video shrink to whatever height the modal leaves, so the modal doesn't need to scroll.
+        <div className="min-h-0 w-full flex-1 [container-type:size]">
+          <div
+            className="mx-auto flex h-full items-center"
+            style={{ width: "min(100cqw, calc(100cqh * 16 / 9))" }}
+          >
+            <div className="w-full shadow-sm">{mediaFrame}</div>
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className="w-full max-w-6xl self-center shadow-sm">
+          <div className="w-full">{mediaFrame}</div>
+        </div>
+      )}
 
       <div className="w-full max-w-6xl shrink-0 self-center border rounded-md bg-gray-50 relative overflow-hidden">
         <HexSeparator rows={40} hexClass="bg-secondary/15" />
-        <div className="grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-4 gap-y-3 p-4 md:grid-cols-[auto_minmax(0,1fr)_minmax(160px,220px)]">
-          <FaRegPlayCircle className="text-secondary text-5xl sm:text-6xl" aria-hidden="true" />
+        <div className={`grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-4 ${isModal ? "gap-y-2 p-2 sm:p-3" : "gap-y-3 p-4"} md:grid-cols-[auto_minmax(0,1fr)_minmax(160px,220px)]`}>
+          <FaRegPlayCircle className={`text-secondary ${isModal ? "text-4xl sm:text-5xl" : "text-5xl sm:text-6xl"}`} aria-hidden="true" />
           <div className="min-w-0 space-y-2">
-            <h2 className="text-2xl font-bold break-words">{selectedContent.title}</h2>
-            <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">{selectedContent.description}</p>
+            <h2 className={`font-bold break-words ${isModal ? "text-lg sm:text-xl" : "text-2xl"}`}>{selectedContent.title}</h2>
+            <p
+              className={`text-gray-700 text-sm leading-relaxed whitespace-pre-line ${isModal ? "line-clamp-3" : ""}`}
+              title={isModal ? selectedContent.description : undefined}
+            >
+              {selectedContent.description}
+            </p>
           </div>
           <div className="col-span-2 flex flex-col items-end gap-2 md:col-span-1">
             <div className="flex w-40 max-w-full flex-col gap-2">
@@ -125,12 +144,12 @@ export default function VideoDetails({ video, prioritizeMedia = false, onTitleCh
       </div>
 
       {selectedContent.lessonPlans.length > 0 && (
-        <div className="rounded-md border border-black/10 bg-white p-4 shadow-sm">
+        <div className={`rounded-md border border-black/10 bg-white shadow-sm ${isModal ? "w-full max-w-6xl shrink-0 self-center px-3 pb-2" : "p-4"}`}>
           <LinkListSection
             title={localizedLabels.lessonPlans}
             items={selectedContent.lessonPlans}
             icon={GoDotFill}
-            maxVisibleItems={selectedContent.lessonPlans.length}
+            maxVisibleItems={isModal ? 2 : selectedContent.lessonPlans.length}
           />
         </div>
       )}

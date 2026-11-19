@@ -23,7 +23,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -71,7 +72,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -115,7 +117,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -157,7 +160,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -199,7 +203,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -241,7 +246,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -283,7 +289,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -323,7 +330,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -365,7 +373,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -407,7 +416,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -449,7 +459,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -499,7 +510,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -551,7 +563,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -595,7 +608,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -639,7 +653,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -689,7 +704,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -737,7 +753,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -785,7 +802,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -832,7 +850,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -889,7 +908,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -935,7 +955,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -979,7 +1000,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1032,7 +1054,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1084,7 +1107,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1130,7 +1154,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1177,7 +1202,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1219,7 +1245,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1261,7 +1288,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1303,7 +1331,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1345,7 +1374,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1387,7 +1417,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1428,7 +1459,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1469,7 +1501,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1512,7 +1545,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1554,7 +1588,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1597,7 +1632,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1638,7 +1674,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1679,7 +1716,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1721,7 +1759,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1762,7 +1801,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1803,7 +1843,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1844,7 +1885,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1886,7 +1928,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1930,7 +1973,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -1983,7 +2027,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2035,7 +2080,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2085,7 +2131,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2137,7 +2184,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2189,7 +2237,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2238,7 +2287,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2290,7 +2340,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2333,7 +2384,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2378,7 +2430,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2429,7 +2482,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2481,7 +2535,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2533,7 +2588,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2576,7 +2632,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2622,7 +2679,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2668,7 +2726,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2720,7 +2779,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2765,7 +2825,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2807,7 +2868,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2860,7 +2922,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2904,7 +2967,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -2956,7 +3020,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3000,7 +3065,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3050,7 +3116,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3103,7 +3170,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3147,7 +3215,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3200,7 +3269,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3248,7 +3318,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3300,7 +3371,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3352,7 +3424,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3402,7 +3475,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3452,7 +3526,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3500,7 +3575,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3552,7 +3628,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3599,7 +3676,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3651,7 +3729,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3701,7 +3780,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3749,7 +3829,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3799,7 +3880,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3849,7 +3931,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3889,7 +3972,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3929,7 +4013,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -3976,7 +4061,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -4028,7 +4114,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -4078,7 +4165,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4129,7 +4217,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4180,7 +4269,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4231,7 +4321,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4282,7 +4373,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4333,7 +4425,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4384,7 +4477,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4435,7 +4529,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4486,7 +4581,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4537,7 +4633,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4588,7 +4685,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4637,7 +4735,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4688,7 +4787,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4739,7 +4839,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4790,7 +4891,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4841,7 +4943,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4894,7 +4997,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4945,7 +5049,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -4996,7 +5101,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5047,7 +5153,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5098,7 +5205,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5149,7 +5257,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5200,7 +5309,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5250,7 +5360,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5301,7 +5412,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5352,7 +5464,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5403,7 +5516,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5454,7 +5568,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/fr.vtt",
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -5505,7 +5620,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5551,7 +5667,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5596,7 +5713,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-02j-native-trout-in-alberta/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5641,7 +5759,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5682,7 +5801,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5723,7 +5843,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-05j-hanging-culvert/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5766,7 +5887,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5807,7 +5929,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-07j-grassland-restoration/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5848,7 +5971,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5889,7 +6013,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5931,7 +6056,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-01x-planning-for-a-better-future/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-01x-planning-for-a-better-future/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-01x-planning-for-a-better-future/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -5973,7 +6099,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-02x-seeing-is-believing/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-02x-seeing-is-believing/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-02x-seeing-is-believing/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6016,7 +6143,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-03x-power-of-alberta-tomorrow/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6056,7 +6184,8 @@
     },
     "subtitles": {
       "en": null,
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6096,7 +6225,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-05x-intro-360-virtual-field-trips/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-05x-intro-360-virtual-field-trips/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-05x-intro-360-virtual-field-trips/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6145,7 +6275,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-06x-bow-river-watershed-historic-animation/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6187,7 +6318,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-07x-canada-tomorrow/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6227,7 +6359,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-01y-webinar-land-use-mistakes-mitigation-restoration/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-01y-webinar-land-use-mistakes-mitigation-restoration/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-01y-webinar-land-use-mistakes-mitigation-restoration/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6278,7 +6411,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-02y-water-quality-climate-change-and-albertas-glaciers/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-02y-water-quality-climate-change-and-albertas-glaciers/fr.vtt"
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Y-Webinars/web-02y-water-quality-climate-change-and-albertas-glaciers/fr.vtt",
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6326,7 +6460,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [
@@ -6375,7 +6510,8 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/en.vtt",
-      "fr": null
+      "fr": null,
+      "position": "bottom-center"
     },
     "searchTerms": {
       "en": [

@@ -94,28 +94,17 @@ export default function LessonPlanCard({ plan }) {
               </>
             }
             openDuration={500}
-            className="block "
+            className="block !max-w-80"
           >
             <div className="w-full border rounded-md bg-primary/35 relative overflow-hidden">
-              <div className="p-4 flex items-center gap-2">
-                <FaClipboardList className="text-primary text-4xl flex-shrink-0 transition-transform duration-300 group-hover:scale-130" />
-                <div className="min-w-0 flex-1 min-h-[3rem] flex items-center">
-                  <h3 className="text-base font-semibold leading-snug line-clamp-2 break-words">
+              <div className="p-4 flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center text-primary transition-transform duration-300 group-hover:scale-130">
+                  <FaClipboardList className="text-[2rem]" aria-hidden="true" />
+                </div>
+                <div className="min-w-0 min-h-[3rem] flex flex-1 items-center">
+                  <h3 className="text-base font-semibold leading-snug line-clamp-2 break-words text-black">
                     {selectedContent.title}
                   </h3>
-
-                </div>
-                <div
-                  className={`mt-1 flex items-center gap-1 text-xs text-gray-500 ${hasApproximateTime ? "max-w-[6.5rem]" : "w-0 max-w-0 overflow-hidden"}`}
-                >
-                  {hasApproximateTime ? (
-                    <>
-                      <FaRegClock className="text-gray-500 text-xs flex-shrink-0" />
-                      <span className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-gray-500 text-xs">
-                        {selectedContent.approximateTime}
-                      </span>
-                    </>
-                  ) : null}
                 </div>
               </div>
             </div>
@@ -123,6 +112,15 @@ export default function LessonPlanCard({ plan }) {
         </div>
 
         <div className="border-b pb-1">
+          {hasApproximateTime ? (
+            <div
+              className="mb-1 flex min-w-0 items-center gap-1 whitespace-nowrap text-xs text-gray-500"
+              title={selectedContent.approximateTime}
+            >
+              <FaRegClock className="shrink-0" aria-hidden="true" />
+              <span className="truncate">{selectedContent.approximateTime}</span>
+            </div>
+          ) : null}
           <p
             className={`text-sm text-gray-700 transition-all duration-200 ${descriptionExpanded ? "max-h-none overflow-visible" : "max-h-10 overflow-hidden"}`}
           >

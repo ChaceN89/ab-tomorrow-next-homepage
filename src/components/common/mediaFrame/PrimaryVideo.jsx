@@ -43,6 +43,7 @@ export default function PrimaryVideo({
   });
   const enSubtitle = getLocalizedValue(subtitles?.en).trim();
   const frSubtitle = getLocalizedValue(subtitles?.fr).trim();
+  const subtitlePosition = subtitles?.position;
 
   useEffect(() => {
     let disposed = false;
@@ -255,7 +256,7 @@ export default function PrimaryVideo({
           trackElement.track.mode = captionsEnabledRef.current && trackLanguage === language
             ? "showing"
             : "disabled";
-          trackElement.addEventListener("load", () => formatSubtitleCues(trackElement.track));
+          trackElement.addEventListener("load", () => formatSubtitleCues(trackElement.track, subtitlePosition));
           trackElement.addEventListener("error", () => subtitleFailed(url, new Error("Subtitle track failed to load")));
           tracks.push(trackElement);
           const captionsButton = player.el().querySelector(".vjs-subs-caps-button");
@@ -273,7 +274,7 @@ export default function PrimaryVideo({
       if (!player.isDisposed()) tracks.forEach((track) => player.removeRemoteTextTrack(track));
       blobUrls.forEach((url) => URL.revokeObjectURL(url));
     };
-  }, [player, enSubtitle, frSubtitle, language]);
+  }, [player, enSubtitle, frSubtitle, subtitlePosition, language]);
 
   useEffect(() => {
     panoramaRef.current?.setLabels(panoramaLabels());
